@@ -112,6 +112,9 @@ function evaluateEntry(entry) {
       perspectives: perspectiveCount,
       sourceSignal: Boolean(sourceSignal),
       sourceInsights: sourceInsights.length,
+      manualSourceInsights: sourceInsights.filter((insight) => !insight.generated).length,
+      generatedSourceInsights: sourceInsights.filter((insight) => insight.generated).length,
+      sourceUsable: sourceSignal?.totalUsable || 0,
       summaryLength: String(entry.summary || "").length,
       placeholder: Boolean(content.placeholder),
     },
@@ -292,11 +295,12 @@ function makeMarkdown(report) {
     .filter((entry) => entry.issues.length > 0 || entry.score < 100)
     .slice(0, 20);
   const sourceBacklog = report.entries
-    .filter((entry) => !entry.metrics.sourceSignal || entry.metrics.sourceInsights === 0)
+    .filter((entry) => !entry.metrics.sourceSignal || entry.metrics.manualSourceInsights === 0)
     .sort(
       (a, b) =>
         Number(a.metrics.sourceSignal) - Number(b.metrics.sourceSignal) ||
-        a.metrics.sourceInsights - b.metrics.sourceInsights ||
+        a.metrics.manualSourceInsights - b.metrics.manualSourceInsights ||
+        b.metrics.sourceUsable - a.metrics.sourceUsable ||
         b.score - a.score
     )
     .slice(0, 20);
@@ -321,6 +325,7 @@ function makeMarkdown(report) {
 - D 등급: ${report.summary.grades.D || 0}개
 - 언어권 관심 신호 연결: ${report.summary.coverage.sourceSignal}/${report.summary.total}
 - 언어권 표현 인사이트 연결: ${report.summary.coverage.sourceInsights}/${report.summary.total}
+- 수동 언어권 인사이트 연결: ${report.summary.coverage.manualSourceInsights}/${report.summary.total}
 
 ## 축별 상태
 
@@ -376,7 +381,7 @@ ${markdownTable(sourceBacklog, [
     value: (row) =>
       `신호 ${row.metrics.sourceSignal ? "있음" : "없음"} / 인사이트 ${
         row.metrics.sourceInsights
-      }`,
+      } / 수동 ${row.metrics.manualSourceInsights} / 수집표현 ${row.metrics.sourceUsable}`,
   },
 ])}
 
@@ -410,6 +415,7 @@ const report = {
     coverage: {
       sourceSignal: coverage(evaluated, (row) => row.metrics.sourceSignal),
       sourceInsights: coverage(evaluated, (row) => row.metrics.sourceInsights > 0),
+      manualSourceInsights: coverage(evaluated, (row) => row.metrics.manualSourceInsights > 0),
       related: coverage(evaluated, (row) => row.metrics.related >= 6),
       verified: coverage(evaluated, (row) => row.metrics.verifiedCount >= 3),
     },
