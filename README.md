@@ -29,6 +29,7 @@ npm run dev
 npm run lint
 npm run build:clean
 npm run english:check
+npm run content:quality
 npm run source-signals:check
 npm run source-insights:check
 ```
@@ -98,6 +99,21 @@ git push -u origin feature/card-detail-flow
 - 새로운 소스 언어에서 들어온 표현은 바로 번역하지 않고 canonical node에 먼저 연결한다.
 
 콘텐츠 작성 기준은 [docs/content-authoring-guide.md](docs/content-authoring-guide.md)를 보세요.
+
+## 품질 리포트
+
+전체 공개 카드의 품질 상태는 아래 명령으로 점검합니다.
+
+```bash
+npm run content:quality
+```
+
+실행하면 다음 파일이 갱신됩니다.
+
+- [docs/content-quality-report.md](docs/content-quality-report.md)
+- [data/content_quality_report.json](data/content_quality_report.json)
+
+현재 병목은 카드 기본 구조보다 언어권 관심 신호와 언어권 표현 인사이트 보강입니다.
 
 ## 배포
 

@@ -33,6 +33,7 @@
     "source-signals:check": "node scripts/check-source-locale-signals.mjs",
     "source-insights:check": "node scripts/check-source-locale-insights.mjs",
     "people:check": "node scripts/check-person-cultural-profiles.mjs",
+    "content:quality": "node scripts/check-content-quality.mjs",
     "collect:worries": "node scripts/collect-worries.mjs",
     "clean:worries": "node scripts/clean-worries.mjs",
     "content:backlog": "node scripts/build-content-backlog.mjs",

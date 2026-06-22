@@ -33,5 +33,6 @@ assignees: ""
 - [ ] 출처 상태 표시
 - [ ] 관련 카드 연결
 - [ ] 태그 연결
+- [ ] `npm run content:quality`
 - [ ] `npm run lint`
 - [ ] `npm run build:clean`

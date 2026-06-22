@@ -57,6 +57,7 @@ git commit -m "many things"
 PR을 만들기 전에 아래를 확인합니다.
 
 - `npm run lint` 통과
+- `npm run content:quality` 실행 후 리포트 확인
 - `npm run build:clean` 통과
 - 새 카드라면 출처 상태가 명확함
 - 사용자가 보는 문구가 너무 개발자 설명처럼 보이지 않음
@@ -80,4 +81,4 @@ PR을 만들기 전에 아래를 확인합니다.
 https://gjs5180-jpg.github.io/wisdom/
 ```
 
-배포가 실패하면 GitHub `Actions` 탭에서 실패 로그를 봅니다. 대개는 lint, build, 정적 export 문제입니다.
+배포가 실패하면 GitHub `Actions` 탭에서 실패 로그를 봅니다. 대개는 lint, content quality, build, 정적 export 문제입니다.

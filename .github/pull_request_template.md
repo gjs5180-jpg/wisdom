@@ -7,6 +7,7 @@
 ## 확인한 것
 
 - [ ] `npm run lint`
+- [ ] `npm run content:quality`
 - [ ] `npm run build:clean`
 - [ ] 모바일에서 긴 제목/버튼이 터지지 않음
 - [ ] 사용자에게 보이는 문구가 자연스러움
