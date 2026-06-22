@@ -65,6 +65,7 @@ export default async function DebatePage({ params }) {
 
   const content = getDebateContent(slug);
   const positionRows = debatePositionSummary(slug);
+  const positionByName = new Map(positionRows.map((row) => [row.name, row]));
   const collection = collectedContentForKey(`debate/${slug}`);
   const saveItem = {
     key: `debate/${slug}`,
@@ -208,7 +209,13 @@ export default async function DebatePage({ params }) {
               <span className="text-xs text-ink-faint">{content.cards.length}개</span>
             </div>
             {content.cards.map((card, i) => (
-              <PersonCard key={i} card={card} actionLabel="이 입장이 말하는 것" />
+              <PersonCard
+                key={i}
+                card={card}
+                axis="debate"
+                position={positionByName.get(card.name)}
+                actionLabel="이 입장이 말하는 것"
+              />
             ))}
           </section>
 

@@ -4,6 +4,47 @@
 import Link from "next/link";
 import PerspectiveLensBadge from "./PerspectiveLensBadge";
 
+const axisCopy = {
+  worry: {
+    stanceLabel: "관점",
+    viewLabel: "핵심 관점",
+    defaultActionLabel: "이 상황에서의 행동 지침",
+  },
+  debate: {
+    stanceLabel: "세부 입장",
+    viewLabel: "핵심 논리",
+    defaultActionLabel: "이 입장이 말하는 것",
+  },
+  thought: {
+    stanceLabel: "기준",
+    viewLabel: "핵심 기준",
+    defaultActionLabel: "이 기준으로 살아본다면",
+  },
+};
+
+const positionCopy = {
+  support: {
+    label: "찬성 / 허용",
+    className: "border-clay/30 bg-clay-soft text-clay",
+    note: "이 질문에 긍정하거나 제도·행위의 유지 가능성을 봅니다.",
+  },
+  oppose: {
+    label: "반대 / 금지",
+    className: "border-ink/10 bg-ink/5 text-ink",
+    note: "제도·행위의 폐지, 금지, 강한 제한 쪽에 무게를 둡니다.",
+  },
+  conditional: {
+    label: "조건부 / 절충",
+    className: "border-line bg-cream text-ink-soft",
+    note: "상황, 결과, 기준, 대체 제도에 따라 다르게 판단합니다.",
+  },
+  context: {
+    label: "사실 / 제도 정리",
+    className: "border-line bg-paper text-ink-soft",
+    note: "찬반 이전에 개념, 현행 기준, 판단 구조를 정리합니다.",
+  },
+};
+
 export function VerifiedBadge({ verified }) {
   if (verified) {
     return (
@@ -19,8 +60,45 @@ export function VerifiedBadge({ verified }) {
   );
 }
 
-export default function PersonCard({ card, actionLabel = "이 상황에서의 행동 지침" }) {
+function PositionBadge({ position }) {
+  if (!position) return null;
+
+  const meta = positionCopy[position.position] || {
+    label: position.positionTitle,
+    className: "border-line bg-paper text-ink-soft",
+    note: "",
+  };
+
+  return (
+    <span
+      className={`rounded-full border px-2.5 py-0.5 text-[11px] font-medium ${meta.className}`}
+    >
+      {position.positionTitle || meta.label}
+    </span>
+  );
+}
+
+function DetailSection({ label, children, className = "" }) {
+  return (
+    <div className={`mt-3 ${className}`}>
+      <p className="mb-1 text-[11px] font-medium uppercase tracking-wide text-ink-faint">
+        {label}
+      </p>
+      <div className="text-[15px] leading-relaxed">{children}</div>
+    </div>
+  );
+}
+
+export default function PersonCard({
+  card,
+  axis = "worry",
+  position,
+  actionLabel,
+}) {
+  const copy = axisCopy[axis] || axisCopy.worry;
   const sourceLabel = [card.sourceTypeLabel, card.sourceYear].filter(Boolean).join(" · ");
+  const resolvedActionLabel = actionLabel || copy.defaultActionLabel;
+  const positionMeta = position ? positionCopy[position.position] : null;
 
   return (
     <article className="rounded-2xl border border-line bg-paper p-5">
@@ -35,8 +113,9 @@ export default function PersonCard({ card, actionLabel = "이 상황에서의 �
           )}
         </div>
         <div className="flex max-w-[54%] flex-wrap justify-end gap-1.5 sm:max-w-none">
+          <PositionBadge position={position} />
           <PerspectiveLensBadge card={card} />
-          {card.stance && (
+          {card.stance && !position && (
             <span className="rounded-full border border-line px-2.5 py-0.5 text-[11px] text-ink-soft">
               {card.stance}
             </span>
@@ -44,7 +123,34 @@ export default function PersonCard({ card, actionLabel = "이 상황에서의 �
         </div>
       </div>
 
-      <p className="mt-3 text-[15px] leading-relaxed">{card.view}</p>
+      {(position || card.stance) && (
+        <div className="mt-3 rounded-lg bg-cream px-4 py-3">
+          <div className="grid gap-2 sm:grid-cols-[78px_1fr]">
+            <p className="text-[11px] font-medium uppercase tracking-wide text-clay">
+              {position ? "입장" : copy.stanceLabel}
+            </p>
+            <div className="min-w-0">
+              <div className="flex flex-wrap items-center gap-1.5">
+                {position ? <PositionBadge position={position} /> : null}
+                {card.stance && (
+                  <span className="rounded-full border border-line bg-paper px-2.5 py-0.5 text-[11px] text-ink-soft">
+                    {card.stance}
+                  </span>
+                )}
+              </div>
+              {positionMeta?.note && (
+                <p className="mt-1 text-xs leading-relaxed text-ink-faint">
+                  {positionMeta.note}
+                </p>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
+
+      <DetailSection label={copy.viewLabel}>
+        <p>{card.view}</p>
+      </DetailSection>
 
       {card.tags?.length > 0 && (
         <div className="mt-3 flex flex-wrap gap-1.5">
@@ -61,12 +167,9 @@ export default function PersonCard({ card, actionLabel = "이 상황에서의 �
       )}
 
       {card.action && (
-        <div className="mt-3 rounded-xl bg-cream px-4 py-3">
-          <p className="text-[11px] font-medium tracking-wide text-ink-faint mb-1">
-            {actionLabel}
-          </p>
-          <p className="text-[15px] leading-relaxed">{card.action}</p>
-        </div>
+        <DetailSection label={resolvedActionLabel} className="rounded-lg bg-cream px-4 py-3">
+          <p>{card.action}</p>
+        </DetailSection>
       )}
 
       {card.quote && (

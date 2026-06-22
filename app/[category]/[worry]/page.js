@@ -176,7 +176,7 @@ export default async function WorryPage({ params }) {
               <span className="text-xs text-ink-faint">{content.cards.length}개</span>
             </div>
             {content.cards.map((card, i) => (
-              <PersonCard key={i} card={card} />
+              <PersonCard key={i} card={card} axis="worry" />
             ))}
           </section>
 

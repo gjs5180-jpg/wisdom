@@ -78,7 +78,7 @@ function perspectiveText(cards, positionRows) {
   return (rows || [])
     .slice(0, 3)
     .map((item) => {
-      const label = item.stance || item.positionTitle || item.sourceTypeLabel || item.role;
+      const label = item.positionTitle || item.stance || item.sourceTypeLabel || item.role;
       return label ? `${item.name}(${label})` : item.name;
     })
     .join(", ");

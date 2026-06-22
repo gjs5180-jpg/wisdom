@@ -168,7 +168,12 @@ export default async function ThoughtPage({ params }) {
               <span className="text-xs text-ink-faint">{content.cards.length}개</span>
             </div>
             {content.cards.map((card, i) => (
-              <PersonCard key={i} card={card} actionLabel="이 기준으로 살아본다면" />
+              <PersonCard
+                key={i}
+                card={card}
+                axis="thought"
+                actionLabel="이 기준으로 살아본다면"
+              />
             ))}
           </section>
 
