@@ -120,15 +120,20 @@ export default function HomePage() {
   const commonSignalLinks = commonSourceLocaleSignals(6)
     .map((signal) => ({ signal, entry: signalEntryFor(signal) }))
     .filter((item) => item.entry);
-  const localeSourceRows = sourceLocales.map((locale) => ({
-    locale,
-    highlights: sourceLocaleHighlights(locale.locale, 2)
+  const localeSourceRows = sourceLocales.map((locale) => {
+    const highlights = sourceLocaleHighlights(locale.locale, 2)
       .map((highlight) => ({
         highlight,
         entry: signalEntryFor(highlight.signal),
       }))
-      .filter((item) => item.entry),
-  }));
+      .filter((item) => item.entry);
+
+    return {
+      locale,
+      highlights,
+      href: highlights.length > 0 ? `/source-locales/${locale.locale}` : null,
+    };
+  });
   const sourceLocaleByCode = new Map(sourceLocales.map((locale) => [locale.locale, locale]));
   const sourceLocaleLabel = (code) => sourceLocaleByCode.get(code)?.nativeLabel || code;
   const sourcePhraseSpotlights = readyEntries
@@ -269,6 +274,23 @@ export default function HomePage() {
         person.culture?.tradition || ""
       } ${person.summary}`,
     })),
+    ...localeSourceRows
+      .filter((row) => row.href)
+      .map(({ locale, highlights, href }) => ({
+        key: `source-locale/${locale.locale}`,
+        href,
+        title: `${locale.nativeLabel} 고민 지도`,
+        summary: `${locale.region}에서 반복되는 고민 표현과 대표 카드를 봅니다.`,
+        categoryTitle: "언어권 지도",
+        groupTitle: locale.region,
+        typeLabel: "언어권",
+        badgeLabel: `카드 ${highlights.length}+`,
+        verifiedCount: highlights.length,
+        tags: locale.nativeLabel,
+        aliases: `${locale.label} ${locale.nativeLabel} ${locale.region} ${
+          locale.sourceSignals?.join(" ") || ""
+        } ${highlights.map(({ entry }) => entry.title).join(" ")}`,
+      })),
   ];
 
   return (
@@ -617,50 +639,77 @@ export default function HomePage() {
               여러 나라의 고민을 하나의 카드로 합치기
             </h2>
           </div>
-          <span className="shrink-0 text-xs text-ink-faint">
-            활성 {sourceStats.active} · 준비 {sourceStats.sourceReady}
-          </span>
+          <div className="flex shrink-0 items-center gap-2 text-xs">
+            <span className="text-ink-faint">
+              활성 {sourceStats.active} · 준비 {sourceStats.sourceReady}
+            </span>
+            <Link
+              href="/source-locales"
+              className="text-ink-soft transition-colors hover:text-clay"
+            >
+              지도 보기
+            </Link>
+          </div>
         </div>
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
-          {localeSourceRows.map(({ locale, highlights }) => (
-            <div
-              key={locale.locale}
-              className="rounded-lg border border-line bg-paper px-4 py-4"
-            >
-              <div className="flex items-start justify-between gap-3">
-                <div>
-                  <h3 className="font-serif text-base font-bold">
-                    {locale.nativeLabel}
-                  </h3>
-                  <p className="mt-0.5 text-xs text-ink-faint">
-                    {locale.region}
-                  </p>
+          {localeSourceRows.map(({ locale, highlights, href }) => {
+            const content = (
+              <>
+                <div className="flex items-start justify-between gap-3">
+                  <div>
+                    <h3 className="font-serif text-base font-bold">
+                      {locale.nativeLabel}
+                    </h3>
+                    <p className="mt-0.5 text-xs text-ink-faint">
+                      {locale.region}
+                    </p>
+                  </div>
+                  <span className="shrink-0 rounded-full bg-clay-soft px-2 py-0.5 text-[11px] font-medium text-clay">
+                    {statusLabel(locale.status)}
+                  </span>
                 </div>
-                <span className="shrink-0 rounded-full bg-clay-soft px-2 py-0.5 text-[11px] font-medium text-clay">
-                  {statusLabel(locale.status)}
-                </span>
-              </div>
-              <p className="mt-3 text-sm leading-relaxed text-ink-soft">
-                {locale.sourceSignals[0]}
-              </p>
-              {highlights.length > 0 && (
-                <div className="mt-3 flex flex-wrap gap-2">
-                  {highlights.map(({ highlight, entry }) => (
-                    <Link
-                      key={`${locale.locale}-${highlight.key}`}
-                      href={entry.href}
-                      className="rounded-lg border border-line bg-cream px-3 py-1 text-sm text-ink-soft transition-colors hover:border-clay/40 hover:text-clay"
-                    >
-                      {entry.title}
-                      <span className="ml-1.5 text-xs text-ink-faint">
-                        {highlight.usableCount}
+                <p className="mt-3 text-sm leading-relaxed text-ink-soft">
+                  {locale.sourceSignals[0]}
+                </p>
+                {highlights.length > 0 && (
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    {highlights.map(({ highlight, entry }) => (
+                      <span
+                        key={`${locale.locale}-${highlight.key}`}
+                        className="rounded-lg border border-line bg-cream px-3 py-1 text-sm text-ink-soft"
+                      >
+                        {entry.title}
+                        <span className="ml-1.5 text-xs text-ink-faint">
+                          {highlight.usableCount}
+                        </span>
                       </span>
-                    </Link>
-                  ))}
-                </div>
-              )}
-            </div>
-          ))}
+                    ))}
+                  </div>
+                )}
+              </>
+            );
+
+            if (href) {
+              return (
+                <Link
+                  key={locale.locale}
+                  href={href}
+                  className="group block rounded-lg border border-line bg-paper px-4 py-4 transition-colors hover:border-clay/40"
+                >
+                  {content}
+                </Link>
+              );
+            }
+
+            return (
+              <div
+                key={locale.locale}
+                className="rounded-lg border border-line bg-paper px-4 py-4"
+              >
+                {content}
+              </div>
+            );
+          })}
         </div>
       </section>
 

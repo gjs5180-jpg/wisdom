@@ -10,6 +10,7 @@ const koreanLinks = [
   { href: "/debate", label: "논쟁" },
   { href: "/people", label: "인물" },
   { href: "/tags", label: "태그" },
+  { href: "/source-locales", label: "언어권", className: "hidden sm:inline" },
   { href: "/collected", label: "수집", className: "hidden sm:inline" },
   { href: "/saved", label: "저장함", className: "hidden sm:inline" },
 ];

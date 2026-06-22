@@ -36,7 +36,7 @@ const synonymGroups = [
   ["논쟁", "토론", "찬반", "윤리", "정의", "자유"],
 ];
 
-const typeOrder = ["고민", "논쟁", "생각", "카테고리", "태그", "인물", "카드"];
+const typeOrder = ["고민", "논쟁", "생각", "카테고리", "태그", "언어권", "인물", "카드"];
 
 function normalize(value) {
   return String(value || "")

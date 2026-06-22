@@ -5,6 +5,7 @@ import {
   categories,
   entriesForTag,
 } from "@/lib/content";
+import { sourceLocaleMapParams } from "@/lib/source-locale-map";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "http://127.0.0.1:3005";
 const now = new Date();
@@ -32,6 +33,7 @@ export default function sitemap() {
     item("/debate", 0.7, "weekly"),
     item("/tags", 0.5, "monthly"),
     item("/people", 0.5, "monthly"),
+    item("/source-locales", 0.65, "weekly"),
   ];
 
   const categoryRoutes = categories.map((category) => item(`/${category.slug}`, 0.65));
@@ -48,11 +50,16 @@ export default function sitemap() {
     .filter((person) => person.cardCount >= 2)
     .map((person) => item(`/people/${person.slug}`, 0.55, "monthly"));
 
+  const sourceLocaleRoutes = sourceLocaleMapParams().map(({ locale }) =>
+    item(`/source-locales/${locale}`, 0.55, "weekly")
+  );
+
   return [
     ...staticRoutes,
     ...categoryRoutes,
     ...contentRoutes,
     ...tagRoutes,
     ...peopleRoutes,
+    ...sourceLocaleRoutes,
   ];
 }
