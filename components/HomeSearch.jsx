@@ -1,0 +1,192 @@
+"use client";
+
+import { useMemo, useState } from "react";
+import Link from "next/link";
+
+const quickQueries = [
+  "연애",
+  "이별",
+  "번아웃",
+  "돈 걱정",
+  "시험 불안",
+  "외로움",
+  "AI 논쟁",
+];
+
+const fallbackLinks = [
+  { label: "연애", href: "/love" },
+  { label: "이별", href: "/breakup" },
+  { label: "직장", href: "/work" },
+  { label: "의미", href: "/meaning" },
+  { label: "논쟁", href: "/debate" },
+  { label: "태그", href: "/tags" },
+];
+
+const synonymGroups = [
+  ["연애", "사랑", "짝사랑", "고백", "썸", "답장", "불안형", "애착"],
+  ["이별", "헤어짐", "전애인", "전남친", "전여친", "미련", "재회", "잠수이별"],
+  ["직장", "일", "회사", "퇴사", "이직", "상사", "번아웃", "인정"],
+  ["공부", "시험", "자격증", "집중", "불합격", "수험", "성적"],
+  ["돈", "금전", "재정", "미래", "불안", "생계", "저축"],
+  ["외로움", "고독", "혼자", "친구", "관계", "인간관계"],
+  ["가족", "부모", "엄마", "아빠", "명절", "독립"],
+  ["몸", "건강", "노화", "탈모", "불면", "외모"],
+  ["의미", "무기력", "공허", "죽음", "목표", "방황"],
+  ["AI", "인공지능", "일자리", "대체", "기술", "미래"],
+  ["논쟁", "토론", "찬반", "윤리", "정의", "자유"],
+];
+
+function normalize(value) {
+  return String(value || "")
+    .toLowerCase()
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function tokenize(value) {
+  return normalize(value)
+    .split(/[ ,./!?'"()[\]{}:;|+-]+/)
+    .map((token) => token.trim())
+    .filter(Boolean);
+}
+
+function expandedTokens(query) {
+  const tokens = new Set(tokenize(query));
+  const queryText = normalize(query);
+
+  for (const group of synonymGroups) {
+    const normalizedGroup = group.map(normalize);
+    if (normalizedGroup.some((word) => queryText.includes(word))) {
+      for (const word of normalizedGroup) tokens.add(word);
+    }
+  }
+
+  return [...tokens];
+}
+
+function scoreEntry(entry, tokens, originalQuery) {
+  const title = normalize(entry.title);
+  const category = normalize(`${entry.categoryTitle} ${entry.groupTitle}`);
+  const tags = normalize(entry.tags);
+  const aliases = normalize(entry.aliases);
+  const summary = normalize(entry.summary);
+  const query = normalize(originalQuery);
+
+  let score = 0;
+  if (query && title.includes(query)) score += 18;
+  if (query && aliases.includes(query)) score += 12;
+  if (query && tags.includes(query)) score += 9;
+  if (query && category.includes(query)) score += 7;
+  if (query && summary.includes(query)) score += 4;
+
+  for (const token of tokens) {
+    if (title.includes(token)) score += 10;
+    if (aliases.includes(token)) score += 8;
+    if (tags.includes(token)) score += 5;
+    if (category.includes(token)) score += 4;
+    if (summary.includes(token)) score += 2;
+  }
+
+  return score;
+}
+
+export default function HomeSearch({ entries, suggestedEntries }) {
+  const [query, setQuery] = useState("");
+  const normalizedQuery = normalize(query);
+
+  const results = useMemo(() => {
+    if (!normalizedQuery) return suggestedEntries.slice(0, 5);
+
+    const tokens = expandedTokens(query);
+    return entries
+      .map((entry) => ({
+        entry,
+        score: scoreEntry(entry, tokens, query),
+      }))
+      .filter((item) => item.score > 0)
+      .sort(
+        (a, b) =>
+          b.score - a.score ||
+          b.entry.verifiedCount - a.entry.verifiedCount ||
+          a.entry.title.localeCompare(b.entry.title, "ko")
+      )
+      .slice(0, 7)
+      .map((item) => item.entry);
+  }, [entries, normalizedQuery, query, suggestedEntries]);
+
+  return (
+    <section className="rounded-xl border border-line bg-paper px-4 py-4">
+      <div className="flex items-center gap-2 border-b border-line pb-3">
+        <span className="text-lg" aria-hidden>
+          ⌕
+        </span>
+        <input
+          value={query}
+          onChange={(event) => setQuery(event.target.value)}
+          placeholder="연애, 이별, 번아웃, 돈 걱정, 시험 불안..."
+          className="min-w-0 flex-1 bg-transparent text-base outline-none placeholder:text-ink-faint"
+          type="search"
+          aria-label="고민 검색"
+        />
+      </div>
+
+      <div className="mt-3 flex flex-wrap gap-1.5">
+        {quickQueries.map((quickQuery) => (
+          <button
+            key={quickQuery}
+            type="button"
+            onClick={() => setQuery(quickQuery)}
+            className="rounded-full border border-line bg-cream px-2.5 py-1 text-xs text-ink-soft transition-colors hover:border-clay/40 hover:text-clay"
+          >
+            {quickQuery}
+          </button>
+        ))}
+      </div>
+
+      <div className="mt-3 space-y-2">
+        {results.length > 0 ? (
+          results.map((entry) => (
+            <Link
+              key={entry.href}
+              href={entry.href}
+              className="group block rounded-lg px-2 py-2 transition-colors hover:bg-cream"
+            >
+              <span className="flex items-start justify-between gap-3">
+                <span className="min-w-0">
+                  <span className="block font-serif text-base font-bold group-hover:text-clay">
+                    {entry.title}
+                  </span>
+                  <span className="mt-0.5 block text-xs text-ink-faint">
+                    {entry.categoryTitle}
+                    {entry.groupTitle ? ` · ${entry.groupTitle}` : ""}
+                  </span>
+                </span>
+                <span className="shrink-0 rounded-full bg-clay-soft px-2 py-0.5 text-[11px] font-medium text-clay">
+                  검증 {entry.verifiedCount}
+                </span>
+              </span>
+              <span className="mt-1 block text-sm leading-relaxed text-ink-soft">
+                {entry.summary}
+              </span>
+            </Link>
+          ))
+        ) : (
+          <div className="rounded-lg bg-cream px-3 py-3 text-sm leading-relaxed text-ink-soft">
+            <p>아직 정확히 맞는 카드가 없습니다. 아래 입구에서 가까운 주제로 시작해보세요.</p>
+            <div className="mt-2 flex flex-wrap gap-1.5">
+              {fallbackLinks.map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className="rounded-full border border-line bg-paper px-2.5 py-1 text-xs transition-colors hover:border-clay/40 hover:text-clay"
+                >
+                  {link.label}
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
+    </section>
+  );
+}

@@ -1,26 +1,53 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* ── 디자인 토큰 (Tailwind v4 @theme) ──────────────────────────────────────
+   여기 정의한 --color-* 는 bg-cream / text-ink / border-line 처럼 클래스로 쓸 수 있다.
+   무드: 크림 베이스 + 따뜻한 먹색 글자 + 차분한 클레이 포인트 하나. (무지개색·장식 금지) */
+@theme {
+  --color-cream: #faf6ee; /* 페이지 배경 (따뜻한 오프화이트) */
+  --color-paper: #fffdfa; /* 카드 배경 (살짝 따뜻한 흰색) */
+  --color-ink: #2c2722; /* 본문 글자 (따뜻한 먹색) */
+  --color-ink-soft: #6f665b; /* 보조 글자 */
+  --color-ink-faint: #a89e90; /* 아주 옅은 글자 */
+  --color-line: #e8dfd0; /* 헤어라인 보더 */
+  --color-clay: #9c5b3e; /* 포인트 (차분한 테라코타) */
+  --color-clay-soft: #f0e6df; /* 포인트 옅은 배경 */
+
+  --font-serif: var(--font-nanum-myeongjo), "Apple SD Gothic Neo", "Malgun Gothic", serif;
+  --font-sans: var(--font-noto-sans-kr), system-ui, "Apple SD Gothic Neo",
+    "Malgun Gothic", sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  background: var(--color-cream);
+  color: var(--color-ink);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* 제목은 세리프(명조)로 — 고급스럽고 책 같은 느낌 */
+h1,
+h2,
+h3,
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+/* 부드러운 진입 애니메이션 (절제) */
+@keyframes fade-rise {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.fade-rise {
+  animation: fade-rise 0.4s ease both;
 }

@@ -1,65 +1,546 @@
-import Image from "next/image";
+import Link from "next/link";
+import HomeSearch from "@/components/HomeSearch";
+import {
+  allDebateEntries,
+  allPeople,
+  allThoughtEntries,
+  allWorryEntries,
+  groupedTagsWithCounts,
+  groupedWorryCategories,
+  perspectiveLenses,
+} from "@/lib/content";
+import { collectedStats } from "@/lib/collected";
+import { prioritySourceLocales, sourceLocaleStats } from "@/lib/source-locales";
+import { sourceLocaleSearchTextForInsights } from "@/lib/source-locale-insights";
+import {
+  commonSourceLocaleSignals,
+  sourceLocaleHighlights,
+  sourceLocaleSignalStrengthLabel,
+  strongestSourceLocaleSignals,
+} from "@/lib/source-locale-signals";
 
-export default function Home() {
+const searchAliasByPrefix = {
+  love: "연애 사랑 짝사랑 고백 썸 답장 애착 불안형",
+  breakup: "이별 헤어짐 전애인 전남친 전여친 미련 재회 잠수이별 연락",
+  "self-esteem": "자존감 열등감 비교 칭찬 뒤처짐 자신감",
+  relationships: "인간관계 친구 외로움 거절 관계 손절 상처 말실수",
+  work: "직장 회사 일 퇴사 이직 상사 번아웃 인정 커리어",
+  meaning: "의미 무기력 공허 죽음 목표 방황 삶의 이유",
+  family: "가족 부모 엄마 아빠 명절 독립 갈등 절연",
+  money: "돈 금전 재정 미래 불안 생계 저축",
+  study: "공부 시험 자격증 집중 불합격 수험 성적",
+  digital: "스마트폰 도파민 중독 SNS 유튜브 릴스 쇼츠",
+  body: "몸 건강 외모 탈모 불면 노화 질병 불안",
+  career: "진로 커리어 직업 선택 후회 전공",
+  debate: "논쟁 토론 찬반 윤리 정의 자유 AI 결혼",
+  thought: "생각 철학 행복 성공 자유 좋은 삶 의미",
+};
+
+function searchAliasesForEntry(entry) {
+  const prefix = entry.key.split("/")[0];
+  const axisAlias = searchAliasByPrefix[entry.axis] || "";
+  const prefixAlias = searchAliasByPrefix[prefix] || "";
+  const doorAliases = entry.content?.doors?.join(" ") || "";
+  const sourceLocaleAliases = sourceLocaleSearchTextForInsights(
+    entry.content?.sourceLocaleInsights || []
+  );
+  return `${axisAlias} ${prefixAlias} ${doorAliases} ${sourceLocaleAliases}`;
+}
+
+function serializeEntry(entry) {
+  return {
+    key: entry.key,
+    href: entry.href,
+    title: entry.title,
+    summary: entry.summary,
+    categoryTitle: entry.categoryTitle,
+    groupTitle: entry.groupTitle,
+    verifiedCount: entry.verifiedCount,
+    tags: entry.tags?.map((tag) => tag.title).join(" ") || "",
+    aliases: searchAliasesForEntry(entry),
+  };
+}
+
+function statusLabel(status) {
+  const labels = {
+    active: "수집 중",
+    "source-ready": "다음 수집",
+    planned: "예정",
+  };
+  return labels[status] || status;
+}
+
+export default function HomePage() {
+  const featuredOrder = [
+    "debate/remote-work",
+    "family/parent-conflict",
+    "breakup/ghosting",
+    "study/exam-anxiety",
+    "meaning/meaningless",
+    "relationships/people-pleasing",
+    "meaning/emptiness",
+    "love/reply-anxiety",
+    "work/work-depression",
+    "digital/dopamine-addiction",
+    "debate/childfree",
+    "body/health-anxiety",
+  ];
+
+  const worryEntries = allWorryEntries();
+  const thoughtEntries = allThoughtEntries();
+  const debateEntries = allDebateEntries();
+  const peopleEntries = allPeople();
+  const allEntries = [...worryEntries, ...thoughtEntries, ...debateEntries];
+  const readyEntries = allEntries.filter((entry) => entry.publishable);
+  const worryCategoryGroups = groupedWorryCategories();
+  const crossTagGroups = groupedTagsWithCounts();
+  const collection = collectedStats();
+  const sourceStats = sourceLocaleStats();
+  const sourceLocales = prioritySourceLocales(7);
+
+  const entryByKey = new Map(readyEntries.map((entry) => [entry.key, entry]));
+  const signalEntryFor = (signal) => entryByKey.get(signal.key);
+
+  const featuredEntries = featuredOrder
+    .map((key) => entryByKey.get(key))
+    .filter(Boolean);
+  const strongestSignals = strongestSourceLocaleSignals(6);
+  const topSignalCards = strongestSignals
+    .map((signal) => ({ signal, entry: signalEntryFor(signal) }))
+    .filter((item) => item.entry)
+    .slice(0, 4);
+  const commonSignalLinks = commonSourceLocaleSignals(6)
+    .map((signal) => ({ signal, entry: signalEntryFor(signal) }))
+    .filter((item) => item.entry);
+  const localeSourceRows = sourceLocales.map((locale) => ({
+    locale,
+    highlights: sourceLocaleHighlights(locale.locale, 2)
+      .map((highlight) => ({
+        highlight,
+        entry: signalEntryFor(highlight.signal),
+      }))
+      .filter((item) => item.entry),
+  }));
+
+  const searchEntries = readyEntries.map(serializeEntry);
+  const suggestedEntries = featuredEntries.slice(0, 5).map(serializeEntry);
+
+  const categoryBySlug = new Map(
+    worryCategoryGroups.flatMap((group) =>
+      group.categories.map((category) => [category.slug, category])
+    )
+  );
+  const readyCountForCategory = (slug) =>
+    worryEntries.filter(
+      (entry) => entry.publishable && entry.key.startsWith(`${slug}/`)
+    ).length;
+
+  const primaryEntrances = [
+    {
+      title: "고민",
+      href: "#worry-start",
+      blurb: "연애, 이별, 일, 가족, 돈, 몸처럼 지금 삶에 걸린 문제.",
+      count: worryEntries.filter((entry) => entry.publishable).length,
+    },
+    {
+      title: "논쟁",
+      href: "/debate",
+      blurb: "AI, 결혼, 자유, 처벌처럼 가치가 충돌하는 질문.",
+      count: debateEntries.filter((entry) => entry.publishable).length,
+    },
+    {
+      title: "생각",
+      href: "/thought",
+      blurb: "행복, 성공, 좋은 삶처럼 오래 남는 큰 질문.",
+      count: thoughtEntries.filter((entry) => entry.publishable).length,
+    },
+    {
+      title: "인물",
+      href: "/people",
+      blurb: "철학자와 사상가의 관점이 고민에서 어떻게 반복되는지 보기.",
+      count: peopleEntries.length,
+    },
+  ];
+
+  const categoryEntrances = [
+    "love",
+    "breakup",
+    "relationships",
+    "work",
+    "meaning",
+    "family",
+    "body",
+    "study",
+  ]
+    .map((slug) => {
+      const category = categoryBySlug.get(slug);
+      if (!category) return null;
+      return {
+        title: category.title,
+        blurb: category.blurb,
+        href: `/${slug}`,
+        count: readyCountForCategory(slug),
+      };
+    })
+    .filter(Boolean);
+
+  const statRows = [
+    { label: "공개 카드", value: readyEntries.length },
+    { label: "수집 표현", value: collection.total },
+    { label: "인물 관점", value: peopleEntries.length },
+    { label: "소스 언어", value: sourceStats.total },
+  ];
+
+  const topTags = crossTagGroups.flatMap((group) => group.tags.slice(0, 8)).slice(0, 16);
+  const people = peopleEntries.slice(0, 6);
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.js file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
+    <div className="fade-rise">
+      <section className="pb-6 pt-2">
+        <p className="text-[11px] font-medium uppercase tracking-wider text-ink-faint">
+          위즈덤
+        </p>
+        <h1 className="mt-1 font-serif text-3xl font-bold leading-snug sm:text-4xl">
+          고민을 검색하면,
+          <br />
+          여러 관점의 지도로 정리합니다.
+        </h1>
+        <p className="mt-4 leading-relaxed text-ink-soft">
+          인터넷에 흩어진 고민, 생각, 논쟁을 언어권별 관심 신호로 모으고
+          철학, 연구, 제도, 실천 관점으로 다시 읽습니다.
+        </p>
+      </section>
+
+      <HomeSearch entries={searchEntries} suggestedEntries={suggestedEntries} />
+
+      <section className="mt-6 border-y border-line py-4">
+        <dl className="grid grid-cols-2 gap-4 sm:grid-cols-4">
+          {statRows.map((row) => (
+            <div key={row.label}>
+              <dt className="text-[11px] font-medium uppercase tracking-wider text-ink-faint">
+                {row.label}
+              </dt>
+              <dd className="mt-1 font-serif text-2xl font-bold">
+                {row.value.toLocaleString("ko-KR")}
+              </dd>
+            </div>
+          ))}
+        </dl>
+      </section>
+
+      <section className="mt-8">
+        <div className="mb-3 flex items-end justify-between gap-3">
+          <div>
+            <p className="text-[11px] font-medium uppercase tracking-wider text-ink-faint">
+              오늘의 신호
+            </p>
+            <h2 className="mt-1 font-serif text-xl font-bold">
+              여러 언어권에서 같이 올라온 고민
+            </h2>
+          </div>
+          <span className="shrink-0 text-xs text-ink-faint">검색 표현 기반</span>
+        </div>
+        <p className="mb-3 text-sm leading-relaxed text-ink-soft">
+          사람 수가 아니라 자동완성, 검색 표현, 언어권별 반복 패턴을 모은 관심
+          신호입니다.
+        </p>
+        <ol className="divide-y divide-line border-y border-line">
+          {topSignalCards.map(({ signal, entry }, index) => (
+            <li key={signal.key}>
+              <Link
+                href={entry.href}
+                className="group grid grid-cols-[2rem_1fr] gap-3 py-4 transition-colors hover:text-clay sm:grid-cols-[2.5rem_1fr_auto]"
+              >
+                <span className="font-serif text-xl font-bold text-ink-faint">
+                  {index + 1}
+                </span>
+                <span className="min-w-0">
+                  <span className="block font-serif text-base font-bold group-hover:text-clay">
+                    {entry.title}
+                  </span>
+                  <span className="mt-1 block text-sm leading-relaxed text-ink-soft">
+                    {entry.summary}
+                  </span>
+                  <span className="mt-1.5 block text-xs text-ink-faint">
+                    {signal.localeCoverage}개 언어권 · 수집 표현{" "}
+                    {signal.totalCandidate.toLocaleString("ko-KR")}개
+                  </span>
+                </span>
+                <span className="col-start-2 self-start rounded-full bg-clay-soft px-2 py-0.5 text-[11px] font-medium text-clay sm:col-start-auto">
+                  {sourceLocaleSignalStrengthLabel(signal.strength)}
+                </span>
+              </Link>
+            </li>
+          ))}
+        </ol>
+        <div className="mt-3 flex flex-wrap gap-2">
+          {commonSignalLinks.map(({ signal, entry }) => (
+            <Link
+              key={signal.key}
+              href={entry.href}
+              className="rounded-lg border border-line bg-paper px-3 py-1.5 text-sm text-ink-soft transition-colors hover:border-clay/40 hover:text-clay"
             >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+              {entry.title}
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      <section className="mt-10">
+        <div className="mb-3">
+          <p className="text-[11px] font-medium uppercase tracking-wider text-ink-faint">
+            시작점
           </p>
+          <h2 className="mt-1 font-serif text-xl font-bold">무엇부터 볼까요?</h2>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+        <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+          {primaryEntrances.map((entry) => (
+            <Link
+              key={entry.href}
+              href={entry.href}
+              className="group block rounded-lg border border-line bg-paper px-4 py-4 transition-colors hover:border-clay/40"
+            >
+              <span className="flex items-baseline justify-between gap-3">
+                <span className="font-serif text-lg font-bold group-hover:text-clay">
+                  {entry.title}
+                </span>
+                <span className="text-xs text-ink-faint">{entry.count}</span>
+              </span>
+              <span className="mt-2 block text-sm leading-relaxed text-ink-soft">
+                {entry.blurb}
+              </span>
+            </Link>
+          ))}
         </div>
-      </main>
+      </section>
+
+      <section id="worry-start" className="mt-10 scroll-mt-20">
+        <div className="mb-3 flex items-end justify-between gap-3">
+          <div>
+            <p className="text-[11px] font-medium uppercase tracking-wider text-ink-faint">
+              고민 카테고리
+            </p>
+            <h2 className="mt-1 font-serif text-xl font-bold">자주 들어오는 입구</h2>
+          </div>
+          <Link
+            href="/tags"
+            className="shrink-0 text-sm text-ink-soft transition-colors hover:text-clay"
+          >
+            태그 보기
+          </Link>
+        </div>
+        <div className="grid grid-cols-2 gap-3">
+          {categoryEntrances.map((entry) => (
+            <Link
+              key={entry.href}
+              href={entry.href}
+              className="group min-h-[7.25rem] rounded-lg border border-line bg-paper px-4 py-3 transition-colors hover:border-clay/40"
+            >
+              <span className="flex items-baseline justify-between gap-2">
+                <span className="font-serif text-base font-bold group-hover:text-clay">
+                  {entry.title}
+                </span>
+                <span className="shrink-0 text-xs text-ink-faint">{entry.count}</span>
+              </span>
+              <span className="mt-2 line-clamp-3 block text-sm leading-relaxed text-ink-soft">
+                {entry.blurb}
+              </span>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      <section className="mt-10">
+        <div className="mb-3 flex items-end justify-between gap-3">
+          <div>
+            <p className="text-[11px] font-medium uppercase tracking-wider text-ink-faint">
+              대표 카드
+            </p>
+            <h2 className="mt-1 font-serif text-xl font-bold">처음 읽기 좋은 흐름</h2>
+          </div>
+          <span className="shrink-0 text-xs text-ink-faint">
+            {readyEntries.length}개 공개
+          </span>
+        </div>
+        <ul className="divide-y divide-line border-y border-line">
+          {featuredEntries.slice(0, 6).map((entry) => (
+            <li key={entry.key}>
+              <Link
+                href={entry.href}
+                className="group block py-4 transition-colors hover:text-clay"
+              >
+                <span className="flex items-start justify-between gap-3">
+                  <span className="min-w-0">
+                    <span className="block font-serif text-base font-bold">
+                      {entry.title}
+                    </span>
+                    <span className="mt-1 block text-sm leading-relaxed text-ink-soft">
+                      {entry.summary}
+                    </span>
+                    <span className="mt-1.5 block text-xs text-ink-faint">
+                      {entry.categoryTitle}
+                      {entry.groupTitle ? ` · ${entry.groupTitle}` : ""}
+                    </span>
+                  </span>
+                  <span className="shrink-0 rounded-full bg-clay-soft px-2 py-0.5 text-[11px] font-medium text-clay">
+                    검증 {entry.verifiedCount}
+                  </span>
+                </span>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      <section className="mt-10">
+        <div className="mb-3 flex items-end justify-between gap-3">
+          <div>
+            <p className="text-[11px] font-medium uppercase tracking-wider text-ink-faint">
+              감정 / 상황
+            </p>
+            <h2 className="mt-1 font-serif text-xl font-bold">태그로 다시 보기</h2>
+          </div>
+          <Link
+            href="/tags"
+            className="shrink-0 text-sm text-ink-soft transition-colors hover:text-clay"
+          >
+            전체 보기
+          </Link>
+        </div>
+        <div className="flex flex-wrap gap-2">
+          {topTags.map((tag) => (
+            <Link
+              key={tag.slug}
+              href={`/tags/${tag.slug}`}
+              className="rounded-lg border border-line bg-paper px-3 py-1.5 text-sm text-ink-soft transition-colors hover:border-clay/40 hover:text-clay"
+            >
+              <span className="text-ink">{tag.title}</span>
+              <span className="ml-1.5 text-xs text-ink-faint">{tag.entryCount}</span>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      <section className="mt-10">
+        <div className="mb-3 flex items-end justify-between gap-3">
+          <div>
+            <p className="text-[11px] font-medium uppercase tracking-wider text-ink-faint">
+              사람별 관점
+            </p>
+            <h2 className="mt-1 font-serif text-xl font-bold">인물로 찾아보기</h2>
+          </div>
+          <Link
+            href="/people"
+            className="shrink-0 text-sm text-ink-soft transition-colors hover:text-clay"
+          >
+            전체 보기
+          </Link>
+        </div>
+        <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+          {people.map((person) => (
+            <Link
+              key={person.slug}
+              href={`/people/${person.slug}`}
+              className="group block rounded-lg border border-line bg-paper px-4 py-4 transition-colors hover:border-clay/40"
+            >
+              <span className="flex items-start justify-between gap-3">
+                <span className="min-w-0">
+                  <span className="block font-serif text-base font-bold group-hover:text-clay">
+                    {person.name}
+                  </span>
+                  <span className="mt-0.5 block text-xs text-ink-faint">
+                    {person.culture.country} · {person.culture.tradition}
+                  </span>
+                </span>
+                <span className="shrink-0 rounded-full bg-clay-soft px-2 py-0.5 text-[11px] font-medium text-clay">
+                  카드 {person.cardCount}
+                </span>
+              </span>
+              <span className="mt-2 block text-sm leading-relaxed text-ink-soft">
+                {person.summary}
+              </span>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      <section className="mt-10">
+        <div className="mb-3 flex items-end justify-between gap-3">
+          <div>
+            <p className="text-[11px] font-medium uppercase tracking-wider text-ink-faint">
+              수집 지도
+            </p>
+            <h2 className="mt-1 font-serif text-xl font-bold">
+              여러 나라의 고민을 하나의 카드로 합치기
+            </h2>
+          </div>
+          <span className="shrink-0 text-xs text-ink-faint">
+            활성 {sourceStats.active} · 준비 {sourceStats.sourceReady}
+          </span>
+        </div>
+        <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+          {localeSourceRows.map(({ locale, highlights }) => (
+            <div
+              key={locale.locale}
+              className="rounded-lg border border-line bg-paper px-4 py-4"
+            >
+              <div className="flex items-start justify-between gap-3">
+                <div>
+                  <h3 className="font-serif text-base font-bold">
+                    {locale.nativeLabel}
+                  </h3>
+                  <p className="mt-0.5 text-xs text-ink-faint">
+                    {locale.region}
+                  </p>
+                </div>
+                <span className="shrink-0 rounded-full bg-clay-soft px-2 py-0.5 text-[11px] font-medium text-clay">
+                  {statusLabel(locale.status)}
+                </span>
+              </div>
+              <p className="mt-3 text-sm leading-relaxed text-ink-soft">
+                {locale.sourceSignals[0]}
+              </p>
+              {highlights.length > 0 && (
+                <div className="mt-3 flex flex-wrap gap-2">
+                  {highlights.map(({ highlight, entry }) => (
+                    <Link
+                      key={`${locale.locale}-${highlight.key}`}
+                      href={entry.href}
+                      className="rounded-lg border border-line bg-cream px-3 py-1 text-sm text-ink-soft transition-colors hover:border-clay/40 hover:text-clay"
+                    >
+                      {entry.title}
+                      <span className="ml-1.5 text-xs text-ink-faint">
+                        {highlight.usableCount}
+                      </span>
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="mt-10 border-y border-line py-6">
+        <div className="mb-3">
+          <p className="text-[11px] font-medium uppercase tracking-wider text-ink-faint">
+            정리 방식
+          </p>
+          <h2 className="mt-1 font-serif text-xl font-bold">
+            하나의 답보다 여러 관점
+          </h2>
+        </div>
+        <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+          {perspectiveLenses.map((lens) => (
+            <div key={lens.slug} className="border-t border-line py-3">
+              <h3 className="font-serif text-base font-bold">{lens.title}</h3>
+              <p className="mt-1 text-sm leading-relaxed text-ink-soft">
+                {lens.blurb}
+              </p>
+            </div>
+          ))}
+        </div>
+      </section>
     </div>
   );
 }

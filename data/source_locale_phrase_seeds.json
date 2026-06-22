@@ -1,0 +1,1207 @@
+{
+  "version": 1,
+  "updatedAt": "2026-06-21",
+  "principle": "Source-locale phrase seeds map local-language search expressions to existing Wisdom canonical routes. They are research inputs, not page copy.",
+  "locales": {
+    "ja-JP": {
+      "label": "Japanese",
+      "nativeLabel": "日本語",
+      "status": "active-source",
+      "collectionNotes": [
+        "Use Japanese autocomplete phrases as generalized search signals.",
+        "Map Japanese-origin worries to existing canonical routes first.",
+        "Promote repeated unmatched patterns into candidate clusters only after review."
+      ],
+      "nodes": [
+        {
+          "route": "/thought/good-life",
+          "slot": "good-life",
+          "axis": "thought",
+          "sourceQueries": ["良い人生とは", "どう生きるべきか", "生きがいとは", "人生 何を大切にする"]
+        },
+        {
+          "route": "/thought/happiness",
+          "slot": "happiness",
+          "axis": "thought",
+          "sourceQueries": ["幸せとは", "幸せになりたい", "お金 幸せ", "幸せがわからない"]
+        },
+        {
+          "route": "/thought/success",
+          "slot": "success",
+          "axis": "thought",
+          "sourceQueries": ["成功とは", "成功したい 不安", "成功 幸せ 違い", "人生 成功とは"]
+        },
+        {
+          "route": "/thought/freedom",
+          "slot": "freedom",
+          "axis": "thought",
+          "sourceQueries": ["自由とは", "自由に生きたい", "自由 責任", "自分らしく生きたい"]
+        },
+        {
+          "route": "/love/cant-confess",
+          "slot": "love/cant-confess",
+          "axis": "worry",
+          "sourceQueries": ["告白できない", "好きな人 告白 怖い", "告白 友達 壊れる", "気持ちを伝えられない 恋愛"]
+        },
+        {
+          "route": "/love/reply-anxiety",
+          "slot": "love/reply-anxiety",
+          "axis": "worry",
+          "sourceQueries": ["返信が来ない 不安", "既読無視 不安", "LINE 返信 遅い 不安", "好きな人 返信 遅い"]
+        },
+        {
+          "route": "/love/attachment-anxiety",
+          "slot": "love/attachment-anxiety",
+          "axis": "worry",
+          "sourceQueries": ["恋愛 不安になる", "見捨てられ不安 恋愛", "恋人 連絡ない 不安", "恋愛 依存 やめたい"]
+        },
+        {
+          "route": "/love/relationship-values",
+          "slot": "love/relationship-values",
+          "axis": "worry",
+          "sourceQueries": ["恋愛 価値観 合わない", "結婚 価値観 違い", "恋人 価値観 違う", "好きだけど価値観が合わない"]
+        },
+        {
+          "route": "/breakup/lingering",
+          "slot": "breakup/lingering",
+          "axis": "worry",
+          "sourceQueries": ["元恋人 忘れられない", "失恋 立ち直れない", "未練 断ち切れない", "別れた人 思い出す"]
+        },
+        {
+          "route": "/breakup/should-contact",
+          "slot": "breakup/should-contact",
+          "axis": "worry",
+          "sourceQueries": ["元恋人 連絡したい", "別れた後 連絡 すべき", "復縁 連絡 タイミング", "元彼 連絡したい"]
+        },
+        {
+          "route": "/breakup/ghosting",
+          "slot": "breakup/ghosting",
+          "axis": "worry",
+          "sourceQueries": ["音信不通 恋愛 つらい", "既読無視 そのまま 終わった", "急に連絡こない 恋愛", "フェードアウト 恋愛"]
+        },
+        {
+          "route": "/self-esteem/comparing",
+          "slot": "self-esteem/comparing",
+          "axis": "worry",
+          "sourceQueries": ["人と比べてしまう", "SNS 比較 つらい", "友達 比べて 落ち込む", "劣等感 比較"]
+        },
+        {
+          "route": "/self-esteem/low-self-esteem",
+          "slot": "self-esteem/low-self-esteem",
+          "axis": "worry",
+          "sourceQueries": ["自己肯定感 低い", "自分に自信がない", "自分が嫌い", "自己肯定感 上げたい"]
+        },
+        {
+          "route": "/relationships/cant-say-no",
+          "slot": "relationships/cant-say-no",
+          "axis": "worry",
+          "sourceQueries": ["断れない 性格", "頼まれると断れない", "嫌と言えない", "断るのが怖い"]
+        },
+        {
+          "route": "/relationships/lonely-but-prefer-alone",
+          "slot": "relationships/lonely-but-prefer-alone",
+          "axis": "worry",
+          "sourceQueries": ["一人が好き でも寂しい", "人といると疲れる でも寂しい", "孤独 不安", "一人でいたい 寂しい"]
+        },
+        {
+          "route": "/relationships/drifting-friends",
+          "slot": "relationships/drifting-friends",
+          "axis": "worry",
+          "sourceQueries": ["友達 疎遠 寂しい", "友達関係 変わった", "友達 減った 不安", "親友 距離 できた"]
+        },
+        {
+          "route": "/work/dont-want-to",
+          "slot": "work/dont-want-to",
+          "axis": "worry",
+          "sourceQueries": ["仕事 行きたくない", "仕事 やる気が出ない", "会社 行きたくない", "やらなきゃいけないのにできない"]
+        },
+        {
+          "route": "/work/burnout",
+          "slot": "work/burnout",
+          "axis": "worry",
+          "sourceQueries": ["燃え尽き症候群 仕事", "仕事 疲れた 限界", "何もしたくない 仕事", "頑張れない 仕事"]
+        },
+        {
+          "route": "/work/job-change",
+          "slot": "work/job-change",
+          "axis": "worry",
+          "sourceQueries": ["転職 迷う", "転職 不安", "仕事 変えたい 怖い", "このままの仕事でいいのか"]
+        },
+        {
+          "route": "/work/boss-stress",
+          "slot": "work/boss-stress",
+          "axis": "worry",
+          "sourceQueries": ["上司 ストレス", "上司が怖い", "上司 合わない", "職場 上司 つらい"]
+        },
+        {
+          "route": "/work/workplace-relationships",
+          "slot": "work/workplace-relationships",
+          "axis": "worry",
+          "sourceQueries": ["職場 人間関係 つらい", "会社 人間関係 疲れた", "職場 孤立", "同僚 合わない"]
+        },
+        {
+          "route": "/meaning/no-motivation",
+          "slot": "meaning/no-motivation",
+          "axis": "worry",
+          "sourceQueries": ["何もしたくない", "やる気が出ない", "無気力 つらい", "頑張れない"]
+        },
+        {
+          "route": "/meaning/meaningless",
+          "slot": "meaning/meaningless",
+          "axis": "worry",
+          "sourceQueries": ["人生 意味ない", "生きる意味 わからない", "何のために生きる", "人生 むなしい"]
+        },
+        {
+          "route": "/meaning/fear-death",
+          "slot": "meaning/fear-death",
+          "axis": "worry",
+          "sourceQueries": ["死ぬのが怖い", "死 不安", "死について考える 怖い", "いつか死ぬ 不安"]
+        },
+        {
+          "route": "/family/parent-conflict",
+          "slot": "family/parent-conflict",
+          "axis": "worry",
+          "sourceQueries": ["親と合わない", "親子関係 しんどい", "親 ストレス", "親と話したくない"]
+        },
+        {
+          "route": "/family/independence",
+          "slot": "family/independence",
+          "axis": "worry",
+          "sourceQueries": ["実家 出たい 不安", "親から離れたい", "一人暮らし 不安", "自立したい 親"]
+        },
+        {
+          "route": "/money/future-anxiety",
+          "slot": "money/future-anxiety",
+          "axis": "worry",
+          "sourceQueries": ["将来 お金 不安", "お金 不安 眠れない", "生活費 不安", "貯金 できない 不安"]
+        },
+        {
+          "route": "/study/cant-study",
+          "slot": "study/cant-study",
+          "axis": "worry",
+          "sourceQueries": ["勉強できない", "勉強 やる気 出ない", "勉強 集中できない", "勉強しなきゃいけないのにできない"]
+        },
+        {
+          "route": "/study/exam-anxiety",
+          "slot": "study/exam-anxiety",
+          "axis": "worry",
+          "sourceQueries": ["試験 不安", "受験 不安", "テスト 怖い", "試験 緊張 どうする"]
+        },
+        {
+          "route": "/digital/dopamine-addiction",
+          "slot": "digital/dopamine-addiction",
+          "axis": "worry",
+          "sourceQueries": ["スマホ やめられない", "SNS やめられない", "スマホ依存 やめたい", "だらだらスマホ やめたい"]
+        },
+        {
+          "route": "/body/health-anxiety",
+          "slot": "body/health-anxiety",
+          "axis": "worry",
+          "sourceQueries": ["病気 不安", "健康 不安", "体調 気にしすぎ", "病気かも 不安"]
+        },
+        {
+          "route": "/body/insomnia",
+          "slot": "body/insomnia",
+          "axis": "worry",
+          "sourceQueries": ["眠れない 悩み", "不眠 つらい", "寝たいのに眠れない", "夜 不安 眠れない"]
+        },
+        {
+          "route": "/career/decision-paralysis",
+          "slot": "career/decision-paralysis",
+          "axis": "worry",
+          "sourceQueries": ["進路 決められない", "将来 決められない", "選択できない つらい", "進路 迷う"]
+        },
+        {
+          "route": "/debate/ai-replacement",
+          "slot": "debate/ai-replacement",
+          "axis": "debate",
+          "sourceQueries": ["AI 仕事なくなる", "AI 仕事 奪う", "AI 失業 不安", "AIと仕事 未来"]
+        },
+        {
+          "route": "/debate/marriage",
+          "slot": "debate/marriage",
+          "axis": "debate",
+          "sourceQueries": ["結婚 しない 後悔", "結婚 必要ない", "結婚 するべきか", "独身 不安"]
+        },
+        {
+          "route": "/debate/childfree",
+          "slot": "debate/childfree",
+          "axis": "debate",
+          "sourceQueries": ["子供 いらない 後悔", "子供 欲しくない", "子供を持たない 選択", "子なし 人生"]
+        },
+        {
+          "route": "/debate/no-kids-zone",
+          "slot": "debate/no-kids-zone",
+          "axis": "debate",
+          "sourceQueries": ["子供禁止 店 論争", "ノーキッズゾーン 日本", "子連れ 入店拒否", "子供禁止 賛成 反対"]
+        },
+        {
+          "route": "/debate/remote-work",
+          "slot": "debate/remote-work",
+          "axis": "debate",
+          "sourceQueries": ["リモートワーク 賛成 反対", "在宅勤務 メリット デメリット", "出社 必要か", "リモートワーク 生産性"]
+        }
+      ]
+    },
+    "zh-CN": {
+      "label": "Chinese",
+      "nativeLabel": "中文",
+      "status": "active-source",
+      "collectionNotes": [
+        "Use Simplified Chinese autocomplete phrases as generalized search signals.",
+        "Map Chinese-origin worries to existing canonical routes first.",
+        "Separate durable worry patterns from politics, celebrity, and product lookup noise."
+      ],
+      "nodes": [
+        {
+          "route": "/thought/good-life",
+          "slot": "good-life",
+          "axis": "thought",
+          "sourceQueries": ["怎样才算好的人生", "人应该怎样生活", "人生最重要的是什么", "活着的意义是什么"]
+        },
+        {
+          "route": "/thought/happiness",
+          "slot": "happiness",
+          "axis": "thought",
+          "sourceQueries": ["幸福是什么", "怎样才能快乐", "有钱就会幸福吗", "感觉不到幸福"]
+        },
+        {
+          "route": "/thought/success",
+          "slot": "success",
+          "axis": "thought",
+          "sourceQueries": ["成功是什么", "怎样才算成功", "成功和幸福的区别", "人生一定要成功吗"]
+        },
+        {
+          "route": "/thought/freedom",
+          "slot": "freedom",
+          "axis": "thought",
+          "sourceQueries": ["自由是什么", "想自由地生活", "自由和责任", "怎样做自己"]
+        },
+        {
+          "route": "/love/cant-confess",
+          "slot": "love/cant-confess",
+          "axis": "worry",
+          "sourceQueries": ["不敢表白", "喜欢的人 不敢表白", "表白怕失去朋友", "感情说不出口"]
+        },
+        {
+          "route": "/love/reply-anxiety",
+          "slot": "love/reply-anxiety",
+          "axis": "worry",
+          "sourceQueries": ["不回消息很焦虑", "已读不回怎么办", "喜欢的人回复很慢", "微信不回消息 不安"]
+        },
+        {
+          "route": "/love/attachment-anxiety",
+          "slot": "love/attachment-anxiety",
+          "axis": "worry",
+          "sourceQueries": ["恋爱中总是不安", "害怕被抛弃 恋爱", "对象不联系我很焦虑", "恋爱依赖怎么戒掉"]
+        },
+        {
+          "route": "/love/relationship-values",
+          "slot": "love/relationship-values",
+          "axis": "worry",
+          "sourceQueries": ["恋爱价值观不合", "结婚价值观不同", "和对象三观不合", "很喜欢但价值观不合"]
+        },
+        {
+          "route": "/breakup/lingering",
+          "slot": "breakup/lingering",
+          "axis": "worry",
+          "sourceQueries": ["忘不掉前任", "失恋走不出来", "放不下前任怎么办", "分手后总想起对方"]
+        },
+        {
+          "route": "/breakup/should-contact",
+          "slot": "breakup/should-contact",
+          "axis": "worry",
+          "sourceQueries": ["想联系前任", "分手后要不要联系", "复合要不要主动联系", "前任联系我怎么办"]
+        },
+        {
+          "route": "/breakup/ghosting",
+          "slot": "breakup/ghosting",
+          "axis": "worry",
+          "sourceQueries": ["突然不回消息 恋爱", "被冷暴力分手", "感情里突然消失", "暧昧对象不回消息"]
+        },
+        {
+          "route": "/self-esteem/comparing",
+          "slot": "self-esteem/comparing",
+          "axis": "worry",
+          "sourceQueries": ["总是和别人比较", "刷朋友圈很自卑", "看到别人成功很焦虑", "不想和别人比较"]
+        },
+        {
+          "route": "/self-esteem/low-self-esteem",
+          "slot": "self-esteem/low-self-esteem",
+          "axis": "worry",
+          "sourceQueries": ["自尊心低怎么办", "觉得自己很差", "不喜欢自己怎么办", "没有自信怎么办"]
+        },
+        {
+          "route": "/relationships/cant-say-no",
+          "slot": "relationships/cant-say-no",
+          "axis": "worry",
+          "sourceQueries": ["不会拒绝别人", "不敢说不怎么办", "总是讨好别人", "怕别人不高兴"]
+        },
+        {
+          "route": "/relationships/lonely-but-prefer-alone",
+          "slot": "relationships/lonely-but-prefer-alone",
+          "axis": "worry",
+          "sourceQueries": ["一个人很舒服但孤独", "喜欢独处但会寂寞", "孤独感怎么办", "不想社交又怕孤独"]
+        },
+        {
+          "route": "/relationships/drifting-friends",
+          "slot": "relationships/drifting-friends",
+          "axis": "worry",
+          "sourceQueries": ["朋友渐行渐远", "和朋友疏远怎么办", "成年后朋友越来越少", "友情变淡了"]
+        },
+        {
+          "route": "/work/dont-want-to",
+          "slot": "work/dont-want-to",
+          "axis": "worry",
+          "sourceQueries": ["不想上班怎么办", "每天都不想工作", "讨厌上班怎么办", "不想工作但需要钱"]
+        },
+        {
+          "route": "/work/burnout",
+          "slot": "work/burnout",
+          "axis": "worry",
+          "sourceQueries": ["工作倦怠怎么办", "上班很累没有力气", "职业倦怠症", "工作到崩溃"]
+        },
+        {
+          "route": "/work/job-change",
+          "slot": "work/job-change",
+          "axis": "worry",
+          "sourceQueries": ["要不要换工作", "换工作很焦虑", "不敢辞职怎么办", "转行迷茫"]
+        },
+        {
+          "route": "/work/boss-stress",
+          "slot": "work/boss-stress",
+          "axis": "worry",
+          "sourceQueries": ["领导压力太大", "上司很难相处", "被领导骂很难受", "职场上司压力"]
+        },
+        {
+          "route": "/work/workplace-relationships",
+          "slot": "work/workplace-relationships",
+          "axis": "worry",
+          "sourceQueries": ["职场人际关系很累", "同事关系不好怎么办", "上班社交压力", "办公室关系复杂"]
+        },
+        {
+          "route": "/meaning/no-motivation",
+          "slot": "meaning/no-motivation",
+          "axis": "worry",
+          "sourceQueries": ["什么都不想做", "没有动力怎么办", "对什么都提不起兴趣", "人生没有干劲"]
+        },
+        {
+          "route": "/meaning/meaningless",
+          "slot": "meaning/meaningless",
+          "axis": "worry",
+          "sourceQueries": ["人生没有意义怎么办", "活着没意思", "感觉人生很空虚", "为什么活着"]
+        },
+        {
+          "route": "/meaning/fear-death",
+          "slot": "meaning/fear-death",
+          "axis": "worry",
+          "sourceQueries": ["害怕死亡怎么办", "死亡焦虑", "想到死亡很恐惧", "怕亲人去世"]
+        },
+        {
+          "route": "/family/parent-conflict",
+          "slot": "family/parent-conflict",
+          "axis": "worry",
+          "sourceQueries": ["和父母合不来", "父母总是控制我", "和父母吵架很累", "原生家庭矛盾"]
+        },
+        {
+          "route": "/family/independence",
+          "slot": "family/independence",
+          "axis": "worry",
+          "sourceQueries": ["想离开父母", "想搬出去住但害怕", "经济独立焦虑", "怎么和父母保持距离"]
+        },
+        {
+          "route": "/money/future-anxiety",
+          "slot": "money/future-anxiety",
+          "axis": "worry",
+          "sourceQueries": ["未来没钱很焦虑", "存不到钱怎么办", "生活费压力大", "财务焦虑"]
+        },
+        {
+          "route": "/study/cant-study",
+          "slot": "study/cant-study",
+          "axis": "worry",
+          "sourceQueries": ["学不进去怎么办", "学习没有动力", "学习注意力不集中", "明明该学习却学不进去"]
+        },
+        {
+          "route": "/study/exam-anxiety",
+          "slot": "study/exam-anxiety",
+          "axis": "worry",
+          "sourceQueries": ["考试焦虑怎么办", "高考焦虑", "考前紧张怎么办", "害怕考试失败"]
+        },
+        {
+          "route": "/digital/dopamine-addiction",
+          "slot": "digital/dopamine-addiction",
+          "axis": "worry",
+          "sourceQueries": ["手机戒不掉", "短视频停不下来", "社交媒体上瘾", "多巴胺成瘾怎么办"]
+        },
+        {
+          "route": "/body/health-anxiety",
+          "slot": "body/health-anxiety",
+          "axis": "worry",
+          "sourceQueries": ["总担心自己生病", "健康焦虑怎么办", "身体不舒服就害怕", "疑病症怎么办"]
+        },
+        {
+          "route": "/body/insomnia",
+          "slot": "body/insomnia",
+          "axis": "worry",
+          "sourceQueries": ["睡不着怎么办", "失眠很痛苦", "晚上焦虑睡不着", "想睡却睡不着"]
+        },
+        {
+          "route": "/career/decision-paralysis",
+          "slot": "career/decision-paralysis",
+          "axis": "worry",
+          "sourceQueries": ["不知道未来做什么", "人生选择困难", "职业规划迷茫", "不知道该选哪条路"]
+        },
+        {
+          "route": "/debate/ai-replacement",
+          "slot": "debate/ai-replacement",
+          "axis": "debate",
+          "sourceQueries": ["AI会取代工作吗", "AI抢饭碗", "人工智能导致失业", "AI时代职业焦虑"]
+        },
+        {
+          "route": "/debate/marriage",
+          "slot": "debate/marriage",
+          "axis": "debate",
+          "sourceQueries": ["一定要结婚吗", "不结婚会后悔吗", "结婚有必要吗", "单身焦虑"]
+        },
+        {
+          "route": "/debate/childfree",
+          "slot": "debate/childfree",
+          "axis": "debate",
+          "sourceQueries": ["不想生孩子正常吗", "丁克会后悔吗", "不要孩子的人生", "要不要生孩子纠结"]
+        },
+        {
+          "route": "/debate/no-kids-zone",
+          "slot": "debate/no-kids-zone",
+          "axis": "debate",
+          "sourceQueries": ["禁止儿童进入争议", "无孩餐厅争议", "儿童不友好场所", "带孩子被拒绝合理吗"]
+        },
+        {
+          "route": "/debate/remote-work",
+          "slot": "debate/remote-work",
+          "axis": "debate",
+          "sourceQueries": ["远程办公好不好", "居家办公效率", "是否应该回办公室", "远程办公优缺点"]
+        }
+      ]
+    },
+    "es-ES": {
+      "label": "Spanish",
+      "nativeLabel": "Español",
+      "status": "active-source",
+      "collectionNotes": [
+        "Use Spanish autocomplete phrases as generalized search signals.",
+        "Treat Spain and Latin America as related but not identical contexts.",
+        "Map Spanish-origin worries to existing canonical routes before proposing new nodes."
+      ],
+      "nodes": [
+        {
+          "route": "/thought/good-life",
+          "slot": "good-life",
+          "axis": "thought",
+          "sourceQueries": ["qué es una buena vida", "cómo debería vivir", "qué es lo más importante en la vida", "sentido de la vida"]
+        },
+        {
+          "route": "/thought/happiness",
+          "slot": "happiness",
+          "axis": "thought",
+          "sourceQueries": ["qué es la felicidad", "cómo ser feliz", "el dinero da la felicidad", "no me siento feliz"]
+        },
+        {
+          "route": "/thought/success",
+          "slot": "success",
+          "axis": "thought",
+          "sourceQueries": ["qué es el éxito", "cómo saber si soy exitoso", "éxito y felicidad diferencia", "tengo miedo a no tener éxito"]
+        },
+        {
+          "route": "/thought/freedom",
+          "slot": "freedom",
+          "axis": "thought",
+          "sourceQueries": ["qué es la libertad", "quiero vivir libre", "libertad y responsabilidad", "cómo ser yo mismo"]
+        },
+        {
+          "route": "/love/cant-confess",
+          "slot": "love/cant-confess",
+          "axis": "worry",
+          "sourceQueries": ["no me atrevo a declararme", "me gusta alguien y tengo miedo", "declararme puede arruinar amistad", "no puedo decir lo que siento"]
+        },
+        {
+          "route": "/love/reply-anxiety",
+          "slot": "love/reply-anxiety",
+          "axis": "worry",
+          "sourceQueries": ["no me contesta y me da ansiedad", "me dejó en visto", "tarda en responder mensajes", "ansiedad por mensajes de whatsapp"]
+        },
+        {
+          "route": "/love/attachment-anxiety",
+          "slot": "love/attachment-anxiety",
+          "axis": "worry",
+          "sourceQueries": ["ansiedad en la relación", "miedo al abandono en pareja", "mi pareja no me escribe y me angustio", "dependencia emocional cómo salir"]
+        },
+        {
+          "route": "/love/relationship-values",
+          "slot": "love/relationship-values",
+          "axis": "worry",
+          "sourceQueries": ["diferencias de valores en pareja", "no compartimos valores", "lo quiero pero somos muy distintos", "valores para casarse"]
+        },
+        {
+          "route": "/breakup/lingering",
+          "slot": "breakup/lingering",
+          "axis": "worry",
+          "sourceQueries": ["no puedo olvidar a mi ex", "cómo superar una ruptura", "sigo pensando en mi ex", "no puedo soltar a mi ex"]
+        },
+        {
+          "route": "/breakup/should-contact",
+          "slot": "breakup/should-contact",
+          "axis": "worry",
+          "sourceQueries": ["debería escribirle a mi ex", "contactar a mi ex después de terminar", "quiero volver con mi ex", "mi ex me escribió qué hago"]
+        },
+        {
+          "route": "/breakup/ghosting",
+          "slot": "breakup/ghosting",
+          "axis": "worry",
+          "sourceQueries": ["me hizo ghosting", "dejó de responder de repente", "ghosting en una relación", "por qué desaparece sin explicar"]
+        },
+        {
+          "route": "/self-esteem/comparing",
+          "slot": "self-esteem/comparing",
+          "axis": "worry",
+          "sourceQueries": ["me comparo con los demás", "redes sociales me hacen sentir mal", "me da ansiedad ver el éxito de otros", "cómo dejar de compararme"]
+        },
+        {
+          "route": "/self-esteem/low-self-esteem",
+          "slot": "self-esteem/low-self-esteem",
+          "axis": "worry",
+          "sourceQueries": ["tengo baja autoestima", "me siento insuficiente", "no me gusto a mí mismo", "cómo tener más confianza"]
+        },
+        {
+          "route": "/relationships/cant-say-no",
+          "slot": "relationships/cant-say-no",
+          "axis": "worry",
+          "sourceQueries": ["no sé decir que no", "me cuesta poner límites", "siempre complazco a los demás", "miedo a decepcionar a otros"]
+        },
+        {
+          "route": "/relationships/lonely-but-prefer-alone",
+          "slot": "relationships/lonely-but-prefer-alone",
+          "axis": "worry",
+          "sourceQueries": ["me gusta estar solo pero me siento solo", "quiero estar solo pero me da soledad", "me siento solo aunque no quiero socializar", "soledad y necesidad de espacio"]
+        },
+        {
+          "route": "/relationships/drifting-friends",
+          "slot": "relationships/drifting-friends",
+          "axis": "worry",
+          "sourceQueries": ["me estoy alejando de mis amigos", "perder amigos de adulto", "amistades que se enfrían", "ya no conecto con mis amigos"]
+        },
+        {
+          "route": "/work/dont-want-to",
+          "slot": "work/dont-want-to",
+          "axis": "worry",
+          "sourceQueries": ["no quiero trabajar", "no quiero ir al trabajo", "odio mi trabajo", "necesito dinero pero no quiero trabajar"]
+        },
+        {
+          "route": "/work/burnout",
+          "slot": "work/burnout",
+          "axis": "worry",
+          "sourceQueries": ["agotamiento laboral", "burnout laboral qué hacer", "estoy quemado del trabajo", "cansancio extremo por trabajo"]
+        },
+        {
+          "route": "/work/job-change",
+          "slot": "work/job-change",
+          "axis": "worry",
+          "sourceQueries": ["debería cambiar de trabajo", "miedo a cambiar de trabajo", "quiero renunciar pero tengo miedo", "cambiar de carrera profesional"]
+        },
+        {
+          "route": "/work/boss-stress",
+          "slot": "work/boss-stress",
+          "axis": "worry",
+          "sourceQueries": ["mi jefe me estresa", "jefe tóxico qué hacer", "maltrato laboral jefe", "ansiedad por mi jefe"]
+        },
+        {
+          "route": "/work/workplace-relationships",
+          "slot": "work/workplace-relationships",
+          "axis": "worry",
+          "sourceQueries": ["relaciones laborales difíciles", "problemas con compañeros de trabajo", "ambiente laboral tóxico", "me cuesta socializar en el trabajo"]
+        },
+        {
+          "route": "/meaning/no-motivation",
+          "slot": "meaning/no-motivation",
+          "axis": "worry",
+          "sourceQueries": ["no tengo motivación para nada", "no quiero hacer nada", "me falta motivación", "nada me ilusiona"]
+        },
+        {
+          "route": "/meaning/meaningless",
+          "slot": "meaning/meaningless",
+          "axis": "worry",
+          "sourceQueries": ["mi vida no tiene sentido", "siento vacío existencial", "para qué vivir", "no encuentro propósito"]
+        },
+        {
+          "route": "/meaning/fear-death",
+          "slot": "meaning/fear-death",
+          "axis": "worry",
+          "sourceQueries": ["miedo a la muerte", "ansiedad por la muerte", "pienso mucho en morir", "miedo a perder a mis padres"]
+        },
+        {
+          "route": "/family/parent-conflict",
+          "slot": "family/parent-conflict",
+          "axis": "worry",
+          "sourceQueries": ["problemas con mis padres", "mis padres me controlan", "discuto mucho con mi familia", "familia tóxica qué hacer"]
+        },
+        {
+          "route": "/family/independence",
+          "slot": "family/independence",
+          "axis": "worry",
+          "sourceQueries": ["quiero independizarme", "miedo a irme de casa", "cómo poner distancia con mis padres", "vivir solo ansiedad"]
+        },
+        {
+          "route": "/money/future-anxiety",
+          "slot": "money/future-anxiety",
+          "axis": "worry",
+          "sourceQueries": ["ansiedad por dinero", "miedo al futuro económico", "no puedo ahorrar dinero", "preocupación por no llegar a fin de mes"]
+        },
+        {
+          "route": "/study/cant-study",
+          "slot": "study/cant-study",
+          "axis": "worry",
+          "sourceQueries": ["no puedo estudiar", "no tengo motivación para estudiar", "no me concentro al estudiar", "sé que debo estudiar pero no puedo"]
+        },
+        {
+          "route": "/study/exam-anxiety",
+          "slot": "study/exam-anxiety",
+          "axis": "worry",
+          "sourceQueries": ["ansiedad ante los exámenes", "miedo a suspender", "nervios antes de un examen", "ansiedad por selectividad"]
+        },
+        {
+          "route": "/digital/dopamine-addiction",
+          "slot": "digital/dopamine-addiction",
+          "axis": "worry",
+          "sourceQueries": ["no puedo dejar el móvil", "adicción a redes sociales", "no puedo parar de ver vídeos", "dopamina y redes sociales"]
+        },
+        {
+          "route": "/body/health-anxiety",
+          "slot": "body/health-anxiety",
+          "axis": "worry",
+          "sourceQueries": ["ansiedad por la salud", "miedo a tener una enfermedad", "hipocondría qué hacer", "me preocupo demasiado por síntomas"]
+        },
+        {
+          "route": "/body/insomnia",
+          "slot": "body/insomnia",
+          "axis": "worry",
+          "sourceQueries": ["no puedo dormir", "insomnio por ansiedad", "quiero dormir y no puedo", "me despierto con ansiedad"]
+        },
+        {
+          "route": "/career/decision-paralysis",
+          "slot": "career/decision-paralysis",
+          "axis": "worry",
+          "sourceQueries": ["no sé qué hacer con mi vida", "no sé qué carrera elegir", "miedo a tomar decisiones", "bloqueo al decidir mi futuro"]
+        },
+        {
+          "route": "/debate/ai-replacement",
+          "slot": "debate/ai-replacement",
+          "axis": "debate",
+          "sourceQueries": ["la IA quitará trabajos", "inteligencia artificial desempleo", "miedo a que la IA me reemplace", "trabajo y futuro de la IA"]
+        },
+        {
+          "route": "/debate/marriage",
+          "slot": "debate/marriage",
+          "axis": "debate",
+          "sourceQueries": ["es necesario casarse", "no quiero casarme", "me arrepentiré de no casarme", "matrimonio hoy en día"]
+        },
+        {
+          "route": "/debate/childfree",
+          "slot": "debate/childfree",
+          "axis": "debate",
+          "sourceQueries": ["no quiero tener hijos", "me arrepentiré de no tener hijos", "ser childfree", "tener hijos o no"]
+        },
+        {
+          "route": "/debate/no-kids-zone",
+          "slot": "debate/no-kids-zone",
+          "axis": "debate",
+          "sourceQueries": ["zonas sin niños debate", "restaurantes sin niños", "prohibir niños en restaurantes", "niños en espacios públicos debate"]
+        },
+        {
+          "route": "/debate/remote-work",
+          "slot": "debate/remote-work",
+          "axis": "debate",
+          "sourceQueries": ["teletrabajo ventajas y desventajas", "trabajo remoto productividad", "volver a la oficina debate", "teletrabajo o presencial"]
+        }
+      ]
+    },
+    "fr-FR": {
+      "label": "French",
+      "nativeLabel": "Français",
+      "status": "active-source",
+      "collectionNotes": [
+        "Use French autocomplete phrases as generalized search signals.",
+        "Map French-origin worries to existing canonical routes before proposing new nodes.",
+        "Watch for philosophy-heavy wording that may be reference intent rather than user worry."
+      ],
+      "nodes": [
+        {
+          "route": "/thought/good-life",
+          "slot": "good-life",
+          "axis": "thought",
+          "sourceQueries": ["qu'est-ce qu'une bonne vie", "comment bien vivre", "que faire de sa vie", "sens de la vie"]
+        },
+        {
+          "route": "/thought/happiness",
+          "slot": "happiness",
+          "axis": "thought",
+          "sourceQueries": ["qu'est-ce que le bonheur", "comment être heureux", "l'argent fait-il le bonheur", "je ne suis pas heureux"]
+        },
+        {
+          "route": "/thought/success",
+          "slot": "success",
+          "axis": "thought",
+          "sourceQueries": ["qu'est-ce que réussir sa vie", "peur de ne pas réussir", "réussite et bonheur différence", "faut-il réussir sa vie"]
+        },
+        {
+          "route": "/thought/freedom",
+          "slot": "freedom",
+          "axis": "thought",
+          "sourceQueries": ["qu'est-ce que la liberté", "vivre librement", "liberté et responsabilité", "être soi-même"]
+        },
+        {
+          "route": "/love/cant-confess",
+          "slot": "love/cant-confess",
+          "axis": "worry",
+          "sourceQueries": ["je n'ose pas lui avouer mes sentiments", "peur de déclarer son amour", "avouer ses sentiments peur", "amitié ou amour déclarer"]
+        },
+        {
+          "route": "/love/reply-anxiety",
+          "slot": "love/reply-anxiety",
+          "axis": "worry",
+          "sourceQueries": ["il ne répond pas aux messages", "laissé en vu anxiété", "réponse tardive amour", "angoisse quand il ne répond pas"]
+        },
+        {
+          "route": "/love/attachment-anxiety",
+          "slot": "love/attachment-anxiety",
+          "axis": "worry",
+          "sourceQueries": ["peur de l'abandon en couple", "dépendance affective", "anxiété relationnelle", "besoin d'être rassuré couple"]
+        },
+        {
+          "route": "/love/relationship-values",
+          "slot": "love/relationship-values",
+          "axis": "worry",
+          "sourceQueries": ["valeurs différentes couple", "désaccord valeurs couple", "on s'aime mais incompatibles", "différences avant mariage"]
+        },
+        {
+          "route": "/breakup/lingering",
+          "slot": "breakup/lingering",
+          "axis": "worry",
+          "sourceQueries": ["je n'arrive pas à oublier mon ex", "surmonter une rupture", "penser encore à son ex", "comment tourner la page"]
+        },
+        {
+          "route": "/breakup/should-contact",
+          "slot": "breakup/should-contact",
+          "axis": "worry",
+          "sourceQueries": ["dois-je recontacter mon ex", "envie d'écrire à mon ex", "reprendre contact après rupture", "mon ex m'a écrit que faire"]
+        },
+        {
+          "route": "/breakup/ghosting",
+          "slot": "breakup/ghosting",
+          "axis": "worry",
+          "sourceQueries": ["il ne répond plus du jour au lendemain", "ghosting relation amoureuse", "disparaît sans explication", "laissé sans nouvelles amour"]
+        },
+        {
+          "route": "/self-esteem/comparing",
+          "slot": "self-esteem/comparing",
+          "axis": "worry",
+          "sourceQueries": ["je me compare aux autres", "réseaux sociaux et estime de soi", "jalousie réussite des autres", "arrêter de se comparer"]
+        },
+        {
+          "route": "/self-esteem/low-self-esteem",
+          "slot": "self-esteem/low-self-esteem",
+          "axis": "worry",
+          "sourceQueries": ["manque d'estime de soi", "je ne vaux rien", "je ne m'aime pas", "comment avoir confiance en soi"]
+        },
+        {
+          "route": "/relationships/cant-say-no",
+          "slot": "relationships/cant-say-no",
+          "axis": "worry",
+          "sourceQueries": ["je n'arrive pas à dire non", "peur de décevoir les autres", "poser des limites", "trop gentil avec les autres"]
+        },
+        {
+          "route": "/relationships/lonely-but-prefer-alone",
+          "slot": "relationships/lonely-but-prefer-alone",
+          "axis": "worry",
+          "sourceQueries": ["j'aime être seul mais je me sens seul", "solitude choisie mais douloureuse", "besoin d'être seul et solitude", "je ne veux pas socialiser"]
+        },
+        {
+          "route": "/relationships/drifting-friends",
+          "slot": "relationships/drifting-friends",
+          "axis": "worry",
+          "sourceQueries": ["amis qui s'éloignent", "perdre ses amis adulte", "amitié qui se termine", "je n'ai plus d'amis"]
+        },
+        {
+          "route": "/work/dont-want-to",
+          "slot": "work/dont-want-to",
+          "axis": "worry",
+          "sourceQueries": ["je n'ai pas envie de travailler", "je ne veux plus aller au travail", "marre de travailler", "travailler sans motivation"]
+        },
+        {
+          "route": "/work/burnout",
+          "slot": "work/burnout",
+          "axis": "worry",
+          "sourceQueries": ["burn out que faire", "épuisement professionnel", "je suis épuisé par le travail", "plus d'énergie au travail"]
+        },
+        {
+          "route": "/work/job-change",
+          "slot": "work/job-change",
+          "axis": "worry",
+          "sourceQueries": ["changer de travail ou rester", "peur de changer de travail", "démissionner ou pas", "reconversion professionnelle doute"]
+        },
+        {
+          "route": "/work/boss-stress",
+          "slot": "work/boss-stress",
+          "axis": "worry",
+          "sourceQueries": ["mon chef me stresse", "manager toxique que faire", "pression du supérieur", "angoisse à cause du travail"]
+        },
+        {
+          "route": "/work/workplace-relationships",
+          "slot": "work/workplace-relationships",
+          "axis": "worry",
+          "sourceQueries": ["relations difficiles au travail", "collègues toxiques", "ambiance de travail toxique", "conflits avec collègues"]
+        },
+        {
+          "route": "/meaning/no-motivation",
+          "slot": "meaning/no-motivation",
+          "axis": "worry",
+          "sourceQueries": ["je n'ai envie de rien", "perte de motivation", "rien ne m'intéresse", "pas d'énergie pour agir"]
+        },
+        {
+          "route": "/meaning/meaningless",
+          "slot": "meaning/meaningless",
+          "axis": "worry",
+          "sourceQueries": ["ma vie n'a pas de sens", "vide existentiel", "à quoi bon vivre", "je ne trouve pas de but"]
+        },
+        {
+          "route": "/meaning/fear-death",
+          "slot": "meaning/fear-death",
+          "axis": "worry",
+          "sourceQueries": ["peur de la mort", "angoisse de mort", "penser à la mort tout le temps", "peur de perdre ses parents"]
+        },
+        {
+          "route": "/family/parent-conflict",
+          "slot": "family/parent-conflict",
+          "axis": "worry",
+          "sourceQueries": ["conflit avec mes parents", "parents toxiques", "mes parents me contrôlent", "famille toxique que faire"]
+        },
+        {
+          "route": "/family/independence",
+          "slot": "family/independence",
+          "axis": "worry",
+          "sourceQueries": ["je veux quitter mes parents", "peur de partir de chez mes parents", "devenir indépendant financièrement", "vivre seul anxiété"]
+        },
+        {
+          "route": "/money/future-anxiety",
+          "slot": "money/future-anxiety",
+          "axis": "worry",
+          "sourceQueries": ["angoisse de l'argent", "peur de l'avenir financier", "je n'arrive pas à économiser", "précarité financière"]
+        },
+        {
+          "route": "/study/cant-study",
+          "slot": "study/cant-study",
+          "axis": "worry",
+          "sourceQueries": ["je n'arrive pas à étudier", "pas de motivation pour étudier", "je n'arrive pas à me concentrer", "je procrastine mes révisions"]
+        },
+        {
+          "route": "/study/exam-anxiety",
+          "slot": "study/exam-anxiety",
+          "axis": "worry",
+          "sourceQueries": ["stress avant examen", "peur de rater un examen", "angoisse des examens", "réviser sous pression"]
+        },
+        {
+          "route": "/digital/dopamine-addiction",
+          "slot": "digital/dopamine-addiction",
+          "axis": "worry",
+          "sourceQueries": ["je n'arrive pas à lâcher mon téléphone", "addiction aux réseaux sociaux", "scroller sans fin", "dopamine réseaux sociaux"]
+        },
+        {
+          "route": "/body/health-anxiety",
+          "slot": "body/health-anxiety",
+          "axis": "worry",
+          "sourceQueries": ["angoisse de santé", "peur d'avoir une maladie", "hypocondrie que faire", "je surveille trop mes symptômes"]
+        },
+        {
+          "route": "/body/insomnia",
+          "slot": "body/insomnia",
+          "axis": "worry",
+          "sourceQueries": ["je n'arrive pas à dormir", "insomnie anxiété", "angoisse la nuit", "vouloir dormir sans y arriver"]
+        },
+        {
+          "route": "/career/decision-paralysis",
+          "slot": "career/decision-paralysis",
+          "axis": "worry",
+          "sourceQueries": ["je ne sais pas quoi faire de ma vie", "choisir sa voie professionnelle", "peur de prendre une décision", "orientation avenir perdu"]
+        },
+        {
+          "route": "/debate/ai-replacement",
+          "slot": "debate/ai-replacement",
+          "axis": "debate",
+          "sourceQueries": ["l'IA va-t-elle remplacer les emplois", "intelligence artificielle chômage", "peur d'être remplacé par l'IA", "avenir du travail IA"]
+        },
+        {
+          "route": "/debate/marriage",
+          "slot": "debate/marriage",
+          "axis": "debate",
+          "sourceQueries": ["faut-il se marier", "ne pas se marier regret", "mariage encore nécessaire", "peur de rester célibataire"]
+        },
+        {
+          "route": "/debate/childfree",
+          "slot": "debate/childfree",
+          "axis": "debate",
+          "sourceQueries": ["je ne veux pas d'enfants", "ne pas avoir d'enfants regret", "choisir de ne pas avoir d'enfant", "childfree en français"]
+        },
+        {
+          "route": "/debate/no-kids-zone",
+          "slot": "debate/no-kids-zone",
+          "axis": "debate",
+          "sourceQueries": ["restaurants sans enfants débat", "zones sans enfants", "interdire les enfants restaurant", "enfants espaces publics débat"]
+        },
+        {
+          "route": "/debate/remote-work",
+          "slot": "debate/remote-work",
+          "axis": "debate",
+          "sourceQueries": ["télétravail avantages inconvénients", "télétravail productivité", "retour au bureau débat", "télétravail ou présentiel"]
+        }
+      ]
+    },
+    "de-DE": {
+      "label": "German",
+      "nativeLabel": "Deutsch",
+      "status": "active-source",
+      "collectionNotes": [
+        "Use German autocomplete phrases as generalized search signals.",
+        "Map German-origin worries to existing canonical routes before proposing new nodes.",
+        "Watch for philosophy/reference intent separately from lived worry phrasing."
+      ],
+      "nodes": [
+        {
+          "route": "/thought/good-life",
+          "slot": "good-life",
+          "axis": "thought",
+          "sourceQueries": ["was ist ein gutes leben", "wie soll man leben", "was ist wichtig im leben", "sinn des lebens"]
+        },
+        {
+          "route": "/thought/happiness",
+          "slot": "happiness",
+          "axis": "thought",
+          "sourceQueries": ["was ist glück", "wie werde ich glücklich", "macht geld glücklich", "ich bin nicht glücklich"]
+        },
+        {
+          "route": "/thought/success",
+          "slot": "success",
+          "axis": "thought",
+          "sourceQueries": ["was ist erfolg", "angst nicht erfolgreich zu sein", "erfolg und glück unterschied", "muss man erfolgreich sein"]
+        },
+        {
+          "route": "/thought/freedom",
+          "slot": "freedom",
+          "axis": "thought",
+          "sourceQueries": ["was ist freiheit", "frei leben wollen", "freiheit und verantwortung", "ich selbst sein"]
+        },
+        {
+          "route": "/love/cant-confess",
+          "slot": "love/cant-confess",
+          "axis": "worry",
+          "sourceQueries": ["ich traue mich nicht meine gefühle zu gestehen", "angst liebe zu gestehen", "verliebt aber angst es zu sagen", "freundschaft oder liebe gestehen"]
+        },
+        {
+          "route": "/love/reply-anxiety",
+          "slot": "love/reply-anxiety",
+          "axis": "worry",
+          "sourceQueries": ["er antwortet nicht angst", "nachricht gelesen keine antwort", "sie antwortet langsam beziehung", "whatsapp keine antwort angst"]
+        },
+        {
+          "route": "/love/attachment-anxiety",
+          "slot": "love/attachment-anxiety",
+          "axis": "worry",
+          "sourceQueries": ["verlustangst in beziehung", "bindungsangst oder verlustangst", "abhängigkeit in beziehung lösen", "partner meldet sich nicht angst"]
+        },
+        {
+          "route": "/love/relationship-values",
+          "slot": "love/relationship-values",
+          "axis": "worry",
+          "sourceQueries": ["unterschiedliche werte beziehung", "werte passen nicht zusammen", "liebe aber unterschiedliche lebensziele", "werte vor ehe"]
+        },
+        {
+          "route": "/breakup/lingering",
+          "slot": "breakup/lingering",
+          "axis": "worry",
+          "sourceQueries": ["ex vergessen klappt nicht", "trennung überwinden", "ich denke ständig an meinen ex", "loslassen nach trennung"]
+        },
+        {
+          "route": "/breakup/should-contact",
+          "slot": "breakup/should-contact",
+          "axis": "worry",
+          "sourceQueries": ["soll ich meinem ex schreiben", "ex kontaktieren nach trennung", "ich will meinen ex zurück", "ex meldet sich was tun"]
+        },
+        {
+          "route": "/breakup/ghosting",
+          "slot": "breakup/ghosting",
+          "axis": "worry",
+          "sourceQueries": ["ghosting beziehung", "plötzlich keine antwort mehr", "er verschwindet ohne erklärung", "nach date keine meldung"]
+        },
+        {
+          "route": "/self-esteem/comparing",
+          "slot": "self-esteem/comparing",
+          "axis": "worry",
+          "sourceQueries": ["ich vergleiche mich ständig mit anderen", "social media macht mich unglücklich", "neid auf erfolg anderer", "aufhören sich zu vergleichen"]
+        },
+        {
+          "route": "/self-esteem/low-self-esteem",
+          "slot": "self-esteem/low-self-esteem",
+          "axis": "worry",
+          "sourceQueries": ["geringes selbstwertgefühl", "ich fühle mich wertlos", "ich mag mich selbst nicht", "mehr selbstvertrauen bekommen"]
+        },
+        {
+          "route": "/relationships/cant-say-no",
+          "slot": "relationships/cant-say-no",
+          "axis": "worry",
+          "sourceQueries": ["ich kann nicht nein sagen", "angst andere zu enttäuschen", "grenzen setzen lernen", "people pleasing deutsch"]
+        },
+        {
+          "route": "/relationships/lonely-but-prefer-alone",
+          "slot": "relationships/lonely-but-prefer-alone",
+          "axis": "worry",
+          "sourceQueries": ["ich bin gerne allein aber einsam", "allein sein und einsamkeit", "ich will nicht unter menschen aber bin einsam", "soziale kontakte strengen an"]
+        },
+        {
+          "route": "/relationships/drifting-friends",
+          "slot": "relationships/drifting-friends",
+          "axis": "worry",
+          "sourceQueries": ["freunde entfernen sich", "freundschaften gehen auseinander", "im erwachsenenalter freunde verlieren", "keine freunde mehr"]
+        },
+        {
+          "route": "/work/dont-want-to",
+          "slot": "work/dont-want-to",
+          "axis": "worry",
+          "sourceQueries": ["ich will nicht arbeiten", "keine lust auf arbeit", "ich hasse meinen job", "arbeiten müssen aber nicht wollen"]
+        },
+        {
+          "route": "/work/burnout",
+          "slot": "work/burnout",
+          "axis": "worry",
+          "sourceQueries": ["burnout was tun", "berufliche erschöpfung", "arbeit macht mich kaputt", "keine kraft mehr für arbeit"]
+        },
+        {
+          "route": "/work/job-change",
+          "slot": "work/job-change",
+          "axis": "worry",
+          "sourceQueries": ["job wechseln oder bleiben", "angst vor jobwechsel", "kündigen oder bleiben", "berufliche neuorientierung angst"]
+        },
+        {
+          "route": "/work/boss-stress",
+          "slot": "work/boss-stress",
+          "axis": "worry",
+          "sourceQueries": ["chef macht mich fertig", "toxischer chef was tun", "angst vor vorgesetzten", "stress mit chef"]
+        },
+        {
+          "route": "/work/workplace-relationships",
+          "slot": "work/workplace-relationships",
+          "axis": "worry",
+          "sourceQueries": ["schwierige kollegen", "toxisches arbeitsklima", "konflikte am arbeitsplatz", "soziale angst bei der arbeit"]
+        },
+        {
+          "route": "/meaning/no-motivation",
+          "slot": "meaning/no-motivation",
+          "axis": "worry",
+          "sourceQueries": ["ich habe keine motivation", "ich will nichts tun", "nichts interessiert mich", "keine energie für irgendwas"]
+        },
+        {
+          "route": "/meaning/meaningless",
+          "slot": "meaning/meaningless",
+          "axis": "worry",
+          "sourceQueries": ["mein leben hat keinen sinn", "sinnkrise was tun", "existenzielle leere", "warum leben"]
+        },
+        {
+          "route": "/meaning/fear-death",
+          "slot": "meaning/fear-death",
+          "axis": "worry",
+          "sourceQueries": ["angst vor dem tod", "todesangst", "ständig an den tod denken", "angst eltern zu verlieren"]
+        },
+        {
+          "route": "/family/parent-conflict",
+          "slot": "family/parent-conflict",
+          "axis": "worry",
+          "sourceQueries": ["konflikt mit eltern", "toxische eltern", "meine eltern kontrollieren mich", "herkunftsfamilie probleme"]
+        },
+        {
+          "route": "/family/independence",
+          "slot": "family/independence",
+          "axis": "worry",
+          "sourceQueries": ["von eltern ausziehen angst", "ich will von zuhause ausziehen", "finanziell unabhängig werden", "alleine wohnen angst"]
+        },
+        {
+          "route": "/money/future-anxiety",
+          "slot": "money/future-anxiety",
+          "axis": "worry",
+          "sourceQueries": ["geldsorgen zukunft", "zukunftsangst geld", "ich kann nicht sparen", "finanzielle unsicherheit"]
+        },
+        {
+          "route": "/study/cant-study",
+          "slot": "study/cant-study",
+          "axis": "worry",
+          "sourceQueries": ["ich kann nicht lernen", "keine motivation zum lernen", "ich kann mich nicht konzentrieren", "prokrastination beim lernen"]
+        },
+        {
+          "route": "/study/exam-anxiety",
+          "slot": "study/exam-anxiety",
+          "axis": "worry",
+          "sourceQueries": ["prüfungsangst was tun", "angst durchzufallen", "nervös vor prüfung", "prüfung stress"]
+        },
+        {
+          "route": "/digital/dopamine-addiction",
+          "slot": "digital/dopamine-addiction",
+          "axis": "worry",
+          "sourceQueries": ["handy weglegen klappt nicht", "social media sucht", "doomscrolling aufhören", "dopamin sucht handy"]
+        },
+        {
+          "route": "/body/health-anxiety",
+          "slot": "body/health-anxiety",
+          "axis": "worry",
+          "sourceQueries": ["gesundheitsangst", "angst krank zu sein", "hypochondrie was tun", "symptome googeln angst"]
+        },
+        {
+          "route": "/body/insomnia",
+          "slot": "body/insomnia",
+          "axis": "worry",
+          "sourceQueries": ["ich kann nicht schlafen", "schlaflosigkeit angst", "nachts angst nicht schlafen", "einschlafen klappt nicht"]
+        },
+        {
+          "route": "/career/decision-paralysis",
+          "slot": "career/decision-paralysis",
+          "axis": "worry",
+          "sourceQueries": ["ich weiß nicht was ich mit meinem leben anfangen soll", "berufswahl überfordert", "entscheidungsangst zukunft", "keine ahnung welcher beruf"]
+        },
+        {
+          "route": "/debate/ai-replacement",
+          "slot": "debate/ai-replacement",
+          "axis": "debate",
+          "sourceQueries": ["ki ersetzt jobs", "künstliche intelligenz arbeitslosigkeit", "angst vor ki im job", "zukunft der arbeit ki"]
+        },
+        {
+          "route": "/debate/marriage",
+          "slot": "debate/marriage",
+          "axis": "debate",
+          "sourceQueries": ["muss man heiraten", "nicht heiraten bereuen", "ist ehe noch sinnvoll", "angst allein zu bleiben"]
+        },
+        {
+          "route": "/debate/childfree",
+          "slot": "debate/childfree",
+          "axis": "debate",
+          "sourceQueries": ["ich will keine kinder", "kinderlos bleiben bereuen", "childfree deutsch", "kinder bekommen oder nicht"]
+        },
+        {
+          "route": "/debate/no-kids-zone",
+          "slot": "debate/no-kids-zone",
+          "axis": "debate",
+          "sourceQueries": ["kinderfreie restaurants debatte", "no kids zone deutschland", "kinder in restaurants verbieten", "kinder öffentliche räume debatte"]
+        },
+        {
+          "route": "/debate/remote-work",
+          "slot": "debate/remote-work",
+          "axis": "debate",
+          "sourceQueries": ["homeoffice vor und nachteile", "homeoffice produktivität", "zurück ins büro debatte", "homeoffice oder büro"]
+        }
+      ]
+    }
+  }
+}

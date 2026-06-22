@@ -1,0 +1,1986 @@
+import { readFileSync, writeFileSync } from "node:fs";
+
+const seedPath = "data/global_phrase_seeds.json";
+const seedData = JSON.parse(readFileSync(seedPath, "utf8"));
+
+const curatedAt = "2026-06-21";
+
+const curatedNodes = {
+  "/love/cant-confess": {
+    canonicalTitle: "When I cannot confess my feelings",
+    metaDescription:
+      "How to think about confessing your feelings without letting rejection fear make the whole decision.",
+    pageLead:
+      "The question is not how to remove every risk. It is whether silence, confession, or delay is the choice you can actually stand behind.",
+    searchPhrases: [
+      "how do i confess my feelings",
+      "how long should i wait to confess my feelings",
+      "why do I struggle with confessing my feelings",
+      "fear of confessing feelings",
+      "confessing feelings advice",
+      "should I confess my feelings",
+      "how to deal with not being able to confess my feelings",
+      "what if confessing ruins the friendship",
+    ],
+    userDoors: [
+      "I like someone, but I am afraid confession will make everything awkward.",
+      "I want to stay close, so I keep postponing the truth.",
+      "I am not sure whether I am being patient or just protecting myself from rejection.",
+      "I need a way to separate honest expression from trying to control the answer.",
+    ],
+    englishCardSummaries: [
+      {
+        headline: "Regret can be heavier than rejection.",
+        body:
+          "Nietzsche's amor fati frame asks whether you could affirm this choice if you had to live it again. The point is not romantic recklessness; it is refusing to let fear write your life for you.",
+        practice:
+          "Imagine yourself one year from now. Which would be harder to respect: being rejected after speaking honestly, or never having said what mattered?",
+      },
+      {
+        headline: "Name the imagined disaster.",
+        body:
+          "Seneca treats many fears as pain rehearsed in advance. Before anything has happened, the mind may already be living through rejection, embarrassment, and loss.",
+        practice:
+          "Write the feared outcome in plain words. Then mark what is certain, what is possible, and what is only a story your fear is filling in.",
+      },
+      {
+        headline: "Your part is expression, not the answer.",
+        body:
+          "Epictetus separates what belongs to you from what does not. You can choose clarity, timing, and tone. You cannot choose another person's feelings.",
+        practice:
+          "Make two columns: what I can do, and what I cannot control. Put the other person's answer in the second column before you decide.",
+      },
+    ],
+  },
+  "/love/impatient": {
+    canonicalTitle: "When impatience takes over",
+    metaDescription:
+      "How to slow down impatience in love by separating facts, projections, and the parts you can actually control.",
+    pageLead:
+      "Impatience often feels like certainty, but it is usually a mix of desire, fear, and missing information.",
+    searchPhrases: [
+      "why do i feel impatient",
+      "why do i feel impatient for no reason",
+      "how to deal with feeling impatient",
+      "impatient in dating",
+      "waiting for a reply anxiety",
+      "should I confess or wait",
+      "why am I so impatient in relationships",
+      "feeling impatient advice",
+    ],
+    userDoors: [
+      "A reply is late and I immediately want to force clarity.",
+      "I keep checking whether the relationship is moving fast enough.",
+      "I cannot tell whether I should act, wait, or stop making stories in my head.",
+      "I need a way to slow the urgency without ignoring what I want.",
+    ],
+    englishCardSummaries: [
+      {
+        headline: "Bring attention back to your own part.",
+        body:
+          "Epictetus would say that another person's pace, mood, and answer are not fully yours to command. The more you demand certainty from what is not yours, the more unstable you feel.",
+        practice:
+          "Before sending the next message, write one sentence that starts with: the part I can control today is...",
+      },
+      {
+        headline: "Separate the person from the story.",
+        body:
+          "Alain de Botton's lens helps read romantic urgency as projection. A late reply is one fact; abandonment, indifference, and humiliation may be stories added by fear.",
+        practice:
+          "Write the fact in one line and your interpretation in another. Do not act until you can tell which is which.",
+      },
+      {
+        headline: "Risk is part of a life you can affirm.",
+        body:
+          "Nietzsche does not promise safety. His frame asks whether you are avoiding action because it is wise, or because you are trying to stay untouched by life.",
+        practice:
+          "Ask: if I move, what value am I affirming? If I wait, what value am I protecting?",
+      },
+    ],
+  },
+  "/love/should-give-up": {
+    canonicalTitle: "Should I give up or keep trying?",
+    metaDescription:
+      "How to think about giving up, holding on, regret, and responsibility when love is uncertain.",
+    pageLead:
+      "This is painful because both options can hurt: holding on may cost your dignity, but giving up may feel like abandoning hope.",
+    searchPhrases: [
+      "should I give up on them",
+      "should I keep trying or move on",
+      "how to know when to give up",
+      "when to stop trying in a relationship",
+      "should I give up or keep fighting",
+      "giving up or holding on",
+      "fear of regretting giving up",
+      "how to move on when I still have hope",
+    ],
+    userDoors: [
+      "I cannot tell whether persistence is love or self-harm.",
+      "If I stop now, I am afraid I will wonder forever what might have happened.",
+      "If I keep trying, I am afraid I will lose my self-respect.",
+      "I need a frame that does not pretend either choice is painless.",
+    ],
+    englishCardSummaries: [
+      {
+        headline: "Do not build your peace on someone else's will.",
+        body:
+          "Epictetus draws the first hard line: your effort, conduct, and honesty are yours; another person's love is not. If the whole decision depends on controlling their feeling, you are already outside your power.",
+        practice:
+          "List the actions you have honestly taken. If the remaining wish is only that they become different, name it as outside your control.",
+      },
+      {
+        headline: "Do not call fear wisdom too quickly.",
+        body:
+          "Nietzsche complicates the easy answer. Sometimes giving up is clarity; sometimes it is a polished name for avoiding pain. Amor fati asks whether you can own the path, not merely escape discomfort.",
+        practice:
+          "Ask whether stopping would feel like peace, avoidance, or punishment. The difference matters.",
+      },
+      {
+        headline: "Some regret cannot be removed.",
+        body:
+          "Kierkegaard refuses the fantasy of a regret-free option. You may regret staying and regret leaving. The mature task is choosing the regret you are willing to take responsibility for.",
+        practice:
+          "Write both regrets honestly. Choose the side whose cost you can carry without becoming dishonest with yourself.",
+      },
+    ],
+  },
+  "/love/cant-read-them": {
+    canonicalTitle: "When I cannot read someone's feelings",
+    metaDescription:
+      "How to stop turning silence, timing, and small signals into certainty about another person's feelings.",
+    pageLead:
+      "Not knowing what someone feels is hard because the mind tries to complete the missing information with fear.",
+    searchPhrases: [
+      "what does it mean when you can't read someone",
+      "why can't I read someone's feelings",
+      "how to deal with reading someone's feelings",
+      "not being able to read someone's emotions",
+      "overthinking someone's feelings",
+      "does a late reply mean they lost interest",
+      "how to ask what someone feels",
+      "relationship mixed signals anxiety",
+    ],
+    userDoors: [
+      "I keep turning small signals into proof that they like me or do not like me.",
+      "I cannot tell whether they are busy, distant, shy, or losing interest.",
+      "The uncertainty makes me check messages, tone, and timing too much.",
+      "I need a way to ask or wait without being ruled by guessing.",
+    ],
+    englishCardSummaries: [
+      {
+        headline: "Another person's mind is not your property.",
+        body:
+          "Epictetus reminds us that another person's inner state is not something we can own. Anxiety grows when we treat their hidden feelings as something we must force into certainty.",
+        practice:
+          "Replace the question 'What do they feel?' with 'What honest action is available to me now?'",
+      },
+      {
+        headline: "Missing information invites projection.",
+        body:
+          "Alain de Botton's romantic lens is useful here: when we do not know enough, we often fill the gap with our own insecurity or idealization.",
+        practice:
+          "Write three interpretations of the same signal. If more than one is plausible, you do not have certainty yet.",
+      },
+      {
+        headline: "Speculation scatters attention.",
+        body:
+          "Marcus Aurelius pushes attention back toward your own conduct. Endless guessing about another mind can pull you away from the one thing you can govern: your way of acting.",
+        practice:
+          "If guessing is not helping the relationship, choose one clear question, one patient wait, or one boundary.",
+      },
+    ],
+  },
+  "/love/attachment-anxiety": {
+    canonicalTitle: "When anxious attachment takes over dating",
+    metaDescription:
+      "How to understand anxious attachment in dating without turning every delay or distance into a threat.",
+    pageLead:
+      "Anxious attachment often turns ordinary uncertainty into a demand for immediate reassurance.",
+    searchPhrases: [
+      "anxious attachment in dating",
+      "how to deal with anxious attachment",
+      "how to date someone with anxious attachment",
+      "anxious when someone doesn't text back",
+      "relationship reassurance seeking",
+      "fear of abandonment dating",
+      "why do I need constant reassurance",
+      "anxious attachment advice",
+    ],
+    userDoors: [
+      "A delay, change in tone, or quiet day quickly feels like abandonment.",
+      "I want reassurance, but asking again and again makes me feel worse.",
+      "I know I am anxious, but my body reacts as if the relationship is in danger.",
+      "I need a way to ask for connection without turning fear into pressure.",
+    ],
+    englishCardSummaries: [
+      {
+        headline: "Delay the reassurance loop.",
+        body:
+          "Epictetus is not dismissing the feeling; he is locating control. You cannot command reassurance, but you can decide whether anxiety sends the next message.",
+        practice:
+          "Wait twenty minutes before sending a checking message. During that time, write what you need as a calm request, not an accusation.",
+      },
+      {
+        headline: "Ask whether the relationship is making both people better.",
+        body:
+          "Aristotle's view of good relationship is not just comfort. It asks whether two people help each other live with more steadiness, honesty, and virtue.",
+        practice:
+          "Ask whether your reassurance pattern is building trust or training both of you to fear silence.",
+      },
+      {
+        headline: "Understand the cause to loosen the grip.",
+        body:
+          "Spinoza treats confused emotion as something that gains power in the dark. Seeing the trigger, memory, and interpretation more clearly can make the emotion less tyrannical.",
+        practice:
+          "Separate event, memory, and prediction: what happened, what it reminded me of, and what I fear will happen next.",
+      },
+    ],
+  },
+  "/love/relationship-boredom": {
+    canonicalTitle: "When a relationship feels stale",
+    metaDescription:
+      "How to think about relationship boredom, fading excitement, and whether comfort means love is gone.",
+    pageLead:
+      "A quieter relationship is not automatically a dead one, but boredom can reveal what kind of love the relationship has been living on.",
+    searchPhrases: [
+      "relationship boredom",
+      "why does my relationship feel stale",
+      "when a relationship feels stagnant",
+      "how to deal with relationship boredom",
+      "is it normal to feel bored in a relationship",
+      "does boredom mean I fell out of love",
+      "relationship feels comfortable but not exciting",
+      "relationship boredom advice",
+    ],
+    userDoors: [
+      "The relationship is comfortable, but I do not feel the same excitement.",
+      "I am afraid boredom means I chose the wrong person.",
+      "I cannot tell whether we need care, novelty, distance, or an ending.",
+      "I need to know whether love is only a feeling or also a practice.",
+    ],
+    englishCardSummaries: [
+      {
+        headline: "Love is also a practice.",
+        body:
+          "Erich Fromm shifts the question from 'am I still swept away?' to 'am I still practicing care, responsibility, respect, and knowledge?'",
+        practice:
+          "List one concrete act of care you have stopped doing. Try restoring practice before declaring the feeling gone.",
+      },
+      {
+        headline: "Check the quality of the bond.",
+        body:
+          "Aristotle distinguishes relationships of pleasure, usefulness, and character. Boredom may reveal whether the bond was built only on stimulation.",
+        practice:
+          "Ask whether you become more generous, honest, and grounded with this person, not only whether you feel excited.",
+      },
+      {
+        headline: "Notice the appetite for stimulation.",
+        body:
+          "Epicurus helps separate necessary desires from restless ones. Sometimes the problem is not the person but a craving for constant novelty.",
+        practice:
+          "Plan one shared new experience and one period of quiet rest. See which kind of lack the boredom is pointing to.",
+      },
+    ],
+  },
+  "/love/reply-anxiety": {
+    canonicalTitle: "When late replies make me anxious",
+    metaDescription:
+      "How to handle late reply anxiety by separating facts, interpretations, and reassurance loops.",
+    pageLead:
+      "A late reply is one fact. The fear built on top of it can become an entire relationship drama before the other person has said a word.",
+    searchPhrases: [
+      "late reply anxiety",
+      "anxiety waiting for a text back",
+      "anxious when someone doesn't text back",
+      "why do late replies make me anxious",
+      "overthinking text replies",
+      "does a late reply mean they lost interest",
+      "how to deal with text reply anxiety",
+      "waiting for a reply anxiety",
+    ],
+    userDoors: [
+      "I know people get busy, but a late reply still makes my chest tighten.",
+      "I keep checking the chat and imagining what their silence means.",
+      "I want to ask for reassurance, but I am afraid of sounding needy.",
+      "I need to stop turning response time into a verdict on my worth.",
+    ],
+    englishCardSummaries: [
+      {
+        headline: "Do not hand your whole day to a notification.",
+        body:
+          "Epictetus would place response timing outside your control. What remains yours is how much of your attention and conduct you give away while waiting.",
+        practice:
+          "Set a short timer and complete one concrete action before checking again.",
+      },
+      {
+        headline: "A fact is not yet a meaning.",
+        body:
+          "Marcus Aurelius trains the mind to notice its judgments. 'No reply yet' is a fact; 'I am being abandoned' is an added meaning.",
+        practice:
+          "Write fact and interpretation on separate lines. Only act on facts that are stable enough to name calmly.",
+      },
+      {
+        headline: "Stop suffering the imagined version first.",
+        body:
+          "Seneca's warning about imagined suffering fits reply anxiety closely. The mind can live through rejection several times before any answer arrives.",
+        practice:
+          "When the worst-case story starts, switch to a body-based task: walk, wash dishes, shower, stretch, or clean one small area.",
+      },
+    ],
+  },
+  "/love/relationship-values": {
+    canonicalTitle: "When relationship values clash",
+    metaDescription:
+      "How to think about value mismatch in relationships without reducing it to love versus breakup.",
+    pageLead:
+      "Value conflict is difficult because love can be real while the daily shape of life still does not fit.",
+    searchPhrases: [
+      "relationship values mismatch",
+      "different values in a relationship",
+      "when values don't align in a relationship",
+      "incompatible values relationship",
+      "core values conflict relationship",
+      "relationship value conflicts",
+      "how to deal with different values in a relationship",
+      "money family marriage values relationship",
+    ],
+    userDoors: [
+      "We care about each other, but our standards for money, family, time, or the future clash.",
+      "I cannot tell which differences are negotiable and which will keep returning.",
+      "I am afraid that love is making me minimize a real incompatibility.",
+      "I need a way to discuss values without turning the conversation into blame.",
+    ],
+    englishCardSummaries: [
+      {
+        headline: "Love lives in a shared way of life.",
+        body:
+          "Aristotle's account of friendship asks whether two people are helping each other live well. Value conflict matters because it shapes ordinary repeated choices.",
+        practice:
+          "Write four areas: money, family, time, conflict. Mark each as aligned, negotiable, or deeply opposed.",
+      },
+      {
+        headline: "Love is skill, not only feeling.",
+        body:
+          "Fromm's love includes care, responsibility, respect, and knowledge. A value clash tests whether both people can know and respect each other without forcing sameness.",
+        practice:
+          "Pick one value conflict and describe your need without saying what the other person must become.",
+      },
+      {
+        headline: "Agreement should not erase individuality.",
+        body:
+          "Mill's defense of individuality warns against peace that is really self-erasure. A relationship held together only by silence may be too expensive.",
+        practice:
+          "Ask whether you are reaching agreement, or merely becoming quiet to preserve closeness.",
+      },
+    ],
+  },
+  "/breakup/right-after": {
+    canonicalTitle: "Right after a breakup, when I fall apart",
+    metaDescription:
+      "How to get through the first shock of a breakup with meaning, steadiness, and emotional care.",
+    pageLead:
+      "Right after a breakup, the task is not to be fine. It is to keep the pain from becoming the only reality you obey.",
+    searchPhrases: [
+      "how to cope right after a breakup",
+      "what to do after a breakup",
+      "can't function after breakup",
+      "breakup pain feels unbearable",
+      "falling apart after a breakup",
+      "how to survive a breakup",
+      "first days after breakup",
+      "breakup grief advice",
+    ],
+    userDoors: [
+      "I cannot eat, focus, sleep, or believe this is real.",
+      "I keep wanting to contact them just to stop the shock.",
+      "People say time will help, but I need something for today.",
+      "I need a way to stay with the pain without letting it decide everything.",
+    ],
+    englishCardSummaries: [
+      {
+        headline: "You still have a choice of posture.",
+        body:
+          "Viktor Frankl does not minimize suffering. He points to the last freedom that can remain inside it: the attitude you choose toward what has happened.",
+        practice:
+          "Do not ask how to erase the pain today. Ask what kind of person you want to be while passing through it.",
+      },
+      {
+        headline: "This feeling is not permanent law.",
+        body:
+          "Marcus Aurelius keeps returning to change. The shock feels total, but it is still a state passing through the mind and body.",
+        practice:
+          "Use one sentence when the wave rises: this is real, and it is changing.",
+      },
+      {
+        headline: "Treat grief as something to hold, not defeat.",
+        body:
+          "Thich Nhat Hanh's mindfulness does not rush pain away. It asks you to recognize the feeling gently so it does not have to control the next action.",
+        practice:
+          "Breathe and name it plainly: sadness is here. Then choose one caring action for your body.",
+      },
+    ],
+  },
+  "/breakup/lingering": {
+    canonicalTitle: "When I cannot let go after a breakup",
+    metaDescription:
+      "How to understand lingering attachment after a breakup without letting memory become a command.",
+    pageLead:
+      "Not letting go is often less about wanting the exact relationship back and more about being held by memory, identity, and unfinished meaning.",
+    searchPhrases: [
+      "why can't i let go of someone",
+      "why can't i let go of the past",
+      "how to deal with not being able to let go",
+      "can't let go after breakup",
+      "still attached to my ex",
+      "how to let go of an ex",
+      "not being able to let go",
+      "why am I still thinking about my ex",
+    ],
+    userDoors: [
+      "The relationship is over, but my mind keeps returning to it.",
+      "I know contacting them may not help, but I still check, remember, and replay.",
+      "I cannot tell whether I miss the person, the version of myself I was, or the future I imagined.",
+      "I need to let the feeling exist without letting it pull me backward.",
+    ],
+    englishCardSummaries: [
+      {
+        headline: "Do not punish yourself twice with the past.",
+        body:
+          "Seneca's Stoic frame treats what has already happened as outside revision. The remaining work is how you judge and carry it now.",
+        practice:
+          "Draw two columns: still changeable, already gone. Put the relationship honestly where it belongs.",
+      },
+      {
+        headline: "Understanding weakens passive emotion.",
+        body:
+          "Spinoza suggests that a confused emotion rules us more easily. The more clearly you see what the longing is made of, the less blindly it commands you.",
+        practice:
+          "Complete this sentence three ways: I miss them because...",
+      },
+      {
+        headline: "Longing can be noticed without being obeyed.",
+        body:
+          "Thich Nhat Hanh's mindfulness lets grief be present without making it an order. A feeling can be real and still not be the next action.",
+        practice:
+          "When the urge to check or contact rises, name it: longing is here. Then wait ten breaths before deciding.",
+      },
+    ],
+  },
+  "/self-esteem/self-hate": {
+    canonicalTitle: "When I dislike myself",
+    metaDescription:
+      "How to think about self-hatred without treating one painful judgment as the whole truth about you.",
+    pageLead:
+      "Self-hatred feels like a fact, but it is often a painful interpretation that has become too familiar.",
+    searchPhrases: [
+      "why do I hate myself",
+      "why do I dislike myself so much",
+      "how to deal with self-hatred",
+      "self-hatred advice",
+      "why do I hate looking at myself",
+      "how to stop hating myself",
+      "feeling worthless",
+      "self-hate and shame",
+    ],
+    userDoors: [
+      "A small mistake quickly becomes proof that I am fundamentally broken.",
+      "I look at myself and feel disgust, disappointment, or shame before anything else.",
+      "Compliments do not land because my own judgment is louder.",
+      "I need to separate what happened from the sentence I keep passing on myself.",
+    ],
+    englishCardSummaries: [
+      {
+        headline: "Self-hatred is a weakened way of seeing.",
+        body:
+          "Spinoza reads destructive emotion as something that reduces our power to act. The first task is not to force positivity, but to understand the causes and structure of the feeling.",
+        practice:
+          "Rewrite one self-hating sentence as a description of what is happening: I am turning one failure into a total judgment.",
+      },
+      {
+        headline: "Even this can become material for self-overcoming.",
+        body:
+          "Nietzsche does not ask you to stay where you are. He asks you to include even the painful parts in a larger yes to life, then move from that ground.",
+        practice:
+          "Say: this too is part of me today. Then choose one small act that makes you slightly more capable than you were ten minutes ago.",
+      },
+      {
+        headline: "The judgment is yours to inspect.",
+        body:
+          "Epictetus would not treat 'I am worthless' as an external fact. It is a judgment, and judgments can be examined, challenged, and replaced.",
+        practice:
+          "When the sentence appears, label it: this is a judgment, not my entire self.",
+      },
+    ],
+  },
+  "/self-esteem/cant-accept-praise": {
+    canonicalTitle: "When I cannot accept compliments",
+    metaDescription:
+      "Why compliments can feel uncomfortable, and how to receive them without making them the basis of your worth.",
+    pageLead:
+      "Rejecting praise can feel humble, but sometimes it is a way of protecting an old negative self-image.",
+    searchPhrases: [
+      "why can't i accept compliments",
+      "why do i not accept compliments",
+      "why can't i receive compliments",
+      "how to accept compliments",
+      "compliments make me uncomfortable",
+      "not accepting compliments",
+      "why do compliments feel fake",
+      "low self-esteem compliments",
+    ],
+    userDoors: [
+      "When someone praises me, I immediately explain it away.",
+      "I feel exposed or dishonest if I simply say thank you.",
+      "Part of me wants recognition, but another part refuses to believe it.",
+      "I need a way to receive praise without becoming dependent on it.",
+    ],
+    englishCardSummaries: [
+      {
+        headline: "Praise can point to real evidence.",
+        body:
+          "Adler helps shift attention from the hunger for approval to the concrete action being recognized. The compliment is not your whole value; it is evidence about something you did.",
+        practice:
+          "Say thank you first. Later, write the specific action the compliment referred to.",
+      },
+      {
+        headline: "Know your actual power more accurately.",
+        body:
+          "Spinoza's frame is not vanity. It is adequate self-understanding. Refusing every compliment can be another form of distorted self-knowledge.",
+        practice:
+          "Ask: what ability, effort, or care was actually present here?",
+      },
+      {
+        headline: "Do not build your worth on praise either.",
+        body:
+          "Epictetus keeps praise in perspective. Another person's opinion is outside your control, so it should be received lightly, not worshiped or fought.",
+        practice:
+          "Receive the compliment as information, not as a verdict on your existence.",
+      },
+    ],
+  },
+  "/self-esteem/low-self-esteem": {
+    canonicalTitle: "When my self-esteem is low",
+    metaDescription:
+      "How to work with low self-esteem through action, self-understanding, and less dependence on outside evaluation.",
+    pageLead:
+      "Low self-esteem often feels like an identity, but it is also a pattern of attention, memory, and repeated judgment.",
+    searchPhrases: [
+      "how to deal with low self-esteem",
+      "why is my self-esteem so low",
+      "low self-esteem advice",
+      "how to build self-esteem",
+      "how to know if my self esteem is low",
+      "feeling not good enough",
+      "self-esteem and comparison",
+      "how to feel better about myself",
+    ],
+    userDoors: [
+      "I treat one bad moment as proof that I am not enough.",
+      "Other people's confidence makes me feel even smaller.",
+      "I want to feel better, but fake positivity does not help.",
+      "I need self-respect to become something I practice, not something I wait to feel.",
+    ],
+    englishCardSummaries: [
+      {
+        headline: "Inferiority can become a starting point.",
+        body:
+          "Adler does not treat inferiority as the end of the story. It can freeze you, or it can become the pressure that moves you toward contribution and growth.",
+        practice:
+          "Record three things you actually did today. Keep the evidence behavioral, not emotional.",
+      },
+      {
+        headline: "Self-respect grows with experienced ability.",
+        body:
+          "Spinoza links joy to an increase in power. A small completed action can matter because it gives the body and mind evidence of agency.",
+        practice:
+          "Finish one small task and note how you feel before and after. Let action rebuild belief slowly.",
+      },
+      {
+        headline: "Other people's opinions are unstable ground.",
+        body:
+          "Epictetus warns that reputation is not fully yours. If self-esteem depends entirely on external reaction, it will rise and fall with what you cannot control.",
+        practice:
+          "When evaluation fear appears, separate my action from their reaction.",
+      },
+    ],
+  },
+  "/work/burnout": {
+    canonicalTitle: "When I am burned out",
+    metaDescription:
+      "How to understand burnout as more than laziness, and how to begin interrupting the cycle of self-exhaustion.",
+    pageLead:
+      "Burnout is not only tiredness. It is the feeling that even rest has been absorbed into the pressure to perform.",
+    searchPhrases: [
+      "why am i burned out",
+      "how to deal with burnout",
+      "burnout at work",
+      "why am i burned out all the time",
+      "burnout advice",
+      "emotional exhaustion at work",
+      "can't recover from burnout",
+      "work burnout symptoms",
+    ],
+    userDoors: [
+      "Even rest feels like another task I am failing at.",
+      "I used to care about the work, but now everything feels heavy.",
+      "I keep blaming myself for not pushing harder.",
+      "I need to know whether the answer is discipline, rest, or changing the system around me.",
+    ],
+    englishCardSummaries: [
+      {
+        headline: "Burnout can be self-exploitation wearing a smile.",
+        body:
+          "Byung-Chul Han's frame sees burnout as a sickness of the achievement society. The command is no longer only external; we learn to drive ourselves until we break.",
+        practice:
+          "Name one expectation you have internalized as if it were your identity.",
+      },
+      {
+        headline: "Stop trying to optimize recovery.",
+        body:
+          "Laozi's wu wei suggests that forced effort can become part of the problem. Some recovery begins when you stop turning rest into another performance.",
+        practice:
+          "Choose one block of time that produces nothing and defend it without apology.",
+      },
+      {
+        headline: "Take your time back as life-material.",
+        body:
+          "Seneca treats time as the substance of life. Burnout often grows when time keeps leaking into demands that do not return meaning, rest, or dignity.",
+        practice:
+          "Divide this week into survival time, recovery time, and wasted-drain time. Change one structure, not just your attitude.",
+      },
+    ],
+  },
+  "/work/quit-or-stay": {
+    canonicalTitle: "Should I quit my job or stay?",
+    metaDescription:
+      "How to think about quitting or staying without confusing panic, endurance, responsibility, and practical wisdom.",
+    pageLead:
+      "The decision is rarely just quit or endure. It is about time, health, responsibility, preparation, and what kind of life the job is training you to accept.",
+    searchPhrases: [
+      "should I quit my job",
+      "should I stay or leave my job",
+      "when to quit a job",
+      "job burnout quit or stay",
+      "afraid to quit my job",
+      "should I quit without another job",
+      "how to decide whether to quit",
+      "work makes me miserable should I quit",
+    ],
+    userDoors: [
+      "I dread work, but quitting feels financially or socially risky.",
+      "I cannot tell whether I need courage, patience, or a better plan.",
+      "Staying feels like betraying myself; leaving feels irresponsible.",
+      "I need a decision frame that is honest about both freedom and cost.",
+    ],
+    englishCardSummaries: [
+      {
+        headline: "Ask where your life-time is going.",
+        body:
+          "Seneca's question is not simply whether the job is hard. It is whether your finite time is being spent in a way you can still call your life.",
+        practice:
+          "Track one month: time spent earning, recovering, growing, and merely enduring.",
+      },
+      {
+        headline: "Not choosing is also a choice.",
+        body:
+          "Sartre's lens makes the uncomfortable point: staying by default still shapes your life. Freedom includes the burden of owning the cost.",
+        practice:
+          "Write the cost of staying and the cost of leaving. Circle the cost you are willing to take responsibility for.",
+      },
+      {
+        headline: "Courage is not the same as impulsiveness.",
+        body:
+          "Aristotle's practical wisdom sits between cowardice and rashness. A good decision needs conditions, timing, and proportion.",
+        practice:
+          "Set a leaving threshold: savings, health, offer pipeline, skill plan, and a date for reevaluation.",
+      },
+    ],
+  },
+  "/work/not-good-enough": {
+    canonicalTitle: "When I feel bad at my job",
+    metaDescription:
+      "How to handle feeling bad at work by separating skill gaps, comparison, feedback, and fear of judgment.",
+    pageLead:
+      "Feeling bad at your job can mean several different things: a real skill gap, a harsh comparison habit, a poor environment, or fear speaking before evidence does.",
+    searchPhrases: [
+      "why do I feel like I'm bad at my job",
+      "feeling bad at my job",
+      "is it normal to feel bad at your job",
+      "how to deal with feeling incompetent at work",
+      "imposter syndrome at work",
+      "afraid of making mistakes at work",
+      "work performance anxiety",
+      "not good enough at work",
+    ],
+    userDoors: [
+      "Every mistake feels like proof that I do not belong here.",
+      "I compare myself to people who seem faster, calmer, and more competent.",
+      "I cannot tell whether I need training, feedback, rest, or a different job.",
+      "I need to turn vague shame into something I can actually improve.",
+    ],
+    englishCardSummaries: [
+      {
+        headline: "Move from comparison to contribution.",
+        body:
+          "Adler's frame shifts the question from 'am I inferior?' to 'what can I contribute and improve?' Inferiority can either paralyze or point toward growth.",
+        practice:
+          "Name one concrete contribution you made today, even if it was small.",
+      },
+      {
+        headline: "Competence is built by repeatable practice.",
+        body:
+          "Aristotle would look at habit and repetition. Skill is not proved by never failing; it is formed through feedback, correction, and repeated action.",
+        practice:
+          "Turn one large task into a small draft you can get feedback on within thirty minutes.",
+      },
+      {
+        headline: "Control preparation, not reputation.",
+        body:
+          "Epictetus separates what is yours from what is not. Others' evaluations matter practically, but your controllable part is preparation, questions, and revision.",
+        practice:
+          "Before worrying about judgment, choose three controllable actions: clarify, draft, ask, test, or revise.",
+      },
+    ],
+  },
+  "/meaning/no-motivation": {
+    canonicalTitle: "When I have no motivation",
+    metaDescription:
+      "How to approach no motivation through small action, non-forcing, and meaning that can arrive after movement.",
+    pageLead:
+      "No motivation can feel like a missing engine, but sometimes the engine starts only after the smallest possible movement.",
+    searchPhrases: [
+      "what to do when i have no motivation",
+      "why do I have no motivation",
+      "how to deal with no motivation",
+      "no motivation to do anything",
+      "can't get out of bed no motivation",
+      "nothing feels worth doing",
+      "how to start when unmotivated",
+      "low motivation advice",
+    ],
+    userDoors: [
+      "Tasks are piling up, but I cannot make myself begin.",
+      "Even things I used to care about feel flat.",
+      "Pressure makes me freeze more, but doing nothing makes me hate myself.",
+      "I need a way to start that does not require a dramatic mood change first.",
+    ],
+    englishCardSummaries: [
+      {
+        headline: "Start with the smallest self-overcoming.",
+        body:
+          "Nietzsche's language of self-overcoming can be scaled down. The first act does not have to be heroic; it only has to be a tiny movement beyond inertia.",
+        practice:
+          "Choose one action so small it feels almost silly: sit up, drink water, open the document, write one sentence.",
+      },
+      {
+        headline: "Do not squeeze a dry well.",
+        body:
+          "Laozi offers the opposite medicine: sometimes the pressure to force motivation is itself exhausting. Non-forcing can be a way to stop adding strain.",
+        practice:
+          "Remove one unnecessary demand today. Let rest be rest, not a productivity strategy.",
+      },
+      {
+        headline: "Move without waiting for guaranteed meaning.",
+        body:
+          "Camus does not require the universe to hand you a reason before you act. The act of returning to the task can itself become a form of defiance.",
+        practice:
+          "Pick today's small stone and push it once. Do not ask it to justify your whole life first.",
+      },
+    ],
+  },
+  "/meaning/dont-know-want": {
+    canonicalTitle: "When I do not know what I want",
+    metaDescription:
+      "How to think when you do not know what you want, through decision, practice, and the responsibility of freedom.",
+    pageLead:
+      "Not knowing what you want is not always emptiness. Sometimes desire becomes visible only after choices, experiments, and responsibility.",
+    searchPhrases: [
+      "why do i not know what i want",
+      "is it normal to not know what you want in life",
+      "how to know what I want",
+      "not knowing what I want",
+      "I don't know what I want in life",
+      "how to choose when I don't know what I want",
+      "career uncertainty what do I want",
+      "feeling lost about what I want",
+    ],
+    userDoors: [
+      "Other people seem to have clear desires, but I feel blank.",
+      "Every option looks possible and wrong at the same time.",
+      "I keep waiting for a true desire to appear before I act.",
+      "I need to know whether wanting is discovered, chosen, or built.",
+    ],
+    englishCardSummaries: [
+      {
+        headline: "A decision can create the path.",
+        body:
+          "Kierkegaard highlights the leap: some choices cannot be solved by more calculation. At some point, the self is formed by taking responsibility.",
+        practice:
+          "Choose one experiment for two weeks. Do not call it your destiny; call it a responsible trial.",
+      },
+      {
+        headline: "Desire is discovered in activity.",
+        body:
+          "Aristotle points toward function, practice, and excellence. You may not find what matters by thinking in the abstract; you may find it by developing capacities.",
+        practice:
+          "List three activities where your attention becomes more alive. Choose one to practice seriously for a short period.",
+      },
+      {
+        headline: "There may be no hidden essence waiting.",
+        body:
+          "Sartre's existentialism removes the guarantee of a prewritten self. That is frightening, but it also means action helps define what you want.",
+        practice:
+          "Stop asking only what you are. Ask what your next action would make you into.",
+      },
+    ],
+  },
+  "/debate/meritocracy": {
+    canonicalTitle: "Is meritocracy fair?",
+    metaDescription:
+      "A structured look at meritocracy, fairness, luck, desert, inequality, and the process by which rewards are earned.",
+    pageLead:
+      "Meritocracy feels fair because effort should matter. It becomes controversial when success starts hiding luck, family background, social structure, and unequal starting lines.",
+    searchPhrases: [
+      "meritocracy debate",
+      "is meritocracy fair",
+      "meritocracy pros and cons",
+      "arguments for and against meritocracy",
+      "meritocracy is not fair",
+      "meritocracy and inequality",
+      "the tyranny of merit",
+      "fairness of meritocracy",
+    ],
+    userDoors: [
+      "I want effort and ability to matter, but I am not sure outcomes are really earned alone.",
+      "If starting points are unequal, can competition still be fair?",
+      "Does criticizing meritocracy deny personal responsibility, or expose hidden luck?",
+      "I need the strongest case for achievement and the strongest case against meritocratic arrogance.",
+    ],
+    englishCardSummaries: [
+      {
+        headline: "Meritocracy can produce pride and humiliation.",
+        body:
+          "Michael Sandel argues that meritocratic success often teaches winners to see themselves as wholly deserving and losers as personally deficient.",
+        practice:
+          "When explaining success, include effort, luck, family, institutions, timing, and social demand.",
+      },
+      {
+        headline: "Talent is not morally earned from birth.",
+        body:
+          "Rawls does not deny talent or effort. He asks whether natural gifts and social starting points should determine life chances without correction.",
+        practice:
+          "Judge a system by what it does for people with the weakest starting position, not only by whether the rules look equal.",
+      },
+      {
+        headline: "Process still matters.",
+        body:
+          "Nozick resists judging fairness only by the final pattern of distribution. If acquisition and transfer were just, unequal outcomes may still have a rights-based defense.",
+        practice:
+          "Ask whether the inequality came from voluntary exchange, fraud, coercion, monopoly, inherited privilege, or blocked opportunity.",
+      },
+    ],
+  },
+  "/debate/ai-art": {
+    canonicalTitle: "Is AI-generated art real art?",
+    metaDescription:
+      "How to think about AI-generated art through aura, human authorship, creativity, and copyright standards.",
+    pageLead:
+      "The question is not only whether the image is beautiful. It is who, if anyone, is creating, authoring, selecting, and taking responsibility for the work.",
+    searchPhrases: [
+      "AI-generated art debate",
+      "is ai-generated art real art",
+      "AI-generated art pros and cons",
+      "arguments for and against AI-generated art",
+      "is ai art actually art",
+      "what is ai art",
+      "AI art and copyright",
+      "human authorship AI art",
+    ],
+    userDoors: [
+      "AI images can move people, but I am not sure whether that makes them art.",
+      "Prompting feels creative, but the model also seems to do something I did not make by hand.",
+      "I want to separate aesthetic value, authorship, labor, and legal ownership.",
+      "I need a frame that does not dismiss AI art too quickly or accept it too cheaply.",
+    ],
+    englishCardSummaries: [
+      {
+        headline: "Technology changes the social life of art.",
+        body:
+          "Walter Benjamin's lens helps treat AI art as more than a yes-or-no scandal. Mechanical and digital reproduction can disturb aura while also changing access, circulation, and reception.",
+        practice:
+          "Ask what changes: originality, audience, authority, labor, and the way the work is encountered.",
+      },
+      {
+        headline: "Beauty and authorship are not the same question.",
+        body:
+          "Kant's account of genius makes human creative authorship central. An AI image may be striking while still raising a separate question about who authored its rule-giving originality.",
+        practice:
+          "Separate your reaction to the image from your judgment about the creative subject behind it.",
+      },
+      {
+        headline: "Law looks for human creative contribution.",
+        body:
+          "The U.S. Copyright Office emphasizes human authorship when assessing AI-assisted work. The issue is not merely whether AI was used, but what creative control a human exercised.",
+        practice:
+          "Look for human selection, arrangement, modification, and expressive control before making a copyright or authorship claim.",
+      },
+    ],
+  },
+  "/breakup/obsession": {
+    canonicalTitle: "When I cannot stop obsessing over an ex",
+    metaDescription:
+      "How to stop obsessive thoughts after a breakup by separating control, longing, and the stories that keep replaying.",
+    pageLead:
+      "Obsession after a breakup is not proof that the relationship must return. It is often the mind trying to regain control over a loss it cannot undo.",
+    searchPhrases: [
+      "how to stop obsessing over an ex",
+      "obsessive thoughts after breakup",
+      "can't stop thinking about my ex",
+      "rumination after breakup",
+      "how to stop obsessing",
+      "why am I obsessed with my ex",
+      "how to stop checking my ex",
+      "breakup obsession advice",
+    ],
+    userDoors: [
+      "I keep replaying the relationship even though I know it is over.",
+      "I check, imagine, compare, and look for signs that there is still a chance.",
+      "The thought loop feels stronger than my decision to move on.",
+      "I need to understand the obsession without obeying it.",
+    ],
+    englishCardSummaries: [
+      {
+        headline: "You cannot think your way into control.",
+        body:
+          "Epictetus would place your ex's feelings, choices, and future outside your control. Obsession often keeps returning because the mind is trying to manage what is no longer yours to manage.",
+        practice:
+          "Write the loop in two columns: what I keep trying to know, and what I can actually choose today.",
+      },
+      {
+        headline: "Craving can be noticed without being fed.",
+        body:
+          "Thich Nhat Hanh and Buddhist practice treat craving as something to recognize gently, not something to suppress with force. The urge can be real without becoming the next action.",
+        practice:
+          "When the urge to check appears, name it: craving is here. Wait ten breaths before doing anything.",
+      },
+      {
+        headline: "Understanding the cause weakens the loop.",
+        body:
+          "Spinoza helps turn obsession from a fog into a structure. When you know what the thought is protecting, repeating, or fearing, it becomes less blindly powerful.",
+        practice:
+          "Finish this sentence three times: I keep returning to this because...",
+      },
+    ],
+  },
+  "/breakup/should-contact": {
+    canonicalTitle: "Should I contact my ex?",
+    metaDescription:
+      "How to think about texting an ex after a breakup, including grief, responsibility, control, and regret.",
+    pageLead:
+      "The urge to contact an ex can come from love, grief, habit, panic, or the need to undo discomfort. The first task is to know which one is speaking.",
+    searchPhrases: [
+      "should I contact my ex",
+      "should I text my ex after breakup",
+      "should I break no contact",
+      "urge to contact ex",
+      "no contact after breakup",
+      "texting an ex after breakup",
+      "how to know if I should contact my ex",
+      "will I regret contacting my ex",
+    ],
+    userDoors: [
+      "I want to send one message, but I do not know if it will help or reopen the wound.",
+      "Part of me wants closure; part of me wants the relationship back.",
+      "I am afraid that not contacting them means I am giving up.",
+      "I need to separate a real reason from a panic impulse.",
+    ],
+    englishCardSummaries: [
+      {
+        headline: "Grief should not make the decision alone.",
+        body:
+          "Seneca's consolation frame asks you to give sorrow room without letting sorrow govern every act. Contact can be wise, but not if it is only an attempt to stop pain for one hour.",
+        practice:
+          "Wait one full day. If the reason still sounds clear tomorrow, write the message again from calm, not urgency.",
+      },
+      {
+        headline: "Choose the regret you can own.",
+        body:
+          "Kierkegaard reminds us that clean, regret-free decisions may not exist. The question is whether you can take responsibility for the consequence of contact or silence.",
+        practice:
+          "Write both regrets: if I contact them, I may regret... If I do not, I may regret...",
+      },
+      {
+        headline: "Their response is not yours to command.",
+        body:
+          "Epictetus draws the boundary sharply. You can choose whether, when, and how to speak. You cannot choose whether the other person answers, softens, returns, or disappears.",
+        practice:
+          "Before sending anything, ask: would this still be worth sending if I received no reply?",
+      },
+    ],
+  },
+  "/breakup/ghosting": {
+    canonicalTitle: "When I have been ghosted or left on read",
+    metaDescription:
+      "How to respond to being ghosted without letting silence define your worth or control your next action.",
+    pageLead:
+      "Ghosting hurts because silence gives the mind too much empty space to fill. But the other person's avoidance is not the same as a final judgment on your value.",
+    searchPhrases: [
+      "what to do when ghosted",
+      "why did they ghost me",
+      "ghosted and left on read",
+      "how to move on after being ghosted",
+      "being left on read anxiety",
+      "ghosting after dating",
+      "should I text someone who ghosted me",
+      "how to respond to ghosting",
+    ],
+    userDoors: [
+      "The silence makes me feel disposable.",
+      "I keep checking whether they saw it, whether I did something wrong, or whether I should send one more text.",
+      "I want an explanation, but I may never get one.",
+      "I need to keep my dignity while dealing with the unanswered question.",
+    ],
+    englishCardSummaries: [
+      {
+        headline: "Take back the part that is yours.",
+        body:
+          "Epictetus would not let another person's silence own your whole day. Their reply is outside your control; your response, boundary, and next step are not.",
+        practice:
+          "Decide one boundary in advance: one final message, no final message, or a time limit after which you stop checking.",
+      },
+      {
+        headline: "Do not suffer every imagined explanation.",
+        body:
+          "Seneca's warning about imagined suffering fits ghosting exactly. The mind may invent ten humiliating explanations before any truth is known.",
+        practice:
+          "List only what is known. Do not add motives unless there is evidence.",
+      },
+      {
+        headline: "Keep your dignity in the unanswered space.",
+        body:
+          "Marcus Aurelius points attention back to character. Someone else's avoidance does not require you to abandon your own steadiness.",
+        practice:
+          "Ask what response you would still respect tomorrow, even if they never answer.",
+      },
+    ],
+  },
+  "/breakup/reunion": {
+    canonicalTitle: "Should we get back together?",
+    metaDescription:
+      "How to think about getting back with an ex by separating longing, changed habits, responsibility, and repeated patterns.",
+    pageLead:
+      "Wanting to reunite is not enough. The real question is whether the pattern that broke the relationship has changed, or whether pain is only asking for the familiar thing back.",
+    searchPhrases: [
+      "should I get back with my ex",
+      "getting back together after breakup",
+      "signs you should get back together",
+      "should we try again after breakup",
+      "is getting back with an ex a good idea",
+      "ex wants to get back together",
+      "how to know if we should try again",
+      "relationship reunion advice",
+    ],
+    userDoors: [
+      "I miss them, but I am not sure whether I miss the relationship or the idea of it.",
+      "They say things will be different this time.",
+      "I am afraid of repeating the same wound.",
+      "I need to know what must be true before trying again makes sense.",
+    ],
+    englishCardSummaries: [
+      {
+        headline: "Some regret will come either way.",
+        body:
+          "Kierkegaard helps remove the fantasy that one option will be emotionally clean. Reuniting and not reuniting can both carry regret; responsibility matters more than certainty.",
+        practice:
+          "Write the regret you can carry: trying again and failing, or not trying and wondering.",
+      },
+      {
+        headline: "Look at your own action before their promise.",
+        body:
+          "Epictetus would ask what is in your control: your boundaries, expectations, pace, and willingness to leave if the old pattern returns.",
+        practice:
+          "Name three conditions you can enforce yourself, not three promises you need from them.",
+      },
+      {
+        headline: "Repeated habits reveal the relationship.",
+        body:
+          "Aristotle's attention to habit is useful here. A reunion is not proven by emotion at the doorway; it is proven by repeated actions after the door opens.",
+        practice:
+          "Ask what concrete habit has changed, who changed it, and for how long.",
+      },
+    ],
+  },
+  "/breakup/ex-contact": {
+    canonicalTitle: "When an ex contacts me again",
+    metaDescription:
+      "How to respond when an ex texts you, without letting nostalgia, anxiety, or old regret make the decision.",
+    pageLead:
+      "A message from an ex can reopen an entire emotional room at once. The task is to answer from the present, not from the unfinished past.",
+    searchPhrases: [
+      "ex texted me what should I do",
+      "why did my ex text me",
+      "hearing from an ex after breakup",
+      "hearing from an ex after no contact",
+      "ex contact after breakup",
+      "ex reaching out after no contact",
+      "what does it mean when an ex contacts you",
+      "should I reply to my ex",
+    ],
+    userDoors: [
+      "One message brought back feelings I thought were settled.",
+      "I cannot tell whether they want closure, attention, friendship, or another chance.",
+      "Part of me wants to reply immediately; part of me knows I should slow down.",
+      "I need to respond without handing the past control over the present.",
+    ],
+    englishCardSummaries: [
+      {
+        headline: "Your first reaction is not the whole decision.",
+        body:
+          "Epictetus separates impulse from chosen response. You do not control why they wrote, but you can control whether you answer from panic, longing, or clarity.",
+        practice:
+          "Do not answer for one hour. Draft the reply, then rewrite it as if you were protecting your future self.",
+      },
+      {
+        headline: "Give time a chance to shrink the fantasy.",
+        body:
+          "Seneca's view of imagined suffering also applies to imagined hope. A message can make the mind build a whole future before anything has actually changed.",
+        practice:
+          "Write three possible motives for the message. If more than one is plausible, you do not know enough yet.",
+      },
+      {
+        headline: "Own the regret before you reply.",
+        body:
+          "Kierkegaard would ask whether you can take responsibility for the choice, including the regret it may bring. Replying and ignoring are both choices.",
+        practice:
+          "Ask: if this reopens pain, will I still respect why I chose to answer?",
+      },
+    ],
+  },
+  "/self-esteem/dating-self-esteem": {
+    canonicalTitle: "When low self-esteem shapes my dating life",
+    metaDescription:
+      "How low self-esteem changes dating, reassurance, boundaries, and the desire to be chosen.",
+    pageLead:
+      "Low self-esteem can turn dating into a test of whether you are worthy. That makes every delay, ambiguity, and rejection feel larger than the relationship itself.",
+    searchPhrases: [
+      "low self-esteem in dating",
+      "dating with low self-esteem",
+      "why do I feel not good enough in relationships",
+      "needing reassurance in dating",
+      "relationship insecurity and self-esteem",
+      "how to date with low self-esteem",
+      "fear of rejection dating",
+      "low self-worth in relationships",
+    ],
+    userDoors: [
+      "I keep waiting for the other person to prove I am lovable.",
+      "Small signs of distance feel like proof that I am not enough.",
+      "I lower my standards because being chosen feels better than being alone.",
+      "I need to date without making another person's attention my whole self-worth.",
+    ],
+    englishCardSummaries: [
+      {
+        headline: "Love is not a repair shop for self-worth.",
+        body:
+          "Erich Fromm treats mature love as an active capacity, not a solution for inner emptiness. A relationship can nourish you, but it cannot do all the work of self-respect.",
+        practice:
+          "Ask what you are hoping the other person's attention will finally prove about you.",
+      },
+      {
+        headline: "Approval hunger can choose badly.",
+        body:
+          "Adler helps name the trap: when recognition becomes the main need, you may confuse being chosen with being respected.",
+        practice:
+          "Before saying yes, ask whether this choice increases self-respect or only reduces anxiety.",
+      },
+      {
+        headline: "Do not make yourself only a means.",
+        body:
+          "Kant's humanity formula gives dating a hard boundary: you are not a tool for someone else's comfort, attention, or convenience, and neither are they.",
+        practice:
+          "Name one boundary that protects your dignity even if it risks disappointing them.",
+      },
+      {
+        headline: "Reassurance is not fully under your control.",
+        body:
+          "Epictetus would separate your conduct from another person's validation. You can ask clearly, but you cannot make reassurance the foundation of your peace.",
+        practice:
+          "Write one reassuring action you can give yourself before asking for it from someone else.",
+      },
+    ],
+  },
+  "/relationships/hurtful-words": {
+    canonicalTitle: "When hurtful words will not leave me",
+    metaDescription:
+      "How to think about words that hurt, including judgment, anger, resentment, and the choice to respond.",
+    pageLead:
+      "Some words keep echoing because they attach to a fear we already carry. The question is not only what they said, but what authority your mind keeps giving it.",
+    searchPhrases: [
+      "hurtful words will not leave me",
+      "why do hurtful words stay with me",
+      "how to stop thinking about hurtful words",
+      "someone said something hurtful",
+      "words that hurt deeply",
+      "how to respond to hurtful words",
+      "resentment after being insulted",
+      "can't forget what they said",
+    ],
+    userDoors: [
+      "I know it was just words, but I keep replaying them.",
+      "The sentence hurt because part of me fears it might be true.",
+      "I want to defend myself, forgive, confront, or move on, but I cannot tell which is right.",
+      "I need to separate the wound from the story it started inside me.",
+    ],
+    englishCardSummaries: [
+      {
+        headline: "A word needs your judgment to become a wound.",
+        body:
+          "Marcus Aurelius points to the space between event and judgment. The insult happened, but your continuing interpretation determines how long it rules the mind.",
+        practice:
+          "Write the sentence they said, then write the judgment you added after it.",
+      },
+      {
+        headline: "Anger can keep repeating the injury.",
+        body:
+          "Seneca's work on anger warns that the mind can preserve the wound by rehearsing it. Anger may feel protective while quietly extending the harm.",
+        practice:
+          "Before responding, ask whether this action repairs something or only repeats the blow.",
+      },
+      {
+        headline: "Resentment may wear the mask of strength.",
+        body:
+          "Nietzsche's account of ressentiment questions the satisfaction of holding the wound as moral superiority. The point is not to excuse harm, but to avoid becoming shaped by it.",
+        practice:
+          "Ask what this resentment is asking you to become, and whether you consent to that.",
+      },
+    ],
+  },
+  "/relationships/lonely-but-prefer-alone": {
+    canonicalTitle: "When I prefer being alone but still feel lonely",
+    metaDescription:
+      "How to understand wanting solitude while also feeling lonely, without treating either side as a defect.",
+    pageLead:
+      "Solitude and loneliness are not the same. One can protect your freedom while the other signals a real need for connection.",
+    searchPhrases: [
+      "I like being alone but feel lonely",
+      "prefer being alone but lonely",
+      "why do I feel lonely when I like solitude",
+      "solitude vs loneliness",
+      "I want connection but need space",
+      "being alone feels peaceful but lonely",
+      "how to balance solitude and friendship",
+      "lonely but don't want to socialize",
+    ],
+    userDoors: [
+      "I feel calmer alone, but sometimes the quiet starts to hurt.",
+      "Socializing drains me, yet isolation makes life feel thin.",
+      "I do not want constant contact; I want connection that does not erase my space.",
+      "I need to know whether this is independence, avoidance, or a real need for better relationships.",
+    ],
+    englishCardSummaries: [
+      {
+        headline: "Solitude can be the price of freedom.",
+        body:
+          "Schopenhauer sees solitude as a way to belong to yourself. But that does not mean every ache of loneliness is false or weak.",
+        practice:
+          "Ask whether being alone today feels like freedom, recovery, avoidance, or resignation.",
+      },
+      {
+        headline: "Human beings are not built as isolated islands.",
+        body:
+          "Aristotle reminds us that social life is part of human nature. Wanting solitude does not remove the need for some form of belonging.",
+        practice:
+          "Choose one low-drain connection: a walk, a short message, or one honest conversation.",
+      },
+      {
+        headline: "A few deep bonds can be enough.",
+        body:
+          "Epicurus values friendship not as social performance, but as one of life's great securities. The question is quality, not constant availability.",
+        practice:
+          "Name one person with whom connection feels nourishing rather than performative.",
+      },
+    ],
+  },
+  "/relationships/drifting-friends": {
+    canonicalTitle: "When friendships drift apart",
+    metaDescription:
+      "How to think about friendships fading, including change, effort, timing, and when not to force closeness.",
+    pageLead:
+      "Friendships can fade without anyone becoming the villain. The hard part is knowing when to tend the bond and when to let its season change.",
+    searchPhrases: [
+      "friendships drifting apart",
+      "why do friends drift apart",
+      "how to deal with losing friends",
+      "old friends growing apart",
+      "friendship fading",
+      "should I reconnect with an old friend",
+      "how to maintain friendships",
+      "when friendships change",
+    ],
+    userDoors: [
+      "We used to be close, and now the conversation feels thin.",
+      "I do not know whether to reach out, grieve, or accept the distance.",
+      "Part of me feels guilty for not trying harder.",
+      "I need to tell the difference between neglect and natural change.",
+    ],
+    englishCardSummaries: [
+      {
+        headline: "Change is not automatically betrayal.",
+        body:
+          "Marcus Aurelius helps make room for impermanence. A friendship changing shape can be painful without proving that it was fake.",
+        practice:
+          "Write what actually changed: time, values, distance, effort, life stage, or trust.",
+      },
+      {
+        headline: "Friendship needs active tending.",
+        body:
+          "Aristotle treats friendship as a lived practice. If the bond matters, it may need repeated acts, not only nostalgia for what it used to be.",
+        practice:
+          "Make one concrete invitation instead of waiting for the old closeness to return by itself.",
+      },
+      {
+        headline: "Do not force what is moving with life.",
+        body:
+          "Zhuangzi's lens loosens the grip. Some relationships can be honored as part of the flow without being held in their old form forever.",
+        practice:
+          "Ask whether this bond needs repair, a new rhythm, or a gentle release.",
+      },
+    ],
+  },
+  "/relationships/relationship-burnout": {
+    canonicalTitle: "When relationships feel exhausting",
+    metaDescription:
+      "How to understand relationship burnout by distinguishing care, obligation, boundaries, and emotional overextension.",
+    pageLead:
+      "Relationship burnout often appears when care has turned into constant emotional management. The goal is not to stop caring, but to stop disappearing.",
+    searchPhrases: [
+      "relationships feel exhausting",
+      "relationship burnout",
+      "social burnout relationships",
+      "tired of maintaining relationships",
+      "emotional burnout from people",
+      "how to deal with relationship burnout",
+      "friendship burnout",
+      "people exhaust me",
+    ],
+    userDoors: [
+      "Messages, expectations, and emotional needs feel like too much.",
+      "I care about people, but I feel resentful before I even reply.",
+      "I cannot tell whether I need boundaries, rest, distance, or a different kind of relationship.",
+      "I need to stop confusing love with unlimited availability.",
+    ],
+    englishCardSummaries: [
+      {
+        headline: "Not every relationship deserves the same amount of life.",
+        body:
+          "Seneca's attention to time helps sort relationships by what they ask and what they return. Care without discernment can become slow self-loss.",
+        practice:
+          "List which relationships restore, drain, obligate, or confuse you.",
+      },
+      {
+        headline: "Classify the kind of bond you are in.",
+        body:
+          "Aristotle distinguishes friendships of pleasure, usefulness, and character. Burnout can come from expecting one kind of relationship to behave like another.",
+        practice:
+          "Ask what this relationship is actually built on: affection, need, history, duty, or mutual growth.",
+      },
+      {
+        headline: "Your availability is yours to govern.",
+        body:
+          "Epictetus brings the boundary back to your own action. You may not control what others want from you, but you can decide what you can honestly give.",
+        practice:
+          "Choose one boundary that is specific: reply time, topic limit, visit length, or emotional labor you will not perform.",
+      },
+    ],
+  },
+  "/relationships/regret-words": {
+    canonicalTitle: "When I regret what I said",
+    metaDescription:
+      "How to handle regret after saying something hurtful, including apology, habit, anger, and repair.",
+    pageLead:
+      "Regretting words is painful because speech cannot be taken back. But repair is still possible when regret becomes responsibility instead of endless replay.",
+    searchPhrases: [
+      "I regret what I said",
+      "how to apologize for hurtful words",
+      "said something I regret",
+      "can't stop thinking about what I said",
+      "how to repair after saying something hurtful",
+      "why did I say that",
+      "regret after argument",
+      "how to stop replaying a conversation",
+    ],
+    userDoors: [
+      "I keep replaying the exact words and wishing I could erase them.",
+      "I do not know whether to apologize, explain, wait, or leave it alone.",
+      "My shame is loud, but I still need to think about the person I hurt.",
+      "I need to turn regret into repair without making the apology about my guilt.",
+    ],
+    englishCardSummaries: [
+      {
+        headline: "Speech is also a habit.",
+        body:
+          "Aristotle would treat a hurtful outburst not only as a single mistake, but as part of character formed by repeated action and correction.",
+        practice:
+          "Ask what habit produced the words: defensiveness, impatience, contempt, fear, or anger.",
+      },
+      {
+        headline: "Repair is your part.",
+        body:
+          "Epictetus separates what you can do from how the other person responds. A sincere apology is yours; forgiveness is not yours to demand.",
+        practice:
+          "Apologize for the specific words, name the impact, and do not ask them to comfort your guilt.",
+      },
+      {
+        headline: "Stop replaying and prevent the next fire.",
+        body:
+          "Seneca's work on anger pushes attention toward prevention. Endless replay may feel moral, but it does not repair unless it changes the next response.",
+        practice:
+          "Write the early warning sign that appears before you say the thing you later regret.",
+      },
+    ],
+  },
+};
+
+const workLifeCuratedNodes = {
+  "/work/dont-want-to": {
+    canonicalTitle: "When I do not want to do what I have to do",
+    metaDescription:
+      "How to handle resistance toward necessary work without turning one bad day into a verdict on your whole life.",
+    pageLead:
+      "Not wanting to do something necessary does not always mean you are lazy. Sometimes the mind is resisting meaninglessness, fear, fatigue, or a task that has lost its human shape.",
+    searchPhrases: [
+      "I don't want to do what I have to do",
+      "why do I avoid necessary tasks",
+      "how to do things when I don't feel like it",
+      "no motivation to do responsibilities",
+      "why do I resist work I need to do",
+      "how to start when I do not want to",
+      "I know what to do but can't do it",
+      "how to stop avoiding tasks",
+    ],
+    userDoors: [
+      "I know what I have to do, but my whole body resists it.",
+      "I cannot tell whether this is laziness, burnout, fear, or lack of meaning.",
+      "I keep waiting to feel ready, and the delay makes me more ashamed.",
+      "I need a way to begin without pretending I suddenly love the task.",
+    ],
+    englishCardSummaries: [
+      {
+        headline: "Meaning is not always given before action.",
+        body:
+          "Camus helps when a task feels absurd. The point is not to force inspiration, but to decide what kind of defiance or dignity can exist even inside repetition.",
+        practice:
+          "Choose the smallest version of the task and give it a human reason: relief, responsibility, craft, or care.",
+      },
+      {
+        headline: "Work can become a way of giving form to care.",
+        body:
+          "Kahlil Gibran's frame treats work as more than output. Even ordinary work can carry attention, service, or affection when it is done with presence.",
+        practice:
+          "Ask who benefits if this task is done well, even if the answer is only your future self.",
+      },
+      {
+        headline: "Duty can be enough for the first step.",
+        body:
+          "Confucius points toward the role and responsibility already in front of you. You may not feel desire, but you can still choose a fitting action.",
+        practice:
+          "Do ten minutes as an act of role-respect, not mood. Stop after ten if you must, but begin.",
+      },
+    ],
+  },
+  "/work/job-change": {
+    canonicalTitle: "When I am considering a career move",
+    metaDescription:
+      "How to think about a career change by separating fear, responsibility, identity, and testable next steps.",
+    pageLead:
+      "A career move is rarely only a practical choice. It also asks what kind of person you are becoming, what risk you can carry, and what evidence you still need.",
+    searchPhrases: [
+      "should I change careers",
+      "career change anxiety",
+      "how to know if I should change jobs",
+      "afraid to change careers",
+      "career move regret",
+      "how to make a career decision",
+      "should I stay in my current job",
+      "career change decision framework",
+    ],
+    userDoors: [
+      "I keep imagining a different career, but I am scared of making the wrong move.",
+      "I do not know whether I want change or just want escape.",
+      "The decision feels tied to identity, money, pride, and timing all at once.",
+      "I need a way to test the decision before I turn it into a life-or-death verdict.",
+    ],
+    englishCardSummaries: [
+      {
+        headline: "Anxiety can mean possibility, not just danger.",
+        body:
+          "Kierkegaard treats anxiety as the dizziness of freedom. A career move feels heavy because several possible selves are suddenly visible.",
+        practice:
+          "Write the two futures you fear: staying and leaving. Name what each future asks you to become.",
+      },
+      {
+        headline: "Separate the decision from the fantasy.",
+        body:
+          "Seneca would pull attention back to what can be known and done now. Imagined success and imagined disaster both need to be tested against facts.",
+        practice:
+          "List three experiments before deciding: one conversation, one small project, one budget or timeline check.",
+      },
+      {
+        headline: "Not choosing is also a choice.",
+        body:
+          "Sartre's lens refuses the comfort of pure passivity. Staying, waiting, and avoiding all shape your life too.",
+        practice:
+          "Ask what your current delay is choosing on your behalf.",
+      },
+    ],
+  },
+  "/work/unrecognized": {
+    canonicalTitle: "When I feel unrecognized",
+    metaDescription:
+      "How to think about feeling unrecognized at work without depending entirely on praise or pretending recognition does not matter.",
+    pageLead:
+      "Recognition matters because human work is not only output. But when your whole worth depends on being noticed, other people's attention becomes too powerful.",
+    searchPhrases: [
+      "feeling unrecognized at work",
+      "what to do when you feel unappreciated at work",
+      "I feel invisible at work",
+      "not getting recognition at work",
+      "how to ask for recognition at work",
+      "why do I need recognition",
+      "feeling undervalued at work",
+      "how to handle not being appreciated",
+    ],
+    userDoors: [
+      "I work hard, but nobody seems to notice.",
+      "I hate that recognition matters to me, but it does.",
+      "I cannot tell whether I need to ask clearly, change teams, or stop chasing approval.",
+      "I need to protect my dignity without pretending I am unaffected.",
+    ],
+    englishCardSummaries: [
+      {
+        headline: "Wanting recognition is not automatically weakness.",
+        body:
+          "Hegel helps explain why recognition feels so personal: we come to know ourselves partly through social acknowledgement. The need is real, even if it can become distorted.",
+        practice:
+          "Name the recognition you actually need: credit, pay, trust, title, feedback, or simple respect.",
+      },
+      {
+        headline: "Do not hand over the whole measure of your worth.",
+        body:
+          "Marcus Aurelius warns against living inside other people's applause. Recognition can matter without becoming the court that decides your value.",
+        practice:
+          "Write one standard for good work that does not require anyone to notice it today.",
+      },
+      {
+        headline: "Some value is quieter than display.",
+        body:
+          "Laozi's lens questions the hunger to be visibly elevated. The aim is not to disappear, but to notice forms of effectiveness that do not need constant performance.",
+        practice:
+          "Before demanding visibility, ask whether the next move should be clearer evidence, quieter confidence, or a direct conversation.",
+      },
+    ],
+  },
+  "/work/work-depression": {
+    canonicalTitle: "When work makes me feel depressed",
+    metaDescription:
+      "How to respond when work is affecting your mental health, including warning signs, time, meaning, and help-seeking.",
+    pageLead:
+      "When work starts to darken your whole life, the question is not only productivity. It is whether your health, time, and sense of agency are being steadily eroded.",
+    searchPhrases: [
+      "work makes me depressed",
+      "job is affecting my mental health",
+      "depressed because of work",
+      "should I quit my job for mental health",
+      "work depression symptoms",
+      "burned out or depressed from work",
+      "what to do when work makes you miserable",
+      "job depression help",
+    ],
+    userDoors: [
+      "Work is not just tiring me out; it is changing my mood outside work too.",
+      "I cannot tell whether this is burnout, depression, a bad workplace, or something deeper.",
+      "I feel guilty for struggling because I still need money and stability.",
+      "I need a way to take this seriously without making a reckless decision in panic.",
+    ],
+    englishCardSummaries: [
+      {
+        headline: "Treat the health signal as real.",
+        body:
+          "A clinical lens matters here. Persistent low mood, sleep change, loss of interest, or thoughts of self-harm are not character flaws; they are signs that deserve support.",
+        practice:
+          "If symptoms are persistent or unsafe, contact a qualified professional or local emergency support. Do not reduce this to motivation advice.",
+      },
+      {
+        headline: "Recover some ownership of time.",
+        body:
+          "Seneca's concern with wasted life becomes practical when work consumes every inner hour. Even small protected time can remind you that your life is not only the job.",
+        practice:
+          "Protect one non-work block this week and make it non-negotiable: sleep, appointment, walk, meal, or friend.",
+      },
+      {
+        headline: "Meaning may require help and options.",
+        body:
+          "Viktor Frankl does not romanticize suffering. His frame asks where agency still exists and whether support, exit plans, or a different relation to work can restore a reason to continue.",
+        practice:
+          "Write three options: support inside the job, an exit path, and one source of meaning outside work.",
+      },
+    ],
+  },
+  "/work/boss-stress": {
+    canonicalTitle: "When my boss is stressing me out",
+    metaDescription:
+      "How to respond to boss stress by separating records, communication, boundaries, and anger-driven decisions.",
+    pageLead:
+      "A difficult boss can make the whole workplace feel unsafe. The first task is to separate what is irritating, what is unfair, and what needs documented action.",
+    searchPhrases: [
+      "my boss is stressing me out",
+      "how to deal with a stressful boss",
+      "boss anxiety at work",
+      "toxic boss stress",
+      "how to talk to my boss about stress",
+      "should I quit because of my boss",
+      "manager stress advice",
+      "how to handle unfair boss",
+    ],
+    userDoors: [
+      "I feel tense before meetings or messages from my boss.",
+      "I cannot tell whether I should talk, document, escalate, endure, or leave.",
+      "I am afraid my anger will make me act too quickly.",
+      "I need a way to protect myself without losing professional clarity.",
+    ],
+    englishCardSummaries: [
+      {
+        headline: "Separate the boss from your response plan.",
+        body:
+          "Epictetus does not ask you to accept mistreatment. He asks what is still yours: records, timing, wording, boundaries, and the next professional move.",
+        practice:
+          "Document facts for one week: date, request, impact, and your response. Keep interpretation separate.",
+      },
+      {
+        headline: "Make the problem concrete enough to discuss.",
+        body:
+          "Aristotle's practical judgment favors specificity. 'My boss is awful' may be true emotionally, but action needs a clearer description.",
+        practice:
+          "Turn the stress into one discussable sentence: when X happens, it affects Y, and I need Z.",
+      },
+      {
+        headline: "Do not let anger choose the timing.",
+        body:
+          "Seneca warns that anger often feels like strength while narrowing judgment. A decision made in fury may cost more than a decision made after evidence.",
+        practice:
+          "Before sending a message or resigning, wait one sleep cycle unless there is immediate safety or legal risk.",
+      },
+    ],
+  },
+  "/work/workplace-relationships": {
+    canonicalTitle: "When workplace relationships are hard",
+    metaDescription:
+      "How to navigate difficult workplace relationships by separating roles, friendliness, boundaries, and real cooperation.",
+    pageLead:
+      "Workplace relationships are strange because they are human and institutional at the same time. You may need warmth, but you also need role clarity.",
+    searchPhrases: [
+      "workplace relationships are hard",
+      "how to deal with coworkers",
+      "coworker relationship stress",
+      "how friendly should I be at work",
+      "office politics anxiety",
+      "workplace boundaries with coworkers",
+      "how to handle difficult coworkers",
+      "work relationships advice",
+    ],
+    userDoors: [
+      "I do not know how close or distant I should be with coworkers.",
+      "Small conflicts at work feel bigger because I have to see these people every day.",
+      "I want to be kind, but I do not want to become emotionally trapped.",
+      "I need a way to cooperate without confusing coworkers with chosen friends.",
+    ],
+    englishCardSummaries: [
+      {
+        headline: "Distance can be a professional skill.",
+        body:
+          "Epictetus helps protect the line between another person's behavior and your own conduct. You can be respectful without absorbing every mood around you.",
+        practice:
+          "Choose one boundary: less gossip, clearer reply time, fewer emotional explanations, or a more neutral tone.",
+      },
+      {
+        headline: "Aim for fitting friendliness.",
+        body:
+          "Aristotle would not make every bond intimate. Good conduct at work may mean reliable, fair, and pleasant rather than deeply personal.",
+        practice:
+          "Ask what this relationship actually requires for good work, not what would make everyone like you.",
+      },
+      {
+        headline: "Separate personhood from role.",
+        body:
+          "Hannah Arendt's distinctions help here: work roles can organize action without defining the whole person. Many conflicts become clearer when role and identity are not fused.",
+        practice:
+          "Before reacting, ask whether the issue is personal dislike, role confusion, unclear responsibility, or broken process.",
+      },
+    ],
+  },
+  "/work/work-skepticism": {
+    canonicalTitle: "When work feels pointless",
+    metaDescription:
+      "How to think when work feels pointless, comparing meaning, absurdity, time, and activity-based purpose.",
+    pageLead:
+      "When work feels pointless, the danger is not only boredom. It is the slow belief that your days are being spent on something that cannot justify the life it takes.",
+    searchPhrases: [
+      "work feels pointless",
+      "my job feels meaningless",
+      "why does work feel so pointless",
+      "how to find meaning in work",
+      "meaningless job anxiety",
+      "I don't see the point of working",
+      "work existential crisis",
+      "what to do when your job feels meaningless",
+    ],
+    userDoors: [
+      "I can do the job, but I do not believe in it.",
+      "I keep asking whether this is adult life or a sign that I need to change direction.",
+      "The work may be stable, but it feels empty.",
+      "I need a way to distinguish temporary fatigue from a deeper loss of meaning.",
+    ],
+    englishCardSummaries: [
+      {
+        headline: "Meaning is sometimes discovered in responsibility.",
+        body:
+          "Viktor Frankl shifts the question from 'Does this work feel inspiring?' to 'What does this situation ask of me, and where can I still answer?'",
+        practice:
+          "Name one responsibility in the work that still feels ethically or personally real.",
+      },
+      {
+        headline: "Absurdity does not have to end action.",
+        body:
+          "Camus is useful when the system itself feels empty. His answer is not comfort, but lucid resistance: act without lying about the absurdity.",
+        practice:
+          "Ask what form of honest resistance is available: craft, humor, refusal, exit planning, or protecting life outside work.",
+      },
+      {
+        headline: "Time is the real cost.",
+        body:
+          "Seneca would ask whether the job consumes your life without your consent. A pointless job becomes more dangerous when it captures all your remaining attention.",
+        practice:
+          "Calculate the actual time cost, including recovery time. Then decide what part of life must be protected.",
+      },
+      {
+        headline: "Purpose can be tested through activity.",
+        body:
+          "Aristotle brings meaning down from abstraction. A life is shaped by repeated activity, so the question is what this work trains you to become.",
+        practice:
+          "Ask what habit this job is building in you: skill, patience, numbness, courage, cynicism, or service.",
+      },
+    ],
+  },
+  "/money/future-anxiety": {
+    canonicalTitle: "When money and the future make me anxious",
+    metaDescription:
+      "How to think about money anxiety by separating real risk, imagined disaster, needs, comparison, and one small decision.",
+    pageLead:
+      "Money anxiety is powerful because it mixes survival, comparison, uncertainty, and imagined futures. The goal is not blind optimism; it is to make the fear specific enough to act on.",
+    searchPhrases: [
+      "money and future anxiety",
+      "financial anxiety about the future",
+      "I am worried about money all the time",
+      "how to deal with money anxiety",
+      "future financial insecurity",
+      "anxious about not having enough money",
+      "money stress and overthinking",
+      "how to stop panicking about the future",
+    ],
+    userDoors: [
+      "I keep imagining a future where I cannot survive or catch up.",
+      "Even when nothing has happened yet, money fear makes the present feel unsafe.",
+      "I cannot tell what is a real financial problem and what is comparison or panic.",
+      "I need one concrete move that reduces confusion instead of feeding the fear.",
+    ],
+    englishCardSummaries: [
+      {
+        headline: "Separate imagined ruin from present facts.",
+        body:
+          "Seneca is helpful when the mind starts living through future disaster before it arrives. Fear becomes more workable when it is written in numbers and dates.",
+        practice:
+          "Write the actual amount, deadline, and risk. Then write the imagined catastrophe separately.",
+      },
+      {
+        headline: "Needs and endless wanting are not the same problem.",
+        body:
+          "Epicurus does not dismiss money; he distinguishes necessary security from desires that grow through comparison. The distinction can reduce panic.",
+        practice:
+          "Make three lists: essentials, important comforts, and comparison-driven wants.",
+      },
+      {
+        headline: "Choose one small commitment instead of total certainty.",
+        body:
+          "Kierkegaard's decision lens fits future anxiety because no plan removes all uncertainty. A small responsible commitment can be better than endless forecasting.",
+        practice:
+          "Choose one financial action for this week: track, cancel, save, ask, learn, or schedule.",
+      },
+    ],
+  },
+  "/study/cant-study": {
+    canonicalTitle: "When I cannot study",
+    metaDescription:
+      "How to restart studying by separating identity judgment, controllable setup, fear, and repeatable habit.",
+    pageLead:
+      "Not being able to study often becomes a judgment about your whole character. It is usually better treated as a system problem: attention, fear, environment, and the first repeatable action.",
+    searchPhrases: [
+      "I cannot study",
+      "why can't I study",
+      "how to start studying when I can't focus",
+      "no motivation to study",
+      "I know I need to study but can't",
+      "study procrastination",
+      "how to study when anxious",
+      "can't focus on studying",
+    ],
+    userDoors: [
+      "I sit down to study and immediately escape.",
+      "The more I delay, the more the subject feels impossible.",
+      "I start calling myself lazy instead of understanding what is blocking me.",
+      "I need a first step that is small enough to actually repeat.",
+    ],
+    englishCardSummaries: [
+      {
+        headline: "Make studying a habit before making it heroic.",
+        body:
+          "Aristotle would look for repeated action, not a dramatic mood. Study becomes part of character through small, stable routines.",
+        practice:
+          "Use a fixed start ritual: same place, same first material, same ten-minute opening block.",
+      },
+      {
+        headline: "Start with what belongs to you.",
+        body:
+          "Epictetus separates outcome from action. You cannot control the final score today, but you can control one prepared environment and one focused interval.",
+        practice:
+          "Remove one distraction, set one timer, and define one page or problem as today's controllable unit.",
+      },
+      {
+        headline: "Reduce the imagined catastrophe.",
+        body:
+          "Seneca helps when study avoidance is driven by fear. The subject may feel unbearable because the mind has already attached failure, shame, and future ruin to it.",
+        practice:
+          "Write the feared outcome, then write the next smallest study action that does not require solving your whole future.",
+      },
+    ],
+  },
+  "/study/exam-anxiety": {
+    canonicalTitle: "When exam anxiety is high",
+    metaDescription:
+      "How to handle exam anxiety by focusing on controllable preparation, routine, and reducing catastrophic imagination.",
+    pageLead:
+      "Exam anxiety turns one event into a verdict on your future self. The answer is not to pretend the result does not matter, but to bring attention back to preparation that can actually be done.",
+    searchPhrases: [
+      "exam anxiety",
+      "how to deal with exam anxiety",
+      "test anxiety before exam",
+      "panic before exam",
+      "fear of failing exam",
+      "how to calm exam anxiety",
+      "exam stress and overthinking",
+      "anxious during exams",
+    ],
+    userDoors: [
+      "The exam feels like it will decide everything.",
+      "I know I should study, but anxiety makes me freeze or overthink.",
+      "I cannot tell the difference between useful preparation and panic rituals.",
+      "I need a routine that makes the next hour clearer.",
+    ],
+    englishCardSummaries: [
+      {
+        headline: "Prepare what is yours; release what is not.",
+        body:
+          "Epictetus is direct here: the result is influenced by you but not owned by you. Your preparation, sleep, timing, and conduct are closer to your control.",
+        practice:
+          "Make a two-column list: controllable before exam day, not fully controllable. Study only from the first column today.",
+      },
+      {
+        headline: "Routine lowers the size of the threat.",
+        body:
+          "Aristotle's habit lens turns anxiety into repeated preparation. A stable routine makes performance less dependent on panic or inspiration.",
+        practice:
+          "Use the same pre-exam sequence for three days: review, practice, stop time, sleep cue.",
+      },
+      {
+        headline: "Catastrophe is not the same as prediction.",
+        body:
+          "Seneca would ask the fear to become specific. Many exam fears are huge because they are vague.",
+        practice:
+          "Write the worst fear in one sentence, then write the most likely outcome and the repair plan if the result is bad.",
+      },
+    ],
+  },
+  "/digital/dopamine-addiction": {
+    canonicalTitle: "When I want to break phone and dopamine loops",
+    metaDescription:
+      "How to break phone and dopamine loops by changing environment, first reactions, and protected time.",
+    pageLead:
+      "Phone loops are not only a willpower problem. They are designed around attention, reward, boredom, and friction. Change becomes easier when the environment stops helping the habit.",
+    searchPhrases: [
+      "phone dopamine addiction",
+      "how to break dopamine addiction",
+      "how to stop scrolling",
+      "phone addiction and dopamine",
+      "dopamine detox phone",
+      "can't stop checking my phone",
+      "how to reduce phone use",
+      "social media dopamine loop",
+    ],
+    userDoors: [
+      "I pick up my phone before I even decide to.",
+      "I lose time scrolling and then feel foggy or ashamed.",
+      "I know willpower is not enough, but I do not know what to change first.",
+      "I need a practical way to interrupt the loop without turning it into self-hatred.",
+    ],
+    englishCardSummaries: [
+      {
+        headline: "Change the environment before judging the self.",
+        body:
+          "Aristotle's habit lens is very practical here. Repeated behavior follows cues, rewards, and surroundings; character is trained through repeated setup.",
+        practice:
+          "Move the most addictive app off the home screen, disable one notification group, and put the phone outside reach for one routine.",
+      },
+      {
+        headline: "Catch the first impulse.",
+        body:
+          "Epictetus brings attention to the first impression: the tiny moment when the phone seems necessary. That moment can be paused before it becomes action.",
+        practice:
+          "When you reach for the phone, say what you are seeking: relief, novelty, avoidance, connection, or boredom escape.",
+      },
+      {
+        headline: "Protect time as a living resource.",
+        body:
+          "Seneca would treat scattered attention as a life-cost, not a small vice. The issue is not moral purity; it is whether your hours remain yours.",
+        practice:
+          "Protect one phone-free block every day and attach it to a real activity: meal, commute, reading, walk, or sleep preparation.",
+      },
+    ],
+  },
+};
+
+const allCuratedNodes = {
+  ...curatedNodes,
+  ...workLifeCuratedNodes,
+};
+
+const nextData = {
+  ...seedData,
+  nodes: seedData.nodes.map((node) => {
+    const curated = allCuratedNodes[node.route];
+    if (!curated) return node;
+
+    return {
+      ...node,
+      ...curated,
+      translationStatus: "curated-seed",
+      englishCuration: {
+        level: "priority-human-readable-seed",
+        curatedAt,
+        note: "English search phrases, user doors, and card summaries were rewritten for readable English pages.",
+      },
+    };
+  }),
+};
+
+writeFileSync(seedPath, `${JSON.stringify(nextData, null, 2)}\n`, "utf8");
+
+console.log(`Curated English priority nodes: ${Object.keys(allCuratedNodes).length}`);

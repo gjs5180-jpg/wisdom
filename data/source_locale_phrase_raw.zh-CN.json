@@ -1,0 +1,3540 @@
+{
+  "collectedAt": "2026-06-21T13:20:41.632Z",
+  "locale": "zh-CN",
+  "sourceStatus": "active-source",
+  "nodesScanned": 38,
+  "totalCandidatePhrases": 225,
+  "totalUsableCandidatePhrases": 207,
+  "totalReviewCandidatePhrases": 9,
+  "totalLowSignalCandidatePhrases": 9,
+  "clusterHints": {
+    "family/family-of-origin": 1,
+    "study/exam-pressure": 1,
+    "debate/childfree-identity": 1
+  },
+  "rows": [
+    {
+      "locale": "zh-CN",
+      "route": "/thought/good-life",
+      "slot": "good-life",
+      "axis": "thought",
+      "sourceQueries": [
+        "怎样才算好的人生",
+        "人应该怎样生活",
+        "人生最重要的是什么",
+        "活着的意义是什么"
+      ],
+      "baseQueries": [
+        "怎样才算好的人生",
+        "人应该怎样生活",
+        "人生最重要的是什么",
+        "活着的意义是什么"
+      ],
+      "googleSuggestions": [
+        "人生最重要的是什么",
+        "活着的意义是什么",
+        "活着的意义是什么 英文"
+      ],
+      "candidatePhrases": [
+        "怎样才算好的人生",
+        "人应该怎样生活",
+        "人生最重要的是什么",
+        "活着的意义是什么",
+        "活着的意义是什么 英文"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "怎样才算好的人生",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人应该怎样生活",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人生最重要的是什么",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "活着的意义是什么",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "活着的意义是什么 英文",
+          "status": "low-signal",
+          "reasons": [
+            "translation or language lookup"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "怎样才算好的人生",
+        "人应该怎样生活",
+        "人生最重要的是什么",
+        "活着的意义是什么"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [
+        "活着的意义是什么 英文"
+      ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/thought/happiness",
+      "slot": "happiness",
+      "axis": "thought",
+      "sourceQueries": [
+        "幸福是什么",
+        "怎样才能快乐",
+        "有钱就会幸福吗",
+        "感觉不到幸福"
+      ],
+      "baseQueries": [
+        "幸福是什么",
+        "怎样才能快乐",
+        "有钱就会幸福吗",
+        "感觉不到幸福"
+      ],
+      "googleSuggestions": [
+        "幸福是什么",
+        "幸福是什么歌词",
+        "幸福是什么感觉",
+        "幸福是什么意思",
+        "幸福是什么名言",
+        "幸福是什么词",
+        "幸福是什么 绘本",
+        "幸福是什么dcard",
+        "幸福是什么呢",
+        "幸福是什么颜色",
+        "怎样才能快乐",
+        "感觉不到幸福"
+      ],
+      "candidatePhrases": [
+        "幸福是什么",
+        "怎样才能快乐",
+        "有钱就会幸福吗",
+        "感觉不到幸福",
+        "幸福是什么歌词",
+        "幸福是什么感觉",
+        "幸福是什么意思",
+        "幸福是什么名言",
+        "幸福是什么词",
+        "幸福是什么 绘本",
+        "幸福是什么dcard",
+        "幸福是什么呢",
+        "幸福是什么颜色"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "幸福是什么",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "怎样才能快乐",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "有钱就会幸福吗",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "感觉不到幸福",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "幸福是什么歌词",
+          "status": "low-signal",
+          "reasons": [
+            "entertainment lookup"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "幸福是什么感觉",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "幸福是什么意思",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "幸福是什么名言",
+          "status": "review",
+          "reasons": [
+            "reference or concept query",
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "幸福是什么词",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "幸福是什么 绘本",
+          "status": "low-signal",
+          "reasons": [
+            "entertainment lookup"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "幸福是什么dcard",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "幸福是什么呢",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "幸福是什么颜色",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "幸福是什么",
+        "怎样才能快乐",
+        "有钱就会幸福吗",
+        "感觉不到幸福",
+        "幸福是什么感觉",
+        "幸福是什么dcard",
+        "幸福是什么呢",
+        "幸福是什么颜色"
+      ],
+      "reviewCandidatePhrases": [
+        "幸福是什么意思",
+        "幸福是什么名言",
+        "幸福是什么词"
+      ],
+      "lowSignalCandidatePhrases": [
+        "幸福是什么歌词",
+        "幸福是什么 绘本"
+      ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/thought/success",
+      "slot": "success",
+      "axis": "thought",
+      "sourceQueries": [
+        "成功是什么",
+        "怎样才算成功",
+        "成功和幸福的区别",
+        "人生一定要成功吗"
+      ],
+      "baseQueries": [
+        "成功是什么",
+        "怎样才算成功",
+        "成功和幸福的区别",
+        "人生一定要成功吗"
+      ],
+      "googleSuggestions": [
+        "成功是什么",
+        "成功是什么词",
+        "成功是什么词性",
+        "成功是什么意思",
+        "怎样才算成功"
+      ],
+      "candidatePhrases": [
+        "成功是什么",
+        "怎样才算成功",
+        "成功和幸福的区别",
+        "人生一定要成功吗",
+        "成功是什么词",
+        "成功是什么词性",
+        "成功是什么意思"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "成功是什么",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "怎样才算成功",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "成功和幸福的区别",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人生一定要成功吗",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "成功是什么词",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "成功是什么词性",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "成功是什么意思",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "成功是什么",
+        "怎样才算成功",
+        "成功和幸福的区别",
+        "人生一定要成功吗"
+      ],
+      "reviewCandidatePhrases": [
+        "成功是什么词",
+        "成功是什么词性",
+        "成功是什么意思"
+      ],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/thought/freedom",
+      "slot": "freedom",
+      "axis": "thought",
+      "sourceQueries": [
+        "自由是什么",
+        "想自由地生活",
+        "自由和责任",
+        "怎样做自己"
+      ],
+      "baseQueries": [
+        "自由是什么",
+        "想自由地生活",
+        "自由和责任",
+        "怎样做自己"
+      ],
+      "googleSuggestions": [
+        "自由是什么",
+        "自由是什么意思",
+        "自由是什么 书",
+        "进击的巨人 自由是什么"
+      ],
+      "candidatePhrases": [
+        "自由是什么",
+        "想自由地生活",
+        "自由和责任",
+        "怎样做自己",
+        "自由是什么意思",
+        "自由是什么 书",
+        "进击的巨人 自由是什么"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "自由是什么",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "想自由地生活",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自由和责任",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "怎样做自己",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自由是什么意思",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自由是什么 书",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "进击的巨人 自由是什么",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "自由是什么",
+        "想自由地生活",
+        "自由和责任",
+        "怎样做自己",
+        "自由是什么 书",
+        "进击的巨人 自由是什么"
+      ],
+      "reviewCandidatePhrases": [
+        "自由是什么意思"
+      ],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/love/cant-confess",
+      "slot": "love/cant-confess",
+      "axis": "worry",
+      "sourceQueries": [
+        "不敢表白",
+        "喜欢的人 不敢表白",
+        "表白怕失去朋友",
+        "感情说不出口"
+      ],
+      "baseQueries": [
+        "不敢表白",
+        "喜欢的人 不敢表白",
+        "表白怕失去朋友",
+        "感情说不出口"
+      ],
+      "googleSuggestions": [
+        "不敢表白",
+        "不敢表白 歌"
+      ],
+      "candidatePhrases": [
+        "不敢表白",
+        "喜欢的人 不敢表白",
+        "表白怕失去朋友",
+        "感情说不出口",
+        "不敢表白 歌"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "不敢表白",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "喜欢的人 不敢表白",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "表白怕失去朋友",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "感情说不出口",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "不敢表白 歌",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "不敢表白",
+        "喜欢的人 不敢表白",
+        "表白怕失去朋友",
+        "感情说不出口",
+        "不敢表白 歌"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/love/reply-anxiety",
+      "slot": "love/reply-anxiety",
+      "axis": "worry",
+      "sourceQueries": [
+        "不回消息很焦虑",
+        "已读不回怎么办",
+        "喜欢的人回复很慢",
+        "微信不回消息 不安"
+      ],
+      "baseQueries": [
+        "不回消息很焦虑",
+        "已读不回怎么办",
+        "喜欢的人回复很慢",
+        "微信不回消息 不安"
+      ],
+      "googleSuggestions": [
+        "已读不回怎么办"
+      ],
+      "candidatePhrases": [
+        "不回消息很焦虑",
+        "已读不回怎么办",
+        "喜欢的人回复很慢",
+        "微信不回消息 不安"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "不回消息很焦虑",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "已读不回怎么办",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "喜欢的人回复很慢",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "微信不回消息 不安",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "不回消息很焦虑",
+        "已读不回怎么办",
+        "喜欢的人回复很慢",
+        "微信不回消息 不安"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/love/attachment-anxiety",
+      "slot": "love/attachment-anxiety",
+      "axis": "worry",
+      "sourceQueries": [
+        "恋爱中总是不安",
+        "害怕被抛弃 恋爱",
+        "对象不联系我很焦虑",
+        "恋爱依赖怎么戒掉"
+      ],
+      "baseQueries": [
+        "恋爱中总是不安",
+        "害怕被抛弃 恋爱",
+        "对象不联系我很焦虑",
+        "恋爱依赖怎么戒掉"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "恋爱中总是不安",
+        "害怕被抛弃 恋爱",
+        "对象不联系我很焦虑",
+        "恋爱依赖怎么戒掉"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "恋爱中总是不安",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "害怕被抛弃 恋爱",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "对象不联系我很焦虑",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "恋爱依赖怎么戒掉",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "恋爱中总是不安",
+        "害怕被抛弃 恋爱",
+        "对象不联系我很焦虑",
+        "恋爱依赖怎么戒掉"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/love/relationship-values",
+      "slot": "love/relationship-values",
+      "axis": "worry",
+      "sourceQueries": [
+        "恋爱价值观不合",
+        "结婚价值观不同",
+        "和对象三观不合",
+        "很喜欢但价值观不合"
+      ],
+      "baseQueries": [
+        "恋爱价值观不合",
+        "结婚价值观不同",
+        "和对象三观不合",
+        "很喜欢但价值观不合"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "恋爱价值观不合",
+        "结婚价值观不同",
+        "和对象三观不合",
+        "很喜欢但价值观不合"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "恋爱价值观不合",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "结婚价值观不同",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "和对象三观不合",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "很喜欢但价值观不合",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "恋爱价值观不合",
+        "结婚价值观不同",
+        "和对象三观不合",
+        "很喜欢但价值观不合"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/breakup/lingering",
+      "slot": "breakup/lingering",
+      "axis": "worry",
+      "sourceQueries": [
+        "忘不掉前任",
+        "失恋走不出来",
+        "放不下前任怎么办",
+        "分手后总想起对方"
+      ],
+      "baseQueries": [
+        "忘不掉前任",
+        "失恋走不出来",
+        "放不下前任怎么办",
+        "分手后总想起对方"
+      ],
+      "googleSuggestions": [
+        "忘不掉前任怎么办",
+        "忘不掉前任",
+        "忘不掉前任 dcard",
+        "失恋走不出来",
+        "失恋走不出来dcard",
+        "放不下前任怎么办"
+      ],
+      "candidatePhrases": [
+        "忘不掉前任",
+        "失恋走不出来",
+        "放不下前任怎么办",
+        "分手后总想起对方",
+        "忘不掉前任怎么办",
+        "忘不掉前任 dcard",
+        "失恋走不出来dcard"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "忘不掉前任",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "失恋走不出来",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "放不下前任怎么办",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "分手后总想起对方",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "忘不掉前任怎么办",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "忘不掉前任 dcard",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "失恋走不出来dcard",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "忘不掉前任",
+        "失恋走不出来",
+        "放不下前任怎么办",
+        "分手后总想起对方",
+        "忘不掉前任怎么办",
+        "忘不掉前任 dcard",
+        "失恋走不出来dcard"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/breakup/should-contact",
+      "slot": "breakup/should-contact",
+      "axis": "worry",
+      "sourceQueries": [
+        "想联系前任",
+        "分手后要不要联系",
+        "复合要不要主动联系",
+        "前任联系我怎么办"
+      ],
+      "baseQueries": [
+        "想联系前任",
+        "分手后要不要联系",
+        "复合要不要主动联系",
+        "前任联系我怎么办"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "想联系前任",
+        "分手后要不要联系",
+        "复合要不要主动联系",
+        "前任联系我怎么办"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "想联系前任",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "分手后要不要联系",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "复合要不要主动联系",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "前任联系我怎么办",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "想联系前任",
+        "分手后要不要联系",
+        "复合要不要主动联系",
+        "前任联系我怎么办"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/breakup/ghosting",
+      "slot": "breakup/ghosting",
+      "axis": "worry",
+      "sourceQueries": [
+        "突然不回消息 恋爱",
+        "被冷暴力分手",
+        "感情里突然消失",
+        "暧昧对象不回消息"
+      ],
+      "baseQueries": [
+        "突然不回消息 恋爱",
+        "被冷暴力分手",
+        "感情里突然消失",
+        "暧昧对象不回消息"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "突然不回消息 恋爱",
+        "被冷暴力分手",
+        "感情里突然消失",
+        "暧昧对象不回消息"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "突然不回消息 恋爱",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "被冷暴力分手",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "感情里突然消失",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "暧昧对象不回消息",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "突然不回消息 恋爱",
+        "被冷暴力分手",
+        "感情里突然消失",
+        "暧昧对象不回消息"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/self-esteem/comparing",
+      "slot": "self-esteem/comparing",
+      "axis": "worry",
+      "sourceQueries": [
+        "总是和别人比较",
+        "刷朋友圈很自卑",
+        "看到别人成功很焦虑",
+        "不想和别人比较"
+      ],
+      "baseQueries": [
+        "总是和别人比较",
+        "刷朋友圈很自卑",
+        "看到别人成功很焦虑",
+        "不想和别人比较"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "总是和别人比较",
+        "刷朋友圈很自卑",
+        "看到别人成功很焦虑",
+        "不想和别人比较"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "总是和别人比较",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "刷朋友圈很自卑",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "看到别人成功很焦虑",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "不想和别人比较",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "总是和别人比较",
+        "刷朋友圈很自卑",
+        "看到别人成功很焦虑",
+        "不想和别人比较"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/self-esteem/low-self-esteem",
+      "slot": "self-esteem/low-self-esteem",
+      "axis": "worry",
+      "sourceQueries": [
+        "自尊心低怎么办",
+        "觉得自己很差",
+        "不喜欢自己怎么办",
+        "没有自信怎么办"
+      ],
+      "baseQueries": [
+        "自尊心低怎么办",
+        "觉得自己很差",
+        "不喜欢自己怎么办",
+        "没有自信怎么办"
+      ],
+      "googleSuggestions": [
+        "觉得自己很差",
+        "觉得自己很差劲",
+        "没有自信怎么办"
+      ],
+      "candidatePhrases": [
+        "自尊心低怎么办",
+        "觉得自己很差",
+        "不喜欢自己怎么办",
+        "没有自信怎么办",
+        "觉得自己很差劲"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "自尊心低怎么办",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "觉得自己很差",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "不喜欢自己怎么办",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "没有自信怎么办",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "觉得自己很差劲",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "自尊心低怎么办",
+        "觉得自己很差",
+        "不喜欢自己怎么办",
+        "没有自信怎么办",
+        "觉得自己很差劲"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/relationships/cant-say-no",
+      "slot": "relationships/cant-say-no",
+      "axis": "worry",
+      "sourceQueries": [
+        "不会拒绝别人",
+        "不敢说不怎么办",
+        "总是讨好别人",
+        "怕别人不高兴"
+      ],
+      "baseQueries": [
+        "不会拒绝别人",
+        "不敢说不怎么办",
+        "总是讨好别人",
+        "怕别人不高兴"
+      ],
+      "googleSuggestions": [
+        "不会拒绝别人的星座",
+        "不会拒绝别人"
+      ],
+      "candidatePhrases": [
+        "不会拒绝别人",
+        "不敢说不怎么办",
+        "总是讨好别人",
+        "怕别人不高兴",
+        "不会拒绝别人的星座"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "不会拒绝别人",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "不敢说不怎么办",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "总是讨好别人",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "怕别人不高兴",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "不会拒绝别人的星座",
+          "status": "low-signal",
+          "reasons": [
+            "fortune-telling / diagnosis drift"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "不会拒绝别人",
+        "不敢说不怎么办",
+        "总是讨好别人",
+        "怕别人不高兴"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [
+        "不会拒绝别人的星座"
+      ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/relationships/lonely-but-prefer-alone",
+      "slot": "relationships/lonely-but-prefer-alone",
+      "axis": "worry",
+      "sourceQueries": [
+        "一个人很舒服但孤独",
+        "喜欢独处但会寂寞",
+        "孤独感怎么办",
+        "不想社交又怕孤独"
+      ],
+      "baseQueries": [
+        "一个人很舒服但孤独",
+        "喜欢独处但会寂寞",
+        "孤独感怎么办",
+        "不想社交又怕孤独"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "一个人很舒服但孤独",
+        "喜欢独处但会寂寞",
+        "孤独感怎么办",
+        "不想社交又怕孤独"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "一个人很舒服但孤独",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "喜欢独处但会寂寞",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "孤独感怎么办",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "不想社交又怕孤独",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "一个人很舒服但孤独",
+        "喜欢独处但会寂寞",
+        "孤独感怎么办",
+        "不想社交又怕孤独"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/relationships/drifting-friends",
+      "slot": "relationships/drifting-friends",
+      "axis": "worry",
+      "sourceQueries": [
+        "朋友渐行渐远",
+        "和朋友疏远怎么办",
+        "成年后朋友越来越少",
+        "友情变淡了"
+      ],
+      "baseQueries": [
+        "朋友渐行渐远",
+        "和朋友疏远怎么办",
+        "成年后朋友越来越少",
+        "友情变淡了"
+      ],
+      "googleSuggestions": [
+        "朋友渐行渐远dcard",
+        "朋友渐行渐远",
+        "为什么人越大 朋友渐行渐远"
+      ],
+      "candidatePhrases": [
+        "朋友渐行渐远",
+        "和朋友疏远怎么办",
+        "成年后朋友越来越少",
+        "友情变淡了",
+        "朋友渐行渐远dcard",
+        "为什么人越大 朋友渐行渐远"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "朋友渐行渐远",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "和朋友疏远怎么办",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "成年后朋友越来越少",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "友情变淡了",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "朋友渐行渐远dcard",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "为什么人越大 朋友渐行渐远",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "朋友渐行渐远",
+        "和朋友疏远怎么办",
+        "成年后朋友越来越少",
+        "友情变淡了",
+        "朋友渐行渐远dcard",
+        "为什么人越大 朋友渐行渐远"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/work/dont-want-to",
+      "slot": "work/dont-want-to",
+      "axis": "worry",
+      "sourceQueries": [
+        "不想上班怎么办",
+        "每天都不想工作",
+        "讨厌上班怎么办",
+        "不想工作但需要钱"
+      ],
+      "baseQueries": [
+        "不想上班怎么办",
+        "每天都不想工作",
+        "讨厌上班怎么办",
+        "不想工作但需要钱"
+      ],
+      "googleSuggestions": [
+        "不想上班怎么办dcard",
+        "不想上班怎么办",
+        "讨厌上班怎么办"
+      ],
+      "candidatePhrases": [
+        "不想上班怎么办",
+        "每天都不想工作",
+        "讨厌上班怎么办",
+        "不想工作但需要钱",
+        "不想上班怎么办dcard"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "不想上班怎么办",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "每天都不想工作",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "讨厌上班怎么办",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "不想工作但需要钱",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "不想上班怎么办dcard",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "不想上班怎么办",
+        "每天都不想工作",
+        "讨厌上班怎么办",
+        "不想工作但需要钱",
+        "不想上班怎么办dcard"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/work/burnout",
+      "slot": "work/burnout",
+      "axis": "worry",
+      "sourceQueries": [
+        "工作倦怠怎么办",
+        "上班很累没有力气",
+        "职业倦怠症",
+        "工作到崩溃"
+      ],
+      "baseQueries": [
+        "工作倦怠怎么办",
+        "上班很累没有力气",
+        "职业倦怠症",
+        "工作到崩溃"
+      ],
+      "googleSuggestions": [
+        "工作倦怠怎么办",
+        "职业倦怠症候群",
+        "职业倦怠症",
+        "职业倦怠症状",
+        "职业倦怠症 英文",
+        "工作到崩溃"
+      ],
+      "candidatePhrases": [
+        "工作倦怠怎么办",
+        "上班很累没有力气",
+        "职业倦怠症",
+        "工作到崩溃",
+        "职业倦怠症候群",
+        "职业倦怠症状",
+        "职业倦怠症 英文"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "工作倦怠怎么办",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "上班很累没有力气",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "职业倦怠症",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "工作到崩溃",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "职业倦怠症候群",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "职业倦怠症状",
+          "status": "review",
+          "reasons": [
+            "medical review needed",
+            "medical review needed"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "职业倦怠症 英文",
+          "status": "low-signal",
+          "reasons": [
+            "translation or language lookup"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "工作倦怠怎么办",
+        "上班很累没有力气",
+        "职业倦怠症",
+        "工作到崩溃",
+        "职业倦怠症候群"
+      ],
+      "reviewCandidatePhrases": [
+        "职业倦怠症状"
+      ],
+      "lowSignalCandidatePhrases": [
+        "职业倦怠症 英文"
+      ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/work/job-change",
+      "slot": "work/job-change",
+      "axis": "worry",
+      "sourceQueries": [
+        "要不要换工作",
+        "换工作很焦虑",
+        "不敢辞职怎么办",
+        "转行迷茫"
+      ],
+      "baseQueries": [
+        "要不要换工作",
+        "换工作很焦虑",
+        "不敢辞职怎么办",
+        "转行迷茫"
+      ],
+      "googleSuggestions": [
+        "要不要换工作",
+        "要不要换工作 算命",
+        "要不要换工作 dcard"
+      ],
+      "candidatePhrases": [
+        "要不要换工作",
+        "换工作很焦虑",
+        "不敢辞职怎么办",
+        "转行迷茫",
+        "要不要换工作 算命",
+        "要不要换工作 dcard"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "要不要换工作",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "换工作很焦虑",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "不敢辞职怎么办",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "转行迷茫",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "要不要换工作 算命",
+          "status": "low-signal",
+          "reasons": [
+            "fortune-telling / diagnosis drift"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "要不要换工作 dcard",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "要不要换工作",
+        "换工作很焦虑",
+        "不敢辞职怎么办",
+        "转行迷茫",
+        "要不要换工作 dcard"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [
+        "要不要换工作 算命"
+      ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/work/boss-stress",
+      "slot": "work/boss-stress",
+      "axis": "worry",
+      "sourceQueries": [
+        "领导压力太大",
+        "上司很难相处",
+        "被领导骂很难受",
+        "职场上司压力"
+      ],
+      "baseQueries": [
+        "领导压力太大",
+        "上司很难相处",
+        "被领导骂很难受",
+        "职场上司压力"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "领导压力太大",
+        "上司很难相处",
+        "被领导骂很难受",
+        "职场上司压力"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "领导压力太大",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "上司很难相处",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "被领导骂很难受",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "职场上司压力",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "领导压力太大",
+        "上司很难相处",
+        "被领导骂很难受",
+        "职场上司压力"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/work/workplace-relationships",
+      "slot": "work/workplace-relationships",
+      "axis": "worry",
+      "sourceQueries": [
+        "职场人际关系很累",
+        "同事关系不好怎么办",
+        "上班社交压力",
+        "办公室关系复杂"
+      ],
+      "baseQueries": [
+        "职场人际关系很累",
+        "同事关系不好怎么办",
+        "上班社交压力",
+        "办公室关系复杂"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "职场人际关系很累",
+        "同事关系不好怎么办",
+        "上班社交压力",
+        "办公室关系复杂"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "职场人际关系很累",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "同事关系不好怎么办",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "上班社交压力",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "办公室关系复杂",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "职场人际关系很累",
+        "同事关系不好怎么办",
+        "上班社交压力",
+        "办公室关系复杂"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/meaning/no-motivation",
+      "slot": "meaning/no-motivation",
+      "axis": "worry",
+      "sourceQueries": [
+        "什么都不想做",
+        "没有动力怎么办",
+        "对什么都提不起兴趣",
+        "人生没有干劲"
+      ],
+      "baseQueries": [
+        "什么都不想做",
+        "没有动力怎么办",
+        "对什么都提不起兴趣",
+        "人生没有干劲"
+      ],
+      "googleSuggestions": [
+        "什么都不想做只想躺着dcard",
+        "什么都不想做",
+        "什么都不想做只想睡觉dcard",
+        "什么都不想做dcard",
+        "什么都不想做韩剧",
+        "什么都不想做怎么办",
+        "什么都不想做只想躺着ptt",
+        "什么都不想做线上看",
+        "什么都不想做 只想睡觉",
+        "什么都不想做只想睡觉ptt",
+        "没有动力怎么办",
+        "对什么都提不起兴趣"
+      ],
+      "candidatePhrases": [
+        "什么都不想做",
+        "没有动力怎么办",
+        "对什么都提不起兴趣",
+        "人生没有干劲",
+        "什么都不想做只想躺着dcard",
+        "什么都不想做只想睡觉dcard",
+        "什么都不想做dcard",
+        "什么都不想做韩剧",
+        "什么都不想做怎么办",
+        "什么都不想做只想躺着ptt",
+        "什么都不想做线上看",
+        "什么都不想做 只想睡觉",
+        "什么都不想做只想睡觉ptt"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "什么都不想做",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "没有动力怎么办",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "对什么都提不起兴趣",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人生没有干劲",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "什么都不想做只想躺着dcard",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "什么都不想做只想睡觉dcard",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "什么都不想做dcard",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "什么都不想做韩剧",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "什么都不想做怎么办",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "什么都不想做只想躺着ptt",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "什么都不想做线上看",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "什么都不想做 只想睡觉",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "什么都不想做只想睡觉ptt",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "什么都不想做",
+        "没有动力怎么办",
+        "对什么都提不起兴趣",
+        "人生没有干劲",
+        "什么都不想做只想躺着dcard",
+        "什么都不想做只想睡觉dcard",
+        "什么都不想做dcard",
+        "什么都不想做韩剧",
+        "什么都不想做怎么办",
+        "什么都不想做只想躺着ptt",
+        "什么都不想做线上看",
+        "什么都不想做 只想睡觉",
+        "什么都不想做只想睡觉ptt"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/meaning/meaningless",
+      "slot": "meaning/meaningless",
+      "axis": "worry",
+      "sourceQueries": [
+        "人生没有意义怎么办",
+        "活着没意思",
+        "感觉人生很空虚",
+        "为什么活着"
+      ],
+      "baseQueries": [
+        "人生没有意义怎么办",
+        "活着没意思",
+        "感觉人生很空虚",
+        "为什么活着"
+      ],
+      "googleSuggestions": [
+        "活着没意思",
+        "为什么活着那么累",
+        "为什么活着",
+        "人 为什么活着"
+      ],
+      "candidatePhrases": [
+        "人生没有意义怎么办",
+        "活着没意思",
+        "感觉人生很空虚",
+        "为什么活着",
+        "为什么活着那么累",
+        "人 为什么活着"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "人生没有意义怎么办",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "活着没意思",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "感觉人生很空虚",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "为什么活着",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "为什么活着那么累",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人 为什么活着",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "人生没有意义怎么办",
+        "活着没意思",
+        "感觉人生很空虚",
+        "为什么活着",
+        "为什么活着那么累",
+        "人 为什么活着"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/meaning/fear-death",
+      "slot": "meaning/fear-death",
+      "axis": "worry",
+      "sourceQueries": [
+        "害怕死亡怎么办",
+        "死亡焦虑",
+        "想到死亡很恐惧",
+        "怕亲人去世"
+      ],
+      "baseQueries": [
+        "害怕死亡怎么办",
+        "死亡焦虑",
+        "想到死亡很恐惧",
+        "怕亲人去世"
+      ],
+      "googleSuggestions": [
+        "害怕死亡怎么办",
+        "死亡焦虑dcard",
+        "死亡焦虑",
+        "死亡焦虑量表",
+        "死亡焦虑症",
+        "死亡焦虑治疗",
+        "死亡焦虑怎么办",
+        "死亡焦虑ptt",
+        "死亡焦虑 书",
+        "死亡焦虑 护理措施",
+        "死亡焦虑 英文"
+      ],
+      "candidatePhrases": [
+        "害怕死亡怎么办",
+        "死亡焦虑",
+        "想到死亡很恐惧",
+        "怕亲人去世",
+        "死亡焦虑dcard",
+        "死亡焦虑量表",
+        "死亡焦虑症",
+        "死亡焦虑治疗",
+        "死亡焦虑怎么办",
+        "死亡焦虑ptt",
+        "死亡焦虑 书",
+        "死亡焦虑 护理措施",
+        "死亡焦虑 英文"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "害怕死亡怎么办",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "死亡焦虑",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "想到死亡很恐惧",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "怕亲人去世",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "死亡焦虑dcard",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "死亡焦虑量表",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "死亡焦虑症",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "死亡焦虑治疗",
+          "status": "review",
+          "reasons": [
+            "medical review needed"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "死亡焦虑怎么办",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "死亡焦虑ptt",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "死亡焦虑 书",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "死亡焦虑 护理措施",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "死亡焦虑 英文",
+          "status": "low-signal",
+          "reasons": [
+            "translation or language lookup"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "害怕死亡怎么办",
+        "死亡焦虑",
+        "想到死亡很恐惧",
+        "怕亲人去世",
+        "死亡焦虑dcard",
+        "死亡焦虑量表",
+        "死亡焦虑症",
+        "死亡焦虑怎么办",
+        "死亡焦虑ptt",
+        "死亡焦虑 书",
+        "死亡焦虑 护理措施"
+      ],
+      "reviewCandidatePhrases": [
+        "死亡焦虑治疗"
+      ],
+      "lowSignalCandidatePhrases": [
+        "死亡焦虑 英文"
+      ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/family/parent-conflict",
+      "slot": "family/parent-conflict",
+      "axis": "worry",
+      "sourceQueries": [
+        "和父母合不来",
+        "父母总是控制我",
+        "和父母吵架很累",
+        "原生家庭矛盾"
+      ],
+      "baseQueries": [
+        "和父母合不来",
+        "父母总是控制我",
+        "和父母吵架很累",
+        "原生家庭矛盾"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "和父母合不来",
+        "父母总是控制我",
+        "和父母吵架很累",
+        "原生家庭矛盾"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "和父母合不来",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "父母总是控制我",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "和父母吵架很累",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "原生家庭矛盾",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": [
+            "family/family-of-origin"
+          ]
+        }
+      ],
+      "usableCandidatePhrases": [
+        "和父母合不来",
+        "父母总是控制我",
+        "和父母吵架很累",
+        "原生家庭矛盾"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {
+        "family/family-of-origin": 1
+      },
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/family/independence",
+      "slot": "family/independence",
+      "axis": "worry",
+      "sourceQueries": [
+        "想离开父母",
+        "想搬出去住但害怕",
+        "经济独立焦虑",
+        "怎么和父母保持距离"
+      ],
+      "baseQueries": [
+        "想离开父母",
+        "想搬出去住但害怕",
+        "经济独立焦虑",
+        "怎么和父母保持距离"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "想离开父母",
+        "想搬出去住但害怕",
+        "经济独立焦虑",
+        "怎么和父母保持距离"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "想离开父母",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "想搬出去住但害怕",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "经济独立焦虑",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "怎么和父母保持距离",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "想离开父母",
+        "想搬出去住但害怕",
+        "经济独立焦虑",
+        "怎么和父母保持距离"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/money/future-anxiety",
+      "slot": "money/future-anxiety",
+      "axis": "worry",
+      "sourceQueries": [
+        "未来没钱很焦虑",
+        "存不到钱怎么办",
+        "生活费压力大",
+        "财务焦虑"
+      ],
+      "baseQueries": [
+        "未来没钱很焦虑",
+        "存不到钱怎么办",
+        "生活费压力大",
+        "财务焦虑"
+      ],
+      "googleSuggestions": [
+        "存不到钱怎么办",
+        "财务焦虑"
+      ],
+      "candidatePhrases": [
+        "未来没钱很焦虑",
+        "存不到钱怎么办",
+        "生活费压力大",
+        "财务焦虑"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "未来没钱很焦虑",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "存不到钱怎么办",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "生活费压力大",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "财务焦虑",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "未来没钱很焦虑",
+        "存不到钱怎么办",
+        "生活费压力大",
+        "财务焦虑"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/study/cant-study",
+      "slot": "study/cant-study",
+      "axis": "worry",
+      "sourceQueries": [
+        "学不进去怎么办",
+        "学习没有动力",
+        "学习注意力不集中",
+        "明明该学习却学不进去"
+      ],
+      "baseQueries": [
+        "学不进去怎么办",
+        "学习没有动力",
+        "学习注意力不集中",
+        "明明该学习却学不进去"
+      ],
+      "googleSuggestions": [
+        "学不进去怎么办",
+        "学习没有动力"
+      ],
+      "candidatePhrases": [
+        "学不进去怎么办",
+        "学习没有动力",
+        "学习注意力不集中",
+        "明明该学习却学不进去"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "学不进去怎么办",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "学习没有动力",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "学习注意力不集中",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "明明该学习却学不进去",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "学不进去怎么办",
+        "学习没有动力",
+        "学习注意力不集中",
+        "明明该学习却学不进去"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/study/exam-anxiety",
+      "slot": "study/exam-anxiety",
+      "axis": "worry",
+      "sourceQueries": [
+        "考试焦虑怎么办",
+        "高考焦虑",
+        "考前紧张怎么办",
+        "害怕考试失败"
+      ],
+      "baseQueries": [
+        "考试焦虑怎么办",
+        "高考焦虑",
+        "考前紧张怎么办",
+        "害怕考试失败"
+      ],
+      "googleSuggestions": [
+        "考试焦虑怎么办",
+        "考前紧张怎么办"
+      ],
+      "candidatePhrases": [
+        "考试焦虑怎么办",
+        "高考焦虑",
+        "考前紧张怎么办",
+        "害怕考试失败"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "考试焦虑怎么办",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "高考焦虑",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": [
+            "study/exam-pressure"
+          ]
+        },
+        {
+          "phrase": "考前紧张怎么办",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "害怕考试失败",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "考试焦虑怎么办",
+        "高考焦虑",
+        "考前紧张怎么办",
+        "害怕考试失败"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {
+        "study/exam-pressure": 1
+      },
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/digital/dopamine-addiction",
+      "slot": "digital/dopamine-addiction",
+      "axis": "worry",
+      "sourceQueries": [
+        "手机戒不掉",
+        "短视频停不下来",
+        "社交媒体上瘾",
+        "多巴胺成瘾怎么办"
+      ],
+      "baseQueries": [
+        "手机戒不掉",
+        "短视频停不下来",
+        "社交媒体上瘾",
+        "多巴胺成瘾怎么办"
+      ],
+      "googleSuggestions": [
+        "社交媒体上瘾"
+      ],
+      "candidatePhrases": [
+        "手机戒不掉",
+        "短视频停不下来",
+        "社交媒体上瘾",
+        "多巴胺成瘾怎么办"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "手机戒不掉",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "短视频停不下来",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "社交媒体上瘾",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "多巴胺成瘾怎么办",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "手机戒不掉",
+        "短视频停不下来",
+        "社交媒体上瘾",
+        "多巴胺成瘾怎么办"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/body/health-anxiety",
+      "slot": "body/health-anxiety",
+      "axis": "worry",
+      "sourceQueries": [
+        "总担心自己生病",
+        "健康焦虑怎么办",
+        "身体不舒服就害怕",
+        "疑病症怎么办"
+      ],
+      "baseQueries": [
+        "总担心自己生病",
+        "健康焦虑怎么办",
+        "身体不舒服就害怕",
+        "疑病症怎么办"
+      ],
+      "googleSuggestions": [
+        "疑病症怎么办"
+      ],
+      "candidatePhrases": [
+        "总担心自己生病",
+        "健康焦虑怎么办",
+        "身体不舒服就害怕",
+        "疑病症怎么办"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "总担心自己生病",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "健康焦虑怎么办",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "身体不舒服就害怕",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "疑病症怎么办",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "总担心自己生病",
+        "健康焦虑怎么办",
+        "身体不舒服就害怕",
+        "疑病症怎么办"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/body/insomnia",
+      "slot": "body/insomnia",
+      "axis": "worry",
+      "sourceQueries": [
+        "睡不着怎么办",
+        "失眠很痛苦",
+        "晚上焦虑睡不着",
+        "想睡却睡不着"
+      ],
+      "baseQueries": [
+        "睡不着怎么办",
+        "失眠很痛苦",
+        "晚上焦虑睡不着",
+        "想睡却睡不着"
+      ],
+      "googleSuggestions": [
+        "睡不着怎么办",
+        "睡不着怎么办dcard",
+        "睡不着怎么办ptt",
+        "睡不着怎么办吃什么",
+        "睡不着怎么办方法",
+        "睡不着怎么办 穴道",
+        "睡不着怎么办有没有什么好办法能快点睡着的",
+        "睡不着怎么办 食物",
+        "睡不着怎么办 threads",
+        "睡不着怎么办 呼吸",
+        "晚上焦虑睡不着",
+        "想睡却睡不着"
+      ],
+      "candidatePhrases": [
+        "睡不着怎么办",
+        "失眠很痛苦",
+        "晚上焦虑睡不着",
+        "想睡却睡不着",
+        "睡不着怎么办dcard",
+        "睡不着怎么办ptt",
+        "睡不着怎么办吃什么",
+        "睡不着怎么办方法",
+        "睡不着怎么办 穴道",
+        "睡不着怎么办有没有什么好办法能快点睡着的",
+        "睡不着怎么办 食物",
+        "睡不着怎么办 threads",
+        "睡不着怎么办 呼吸"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "睡不着怎么办",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "失眠很痛苦",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "晚上焦虑睡不着",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "想睡却睡不着",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "睡不着怎么办dcard",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "睡不着怎么办ptt",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "睡不着怎么办吃什么",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "睡不着怎么办方法",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "睡不着怎么办 穴道",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "睡不着怎么办有没有什么好办法能快点睡着的",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "睡不着怎么办 食物",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "睡不着怎么办 threads",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "睡不着怎么办 呼吸",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "睡不着怎么办",
+        "失眠很痛苦",
+        "晚上焦虑睡不着",
+        "想睡却睡不着",
+        "睡不着怎么办dcard",
+        "睡不着怎么办ptt",
+        "睡不着怎么办吃什么",
+        "睡不着怎么办方法",
+        "睡不着怎么办 穴道",
+        "睡不着怎么办有没有什么好办法能快点睡着的",
+        "睡不着怎么办 食物",
+        "睡不着怎么办 threads",
+        "睡不着怎么办 呼吸"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/career/decision-paralysis",
+      "slot": "career/decision-paralysis",
+      "axis": "worry",
+      "sourceQueries": [
+        "不知道未来做什么",
+        "人生选择困难",
+        "职业规划迷茫",
+        "不知道该选哪条路"
+      ],
+      "baseQueries": [
+        "不知道未来做什么",
+        "人生选择困难",
+        "职业规划迷茫",
+        "不知道该选哪条路"
+      ],
+      "googleSuggestions": [
+        "不知道未来做什么"
+      ],
+      "candidatePhrases": [
+        "不知道未来做什么",
+        "人生选择困难",
+        "职业规划迷茫",
+        "不知道该选哪条路"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "不知道未来做什么",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人生选择困难",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "职业规划迷茫",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "不知道该选哪条路",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "不知道未来做什么",
+        "人生选择困难",
+        "职业规划迷茫",
+        "不知道该选哪条路"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/debate/ai-replacement",
+      "slot": "debate/ai-replacement",
+      "axis": "debate",
+      "sourceQueries": [
+        "AI会取代工作吗",
+        "AI抢饭碗",
+        "人工智能导致失业",
+        "AI时代职业焦虑"
+      ],
+      "baseQueries": [
+        "AI会取代工作吗",
+        "AI抢饭碗",
+        "人工智能导致失业",
+        "AI时代职业焦虑"
+      ],
+      "googleSuggestions": [
+        "ai抢饭碗",
+        "ai抢饭碗时代真来了 富比士公开10招自保术 学会你就不怕被取代",
+        "ai抢饭碗 国足有得救",
+        "吉卜力之乱 ai抢饭碗"
+      ],
+      "candidatePhrases": [
+        "AI会取代工作吗",
+        "AI抢饭碗",
+        "人工智能导致失业",
+        "AI时代职业焦虑",
+        "ai抢饭碗时代真来了 富比士公开10招自保术 学会你就不怕被取代",
+        "ai抢饭碗 国足有得救",
+        "吉卜力之乱 ai抢饭碗"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "AI会取代工作吗",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "AI抢饭碗",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人工智能导致失业",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "AI时代职业焦虑",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ai抢饭碗时代真来了 富比士公开10招自保术 学会你就不怕被取代",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ai抢饭碗 国足有得救",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "吉卜力之乱 ai抢饭碗",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "AI会取代工作吗",
+        "AI抢饭碗",
+        "人工智能导致失业",
+        "AI时代职业焦虑",
+        "ai抢饭碗时代真来了 富比士公开10招自保术 学会你就不怕被取代",
+        "ai抢饭碗 国足有得救",
+        "吉卜力之乱 ai抢饭碗"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/debate/marriage",
+      "slot": "debate/marriage",
+      "axis": "debate",
+      "sourceQueries": [
+        "一定要结婚吗",
+        "不结婚会后悔吗",
+        "结婚有必要吗",
+        "单身焦虑"
+      ],
+      "baseQueries": [
+        "一定要结婚吗",
+        "不结婚会后悔吗",
+        "结婚有必要吗",
+        "单身焦虑"
+      ],
+      "googleSuggestions": [
+        "一定要结婚吗",
+        "一定要结婚吗ptt",
+        "一定要结婚吗 dcard",
+        "一定要结婚吗 电影",
+        "一定要结婚吗 结局",
+        "怀孕 一定要结婚吗",
+        "冻卵 一定要结婚吗",
+        "交往 一定要结婚吗",
+        "订婚 一定要结婚吗",
+        "单身焦虑",
+        "单身焦虑dcard",
+        "单身焦虑 ptt",
+        "男生 单身焦虑"
+      ],
+      "candidatePhrases": [
+        "一定要结婚吗",
+        "不结婚会后悔吗",
+        "结婚有必要吗",
+        "单身焦虑",
+        "一定要结婚吗ptt",
+        "一定要结婚吗 dcard",
+        "一定要结婚吗 电影",
+        "一定要结婚吗 结局",
+        "怀孕 一定要结婚吗",
+        "冻卵 一定要结婚吗",
+        "交往 一定要结婚吗",
+        "订婚 一定要结婚吗",
+        "单身焦虑dcard",
+        "单身焦虑 ptt",
+        "男生 单身焦虑"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "一定要结婚吗",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "不结婚会后悔吗",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "结婚有必要吗",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "单身焦虑",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "一定要结婚吗ptt",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "一定要结婚吗 dcard",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "一定要结婚吗 电影",
+          "status": "low-signal",
+          "reasons": [
+            "entertainment lookup"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "一定要结婚吗 结局",
+          "status": "low-signal",
+          "reasons": [
+            "entertainment lookup"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "怀孕 一定要结婚吗",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "冻卵 一定要结婚吗",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "交往 一定要结婚吗",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "订婚 一定要结婚吗",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "单身焦虑dcard",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "单身焦虑 ptt",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "男生 单身焦虑",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "一定要结婚吗",
+        "不结婚会后悔吗",
+        "结婚有必要吗",
+        "单身焦虑",
+        "一定要结婚吗ptt",
+        "一定要结婚吗 dcard",
+        "怀孕 一定要结婚吗",
+        "冻卵 一定要结婚吗",
+        "交往 一定要结婚吗",
+        "订婚 一定要结婚吗",
+        "单身焦虑dcard",
+        "单身焦虑 ptt",
+        "男生 单身焦虑"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [
+        "一定要结婚吗 电影",
+        "一定要结婚吗 结局"
+      ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/debate/childfree",
+      "slot": "debate/childfree",
+      "axis": "debate",
+      "sourceQueries": [
+        "不想生孩子正常吗",
+        "丁克会后悔吗",
+        "不要孩子的人生",
+        "要不要生孩子纠结"
+      ],
+      "baseQueries": [
+        "不想生孩子正常吗",
+        "丁克会后悔吗",
+        "不要孩子的人生",
+        "要不要生孩子纠结"
+      ],
+      "googleSuggestions": [
+        "丁克会后悔吗"
+      ],
+      "candidatePhrases": [
+        "不想生孩子正常吗",
+        "丁克会后悔吗",
+        "不要孩子的人生",
+        "要不要生孩子纠结"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "不想生孩子正常吗",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "丁克会后悔吗",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": [
+            "debate/childfree-identity"
+          ]
+        },
+        {
+          "phrase": "不要孩子的人生",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "要不要生孩子纠结",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "不想生孩子正常吗",
+        "丁克会后悔吗",
+        "不要孩子的人生",
+        "要不要生孩子纠结"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {
+        "debate/childfree-identity": 1
+      },
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/debate/no-kids-zone",
+      "slot": "debate/no-kids-zone",
+      "axis": "debate",
+      "sourceQueries": [
+        "禁止儿童进入争议",
+        "无孩餐厅争议",
+        "儿童不友好场所",
+        "带孩子被拒绝合理吗"
+      ],
+      "baseQueries": [
+        "禁止儿童进入争议",
+        "无孩餐厅争议",
+        "儿童不友好场所",
+        "带孩子被拒绝合理吗"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "禁止儿童进入争议",
+        "无孩餐厅争议",
+        "儿童不友好场所",
+        "带孩子被拒绝合理吗"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "禁止儿童进入争议",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "无孩餐厅争议",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "儿童不友好场所",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "带孩子被拒绝合理吗",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "禁止儿童进入争议",
+        "无孩餐厅争议",
+        "儿童不友好场所",
+        "带孩子被拒绝合理吗"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/debate/remote-work",
+      "slot": "debate/remote-work",
+      "axis": "debate",
+      "sourceQueries": [
+        "远程办公好不好",
+        "居家办公效率",
+        "是否应该回办公室",
+        "远程办公优缺点"
+      ],
+      "baseQueries": [
+        "远程办公好不好",
+        "居家办公效率",
+        "是否应该回办公室",
+        "远程办公优缺点"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "远程办公好不好",
+        "居家办公效率",
+        "是否应该回办公室",
+        "远程办公优缺点"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "远程办公好不好",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "居家办公效率",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "是否应该回办公室",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "远程办公优缺点",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "远程办公好不好",
+        "居家办公效率",
+        "是否应该回办公室",
+        "远程办公优缺点"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    }
+  ]
+}

@@ -1,0 +1,4613 @@
+{
+  "generatedAt": "2026-06-22T00:24:56.374Z",
+  "sourceLocales": [
+    "ja-JP",
+    "zh-CN",
+    "es-ES",
+    "fr-FR",
+    "de-DE"
+  ],
+  "totals": {
+    "routes": 38,
+    "localeRows": 190,
+    "candidatePhrases": 3364,
+    "usableCandidatePhrases": 2981,
+    "reviewCandidatePhrases": 262,
+    "lowSignalCandidatePhrases": 121
+  },
+  "commonSignals": [
+    "debate/remote-work",
+    "family/parent-conflict",
+    "breakup/ghosting",
+    "study/exam-anxiety",
+    "debate/childfree",
+    "meaning/meaningless",
+    "thought/good-life",
+    "money/future-anxiety",
+    "thought/happiness",
+    "family/independence",
+    "work/dont-want-to",
+    "body/insomnia"
+  ],
+  "strongestSignals": [
+    "debate/remote-work",
+    "family/parent-conflict",
+    "breakup/ghosting",
+    "study/exam-anxiety",
+    "debate/childfree",
+    "meaning/meaningless",
+    "thought/good-life",
+    "money/future-anxiety",
+    "thought/happiness",
+    "family/independence",
+    "work/dont-want-to",
+    "body/insomnia"
+  ],
+  "localeHighlights": {
+    "ja-JP": [
+      {
+        "key": "thought/good-life",
+        "route": "/thought/good-life",
+        "usableCount": 6,
+        "candidateCount": 24,
+        "clusterHintCount": 6
+      },
+      {
+        "key": "study/exam-anxiety",
+        "route": "/study/exam-anxiety",
+        "usableCount": 26,
+        "candidateCount": 31,
+        "clusterHintCount": 1
+      },
+      {
+        "key": "work/dont-want-to",
+        "route": "/work/dont-want-to",
+        "usableCount": 36,
+        "candidateCount": 39,
+        "clusterHintCount": 0
+      },
+      {
+        "key": "meaning/no-motivation",
+        "route": "/meaning/no-motivation",
+        "usableCount": 33,
+        "candidateCount": 38,
+        "clusterHintCount": 0
+      },
+      {
+        "key": "study/cant-study",
+        "route": "/study/cant-study",
+        "usableCount": 31,
+        "candidateCount": 34,
+        "clusterHintCount": 0
+      },
+      {
+        "key": "self-esteem/low-self-esteem",
+        "route": "/self-esteem/low-self-esteem",
+        "usableCount": 27,
+        "candidateCount": 31,
+        "clusterHintCount": 0
+      }
+    ],
+    "zh-CN": [
+      {
+        "key": "family/parent-conflict",
+        "route": "/family/parent-conflict",
+        "usableCount": 4,
+        "candidateCount": 4,
+        "clusterHintCount": 1
+      },
+      {
+        "key": "study/exam-anxiety",
+        "route": "/study/exam-anxiety",
+        "usableCount": 4,
+        "candidateCount": 4,
+        "clusterHintCount": 1
+      },
+      {
+        "key": "debate/childfree",
+        "route": "/debate/childfree",
+        "usableCount": 4,
+        "candidateCount": 4,
+        "clusterHintCount": 1
+      },
+      {
+        "key": "debate/marriage",
+        "route": "/debate/marriage",
+        "usableCount": 13,
+        "candidateCount": 15,
+        "clusterHintCount": 0
+      },
+      {
+        "key": "meaning/no-motivation",
+        "route": "/meaning/no-motivation",
+        "usableCount": 13,
+        "candidateCount": 13,
+        "clusterHintCount": 0
+      },
+      {
+        "key": "body/insomnia",
+        "route": "/body/insomnia",
+        "usableCount": 13,
+        "candidateCount": 13,
+        "clusterHintCount": 0
+      }
+    ],
+    "es-ES": [
+      {
+        "key": "breakup/ghosting",
+        "route": "/breakup/ghosting",
+        "usableCount": 16,
+        "candidateCount": 17,
+        "clusterHintCount": 15
+      },
+      {
+        "key": "debate/remote-work",
+        "route": "/debate/remote-work",
+        "usableCount": 13,
+        "candidateCount": 14,
+        "clusterHintCount": 12
+      },
+      {
+        "key": "family/independence",
+        "route": "/family/independence",
+        "usableCount": 14,
+        "candidateCount": 15,
+        "clusterHintCount": 10
+      },
+      {
+        "key": "debate/childfree",
+        "route": "/debate/childfree",
+        "usableCount": 15,
+        "candidateCount": 16,
+        "clusterHintCount": 2
+      },
+      {
+        "key": "meaning/meaningless",
+        "route": "/meaning/meaningless",
+        "usableCount": 22,
+        "candidateCount": 26,
+        "clusterHintCount": 1
+      },
+      {
+        "key": "study/exam-anxiety",
+        "route": "/study/exam-anxiety",
+        "usableCount": 21,
+        "candidateCount": 22,
+        "clusterHintCount": 1
+      }
+    ],
+    "fr-FR": [
+      {
+        "key": "family/parent-conflict",
+        "route": "/family/parent-conflict",
+        "usableCount": 21,
+        "candidateCount": 24,
+        "clusterHintCount": 13
+      },
+      {
+        "key": "meaning/meaningless",
+        "route": "/meaning/meaningless",
+        "usableCount": 15,
+        "candidateCount": 20,
+        "clusterHintCount": 12
+      },
+      {
+        "key": "debate/remote-work",
+        "route": "/debate/remote-work",
+        "usableCount": 14,
+        "candidateCount": 15,
+        "clusterHintCount": 12
+      },
+      {
+        "key": "money/future-anxiety",
+        "route": "/money/future-anxiety",
+        "usableCount": 23,
+        "candidateCount": 25,
+        "clusterHintCount": 10
+      },
+      {
+        "key": "study/exam-anxiety",
+        "route": "/study/exam-anxiety",
+        "usableCount": 13,
+        "candidateCount": 14,
+        "clusterHintCount": 3
+      },
+      {
+        "key": "debate/childfree",
+        "route": "/debate/childfree",
+        "usableCount": 16,
+        "candidateCount": 19,
+        "clusterHintCount": 2
+      }
+    ],
+    "de-DE": [
+      {
+        "key": "debate/remote-work",
+        "route": "/debate/remote-work",
+        "usableCount": 29,
+        "candidateCount": 29,
+        "clusterHintCount": 28
+      },
+      {
+        "key": "debate/childfree",
+        "route": "/debate/childfree",
+        "usableCount": 21,
+        "candidateCount": 25,
+        "clusterHintCount": 12
+      },
+      {
+        "key": "family/parent-conflict",
+        "route": "/family/parent-conflict",
+        "usableCount": 17,
+        "candidateCount": 20,
+        "clusterHintCount": 11
+      },
+      {
+        "key": "study/exam-anxiety",
+        "route": "/study/exam-anxiety",
+        "usableCount": 27,
+        "candidateCount": 28,
+        "clusterHintCount": 10
+      },
+      {
+        "key": "breakup/ghosting",
+        "route": "/breakup/ghosting",
+        "usableCount": 14,
+        "candidateCount": 15,
+        "clusterHintCount": 9
+      },
+      {
+        "key": "money/future-anxiety",
+        "route": "/money/future-anxiety",
+        "usableCount": 9,
+        "candidateCount": 10,
+        "clusterHintCount": 3
+      }
+    ]
+  },
+  "routes": [
+    {
+      "key": "body/health-anxiety",
+      "route": "/body/health-anxiety",
+      "slot": "body/health-anxiety",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 27,
+          "usableCount": 23,
+          "reviewCount": 3,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "病気 不安",
+            "健康 不安",
+            "体調 気にしすぎ",
+            "病気かも 不安",
+            "病気 不安症",
+            "病気 不安 眠れない"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "总担心自己生病",
+            "健康焦虑怎么办",
+            "身体不舒服就害怕",
+            "疑病症怎么办"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 23,
+          "usableCount": 20,
+          "reviewCount": 3,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "ansiedad por la salud",
+            "miedo a tener una enfermedad",
+            "hipocondría qué hacer",
+            "ansiedad por la salud sintomas",
+            "ansiedad por la salud dsm 5",
+            "ansiedad por la salud cie 10"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 14,
+          "usableCount": 13,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "angoisse de santé",
+            "peur d'avoir une maladie",
+            "hypocondrie que faire",
+            "peur d'avoir une maladie grave",
+            "peur d'avoir une maladie grave forum",
+            "peur d avoir une maladie mentale"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 22,
+          "usableCount": 16,
+          "reviewCount": 5,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "gesundheitsangst",
+            "angst krank zu sein",
+            "hypochondrie was tun",
+            "gesundheitsangst was tun",
+            "gesundheitsangst ursachen",
+            "gesundheitsangst überwinden"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 90,
+      "totalUsable": 76,
+      "totalReview": 12,
+      "totalLowSignal": 2,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "ja-JP",
+          "usableCount": 23,
+          "candidateCount": 27
+        },
+        {
+          "locale": "es-ES",
+          "usableCount": 20,
+          "candidateCount": 23
+        },
+        {
+          "locale": "de-DE",
+          "usableCount": 16,
+          "candidateCount": 22
+        }
+      ],
+      "strength": "strong",
+      "score": 226
+    },
+    {
+      "key": "body/insomnia",
+      "route": "/body/insomnia",
+      "slot": "body/insomnia",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 31,
+          "usableCount": 27,
+          "reviewCount": 4,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "眠れない 悩み",
+            "不眠 つらい",
+            "寝たいのに眠れない",
+            "夜 不安 眠れない",
+            "眠れない 悩み事",
+            "悩み 眠れない 対処法"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 13,
+          "usableCount": 13,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "睡不着怎么办",
+            "失眠很痛苦",
+            "晚上焦虑睡不着",
+            "想睡却睡不着",
+            "睡不着怎么办dcard",
+            "睡不着怎么办ptt"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 40,
+          "usableCount": 35,
+          "reviewCount": 5,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "no puedo dormir",
+            "insomnio por ansiedad",
+            "quiero dormir y no puedo",
+            "me despierto con ansiedad",
+            "no puedo dormir que hago para que me de sueño",
+            "no puedo dormir en las noches"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 32,
+          "usableCount": 26,
+          "reviewCount": 5,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "je n'arrive pas à dormir",
+            "insomnie anxiété",
+            "angoisse la nuit",
+            "je n'arrive pas à dormir je pense trop",
+            "je n'arrive pas à dormir solution",
+            "je n'arrive pas à dormir la nuit"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 24,
+          "usableCount": 22,
+          "reviewCount": 0,
+          "lowSignalCount": 2,
+          "clusterHints": {},
+          "topPhrases": [
+            "ich kann nicht schlafen",
+            "schlaflosigkeit angst",
+            "nachts angst nicht schlafen",
+            "einschlafen klappt nicht",
+            "ich kann nicht schlafen was tun",
+            "ich kann nicht schlafen fäaschtbänkler"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 140,
+      "totalUsable": 123,
+      "totalReview": 14,
+      "totalLowSignal": 3,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "es-ES",
+          "usableCount": 35,
+          "candidateCount": 40
+        },
+        {
+          "locale": "ja-JP",
+          "usableCount": 27,
+          "candidateCount": 31
+        },
+        {
+          "locale": "fr-FR",
+          "usableCount": 26,
+          "candidateCount": 32
+        }
+      ],
+      "strength": "very-strong",
+      "score": 273
+    },
+    {
+      "key": "breakup/ghosting",
+      "route": "/breakup/ghosting",
+      "slot": "breakup/ghosting",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 8,
+          "usableCount": 8,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "音信不通 恋愛 つらい",
+            "既読無視 そのまま 終わった",
+            "急に連絡こない 恋愛",
+            "フェードアウト 恋愛",
+            "フェードアウト 恋愛 男",
+            "フェードアウト 恋愛 女"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "突然不回消息 恋爱",
+            "被冷暴力分手",
+            "感情里突然消失",
+            "暧昧对象不回消息"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 17,
+          "usableCount": 16,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {
+            "relationships/ghosting": 15
+          },
+          "topPhrases": [
+            "me hizo ghosting",
+            "dejó de responder de repente",
+            "ghosting en una relación",
+            "por qué desaparece sin explicar",
+            "me hizo ghosting y volvió",
+            "me hizo ghosting meme"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 15,
+          "usableCount": 15,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {
+            "relationships/ghosting": 1
+          },
+          "topPhrases": [
+            "il ne répond plus du jour au lendemain",
+            "ghosting relation amoureuse",
+            "disparaît sans explication",
+            "laissé sans nouvelles amour",
+            "il ne parle plus du jour au lendemain",
+            "il ne me répond plus du jour au lendemain"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 15,
+          "usableCount": 14,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {
+            "relationships/ghosting": 9
+          },
+          "topPhrases": [
+            "ghosting beziehung",
+            "plötzlich keine antwort mehr",
+            "er verschwindet ohne erklärung",
+            "nach date keine meldung",
+            "ghosting beziehungsende",
+            "ghosting nach beziehung"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 59,
+      "totalUsable": 57,
+      "totalReview": 2,
+      "totalLowSignal": 0,
+      "clusterHints": {
+        "relationships/ghosting": 25
+      },
+      "totalClusterHints": 25,
+      "strongestLocales": [
+        {
+          "locale": "es-ES",
+          "usableCount": 16,
+          "candidateCount": 17
+        },
+        {
+          "locale": "fr-FR",
+          "usableCount": 15,
+          "candidateCount": 15
+        },
+        {
+          "locale": "de-DE",
+          "usableCount": 14,
+          "candidateCount": 15
+        }
+      ],
+      "strength": "moderate",
+      "score": 357
+    },
+    {
+      "key": "breakup/lingering",
+      "route": "/breakup/lingering",
+      "slot": "breakup/lingering",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 14,
+          "usableCount": 13,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "元恋人 忘れられない",
+            "失恋 立ち直れない",
+            "未練 断ち切れない",
+            "別れた人 思い出す",
+            "失恋 立ち直れない 男",
+            "失恋 立ち直れない 1年"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 7,
+          "usableCount": 7,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "忘不掉前任",
+            "失恋走不出来",
+            "放不下前任怎么办",
+            "分手后总想起对方",
+            "忘不掉前任怎么办",
+            "忘不掉前任 dcard"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 34,
+          "usableCount": 33,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "no puedo olvidar a mi ex",
+            "cómo superar una ruptura",
+            "sigo pensando en mi ex",
+            "no puedo soltar a mi ex",
+            "no puedo olvidar a mi ex que hago",
+            "no puedo olvidar a mi ex narcisista"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 40,
+          "usableCount": 40,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "je n'arrive pas à oublier mon ex",
+            "surmonter une rupture",
+            "penser encore à son ex",
+            "comment tourner la page",
+            "je n'arrive pas à oublier mon ex depuis 3 ans",
+            "je n'arrive pas à oublier mon ex toxique"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 22,
+          "usableCount": 21,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "ex vergessen klappt nicht",
+            "trennung überwinden",
+            "ich denke ständig an meinen ex",
+            "loslassen nach trennung",
+            "trennung überwinden dauer",
+            "trennung überwinden tipps"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 117,
+      "totalUsable": 114,
+      "totalReview": 3,
+      "totalLowSignal": 0,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "fr-FR",
+          "usableCount": 40,
+          "candidateCount": 40
+        },
+        {
+          "locale": "es-ES",
+          "usableCount": 33,
+          "candidateCount": 34
+        },
+        {
+          "locale": "de-DE",
+          "usableCount": 21,
+          "candidateCount": 22
+        }
+      ],
+      "strength": "very-strong",
+      "score": 264
+    },
+    {
+      "key": "breakup/should-contact",
+      "route": "/breakup/should-contact",
+      "slot": "breakup/should-contact",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 9,
+          "usableCount": 7,
+          "reviewCount": 1,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "元恋人 連絡したい",
+            "別れた後 連絡 すべき",
+            "復縁 連絡 タイミング",
+            "元彼 連絡したい",
+            "復縁 連絡 タイミング 元 カノ",
+            "復縁 したい 連絡 タイミング"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "想联系前任",
+            "分手后要不要联系",
+            "复合要不要主动联系",
+            "前任联系我怎么办"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 16,
+          "usableCount": 16,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "debería escribirle a mi ex",
+            "contactar a mi ex después de terminar",
+            "quiero volver con mi ex",
+            "mi ex me escribió qué hago",
+            "deberia escribirle a mi ex",
+            "deberia escribirle a mi ex por su cumpleaños"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 18,
+          "usableCount": 18,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "dois-je recontacter mon ex",
+            "envie d'écrire à mon ex",
+            "reprendre contact après rupture",
+            "mon ex m'a écrit que faire",
+            "dois je recontacter mon ex",
+            "dois je rappeler mon ex"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 23,
+          "usableCount": 22,
+          "reviewCount": 0,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "soll ich meinem ex schreiben",
+            "ex kontaktieren nach trennung",
+            "ich will meinen ex zurück",
+            "ex meldet sich was tun",
+            "soll ich meinem ex wieder schreiben",
+            "soll ich meinem ex schreiben dass ich ihn vermisse"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 70,
+      "totalUsable": 67,
+      "totalReview": 1,
+      "totalLowSignal": 2,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "de-DE",
+          "usableCount": 22,
+          "candidateCount": 23
+        },
+        {
+          "locale": "fr-FR",
+          "usableCount": 18,
+          "candidateCount": 18
+        },
+        {
+          "locale": "es-ES",
+          "usableCount": 16,
+          "candidateCount": 16
+        }
+      ],
+      "strength": "moderate",
+      "score": 217
+    },
+    {
+      "key": "career/decision-paralysis",
+      "route": "/career/decision-paralysis",
+      "slot": "career/decision-paralysis",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 16,
+          "usableCount": 14,
+          "reviewCount": 1,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "進路 決められない",
+            "将来 決められない",
+            "選択できない つらい",
+            "進路 迷う",
+            "進路 決められない 高校生",
+            "進路 決められない 大学生"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "不知道未来做什么",
+            "人生选择困难",
+            "职业规划迷茫",
+            "不知道该选哪条路"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 23,
+          "usableCount": 21,
+          "reviewCount": 1,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "no sé qué hacer con mi vida",
+            "no sé qué carrera elegir",
+            "miedo a tomar decisiones",
+            "bloqueo al decidir mi futuro",
+            "no sé que hacer con mi vida profesional",
+            "no sé qué hacer con mi vida amaral"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 24,
+          "usableCount": 18,
+          "reviewCount": 3,
+          "lowSignalCount": 3,
+          "clusterHints": {},
+          "topPhrases": [
+            "je ne sais pas quoi faire de ma vie",
+            "choisir sa voie professionnelle",
+            "peur de prendre une décision",
+            "orientation avenir perdu",
+            "je ne sais pas quoi faire de ma vie professionnelle",
+            "je ne sais pas quoi faire de la vie à 40 ans"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 8,
+          "usableCount": 8,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "ich weiß nicht was ich mit meinem leben anfangen soll",
+            "berufswahl überfordert",
+            "entscheidungsangst zukunft",
+            "keine ahnung welcher beruf",
+            "keine ahnung welcher beruf zu mir passt",
+            "keine ahnung beruflich machen soll"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 75,
+      "totalUsable": 65,
+      "totalReview": 5,
+      "totalLowSignal": 5,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "es-ES",
+          "usableCount": 21,
+          "candidateCount": 23
+        },
+        {
+          "locale": "fr-FR",
+          "usableCount": 18,
+          "candidateCount": 24
+        },
+        {
+          "locale": "ja-JP",
+          "usableCount": 14,
+          "candidateCount": 16
+        }
+      ],
+      "strength": "moderate",
+      "score": 215
+    },
+    {
+      "key": "debate/ai-replacement",
+      "route": "/debate/ai-replacement",
+      "slot": "debate/ai-replacement",
+      "axis": "debate",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 16,
+          "usableCount": 13,
+          "reviewCount": 1,
+          "lowSignalCount": 2,
+          "clusterHints": {},
+          "topPhrases": [
+            "AI 仕事なくなる",
+            "AI 仕事 奪う",
+            "AI 失業 不安",
+            "AIと仕事 未来",
+            "ai 仕事なくなる 何年後",
+            "ai 仕事なくなる 嘘"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 7,
+          "usableCount": 7,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "AI会取代工作吗",
+            "AI抢饭碗",
+            "人工智能导致失业",
+            "AI时代职业焦虑",
+            "ai抢饭碗时代真来了 富比士公开10招自保术 学会你就不怕被取代",
+            "ai抢饭碗 国足有得救"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 6,
+          "usableCount": 6,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "la IA quitará trabajos",
+            "inteligencia artificial desempleo",
+            "miedo a que la IA me reemplace",
+            "trabajo y futuro de la IA",
+            "la ia quitara trabajos",
+            "la inteligencia artificial genera desempleo"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 12,
+          "usableCount": 7,
+          "reviewCount": 5,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "intelligence artificielle chômage",
+            "peur d'être remplacé par l'IA",
+            "avenir du travail IA",
+            "l'ia va t'elle remplacer le travail",
+            "l'ia va t'elle remplacer certains métiers",
+            "intelligence artificielle robotisation et chômage technologique"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 17,
+          "usableCount": 17,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "ki ersetzt jobs",
+            "künstliche intelligenz arbeitslosigkeit",
+            "angst vor ki im job",
+            "zukunft der arbeit ki",
+            "ki ersetzt jobs statistik",
+            "ki ersetzt jobs rechner"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 58,
+      "totalUsable": 50,
+      "totalReview": 6,
+      "totalLowSignal": 2,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "de-DE",
+          "usableCount": 17,
+          "candidateCount": 17
+        },
+        {
+          "locale": "ja-JP",
+          "usableCount": 13,
+          "candidateCount": 16
+        },
+        {
+          "locale": "fr-FR",
+          "usableCount": 7,
+          "candidateCount": 12
+        }
+      ],
+      "strength": "moderate",
+      "score": 200
+    },
+    {
+      "key": "debate/childfree",
+      "route": "/debate/childfree",
+      "slot": "debate/childfree",
+      "axis": "debate",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 19,
+          "usableCount": 18,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "子供 いらない 後悔",
+            "子供 欲しくない",
+            "子供を持たない 選択",
+            "子なし 人生",
+            "子供 欲しくない 割合",
+            "子供 欲しくない 女 割合"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {
+            "debate/childfree-identity": 1
+          },
+          "topPhrases": [
+            "不想生孩子正常吗",
+            "丁克会后悔吗",
+            "不要孩子的人生",
+            "要不要生孩子纠结"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 16,
+          "usableCount": 15,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {
+            "debate/childfree-identity": 2
+          },
+          "topPhrases": [
+            "no quiero tener hijos",
+            "me arrepentiré de no tener hijos",
+            "ser childfree",
+            "tener hijos o no",
+            "no quiero tener hijos que puedo hacer",
+            "no quiero tener hijos hombre"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 19,
+          "usableCount": 16,
+          "reviewCount": 2,
+          "lowSignalCount": 1,
+          "clusterHints": {
+            "debate/childfree-identity": 2
+          },
+          "topPhrases": [
+            "je ne veux pas d'enfants",
+            "ne pas avoir d'enfants regret",
+            "choisir de ne pas avoir d'enfant",
+            "childfree en français",
+            "je ne veux pas d'enfants forum",
+            "je ne veux pas d'enfants et alors"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 25,
+          "usableCount": 21,
+          "reviewCount": 3,
+          "lowSignalCount": 1,
+          "clusterHints": {
+            "debate/childfree-identity": 12
+          },
+          "topPhrases": [
+            "ich will keine kinder",
+            "kinderlos bleiben bereuen",
+            "childfree deutsch",
+            "kinder bekommen oder nicht",
+            "ich will keine kinder haben",
+            "ich will keine kinder mehr"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 83,
+      "totalUsable": 74,
+      "totalReview": 7,
+      "totalLowSignal": 2,
+      "clusterHints": {
+        "debate/childfree-identity": 17
+      },
+      "totalClusterHints": 17,
+      "strongestLocales": [
+        {
+          "locale": "de-DE",
+          "usableCount": 21,
+          "candidateCount": 25
+        },
+        {
+          "locale": "ja-JP",
+          "usableCount": 18,
+          "candidateCount": 19
+        },
+        {
+          "locale": "fr-FR",
+          "usableCount": 16,
+          "candidateCount": 19
+        }
+      ],
+      "strength": "strong",
+      "score": 326
+    },
+    {
+      "key": "debate/marriage",
+      "route": "/debate/marriage",
+      "slot": "debate/marriage",
+      "axis": "debate",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 25,
+          "usableCount": 23,
+          "reviewCount": 1,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "結婚 しない 後悔",
+            "結婚 必要ない",
+            "結婚 するべきか",
+            "独身 不安",
+            "結婚 しない 後悔 なん j",
+            "結婚 しない 後悔 女"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 15,
+          "usableCount": 13,
+          "reviewCount": 0,
+          "lowSignalCount": 2,
+          "clusterHints": {},
+          "topPhrases": [
+            "一定要结婚吗",
+            "不结婚会后悔吗",
+            "结婚有必要吗",
+            "单身焦虑",
+            "一定要结婚吗ptt",
+            "一定要结婚吗 dcard"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 23,
+          "usableCount": 21,
+          "reviewCount": 0,
+          "lowSignalCount": 2,
+          "clusterHints": {},
+          "topPhrases": [
+            "es necesario casarse",
+            "no quiero casarme",
+            "me arrepentiré de no casarme",
+            "matrimonio hoy en día",
+            "es necesario casarse por la iglesia",
+            "es necesario casarse por lo civil para casarse por la iglesia"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 22,
+          "usableCount": 22,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "faut-il se marier",
+            "ne pas se marier regret",
+            "mariage encore nécessaire",
+            "peur de rester célibataire",
+            "faut il se marier avant d acheter une maison",
+            "faut il se marier dans la ville ou on habite"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 16,
+          "usableCount": 16,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "muss man heiraten",
+            "nicht heiraten bereuen",
+            "ist ehe noch sinnvoll",
+            "angst allein zu bleiben",
+            "muss man heiraten wenn man verlobt ist",
+            "muss man heiraten wo man gemeldet ist"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 101,
+      "totalUsable": 95,
+      "totalReview": 1,
+      "totalLowSignal": 5,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "ja-JP",
+          "usableCount": 23,
+          "candidateCount": 25
+        },
+        {
+          "locale": "fr-FR",
+          "usableCount": 22,
+          "candidateCount": 22
+        },
+        {
+          "locale": "es-ES",
+          "usableCount": 21,
+          "candidateCount": 23
+        }
+      ],
+      "strength": "strong",
+      "score": 245
+    },
+    {
+      "key": "debate/no-kids-zone",
+      "route": "/debate/no-kids-zone",
+      "slot": "debate/no-kids-zone",
+      "axis": "debate",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 4,
+          "usableCount": 3,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "子供禁止 店 論争",
+            "子連れ 入店拒否",
+            "子供禁止 賛成 反対"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "禁止儿童进入争议",
+            "无孩餐厅争议",
+            "儿童不友好场所",
+            "带孩子被拒绝合理吗"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 8,
+          "usableCount": 8,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "zonas sin niños debate",
+            "restaurantes sin niños",
+            "prohibir niños en restaurantes",
+            "niños en espacios públicos debate",
+            "restaurantes sin niños madrid",
+            "restaurantes sin niños barcelona"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 7,
+          "usableCount": 7,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "restaurants sans enfants débat",
+            "zones sans enfants",
+            "interdire les enfants restaurant",
+            "enfants espaces publics débat",
+            "zone sans enfant sncf",
+            "interdire les enfants au restaurant"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "kinderfreie restaurants debatte",
+            "no kids zone deutschland",
+            "kinder in restaurants verbieten",
+            "kinder öffentliche räume debatte"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 27,
+      "totalUsable": 26,
+      "totalReview": 1,
+      "totalLowSignal": 0,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "es-ES",
+          "usableCount": 8,
+          "candidateCount": 8
+        },
+        {
+          "locale": "fr-FR",
+          "usableCount": 7,
+          "candidateCount": 7
+        },
+        {
+          "locale": "zh-CN",
+          "usableCount": 4,
+          "candidateCount": 4
+        }
+      ],
+      "strength": "emerging",
+      "score": 176
+    },
+    {
+      "key": "debate/remote-work",
+      "route": "/debate/remote-work",
+      "slot": "debate/remote-work",
+      "axis": "debate",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 10,
+          "usableCount": 9,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "リモートワーク 賛成 反対",
+            "在宅勤務 メリット デメリット",
+            "出社 必要か",
+            "リモートワーク 生産性",
+            "在宅勤務 メリット デメリット アンケート",
+            "リモートワーク 生産性低下"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "远程办公好不好",
+            "居家办公效率",
+            "是否应该回办公室",
+            "远程办公优缺点"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 14,
+          "usableCount": 13,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {
+            "work/remote-work-culture": 12
+          },
+          "topPhrases": [
+            "teletrabajo ventajas y desventajas",
+            "trabajo remoto productividad",
+            "volver a la oficina debate",
+            "teletrabajo o presencial",
+            "teletrabajo ventajas y desventajas para la empresa",
+            "teletrabajo ventajas y desventajas en la productividad"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 15,
+          "usableCount": 14,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {
+            "work/remote-work-culture": 12
+          },
+          "topPhrases": [
+            "télétravail avantages inconvénients",
+            "télétravail productivité",
+            "retour au bureau débat",
+            "télétravail ou présentiel",
+            "télétravail avantages et inconvénients pour l'employeur",
+            "télétravail avantages et inconvénients pour les salariés"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 29,
+          "usableCount": 29,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {
+            "work/remote-work-culture": 28
+          },
+          "topPhrases": [
+            "homeoffice vor und nachteile",
+            "homeoffice produktivität",
+            "zurück ins büro debatte",
+            "homeoffice oder büro",
+            "homeoffice vor und nachteile arbeitgeber",
+            "homeoffice vor und nachteile arbeitnehmer"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 72,
+      "totalUsable": 69,
+      "totalReview": 3,
+      "totalLowSignal": 0,
+      "clusterHints": {
+        "work/remote-work-culture": 52
+      },
+      "totalClusterHints": 52,
+      "strongestLocales": [
+        {
+          "locale": "de-DE",
+          "usableCount": 29,
+          "candidateCount": 29
+        },
+        {
+          "locale": "fr-FR",
+          "usableCount": 14,
+          "candidateCount": 15
+        },
+        {
+          "locale": "es-ES",
+          "usableCount": 13,
+          "candidateCount": 14
+        }
+      ],
+      "strength": "moderate",
+      "score": 531
+    },
+    {
+      "key": "digital/dopamine-addiction",
+      "route": "/digital/dopamine-addiction",
+      "slot": "digital/dopamine-addiction",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 19,
+          "usableCount": 16,
+          "reviewCount": 2,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "スマホ やめられない",
+            "SNS やめられない",
+            "スマホ依存 やめたい",
+            "だらだらスマホ やめたい",
+            "スマホ やめられない ストレス",
+            "スマホ やめられない 対策"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "手机戒不掉",
+            "短视频停不下来",
+            "社交媒体上瘾",
+            "多巴胺成瘾怎么办"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 20,
+          "usableCount": 19,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "no puedo dejar el móvil",
+            "adicción a redes sociales",
+            "no puedo parar de ver vídeos",
+            "dopamina y redes sociales",
+            "no puedo dejar el movil",
+            "puedo dejar el móvil cargando toda la noche"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 17,
+          "usableCount": 14,
+          "reviewCount": 3,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "je n'arrive pas à lâcher mon téléphone",
+            "addiction aux réseaux sociaux",
+            "scroller sans fin",
+            "dopamine réseaux sociaux",
+            "je n arrive pas a lacher mon telephone",
+            "addiction aux réseaux sociaux chiffres"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 13,
+          "usableCount": 11,
+          "reviewCount": 1,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "handy weglegen klappt nicht",
+            "social media sucht",
+            "doomscrolling aufhören",
+            "dopamin sucht handy",
+            "social media sucht jugendliche",
+            "social media sucht bekämpfen"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 73,
+      "totalUsable": 64,
+      "totalReview": 7,
+      "totalLowSignal": 2,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "es-ES",
+          "usableCount": 19,
+          "candidateCount": 20
+        },
+        {
+          "locale": "ja-JP",
+          "usableCount": 16,
+          "candidateCount": 19
+        },
+        {
+          "locale": "fr-FR",
+          "usableCount": 14,
+          "candidateCount": 17
+        }
+      ],
+      "strength": "moderate",
+      "score": 214
+    },
+    {
+      "key": "family/independence",
+      "route": "/family/independence",
+      "slot": "family/independence",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 22,
+          "usableCount": 20,
+          "reviewCount": 2,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "実家 出たい 不安",
+            "親から離れたい",
+            "一人暮らし 不安",
+            "自立したい 親",
+            "親から離れたい 社会人",
+            "親から離れたい 心理"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "想离开父母",
+            "想搬出去住但害怕",
+            "经济独立焦虑",
+            "怎么和父母保持距离"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 15,
+          "usableCount": 14,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {
+            "family/late-independence": 10
+          },
+          "topPhrases": [
+            "quiero independizarme",
+            "miedo a irme de casa",
+            "cómo poner distancia con mis padres",
+            "vivir solo ansiedad",
+            "quiero independizarme pero no tengo dinero",
+            "quiero independizarme laboralmente"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 18,
+          "usableCount": 17,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "je veux quitter mes parents",
+            "peur de partir de chez mes parents",
+            "devenir indépendant financièrement",
+            "vivre seul anxiété",
+            "je veux quitter chez mes parents",
+            "je veux quitter la maison de mes parents"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 12,
+          "usableCount": 11,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "von eltern ausziehen angst",
+            "ich will von zuhause ausziehen",
+            "finanziell unabhängig werden",
+            "alleine wohnen angst",
+            "ich will nicht von zuhause ausziehen",
+            "schnell finanziell unabhängig werden"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 71,
+      "totalUsable": 66,
+      "totalReview": 5,
+      "totalLowSignal": 0,
+      "clusterHints": {
+        "family/late-independence": 10
+      },
+      "totalClusterHints": 10,
+      "strongestLocales": [
+        {
+          "locale": "ja-JP",
+          "usableCount": 20,
+          "candidateCount": 22
+        },
+        {
+          "locale": "fr-FR",
+          "usableCount": 17,
+          "candidateCount": 18
+        },
+        {
+          "locale": "es-ES",
+          "usableCount": 14,
+          "candidateCount": 15
+        }
+      ],
+      "strength": "moderate",
+      "score": 276
+    },
+    {
+      "key": "family/parent-conflict",
+      "route": "/family/parent-conflict",
+      "slot": "family/parent-conflict",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 26,
+          "usableCount": 22,
+          "reviewCount": 2,
+          "lowSignalCount": 2,
+          "clusterHints": {},
+          "topPhrases": [
+            "親と合わない",
+            "親子関係 しんどい",
+            "親 ストレス",
+            "親と話したくない",
+            "親と合わない 大人",
+            "親と合わない ストレス"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {
+            "family/family-of-origin": 1
+          },
+          "topPhrases": [
+            "和父母合不来",
+            "父母总是控制我",
+            "和父母吵架很累",
+            "原生家庭矛盾"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 20,
+          "usableCount": 20,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {
+            "family/family-of-origin": 1
+          },
+          "topPhrases": [
+            "problemas con mis padres",
+            "mis padres me controlan",
+            "discuto mucho con mi familia",
+            "familia tóxica qué hacer",
+            "tengo problemas con mis padres",
+            "que hacer si tengo problemas con mis padres"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 24,
+          "usableCount": 21,
+          "reviewCount": 2,
+          "lowSignalCount": 1,
+          "clusterHints": {
+            "family/family-of-origin": 13
+          },
+          "topPhrases": [
+            "conflit avec mes parents",
+            "parents toxiques",
+            "mes parents me contrôlent",
+            "famille toxique que faire",
+            "conflit avec ses parents à 40 ans",
+            "conflit avec ses parents à 50 ans"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 20,
+          "usableCount": 17,
+          "reviewCount": 1,
+          "lowSignalCount": 2,
+          "clusterHints": {
+            "family/family-of-origin": 11
+          },
+          "topPhrases": [
+            "konflikt mit eltern",
+            "toxische eltern",
+            "meine eltern kontrollieren mich",
+            "herkunftsfamilie probleme",
+            "konflikt mit eltern lösen",
+            "konflikt mit alten eltern"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 94,
+      "totalUsable": 84,
+      "totalReview": 5,
+      "totalLowSignal": 5,
+      "clusterHints": {
+        "family/family-of-origin": 26
+      },
+      "totalClusterHints": 26,
+      "strongestLocales": [
+        {
+          "locale": "ja-JP",
+          "usableCount": 22,
+          "candidateCount": 26
+        },
+        {
+          "locale": "fr-FR",
+          "usableCount": 21,
+          "candidateCount": 24
+        },
+        {
+          "locale": "es-ES",
+          "usableCount": 20,
+          "candidateCount": 20
+        }
+      ],
+      "strength": "strong",
+      "score": 390
+    },
+    {
+      "key": "love/attachment-anxiety",
+      "route": "/love/attachment-anxiety",
+      "slot": "love/attachment-anxiety",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 24,
+          "usableCount": 22,
+          "reviewCount": 2,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "恋愛 不安になる",
+            "見捨てられ不安 恋愛",
+            "恋人 連絡ない 不安",
+            "恋愛 依存 やめたい",
+            "恋愛 不安になる時",
+            "恋愛 不安になる 女"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "恋爱中总是不安",
+            "害怕被抛弃 恋爱",
+            "对象不联系我很焦虑",
+            "恋爱依赖怎么戒掉"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 15,
+          "usableCount": 7,
+          "reviewCount": 8,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "ansiedad en la relación",
+            "miedo al abandono en pareja",
+            "mi pareja no me escribe y me angustio",
+            "dependencia emocional cómo salir",
+            "ansiedad en la relación de pareja",
+            "dependencia emocional como salir"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 33,
+          "usableCount": 23,
+          "reviewCount": 7,
+          "lowSignalCount": 3,
+          "clusterHints": {},
+          "topPhrases": [
+            "peur de l'abandon en couple",
+            "dépendance affective",
+            "anxiété relationnelle",
+            "besoin d'être rassuré couple",
+            "la peur de l'abandon en amour",
+            "peur de l'abandon couple homme"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 22,
+          "usableCount": 17,
+          "reviewCount": 3,
+          "lowSignalCount": 2,
+          "clusterHints": {},
+          "topPhrases": [
+            "verlustangst in beziehung",
+            "bindungsangst oder verlustangst",
+            "abhängigkeit in beziehung lösen",
+            "partner meldet sich nicht angst",
+            "verlustangst in beziehung überwinden",
+            "verlustangst in neuer beziehung"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 98,
+      "totalUsable": 73,
+      "totalReview": 20,
+      "totalLowSignal": 5,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "fr-FR",
+          "usableCount": 23,
+          "candidateCount": 33
+        },
+        {
+          "locale": "ja-JP",
+          "usableCount": 22,
+          "candidateCount": 24
+        },
+        {
+          "locale": "de-DE",
+          "usableCount": 17,
+          "candidateCount": 22
+        }
+      ],
+      "strength": "strong",
+      "score": 223
+    },
+    {
+      "key": "love/cant-confess",
+      "route": "/love/cant-confess",
+      "slot": "love/cant-confess",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 14,
+          "usableCount": 12,
+          "reviewCount": 2,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "告白できない",
+            "好きな人 告白 怖い",
+            "告白 友達 壊れる",
+            "気持ちを伝えられない 恋愛",
+            "告白できない男",
+            "告白できない理由"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 5,
+          "usableCount": 5,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "不敢表白",
+            "喜欢的人 不敢表白",
+            "表白怕失去朋友",
+            "感情说不出口",
+            "不敢表白 歌"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 10,
+          "usableCount": 10,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "no me atrevo a declararme",
+            "me gusta alguien y tengo miedo",
+            "declararme puede arruinar amistad",
+            "no puedo decir lo que siento",
+            "me gusta alguien pero tengo miedo",
+            "porque no puedo decir lo que siento sin llorar"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 9,
+          "usableCount": 8,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "je n'ose pas lui avouer mes sentiments",
+            "peur de déclarer son amour",
+            "avouer ses sentiments peur",
+            "amitié ou amour déclarer",
+            "je n ose pas lui avouer mes sentiments",
+            "peur d avouer ses sentiments"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 6,
+          "usableCount": 6,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "ich traue mich nicht meine gefühle zu gestehen",
+            "angst liebe zu gestehen",
+            "verliebt aber angst es zu sagen",
+            "freundschaft oder liebe gestehen",
+            "ich traue mich nicht ihr meine gefühle zu gestehen",
+            "freundschaft plus liebe gestehen"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 44,
+      "totalUsable": 41,
+      "totalReview": 3,
+      "totalLowSignal": 0,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "ja-JP",
+          "usableCount": 12,
+          "candidateCount": 14
+        },
+        {
+          "locale": "es-ES",
+          "usableCount": 10,
+          "candidateCount": 10
+        },
+        {
+          "locale": "fr-FR",
+          "usableCount": 8,
+          "candidateCount": 9
+        }
+      ],
+      "strength": "moderate",
+      "score": 191
+    },
+    {
+      "key": "love/relationship-values",
+      "route": "/love/relationship-values",
+      "slot": "love/relationship-values",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 10,
+          "usableCount": 10,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "恋愛 価値観 合わない",
+            "結婚 価値観 違い",
+            "恋人 価値観 違う",
+            "好きだけど価値観が合わない",
+            "好きだけど価値観が合わない 別れる",
+            "好きだけど価値観が合わない 友達"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "恋爱价值观不合",
+            "结婚价值观不同",
+            "和对象三观不合",
+            "很喜欢但价值观不合"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 5,
+          "usableCount": 5,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "diferencias de valores en pareja",
+            "no compartimos valores",
+            "lo quiero pero somos muy distintos",
+            "valores para casarse",
+            "valores para casarse por el civil"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 7,
+          "usableCount": 7,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "valeurs différentes couple",
+            "désaccord valeurs couple",
+            "on s'aime mais incompatibles",
+            "différences avant mariage",
+            "valeurs differentes couple",
+            "conflit valeur couple"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "unterschiedliche werte beziehung",
+            "werte passen nicht zusammen",
+            "liebe aber unterschiedliche lebensziele",
+            "werte vor ehe"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 30,
+      "totalUsable": 30,
+      "totalReview": 0,
+      "totalLowSignal": 0,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "ja-JP",
+          "usableCount": 10,
+          "candidateCount": 10
+        },
+        {
+          "locale": "fr-FR",
+          "usableCount": 7,
+          "candidateCount": 7
+        },
+        {
+          "locale": "es-ES",
+          "usableCount": 5,
+          "candidateCount": 5
+        }
+      ],
+      "strength": "emerging",
+      "score": 180
+    },
+    {
+      "key": "love/reply-anxiety",
+      "route": "/love/reply-anxiety",
+      "slot": "love/reply-anxiety",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 18,
+          "usableCount": 17,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "返信が来ない 不安",
+            "既読無視 不安",
+            "LINE 返信 遅い 不安",
+            "好きな人 返信 遅い",
+            "返信が来ない 不安 仕事",
+            "返信が来ない 不安になる"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "不回消息很焦虑",
+            "已读不回怎么办",
+            "喜欢的人回复很慢",
+            "微信不回消息 不安"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 22,
+          "usableCount": 21,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "no me contesta y me da ansiedad",
+            "me dejó en visto",
+            "tarda en responder mensajes",
+            "ansiedad por mensajes de whatsapp",
+            "me dejó en visto meme",
+            "me dejo en visto que hago"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 15,
+          "usableCount": 15,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "il ne répond pas aux messages",
+            "laissé en vu anxiété",
+            "réponse tardive amour",
+            "angoisse quand il ne répond pas",
+            "il ne repond pas aux messages",
+            "pourquoi il ne repond pas aux messages"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 7,
+          "usableCount": 7,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "er antwortet nicht angst",
+            "nachricht gelesen keine antwort",
+            "sie antwortet langsam beziehung",
+            "whatsapp keine antwort angst",
+            "whatsapp nachricht gelesen aber keine antwort",
+            "lovoo nachricht gelesen aber keine antwort"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 66,
+      "totalUsable": 64,
+      "totalReview": 2,
+      "totalLowSignal": 0,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "es-ES",
+          "usableCount": 21,
+          "candidateCount": 22
+        },
+        {
+          "locale": "ja-JP",
+          "usableCount": 17,
+          "candidateCount": 18
+        },
+        {
+          "locale": "fr-FR",
+          "usableCount": 15,
+          "candidateCount": 15
+        }
+      ],
+      "strength": "moderate",
+      "score": 214
+    },
+    {
+      "key": "meaning/fear-death",
+      "route": "/meaning/fear-death",
+      "slot": "meaning/fear-death",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 15,
+          "usableCount": 13,
+          "reviewCount": 2,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "死ぬのが怖い",
+            "死 不安",
+            "死について考える 怖い",
+            "いつか死ぬ 不安",
+            "死ぬのが怖い 病気",
+            "死ぬのが怖い なぜ"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 13,
+          "usableCount": 11,
+          "reviewCount": 1,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "害怕死亡怎么办",
+            "死亡焦虑",
+            "想到死亡很恐惧",
+            "怕亲人去世",
+            "死亡焦虑dcard",
+            "死亡焦虑量表"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 28,
+          "usableCount": 27,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "miedo a la muerte",
+            "ansiedad por la muerte",
+            "pienso mucho en morir",
+            "miedo a perder a mis padres",
+            "miedo a la muerte en niños",
+            "miedo a la muerte de un ser querido"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 34,
+          "usableCount": 33,
+          "reviewCount": 0,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "peur de la mort",
+            "angoisse de mort",
+            "penser à la mort tout le temps",
+            "peur de perdre ses parents",
+            "peur de la mort musique",
+            "peur de la mort bushy"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 25,
+          "usableCount": 22,
+          "reviewCount": 2,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "angst vor dem tod",
+            "todesangst",
+            "ständig an den tod denken",
+            "angst eltern zu verlieren",
+            "angst vor dem tod der eltern",
+            "angst vor dem tod überwinden"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 115,
+      "totalUsable": 106,
+      "totalReview": 6,
+      "totalLowSignal": 3,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "fr-FR",
+          "usableCount": 33,
+          "candidateCount": 34
+        },
+        {
+          "locale": "es-ES",
+          "usableCount": 27,
+          "candidateCount": 28
+        },
+        {
+          "locale": "de-DE",
+          "usableCount": 22,
+          "candidateCount": 25
+        }
+      ],
+      "strength": "very-strong",
+      "score": 256
+    },
+    {
+      "key": "meaning/meaningless",
+      "route": "/meaning/meaningless",
+      "slot": "meaning/meaningless",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 27,
+          "usableCount": 16,
+          "reviewCount": 9,
+          "lowSignalCount": 2,
+          "clusterHints": {},
+          "topPhrases": [
+            "何のために生きる",
+            "人生 むなしい",
+            "何のために生きるのか",
+            "何のために生きるのかわからない",
+            "何のために生きるのか アンパンマン",
+            "何のために生きる のか 20代"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 6,
+          "usableCount": 6,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "人生没有意义怎么办",
+            "活着没意思",
+            "感觉人生很空虚",
+            "为什么活着",
+            "为什么活着那么累",
+            "人 为什么活着"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 26,
+          "usableCount": 22,
+          "reviewCount": 0,
+          "lowSignalCount": 4,
+          "clusterHints": {
+            "meaning/existential-vacuum": 1
+          },
+          "topPhrases": [
+            "mi vida no tiene sentido",
+            "siento vacío existencial",
+            "para qué vivir",
+            "no encuentro propósito",
+            "mi vida no tiene sentido sin ti a mi lado",
+            "mi vida no tiene sentido que hago"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 20,
+          "usableCount": 15,
+          "reviewCount": 3,
+          "lowSignalCount": 2,
+          "clusterHints": {
+            "meaning/existential-vacuum": 12
+          },
+          "topPhrases": [
+            "ma vie n'a pas de sens",
+            "vide existentiel",
+            "à quoi bon vivre",
+            "je ne trouve pas de but",
+            "vide existentiel def",
+            "vide existentiel psychologie"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 16,
+          "usableCount": 15,
+          "reviewCount": 0,
+          "lowSignalCount": 1,
+          "clusterHints": {
+            "meaning/existential-vacuum": 2
+          },
+          "topPhrases": [
+            "mein leben hat keinen sinn",
+            "sinnkrise was tun",
+            "existenzielle leere",
+            "warum leben",
+            "mein leben hat keinen sinn mehr ohne dich",
+            "ohne dich hat mein leben keinen sinn"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 95,
+      "totalUsable": 74,
+      "totalReview": 12,
+      "totalLowSignal": 9,
+      "clusterHints": {
+        "meaning/existential-vacuum": 15
+      },
+      "totalClusterHints": 15,
+      "strongestLocales": [
+        {
+          "locale": "es-ES",
+          "usableCount": 22,
+          "candidateCount": 26
+        },
+        {
+          "locale": "ja-JP",
+          "usableCount": 16,
+          "candidateCount": 27
+        },
+        {
+          "locale": "fr-FR",
+          "usableCount": 15,
+          "candidateCount": 20
+        }
+      ],
+      "strength": "strong",
+      "score": 314
+    },
+    {
+      "key": "meaning/no-motivation",
+      "route": "/meaning/no-motivation",
+      "slot": "meaning/no-motivation",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 38,
+          "usableCount": 33,
+          "reviewCount": 2,
+          "lowSignalCount": 3,
+          "clusterHints": {},
+          "topPhrases": [
+            "何もしたくない",
+            "やる気が出ない",
+            "無気力 つらい",
+            "頑張れない",
+            "何もしたくない時",
+            "何もしたくない日"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 13,
+          "usableCount": 13,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "什么都不想做",
+            "没有动力怎么办",
+            "对什么都提不起兴趣",
+            "人生没有干劲",
+            "什么都不想做只想躺着dcard",
+            "什么都不想做只想睡觉dcard"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 24,
+          "usableCount": 23,
+          "reviewCount": 0,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "no tengo motivación para nada",
+            "no quiero hacer nada",
+            "me falta motivación",
+            "nada me ilusiona",
+            "porque no tengo motivación para nada",
+            "no tengo motivación para hacer nada"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 32,
+          "usableCount": 30,
+          "reviewCount": 0,
+          "lowSignalCount": 2,
+          "clusterHints": {},
+          "topPhrases": [
+            "je n'ai envie de rien",
+            "perte de motivation",
+            "rien ne m'intéresse",
+            "pas d'énergie pour agir",
+            "je n'ai envie de rien faire",
+            "je n'ai envie de rien faire pourquoi"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 22,
+          "usableCount": 21,
+          "reviewCount": 0,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "ich habe keine motivation",
+            "ich will nichts tun",
+            "nichts interessiert mich",
+            "keine energie für irgendwas",
+            "ich habe keine motivation mehr",
+            "ich habe keine motivation zum arbeiten"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 129,
+      "totalUsable": 120,
+      "totalReview": 2,
+      "totalLowSignal": 7,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "ja-JP",
+          "usableCount": 33,
+          "candidateCount": 38
+        },
+        {
+          "locale": "fr-FR",
+          "usableCount": 30,
+          "candidateCount": 32
+        },
+        {
+          "locale": "es-ES",
+          "usableCount": 23,
+          "candidateCount": 24
+        }
+      ],
+      "strength": "very-strong",
+      "score": 270
+    },
+    {
+      "key": "money/future-anxiety",
+      "route": "/money/future-anxiety",
+      "slot": "money/future-anxiety",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 17,
+          "usableCount": 16,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "将来 お金 不安",
+            "お金 不安 眠れない",
+            "生活費 不安",
+            "貯金 できない 不安",
+            "将来 が 不安 お金",
+            "将来 が 不安 お金 50 代"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "未来没钱很焦虑",
+            "存不到钱怎么办",
+            "生活费压力大",
+            "财务焦虑"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 11,
+          "usableCount": 11,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {
+            "money/precarity": 1
+          },
+          "topPhrases": [
+            "ansiedad por dinero",
+            "miedo al futuro económico",
+            "no puedo ahorrar dinero",
+            "preocupación por no llegar a fin de mes",
+            "ansiedad por gastar dinero",
+            "ansiedad por tener dinero"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 25,
+          "usableCount": 23,
+          "reviewCount": 1,
+          "lowSignalCount": 1,
+          "clusterHints": {
+            "money/precarity": 10
+          },
+          "topPhrases": [
+            "angoisse de l'argent",
+            "peur de l'avenir financier",
+            "je n'arrive pas à économiser",
+            "précarité financière",
+            "angoisse de l argent",
+            "peur de l argent"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 10,
+          "usableCount": 9,
+          "reviewCount": 0,
+          "lowSignalCount": 1,
+          "clusterHints": {
+            "money/precarity": 3
+          },
+          "topPhrases": [
+            "geldsorgen zukunft",
+            "zukunftsangst geld",
+            "ich kann nicht sparen",
+            "finanzielle unsicherheit",
+            "zukunftsangst geldsorgen",
+            "ich kann nicht sparen forum"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 67,
+      "totalUsable": 63,
+      "totalReview": 2,
+      "totalLowSignal": 2,
+      "clusterHints": {
+        "money/precarity": 14
+      },
+      "totalClusterHints": 14,
+      "strongestLocales": [
+        {
+          "locale": "fr-FR",
+          "usableCount": 23,
+          "candidateCount": 25
+        },
+        {
+          "locale": "ja-JP",
+          "usableCount": 16,
+          "candidateCount": 17
+        },
+        {
+          "locale": "es-ES",
+          "usableCount": 11,
+          "candidateCount": 11
+        }
+      ],
+      "strength": "moderate",
+      "score": 297
+    },
+    {
+      "key": "relationships/cant-say-no",
+      "route": "/relationships/cant-say-no",
+      "slot": "relationships/cant-say-no",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 18,
+          "usableCount": 18,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "断れない 性格",
+            "頼まれると断れない",
+            "嫌と言えない",
+            "断るのが怖い",
+            "断れない 性格 病気",
+            "断れない 性格 mbti"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 5,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "不会拒绝别人",
+            "不敢说不怎么办",
+            "总是讨好别人",
+            "怕别人不高兴"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 15,
+          "usableCount": 14,
+          "reviewCount": 0,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "no sé decir que no",
+            "me cuesta poner límites",
+            "siempre complazco a los demás",
+            "miedo a decepcionar a otros",
+            "yo no sé decir que no",
+            "yo no sé decir que no beele"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 19,
+          "usableCount": 18,
+          "reviewCount": 0,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "je n'arrive pas à dire non",
+            "peur de décevoir les autres",
+            "poser des limites",
+            "trop gentil avec les autres",
+            "je n arrive pas à dire non",
+            "pourquoi je n arrive pas à dire non"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 31,
+          "usableCount": 26,
+          "reviewCount": 4,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "ich kann nicht nein sagen",
+            "angst andere zu enttäuschen",
+            "grenzen setzen lernen",
+            "people pleasing deutsch",
+            "ich kann nicht nein sagen psychologie",
+            "ich kann nicht nein sagen lied"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 88,
+      "totalUsable": 80,
+      "totalReview": 4,
+      "totalLowSignal": 4,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "de-DE",
+          "usableCount": 26,
+          "candidateCount": 31
+        },
+        {
+          "locale": "fr-FR",
+          "usableCount": 18,
+          "candidateCount": 19
+        },
+        {
+          "locale": "ja-JP",
+          "usableCount": 18,
+          "candidateCount": 18
+        }
+      ],
+      "strength": "strong",
+      "score": 230
+    },
+    {
+      "key": "relationships/drifting-friends",
+      "route": "/relationships/drifting-friends",
+      "slot": "relationships/drifting-friends",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 5,
+          "usableCount": 5,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "友達 疎遠 寂しい",
+            "友達関係 変わった",
+            "友達 減った 不安",
+            "親友 距離 できた",
+            "結婚後 友達 疎遠 寂しい"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 6,
+          "usableCount": 6,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "朋友渐行渐远",
+            "和朋友疏远怎么办",
+            "成年后朋友越来越少",
+            "友情变淡了",
+            "朋友渐行渐远dcard",
+            "为什么人越大 朋友渐行渐远"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 6,
+          "usableCount": 6,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "me estoy alejando de mis amigos",
+            "perder amigos de adulto",
+            "amistades que se enfrían",
+            "ya no conecto con mis amigos",
+            "amistades que se enfríen",
+            "siento que ya no conecto con mis amigos"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 20,
+          "usableCount": 14,
+          "reviewCount": 6,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "perdre ses amis adulte",
+            "amitié qui se termine",
+            "je n'ai plus d'amis",
+            "une amitié qui se termine en en réalité jamais commencé",
+            "une amitié qui se finit en fait n avait pas commencé",
+            "je n'ai plus d'amis à 30 ans"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 21,
+          "usableCount": 21,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "freunde entfernen sich",
+            "freundschaften gehen auseinander",
+            "im erwachsenenalter freunde verlieren",
+            "keine freunde mehr",
+            "freunde entfernen sich von mir",
+            "snapchat freunde entfernen sichtbar"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 58,
+      "totalUsable": 52,
+      "totalReview": 6,
+      "totalLowSignal": 0,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "de-DE",
+          "usableCount": 21,
+          "candidateCount": 21
+        },
+        {
+          "locale": "fr-FR",
+          "usableCount": 14,
+          "candidateCount": 20
+        },
+        {
+          "locale": "zh-CN",
+          "usableCount": 6,
+          "candidateCount": 6
+        }
+      ],
+      "strength": "moderate",
+      "score": 202
+    },
+    {
+      "key": "relationships/lonely-but-prefer-alone",
+      "route": "/relationships/lonely-but-prefer-alone",
+      "slot": "relationships/lonely-but-prefer-alone",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 8,
+          "usableCount": 8,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "一人が好き でも寂しい",
+            "人といると疲れる でも寂しい",
+            "孤独 不安",
+            "一人でいたい 寂しい",
+            "孤独 不安 対処法",
+            "孤独 不安 解消"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "一个人很舒服但孤独",
+            "喜欢独处但会寂寞",
+            "孤独感怎么办",
+            "不想社交又怕孤独"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "me gusta estar solo pero me siento solo",
+            "quiero estar solo pero me da soledad",
+            "me siento solo aunque no quiero socializar",
+            "soledad y necesidad de espacio"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "j'aime être seul mais je me sens seul",
+            "solitude choisie mais douloureuse",
+            "besoin d'être seul et solitude",
+            "je ne veux pas socialiser"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 9,
+          "usableCount": 9,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "ich bin gerne allein aber einsam",
+            "allein sein und einsamkeit",
+            "ich will nicht unter menschen aber bin einsam",
+            "soziale kontakte strengen an",
+            "ich bin gerne allein aber nicht einsam",
+            "unterschied alleinsein und einsamkeit"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 29,
+      "totalUsable": 29,
+      "totalReview": 0,
+      "totalLowSignal": 0,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "de-DE",
+          "usableCount": 9,
+          "candidateCount": 9
+        },
+        {
+          "locale": "ja-JP",
+          "usableCount": 8,
+          "candidateCount": 8
+        },
+        {
+          "locale": "zh-CN",
+          "usableCount": 4,
+          "candidateCount": 4
+        }
+      ],
+      "strength": "emerging",
+      "score": 179
+    },
+    {
+      "key": "self-esteem/comparing",
+      "route": "/self-esteem/comparing",
+      "slot": "self-esteem/comparing",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 17,
+          "usableCount": 15,
+          "reviewCount": 2,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "人と比べてしまう",
+            "SNS 比較 つらい",
+            "友達 比べて 落ち込む",
+            "劣等感 比較",
+            "人と比べてしまう時",
+            "人と比べてしまう癖"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "总是和别人比较",
+            "刷朋友圈很自卑",
+            "看到别人成功很焦虑",
+            "不想和别人比较"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 20,
+          "usableCount": 19,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "me comparo con los demás",
+            "redes sociales me hacen sentir mal",
+            "me da ansiedad ver el éxito de otros",
+            "cómo dejar de compararme",
+            "porque me comparo con los demás",
+            "me comparo con los demás y me siento mal"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 22,
+          "usableCount": 21,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "je me compare aux autres",
+            "réseaux sociaux et estime de soi",
+            "jalousie réussite des autres",
+            "arrêter de se comparer",
+            "je me compare aux autres filles",
+            "pourquoi je me compare aux autres"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 9,
+          "usableCount": 8,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "ich vergleiche mich ständig mit anderen",
+            "social media macht mich unglücklich",
+            "neid auf erfolg anderer",
+            "aufhören sich zu vergleichen",
+            "ich vergleiche mich ständig mit anderen frauen",
+            "aufhören sich ständig zu vergleichen"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 72,
+      "totalUsable": 67,
+      "totalReview": 5,
+      "totalLowSignal": 0,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "fr-FR",
+          "usableCount": 21,
+          "candidateCount": 22
+        },
+        {
+          "locale": "es-ES",
+          "usableCount": 19,
+          "candidateCount": 20
+        },
+        {
+          "locale": "ja-JP",
+          "usableCount": 15,
+          "candidateCount": 17
+        }
+      ],
+      "strength": "moderate",
+      "score": 217
+    },
+    {
+      "key": "self-esteem/low-self-esteem",
+      "route": "/self-esteem/low-self-esteem",
+      "slot": "self-esteem/low-self-esteem",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 31,
+          "usableCount": 27,
+          "reviewCount": 1,
+          "lowSignalCount": 3,
+          "clusterHints": {},
+          "topPhrases": [
+            "自己肯定感 低い",
+            "自分に自信がない",
+            "自分が嫌い",
+            "自己肯定感 上げたい",
+            "自己肯定感 低い 原因",
+            "自己肯定感 低い 特徴"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 5,
+          "usableCount": 5,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "自尊心低怎么办",
+            "觉得自己很差",
+            "不喜欢自己怎么办",
+            "没有自信怎么办",
+            "觉得自己很差劲"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 33,
+          "usableCount": 30,
+          "reviewCount": 2,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "tengo baja autoestima",
+            "me siento insuficiente",
+            "no me gusto a mí mismo",
+            "cómo tener más confianza",
+            "tengo baja autoestima que puedo hacer",
+            "tengo baja autoestima por mi cuerpo"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 40,
+          "usableCount": 29,
+          "reviewCount": 5,
+          "lowSignalCount": 6,
+          "clusterHints": {},
+          "topPhrases": [
+            "manque d'estime de soi",
+            "je ne vaux rien",
+            "je ne m'aime pas",
+            "comment avoir confiance en soi",
+            "manque d'estime de soi causes",
+            "manque d'estime de soi synonyme"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 30,
+          "usableCount": 27,
+          "reviewCount": 1,
+          "lowSignalCount": 2,
+          "clusterHints": {},
+          "topPhrases": [
+            "geringes selbstwertgefühl",
+            "ich fühle mich wertlos",
+            "ich mag mich selbst nicht",
+            "mehr selbstvertrauen bekommen",
+            "geringes selbstwertgefühl ursachen kindheit",
+            "geringes selbstwertgefühl sexualität"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 139,
+      "totalUsable": 118,
+      "totalReview": 9,
+      "totalLowSignal": 12,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "es-ES",
+          "usableCount": 30,
+          "candidateCount": 33
+        },
+        {
+          "locale": "fr-FR",
+          "usableCount": 29,
+          "candidateCount": 40
+        },
+        {
+          "locale": "ja-JP",
+          "usableCount": 27,
+          "candidateCount": 31
+        }
+      ],
+      "strength": "very-strong",
+      "score": 268
+    },
+    {
+      "key": "study/cant-study",
+      "route": "/study/cant-study",
+      "slot": "study/cant-study",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 34,
+          "usableCount": 31,
+          "reviewCount": 3,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "勉強できない",
+            "勉強 やる気 出ない",
+            "勉強 集中できない",
+            "勉強しなきゃいけないのにできない",
+            "勉強できない子",
+            "勉強できない人"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "学不进去怎么办",
+            "学习没有动力",
+            "学习注意力不集中",
+            "明明该学习却学不进去"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 15,
+          "usableCount": 15,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {
+            "study/exam-pressure": 1
+          },
+          "topPhrases": [
+            "no puedo estudiar",
+            "no tengo motivación para estudiar",
+            "no me concentro al estudiar",
+            "sé que debo estudiar pero no puedo",
+            "no puedo estudiar no me concentro",
+            "no puedo estudiar por ansiedad"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 23,
+          "usableCount": 19,
+          "reviewCount": 0,
+          "lowSignalCount": 4,
+          "clusterHints": {
+            "study/exam-pressure": 1
+          },
+          "topPhrases": [
+            "je n'arrive pas à étudier",
+            "pas de motivation pour étudier",
+            "je n'arrive pas à me concentrer",
+            "je procrastine mes révisions",
+            "je n arrive pas à étudier",
+            "je n arrive pas à apprendre par coeur"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 28,
+          "usableCount": 25,
+          "reviewCount": 2,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "ich kann nicht lernen",
+            "keine motivation zum lernen",
+            "ich kann mich nicht konzentrieren",
+            "prokrastination beim lernen",
+            "ich kann nicht lernen konzentration",
+            "ich kann nicht lernen was tun"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 104,
+      "totalUsable": 94,
+      "totalReview": 5,
+      "totalLowSignal": 5,
+      "clusterHints": {
+        "study/exam-pressure": 2
+      },
+      "totalClusterHints": 2,
+      "strongestLocales": [
+        {
+          "locale": "ja-JP",
+          "usableCount": 31,
+          "candidateCount": 34
+        },
+        {
+          "locale": "de-DE",
+          "usableCount": 25,
+          "candidateCount": 28
+        },
+        {
+          "locale": "fr-FR",
+          "usableCount": 19,
+          "candidateCount": 23
+        }
+      ],
+      "strength": "strong",
+      "score": 256
+    },
+    {
+      "key": "study/exam-anxiety",
+      "route": "/study/exam-anxiety",
+      "slot": "study/exam-anxiety",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 31,
+          "usableCount": 26,
+          "reviewCount": 5,
+          "lowSignalCount": 0,
+          "clusterHints": {
+            "study/school-refusal": 1
+          },
+          "topPhrases": [
+            "試験 不安",
+            "受験 不安",
+            "テスト 怖い",
+            "試験 緊張 どうする",
+            "試験 不安 受かる",
+            "試験 不安すぎる"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {
+            "study/exam-pressure": 1
+          },
+          "topPhrases": [
+            "考试焦虑怎么办",
+            "高考焦虑",
+            "考前紧张怎么办",
+            "害怕考试失败"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 22,
+          "usableCount": 21,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {
+            "study/exam-pressure": 1
+          },
+          "topPhrases": [
+            "ansiedad ante los exámenes",
+            "miedo a suspender",
+            "nervios antes de un examen",
+            "ansiedad por selectividad",
+            "ansiedad ante los exámenes en adolescentes",
+            "ansiedad ante los exámenes evaluación e intervención psicopedagógica"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 14,
+          "usableCount": 13,
+          "reviewCount": 0,
+          "lowSignalCount": 1,
+          "clusterHints": {
+            "study/exam-pressure": 3
+          },
+          "topPhrases": [
+            "stress avant examen",
+            "peur de rater un examen",
+            "angoisse des examens",
+            "réviser sous pression",
+            "stress avant examen médical",
+            "stress avant examen homéopathie"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 28,
+          "usableCount": 27,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {
+            "study/exam-pressure": 10
+          },
+          "topPhrases": [
+            "prüfungsangst was tun",
+            "angst durchzufallen",
+            "nervös vor prüfung",
+            "prüfung stress",
+            "prüfungsangst was tun kinder",
+            "prüfungsangst was tun führerschein"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 99,
+      "totalUsable": 91,
+      "totalReview": 7,
+      "totalLowSignal": 1,
+      "clusterHints": {
+        "study/school-refusal": 1,
+        "study/exam-pressure": 15
+      },
+      "totalClusterHints": 16,
+      "strongestLocales": [
+        {
+          "locale": "de-DE",
+          "usableCount": 27,
+          "candidateCount": 28
+        },
+        {
+          "locale": "ja-JP",
+          "usableCount": 26,
+          "candidateCount": 31
+        },
+        {
+          "locale": "es-ES",
+          "usableCount": 21,
+          "candidateCount": 22
+        }
+      ],
+      "strength": "strong",
+      "score": 337
+    },
+    {
+      "key": "thought/freedom",
+      "route": "/thought/freedom",
+      "slot": "freedom",
+      "axis": "thought",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 26,
+          "usableCount": 13,
+          "reviewCount": 11,
+          "lowSignalCount": 2,
+          "clusterHints": {},
+          "topPhrases": [
+            "自由に生きたい",
+            "自由 責任",
+            "自分らしく生きたい",
+            "自由と繁栄の弧",
+            "自由に生きたい 仕事",
+            "自由に生きたい 離婚"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 7,
+          "usableCount": 6,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "自由是什么",
+            "想自由地生活",
+            "自由和责任",
+            "怎样做自己",
+            "自由是什么 书",
+            "进击的巨人 自由是什么"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 38,
+          "usableCount": 36,
+          "reviewCount": 2,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "qué es la libertad",
+            "quiero vivir libre",
+            "libertad y responsabilidad",
+            "cómo ser yo mismo",
+            "qué es la libertad de expresión",
+            "qué es la libertad de culto"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 35,
+          "usableCount": 27,
+          "reviewCount": 6,
+          "lowSignalCount": 2,
+          "clusterHints": {},
+          "topPhrases": [
+            "qu'est-ce que la liberté",
+            "vivre librement",
+            "liberté et responsabilité",
+            "être soi-même",
+            "qu'est-ce que la liberté d'association",
+            "qu'est-ce que la liberté d'expression"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 31,
+          "usableCount": 29,
+          "reviewCount": 1,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "was ist freiheit",
+            "frei leben wollen",
+            "freiheit und verantwortung",
+            "ich selbst sein",
+            "was ist freiheitsstrafe",
+            "was ist freiheit plus"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 137,
+      "totalUsable": 111,
+      "totalReview": 21,
+      "totalLowSignal": 5,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "es-ES",
+          "usableCount": 36,
+          "candidateCount": 38
+        },
+        {
+          "locale": "de-DE",
+          "usableCount": 29,
+          "candidateCount": 31
+        },
+        {
+          "locale": "fr-FR",
+          "usableCount": 27,
+          "candidateCount": 35
+        }
+      ],
+      "strength": "very-strong",
+      "score": 261
+    },
+    {
+      "key": "thought/good-life",
+      "route": "/thought/good-life",
+      "slot": "good-life",
+      "axis": "thought",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 24,
+          "usableCount": 6,
+          "reviewCount": 16,
+          "lowSignalCount": 2,
+          "clusterHints": {
+            "meaning/ikigai": 6
+          },
+          "topPhrases": [
+            "どう生きるべきか",
+            "人生 何を大切にする",
+            "どう生きるべきか 哲学",
+            "人生 どう生きるべきか",
+            "われわれはいかに働き どう生きるべきか",
+            "50代 どう生きるべきか"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 5,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "怎样才算好的人生",
+            "人应该怎样生活",
+            "人生最重要的是什么",
+            "活着的意义是什么"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 41,
+          "usableCount": 40,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "qué es una buena vida",
+            "cómo debería vivir",
+            "qué es lo más importante en la vida",
+            "sentido de la vida",
+            "que es una buena vida saludable",
+            "que es una buena vida segun aristoteles"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 41,
+          "usableCount": 38,
+          "reviewCount": 0,
+          "lowSignalCount": 3,
+          "clusterHints": {},
+          "topPhrases": [
+            "qu'est-ce qu'une bonne vie",
+            "comment bien vivre",
+            "que faire de sa vie",
+            "sens de la vie",
+            "qu est ce qu une bonne vie",
+            "qu est ce qu une belle vie"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 40,
+          "usableCount": 34,
+          "reviewCount": 4,
+          "lowSignalCount": 2,
+          "clusterHints": {},
+          "topPhrases": [
+            "was ist ein gutes leben",
+            "wie soll man leben",
+            "was ist wichtig im leben",
+            "sinn des lebens",
+            "was ist ein gutes lebensmotto",
+            "was ist ein gutes leben philosophie"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 151,
+      "totalUsable": 122,
+      "totalReview": 21,
+      "totalLowSignal": 8,
+      "clusterHints": {
+        "meaning/ikigai": 6
+      },
+      "totalClusterHints": 6,
+      "strongestLocales": [
+        {
+          "locale": "es-ES",
+          "usableCount": 40,
+          "candidateCount": 41
+        },
+        {
+          "locale": "fr-FR",
+          "usableCount": 38,
+          "candidateCount": 41
+        },
+        {
+          "locale": "de-DE",
+          "usableCount": 34,
+          "candidateCount": 40
+        }
+      ],
+      "strength": "very-strong",
+      "score": 308
+    },
+    {
+      "key": "thought/happiness",
+      "route": "/thought/happiness",
+      "slot": "happiness",
+      "axis": "thought",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 35,
+          "usableCount": 15,
+          "reviewCount": 11,
+          "lowSignalCount": 9,
+          "clusterHints": {},
+          "topPhrases": [
+            "幸せになりたい",
+            "お金 幸せ",
+            "幸せがわからない",
+            "幸せになりたい あいみょん",
+            "幸せになりたい 今井美樹",
+            "お金 幸せになれない"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 13,
+          "usableCount": 8,
+          "reviewCount": 3,
+          "lowSignalCount": 2,
+          "clusterHints": {},
+          "topPhrases": [
+            "幸福是什么",
+            "怎样才能快乐",
+            "有钱就会幸福吗",
+            "感觉不到幸福",
+            "幸福是什么感觉",
+            "幸福是什么dcard"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 40,
+          "usableCount": 38,
+          "reviewCount": 2,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "qué es la felicidad",
+            "cómo ser feliz",
+            "el dinero da la felicidad",
+            "no me siento feliz",
+            "qué es la felicidad para aristóteles",
+            "qué es la felicidad según la biblia"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 40,
+          "usableCount": 36,
+          "reviewCount": 3,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "qu'est-ce que le bonheur",
+            "comment être heureux",
+            "l'argent fait-il le bonheur",
+            "je ne suis pas heureux",
+            "qu'est-ce que le bonheur en philosophie",
+            "qu est ce que le bonheur pour vous"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 38,
+          "usableCount": 35,
+          "reviewCount": 0,
+          "lowSignalCount": 3,
+          "clusterHints": {},
+          "topPhrases": [
+            "was ist glück",
+            "wie werde ich glücklich",
+            "macht geld glücklich",
+            "ich bin nicht glücklich",
+            "was ist glücksspirale",
+            "was ist glücks kolonie"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 166,
+      "totalUsable": 132,
+      "totalReview": 19,
+      "totalLowSignal": 15,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "es-ES",
+          "usableCount": 38,
+          "candidateCount": 40
+        },
+        {
+          "locale": "fr-FR",
+          "usableCount": 36,
+          "candidateCount": 40
+        },
+        {
+          "locale": "de-DE",
+          "usableCount": 35,
+          "candidateCount": 38
+        }
+      ],
+      "strength": "very-strong",
+      "score": 282
+    },
+    {
+      "key": "thought/success",
+      "route": "/thought/success",
+      "slot": "success",
+      "axis": "thought",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 13,
+          "usableCount": 2,
+          "reviewCount": 10,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "成功したい 不安",
+            "成功 幸せ 違い"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 7,
+          "usableCount": 4,
+          "reviewCount": 3,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "成功是什么",
+            "怎样才算成功",
+            "成功和幸福的区别",
+            "人生一定要成功吗"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 15,
+          "usableCount": 15,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "qué es el éxito",
+            "cómo saber si soy exitoso",
+            "éxito y felicidad diferencia",
+            "tengo miedo a no tener éxito",
+            "qué es el éxito y la derrota",
+            "qué es el éxito financiero"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 21,
+          "usableCount": 21,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "qu'est-ce que réussir sa vie",
+            "peur de ne pas réussir",
+            "réussite et bonheur différence",
+            "faut-il réussir sa vie",
+            "qu est ce que reussir sa vie",
+            "qu'est-ce que réussir sa vie philosophie"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 16,
+          "usableCount": 15,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "was ist erfolg",
+            "angst nicht erfolgreich zu sein",
+            "erfolg und glück unterschied",
+            "muss man erfolgreich sein",
+            "was ist erfolgswirksam",
+            "was ist erfolgsrechnung"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 72,
+      "totalUsable": 57,
+      "totalReview": 14,
+      "totalLowSignal": 1,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "fr-FR",
+          "usableCount": 21,
+          "candidateCount": 21
+        },
+        {
+          "locale": "de-DE",
+          "usableCount": 15,
+          "candidateCount": 16
+        },
+        {
+          "locale": "es-ES",
+          "usableCount": 15,
+          "candidateCount": 15
+        }
+      ],
+      "strength": "moderate",
+      "score": 207
+    },
+    {
+      "key": "work/boss-stress",
+      "route": "/work/boss-stress",
+      "slot": "work/boss-stress",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 28,
+          "usableCount": 25,
+          "reviewCount": 2,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "上司 ストレス",
+            "上司が怖い",
+            "上司 合わない",
+            "職場 上司 つらい",
+            "上司 ストレス 辞めたい",
+            "上司 ストレス 体調不良"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "领导压力太大",
+            "上司很难相处",
+            "被领导骂很难受",
+            "职场上司压力"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 6,
+          "usableCount": 6,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "mi jefe me estresa",
+            "jefe tóxico qué hacer",
+            "maltrato laboral jefe",
+            "ansiedad por mi jefe",
+            "jefe toxico que hacer",
+            "maltrato laboral del jefe"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 9,
+          "usableCount": 9,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "mon chef me stresse",
+            "manager toxique que faire",
+            "pression du supérieur",
+            "angoisse à cause du travail",
+            "mon patron me stresse",
+            "anxiété à cause du travail"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 19,
+          "usableCount": 14,
+          "reviewCount": 5,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "chef macht mich fertig",
+            "toxischer chef was tun",
+            "stress mit chef",
+            "chef macht mich fertig weil ich krank bin",
+            "chef macht mich psychisch fertig",
+            "chef macht mich nach kündigung fertig"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 66,
+      "totalUsable": 58,
+      "totalReview": 7,
+      "totalLowSignal": 1,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "ja-JP",
+          "usableCount": 25,
+          "candidateCount": 28
+        },
+        {
+          "locale": "de-DE",
+          "usableCount": 14,
+          "candidateCount": 19
+        },
+        {
+          "locale": "fr-FR",
+          "usableCount": 9,
+          "candidateCount": 9
+        }
+      ],
+      "strength": "moderate",
+      "score": 208
+    },
+    {
+      "key": "work/burnout",
+      "route": "/work/burnout",
+      "slot": "work/burnout",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 22,
+          "usableCount": 22,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "燃え尽き症候群 仕事",
+            "仕事 疲れた 限界",
+            "何もしたくない 仕事",
+            "頑張れない 仕事",
+            "燃え尽き症候群 仕事以外",
+            "燃え尽き症候群 仕事 辞める"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 7,
+          "usableCount": 5,
+          "reviewCount": 1,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "工作倦怠怎么办",
+            "上班很累没有力气",
+            "职业倦怠症",
+            "工作到崩溃",
+            "职业倦怠症候群"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 14,
+          "usableCount": 13,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "agotamiento laboral",
+            "burnout laboral qué hacer",
+            "estoy quemado del trabajo",
+            "cansancio extremo por trabajo",
+            "agotamiento laboral sintomas",
+            "agotamiento laboral burnout"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 31,
+          "usableCount": 26,
+          "reviewCount": 3,
+          "lowSignalCount": 2,
+          "clusterHints": {},
+          "topPhrases": [
+            "burn out que faire",
+            "épuisement professionnel",
+            "je suis épuisé par le travail",
+            "plus d'énergie au travail",
+            "burn out que faire pour aller mieux",
+            "burn out que faire pour s'en sortir"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 19,
+          "usableCount": 18,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "burnout was tun",
+            "berufliche erschöpfung",
+            "arbeit macht mich kaputt",
+            "keine kraft mehr für arbeit",
+            "burnout was tun als partner",
+            "burnout was tun dagegen"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 93,
+      "totalUsable": 84,
+      "totalReview": 6,
+      "totalLowSignal": 3,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "fr-FR",
+          "usableCount": 26,
+          "candidateCount": 31
+        },
+        {
+          "locale": "ja-JP",
+          "usableCount": 22,
+          "candidateCount": 22
+        },
+        {
+          "locale": "de-DE",
+          "usableCount": 18,
+          "candidateCount": 19
+        }
+      ],
+      "strength": "strong",
+      "score": 234
+    },
+    {
+      "key": "work/dont-want-to",
+      "route": "/work/dont-want-to",
+      "slot": "work/dont-want-to",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 39,
+          "usableCount": 36,
+          "reviewCount": 1,
+          "lowSignalCount": 2,
+          "clusterHints": {},
+          "topPhrases": [
+            "仕事 行きたくない",
+            "仕事 やる気が出ない",
+            "会社 行きたくない",
+            "やらなきゃいけないのにできない",
+            "仕事 行きたくない 朝",
+            "仕事 行きたくない 休む"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 5,
+          "usableCount": 5,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "不想上班怎么办",
+            "每天都不想工作",
+            "讨厌上班怎么办",
+            "不想工作但需要钱",
+            "不想上班怎么办dcard"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 31,
+          "usableCount": 25,
+          "reviewCount": 2,
+          "lowSignalCount": 4,
+          "clusterHints": {},
+          "topPhrases": [
+            "no quiero trabajar",
+            "no quiero ir al trabajo",
+            "odio mi trabajo",
+            "necesito dinero pero no quiero trabajar",
+            "no quiero trabajar no quiero ir a estudiar",
+            "no quiero trabajar meme"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 32,
+          "usableCount": 30,
+          "reviewCount": 0,
+          "lowSignalCount": 2,
+          "clusterHints": {},
+          "topPhrases": [
+            "je n'ai pas envie de travailler",
+            "je ne veux plus aller au travail",
+            "marre de travailler",
+            "travailler sans motivation",
+            "je n ai pas envie de travailler que faire",
+            "je n'ai pas envie de travailler aujourd'hui"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 31,
+          "usableCount": 28,
+          "reviewCount": 3,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "ich will nicht arbeiten",
+            "keine lust auf arbeit",
+            "ich hasse meinen job",
+            "arbeiten müssen aber nicht wollen",
+            "ich will nicht arbeiten comic",
+            "ich will nicht arbeiten nele jongeling"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 138,
+      "totalUsable": 124,
+      "totalReview": 6,
+      "totalLowSignal": 8,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "ja-JP",
+          "usableCount": 36,
+          "candidateCount": 39
+        },
+        {
+          "locale": "fr-FR",
+          "usableCount": 30,
+          "candidateCount": 32
+        },
+        {
+          "locale": "de-DE",
+          "usableCount": 28,
+          "candidateCount": 31
+        }
+      ],
+      "strength": "very-strong",
+      "score": 274
+    },
+    {
+      "key": "work/job-change",
+      "route": "/work/job-change",
+      "slot": "work/job-change",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 19,
+          "usableCount": 18,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "転職 迷う",
+            "転職 不安",
+            "仕事 変えたい 怖い",
+            "このままの仕事でいいのか",
+            "転職 迷う時",
+            "転職 迷う やめた ほうが いい"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 6,
+          "usableCount": 5,
+          "reviewCount": 0,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "要不要换工作",
+            "换工作很焦虑",
+            "不敢辞职怎么办",
+            "转行迷茫",
+            "要不要换工作 dcard"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 11,
+          "usableCount": 10,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "debería cambiar de trabajo",
+            "miedo a cambiar de trabajo",
+            "quiero renunciar pero tengo miedo",
+            "cambiar de carrera profesional",
+            "deberia cambiar de trabajo",
+            "porque tengo miedo a cambiar de trabajo"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 22,
+          "usableCount": 21,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "changer de travail ou rester",
+            "peur de changer de travail",
+            "démissionner ou pas",
+            "reconversion professionnelle doute",
+            "peur de changer de metier",
+            "peur de changer de poste"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 18,
+          "usableCount": 15,
+          "reviewCount": 1,
+          "lowSignalCount": 2,
+          "clusterHints": {},
+          "topPhrases": [
+            "job wechseln oder bleiben",
+            "angst vor jobwechsel",
+            "kündigen oder bleiben",
+            "berufliche neuorientierung angst",
+            "angst vor jobwechsel forum",
+            "angst vor veränderung jobwechsel"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 76,
+      "totalUsable": 69,
+      "totalReview": 4,
+      "totalLowSignal": 3,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "fr-FR",
+          "usableCount": 21,
+          "candidateCount": 22
+        },
+        {
+          "locale": "ja-JP",
+          "usableCount": 18,
+          "candidateCount": 19
+        },
+        {
+          "locale": "de-DE",
+          "usableCount": 15,
+          "candidateCount": 18
+        }
+      ],
+      "strength": "moderate",
+      "score": 219
+    },
+    {
+      "key": "work/workplace-relationships",
+      "route": "/work/workplace-relationships",
+      "slot": "work/workplace-relationships",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 23,
+          "usableCount": 21,
+          "reviewCount": 1,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "職場 人間関係 つらい",
+            "会社 人間関係 疲れた",
+            "職場 孤立",
+            "同僚 合わない",
+            "職場 孤立 気にしない",
+            "職場 孤立感"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "职场人际关系很累",
+            "同事关系不好怎么办",
+            "上班社交压力",
+            "办公室关系复杂"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 19,
+          "usableCount": 16,
+          "reviewCount": 3,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "relaciones laborales difíciles",
+            "problemas con compañeros de trabajo",
+            "ambiente laboral tóxico",
+            "me cuesta socializar en el trabajo",
+            "problemas con compañeros de trabajo cie 10",
+            "como evitar problemas con compañeros de trabajo"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 25,
+          "usableCount": 22,
+          "reviewCount": 3,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "relations difficiles au travail",
+            "collègues toxiques",
+            "ambiance de travail toxique",
+            "conflits avec collègues",
+            "relations difficiles au travail mathieu guénette",
+            "collègues toxiques travail"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 31,
+          "usableCount": 29,
+          "reviewCount": 2,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "schwierige kollegen",
+            "toxisches arbeitsklima",
+            "konflikte am arbeitsplatz",
+            "soziale angst bei der arbeit",
+            "schwierige kollegen psychologie",
+            "schwierige kollegen pflege"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 102,
+      "totalUsable": 92,
+      "totalReview": 9,
+      "totalLowSignal": 1,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "de-DE",
+          "usableCount": 29,
+          "candidateCount": 31
+        },
+        {
+          "locale": "fr-FR",
+          "usableCount": 22,
+          "candidateCount": 25
+        },
+        {
+          "locale": "ja-JP",
+          "usableCount": 21,
+          "candidateCount": 23
+        }
+      ],
+      "strength": "strong",
+      "score": 242
+    }
+  ]
+}

@@ -1,0 +1,694 @@
+{
+  "generatedAt": "2026-06-21T09:17:04.947Z",
+  "total": 76,
+  "rows": [
+    {
+      "phrase": "고민중독 고백",
+      "sourceCategory": "연애/짝사랑",
+      "assignedSlot": "love/cant-confess",
+      "nodeTitle": "고백을 못하겠을 때",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "고백 -25년째의 비밀-",
+      "sourceCategory": "연애/짝사랑",
+      "assignedSlot": "love/cant-confess",
+      "nodeTitle": "고백을 못하겠을 때",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "연애 가치관 문답",
+      "sourceCategory": "연애/짝사랑",
+      "assignedSlot": "love/relationship-values",
+      "nodeTitle": "연애 가치관 차이가 클 때",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "연애 가치관 질문 100가지",
+      "sourceCategory": "연애/짝사랑",
+      "assignedSlot": "love/relationship-values",
+      "nodeTitle": "연애 가치관 차이가 클 때",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "어떡해 이별까지 사랑하겠어 歌詞",
+      "sourceCategory": "이별/실연",
+      "assignedSlot": "breakup/ex-contact",
+      "nodeTitle": "전 애인 연락이 흔들릴 때",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "잠수이별 꿈",
+      "sourceCategory": "이별/실연",
+      "assignedSlot": "breakup/ghosting",
+      "nodeTitle": "잠수이별과 읽씹을 당했을 때",
+      "reasons": [
+        "수면 꿈/해몽 표현 가능성"
+      ]
+    },
+    {
+      "phrase": "전남친의 대표님과 결혼했습니다",
+      "sourceCategory": "이별/실연",
+      "assignedSlot": "marriage",
+      "nodeTitle": "결혼, 꼭 해야 하나?",
+      "reasons": [
+        "약한 매칭",
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "나를 싫어하는 꿈",
+      "sourceCategory": "자존감",
+      "assignedSlot": "self-esteem/self-hate",
+      "nodeTitle": "나를 싫어할 때",
+      "reasons": [
+        "수면 꿈/해몽 표현 가능성"
+      ]
+    },
+    {
+      "phrase": "거절 못하는 mbti",
+      "sourceCategory": "인간관계",
+      "assignedSlot": "relationships/cant-say-no",
+      "nodeTitle": "거절을 못할 때",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "관계 정리 영어 로",
+      "sourceCategory": "인간관계",
+      "assignedSlot": "relationships/drifting-friends",
+      "nodeTitle": "친구 관계가 멀어질 때",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "관계 정립 영어 로",
+      "sourceCategory": "인간관계",
+      "assignedSlot": "relationships/relationship-burnout",
+      "nodeTitle": "인간관계 현타가 올 때",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "상처되는 말 듣는 꿈",
+      "sourceCategory": "인간관계",
+      "assignedSlot": "relationships/hurtful-words",
+      "nodeTitle": "상처받은 말이 잊히지 않을 때",
+      "reasons": [
+        "수면 꿈/해몽 표현 가능성"
+      ]
+    },
+    {
+      "phrase": "실업급여 이직확인서",
+      "sourceCategory": "직장/커리어",
+      "assignedSlot": "work/job-change",
+      "nodeTitle": "이직 / 전직이 고민될 때",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "이직 고민 꿈",
+      "sourceCategory": "직장/커리어",
+      "assignedSlot": "work/job-change",
+      "nodeTitle": "이직 / 전직이 고민될 때",
+      "reasons": [
+        "수면 꿈/해몽 표현 가능성"
+      ]
+    },
+    {
+      "phrase": "이직 로그 키캡",
+      "sourceCategory": "직장/커리어",
+      "assignedSlot": "work/job-change",
+      "nodeTitle": "이직 / 전직이 고민될 때",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "이직로그",
+      "sourceCategory": "직장/커리어",
+      "assignedSlot": "work/job-change",
+      "nodeTitle": "이직 / 전직이 고민될 때",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "이직로그 팝업",
+      "sourceCategory": "직장/커리어",
+      "assignedSlot": "work/job-change",
+      "nodeTitle": "이직 / 전직이 고민될 때",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "이직확인서",
+      "sourceCategory": "직장/커리어",
+      "assignedSlot": "work/job-change",
+      "nodeTitle": "이직 / 전직이 고민될 때",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "이직확인서 신고",
+      "sourceCategory": "직장/커리어",
+      "assignedSlot": "work/job-change",
+      "nodeTitle": "이직 / 전직이 고민될 때",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "이직확인서 양식",
+      "sourceCategory": "직장/커리어",
+      "assignedSlot": "work/job-change",
+      "nodeTitle": "이직 / 전직이 고민될 때",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "이직확인서 없이 실업급여",
+      "sourceCategory": "직장/커리어",
+      "assignedSlot": "work/job-change",
+      "nodeTitle": "이직 / 전직이 고민될 때",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "이직확인서 요청",
+      "sourceCategory": "직장/커리어",
+      "assignedSlot": "work/job-change",
+      "nodeTitle": "이직 / 전직이 고민될 때",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "이직확인서 작성방법",
+      "sourceCategory": "직장/커리어",
+      "assignedSlot": "work/job-change",
+      "nodeTitle": "이직 / 전직이 고민될 때",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "이직확인서 제출",
+      "sourceCategory": "직장/커리어",
+      "assignedSlot": "work/job-change",
+      "nodeTitle": "이직 / 전직이 고민될 때",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "이직확인서 조회",
+      "sourceCategory": "직장/커리어",
+      "assignedSlot": "work/job-change",
+      "nodeTitle": "이직 / 전직이 고민될 때",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "이직확인서 처리기간",
+      "sourceCategory": "직장/커리어",
+      "assignedSlot": "work/job-change",
+      "nodeTitle": "이직 / 전직이 고민될 때",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "이직확인서 처리여부 조회",
+      "sourceCategory": "직장/커리어",
+      "assignedSlot": "work/job-change",
+      "nodeTitle": "이직 / 전직이 고민될 때",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "이직확인서 확인",
+      "sourceCategory": "직장/커리어",
+      "assignedSlot": "work/job-change",
+      "nodeTitle": "이직 / 전직이 고민될 때",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "이직확인서 확인방법",
+      "sourceCategory": "직장/커리어",
+      "assignedSlot": "work/job-change",
+      "nodeTitle": "이직 / 전직이 고민될 때",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "일하기 싫다 티셔츠",
+      "sourceCategory": "직장/커리어",
+      "assignedSlot": "work/dont-want-to",
+      "nodeTitle": "하기 싫은데 해야 할 때",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "직장 스트레스 꿈",
+      "sourceCategory": "직장/커리어",
+      "assignedSlot": "work/work-depression",
+      "nodeTitle": "직장 우울감이 심할 때",
+      "reasons": [
+        "수면 꿈/해몽 표현 가능성"
+      ]
+    },
+    {
+      "phrase": "회의감 비슷한 말",
+      "sourceCategory": "직장/커리어",
+      "assignedSlot": "work/work-skepticism",
+      "nodeTitle": "일에 회의감이 들 때",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "방황하는 칼날",
+      "sourceCategory": "삶의 의미",
+      "assignedSlot": "meaning/wandering",
+      "nodeTitle": "방황하고 있을 때",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "방황하는 칼날 2009",
+      "sourceCategory": "삶의 의미",
+      "assignedSlot": "meaning/wandering",
+      "nodeTitle": "방황하고 있을 때",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "방황하는 칼날 디시",
+      "sourceCategory": "삶의 의미",
+      "assignedSlot": "meaning/wandering",
+      "nodeTitle": "방황하고 있을 때",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "방황하는 칼날 소설",
+      "sourceCategory": "삶의 의미",
+      "assignedSlot": "meaning/wandering",
+      "nodeTitle": "방황하고 있을 때",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "방황하는 칼날 실화",
+      "sourceCategory": "삶의 의미",
+      "assignedSlot": "meaning/wandering",
+      "nodeTitle": "방황하고 있을 때",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "방황하는 칼날 일드",
+      "sourceCategory": "삶의 의미",
+      "assignedSlot": "meaning/wandering",
+      "nodeTitle": "방황하고 있을 때",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "방황하는 칼날 일본",
+      "sourceCategory": "삶의 의미",
+      "assignedSlot": "meaning/wandering",
+      "nodeTitle": "방황하고 있을 때",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "방황하는 칼날 책",
+      "sourceCategory": "삶의 의미",
+      "assignedSlot": "meaning/wandering",
+      "nodeTitle": "방황하고 있을 때",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "방황하는 칼날 히가시노",
+      "sourceCategory": "삶의 의미",
+      "assignedSlot": "meaning/wandering",
+      "nodeTitle": "방황하고 있을 때",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "현타 대체어",
+      "sourceCategory": "삶의 의미",
+      "assignedSlot": "relationships/relationship-burnout",
+      "nodeTitle": "인간관계 현타가 올 때",
+      "reasons": [
+        "약한 매칭",
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "부모님 잔소리 영어 로",
+      "sourceCategory": "가족",
+      "assignedSlot": "family/parent-conflict",
+      "nodeTitle": "부모님과 갈등이 심할 때",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "돈 걱정하는 꿈",
+      "sourceCategory": "돈/미래",
+      "assignedSlot": "money/future-anxiety",
+      "nodeTitle": "돈과 미래가 불안할 때",
+      "reasons": [
+        "수면 꿈/해몽 표현 가능성"
+      ]
+    },
+    {
+      "phrase": "돈 걱정하는꿈",
+      "sourceCategory": "돈/미래",
+      "assignedSlot": "money/future-anxiety",
+      "nodeTitle": "돈과 미래가 불안할 때",
+      "reasons": [
+        "수면 꿈/해몽 표현 가능성"
+      ]
+    },
+    {
+      "phrase": "결혼 고민하는 꿈",
+      "sourceCategory": "진로/결정",
+      "assignedSlot": "marriage",
+      "nodeTitle": "결혼, 꼭 해야 하나?",
+      "reasons": [
+        "수면 꿈/해몽 표현 가능성"
+      ]
+    },
+    {
+      "phrase": "선택장애 대체어",
+      "sourceCategory": "진로/결정",
+      "assignedSlot": "career/decision-paralysis",
+      "nodeTitle": "결정장애가 심할 때",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "선택장애 랜덤",
+      "sourceCategory": "진로/결정",
+      "assignedSlot": "career/decision-paralysis",
+      "nodeTitle": "결정장애가 심할 때",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "선택장애 브랜뉴",
+      "sourceCategory": "진로/결정",
+      "assignedSlot": "career/decision-paralysis",
+      "nodeTitle": "결정장애가 심할 때",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "선택장애 mbti",
+      "sourceCategory": "진로/결정",
+      "assignedSlot": "career/decision-paralysis",
+      "nodeTitle": "결정장애가 심할 때",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "후회 없는 선택 다시 보기",
+      "sourceCategory": "진로/결정",
+      "assignedSlot": "career/regret-free-choice",
+      "nodeTitle": "후회 없는 선택을 하고 싶을 때",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "후회 없는 선택 리바이",
+      "sourceCategory": "진로/결정",
+      "assignedSlot": "career/regret-free-choice",
+      "nodeTitle": "후회 없는 선택을 하고 싶을 때",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "후회 없는 선택 번역",
+      "sourceCategory": "진로/결정",
+      "assignedSlot": "career/regret-free-choice",
+      "nodeTitle": "후회 없는 선택을 하고 싶을 때",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "후회 없는 선택 애니",
+      "sourceCategory": "진로/결정",
+      "assignedSlot": "career/regret-free-choice",
+      "nodeTitle": "후회 없는 선택을 하고 싶을 때",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "후회 없는 선택 영어 로",
+      "sourceCategory": "진로/결정",
+      "assignedSlot": "career/regret-free-choice",
+      "nodeTitle": "후회 없는 선택을 하고 싶을 때",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "후회 없는 선택 풀 컬러",
+      "sourceCategory": "진로/결정",
+      "assignedSlot": "career/regret-free-choice",
+      "nodeTitle": "후회 없는 선택을 하고 싶을 때",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "후회 없는 선택 ova",
+      "sourceCategory": "진로/결정",
+      "assignedSlot": "career/regret-free-choice",
+      "nodeTitle": "후회 없는 선택을 하고 싶을 때",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "후회없는선택 리바이",
+      "sourceCategory": "진로/결정",
+      "assignedSlot": "career/regret-free-choice",
+      "nodeTitle": "후회 없는 선택을 하고 싶을 때",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "mbti별 카톡 답장 안하는 이유",
+      "sourceCategory": "디지털/SNS",
+      "assignedSlot": "love/reply-anxiety",
+      "nodeTitle": "카톡 답장이 늦어 불안할 때",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "돈 때문에 싸우는 꿈",
+      "sourceCategory": "논쟁/딜레마",
+      "assignedSlot": "money/future-anxiety",
+      "nodeTitle": "돈과 미래가 불안할 때",
+      "reasons": [
+        "수면 꿈/해몽 표현 가능성"
+      ]
+    },
+    {
+      "phrase": "복숭아 아이스티",
+      "sourceCategory": "논쟁/딜레마",
+      "assignedSlot": "white-lie",
+      "nodeTitle": "선의의 거짓말, 해도 되나?",
+      "reasons": [
+        "약한 매칭",
+        "검색 잡음 가능성",
+        "신규 논쟁 후보"
+      ]
+    },
+    {
+      "phrase": "비건 베이커리",
+      "sourceCategory": "논쟁/딜레마",
+      "assignedSlot": "vegetarianism",
+      "nodeTitle": "채식과 비건, 윤리적 의무인가?",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "비건 화장품",
+      "sourceCategory": "논쟁/딜레마",
+      "assignedSlot": "vegetarianism",
+      "nodeTitle": "채식과 비건, 윤리적 의무인가?",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "비건가죽",
+      "sourceCategory": "논쟁/딜레마",
+      "assignedSlot": "vegetarianism",
+      "nodeTitle": "채식과 비건, 윤리적 의무인가?",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "비건레더",
+      "sourceCategory": "논쟁/딜레마",
+      "assignedSlot": "vegetarianism",
+      "nodeTitle": "채식과 비건, 윤리적 의무인가?",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "비건만두",
+      "sourceCategory": "논쟁/딜레마",
+      "assignedSlot": "vegetarianism",
+      "nodeTitle": "채식과 비건, 윤리적 의무인가?",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "비건빵",
+      "sourceCategory": "논쟁/딜레마",
+      "assignedSlot": "vegetarianism",
+      "nodeTitle": "채식과 비건, 윤리적 의무인가?",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "비건젤리",
+      "sourceCategory": "논쟁/딜레마",
+      "assignedSlot": "vegetarianism",
+      "nodeTitle": "채식과 비건, 윤리적 의무인가?",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "비건쿠키",
+      "sourceCategory": "논쟁/딜레마",
+      "assignedSlot": "vegetarianism",
+      "nodeTitle": "채식과 비건, 윤리적 의무인가?",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "재택근무 가능한 직업",
+      "sourceCategory": "논쟁/딜레마",
+      "assignedSlot": "remote-work",
+      "nodeTitle": "재택근무, 계속 확대해도 괜찮은가?",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "재택근무 알바",
+      "sourceCategory": "논쟁/딜레마",
+      "assignedSlot": "remote-work",
+      "nodeTitle": "재택근무, 계속 확대해도 괜찮은가?",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "재택근무 직업 추천",
+      "sourceCategory": "논쟁/딜레마",
+      "assignedSlot": "remote-work",
+      "nodeTitle": "재택근무, 계속 확대해도 괜찮은가?",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "재택근무 채용",
+      "sourceCategory": "논쟁/딜레마",
+      "assignedSlot": "remote-work",
+      "nodeTitle": "재택근무, 계속 확대해도 괜찮은가?",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "재택근무알바",
+      "sourceCategory": "논쟁/딜레마",
+      "assignedSlot": "remote-work",
+      "nodeTitle": "재택근무, 계속 확대해도 괜찮은가?",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "전주 채식뷔페",
+      "sourceCategory": "논쟁/딜레마",
+      "assignedSlot": "vegetarianism",
+      "nodeTitle": "채식과 비건, 윤리적 의무인가?",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    },
+    {
+      "phrase": "채식뷔페",
+      "sourceCategory": "논쟁/딜레마",
+      "assignedSlot": "vegetarianism",
+      "nodeTitle": "채식과 비건, 윤리적 의무인가?",
+      "reasons": [
+        "검색 잡음 가능성"
+      ]
+    }
+  ]
+}

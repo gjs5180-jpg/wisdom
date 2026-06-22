@@ -1,0 +1,873 @@
+{
+  "version": 1,
+  "updatedAt": "2026-06-18",
+  "notes": [
+    "Canonical nodes are the unit of publishing. Search phrases should map into one node instead of becoming separate thin pages.",
+    "A node is publishable when it has user-language doors, original summary copy, and at least two verified source cards."
+  ],
+  "nodes": [
+    {
+      "slot": "breakup/should-contact",
+      "axis": "worry",
+      "category": "breakup",
+      "title": "다시 연락해야 할지 고민될 때",
+      "priority": 1,
+      "intents": ["이별 후 연락", "전 애인 연락", "재회 연락", "연락 타이밍", "헤어진 후 연락"],
+      "tags": ["갈림길", "미련", "재회"],
+      "thinkers": ["세네카", "키르케고르", "에픽테토스"]
+    },
+    {
+      "slot": "white-lie",
+      "axis": "debate",
+      "title": "선의의 거짓말, 해도 되나?",
+      "priority": 2,
+      "intents": ["선의의 거짓말", "거짓말 해도 되는 이유", "거짓말 하면 안 되는 이유"],
+      "tags": ["의무론", "공리주의", "진실"],
+      "thinkers": ["칸트", "밀", "아리스토텔레스"]
+    },
+    {
+      "slot": "self-esteem/comparing",
+      "axis": "worry",
+      "category": "self-esteem",
+      "title": "비교하게 될 때",
+      "priority": 3,
+      "intents": ["비교 열등감", "아들러 열등감", "열등감", "열등감 극복", "자격지심", "남과 비교", "인스타 비교", "sns 비교", "SNS 비교", "인스타 현타", "sns 비교 우울"],
+      "tags": ["열등감", "비교", "평가"],
+      "thinkers": ["아들러", "쇼펜하우어", "에픽테토스"]
+    },
+    {
+      "slot": "marriage",
+      "axis": "debate",
+      "title": "결혼, 꼭 해야 하나?",
+      "priority": 4,
+      "intents": ["결혼 꼭 해야", "비혼 후회", "결혼 고민", "결혼 해야 하나"],
+      "tags": ["비혼", "사랑", "제도"],
+      "thinkers": ["쇼펜하우어", "러셀", "에리히 프롬"]
+    },
+    {
+      "slot": "meaning/fear-death",
+      "axis": "worry",
+      "category": "meaning",
+      "title": "죽음이 두려울 때",
+      "priority": 5,
+      "intents": ["죽음 두려움", "죽음 공포", "하이데거 죽음", "불교 죽음", "죽음 극복"],
+      "tags": ["죽음", "불안", "무상"],
+      "thinkers": ["에피쿠로스", "하이데거", "장자"]
+    },
+    {
+      "slot": "work/burnout",
+      "axis": "worry",
+      "category": "work",
+      "title": "번아웃이 왔을 때",
+      "priority": 6,
+      "intents": ["번아웃", "번아웃 극복", "번아웃 증상", "일에 지쳤을 때"],
+      "tags": ["소진", "성과사회", "무위"],
+      "thinkers": ["한병철", "노자", "세네카"]
+    },
+    {
+      "slot": "love/cant-confess",
+      "axis": "worry",
+      "category": "love",
+      "title": "고백을 못하겠을 때",
+      "priority": 7,
+      "intents": ["고백 타이밍", "고백해도 될까", "고백 못하겠", "거절 두려움"],
+      "tags": ["거절 공포", "표현", "선택"],
+      "thinkers": ["니체", "세네카", "아리스토텔레스"]
+    },
+    {
+      "slot": "love/impatient",
+      "axis": "worry",
+      "category": "love",
+      "title": "조급할 때",
+      "priority": 8,
+      "intents": ["연애 조급", "짝사랑 답장", "썸 연락 텀", "고백할까 말까"],
+      "tags": ["통제 불가", "연애 불안"],
+      "thinkers": ["에픽테토스", "알랭 드 보통", "니체"]
+    },
+    {
+      "slot": "love/should-give-up",
+      "axis": "worry",
+      "category": "love",
+      "title": "포기해야 할지 모를 때",
+      "priority": 9,
+      "intents": ["짝사랑 포기", "포기해야 할까", "사랑 포기", "마음 접는 법"],
+      "tags": ["포기", "운명애", "집착"],
+      "thinkers": ["에픽테토스", "니체", "불교"]
+    },
+    {
+      "slot": "love/cant-read-them",
+      "axis": "worry",
+      "category": "love",
+      "title": "상대 마음을 모를 때",
+      "priority": 10,
+      "intents": ["상대 마음", "마음 확인", "상대가 식었을 때", "나를 좋아하는지"],
+      "tags": ["불확실성", "이상화", "통제"],
+      "thinkers": ["에픽테토스", "알랭 드 보통"]
+    },
+    {
+      "slot": "breakup/right-after",
+      "axis": "worry",
+      "category": "breakup",
+      "title": "이별 직후 무너질 때",
+      "priority": 11,
+      "intents": ["이별 직후", "이별 후 무너짐", "이별 후 공허함", "이별 후유증"],
+      "tags": ["상실", "회복", "시간"],
+      "thinkers": ["빅터 프랭클", "마르쿠스 아우렐리우스", "틱낫한"]
+    },
+    {
+      "slot": "breakup/lingering",
+      "axis": "worry",
+      "category": "breakup",
+      "title": "미련을 못 버릴 때",
+      "priority": 12,
+      "intents": ["미련", "미련 버리는 법", "전 애인 못 잊", "이별 마음정리", "마음정리", "마음 정리"],
+      "tags": ["집착", "상실", "알아차림"],
+      "thinkers": ["스토아", "틱낫한", "마르쿠스 아우렐리우스"]
+    },
+    {
+      "slot": "breakup/obsession",
+      "axis": "worry",
+      "category": "breakup",
+      "title": "집착을 끊고 싶을 때",
+      "priority": 13,
+      "intents": ["집착", "집착하다", "집착 끊기", "이별 집착", "집착 버리는 법", "미련 집착"],
+      "tags": ["집착", "통제", "놓아줌"],
+      "thinkers": ["에픽테토스", "불교", "틱낫한"]
+    },
+    {
+      "slot": "self-esteem/self-hate",
+      "axis": "worry",
+      "category": "self-esteem",
+      "title": "나를 싫어할 때",
+      "priority": 14,
+      "intents": ["자기혐오", "나를 싫어", "자기혐오 극복", "나 자신이 싫어"],
+      "tags": ["자기혐오", "자기보존", "자기극복"],
+      "thinkers": ["스피노자", "니체", "에픽테토스"]
+    },
+    {
+      "slot": "self-esteem/cant-accept-praise",
+      "axis": "worry",
+      "category": "self-esteem",
+      "title": "칭찬을 못 받아들일 때",
+      "priority": 15,
+      "intents": ["칭찬 못 받아들", "칭찬 불편", "칭찬 부담", "낮은 자존감 칭찬"],
+      "tags": ["인정", "자기평가", "회피"],
+      "thinkers": ["아들러", "스피노자", "에픽테토스"]
+    },
+    {
+      "slot": "self-esteem/falling-behind",
+      "axis": "worry",
+      "category": "self-esteem",
+      "title": "나만 뒤처지는 것 같을 때",
+      "priority": 16,
+      "intents": ["나만 뒤처", "뒤처지는 느낌", "인생 늦은 것", "비교 불안"],
+      "tags": ["속도", "평가", "시간"],
+      "thinkers": ["아우렐리우스", "니체", "에픽테토스"]
+    },
+    {
+      "slot": "relationships/hurtful-words",
+      "axis": "worry",
+      "category": "relationships",
+      "title": "상처받은 말이 잊히지 않을 때",
+      "priority": 17,
+      "intents": ["상처되는 말", "상처받은 말", "말 상처 잊는 법", "기억나는 상처"],
+      "tags": ["상처", "원한", "평판"],
+      "thinkers": ["마르쿠스 아우렐리우스", "니체", "에픽테토스"]
+    },
+    {
+      "slot": "relationships/cant-say-no",
+      "axis": "worry",
+      "category": "relationships",
+      "title": "거절을 못할 때",
+      "priority": 18,
+      "intents": ["거절 못하는 성격", "거절 못하는 심리", "거절하는 법", "착한 사람 콤플렉스"],
+      "tags": ["경계", "중용", "자율"],
+      "thinkers": ["아리스토텔레스", "니체", "칸트"]
+    },
+    {
+      "slot": "relationships/lonely-but-prefer-alone",
+      "axis": "worry",
+      "category": "relationships",
+      "title": "혼자가 편한데 외로울 때",
+      "priority": 19,
+      "intents": ["혼자가 편한데 외로움", "외로움 고독 차이", "외로움 극복", "혼자 있고 싶지만 외로움"],
+      "tags": ["고독", "외로움", "관계"],
+      "thinkers": ["쇼펜하우어", "아리스토텔레스", "프롬"]
+    },
+    {
+      "slot": "relationships/drifting-friends",
+      "axis": "worry",
+      "category": "relationships",
+      "title": "친구 관계가 멀어질 때",
+      "priority": 20,
+      "intents": ["친구 멀어짐", "친구 관계 멀어짐", "인간관계 정리", "친구 손절", "관계 정리", "관계정리", "인간관계 손절", "인간관계 리셋"],
+      "tags": ["우정", "거리", "변화"],
+      "thinkers": ["아리스토텔레스", "세네카", "아우렐리우스"]
+    },
+    {
+      "slot": "work/dont-want-to",
+      "axis": "worry",
+      "category": "work",
+      "title": "하기 싫은데 해야 할 때",
+      "priority": 21,
+      "intents": ["일 하기 싫을 때", "하기 싫은데 해야", "일하기 싫은 이유", "무기력 직장"],
+      "tags": ["노동", "부조리", "습관"],
+      "thinkers": ["카뮈", "칼릴 지브란", "아리스토텔레스"]
+    },
+    {
+      "slot": "work/job-change",
+      "axis": "worry",
+      "category": "work",
+      "title": "이직 / 전직이 고민될 때",
+      "priority": 22,
+      "intents": ["이직 고민", "퇴사 고민", "전직 고민", "이직 결정 기준"],
+      "tags": ["선택", "불안", "커리어"],
+      "thinkers": ["사르트르", "키르케고르", "스토아"]
+    },
+    {
+      "slot": "work/unrecognized",
+      "axis": "worry",
+      "category": "work",
+      "title": "인정받지 못하는 느낌이 들 때",
+      "priority": 23,
+      "intents": ["인정 못받", "회사 인정", "노력 인정", "조직에서 인정"],
+      "tags": ["인정", "평판", "성과"],
+      "thinkers": ["헤겔", "마르쿠스 아우렐리우스", "노자"]
+    },
+    {
+      "slot": "meaning/no-motivation",
+      "axis": "worry",
+      "category": "meaning",
+      "title": "아무것도 하기 싫을 때",
+      "priority": 24,
+      "intents": ["아무것도 하기 싫", "무기력", "무기력증 극복", "의욕 없음"],
+      "tags": ["무기력", "무위", "부조리"],
+      "thinkers": ["니체", "노자", "카뮈"]
+    },
+    {
+      "slot": "meaning/dont-know-want",
+      "axis": "worry",
+      "category": "meaning",
+      "title": "내가 뭘 원하는지 모를 때",
+      "priority": 25,
+      "intents": ["뭘 원하는지 모르겠", "진로 고민", "뭐하고 살지", "적성 모를"],
+      "tags": ["선택", "진로", "주체성"],
+      "thinkers": ["키르케고르", "아리스토텔레스", "사르트르"]
+    },
+    {
+      "slot": "meaning/meaningless",
+      "axis": "worry",
+      "category": "meaning",
+      "title": "삶이 무의미하게 느껴질 때",
+      "priority": 26,
+      "intents": ["삶의 의미", "인생 허무", "허무주의", "삶이 무의미"],
+      "tags": ["허무", "부조리", "의미"],
+      "thinkers": ["카뮈", "니체", "빅터 프랭클"]
+    },
+    {
+      "slot": "love/attachment-anxiety",
+      "axis": "worry",
+      "category": "love",
+      "title": "불안형 연애를 할 때",
+      "priority": 27,
+      "intents": ["불안형 연애", "회피형 연애", "연애 애착", "불안형 회피형"],
+      "tags": ["애착", "연애불안", "통제"],
+      "thinkers": ["에픽테토스", "프롬", "애착이론"]
+    },
+    {
+      "slot": "breakup/ghosting",
+      "axis": "worry",
+      "category": "breakup",
+      "title": "잠수이별과 읽씹을 당했을 때",
+      "priority": 28,
+      "intents": ["잠수이별", "읽씹", "카톡 읽씹", "연락 무시"],
+      "tags": ["무시", "거절", "통제불가"],
+      "thinkers": ["에픽테토스", "마르쿠스 아우렐리우스", "니체"]
+    },
+    {
+      "slot": "family/parent-conflict",
+      "axis": "worry",
+      "category": "family",
+      "title": "부모님과 갈등이 심할 때",
+      "priority": 29,
+      "intents": ["부모님 갈등", "부모님 잔소리", "부모님 간섭", "가족 스트레스", "부모님 기대", "부모님 종교 갈등", "형제 비교", "형제 자매 비교"],
+      "tags": ["가족", "간섭", "독립"],
+      "thinkers": ["공자", "칸트", "아리스토텔레스"]
+    },
+    {
+      "slot": "family/independence",
+      "axis": "worry",
+      "category": "family",
+      "title": "독립하고 싶은데 망설여질 때",
+      "priority": 30,
+      "intents": ["독립하고 싶", "가족 스트레스 독립", "부모님 간섭", "자취하고 싶"],
+      "tags": ["독립", "가족", "자율"],
+      "thinkers": ["칸트", "루소", "공자"]
+    },
+    {
+      "slot": "money/future-anxiety",
+      "axis": "worry",
+      "category": "money",
+      "title": "돈과 미래가 불안할 때",
+      "priority": 31,
+      "intents": ["돈 걱정", "미래 불안", "노후 불안", "미래가 막막", "가난 불안"],
+      "tags": ["돈", "미래", "불안"],
+      "thinkers": ["세네카", "에피쿠로스", "키르케고르"]
+    },
+    {
+      "slot": "study/cant-study",
+      "axis": "worry",
+      "category": "study",
+      "title": "공부가 안 될 때",
+      "priority": 32,
+      "intents": ["공부 안될때", "공부 안되는 이유", "집중 안될때", "공부 현타", "시험 불안", "공부 하기 싫", "수험생 슬럼프", "자격증 공부 방법", "집중 안되는 이유"],
+      "tags": ["공부", "습관", "불안"],
+      "thinkers": ["아리스토텔레스", "에픽테토스", "세네카"]
+    },
+    {
+      "slot": "digital/dopamine-addiction",
+      "axis": "worry",
+      "category": "digital",
+      "title": "도파민 중독과 스마트폰을 끊고 싶을 때",
+      "priority": 33,
+      "intents": ["도파민 중독", "도파민 중독 회복", "스마트폰 중독", "스마트폰 중독 해결", "유튜브 중독", "유튜브 중독 끊는 방법"],
+      "tags": ["디지털", "중독", "주의력"],
+      "thinkers": ["스토아", "아리스토텔레스", "한병철"]
+    },
+    {
+      "slot": "euthanasia",
+      "axis": "debate",
+      "title": "안락사, 허용해도 되나?",
+      "priority": 34,
+      "intents": ["안락사 찬반", "안락사 윤리", "존엄사", "사람 안락사", "스위스 안락사"],
+      "tags": ["생명윤리", "자율", "고통"],
+      "thinkers": ["칸트", "밀", "피터 싱어"]
+    },
+    {
+      "slot": "death-penalty",
+      "axis": "debate",
+      "title": "사형제, 유지해야 하나?",
+      "priority": 35,
+      "intents": ["사형제", "사형제 찬반", "사형제도", "사형제 폐지"],
+      "tags": ["형벌", "정의", "국가"],
+      "thinkers": ["칸트", "베카리아", "밀"]
+    },
+    {
+      "slot": "abortion",
+      "axis": "debate",
+      "title": "낙태, 어디까지 허용해야 하나?",
+      "priority": 36,
+      "intents": ["낙태 찬반", "임신중지 찬반", "낙태 윤리", "낙태 허용"],
+      "tags": ["생명윤리", "권리", "자율"],
+      "thinkers": ["주디스 자비스 톰슨", "칸트", "밀"]
+    },
+    {
+      "slot": "animal-testing",
+      "axis": "debate",
+      "title": "동물실험, 정당화될 수 있나?",
+      "priority": 37,
+      "intents": ["동물실험", "동물실험 찬반", "동물권", "동물실험 윤리"],
+      "tags": ["동물권", "과학", "고통"],
+      "thinkers": ["피터 싱어", "칸트", "아리스토텔레스"]
+    },
+    {
+      "slot": "no-kids-zone",
+      "axis": "debate",
+      "title": "노키즈존, 차별인가 권리인가?",
+      "priority": 38,
+      "intents": ["노키즈존", "노키즈존 찬반", "노키즈존 문제", "아동 차별"],
+      "tags": ["차별", "영업권", "공공성"],
+      "thinkers": ["밀", "롤스", "칸트"]
+    },
+    {
+      "slot": "juvenile-offenders",
+      "axis": "debate",
+      "title": "촉법소년, 처벌을 강화해야 하나?",
+      "priority": 39,
+      "intents": ["촉법소년", "촉법소년 찬반", "촉법소년 처벌", "소년법"],
+      "tags": ["책임", "처벌", "교화"],
+      "thinkers": ["아리스토텔레스", "칸트", "베카리아"]
+    },
+    {
+      "slot": "meritocracy",
+      "axis": "debate",
+      "title": "능력주의는 공정한가?",
+      "priority": 40,
+      "intents": ["능력주의", "능력주의 찬반", "능력주의 문제", "공정"],
+      "tags": ["공정", "평등", "성취"],
+      "thinkers": ["마이클 샌델", "롤스", "노직"]
+    },
+    {
+      "slot": "basic-income",
+      "axis": "debate",
+      "title": "기본소득, 필요한 제도인가?",
+      "priority": 41,
+      "intents": ["기본소득 찬반", "기본소득 제도 찬반", "기본소득 도입", "보편 기본소득"],
+      "tags": ["복지", "자유", "분배"],
+      "thinkers": ["롤스", "노직", "필리프 판 파레이스"]
+    },
+    {
+      "slot": "ai-replacement",
+      "axis": "debate",
+      "title": "AI가 인간의 일을 대체해도 괜찮은가?",
+      "priority": 42,
+      "intents": ["AI 대체", "인공지능 일자리", "AI 일자리", "AI 대체 찬반"],
+      "tags": ["기술", "노동", "미래"],
+      "thinkers": ["한나 아렌트", "마르크스", "한병철"]
+    },
+    {
+      "slot": "ai-art",
+      "axis": "debate",
+      "title": "AI 그림은 예술인가?",
+      "priority": 43,
+      "intents": ["AI 그림 찬반", "AI 그림 예술", "AI 예술", "인공지능 예술"],
+      "tags": ["예술", "창작", "저작권"],
+      "thinkers": ["발터 벤야민", "칸트", "아리스토텔레스"]
+    },
+    {
+      "slot": "cohabitation",
+      "axis": "debate",
+      "title": "혼전동거, 해도 괜찮은가?",
+      "priority": 44,
+      "intents": ["혼전동거 찬반", "혼전동거 반대", "결혼 전 동거", "동거 가치관"],
+      "tags": ["사랑", "제도", "가치관"],
+      "thinkers": ["밀", "칸트", "에리히 프롬"]
+    },
+    {
+      "slot": "vegetarianism",
+      "axis": "debate",
+      "title": "채식과 비건, 윤리적 의무인가?",
+      "priority": 45,
+      "intents": ["채식 찬반", "비건 찬반", "채식 윤리", "비건 윤리", "동물권"],
+      "tags": ["동물권", "환경", "식생활"],
+      "thinkers": ["피터 싱어", "아리스토텔레스", "공리주의"]
+    },
+    {
+      "slot": "parent-support",
+      "axis": "debate",
+      "title": "부모 부양은 자식의 의무인가?",
+      "priority": 46,
+      "intents": ["부모 부양", "부모 부양 의무", "부모 부양 거부", "부모 부양 포기"],
+      "tags": ["효도", "가족", "의무"],
+      "thinkers": ["공자", "칸트", "밀"]
+    },
+    {
+      "slot": "body/body-anxiety",
+      "axis": "worry",
+      "category": "body",
+      "title": "외모 콤플렉스와 몸이 싫을 때",
+      "priority": 47,
+      "intents": ["외모 콤플렉스", "외모 콤플렉스 극복", "몸이 싫을 때", "몸이 안 좋을 때", "다이어트 강박", "다이어트 강박 극복", "피부 스트레스"],
+      "tags": ["몸", "외모", "수치심"],
+      "thinkers": ["스피노자", "에픽테토스", "메를로퐁티"]
+    },
+    {
+      "slot": "career/dream-reality",
+      "axis": "worry",
+      "category": "career",
+      "title": "꿈을 포기해야 할지 고민될 때",
+      "priority": 48,
+      "intents": ["꿈 포기", "꿈 포기하는 법", "돈 때문에 꿈 포기", "현실 때문에 꿈 포기", "아이돌 꿈 포기", "꿈과 현실"],
+      "tags": ["꿈", "현실", "진로"],
+      "thinkers": ["카뮈", "키르케고르", "아리스토텔레스"]
+    },
+    {
+      "slot": "good-life",
+      "axis": "thought",
+      "title": "좋은 삶이란 무엇인가?",
+      "priority": 49,
+      "intents": ["좋은 삶", "좋은 삶이란", "행복하게 사는 법", "어떻게 살아야 할까", "나답게 사는 법"],
+      "tags": ["행복", "덕", "평온"],
+      "thinkers": ["아리스토텔레스", "에피쿠로스", "에픽테토스"]
+    },
+    {
+      "slot": "happiness",
+      "axis": "thought",
+      "title": "행복이란 무엇인가?",
+      "priority": 50,
+      "intents": ["행복이란", "행복 뜻", "행복하게 사는 법", "행복의 조건"],
+      "tags": ["행복", "쾌락", "만족"],
+      "thinkers": ["아리스토텔레스", "에피쿠로스", "러셀"]
+    },
+    {
+      "slot": "success",
+      "axis": "thought",
+      "title": "성공이란 무엇인가?",
+      "priority": 51,
+      "intents": ["성공이란", "성공의 기준", "성공하고 싶다", "성공했는데 공허"],
+      "tags": ["성취", "인정", "비교"],
+      "thinkers": ["아리스토텔레스", "니체", "러셀"]
+    },
+    {
+      "slot": "freedom",
+      "axis": "thought",
+      "title": "자유란 무엇인가?",
+      "priority": 52,
+      "intents": ["자유란", "자유 뜻", "자유롭게 살고 싶다", "진짜 자유"],
+      "tags": ["자유", "자율", "사회"],
+      "thinkers": ["에픽테토스", "밀", "칸트"]
+    },
+    {
+      "slot": "study/exam-anxiety",
+      "axis": "worry",
+      "category": "study",
+      "title": "자격증 시험이 불안할 때",
+      "priority": 53,
+      "intents": ["자격증 시험 불안", "시험 불안", "시험 전날 불안", "자격증 공부 불안", "시험 떨어질까봐 불안"],
+      "tags": ["시험", "불안", "공부"],
+      "thinkers": ["에픽테토스", "아리스토텔레스", "세네카"]
+    },
+    {
+      "slot": "work/quit-or-stay",
+      "axis": "worry",
+      "category": "work",
+      "title": "퇴사해야 할지 버텨야 할지 고민될 때",
+      "priority": 54,
+      "intents": ["퇴사 고민", "퇴사해야 할지", "버텨야 할지", "회사 그만둘까", "이직 준비 없이 퇴사"],
+      "tags": ["퇴사", "직장", "선택"],
+      "thinkers": ["세네카", "사르트르", "아리스토텔레스"]
+    },
+    {
+      "slot": "relationships/people-pleasing",
+      "axis": "worry",
+      "category": "relationships",
+      "title": "눈치 보는 성격을 고치고 싶을 때",
+      "priority": 55,
+      "intents": ["눈치 보는 성격", "눈치 보는 성격 극복", "남 눈치", "착한 사람 콤플렉스", "거절 못하는 성격"],
+      "tags": ["눈치", "경계", "자율"],
+      "thinkers": ["아리스토텔레스", "칸트", "에픽테토스"]
+    },
+    {
+      "slot": "meaning/emptiness",
+      "axis": "worry",
+      "category": "meaning",
+      "title": "공허함이 느껴질 때",
+      "priority": 56,
+      "intents": ["공허함", "공허함 극복", "공허함 원인", "공허함 채우기", "인생 노잼"],
+      "tags": ["공허", "의미", "무기력"],
+      "thinkers": ["빅터 프랭클", "카뮈", "에피쿠로스"]
+    },
+    {
+      "slot": "love/reply-anxiety",
+      "axis": "worry",
+      "category": "love",
+      "title": "카톡 답장이 늦어 불안할 때",
+      "priority": 57,
+      "intents": ["카톡 답장 늦게 하는 이유", "카톡 답장 안하는 이유", "답장 늦음", "연락 텀", "읽씹 심리"],
+      "tags": ["연락", "불안", "통제"],
+      "thinkers": ["에픽테토스", "마르쿠스 아우렐리우스", "세네카"]
+    },
+    {
+      "slot": "breakup/reunion",
+      "axis": "worry",
+      "category": "breakup",
+      "title": "재회해야 할지 고민될 때",
+      "priority": 58,
+      "intents": ["재회", "재회 고민", "재회방법", "전 애인 재회", "다시 만나도 될까"],
+      "tags": ["재회", "미련", "선택"],
+      "thinkers": ["키르케고르", "에픽테토스", "아리스토텔레스"]
+    },
+    {
+      "slot": "work/work-depression",
+      "axis": "worry",
+      "category": "work",
+      "title": "직장 우울감이 심할 때",
+      "priority": 59,
+      "intents": ["직장 우울증", "직장 우울증 극복", "회사 우울감", "출근 우울", "직장 스트레스 우울"],
+      "tags": ["직장", "우울감", "건강"],
+      "thinkers": ["NIMH", "세네카", "빅터 프랭클"]
+    },
+    {
+      "slot": "love/relationship-boredom",
+      "axis": "worry",
+      "category": "love",
+      "title": "권태기와 연애 현타가 왔을 때",
+      "priority": 60,
+      "intents": ["권태기", "권태기 극복", "권태기 극복 방법", "연애 현타", "사랑이 식은 것 같아"],
+      "tags": ["권태기", "사랑", "습관"],
+      "thinkers": ["에리히 프롬", "아리스토텔레스", "에피쿠로스"]
+    },
+    {
+      "slot": "relationships/relationship-burnout",
+      "axis": "worry",
+      "category": "relationships",
+      "title": "인간관계 현타가 올 때",
+      "priority": 61,
+      "intents": ["인간관계 현타", "인간관계 다 손절", "인간관계 전부 손절", "사람 만나는 게 지침", "관계 피로"],
+      "tags": ["관계", "현타", "거리"],
+      "thinkers": ["세네카", "아리스토텔레스", "에픽테토스"]
+    },
+    {
+      "slot": "family/holiday-stress",
+      "axis": "worry",
+      "category": "family",
+      "title": "명절 스트레스가 심할 때",
+      "priority": 62,
+      "intents": ["명절 스트레스", "가족 모임 스트레스", "친척 잔소리", "명절 잔소리", "가족 모임 부담"],
+      "tags": ["명절", "가족", "경계"],
+      "thinkers": ["공자", "칸트", "에픽테토스"]
+    },
+    {
+      "slot": "family/family-cutoff",
+      "axis": "worry",
+      "category": "family",
+      "title": "가족 손절을 고민할 때",
+      "priority": 63,
+      "intents": ["가족 손절", "가족 손절 방법", "가족 손절 후회", "부모 손절", "가족과 연락 끊기"],
+      "tags": ["가족", "손절", "안전"],
+      "thinkers": ["공자", "칸트", "에픽테토스"]
+    },
+    {
+      "slot": "work/boss-stress",
+      "axis": "worry",
+      "category": "work",
+      "title": "상사 스트레스가 심할 때",
+      "priority": 64,
+      "intents": ["상사 스트레스", "상사 때문에 퇴사", "상사 갈등", "직장 상사 스트레스", "상사 말투"],
+      "tags": ["상사", "직장", "분노"],
+      "thinkers": ["에픽테토스", "아리스토텔레스", "세네카"]
+    },
+    {
+      "slot": "childfree",
+      "axis": "debate",
+      "title": "아이를 꼭 낳아야 하나?",
+      "priority": 65,
+      "intents": ["아이 꼭 낳아야 할까", "아이 낳아야 하나", "무자녀 선택", "출산 선택", "비혼주의"],
+      "tags": ["출산", "가족", "자유"],
+      "thinkers": ["UNFPA", "밀", "아리스토텔레스"]
+    },
+    {
+      "slot": "pet-euthanasia",
+      "axis": "debate",
+      "title": "반려동물 안락사, 괜찮은가?",
+      "priority": 66,
+      "intents": ["강아지 안락사", "고양이 안락사", "반려동물 안락사", "동물 안락사", "반려동물 고통"],
+      "tags": ["반려동물", "안락사", "고통"],
+      "thinkers": ["AVMA", "벤담", "칸트"]
+    },
+    {
+      "slot": "love/relationship-values",
+      "axis": "worry",
+      "category": "love",
+      "title": "연애 가치관 차이가 클 때",
+      "priority": 67,
+      "intents": ["연애 가치관", "연애 가치관 차이", "연애 가치관 질문", "사랑하는데 가치관 차이", "결혼관 연락 돈 가치관"],
+      "tags": ["연애", "가치관", "선택"],
+      "thinkers": ["아리스토텔레스", "에리히 프롬", "존 스튜어트 밀"]
+    },
+    {
+      "slot": "breakup/ex-contact",
+      "axis": "worry",
+      "category": "breakup",
+      "title": "전 애인 연락이 흔들릴 때",
+      "priority": 68,
+      "intents": ["전남친 연락", "전여친 연락", "전 애인 연락", "헤어진 사람 연락", "전 애인 답장"],
+      "tags": ["이별", "연락", "미련"],
+      "thinkers": ["에픽테토스", "세네카", "키르케고르"]
+    },
+    {
+      "slot": "self-esteem/low-self-esteem",
+      "axis": "worry",
+      "category": "self-esteem",
+      "title": "자존감이 낮을 때",
+      "priority": 69,
+      "intents": ["자존감 낮을 때", "자존감 높이는 방법", "자존감 낮은 사람 특징", "자존감 책", "자존감 수업"],
+      "tags": ["자존감", "수치심", "성장"],
+      "thinkers": ["아들러", "스피노자", "에픽테토스"]
+    },
+    {
+      "slot": "self-esteem/dating-self-esteem",
+      "axis": "worry",
+      "category": "self-esteem",
+      "title": "자존감 낮은 연애를 할 때",
+      "priority": 70,
+      "intents": ["자존감 연애", "자존감 낮은 사람 연애", "연애할수록 자존감", "상대 반응 자존감", "자존감 낮은 연애"],
+      "tags": ["자존감", "연애", "인정욕구"],
+      "thinkers": ["에리히 프롬", "아들러", "칸트"]
+    },
+    {
+      "slot": "relationships/regret-words",
+      "axis": "worry",
+      "category": "relationships",
+      "title": "말실수 후회가 클 때",
+      "priority": 71,
+      "intents": ["말실수 후회", "말실수 했을 때", "괜히 한 말", "사과해야 할지", "상대가 상처받았을까"],
+      "tags": ["인간관계", "후회", "사과"],
+      "thinkers": ["아리스토텔레스", "에픽테토스", "세네카"]
+    },
+    {
+      "slot": "work/not-good-enough",
+      "axis": "worry",
+      "category": "work",
+      "title": "일 못하는 것 같을 때",
+      "priority": 72,
+      "intents": ["일 못하는 것 같을 때", "일머리 없다", "회사에서 부족한 느낌", "일 못할까 봐 불안", "직장 실수 불안"],
+      "tags": ["직장", "열등감", "평가"],
+      "thinkers": ["아들러", "아리스토텔레스", "에픽테토스"]
+    },
+    {
+      "slot": "work/workplace-relationships",
+      "axis": "worry",
+      "category": "work",
+      "title": "직장 인간관계가 힘들 때",
+      "priority": 73,
+      "intents": ["직장 인간관계", "회사 인간관계", "직장 인간관계 스트레스", "동료 갈등", "회사 사람 스트레스"],
+      "tags": ["직장", "인간관계", "경계"],
+      "thinkers": ["에픽테토스", "아리스토텔레스", "한나 아렌트"]
+    },
+    {
+      "slot": "work/work-skepticism",
+      "axis": "worry",
+      "category": "work",
+      "title": "일에 회의감이 들 때",
+      "priority": 74,
+      "intents": ["회의감", "일 회의감", "회사 회의감", "직장 현타", "일의 의미"],
+      "tags": ["직장", "의미", "현타"],
+      "thinkers": ["빅터 프랭클", "카뮈", "세네카"]
+    },
+    {
+      "slot": "meaning/no-goal",
+      "axis": "worry",
+      "category": "meaning",
+      "title": "목표가 없을 때",
+      "priority": 75,
+      "intents": ["목표 없음", "인생 목표 없음", "목표가 없어요", "하고 싶은 게 없음", "인생 방향 없음"],
+      "tags": ["의미", "공허", "방향"],
+      "thinkers": ["빅터 프랭클", "아리스토텔레스", "노자"]
+    },
+    {
+      "slot": "meaning/wandering",
+      "axis": "worry",
+      "category": "meaning",
+      "title": "방황하고 있을 때",
+      "priority": 76,
+      "intents": ["방황", "인생 방황", "어디로 가야 할지", "방황하다", "인생 방향을 잃었을 때"],
+      "tags": ["의미", "혼란", "선택"],
+      "thinkers": ["키르케고르", "장자", "카뮈"]
+    },
+    {
+      "slot": "family/mother-conflict",
+      "axis": "worry",
+      "category": "family",
+      "title": "엄마랑 안 맞을 때",
+      "priority": 77,
+      "intents": ["엄마랑 안 맞아요", "엄마랑 안맞음", "엄마랑 자꾸 싸움", "부모님 잔소리", "엄마와 갈등"],
+      "tags": ["가족", "갈등", "경계"],
+      "thinkers": ["공자", "칸트", "에픽테토스"]
+    },
+    {
+      "slot": "career/regret-free-choice",
+      "axis": "worry",
+      "category": "career",
+      "title": "후회 없는 선택을 하고 싶을 때",
+      "priority": 78,
+      "intents": ["후회 없는 선택", "후회없는 선택", "선택 후회", "선택 기준", "진로 선택 후회"],
+      "tags": ["선택", "후회", "불안"],
+      "thinkers": ["키르케고르", "사르트르", "아리스토텔레스"]
+    },
+    {
+      "slot": "career/decision-paralysis",
+      "axis": "worry",
+      "category": "career",
+      "title": "결정장애가 심할 때",
+      "priority": 79,
+      "intents": ["결정장애", "선택장애", "결정을 못함", "작은 것도 못 고름", "선택지가 많아 불안"],
+      "tags": ["선택", "혼란", "통제"],
+      "thinkers": ["에픽테토스", "아리스토텔레스", "세네카"]
+    },
+    {
+      "slot": "body/health-anxiety",
+      "axis": "worry",
+      "category": "body",
+      "title": "건강염려증이 심할 때",
+      "priority": 80,
+      "intents": ["건강 염려증", "건강염려증", "몸 증상 검색", "건강 불안", "큰 병일까 봐 불안"],
+      "tags": ["건강", "불안", "통제"],
+      "thinkers": ["에픽테토스", "마르쿠스 아우렐리우스", "현대 임상 기준"]
+    },
+    {
+      "slot": "body/insomnia",
+      "axis": "worry",
+      "category": "body",
+      "title": "불면증이 괴로울 때",
+      "priority": 81,
+      "intents": ["불면증", "불면증 극복", "불면증 해결법", "잠이 안 올 때", "우울증과 불면증"],
+      "tags": ["건강", "불안", "습관"],
+      "thinkers": ["에픽테토스", "세네카", "현대 수면위생"]
+    },
+    {
+      "slot": "body/aging-anxiety",
+      "axis": "worry",
+      "category": "body",
+      "title": "노화가 불안할 때",
+      "priority": 82,
+      "intents": ["노화 불안", "노화불안", "늙는 게 무서움", "나이 드는 게 두려움", "노화 불안 척도"],
+      "tags": ["몸", "불안", "시간"],
+      "thinkers": ["마르쿠스 아우렐리우스", "장자", "세네카"]
+    },
+    {
+      "slot": "body/hair-loss-stress",
+      "axis": "worry",
+      "category": "body",
+      "title": "탈모 스트레스가 심할 때",
+      "priority": 83,
+      "intents": ["탈모 스트레스", "원형 탈모 스트레스", "m자 탈모 스트레스", "정수리 탈모 스트레스", "탈모 자존감"],
+      "tags": ["몸", "외모", "자존감"],
+      "thinkers": ["에픽테토스", "쇼펜하우어", "스피노자"]
+    },
+    {
+      "slot": "remote-work",
+      "axis": "debate",
+      "title": "재택근무, 계속 확대해도 괜찮은가?",
+      "priority": 84,
+      "intents": ["재택근무", "재택근무 찬반", "재택근무 산재", "재택근무 직업", "원격근무"],
+      "tags": ["노동", "자율", "제도"],
+      "thinkers": ["밀", "한나 아렌트", "노동 제도 관점"]
+    },
+    {
+      "slot": "retirement-age",
+      "axis": "debate",
+      "title": "정년연장, 해야 하나?",
+      "priority": 85,
+      "intents": ["정년연장", "정년연장 찬반", "65세 정년연장", "고령화 정년", "정년연장 토론"],
+      "tags": ["노동", "세대", "복지"],
+      "thinkers": ["롤스", "아리스토텔레스", "경제 제도 관점"]
+    },
+    {
+      "slot": "employment-contract",
+      "axis": "debate",
+      "title": "정규직과 계약직 차이, 어디까지 정당한가?",
+      "priority": 86,
+      "intents": ["정규직 계약직", "계약직 차별", "비정규직", "정규직 전환", "동일가치노동"],
+      "tags": ["노동", "공정", "계약"],
+      "thinkers": ["롤스", "노직", "노동권 관점"]
+    },
+    {
+      "slot": "cancel-culture",
+      "axis": "debate",
+      "title": "캔슬 컬처, 책임 묻기인가 집단 처벌인가?",
+      "priority": 87,
+      "intents": ["캔슬 컬처", "cancel culture", "캔슬 컬처 문제점", "캔슬 컬처 사례", "캔슬 컬처 논문", "한국 캔슬 컬처"],
+      "tags": ["표현의 자유", "책임", "온라인 여론"],
+      "thinkers": ["존 스튜어트 밀", "칼 포퍼", "마사 누스바움", "Pew Research Center"]
+    },
+    {
+      "slot": "school-corporal-punishment",
+      "axis": "debate",
+      "title": "학교 체벌, 교육인가 폭력인가?",
+      "priority": 88,
+      "intents": ["학교 체벌", "학교 체벌 찬반", "학교 체벌 금지", "학교 체벌 찬성 이유", "학교 체벌 반대 이유", "학교 체벌 금지법"],
+      "tags": ["교육", "아동권리", "징계"],
+      "thinkers": ["현행 법제", "유엔 아동권리위원회", "Gershoff & Grogan-Kaylor", "아리스토텔레스"]
+    },
+    {
+      "slot": "nice-people-finish-last",
+      "axis": "debate",
+      "title": "착하게 살면 손해인가?",
+      "priority": 89,
+      "intents": ["착하게 살면 손해", "착하게 살면 안되는 이유", "착하면 손해", "착한 사람 이용당함", "호구 안 되는 법", "nice people finish last"],
+      "tags": ["선함", "자기보호", "관계"],
+      "thinkers": ["공자", "아리스토텔레스", "마키아벨리", "애덤 그랜트"]
+    }
+  ]
+}

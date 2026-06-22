@@ -1,0 +1,179 @@
+{
+  "version": 1,
+  "updatedAt": "2026-06-21",
+  "principle": "Source locale and output locale are separate. A worry found in Japanese can enrich the shared canonical map, then be written in Korean, English, or any later output language.",
+  "locales": [
+    {
+      "locale": "ko-KR",
+      "label": "Korean",
+      "nativeLabel": "한국어",
+      "region": "Korea",
+      "status": "active",
+      "priority": 1,
+      "collectionMethods": [
+        "Google and Naver autocomplete patterns",
+        "Generalized Korean community worry phrases",
+        "Korean public institutions, law, and official guidance"
+      ],
+      "sourceSignals": [
+        "입시, 취업, 가족 의무, 연애 불안, 직장 관계",
+        "빠른 비교 문화와 생애 일정 압박",
+        "한국 법령과 공공기관 자료가 필요한 현실 문제"
+      ],
+      "canonicalUse": [
+        "Keep Korean as the first canonical writing language for now.",
+        "Use Korean source phrases to define the first taxonomy and emotional tags."
+      ],
+      "safetyRules": [
+        "Do not store personal posts or identifiable stories.",
+        "Generalize community expressions before they become search phrases."
+      ]
+    },
+    {
+      "locale": "en-US",
+      "label": "English",
+      "nativeLabel": "English",
+      "region": "United States / global English web",
+      "status": "active",
+      "priority": 2,
+      "collectionMethods": [
+        "Google autocomplete patterns",
+        "Reddit-style question pattern counts without raw post storage",
+        "Research, public health, institutional, and philosophy sources"
+      ],
+      "sourceSignals": [
+        "self-improvement, therapy language, boundaries, burnout, loneliness",
+        "AI, free speech, identity, fairness, and public controversy",
+        "search-friendly worry forms such as 'why do I', 'should I', 'is it normal'"
+      ],
+      "canonicalUse": [
+        "Add English search doors to the same canonical nodes.",
+        "Use English-origin worries to discover missing universal nodes."
+      ],
+      "safetyRules": [
+        "Do not store Reddit titles or bodies as page copy.",
+        "Store only generalized patterns, counts, and rewritten user doors."
+      ]
+    },
+    {
+      "locale": "ja-JP",
+      "label": "Japanese",
+      "nativeLabel": "日本語",
+      "region": "Japan",
+      "status": "active",
+      "priority": 3,
+      "collectionMethods": [
+        "Google and Yahoo Japan autocomplete patterns",
+        "Generalized public Q&A worry phrases",
+        "Japanese official institutions and mental-health/public-life resources",
+        "Japanese and East Asian thinkers where source context is relevant"
+      ],
+      "sourceSignals": [
+        "ikigai, loneliness, social pressure, school refusal, overwork, family distance",
+        "honest feeling versus social harmony",
+        "quiet worries that may not appear in the same form in Korean or English"
+      ],
+      "canonicalUse": [
+        "Map Japanese worry phrases to existing Korean/English nodes first.",
+        "Promote repeated unmatched Japanese patterns into candidate clusters.",
+        "Do not make Japanese-output pages until enough original Japanese phrasing is curated."
+      ],
+      "safetyRules": [
+        "Translate patterns, not personal stories.",
+        "Keep cultural context as a signal, not a stereotype."
+      ]
+    },
+    {
+      "locale": "zh-CN",
+      "label": "Chinese",
+      "nativeLabel": "中文",
+      "region": "Mainland China / wider Chinese web",
+      "status": "active",
+      "priority": 4,
+      "collectionMethods": [
+        "Autocomplete and public search phrase patterns",
+        "Generalized Q&A and forum worry forms",
+        "Classical Chinese thought sources already useful for shared nodes"
+      ],
+      "sourceSignals": [
+        "exam pressure, family duty, work intensity, filial piety, social comparison",
+        "Confucian, Daoist, and modern institutional frames"
+      ],
+      "canonicalUse": [
+        "Use Chinese-source signals to deepen family, study, work, duty, and meaning nodes."
+      ],
+      "safetyRules": [
+        "Avoid political personal-story collection.",
+        "Use public, generalized, and evergreen patterns only."
+      ]
+    },
+    {
+      "locale": "es-ES",
+      "label": "Spanish",
+      "nativeLabel": "Español",
+      "region": "Spain / Latin America",
+      "status": "active",
+      "priority": 5,
+      "collectionMethods": [
+        "Autocomplete and public question patterns",
+        "Public health and family/labor institution sources",
+        "Spanish-language philosophy and literature references where relevant"
+      ],
+      "sourceSignals": [
+        "family, migration, work precarity, loneliness, faith, relationship boundaries",
+        "large global audience with varied local contexts"
+      ],
+      "canonicalUse": [
+        "Use Spanish-source signals after Korean, English, and Japanese coverage becomes stable."
+      ],
+      "safetyRules": [
+        "Separate Spain and Latin America when local context matters.",
+        "Do not flatten different Spanish-speaking cultures into one stereotype."
+      ]
+    },
+    {
+      "locale": "fr-FR",
+      "label": "French",
+      "nativeLabel": "Français",
+      "region": "France / Francophone web",
+      "status": "active",
+      "priority": 6,
+      "collectionMethods": [
+        "Autocomplete and public debate phrase patterns",
+        "French public institutions and philosophy sources"
+      ],
+      "sourceSignals": [
+        "secularism, freedom, love, work, social contract, existential themes",
+        "strong philosophical vocabulary for thought and debate pages"
+      ],
+      "canonicalUse": [
+        "Use French-source signals mainly for thought, freedom, public life, and debate nodes."
+      ],
+      "safetyRules": [
+        "Keep public debate summaries neutral and source-backed."
+      ]
+    },
+    {
+      "locale": "de-DE",
+      "label": "German",
+      "nativeLabel": "Deutsch",
+      "region": "Germany / German-language web",
+      "status": "active",
+      "priority": 7,
+      "collectionMethods": [
+        "Autocomplete and public worry/debate phrase patterns",
+        "German philosophy, labor, health, and institutional sources"
+      ],
+      "sourceSignals": [
+        "work, duty, freedom, bureaucracy, anxiety, meaning, critique of modern life",
+        "deep source pool for Kant, Hegel, Nietzsche, Heidegger, Arendt, and Byung-Chul Han"
+      ],
+      "canonicalUse": [
+        "Use German-source material to strengthen philosophy-heavy and work/meaning pages."
+      ],
+      "safetyRules": [
+        "Keep thinker interpretation clearly separate from direct source claims."
+      ]
+    }
+  ]
+}

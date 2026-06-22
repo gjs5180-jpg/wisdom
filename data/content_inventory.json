@@ -1,0 +1,2945 @@
+{
+  "generatedAt": "2026-06-21T09:17:04.947Z",
+  "counts": {
+    "ready": 89,
+    "draft": 0,
+    "planned": 0
+  },
+  "mappedPhrases": 1676,
+  "unmappedPhrases": 0,
+  "reviewPhrases": 107,
+  "sourceMetadata": {
+    "totalCards": 277,
+    "linkedCards": 277,
+    "structuredCards": 277,
+    "missingStructuredCards": 0,
+    "byType": {
+      "primary": 231,
+      "publisher": 10,
+      "interpretation": 9,
+      "medical": 5,
+      "research": 9,
+      "official": 7,
+      "law": 4,
+      "policy": 2
+    }
+  },
+  "contentization": {
+    "canonicalNodes": 89,
+    "readyNodes": 89,
+    "mappedToCanonical": 1676,
+    "unmapped": 0,
+    "reviewNotes": 107,
+    "lowSignalRows": 76,
+    "summaryCoreRows": 1600
+  },
+  "nodes": [
+    {
+      "slot": "breakup/should-contact",
+      "axis": "worry",
+      "title": "다시 연락해야 할지 고민될 때",
+      "status": "ready",
+      "groupTitle": "관계",
+      "priority": 1,
+      "score": {
+        "total": 100,
+        "demand": 30,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "슬픔",
+        "집착",
+        "이별",
+        "통제 불가",
+        "선택"
+      ],
+      "matchedPhrases": 18,
+      "samplePhrases": [
+        "이별 후 연락",
+        "이별 후 연락 대처법",
+        "이별 후 연락 더쿠",
+        "이별 후 연락 디시",
+        "이별 후 연락 멘트",
+        "이별 후 연락 시기",
+        "이별 후 연락 없으면",
+        "이별 후 연락 오는 시기"
+      ]
+    },
+    {
+      "slot": "self-esteem/comparing",
+      "axis": "worry",
+      "title": "비교하게 될 때",
+      "status": "ready",
+      "groupTitle": "자아 / 마음",
+      "priority": 3,
+      "score": {
+        "total": 100,
+        "demand": 30,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "수치심",
+        "압박감",
+        "인간관계",
+        "디지털"
+      ],
+      "matchedPhrases": 38,
+      "samplePhrases": [
+        "남과 비교",
+        "남과 비교 디시",
+        "남과 비교 명언",
+        "남과 비교 안하는 법",
+        "남과 비교하는 습관",
+        "남과 비교하는 습관 디시",
+        "남과 비교하면 안되는 이유",
+        "남과 비교하지 않는 법"
+      ]
+    },
+    {
+      "slot": "marriage",
+      "axis": "debate",
+      "title": "결혼, 꼭 해야 하나?",
+      "status": "ready",
+      "groupTitle": "가족 / 문화",
+      "priority": 4,
+      "score": {
+        "total": 100,
+        "demand": 30,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "윤리",
+        "혼란",
+        "인간관계",
+        "선택"
+      ],
+      "matchedPhrases": 50,
+      "samplePhrases": [
+        "전남친의 대표님과 결혼했습니다",
+        "결혼 고민",
+        "결혼 고민 더쿠",
+        "결혼 고민 되는 여자",
+        "결혼 고민 될때",
+        "결혼 고민 디시",
+        "결혼 고민 블라",
+        "결혼 고민 블라인드"
+      ]
+    },
+    {
+      "slot": "breakup/right-after",
+      "axis": "worry",
+      "title": "이별 직후 무너질 때",
+      "status": "ready",
+      "groupTitle": "관계",
+      "priority": 11,
+      "score": {
+        "total": 100,
+        "demand": 30,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "슬픔",
+        "집착",
+        "이별",
+        "통제 불가",
+        "평온"
+      ],
+      "matchedPhrases": 39,
+      "samplePhrases": [
+        "붙잡고 싶다",
+        "붙잡고 싶다고",
+        "붙잡고 싶다고 제발 돌아와 달라고",
+        "이별",
+        "이별 후유증",
+        "이별 후유증 1년",
+        "이별 후유증 3개월",
+        "이별 후유증 극복"
+      ]
+    },
+    {
+      "slot": "breakup/lingering",
+      "axis": "worry",
+      "title": "미련을 못 버릴 때",
+      "status": "ready",
+      "groupTitle": "관계",
+      "priority": 12,
+      "score": {
+        "total": 100,
+        "demand": 30,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "슬픔",
+        "집착",
+        "이별",
+        "통제 불가"
+      ],
+      "matchedPhrases": 25,
+      "samplePhrases": [
+        "마음 정리 방법",
+        "마음정리",
+        "마음정리 끝난 남자",
+        "마음정리 끝난 여자",
+        "마음정리 끝난 여자 디시",
+        "마음정리 끝난 여자 특징",
+        "마음정리 끝난 여자 후폭풍",
+        "마음정리 명언"
+      ]
+    },
+    {
+      "slot": "self-esteem/self-hate",
+      "axis": "worry",
+      "title": "나를 싫어할 때",
+      "status": "ready",
+      "groupTitle": "자아 / 마음",
+      "priority": 14,
+      "score": {
+        "total": 100,
+        "demand": 30,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "수치심",
+        "압박감",
+        "인간관계"
+      ],
+      "matchedPhrases": 31,
+      "samplePhrases": [
+        "나를 싫어하는 꿈",
+        "나를 싫어하는 남자",
+        "나를 싫어하는 남편",
+        "나를 싫어하는 남편이 기억을 잃었다",
+        "나를 싫어하는 너에게",
+        "나를 싫어하는 느낌",
+        "나를 싫어하는 사람",
+        "나를 싫어하는 사람 대처법"
+      ]
+    },
+    {
+      "slot": "self-esteem/cant-accept-praise",
+      "axis": "worry",
+      "title": "칭찬을 못 받아들일 때",
+      "status": "ready",
+      "groupTitle": "자아 / 마음",
+      "priority": 15,
+      "score": {
+        "total": 100,
+        "demand": 30,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "수치심",
+        "압박감",
+        "인간관계"
+      ],
+      "matchedPhrases": 18,
+      "samplePhrases": [
+        "부담스러운 칭찬",
+        "부담스럽지 않게 칭찬",
+        "외모칭찬 부담",
+        "이호선 인정욕구",
+        "인정욕구",
+        "인정욕구 강한 사람",
+        "인정욕구 강한 사람 특징",
+        "인정욕구 결핍"
+      ]
+    },
+    {
+      "slot": "relationships/cant-say-no",
+      "axis": "worry",
+      "title": "거절을 못할 때",
+      "status": "ready",
+      "groupTitle": "관계",
+      "priority": 18,
+      "score": {
+        "total": 100,
+        "demand": 30,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "외로움",
+        "분노 / 억울함",
+        "인간관계",
+        "통제 불가",
+        "압박감",
+        "선택"
+      ],
+      "matchedPhrases": 19,
+      "samplePhrases": [
+        "거절 못하는",
+        "거절 못하는 남자",
+        "거절 못하는 사람",
+        "거절 못하는 사람 디시",
+        "거절 못하는 성격",
+        "거절 못하는 성격 극복",
+        "거절 못하는 성격 단점",
+        "거절 못하는 성격 더쿠"
+      ]
+    },
+    {
+      "slot": "relationships/drifting-friends",
+      "axis": "worry",
+      "title": "친구 관계가 멀어질 때",
+      "status": "ready",
+      "groupTitle": "관계",
+      "priority": 20,
+      "score": {
+        "total": 100,
+        "demand": 30,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "외로움",
+        "분노 / 억울함",
+        "인간관계",
+        "통제 불가"
+      ],
+      "matchedPhrases": 16,
+      "samplePhrases": [
+        "헤어진 후 친구로",
+        "관계 정리",
+        "관계 정리 명언",
+        "관계 정리 시트",
+        "관계 정리 영어 로",
+        "관계 정리 유크",
+        "관계 정리 표",
+        "관계 정리하는법"
+      ]
+    },
+    {
+      "slot": "work/dont-want-to",
+      "axis": "worry",
+      "title": "하기 싫은데 해야 할 때",
+      "status": "ready",
+      "groupTitle": "현실 / 미래",
+      "priority": 21,
+      "score": {
+        "total": 100,
+        "demand": 30,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "압박감",
+        "공허",
+        "일 / 직장",
+        "선택"
+      ],
+      "matchedPhrases": 48,
+      "samplePhrases": [
+        "신입 회사 가기 싫다",
+        "아 회사 가기 싫다",
+        "유 퀴즈 회사 가기 싫다",
+        "일 하기 싫다",
+        "일 하기 싫다 디시",
+        "일 하기 싫어",
+        "일 하기 싫은 백수 디시",
+        "일 하기 싫은 이유"
+      ]
+    },
+    {
+      "slot": "work/job-change",
+      "axis": "worry",
+      "title": "이직 / 전직이 고민될 때",
+      "status": "ready",
+      "groupTitle": "현실 / 미래",
+      "priority": 22,
+      "score": {
+        "total": 100,
+        "demand": 30,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "압박감",
+        "공허",
+        "일 / 직장",
+        "선택"
+      ],
+      "matchedPhrases": 37,
+      "samplePhrases": [
+        "실업급여 이직확인서",
+        "이직",
+        "이직 결정 고민",
+        "이직 고민",
+        "이직 고민 꿈",
+        "이직 고민 더쿠",
+        "이직 고민 디시",
+        "이직 고민 블라인드"
+      ]
+    },
+    {
+      "slot": "meaning/no-motivation",
+      "axis": "worry",
+      "title": "아무것도 하기 싫을 때",
+      "status": "ready",
+      "groupTitle": "자아 / 마음",
+      "priority": 24,
+      "score": {
+        "total": 100,
+        "demand": 30,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "공허",
+        "불안",
+        "의미",
+        "큰 질문"
+      ],
+      "matchedPhrases": 38,
+      "samplePhrases": [
+        "무기력",
+        "무기력증",
+        "무기력증 극복",
+        "무기력증 디시",
+        "무기력증 약",
+        "무기력증 원인",
+        "무기력증 자가진단",
+        "무기력증 정신과"
+      ]
+    },
+    {
+      "slot": "meaning/meaningless",
+      "axis": "worry",
+      "title": "삶이 무의미하게 느껴질 때",
+      "status": "ready",
+      "groupTitle": "자아 / 마음",
+      "priority": 26,
+      "score": {
+        "total": 100,
+        "demand": 30,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "공허",
+        "불안",
+        "의미",
+        "큰 질문"
+      ],
+      "matchedPhrases": 36,
+      "samplePhrases": [
+        "낙관적 허무주의",
+        "내가 사는 이유",
+        "니체 허무주의",
+        "사는 이유",
+        "사는 이유 더쿠",
+        "사는 이유 디시",
+        "사는 이유 시",
+        "사는 이유 철학"
+      ]
+    },
+    {
+      "slot": "love/attachment-anxiety",
+      "axis": "worry",
+      "title": "불안형 연애를 할 때",
+      "status": "ready",
+      "groupTitle": "관계",
+      "priority": 27,
+      "score": {
+        "total": 100,
+        "demand": 30,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "불안",
+        "혼란",
+        "연애",
+        "통제 불가",
+        "집착",
+        "인간관계"
+      ],
+      "matchedPhrases": 39,
+      "samplePhrases": [
+        "불안형 연애",
+        "불안형 연애 고치는 법",
+        "불안형 연애 고치는법",
+        "불안형 연애 극복",
+        "불안형 연애 더쿠",
+        "불안형 연애 도서",
+        "불안형 연애 디시",
+        "불안형 연애 상담"
+      ]
+    },
+    {
+      "slot": "breakup/ghosting",
+      "axis": "worry",
+      "title": "잠수이별과 읽씹을 당했을 때",
+      "status": "ready",
+      "groupTitle": "관계",
+      "priority": 28,
+      "score": {
+        "total": 100,
+        "demand": 30,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "슬픔",
+        "집착",
+        "이별",
+        "통제 불가",
+        "분노 / 억울함"
+      ],
+      "matchedPhrases": 27,
+      "samplePhrases": [
+        "소개팅 읽씹",
+        "읽씹",
+        "읽씹 안읽씹",
+        "잠수",
+        "잠수병",
+        "잠수복",
+        "잠수부",
+        "잠수이별"
+      ]
+    },
+    {
+      "slot": "family/parent-conflict",
+      "axis": "worry",
+      "title": "부모님과 갈등이 심할 때",
+      "status": "ready",
+      "groupTitle": "관계",
+      "priority": 29,
+      "score": {
+        "total": 100,
+        "demand": 30,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "분노 / 억울함",
+        "혼란",
+        "가족",
+        "인간관계"
+      ],
+      "matchedPhrases": 44,
+      "samplePhrases": [
+        "20대 부모님 간섭",
+        "30대 부모님 간섭",
+        "30대 부모님 잔소리",
+        "가족 스트레스",
+        "가족 스트레스 더쿠",
+        "가족 스트레스 디시",
+        "가족 스트레스 인스티즈",
+        "가족 스트레스 자취"
+      ]
+    },
+    {
+      "slot": "money/future-anxiety",
+      "axis": "worry",
+      "title": "돈과 미래가 불안할 때",
+      "status": "ready",
+      "groupTitle": "현실 / 미래",
+      "priority": 31,
+      "score": {
+        "total": 100,
+        "demand": 30,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "불안",
+        "압박감",
+        "돈 / 미래",
+        "선택",
+        "통제 불가"
+      ],
+      "matchedPhrases": 57,
+      "samplePhrases": [
+        "2030 미래 불안",
+        "과거 우울 미래 불안",
+        "노후 불안",
+        "노후 불안 일본에서 답을 찾다",
+        "돈 걱정",
+        "돈 걱정 디시",
+        "돈 걱정 안하는법",
+        "돈 걱정 없는 삶"
+      ]
+    },
+    {
+      "slot": "study/cant-study",
+      "axis": "worry",
+      "title": "공부가 안 될 때",
+      "status": "ready",
+      "groupTitle": "현실 / 미래",
+      "priority": 32,
+      "score": {
+        "total": 100,
+        "demand": 30,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "불안",
+        "압박감",
+        "공부 / 시험",
+        "습관"
+      ],
+      "matchedPhrases": 61,
+      "samplePhrases": [
+        "공대 공부 현타",
+        "공부 안되는 이유",
+        "공부 안될 때 억지로",
+        "공부 안될 때 억지로 디시",
+        "공부 안될때",
+        "공부 안될때 대처법",
+        "공부 안될때 디시",
+        "공부 안될때 억지로"
+      ]
+    },
+    {
+      "slot": "digital/dopamine-addiction",
+      "axis": "worry",
+      "title": "도파민 중독과 스마트폰을 끊고 싶을 때",
+      "status": "ready",
+      "groupTitle": "디지털 / 습관",
+      "priority": 33,
+      "score": {
+        "total": 100,
+        "demand": 30,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "압박감",
+        "디지털",
+        "습관",
+        "욕망"
+      ],
+      "matchedPhrases": 27,
+      "samplePhrases": [
+        "이별 후 인스타",
+        "sns 비교",
+        "sns 비교 논문",
+        "sns 비교 디시",
+        "sns 비교 문제",
+        "sns 비교 문화",
+        "SNS 비교 통계",
+        "sns 비교심리"
+      ]
+    },
+    {
+      "slot": "body/body-anxiety",
+      "axis": "worry",
+      "title": "외모 콤플렉스와 몸이 싫을 때",
+      "status": "ready",
+      "groupTitle": "자아 / 마음",
+      "priority": 47,
+      "score": {
+        "total": 100,
+        "demand": 30,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "수치심",
+        "불안",
+        "몸 / 외모",
+        "통제 불가"
+      ],
+      "matchedPhrases": 18,
+      "samplePhrases": [
+        "눈 비교",
+        "까만 피부 스트레스",
+        "다이어트 강박 극복",
+        "다이어트 강박증 극복 방법",
+        "몸이 안 좋을때",
+        "스트레스 받으면 피부 디시",
+        "스트레스 성 피부 질환",
+        "스트레스 피부 뒤집어짐"
+      ]
+    },
+    {
+      "slot": "career/dream-reality",
+      "axis": "worry",
+      "title": "꿈을 포기해야 할지 고민될 때",
+      "status": "ready",
+      "groupTitle": "현실 / 미래",
+      "priority": 48,
+      "score": {
+        "total": 100,
+        "demand": 30,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "혼란",
+        "압박감",
+        "선택",
+        "일 / 직장"
+      ],
+      "matchedPhrases": 42,
+      "samplePhrases": [
+        "취업 불안",
+        "취업 불안 논문",
+        "취업 불안 더쿠",
+        "취업 불안 디시",
+        "취업 불안 장애",
+        "취업 불안 척도",
+        "취업 불안 척도 의 개발 및 타당도 연구",
+        "취업 불안감"
+      ]
+    },
+    {
+      "slot": "study/exam-anxiety",
+      "axis": "worry",
+      "title": "자격증 시험이 불안할 때",
+      "status": "ready",
+      "groupTitle": "현실 / 미래",
+      "priority": 53,
+      "score": {
+        "total": 100,
+        "demand": 30,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "불안",
+        "압박감",
+        "공부 / 시험",
+        "습관",
+        "통제 불가"
+      ],
+      "matchedPhrases": 41,
+      "samplePhrases": [
+        "면접 결과 불안",
+        "면접 불안",
+        "면접 불안 극복 방법",
+        "면접 불안 디시",
+        "면접 불안 약",
+        "면접 불안감",
+        "면접 불안장애",
+        "면접 불안증"
+      ]
+    },
+    {
+      "slot": "work/quit-or-stay",
+      "axis": "worry",
+      "title": "퇴사해야 할지 버텨야 할지 고민될 때",
+      "status": "ready",
+      "groupTitle": "현실 / 미래",
+      "priority": 54,
+      "score": {
+        "total": 100,
+        "demand": 30,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "압박감",
+        "공허",
+        "일 / 직장",
+        "선택",
+        "혼란"
+      ],
+      "matchedPhrases": 20,
+      "samplePhrases": [
+        "신입 퇴사 고민",
+        "우울증 퇴사 고민",
+        "일 하기 싫을 때 퇴사",
+        "일하기 싫을때 퇴사",
+        "직장 스트레스 퇴사",
+        "직장 스트레스 퇴사 디시",
+        "직장 스트레스 퇴사 방법",
+        "퇴사 고민"
+      ]
+    },
+    {
+      "slot": "meaning/emptiness",
+      "axis": "worry",
+      "title": "공허함이 느껴질 때",
+      "status": "ready",
+      "groupTitle": "자아 / 마음",
+      "priority": 56,
+      "score": {
+        "total": 100,
+        "demand": 30,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "공허",
+        "불안",
+        "의미",
+        "큰 질문",
+        "평온"
+      ],
+      "matchedPhrases": 21,
+      "samplePhrases": [
+        "헤어진 후 공허함",
+        "공허함",
+        "공허함 극복",
+        "공허함 디시",
+        "공허함 원인",
+        "공허함 채우기",
+        "공허함에",
+        "공허함을 느낄때"
+      ]
+    },
+    {
+      "slot": "love/reply-anxiety",
+      "axis": "worry",
+      "title": "카톡 답장이 늦어 불안할 때",
+      "status": "ready",
+      "groupTitle": "관계",
+      "priority": 57,
+      "score": {
+        "total": 100,
+        "demand": 30,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "불안",
+        "혼란",
+        "연애",
+        "통제 불가",
+        "집착",
+        "디지털"
+      ],
+      "matchedPhrases": 27,
+      "samplePhrases": [
+        "소개팅 연락 텀",
+        "소개팅 전 연락 텀",
+        "소개팅 후 연락 텀",
+        "썸 연락 텀",
+        "썸탈때 연락 텀",
+        "연락 텀",
+        "연락 텀 1시간",
+        "연락 텀 2시간"
+      ]
+    },
+    {
+      "slot": "breakup/reunion",
+      "axis": "worry",
+      "title": "재회해야 할지 고민될 때",
+      "status": "ready",
+      "groupTitle": "관계",
+      "priority": 58,
+      "score": {
+        "total": 100,
+        "demand": 30,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "슬픔",
+        "집착",
+        "이별",
+        "통제 불가",
+        "선택"
+      ],
+      "matchedPhrases": 24,
+      "samplePhrases": [
+        "마음정리 끝난 남자 재회",
+        "마음정리 끝난 여자 재회",
+        "마음정리 끝난 여자 재회 디시",
+        "이별 후 재회",
+        "이별 후 재회 기간",
+        "이별후재회",
+        "잠수이별 재회",
+        "재회"
+      ]
+    },
+    {
+      "slot": "work/work-depression",
+      "axis": "worry",
+      "title": "직장 우울감이 심할 때",
+      "status": "ready",
+      "groupTitle": "현실 / 미래",
+      "priority": 59,
+      "score": {
+        "total": 100,
+        "demand": 30,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "압박감",
+        "공허",
+        "일 / 직장",
+        "선택",
+        "불안"
+      ],
+      "matchedPhrases": 27,
+      "samplePhrases": [
+        "직장 스트레스",
+        "직장 스트레스 꿈",
+        "직장 스트레스 더쿠",
+        "직장 스트레스 덜 받는법",
+        "직장 스트레스 디시",
+        "직장 스트레스 명언",
+        "직장 스트레스 블라인드",
+        "직장 스트레스 안받는법"
+      ]
+    },
+    {
+      "slot": "love/relationship-boredom",
+      "axis": "worry",
+      "title": "권태기와 연애 현타가 왔을 때",
+      "status": "ready",
+      "groupTitle": "관계",
+      "priority": 60,
+      "score": {
+        "total": 100,
+        "demand": 30,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "불안",
+        "혼란",
+        "연애",
+        "통제 불가",
+        "인간관계",
+        "욕망"
+      ],
+      "matchedPhrases": 29,
+      "samplePhrases": [
+        "권태기",
+        "권태기 극복",
+        "권태기 극복 디시",
+        "권태기 극복 방법",
+        "권태기 극복법",
+        "권태기 디시",
+        "권태기 마음 식은 차이",
+        "권태기 시기"
+      ]
+    },
+    {
+      "slot": "relationships/relationship-burnout",
+      "axis": "worry",
+      "title": "인간관계 현타가 올 때",
+      "status": "ready",
+      "groupTitle": "관계",
+      "priority": 61,
+      "score": {
+        "total": 100,
+        "demand": 30,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "외로움",
+        "분노 / 억울함",
+        "인간관계",
+        "통제 불가",
+        "공허"
+      ],
+      "matchedPhrases": 60,
+      "samplePhrases": [
+        "2차적 인간관계",
+        "관계 를 정립 하다",
+        "관계 정립",
+        "관계 정립 문화",
+        "관계 정립 안하는 남자",
+        "관계 정립 안하는 여자",
+        "관계 정립 영어 로",
+        "관계 정립 적 언어"
+      ]
+    },
+    {
+      "slot": "love/relationship-values",
+      "axis": "worry",
+      "title": "연애 가치관 차이가 클 때",
+      "status": "ready",
+      "groupTitle": "관계",
+      "priority": 67,
+      "score": {
+        "total": 100,
+        "demand": 30,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "불안",
+        "혼란",
+        "연애",
+        "통제 불가"
+      ],
+      "matchedPhrases": 16,
+      "samplePhrases": [
+        "연애 가치관",
+        "연애 가치관 5가지",
+        "연애 가치관 문답",
+        "연애 가치관 예시",
+        "연애 가치관 종류",
+        "연애 가치관 질문",
+        "연애 가치관 질문 100가지",
+        "연애 가치관 질문 디시"
+      ]
+    },
+    {
+      "slot": "breakup/ex-contact",
+      "axis": "worry",
+      "title": "전 애인 연락이 흔들릴 때",
+      "status": "ready",
+      "groupTitle": "관계",
+      "priority": 68,
+      "score": {
+        "total": 100,
+        "demand": 30,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "슬픔",
+        "집착",
+        "이별",
+        "통제 불가"
+      ],
+      "matchedPhrases": 30,
+      "samplePhrases": [
+        "어떡해 이별까지",
+        "어떡해 이별까지 사랑하겠어",
+        "어떡해 이별까지 사랑하겠어 歌詞",
+        "여자친구 이별 고민",
+        "이별 고민",
+        "이별 고민 더쿠",
+        "이별 고민 디시",
+        "이별 고민 블라인드"
+      ]
+    },
+    {
+      "slot": "self-esteem/low-self-esteem",
+      "axis": "worry",
+      "title": "자존감이 낮을 때",
+      "status": "ready",
+      "groupTitle": "자아 / 마음",
+      "priority": 69,
+      "score": {
+        "total": 100,
+        "demand": 30,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "수치심",
+        "압박감",
+        "인간관계"
+      ],
+      "matchedPhrases": 15,
+      "samplePhrases": [
+        "외모 자존감 낮을 때",
+        "자존감 낮은 사람 특징",
+        "자존감 낮을 때",
+        "자존감 낮을 때 극복 방법",
+        "자존감 낮을 때 디시",
+        "자존감 낮을 때 책",
+        "자존감 높은 사람 특징",
+        "자존감 높이기"
+      ]
+    },
+    {
+      "slot": "work/workplace-relationships",
+      "axis": "worry",
+      "title": "직장 인간관계가 힘들 때",
+      "status": "ready",
+      "groupTitle": "현실 / 미래",
+      "priority": 73,
+      "score": {
+        "total": 100,
+        "demand": 30,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "압박감",
+        "공허",
+        "일 / 직장",
+        "선택"
+      ],
+      "matchedPhrases": 19,
+      "samplePhrases": [
+        "사람 만나는 게 힘들 때",
+        "사람 만나는 게 힘들어요",
+        "사람 만나는게 힘들때",
+        "인간관계 스트레스",
+        "직장 인간관계",
+        "직장 인간관계 더쿠",
+        "직장 인간관계 명언",
+        "직장 인간관계 블라인드"
+      ]
+    },
+    {
+      "slot": "meaning/fear-death",
+      "axis": "worry",
+      "title": "죽음이 두려울 때",
+      "status": "ready",
+      "groupTitle": "자아 / 마음",
+      "priority": 5,
+      "score": {
+        "total": 98,
+        "demand": 28,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "공허",
+        "불안",
+        "의미",
+        "큰 질문"
+      ],
+      "matchedPhrases": 14,
+      "samplePhrases": [
+        "노인 죽음 두려움",
+        "부모님 죽음 두려움",
+        "부모님 죽음 두려움 디시",
+        "불교 죽음 두려움",
+        "실존적 불안",
+        "실존적 불안 지문",
+        "죽음 두려움",
+        "죽음 두려움 극복"
+      ]
+    },
+    {
+      "slot": "love/cant-confess",
+      "axis": "worry",
+      "title": "고백을 못하겠을 때",
+      "status": "ready",
+      "groupTitle": "관계",
+      "priority": 7,
+      "score": {
+        "total": 98,
+        "demand": 28,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "불안",
+        "혼란",
+        "연애",
+        "통제 불가",
+        "선택"
+      ],
+      "matchedPhrases": 14,
+      "samplePhrases": [
+        "고민중독 고백",
+        "고백",
+        "고백 -25년째의 비밀-",
+        "고백 고민",
+        "고백 고민해 보겠다",
+        "고백 고민해볼게",
+        "고백 멘트",
+        "고백 받고 고민"
+      ]
+    },
+    {
+      "slot": "relationships/lonely-but-prefer-alone",
+      "axis": "worry",
+      "title": "혼자가 편한데 외로울 때",
+      "status": "ready",
+      "groupTitle": "관계",
+      "priority": 19,
+      "score": {
+        "total": 98,
+        "demand": 28,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "외로움",
+        "분노 / 억울함",
+        "인간관계",
+        "통제 불가"
+      ],
+      "matchedPhrases": 14,
+      "samplePhrases": [
+        "고양이 외로움",
+        "비와 외로움",
+        "외로움",
+        "외로움 극복",
+        "외로움 디시",
+        "외로움 반대말",
+        "외로움 성격",
+        "외로움과 고독의 차이"
+      ]
+    },
+    {
+      "slot": "self-esteem/dating-self-esteem",
+      "axis": "worry",
+      "title": "자존감 낮은 연애를 할 때",
+      "status": "ready",
+      "groupTitle": "자아 / 마음",
+      "priority": 70,
+      "score": {
+        "total": 98,
+        "demand": 28,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 4,
+      "totalCards": 4,
+      "tags": [
+        "수치심",
+        "압박감",
+        "인간관계"
+      ],
+      "matchedPhrases": 14,
+      "samplePhrases": [
+        "외모 자존감 연애",
+        "외모 자존감 연애 더쿠",
+        "자존감",
+        "자존감 낮아 지는 연애",
+        "자존감 낮은 남자 연애",
+        "자존감 낮은 사람 연애",
+        "자존감 낮은 여자 연애",
+        "자존감 낮을 때 연애"
+      ]
+    },
+    {
+      "slot": "family/independence",
+      "axis": "worry",
+      "title": "독립하고 싶은데 망설여질 때",
+      "status": "ready",
+      "groupTitle": "관계",
+      "priority": 30,
+      "score": {
+        "total": 96,
+        "demand": 26,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "분노 / 억울함",
+        "혼란",
+        "가족",
+        "인간관계"
+      ],
+      "matchedPhrases": 13,
+      "samplePhrases": [
+        "가족 스트레스 독립",
+        "독립하고 싶다",
+        "독립하고 싶다 더쿠",
+        "독립하고 싶다 디시",
+        "독립하고 싶어",
+        "독립하고 싶어서 결혼",
+        "독립하고 싶어요",
+        "독립하고 싶은 이유"
+      ]
+    },
+    {
+      "slot": "freedom",
+      "axis": "thought",
+      "title": "자유란 무엇인가?",
+      "status": "ready",
+      "groupTitle": "자유 / 사회",
+      "priority": 52,
+      "score": {
+        "total": 96,
+        "demand": 26,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "큰 질문",
+        "선택",
+        "통제 불가"
+      ],
+      "matchedPhrases": 13,
+      "samplePhrases": [
+        "경제적 자유",
+        "경제적 자유 30억",
+        "경제적 자유 계산기",
+        "경제적 자유 금액",
+        "경제적 자유 금액 계산",
+        "경제적 자유 금액 디시",
+        "경제적 자유 기준",
+        "경제적 자유 디시"
+      ]
+    },
+    {
+      "slot": "work/boss-stress",
+      "axis": "worry",
+      "title": "상사 스트레스가 심할 때",
+      "status": "ready",
+      "groupTitle": "현실 / 미래",
+      "priority": 64,
+      "score": {
+        "total": 96,
+        "demand": 26,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "압박감",
+        "공허",
+        "일 / 직장",
+        "선택",
+        "분노 / 억울함",
+        "통제 불가"
+      ],
+      "matchedPhrases": 13,
+      "samplePhrases": [
+        "나를 싫어하는 상사",
+        "나를 싫어하는 상사 디시",
+        "상사 스트레스",
+        "상사 스트레스 더쿠",
+        "상사 스트레스 디시",
+        "상사 스트레스 블라인드",
+        "상사 스트레스 안받는법",
+        "상사 스트레스 퇴사"
+      ]
+    },
+    {
+      "slot": "meaning/wandering",
+      "axis": "worry",
+      "title": "방황하고 있을 때",
+      "status": "ready",
+      "groupTitle": "자아 / 마음",
+      "priority": 76,
+      "score": {
+        "total": 96,
+        "demand": 26,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 4,
+      "totalCards": 4,
+      "tags": [
+        "공허",
+        "불안",
+        "의미",
+        "큰 질문"
+      ],
+      "matchedPhrases": 13,
+      "samplePhrases": [
+        "방황",
+        "방황하는 별들",
+        "방황하는 사냥꾼",
+        "방황하는 칼날",
+        "방황하는 칼날 2009",
+        "방황하는 칼날 디시",
+        "방황하는 칼날 소설",
+        "방황하는 칼날 실화"
+      ]
+    },
+    {
+      "slot": "work/burnout",
+      "axis": "worry",
+      "title": "번아웃이 왔을 때",
+      "status": "ready",
+      "groupTitle": "현실 / 미래",
+      "priority": 6,
+      "score": {
+        "total": 94,
+        "demand": 24,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "압박감",
+        "공허",
+        "일 / 직장",
+        "선택",
+        "평온"
+      ],
+      "matchedPhrases": 12,
+      "samplePhrases": [
+        "번아웃",
+        "번아웃 극복",
+        "번아웃 디시",
+        "번아웃 우울증 차이",
+        "번아웃 자가진단",
+        "번아웃 증상",
+        "번아웃 증후군",
+        "번아웃 증후군 4단계"
+      ]
+    },
+    {
+      "slot": "love/cant-read-them",
+      "axis": "worry",
+      "title": "상대 마음을 모를 때",
+      "status": "ready",
+      "groupTitle": "관계",
+      "priority": 10,
+      "score": {
+        "total": 94,
+        "demand": 24,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "불안",
+        "혼란",
+        "연애",
+        "통제 불가"
+      ],
+      "matchedPhrases": 12,
+      "samplePhrases": [
+        "나를 좋아하는지 아는 방법",
+        "나를 좋아하는지 아는방법",
+        "나를 좋아하는지 헷갈릴때",
+        "나를 좋아하는지 확인하는 방법",
+        "상대 마음",
+        "상대 마음 이해하는 방법",
+        "상대 마음 확인",
+        "상대 의 마음 을 아는 방법"
+      ]
+    },
+    {
+      "slot": "death-penalty",
+      "axis": "debate",
+      "title": "사형제, 유지해야 하나?",
+      "status": "ready",
+      "groupTitle": "법 / 생명 윤리",
+      "priority": 35,
+      "score": {
+        "total": 94,
+        "demand": 30,
+        "verification": 30,
+        "structure": 34
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "윤리",
+        "정의",
+        "분노 / 억울함"
+      ],
+      "matchedPhrases": 28,
+      "samplePhrases": [
+        "대한민국 사형제도",
+        "미국 사형제도",
+        "사형제",
+        "사형제 도 찬반",
+        "사형제 도 찬반 근거 모음",
+        "사형제 도 찬반 통계",
+        "사형제 도 찬반 투표",
+        "사형제 도 폐지 찬반"
+      ]
+    },
+    {
+      "slot": "abortion",
+      "axis": "debate",
+      "title": "낙태, 어디까지 허용해야 하나?",
+      "status": "ready",
+      "groupTitle": "법 / 생명 윤리",
+      "priority": 36,
+      "score": {
+        "total": 94,
+        "demand": 30,
+        "verification": 30,
+        "structure": 34
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "윤리",
+        "선택",
+        "정의"
+      ],
+      "matchedPhrases": 24,
+      "samplePhrases": [
+        "낙태",
+        "낙태 가능 시기",
+        "낙태 기간",
+        "낙태 방법",
+        "낙태 불법",
+        "낙태 수술 비용",
+        "낙태 시기",
+        "낙태 에 대한 찬반"
+      ]
+    },
+    {
+      "slot": "animal-testing",
+      "axis": "debate",
+      "title": "동물실험, 정당화될 수 있나?",
+      "status": "ready",
+      "groupTitle": "법 / 생명 윤리",
+      "priority": 37,
+      "score": {
+        "total": 94,
+        "demand": 30,
+        "verification": 30,
+        "structure": 34
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "윤리",
+        "정의"
+      ],
+      "matchedPhrases": 26,
+      "samplePhrases": [
+        "동물 실험 찬반 근거",
+        "동물실험 반대",
+        "동물실험 반대 근거",
+        "동물실험 반대 논설문",
+        "동물실험 반대 뒷받침 자료",
+        "동물실험 반대 주장",
+        "동물실험 찬반",
+        "동물실험 찬반 근거"
+      ]
+    },
+    {
+      "slot": "no-kids-zone",
+      "axis": "debate",
+      "title": "노키즈존, 차별인가 권리인가?",
+      "status": "ready",
+      "groupTitle": "가족 / 문화",
+      "priority": 38,
+      "score": {
+        "total": 94,
+        "demand": 30,
+        "verification": 30,
+        "structure": 34
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "윤리",
+        "정의",
+        "인간관계"
+      ],
+      "matchedPhrases": 20,
+      "samplePhrases": [
+        "노키즈존",
+        "노키즈존 기사",
+        "노키즈존 기준",
+        "노키즈존 나이",
+        "노키즈존 반대",
+        "노키즈존 반대 근거",
+        "노키즈존 반대 근거 자료",
+        "노키즈존 사례"
+      ]
+    },
+    {
+      "slot": "juvenile-offenders",
+      "axis": "debate",
+      "title": "촉법소년, 처벌을 강화해야 하나?",
+      "status": "ready",
+      "groupTitle": "법 / 생명 윤리",
+      "priority": 39,
+      "score": {
+        "total": 94,
+        "demand": 30,
+        "verification": 30,
+        "structure": 34
+      },
+      "flags": [],
+      "verified": 4,
+      "totalCards": 4,
+      "tags": [
+        "윤리",
+        "정의",
+        "분노 / 억울함"
+      ],
+      "matchedPhrases": 36,
+      "samplePhrases": [
+        "참교육 촉법소년",
+        "촉법소년",
+        "촉법소년 나이",
+        "촉법소년 나이 개정",
+        "촉법소년 나이 기준",
+        "촉법소년 나이 별 범죄율",
+        "촉법소년 나이 하향",
+        "촉법소년 나이 하향 반대 근거"
+      ]
+    },
+    {
+      "slot": "basic-income",
+      "axis": "debate",
+      "title": "기본소득, 필요한 제도인가?",
+      "status": "ready",
+      "groupTitle": "기술 / 경제",
+      "priority": 41,
+      "score": {
+        "total": 94,
+        "demand": 30,
+        "verification": 30,
+        "structure": 34
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "윤리",
+        "정의",
+        "돈 / 미래",
+        "일 / 직장"
+      ],
+      "matchedPhrases": 17,
+      "samplePhrases": [
+        "기본소득",
+        "기본소득 도입",
+        "기본소득 제 찬반 쟁점",
+        "기본소득 제도 찬반",
+        "기본소득 지역",
+        "기본소득 찬반",
+        "기본소득 찬반 논쟁",
+        "기본소득 찬반 토론"
+      ]
+    },
+    {
+      "slot": "ai-replacement",
+      "axis": "debate",
+      "title": "AI가 인간의 일을 대체해도 괜찮은가?",
+      "status": "ready",
+      "groupTitle": "기술 / 경제",
+      "priority": 42,
+      "score": {
+        "total": 94,
+        "demand": 30,
+        "verification": 30,
+        "structure": 34
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "윤리",
+        "기술",
+        "일 / 직장",
+        "불안"
+      ],
+      "matchedPhrases": 22,
+      "samplePhrases": [
+        "자격증 공부 ai",
+        "자격증 공부 ai 추천",
+        "자격증 공부 ai 추천 디시",
+        "간호사 ai 대체",
+        "변호사 ai 대체",
+        "세무사 ai 대체",
+        "약사 ai 대체",
+        "회계사 ai 대체"
+      ]
+    },
+    {
+      "slot": "ai-art",
+      "axis": "debate",
+      "title": "AI 그림은 예술인가?",
+      "status": "ready",
+      "groupTitle": "기술 / 경제",
+      "priority": 43,
+      "score": {
+        "total": 94,
+        "demand": 30,
+        "verification": 30,
+        "structure": 34
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "윤리",
+        "기술"
+      ],
+      "matchedPhrases": 17,
+      "samplePhrases": [
+        "네이버지도 ai 그림",
+        "ai 그림",
+        "AI 그림",
+        "ai 그림 디시",
+        "ai 그림 맞추기",
+        "ai 그림 사이트",
+        "ai 그림 사이트 무료",
+        "ai 그림 생성"
+      ]
+    },
+    {
+      "slot": "vegetarianism",
+      "axis": "debate",
+      "title": "채식과 비건, 윤리적 의무인가?",
+      "status": "ready",
+      "groupTitle": "일상 윤리",
+      "priority": 45,
+      "score": {
+        "total": 94,
+        "demand": 30,
+        "verification": 30,
+        "structure": 34
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "윤리",
+        "욕망"
+      ],
+      "matchedPhrases": 46,
+      "samplePhrases": [
+        "비건",
+        "비건 단계",
+        "비건 베이커리",
+        "비건 베지테리언 차이",
+        "비건 음식",
+        "비건 종류",
+        "비건 찬반",
+        "비건 화장품"
+      ]
+    },
+    {
+      "slot": "parent-support",
+      "axis": "debate",
+      "title": "부모 부양은 자식의 의무인가?",
+      "status": "ready",
+      "groupTitle": "가족 / 문화",
+      "priority": 46,
+      "score": {
+        "total": 94,
+        "demand": 30,
+        "verification": 30,
+        "structure": 34
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "윤리",
+        "가족",
+        "인간관계"
+      ],
+      "matchedPhrases": 21,
+      "samplePhrases": [
+        "효도 계약서 부담 부 증여",
+        "부모 부양",
+        "부모 부양 상속",
+        "부모 부양 상속세",
+        "부모 부양 포기",
+        "부모 부양가족 기준",
+        "부모 부양거부",
+        "부모 부양비"
+      ]
+    },
+    {
+      "slot": "happiness",
+      "axis": "thought",
+      "title": "행복이란 무엇인가?",
+      "status": "ready",
+      "groupTitle": "삶 / 행복",
+      "priority": 50,
+      "score": {
+        "total": 94,
+        "demand": 24,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "큰 질문",
+        "평온",
+        "욕망"
+      ],
+      "matchedPhrases": 12,
+      "samplePhrases": [
+        "돈이 많으면 행복 할까",
+        "돈이 많으면 행복할까 찬성 근거",
+        "돈이 행복",
+        "돈이 행복에 미치는 영향",
+        "돈이 행복을 가져다 주는가",
+        "돈이 행복을 주지는 않지만",
+        "돈이 행복을 주지는 않지만 돈이 없으면 불행해진다",
+        "돈이 행복의 전부는 아니다"
+      ]
+    },
+    {
+      "slot": "relationships/people-pleasing",
+      "axis": "worry",
+      "title": "눈치 보는 성격을 고치고 싶을 때",
+      "status": "ready",
+      "groupTitle": "관계",
+      "priority": 55,
+      "score": {
+        "total": 94,
+        "demand": 24,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "외로움",
+        "분노 / 억울함",
+        "인간관계",
+        "통제 불가",
+        "압박감",
+        "선택"
+      ],
+      "matchedPhrases": 12,
+      "samplePhrases": [
+        "남 눈치 보는 성격",
+        "남 눈치보는 성격 디시",
+        "눈치 많이 보는 성격",
+        "눈치 많이 보는 성격 디시",
+        "눈치 보는 성격",
+        "눈치 보는 성격 고치기",
+        "눈치 보는 성격 극복",
+        "눈치 보는 성격 극복 디시"
+      ]
+    },
+    {
+      "slot": "career/decision-paralysis",
+      "axis": "worry",
+      "title": "결정장애가 심할 때",
+      "status": "ready",
+      "groupTitle": "현실 / 미래",
+      "priority": 79,
+      "score": {
+        "total": 94,
+        "demand": 24,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "혼란",
+        "압박감",
+        "선택",
+        "일 / 직장"
+      ],
+      "matchedPhrases": 12,
+      "samplePhrases": [
+        "선택장애",
+        "선택장애 결정장애",
+        "선택장애 대체어",
+        "선택장애 디시",
+        "선택장애 랜덤",
+        "선택장애 브랜뉴",
+        "선택장애 음식",
+        "선택장애 책"
+      ]
+    },
+    {
+      "slot": "career/regret-free-choice",
+      "axis": "worry",
+      "title": "후회 없는 선택을 하고 싶을 때",
+      "status": "ready",
+      "groupTitle": "현실 / 미래",
+      "priority": 78,
+      "score": {
+        "total": 92,
+        "demand": 22,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "혼란",
+        "압박감",
+        "선택",
+        "일 / 직장"
+      ],
+      "matchedPhrases": 11,
+      "samplePhrases": [
+        "후회 없는 선택",
+        "후회 없는 선택 다시 보기",
+        "후회 없는 선택 디시",
+        "후회 없는 선택 리바이",
+        "후회 없는 선택 번역",
+        "후회 없는 선택 애니",
+        "후회 없는 선택 영어 로",
+        "후회 없는 선택 풀 컬러"
+      ]
+    },
+    {
+      "slot": "remote-work",
+      "axis": "debate",
+      "title": "재택근무, 계속 확대해도 괜찮은가?",
+      "status": "ready",
+      "groupTitle": "일 / 노동 제도",
+      "priority": 84,
+      "score": {
+        "total": 92,
+        "demand": 28,
+        "verification": 30,
+        "structure": 34
+      },
+      "flags": [],
+      "verified": 4,
+      "totalCards": 4,
+      "tags": [
+        "윤리"
+      ],
+      "matchedPhrases": 14,
+      "samplePhrases": [
+        "여성재택근무",
+        "재택근무",
+        "재택근무 가능한 직업",
+        "재택근무 디시",
+        "재택근무 산재",
+        "재택근무 알바",
+        "재택근무 직업 디시",
+        "재택근무 직업 추천"
+      ]
+    },
+    {
+      "slot": "school-corporal-punishment",
+      "axis": "debate",
+      "title": "학교 체벌, 교육인가 폭력인가?",
+      "status": "ready",
+      "groupTitle": "법 / 생명 윤리",
+      "priority": 88,
+      "score": {
+        "total": 92,
+        "demand": 28,
+        "verification": 30,
+        "structure": 34
+      },
+      "flags": [],
+      "verified": 4,
+      "totalCards": 4,
+      "tags": [
+        "윤리",
+        "정의",
+        "가족"
+      ],
+      "matchedPhrases": 14,
+      "samplePhrases": [
+        "학교 체벌",
+        "학교 체벌 금지",
+        "학교 체벌 금지 년도",
+        "학교 체벌 금지 법",
+        "학교 체벌 금지 법안",
+        "학교 체벌 금지 이유",
+        "학교 체벌 금지법",
+        "학교 체벌 반대 이유"
+      ]
+    },
+    {
+      "slot": "white-lie",
+      "axis": "debate",
+      "title": "선의의 거짓말, 해도 되나?",
+      "status": "ready",
+      "groupTitle": "일상 윤리",
+      "priority": 2,
+      "score": {
+        "total": 90,
+        "demand": 20,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "윤리",
+        "인간관계",
+        "선택"
+      ],
+      "matchedPhrases": 10,
+      "samplePhrases": [
+        "복숭아 아이스티",
+        "선의의 거짓말 반대",
+        "선의의 거짓말 반대 근거",
+        "선의의 거짓말 찬반",
+        "선의의 거짓말 찬반 토론",
+        "선의의 거짓말 찬성",
+        "선의의 거짓말 찬성 근거",
+        "선의의 거짓말 토론"
+      ]
+    },
+    {
+      "slot": "euthanasia",
+      "axis": "debate",
+      "title": "안락사, 허용해도 되나?",
+      "status": "ready",
+      "groupTitle": "법 / 생명 윤리",
+      "priority": 34,
+      "score": {
+        "total": 90,
+        "demand": 26,
+        "verification": 30,
+        "structure": 34
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "윤리",
+        "의미",
+        "선택"
+      ],
+      "matchedPhrases": 13,
+      "samplePhrases": [
+        "사람 안락사",
+        "스위스 안락사",
+        "스위스 안락사 비용",
+        "안락사 찬반",
+        "안락사 찬반 근거",
+        "안락사 찬반 기사",
+        "안락사 찬반 논거",
+        "안락사 찬반 논문"
+      ]
+    },
+    {
+      "slot": "meritocracy",
+      "axis": "debate",
+      "title": "능력주의는 공정한가?",
+      "status": "ready",
+      "groupTitle": "기술 / 경제",
+      "priority": 40,
+      "score": {
+        "total": 90,
+        "demand": 26,
+        "verification": 30,
+        "structure": 34
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "윤리",
+        "정의",
+        "압박감",
+        "일 / 직장"
+      ],
+      "matchedPhrases": 13,
+      "samplePhrases": [
+        "능력주의",
+        "능력주의 반대",
+        "능력주의 비판",
+        "능력주의 사례",
+        "능력주의 사회",
+        "능력주의 찬반",
+        "능력주의 찬성",
+        "능력주의 책"
+      ]
+    },
+    {
+      "slot": "pet-euthanasia",
+      "axis": "debate",
+      "title": "반려동물 안락사, 괜찮은가?",
+      "status": "ready",
+      "groupTitle": "일상 윤리",
+      "priority": 66,
+      "score": {
+        "total": 90,
+        "demand": 26,
+        "verification": 30,
+        "structure": 34
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "윤리",
+        "선택",
+        "몸 / 외모"
+      ],
+      "matchedPhrases": 13,
+      "samplePhrases": [
+        "강아지 안락사",
+        "고양이 안락사",
+        "뭉치 안락사",
+        "안락사",
+        "안락사 고통",
+        "안락사 반대",
+        "안락사 반대 근거",
+        "안락사 비용"
+      ]
+    },
+    {
+      "slot": "body/hair-loss-stress",
+      "axis": "worry",
+      "title": "탈모 스트레스가 심할 때",
+      "status": "ready",
+      "groupTitle": "자아 / 마음",
+      "priority": 83,
+      "score": {
+        "total": 90,
+        "demand": 20,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 4,
+      "totalCards": 4,
+      "tags": [
+        "수치심",
+        "불안",
+        "몸 / 외모"
+      ],
+      "matchedPhrases": 10,
+      "samplePhrases": [
+        "여성 탈모 스트레스",
+        "원형 탈모 스트레스",
+        "원형 탈모 스트레스 디시",
+        "정수리 탈모 스트레스",
+        "탈모 스트레스",
+        "탈모 스트레스 디시",
+        "탈모 스트레스 안받는 법 디시",
+        "탈모 스트레스 안받는법"
+      ]
+    },
+    {
+      "slot": "work/work-skepticism",
+      "axis": "worry",
+      "title": "일에 회의감이 들 때",
+      "status": "ready",
+      "groupTitle": "현실 / 미래",
+      "priority": 74,
+      "score": {
+        "total": 88,
+        "demand": 18,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 4,
+      "totalCards": 4,
+      "tags": [
+        "압박감",
+        "공허",
+        "일 / 직장",
+        "선택"
+      ],
+      "matchedPhrases": 9,
+      "samplePhrases": [
+        "인간관계 회의감",
+        "회의감",
+        "회의감 들다",
+        "회의감 비슷한 말",
+        "회의감 영어",
+        "회의감 현타",
+        "회의감을 느끼다",
+        "회의감이 들다"
+      ]
+    },
+    {
+      "slot": "family/holiday-stress",
+      "axis": "worry",
+      "title": "명절 스트레스가 심할 때",
+      "status": "ready",
+      "groupTitle": "관계",
+      "priority": 62,
+      "score": {
+        "total": 86,
+        "demand": 16,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "분노 / 억울함",
+        "혼란",
+        "가족",
+        "인간관계",
+        "압박감"
+      ],
+      "matchedPhrases": 8,
+      "samplePhrases": [
+        "명절 스트레스",
+        "명절 스트레스 더쿠",
+        "명절 스트레스 디시",
+        "명절 스트레스 블라인드",
+        "명절 스트레스 비용",
+        "명절 스트레스 원인",
+        "명절 스트레스 인스 티즈",
+        "이호선 명절 스트레스"
+      ]
+    },
+    {
+      "slot": "meaning/dont-know-want",
+      "axis": "worry",
+      "title": "내가 뭘 원하는지 모를 때",
+      "status": "ready",
+      "groupTitle": "자아 / 마음",
+      "priority": 25,
+      "score": {
+        "total": 82,
+        "demand": 12,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "공허",
+        "불안",
+        "의미",
+        "큰 질문"
+      ],
+      "matchedPhrases": 6,
+      "samplePhrases": [
+        "내가 뭘 하고 싶은지",
+        "내가 뭘 하고 싶은지 모르겠 을 때",
+        "내가 뭘 하고 싶은지 모르겠다",
+        "내가 뭘 하고 싶은지 모르겠어요",
+        "내가 뭘 하고 싶은지 모를 때",
+        "뭐하고 살지 모르겠 을 때"
+      ]
+    },
+    {
+      "slot": "cohabitation",
+      "axis": "debate",
+      "title": "혼전동거, 해도 괜찮은가?",
+      "status": "ready",
+      "groupTitle": "가족 / 문화",
+      "priority": 44,
+      "score": {
+        "total": 80,
+        "demand": 16,
+        "verification": 30,
+        "structure": 34
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "윤리",
+        "인간관계",
+        "선택"
+      ],
+      "matchedPhrases": 8,
+      "samplePhrases": [
+        "물어보살 혼전동거",
+        "비정상적인 혼전동거",
+        "혼전동거",
+        "혼전동거 디시",
+        "혼전동거 반대",
+        "혼전동거 블라인드",
+        "혼전동거 이혼",
+        "혼전동거 찬성"
+      ]
+    },
+    {
+      "slot": "cancel-culture",
+      "axis": "debate",
+      "title": "캔슬 컬처, 책임 묻기인가 집단 처벌인가?",
+      "status": "ready",
+      "groupTitle": "일상 윤리",
+      "priority": 87,
+      "score": {
+        "total": 80,
+        "demand": 16,
+        "verification": 30,
+        "structure": 34
+      },
+      "flags": [],
+      "verified": 4,
+      "totalCards": 4,
+      "tags": [
+        "윤리",
+        "인간관계",
+        "기술"
+      ],
+      "matchedPhrases": 8,
+      "samplePhrases": [
+        "캔슬 컬처",
+        "캔슬 컬처 논문",
+        "캔슬 컬처 디시",
+        "캔슬 컬처 문제점",
+        "캔슬 컬처 사례",
+        "캔슬 컬처 cancel culture",
+        "캔슬 컬처란",
+        "한국 캔슬 컬처"
+      ]
+    },
+    {
+      "slot": "breakup/obsession",
+      "axis": "worry",
+      "title": "집착을 끊고 싶을 때",
+      "status": "ready",
+      "groupTitle": "관계",
+      "priority": 13,
+      "score": {
+        "total": 78,
+        "demand": 8,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "슬픔",
+        "집착",
+        "이별",
+        "통제 불가"
+      ],
+      "matchedPhrases": 4,
+      "samplePhrases": [
+        "집착",
+        "집착녀",
+        "집착은 다정하고 집요하게",
+        "집착하다"
+      ]
+    },
+    {
+      "slot": "self-esteem/falling-behind",
+      "axis": "worry",
+      "title": "나만 뒤처지는 것 같을 때",
+      "status": "ready",
+      "groupTitle": "자아 / 마음",
+      "priority": 16,
+      "score": {
+        "total": 78,
+        "demand": 8,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "수치심",
+        "압박감",
+        "인간관계"
+      ],
+      "matchedPhrases": 4,
+      "samplePhrases": [
+        "남과 비교 우울증",
+        "남과 비교될때",
+        "sns 비교 스트레스",
+        "sns 비교 우울"
+      ]
+    },
+    {
+      "slot": "relationships/hurtful-words",
+      "axis": "worry",
+      "title": "상처받은 말이 잊히지 않을 때",
+      "status": "ready",
+      "groupTitle": "관계",
+      "priority": 17,
+      "score": {
+        "total": 78,
+        "demand": 8,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "외로움",
+        "분노 / 억울함",
+        "인간관계",
+        "통제 불가"
+      ],
+      "matchedPhrases": 4,
+      "samplePhrases": [
+        "가장 상처되는 말",
+        "상처되는 말",
+        "상처되는 말 듣는 꿈",
+        "상처되는말"
+      ]
+    },
+    {
+      "slot": "family/family-cutoff",
+      "axis": "worry",
+      "title": "가족 손절을 고민할 때",
+      "status": "ready",
+      "groupTitle": "관계",
+      "priority": 63,
+      "score": {
+        "total": 78,
+        "demand": 8,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "분노 / 억울함",
+        "혼란",
+        "가족",
+        "인간관계",
+        "통제 불가"
+      ],
+      "matchedPhrases": 4,
+      "samplePhrases": [
+        "가족 손절 결혼",
+        "가족 손절 결혼식",
+        "가족 손절 방법",
+        "가족 손절 후회"
+      ]
+    },
+    {
+      "slot": "body/health-anxiety",
+      "axis": "worry",
+      "title": "건강염려증이 심할 때",
+      "status": "ready",
+      "groupTitle": "자아 / 마음",
+      "priority": 80,
+      "score": {
+        "total": 78,
+        "demand": 8,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "수치심",
+        "불안",
+        "몸 / 외모"
+      ],
+      "matchedPhrases": 4,
+      "samplePhrases": [
+        "건강 염려증 극복",
+        "건강 염려증 극복 디시",
+        "건강 염려증 불안 장애 디시",
+        "건강염려증 우울증"
+      ]
+    },
+    {
+      "slot": "body/insomnia",
+      "axis": "worry",
+      "title": "불면증이 괴로울 때",
+      "status": "ready",
+      "groupTitle": "자아 / 마음",
+      "priority": 81,
+      "score": {
+        "total": 78,
+        "demand": 8,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "수치심",
+        "불안",
+        "몸 / 외모"
+      ],
+      "matchedPhrases": 4,
+      "samplePhrases": [
+        "불면증 해결법",
+        "불면증극복",
+        "불면증극복하는법",
+        "우울증과불면증"
+      ]
+    },
+    {
+      "slot": "body/aging-anxiety",
+      "axis": "worry",
+      "title": "노화가 불안할 때",
+      "status": "ready",
+      "groupTitle": "자아 / 마음",
+      "priority": 82,
+      "score": {
+        "total": 78,
+        "demand": 8,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 4,
+      "totalCards": 4,
+      "tags": [
+        "수치심",
+        "불안",
+        "몸 / 외모"
+      ],
+      "matchedPhrases": 4,
+      "samplePhrases": [
+        "노화 불안 척도",
+        "노화불안",
+        "노화불안 척도",
+        "한국인 노화 불안 척도"
+      ]
+    },
+    {
+      "slot": "retirement-age",
+      "axis": "debate",
+      "title": "정년연장, 해야 하나?",
+      "status": "ready",
+      "groupTitle": "일 / 노동 제도",
+      "priority": 85,
+      "score": {
+        "total": 78,
+        "demand": 8,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "윤리"
+      ],
+      "matchedPhrases": 4,
+      "samplePhrases": [
+        "65세 정년연장 찬반",
+        "정년연장 찬반",
+        "정년연장 찬반 근거",
+        "정년연장 찬반 토론"
+      ]
+    },
+    {
+      "slot": "work/unrecognized",
+      "axis": "worry",
+      "title": "인정받지 못하는 느낌이 들 때",
+      "status": "ready",
+      "groupTitle": "현실 / 미래",
+      "priority": 23,
+      "score": {
+        "total": 76,
+        "demand": 6,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "압박감",
+        "공허",
+        "일 / 직장",
+        "선택"
+      ],
+      "matchedPhrases": 3,
+      "samplePhrases": [
+        "인정 못받는 사람",
+        "조직에서 인정 못받는 사람",
+        "조직에서 인정 못받는 사람의 공통점"
+      ]
+    },
+    {
+      "slot": "relationships/regret-words",
+      "axis": "worry",
+      "title": "말실수 후회가 클 때",
+      "status": "ready",
+      "groupTitle": "관계",
+      "priority": 71,
+      "score": {
+        "total": 76,
+        "demand": 6,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "외로움",
+        "분노 / 억울함",
+        "인간관계",
+        "통제 불가"
+      ],
+      "matchedPhrases": 3,
+      "samplePhrases": [
+        "말실수 했을때",
+        "말실수 후회",
+        "말실수 후회 디시"
+      ]
+    },
+    {
+      "slot": "family/mother-conflict",
+      "axis": "worry",
+      "title": "엄마랑 안 맞을 때",
+      "status": "ready",
+      "groupTitle": "관계",
+      "priority": 77,
+      "score": {
+        "total": 76,
+        "demand": 6,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "분노 / 억울함",
+        "혼란",
+        "가족",
+        "인간관계"
+      ],
+      "matchedPhrases": 3,
+      "samplePhrases": [
+        "엄마랑 안 맞아요",
+        "엄마랑 안 맞음",
+        "엄마랑 안맞아요"
+      ]
+    },
+    {
+      "slot": "employment-contract",
+      "axis": "debate",
+      "title": "정규직과 계약직 차이, 어디까지 정당한가?",
+      "status": "ready",
+      "groupTitle": "일 / 노동 제도",
+      "priority": 86,
+      "score": {
+        "total": 76,
+        "demand": 6,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "윤리"
+      ],
+      "matchedPhrases": 3,
+      "samplePhrases": [
+        "정규직 계약직 차별",
+        "정규직 계약직 확인 방법",
+        "정규직 계약직 확인방법"
+      ]
+    },
+    {
+      "slot": "meaning/no-goal",
+      "axis": "worry",
+      "title": "목표가 없을 때",
+      "status": "ready",
+      "groupTitle": "자아 / 마음",
+      "priority": 75,
+      "score": {
+        "total": 74,
+        "demand": 4,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "공허",
+        "불안",
+        "의미",
+        "큰 질문"
+      ],
+      "matchedPhrases": 2,
+      "samplePhrases": [
+        "목표 없음",
+        "인생 목표 없음"
+      ]
+    },
+    {
+      "slot": "love/impatient",
+      "axis": "worry",
+      "title": "조급할 때",
+      "status": "ready",
+      "groupTitle": "관계",
+      "priority": 8,
+      "score": {
+        "total": 72,
+        "demand": 2,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "불안",
+        "혼란",
+        "연애",
+        "통제 불가"
+      ],
+      "matchedPhrases": 1,
+      "samplePhrases": [
+        "짝사랑"
+      ]
+    },
+    {
+      "slot": "love/should-give-up",
+      "axis": "worry",
+      "title": "포기해야 할지 모를 때",
+      "status": "ready",
+      "groupTitle": "관계",
+      "priority": 9,
+      "score": {
+        "total": 72,
+        "demand": 2,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "불안",
+        "혼란",
+        "연애",
+        "통제 불가"
+      ],
+      "matchedPhrases": 1,
+      "samplePhrases": [
+        "짝사랑 포기하는법"
+      ]
+    },
+    {
+      "slot": "good-life",
+      "axis": "thought",
+      "title": "좋은 삶이란 무엇인가?",
+      "status": "ready",
+      "groupTitle": "삶 / 행복",
+      "priority": 49,
+      "score": {
+        "total": 72,
+        "demand": 2,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "큰 질문",
+        "평온",
+        "습관",
+        "욕망"
+      ],
+      "matchedPhrases": 1,
+      "samplePhrases": [
+        "삶의 의미를 찾는 방법"
+      ]
+    },
+    {
+      "slot": "success",
+      "axis": "thought",
+      "title": "성공이란 무엇인가?",
+      "status": "ready",
+      "groupTitle": "성공 / 인정",
+      "priority": 51,
+      "score": {
+        "total": 72,
+        "demand": 2,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "큰 질문",
+        "압박감",
+        "일 / 직장"
+      ],
+      "matchedPhrases": 1,
+      "samplePhrases": [
+        "짝사랑 성공법"
+      ]
+    },
+    {
+      "slot": "childfree",
+      "axis": "debate",
+      "title": "아이를 꼭 낳아야 하나?",
+      "status": "ready",
+      "groupTitle": "가족 / 문화",
+      "priority": 65,
+      "score": {
+        "total": 72,
+        "demand": 8,
+        "verification": 30,
+        "structure": 34
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "윤리",
+        "가족",
+        "선택"
+      ],
+      "matchedPhrases": 4,
+      "samplePhrases": [
+        "비혼출산",
+        "아이 꼭 낳아야 할까",
+        "아이 를 꼭 낳아야 하는가",
+        "아이 를 꼭 낳아야 하는가 쓰기"
+      ]
+    },
+    {
+      "slot": "work/not-good-enough",
+      "axis": "worry",
+      "title": "일 못하는 것 같을 때",
+      "status": "ready",
+      "groupTitle": "현실 / 미래",
+      "priority": 72,
+      "score": {
+        "total": 72,
+        "demand": 2,
+        "verification": 30,
+        "structure": 40
+      },
+      "flags": [],
+      "verified": 3,
+      "totalCards": 3,
+      "tags": [
+        "압박감",
+        "공허",
+        "일 / 직장",
+        "선택"
+      ],
+      "matchedPhrases": 1,
+      "samplePhrases": [
+        "일 못하는 것 같을 때"
+      ]
+    },
+    {
+      "slot": "nice-people-finish-last",
+      "axis": "debate",
+      "title": "착하게 살면 손해인가?",
+      "status": "ready",
+      "groupTitle": "일상 윤리",
+      "priority": 89,
+      "score": {
+        "total": 68,
+        "demand": 4,
+        "verification": 30,
+        "structure": 34
+      },
+      "flags": [],
+      "verified": 4,
+      "totalCards": 4,
+      "tags": [
+        "윤리",
+        "인간관계",
+        "선택"
+      ],
+      "matchedPhrases": 2,
+      "samplePhrases": [
+        "착하게 살면 안되는 이유",
+        "착하게 살면 안되는 이유 디시"
+      ]
+    }
+  ]
+}
