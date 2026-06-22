@@ -129,6 +129,32 @@ export default function HomePage() {
       }))
       .filter((item) => item.entry),
   }));
+  const sourceLocaleByCode = new Map(sourceLocales.map((locale) => [locale.locale, locale]));
+  const sourceLocaleLabel = (code) => sourceLocaleByCode.get(code)?.nativeLabel || code;
+  const sourcePhraseSpotlights = readyEntries
+    .map((entry) => {
+      const insights = (entry.content?.sourceLocaleInsights || [])
+        .filter((insight) => insight.sourcePhrases?.length > 0)
+        .sort((a, b) => Number(a.generated) - Number(b.generated))
+        .slice(0, 2);
+      if (insights.length < 2) return null;
+
+      return {
+        entry,
+        insights,
+        totalUsable: entry.content?.sourceLocaleSignal?.totalUsable || 0,
+      };
+    })
+    .filter(Boolean)
+    .sort(
+      (a, b) =>
+        b.totalUsable - a.totalUsable ||
+        a.entry.title.localeCompare(b.entry.title, "ko")
+    )
+    .slice(0, 4);
+  const curatedSourceLocaleCount = readyEntries.filter((entry) =>
+    (entry.content?.sourceLocaleInsights || []).some((insight) => !insight.generated)
+  ).length;
 
   const searchEntries = readyEntries.map(serializeEntry);
   const suggestedEntries = featuredEntries.slice(0, 5).map(serializeEntry);
@@ -336,6 +362,68 @@ export default function HomePage() {
               className="rounded-lg border border-line bg-paper px-3 py-1.5 text-sm text-ink-soft transition-colors hover:border-clay/40 hover:text-clay"
             >
               {entry.title}
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      <section className="mt-10">
+        <div className="mb-3 flex items-end justify-between gap-3">
+          <div>
+            <p className="text-[11px] font-medium uppercase tracking-wider text-ink-faint">
+              언어권 표현
+            </p>
+            <h2 className="mt-1 font-serif text-xl font-bold">
+              같은 고민, 다른 검색어
+            </h2>
+          </div>
+          <span className="shrink-0 text-xs text-ink-faint">
+            수동 큐레이션 {curatedSourceLocaleCount}/{readyEntries.length}
+          </span>
+        </div>
+        <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+          {sourcePhraseSpotlights.map(({ entry, insights, totalUsable }) => (
+            <Link
+              key={entry.key}
+              href={entry.href}
+              className="group block rounded-lg border border-line bg-paper px-4 py-4 transition-colors hover:border-clay/40"
+            >
+              <span className="flex items-start justify-between gap-3">
+                <span className="min-w-0">
+                  <span className="block font-serif text-base font-bold group-hover:text-clay">
+                    {entry.title}
+                  </span>
+                  <span className="mt-1 line-clamp-2 block text-sm leading-relaxed text-ink-soft">
+                    {entry.summary}
+                  </span>
+                </span>
+                <span className="shrink-0 rounded-full bg-clay-soft px-2 py-0.5 text-[11px] font-medium text-clay">
+                  {totalUsable}
+                </span>
+              </span>
+              <span className="mt-3 block divide-y divide-line border-y border-line">
+                {insights.map((insight) => (
+                  <span key={`${entry.key}-${insight.locale}`} className="block py-2.5">
+                    <span className="flex flex-wrap items-center gap-1.5">
+                      <span className="rounded-full border border-line bg-cream px-2 py-0.5 text-[11px] font-medium text-ink-soft">
+                        {sourceLocaleLabel(insight.locale)}
+                      </span>
+                      {insight.sourcePhrases.slice(0, 2).map((phrase) => (
+                        <span
+                          key={phrase}
+                          lang={insight.locale}
+                          className="rounded-full border border-line px-2 py-0.5 text-[11px] text-ink-soft"
+                        >
+                          {phrase}
+                        </span>
+                      ))}
+                    </span>
+                    <span className="mt-1.5 line-clamp-2 block text-xs leading-relaxed text-ink-faint">
+                      {insight.userDoors?.[0]}
+                    </span>
+                  </span>
+                ))}
+              </span>
             </Link>
           ))}
         </div>
