@@ -8,12 +8,12 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 
 ## Summary
 
-- collectedAt: 2026-06-22T05:42:37.480Z
-- nodes scanned: 44
-- candidate phrases: 790
-- usable: 732
-- review: 43
-- low-signal: 15
+- collectedAt: 2026-06-22T06:02:50.584Z
+- nodes scanned: 59
+- candidate phrases: 996
+- usable: 923
+- review: 53
+- low-signal: 20
 
 ## Potential New Cluster Hints
 
@@ -1374,4 +1374,424 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 - castigo físico escolar pros y contras
 - disciplina escolar sin violencia
 - es efectivo el castigo corporal
+
+## /love/cant-read-them
+
+- axis: worry
+- base queries: no sé qué siente por mí, señales mixtas en el amor, cómo saber si le gusto, no entiendo sus sentimientos
+- google suggestions: 10
+- usable candidates: 13
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- no sé qué siente por mí
+- señales mixtas en el amor
+- cómo saber si le gusto
+- no entiendo sus sentimientos
+- cómo saber si le gusto a alguien
+- cómo saber si le gusto a una chica
+- cómo saber si le gustas a una mujer
+- cómo saber si le gusto a mi amiga
+- cómo saber si le gustas a un hombre
+- cómo saber si le gusto a mi mejor amigo
+- cómo saber si le gustas a una mujer casada
+- cómo saber si le gusto a mi crush
+- como saber si le gustas a un niño
+
+## /love/relationship-boredom
+
+- axis: worry
+- base queries: crisis de pareja aburrimiento, ya no siento lo mismo por mi pareja, rutina en la relación, cómo superar una crisis de pareja
+- google suggestions: 18
+- usable candidates: 19
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- crisis de pareja aburrimiento
+- ya no siento lo mismo por mi pareja
+- rutina en la relación
+- cómo superar una crisis de pareja
+- ya no siento lo mismo por mi pareja que hago
+- porque ya no siento lo mismo por mi pareja
+- creo que ya no siento lo mismo por mi pareja
+- ya no siento el mismo amor por mi pareja
+- ya no siento el mismo interes por mi pareja
+- ya no siento lo mismo con mi pareja
+- porque ya no siento el mismo amor por mi pareja
+- como saber si no siento lo mismo por mi pareja
+- que pasa si no siento lo mismo por mi pareja
+- rutina en la relacion de pareja
+- como superar una crisis de pareja con hijos
+- como superar una crisis de pareja por infidelidad
+- como superar una crisis de pareja a distancia
+- como superar una crisis economica en pareja
+- como superar la primera crisis de pareja
+
+## /breakup/right-after
+
+- axis: worry
+- base queries: acabo de terminar y estoy mal, cómo superar una ruptura reciente, después de una ruptura no puedo parar de llorar, primeros días después de una ruptura
+- google suggestions: 2
+- usable candidates: 6
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- acabo de terminar y estoy mal
+- cómo superar una ruptura reciente
+- después de una ruptura no puedo parar de llorar
+- primeros días después de una ruptura
+- como superar una ruptura reciente
+- primeros dias despues de una ruptura
+
+## /breakup/obsession
+
+- axis: worry
+- base queries: obsesión por mi ex, cómo dejar de obsesionarme con alguien, no puedo soltar a mi ex, impulso de escribirle a mi ex
+- google suggestions: 12
+- usable candidates: 14
+- review candidates: 0
+- low-signal candidates: 1
+
+### Usable candidates
+
+- obsesión por mi ex
+- cómo dejar de obsesionarme con alguien
+- no puedo soltar a mi ex
+- impulso de escribirle a mi ex
+- obsesion por mi ex
+- tengo obsesion por mi ex
+- obsesion sexual por mi ex
+- como quitar la obsesion por mi ex
+- como superar una obsesión por mi ex
+- obsesion por la ex de mi pareja
+- como dejar de obsesionarse con alguien
+- porque no puedo soltar a mi ex
+- no logro soltar a mi ex
+- no quiero soltar a mi ex
+
+### Low-signal candidates
+
+- mi obsesión por helena final explicado
+
+## /breakup/reunion
+
+- axis: worry
+- base queries: volver con mi ex o no, debería volver con mi ex, miedo a repetir lo mismo con mi ex, reconciliación con ex
+- google suggestions: 26
+- usable candidates: 26
+- review candidates: 1
+- low-signal candidates: 1
+
+### Usable candidates
+
+- volver con mi ex o no
+- debería volver con mi ex
+- miedo a repetir lo mismo con mi ex
+- reconciliación con ex
+- volver con mi ex novia
+- quiero volver con mi ex novia
+- carta para volver con mi ex novia
+- como puedo volver con mi ex novia
+- mensaje para volver con mi ex novia
+- testamento para volver con mi ex novia
+- porque al.volver con mi ex novia es mas.caliente
+- texto para volver con mi ex novia
+- porque deberia volver con mi ex
+- deberia volver a hablar con mi ex
+- como saber si deberia volver con mi ex
+- deberia volver con mi ex si ya estuvo con otro
+- reconciliacion con ex
+- reconciliación con mi ex
+- reconciliación expiación propiciación rescate redención y ser declarados justos
+- reconciliacion externa sap business one
+- reconciliación experiencias en colombia y el mundo
+- reconciliación explicacion para niños
+- reconciliación examen de conciencia
+- reconciliación existe
+
+### Review candidates
+
+- frases para volver con mi ex novia
+
+### Low-signal candidates
+
+- debería volver con mi ex test
+
+## /breakup/ex-contact
+
+- axis: worry
+- base queries: mi ex me escribió qué hago, contacto de mi ex me desestabiliza, ex vuelve a escribir, qué hacer si mi ex me busca
+- google suggestions: 18
+- usable candidates: 21
+- review candidates: 1
+- low-signal candidates: 0
+
+### Usable candidates
+
+- mi ex me escribió qué hago
+- contacto de mi ex me desestabiliza
+- ex vuelve a escribir
+- qué hacer si mi ex me busca
+- mi ex me escribió que hago
+- mi ex me desestabiliza
+- mi ex vuelve a escribirme
+- porque un ex vuelve a escribir
+- cuando tu ex te vuelve a escribir
+- si tu ex te vuelve a escribir que significa
+- si tu ex te vuelve a escribir
+- si tu ex te vuelve a escribir solo dile (vv)
+- que significa soñar que tu ex vuelve a escribirte
+- que hacer si mi ex me busca
+- que hacer si mi ex me busca en el contacto cero
+- que hacer si mi ex me busca pero tiene novia
+- que hacer si mi ex me sigue buscando
+- que hacer si mi ex me vuelve a buscar
+- que pasa si mi ex me busca
+- que significa si mi ex me busca
+- que pasa si mi ex me busca en mercurio retrogrado
+
+### Review candidates
+
+- frases cuando tu ex te vuelve a escribir
+
+## /self-esteem/self-hate
+
+- axis: worry
+- base queries: me odio a mí mismo, no puedo quererme, me culpo por todo, cómo dejar de odiarme
+- google suggestions: 21
+- usable candidates: 20
+- review candidates: 2
+- low-signal candidates: 1
+
+### Usable candidates
+
+- me odio a mí mismo
+- no puedo quererme
+- me culpo por todo
+- cómo dejar de odiarme
+- me odio a mi mismo en ingles
+- me odio a mi mismo meme
+- me odio a mi mismo pelicula
+- me odio a mí mismo carta
+- me odio a mi mismo por amarte
+- me odio a mi mismo subaru
+- porque no puedo quererme a mí misma
+- no puedo obligarte a quererme
+- no puedo obligar a quererme
+- no puedo obligarte a quererme laberinto
+- no puedo castigarte por no quererme
+- no puedo culparte por no quererme
+- porque me culpo por todo
+- como dejar de odiarme
+- como dejar de odiarme a mi mismo
+- como hago para dejar de odiarme
+
+### Review candidates
+
+- me odio a mi mismo frases
+- me odio a mi mismo reddit
+
+### Low-signal candidates
+
+- me odio a mí mismo test
+
+## /self-esteem/cant-accept-praise
+
+- axis: worry
+- base queries: no sé aceptar cumplidos, no creo cuando me felicitan, me incomodan los cumplidos, por qué no acepto elogios
+- google suggestions: 1
+- usable candidates: 4
+- review candidates: 1
+- low-signal candidates: 0
+
+### Usable candidates
+
+- no sé aceptar cumplidos
+- me incomodan los cumplidos
+- por qué no acepto elogios
+- porque me incomodan los cumplidos
+
+### Review candidates
+
+- no creo cuando me felicitan
+
+## /self-esteem/falling-behind
+
+- axis: worry
+- base queries: siento que me estoy quedando atrás, compararme con gente de mi edad, todos avanzan menos yo, ansiedad por ir tarde en la vida
+- google suggestions: 4
+- usable candidates: 7
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- siento que me estoy quedando atrás
+- compararme con gente de mi edad
+- todos avanzan menos yo
+- ansiedad por ir tarde en la vida
+- siento que me estoy quedando atras
+- porque todos avanzan menos yo
+- siento que todos avanzan menos yo
+
+## /self-esteem/dating-self-esteem
+
+- axis: worry
+- base queries: baja autoestima en una relación, siento que no merezco amor, mi pareja afecta mi autoestima, inseguridad en el amor
+- google suggestions: 15
+- usable candidates: 14
+- review candidates: 2
+- low-signal candidates: 1
+
+### Usable candidates
+
+- baja autoestima en una relación
+- siento que no merezco amor
+- mi pareja afecta mi autoestima
+- inseguridad en el amor
+- baja autoestima en una relacion
+- personas con baja autoestima en una relacion
+- porque siento que no merezco amor
+- siento que no merezco el amor de dios
+- poemas de inseguridad en el amor
+- imagenes de inseguridad en el amor
+- memes de inseguridad en el amor
+- reflexion de inseguridad en el amor
+- cartas de inseguridad en el amor
+- como superar la inseguridad en el amor
+
+### Review candidates
+
+- inseguridad en el amor frases
+- inseguridad en el amor libro
+
+### Low-signal candidates
+
+- canción de inseguridad en el amor
+
+## /relationships/hurtful-words
+
+- axis: worry
+- base queries: no puedo olvidar palabras hirientes, me duele lo que me dijo, cómo superar palabras que duelen, sigo pensando en una frase hiriente
+- google suggestions: 0
+- usable candidates: 3
+- review candidates: 1
+- low-signal candidates: 0
+
+### Usable candidates
+
+- no puedo olvidar palabras hirientes
+- me duele lo que me dijo
+- cómo superar palabras que duelen
+
+### Review candidates
+
+- sigo pensando en una frase hiriente
+
+## /relationships/people-pleasing
+
+- axis: worry
+- base queries: dejar de complacer a los demás, miedo a caer mal, no sé decir que no, personalidad complaciente
+- google suggestions: 21
+- usable candidates: 19
+- review candidates: 2
+- low-signal candidates: 1
+
+### Usable candidates
+
+- dejar de complacer a los demás
+- miedo a caer mal
+- no sé decir que no
+- personalidad complaciente
+- dejar de complacer a los demas
+- yo no sé decir que no
+- yo no sé decir que no beele
+- no sé decir no puedo
+- por qué no sé decir que no
+- joss favela yo no sé decir que no
+- yo no sé decir no puedo
+- yo no sé decir no puedo los tucanes de tijuana
+- siempre tuve un defecto nose decir que no
+- personalidad complaciente psicologia
+- personalidad complaciente karen horney
+- personalidad complaciente ejemplos
+- personalidad hiper complaciente
+- la personalidad complaciente para horney es hostil ruda y dominante
+- trastorno de personalidad complaciente
+
+### Review candidates
+
+- frases dejar de complacer a los demas
+- como dejar de complacer a los demas libro
+
+### Low-signal candidates
+
+- yo no sé decir que no letra
+
+## /relationships/relationship-burnout
+
+- axis: worry
+- base queries: cansancio de las relaciones, estoy agotado de la gente, no quiero socializar, las amistades me consumen
+- google suggestions: 10
+- usable candidates: 13
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- cansancio de las relaciones
+- estoy agotado de la gente
+- no quiero socializar
+- las amistades me consumen
+- cansancio despues de las relaciones sexuales
+- cansancio relaciones sexuales
+- no quiero socializar con nadie
+- porque no quiero socializar
+- porque no quiero socializar con nadie
+- cuando no quiero socializar
+- meme no quiero socializar
+- que pasa si no quiero socializar
+- porque a veces no quiero socializar
+
+## /relationships/regret-words
+
+- axis: worry
+- base queries: me arrepiento de lo que dije, dije algo mal y me preocupa, ansiedad por haber dicho algo, cómo arreglar una metida de pata
+- google suggestions: 4
+- usable candidates: 7
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- me arrepiento de lo que dije
+- dije algo mal y me preocupa
+- ansiedad por haber dicho algo
+- cómo arreglar una metida de pata
+- no me arrepiento de lo que dije en ingles
+- me arrepiento cuando dije que te odiaba para siempre
+- dije algo de lo que me arrepiento
+
+## /work/quit-or-stay
+
+- axis: worry
+- base queries: dejar el trabajo o aguantar, renunciar o seguir, quiero dejar mi trabajo pero tengo miedo, debería cambiar de trabajo
+- google suggestions: 3
+- usable candidates: 5
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- dejar el trabajo o aguantar
+- renunciar o seguir
+- quiero dejar mi trabajo pero tengo miedo
+- debería cambiar de trabajo
+- deberia cambiar de trabajo
 

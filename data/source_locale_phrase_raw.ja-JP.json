@@ -1,14 +1,14 @@
 {
-  "collectedAt": "2026-06-22T03:44:29.417Z",
+  "collectedAt": "2026-06-22T06:00:17.093Z",
   "locale": "ja-JP",
   "sourceStatus": "active-source",
-  "nodesScanned": 44,
-  "totalCandidatePhrases": 850,
-  "totalUsableCandidatePhrases": 704,
-  "totalReviewCandidatePhrases": 108,
-  "totalLowSignalCandidatePhrases": 38,
+  "nodesScanned": 59,
+  "totalCandidatePhrases": 1066,
+  "totalUsableCandidatePhrases": 897,
+  "totalReviewCandidatePhrases": 122,
+  "totalLowSignalCandidatePhrases": 47,
   "clusterHints": {
-    "meaning/ikigai": 7,
+    "meaning/ikigai": 6,
     "study/school-refusal": 1
   },
   "rows": [
@@ -43,6 +43,7 @@
         "人生 どう生きるべきか",
         "われわれはいかに働き どう生きるべきか",
         "50代 どう生きるべきか",
+        "生きがいとは",
         "生き甲斐とは",
         "生きがいとは 例",
         "生きがいとは何か",
@@ -51,7 +52,6 @@
         "生き甲斐とは何か",
         "生きがいとはなにか",
         "生きがいとは 本",
-        "生きがいとは何",
         "生甲斐とは"
       ],
       "candidatePhrases": [
@@ -78,7 +78,6 @@
         "生き甲斐とは何か",
         "生きがいとはなにか",
         "生きがいとは 本",
-        "生きがいとは何",
         "生甲斐とは"
       ],
       "candidateReview": [
@@ -279,16 +278,6 @@
           ]
         },
         {
-          "phrase": "生きがいとは何",
-          "status": "review",
-          "reasons": [
-            "reference or concept query"
-          ],
-          "clusterHints": [
-            "meaning/ikigai"
-          ]
-        },
-        {
           "phrase": "生甲斐とは",
           "status": "review",
           "reasons": [
@@ -321,7 +310,6 @@
         "生き甲斐とは何か",
         "生きがいとはなにか",
         "生きがいとは 本",
-        "生きがいとは何",
         "生甲斐とは"
       ],
       "lowSignalCandidatePhrases": [
@@ -329,7 +317,7 @@
         "どう生きるべきか 英語"
       ],
       "clusterHints": {
-        "meaning/ikigai": 7
+        "meaning/ikigai": 6
       },
       "errors": []
     },
@@ -10720,6 +10708,2831 @@
       ],
       "reviewCandidatePhrases": [],
       "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "route": "/love/cant-read-them",
+      "slot": "love/cant-read-them",
+      "axis": "worry",
+      "sourceQueries": [
+        "相手の気持ちがわからない",
+        "好きな人 気持ち わからない",
+        "脈あり わからない",
+        "相手の本音 知りたい"
+      ],
+      "baseQueries": [
+        "相手の気持ちがわからない",
+        "好きな人 気持ち わからない",
+        "脈あり わからない",
+        "相手の本音 知りたい"
+      ],
+      "googleSuggestions": [
+        "相手の気持ちがわからない",
+        "相手の気持ちがわからない人",
+        "相手の気持ちがわからない 障害",
+        "相手の気持ちがわからない 恋愛",
+        "相手の気持ちがわからない 病気",
+        "相手の気持ちがわからない 曲",
+        "相手の気持ちが分からない",
+        "相手の気持ちがわからない 発達障害",
+        "相手の気持ちがわからない 恋愛ソング",
+        "相手の気持ちがわからない 子供",
+        "好きな人 気持ち わからない",
+        "脈あり わからない",
+        "脈あり 分からない",
+        "脈あり わからない 女",
+        "脈あり わからない 男",
+        "脈あり なし わからない",
+        "脈あり か わからない 知恵袋",
+        "脈あり 脈なし 分からない",
+        "脈なし 脈あり わからない",
+        "line 脈あり わからない"
+      ],
+      "candidatePhrases": [
+        "相手の気持ちがわからない",
+        "好きな人 気持ち わからない",
+        "脈あり わからない",
+        "相手の本音 知りたい",
+        "相手の気持ちがわからない人",
+        "相手の気持ちがわからない 障害",
+        "相手の気持ちがわからない 恋愛",
+        "相手の気持ちがわからない 病気",
+        "相手の気持ちがわからない 曲",
+        "相手の気持ちが分からない",
+        "相手の気持ちがわからない 発達障害",
+        "相手の気持ちがわからない 恋愛ソング",
+        "相手の気持ちがわからない 子供",
+        "脈あり 分からない",
+        "脈あり わからない 女",
+        "脈あり わからない 男",
+        "脈あり なし わからない",
+        "脈あり か わからない 知恵袋",
+        "脈あり 脈なし 分からない",
+        "脈なし 脈あり わからない",
+        "line 脈あり わからない"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "相手の気持ちがわからない",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "好きな人 気持ち わからない",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "脈あり わからない",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "相手の本音 知りたい",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "相手の気持ちがわからない人",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "相手の気持ちがわからない 障害",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "相手の気持ちがわからない 恋愛",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "相手の気持ちがわからない 病気",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "相手の気持ちがわからない 曲",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "相手の気持ちが分からない",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "相手の気持ちがわからない 発達障害",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "相手の気持ちがわからない 恋愛ソング",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "相手の気持ちがわからない 子供",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "脈あり 分からない",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "脈あり わからない 女",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "脈あり わからない 男",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "脈あり なし わからない",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "脈あり か わからない 知恵袋",
+          "status": "review",
+          "reasons": [
+            "platform-specific query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "脈あり 脈なし 分からない",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "脈なし 脈あり わからない",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "line 脈あり わからない",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "相手の気持ちがわからない",
+        "好きな人 気持ち わからない",
+        "脈あり わからない",
+        "相手の気持ちがわからない人",
+        "相手の気持ちがわからない 障害",
+        "相手の気持ちがわからない 恋愛",
+        "相手の気持ちがわからない 病気",
+        "相手の気持ちがわからない 曲",
+        "相手の気持ちが分からない",
+        "相手の気持ちがわからない 発達障害",
+        "相手の気持ちがわからない 恋愛ソング",
+        "相手の気持ちがわからない 子供",
+        "脈あり 分からない",
+        "脈あり わからない 女",
+        "脈あり わからない 男",
+        "脈あり なし わからない",
+        "脈あり 脈なし 分からない",
+        "脈なし 脈あり わからない",
+        "line 脈あり わからない"
+      ],
+      "reviewCandidatePhrases": [
+        "相手の本音 知りたい",
+        "脈あり か わからない 知恵袋"
+      ],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "route": "/love/relationship-boredom",
+      "slot": "love/relationship-boredom",
+      "axis": "worry",
+      "sourceQueries": [
+        "倦怠期 乗り越え方",
+        "恋愛 冷めたかも",
+        "彼氏 ときめかない",
+        "関係 マンネリ"
+      ],
+      "baseQueries": [
+        "倦怠期 乗り越え方",
+        "恋愛 冷めたかも",
+        "彼氏 ときめかない",
+        "関係 マンネリ"
+      ],
+      "googleSuggestions": [
+        "倦怠期 乗り越え方",
+        "倦怠期 乗り越え方 彼氏",
+        "倦怠期 乗り越え方 彼氏だけ",
+        "倦怠期 乗り越え方 夫婦",
+        "倦怠期 乗り越え方 中学生",
+        "倦怠期 乗り越え方 同棲",
+        "倦怠期 乗り越え方 彼女だけ",
+        "倦怠期 乗り越え方 自分だけ",
+        "倦怠期 乗り越え方 遠距離",
+        "倦怠期 乗り越え方 高校生",
+        "恋愛 冷めたかも",
+        "彼氏 ときめかない",
+        "彼氏 ときめかない 最初から",
+        "彼氏 ときめかない 結婚",
+        "彼氏 ときめかないけど好き",
+        "彼氏 ときめかない 落ち着く",
+        "彼氏 いい人 ときめかない",
+        "落ち着くけど ときめかない 彼氏",
+        "人間 関係 マンネリ化",
+        "人間 関係 マンネリ",
+        "友人 関係 マンネリ化",
+        "関係 が マンネリ化",
+        "マンネリ の 関係",
+        "マンネリ化 した 関係"
+      ],
+      "candidatePhrases": [
+        "倦怠期 乗り越え方",
+        "恋愛 冷めたかも",
+        "彼氏 ときめかない",
+        "関係 マンネリ",
+        "倦怠期 乗り越え方 彼氏",
+        "倦怠期 乗り越え方 彼氏だけ",
+        "倦怠期 乗り越え方 夫婦",
+        "倦怠期 乗り越え方 中学生",
+        "倦怠期 乗り越え方 同棲",
+        "倦怠期 乗り越え方 彼女だけ",
+        "倦怠期 乗り越え方 自分だけ",
+        "倦怠期 乗り越え方 遠距離",
+        "倦怠期 乗り越え方 高校生",
+        "彼氏 ときめかない 最初から",
+        "彼氏 ときめかない 結婚",
+        "彼氏 ときめかないけど好き",
+        "彼氏 ときめかない 落ち着く",
+        "彼氏 いい人 ときめかない",
+        "落ち着くけど ときめかない 彼氏",
+        "人間 関係 マンネリ化",
+        "人間 関係 マンネリ",
+        "友人 関係 マンネリ化",
+        "関係 が マンネリ化",
+        "マンネリ の 関係",
+        "マンネリ化 した 関係"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "倦怠期 乗り越え方",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "恋愛 冷めたかも",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "彼氏 ときめかない",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "関係 マンネリ",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "倦怠期 乗り越え方 彼氏",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "倦怠期 乗り越え方 彼氏だけ",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "倦怠期 乗り越え方 夫婦",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "倦怠期 乗り越え方 中学生",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "倦怠期 乗り越え方 同棲",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "倦怠期 乗り越え方 彼女だけ",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "倦怠期 乗り越え方 自分だけ",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "倦怠期 乗り越え方 遠距離",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "倦怠期 乗り越え方 高校生",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "彼氏 ときめかない 最初から",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "彼氏 ときめかない 結婚",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "彼氏 ときめかないけど好き",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "彼氏 ときめかない 落ち着く",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "彼氏 いい人 ときめかない",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "落ち着くけど ときめかない 彼氏",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人間 関係 マンネリ化",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人間 関係 マンネリ",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "友人 関係 マンネリ化",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "関係 が マンネリ化",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "マンネリ の 関係",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "マンネリ化 した 関係",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "倦怠期 乗り越え方",
+        "恋愛 冷めたかも",
+        "彼氏 ときめかない",
+        "関係 マンネリ",
+        "倦怠期 乗り越え方 彼氏",
+        "倦怠期 乗り越え方 彼氏だけ",
+        "倦怠期 乗り越え方 夫婦",
+        "倦怠期 乗り越え方 中学生",
+        "倦怠期 乗り越え方 同棲",
+        "倦怠期 乗り越え方 彼女だけ",
+        "倦怠期 乗り越え方 自分だけ",
+        "倦怠期 乗り越え方 遠距離",
+        "倦怠期 乗り越え方 高校生",
+        "彼氏 ときめかない 最初から",
+        "彼氏 ときめかない 結婚",
+        "彼氏 ときめかないけど好き",
+        "彼氏 ときめかない 落ち着く",
+        "彼氏 いい人 ときめかない",
+        "落ち着くけど ときめかない 彼氏",
+        "人間 関係 マンネリ化",
+        "人間 関係 マンネリ",
+        "友人 関係 マンネリ化",
+        "関係 が マンネリ化",
+        "マンネリ の 関係",
+        "マンネリ化 した 関係"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "route": "/breakup/right-after",
+      "slot": "breakup/right-after",
+      "axis": "worry",
+      "sourceQueries": [
+        "別れた直後 つらい",
+        "失恋 直後 立ち直れない",
+        "別れた後 寂しい",
+        "失恋 何もできない"
+      ],
+      "baseQueries": [
+        "別れた直後 つらい",
+        "失恋 直後 立ち直れない",
+        "別れた後 寂しい",
+        "失恋 何もできない"
+      ],
+      "googleSuggestions": [
+        "別れた直後 辛い",
+        "別れた後 寂しい",
+        "別れた後 寂しい 男",
+        "別れた後 寂しい ライン",
+        "別れた後 夜 寂しい",
+        "同棲 別れた後 寂しい",
+        "デート 別れた後 寂しい",
+        "彼氏 別れた後 寂しい",
+        "失恋 何もできない"
+      ],
+      "candidatePhrases": [
+        "別れた直後 つらい",
+        "失恋 直後 立ち直れない",
+        "別れた後 寂しい",
+        "失恋 何もできない",
+        "別れた直後 辛い",
+        "別れた後 寂しい 男",
+        "別れた後 寂しい ライン",
+        "別れた後 夜 寂しい",
+        "同棲 別れた後 寂しい",
+        "デート 別れた後 寂しい",
+        "彼氏 別れた後 寂しい"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "別れた直後 つらい",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "失恋 直後 立ち直れない",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "別れた後 寂しい",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "失恋 何もできない",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "別れた直後 辛い",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "別れた後 寂しい 男",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "別れた後 寂しい ライン",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "別れた後 夜 寂しい",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "同棲 別れた後 寂しい",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "デート 別れた後 寂しい",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "彼氏 別れた後 寂しい",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "別れた直後 つらい",
+        "失恋 直後 立ち直れない",
+        "別れた後 寂しい",
+        "失恋 何もできない",
+        "別れた直後 辛い",
+        "別れた後 寂しい 男",
+        "別れた後 寂しい ライン",
+        "別れた後 夜 寂しい",
+        "同棲 別れた後 寂しい",
+        "デート 別れた後 寂しい",
+        "彼氏 別れた後 寂しい"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "route": "/breakup/obsession",
+      "slot": "breakup/obsession",
+      "axis": "worry",
+      "sourceQueries": [
+        "元恋人 執着 やめたい",
+        "好きな人 執着 つらい",
+        "執着を手放す 恋愛",
+        "連絡したい 衝動"
+      ],
+      "baseQueries": [
+        "元恋人 執着 やめたい",
+        "好きな人 執着 つらい",
+        "執着を手放す 恋愛",
+        "連絡したい 衝動"
+      ],
+      "googleSuggestions": [
+        "執着を手放す 恋愛",
+        "執着を手放す 恋愛 男",
+        "執着を手放す 恋愛 スピリチュアル",
+        "執着を手放す 恋愛 本",
+        "執着を手放す 恋愛 片思い"
+      ],
+      "candidatePhrases": [
+        "元恋人 執着 やめたい",
+        "好きな人 執着 つらい",
+        "執着を手放す 恋愛",
+        "連絡したい 衝動",
+        "執着を手放す 恋愛 男",
+        "執着を手放す 恋愛 スピリチュアル",
+        "執着を手放す 恋愛 本",
+        "執着を手放す 恋愛 片思い"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "元恋人 執着 やめたい",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "好きな人 執着 つらい",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "執着を手放す 恋愛",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "連絡したい 衝動",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "執着を手放す 恋愛 男",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "執着を手放す 恋愛 スピリチュアル",
+          "status": "low-signal",
+          "reasons": [
+            "fortune-telling / diagnosis drift"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "執着を手放す 恋愛 本",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "執着を手放す 恋愛 片思い",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "元恋人 執着 やめたい",
+        "好きな人 執着 つらい",
+        "執着を手放す 恋愛",
+        "連絡したい 衝動",
+        "執着を手放す 恋愛 男",
+        "執着を手放す 恋愛 片思い"
+      ],
+      "reviewCandidatePhrases": [
+        "執着を手放す 恋愛 本"
+      ],
+      "lowSignalCandidatePhrases": [
+        "執着を手放す 恋愛 スピリチュアル"
+      ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "route": "/breakup/reunion",
+      "slot": "breakup/reunion",
+      "axis": "worry",
+      "sourceQueries": [
+        "復縁 すべきか",
+        "元恋人 戻るべきか",
+        "復縁 迷う",
+        "別れた理由 変わらない"
+      ],
+      "baseQueries": [
+        "復縁 すべきか",
+        "元恋人 戻るべきか",
+        "復縁 迷う",
+        "別れた理由 変わらない"
+      ],
+      "googleSuggestions": [
+        "復縁 すべきか",
+        "復縁 すべきか 占い",
+        "復縁 迷う",
+        "復縁 迷う 知恵袋",
+        "復縁 迷う理由",
+        "復縁 迷う 女",
+        "復縁 迷う 男",
+        "復縁 迷う 占い",
+        "元 彼 復縁 迷う",
+        "元 旦那 復縁 迷う",
+        "好き だけど 復縁 迷う",
+        "元カノ 復縁 迷う"
+      ],
+      "candidatePhrases": [
+        "復縁 すべきか",
+        "元恋人 戻るべきか",
+        "復縁 迷う",
+        "別れた理由 変わらない",
+        "復縁 すべきか 占い",
+        "復縁 迷う 知恵袋",
+        "復縁 迷う理由",
+        "復縁 迷う 女",
+        "復縁 迷う 男",
+        "復縁 迷う 占い",
+        "元 彼 復縁 迷う",
+        "元 旦那 復縁 迷う",
+        "好き だけど 復縁 迷う",
+        "元カノ 復縁 迷う"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "復縁 すべきか",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "元恋人 戻るべきか",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "復縁 迷う",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "別れた理由 変わらない",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "復縁 すべきか 占い",
+          "status": "low-signal",
+          "reasons": [
+            "fortune-telling / diagnosis drift"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "復縁 迷う 知恵袋",
+          "status": "review",
+          "reasons": [
+            "platform-specific query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "復縁 迷う理由",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "復縁 迷う 女",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "復縁 迷う 男",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "復縁 迷う 占い",
+          "status": "low-signal",
+          "reasons": [
+            "fortune-telling / diagnosis drift"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "元 彼 復縁 迷う",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "元 旦那 復縁 迷う",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "好き だけど 復縁 迷う",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "元カノ 復縁 迷う",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "復縁 すべきか",
+        "元恋人 戻るべきか",
+        "復縁 迷う",
+        "別れた理由 変わらない",
+        "復縁 迷う理由",
+        "復縁 迷う 女",
+        "復縁 迷う 男",
+        "元 彼 復縁 迷う",
+        "元 旦那 復縁 迷う",
+        "好き だけど 復縁 迷う",
+        "元カノ 復縁 迷う"
+      ],
+      "reviewCandidatePhrases": [
+        "復縁 迷う 知恵袋"
+      ],
+      "lowSignalCandidatePhrases": [
+        "復縁 すべきか 占い",
+        "復縁 迷う 占い"
+      ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "route": "/breakup/ex-contact",
+      "slot": "breakup/ex-contact",
+      "axis": "worry",
+      "sourceQueries": [
+        "元恋人から連絡 揺れる",
+        "元彼 連絡きた どうする",
+        "元カノ 連絡きた",
+        "別れた相手 連絡 心が揺れる"
+      ],
+      "baseQueries": [
+        "元恋人から連絡 揺れる",
+        "元彼 連絡きた どうする",
+        "元カノ 連絡きた",
+        "別れた相手 連絡 心が揺れる"
+      ],
+      "googleSuggestions": [
+        "元彼 連絡きた どうする",
+        "元カノ 連絡きた",
+        "元カノ 連絡きた 心理",
+        "元カノ 連絡きた 対応",
+        "元カノ 連絡きた 無視",
+        "元カノ 連絡来た",
+        "元カノ 連絡きた 返信",
+        "元カノ 連絡きた 知恵袋",
+        "元カノ 連絡きた 今カノ",
+        "元カノ 連絡きた 復縁",
+        "元カノ 連絡きたら"
+      ],
+      "candidatePhrases": [
+        "元恋人から連絡 揺れる",
+        "元彼 連絡きた どうする",
+        "元カノ 連絡きた",
+        "別れた相手 連絡 心が揺れる",
+        "元カノ 連絡きた 心理",
+        "元カノ 連絡きた 対応",
+        "元カノ 連絡きた 無視",
+        "元カノ 連絡来た",
+        "元カノ 連絡きた 返信",
+        "元カノ 連絡きた 知恵袋",
+        "元カノ 連絡きた 今カノ",
+        "元カノ 連絡きた 復縁",
+        "元カノ 連絡きたら"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "元恋人から連絡 揺れる",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "元彼 連絡きた どうする",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "元カノ 連絡きた",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "別れた相手 連絡 心が揺れる",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "元カノ 連絡きた 心理",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "元カノ 連絡きた 対応",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "元カノ 連絡きた 無視",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "元カノ 連絡来た",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "元カノ 連絡きた 返信",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "元カノ 連絡きた 知恵袋",
+          "status": "review",
+          "reasons": [
+            "platform-specific query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "元カノ 連絡きた 今カノ",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "元カノ 連絡きた 復縁",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "元カノ 連絡きたら",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "元恋人から連絡 揺れる",
+        "元彼 連絡きた どうする",
+        "元カノ 連絡きた",
+        "別れた相手 連絡 心が揺れる",
+        "元カノ 連絡きた 心理",
+        "元カノ 連絡きた 対応",
+        "元カノ 連絡きた 無視",
+        "元カノ 連絡来た",
+        "元カノ 連絡きた 返信",
+        "元カノ 連絡きた 今カノ",
+        "元カノ 連絡きた 復縁",
+        "元カノ 連絡きたら"
+      ],
+      "reviewCandidatePhrases": [
+        "元カノ 連絡きた 知恵袋"
+      ],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "route": "/self-esteem/self-hate",
+      "slot": "self-esteem/self-hate",
+      "axis": "worry",
+      "sourceQueries": [
+        "自分が嫌い",
+        "自己嫌悪 つらい",
+        "自分を責めてしまう",
+        "自分を好きになれない"
+      ],
+      "baseQueries": [
+        "自分が嫌い",
+        "自己嫌悪 つらい",
+        "自分を責めてしまう",
+        "自分を好きになれない"
+      ],
+      "googleSuggestions": [
+        "自分が嫌い",
+        "自分が嫌いすぎる",
+        "自分が嫌い診断",
+        "自分が嫌いになる",
+        "自分が嫌い 疲れた",
+        "自分が嫌い 曲",
+        "自分が嫌いな人",
+        "自分が嫌いすぎて泣く",
+        "自分が嫌いな人は相手も嫌い",
+        "自分が嫌い hsp",
+        "自己嫌悪 つらい",
+        "自己嫌悪 辛い時",
+        "仕事 自己嫌悪 辛い",
+        "自分を責めてしまう",
+        "自分を責めてしまう人",
+        "自分を責めてしまう 対処法",
+        "自分を責めてしまう癖",
+        "自分を責めてしまう 本",
+        "自分を責めてしまう時",
+        "自分を責めてしまうのはなぜ",
+        "自分を責めてしまう 病気",
+        "自分を責めてしまう 心理",
+        "自分を責めてしまう人にかける言葉",
+        "自分を好きになれない",
+        "自分を好きになれない君へ",
+        "自分を好きになれない人は人を好きになれない",
+        "自分を好きになれない原因",
+        "自分を好きになれない 曲",
+        "自分を好きになれない 人を好きになれない",
+        "自分を好きになれない 病気",
+        "自分を好きになれない 診断",
+        "自分を好きになれない人の特徴",
+        "自分を好きになれない 苦しい"
+      ],
+      "candidatePhrases": [
+        "自分が嫌い",
+        "自己嫌悪 つらい",
+        "自分を責めてしまう",
+        "自分を好きになれない",
+        "自分が嫌いすぎる",
+        "自分が嫌い診断",
+        "自分が嫌いになる",
+        "自分が嫌い 疲れた",
+        "自分が嫌い 曲",
+        "自分が嫌いな人",
+        "自分が嫌いすぎて泣く",
+        "自分が嫌いな人は相手も嫌い",
+        "自分が嫌い hsp",
+        "自己嫌悪 辛い時",
+        "仕事 自己嫌悪 辛い",
+        "自分を責めてしまう人",
+        "自分を責めてしまう 対処法",
+        "自分を責めてしまう癖",
+        "自分を責めてしまう 本",
+        "自分を責めてしまう時",
+        "自分を責めてしまうのはなぜ",
+        "自分を責めてしまう 病気",
+        "自分を責めてしまう 心理",
+        "自分を責めてしまう人にかける言葉",
+        "自分を好きになれない君へ",
+        "自分を好きになれない人は人を好きになれない",
+        "自分を好きになれない原因",
+        "自分を好きになれない 曲",
+        "自分を好きになれない 人を好きになれない",
+        "自分を好きになれない 病気",
+        "自分を好きになれない 診断",
+        "自分を好きになれない人の特徴",
+        "自分を好きになれない 苦しい"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "自分が嫌い",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自己嫌悪 つらい",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自分を責めてしまう",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自分を好きになれない",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自分が嫌いすぎる",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自分が嫌い診断",
+          "status": "low-signal",
+          "reasons": [
+            "fortune-telling / diagnosis drift"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自分が嫌いになる",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自分が嫌い 疲れた",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自分が嫌い 曲",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自分が嫌いな人",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自分が嫌いすぎて泣く",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自分が嫌いな人は相手も嫌い",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自分が嫌い hsp",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自己嫌悪 辛い時",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "仕事 自己嫌悪 辛い",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自分を責めてしまう人",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自分を責めてしまう 対処法",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自分を責めてしまう癖",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自分を責めてしまう 本",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自分を責めてしまう時",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自分を責めてしまうのはなぜ",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自分を責めてしまう 病気",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自分を責めてしまう 心理",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自分を責めてしまう人にかける言葉",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自分を好きになれない君へ",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自分を好きになれない人は人を好きになれない",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自分を好きになれない原因",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自分を好きになれない 曲",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自分を好きになれない 人を好きになれない",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自分を好きになれない 病気",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自分を好きになれない 診断",
+          "status": "low-signal",
+          "reasons": [
+            "fortune-telling / diagnosis drift"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自分を好きになれない人の特徴",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自分を好きになれない 苦しい",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "自分が嫌い",
+        "自己嫌悪 つらい",
+        "自分を責めてしまう",
+        "自分を好きになれない",
+        "自分が嫌いすぎる",
+        "自分が嫌いになる",
+        "自分が嫌い 疲れた",
+        "自分が嫌い 曲",
+        "自分が嫌いな人",
+        "自分が嫌いすぎて泣く",
+        "自分が嫌いな人は相手も嫌い",
+        "自分が嫌い hsp",
+        "自己嫌悪 辛い時",
+        "仕事 自己嫌悪 辛い",
+        "自分を責めてしまう人",
+        "自分を責めてしまう 対処法",
+        "自分を責めてしまう癖",
+        "自分を責めてしまう時",
+        "自分を責めてしまうのはなぜ",
+        "自分を責めてしまう 病気",
+        "自分を責めてしまう 心理",
+        "自分を責めてしまう人にかける言葉",
+        "自分を好きになれない君へ",
+        "自分を好きになれない人は人を好きになれない",
+        "自分を好きになれない原因",
+        "自分を好きになれない 曲",
+        "自分を好きになれない 人を好きになれない",
+        "自分を好きになれない 病気",
+        "自分を好きになれない人の特徴",
+        "自分を好きになれない 苦しい"
+      ],
+      "reviewCandidatePhrases": [
+        "自分を責めてしまう 本"
+      ],
+      "lowSignalCandidatePhrases": [
+        "自分が嫌い診断",
+        "自分を好きになれない 診断"
+      ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "route": "/self-esteem/cant-accept-praise",
+      "slot": "self-esteem/cant-accept-praise",
+      "axis": "worry",
+      "sourceQueries": [
+        "褒められても受け取れない",
+        "褒め言葉 信じられない",
+        "自分に自信がない 褒められる",
+        "褒められると怖い"
+      ],
+      "baseQueries": [
+        "褒められても受け取れない",
+        "褒め言葉 信じられない",
+        "自分に自信がない 褒められる",
+        "褒められると怖い"
+      ],
+      "googleSuggestions": [
+        "褒められても受け取れない",
+        "褒め言葉 信じられない",
+        "褒められると怖い"
+      ],
+      "candidatePhrases": [
+        "褒められても受け取れない",
+        "褒め言葉 信じられない",
+        "自分に自信がない 褒められる",
+        "褒められると怖い"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "褒められても受け取れない",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "褒め言葉 信じられない",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自分に自信がない 褒められる",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "褒められると怖い",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "褒められても受け取れない",
+        "褒め言葉 信じられない",
+        "自分に自信がない 褒められる",
+        "褒められると怖い"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "route": "/self-esteem/falling-behind",
+      "slot": "self-esteem/falling-behind",
+      "axis": "worry",
+      "sourceQueries": [
+        "自分だけ遅れている",
+        "周りと比べて焦る",
+        "人生 遅れている気がする",
+        "同年代 比較 つらい"
+      ],
+      "baseQueries": [
+        "自分だけ遅れている",
+        "周りと比べて焦る",
+        "人生 遅れている気がする",
+        "同年代 比較 つらい"
+      ],
+      "googleSuggestions": [
+        "周りと比べて焦る"
+      ],
+      "candidatePhrases": [
+        "自分だけ遅れている",
+        "周りと比べて焦る",
+        "人生 遅れている気がする",
+        "同年代 比較 つらい"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "自分だけ遅れている",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "周りと比べて焦る",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人生 遅れている気がする",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "同年代 比較 つらい",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "自分だけ遅れている",
+        "周りと比べて焦る",
+        "人生 遅れている気がする",
+        "同年代 比較 つらい"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "route": "/self-esteem/dating-self-esteem",
+      "slot": "self-esteem/dating-self-esteem",
+      "axis": "worry",
+      "sourceQueries": [
+        "恋愛 自己肯定感 低い",
+        "恋人に依存 自信ない",
+        "愛される価値がない 恋愛",
+        "恋愛で自尊心が下がる"
+      ],
+      "baseQueries": [
+        "恋愛 自己肯定感 低い",
+        "恋人に依存 自信ない",
+        "愛される価値がない 恋愛",
+        "恋愛で自尊心が下がる"
+      ],
+      "googleSuggestions": [
+        "恋愛 自己肯定感 低い",
+        "恋愛 だけ 自己肯定感 低い",
+        "自己肯定感 低い 恋愛 できない",
+        "自己肯定感 低い 恋愛 男",
+        "自己肯定感 低い人 恋愛",
+        "自己肯定感 低い男 恋愛",
+        "自己肯定感 低い女 恋愛",
+        "自己肯定感 低い プライド 高い 恋愛",
+        "自己肯定感 低い 恋愛 怖い",
+        "自己肯定感 低い同士 恋愛"
+      ],
+      "candidatePhrases": [
+        "恋愛 自己肯定感 低い",
+        "恋人に依存 自信ない",
+        "愛される価値がない 恋愛",
+        "恋愛で自尊心が下がる",
+        "恋愛 だけ 自己肯定感 低い",
+        "自己肯定感 低い 恋愛 できない",
+        "自己肯定感 低い 恋愛 男",
+        "自己肯定感 低い人 恋愛",
+        "自己肯定感 低い男 恋愛",
+        "自己肯定感 低い女 恋愛",
+        "自己肯定感 低い プライド 高い 恋愛",
+        "自己肯定感 低い 恋愛 怖い",
+        "自己肯定感 低い同士 恋愛"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "恋愛 自己肯定感 低い",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "恋人に依存 自信ない",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "愛される価値がない 恋愛",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "恋愛で自尊心が下がる",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "恋愛 だけ 自己肯定感 低い",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自己肯定感 低い 恋愛 できない",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自己肯定感 低い 恋愛 男",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自己肯定感 低い人 恋愛",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自己肯定感 低い男 恋愛",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自己肯定感 低い女 恋愛",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自己肯定感 低い プライド 高い 恋愛",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自己肯定感 低い 恋愛 怖い",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自己肯定感 低い同士 恋愛",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "恋愛 自己肯定感 低い",
+        "恋人に依存 自信ない",
+        "愛される価値がない 恋愛",
+        "恋愛で自尊心が下がる",
+        "恋愛 だけ 自己肯定感 低い",
+        "自己肯定感 低い 恋愛 できない",
+        "自己肯定感 低い 恋愛 男",
+        "自己肯定感 低い人 恋愛",
+        "自己肯定感 低い男 恋愛",
+        "自己肯定感 低い女 恋愛",
+        "自己肯定感 低い プライド 高い 恋愛",
+        "自己肯定感 低い 恋愛 怖い",
+        "自己肯定感 低い同士 恋愛"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "route": "/relationships/hurtful-words",
+      "slot": "relationships/hurtful-words",
+      "axis": "worry",
+      "sourceQueries": [
+        "傷つく言葉 忘れられない",
+        "言われたこと 思い出してつらい",
+        "ひどい言葉 引きずる",
+        "言葉の傷 癒えない"
+      ],
+      "baseQueries": [
+        "傷つく言葉 忘れられない",
+        "言われたこと 思い出してつらい",
+        "ひどい言葉 引きずる",
+        "言葉の傷 癒えない"
+      ],
+      "googleSuggestions": [
+        "傷つく言葉 忘れられない"
+      ],
+      "candidatePhrases": [
+        "傷つく言葉 忘れられない",
+        "言われたこと 思い出してつらい",
+        "ひどい言葉 引きずる",
+        "言葉の傷 癒えない"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "傷つく言葉 忘れられない",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "言われたこと 思い出してつらい",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ひどい言葉 引きずる",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "言葉の傷 癒えない",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "傷つく言葉 忘れられない",
+        "言われたこと 思い出してつらい",
+        "ひどい言葉 引きずる",
+        "言葉の傷 癒えない"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "route": "/relationships/people-pleasing",
+      "slot": "relationships/people-pleasing",
+      "axis": "worry",
+      "sourceQueries": [
+        "人の顔色をうかがう やめたい",
+        "嫌われるのが怖くて断れない",
+        "いい人をやめたい",
+        "人に合わせすぎる"
+      ],
+      "baseQueries": [
+        "人の顔色をうかがう やめたい",
+        "嫌われるのが怖くて断れない",
+        "いい人をやめたい",
+        "人に合わせすぎる"
+      ],
+      "googleSuggestions": [
+        "人の顔色を伺う やめたい 本",
+        "人の顔色を伺う やめたい",
+        "人の顔色を伺う やめたい 知恵袋",
+        "いい人をやめたい",
+        "人に合わせすぎる",
+        "人に合わせすぎる 言い換え",
+        "人に合わせすぎる人",
+        "人に合わせすぎる性格",
+        "人に合わせすぎる 病気"
+      ],
+      "candidatePhrases": [
+        "人の顔色をうかがう やめたい",
+        "嫌われるのが怖くて断れない",
+        "いい人をやめたい",
+        "人に合わせすぎる",
+        "人の顔色を伺う やめたい 本",
+        "人の顔色を伺う やめたい",
+        "人の顔色を伺う やめたい 知恵袋",
+        "人に合わせすぎる 言い換え",
+        "人に合わせすぎる人",
+        "人に合わせすぎる性格",
+        "人に合わせすぎる 病気"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "人の顔色をうかがう やめたい",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "嫌われるのが怖くて断れない",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "いい人をやめたい",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人に合わせすぎる",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人の顔色を伺う やめたい 本",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人の顔色を伺う やめたい",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人の顔色を伺う やめたい 知恵袋",
+          "status": "review",
+          "reasons": [
+            "platform-specific query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人に合わせすぎる 言い換え",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人に合わせすぎる人",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人に合わせすぎる性格",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人に合わせすぎる 病気",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "人の顔色をうかがう やめたい",
+        "嫌われるのが怖くて断れない",
+        "いい人をやめたい",
+        "人に合わせすぎる",
+        "人の顔色を伺う やめたい",
+        "人に合わせすぎる 言い換え",
+        "人に合わせすぎる人",
+        "人に合わせすぎる性格",
+        "人に合わせすぎる 病気"
+      ],
+      "reviewCandidatePhrases": [
+        "人の顔色を伺う やめたい 本",
+        "人の顔色を伺う やめたい 知恵袋"
+      ],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "route": "/relationships/relationship-burnout",
+      "slot": "relationships/relationship-burnout",
+      "axis": "worry",
+      "sourceQueries": [
+        "人間関係 疲れた",
+        "人付き合い しんどい",
+        "友達関係 疲れる",
+        "誰にも会いたくない"
+      ],
+      "baseQueries": [
+        "人間関係 疲れた",
+        "人付き合い しんどい",
+        "友達関係 疲れる",
+        "誰にも会いたくない"
+      ],
+      "googleSuggestions": [
+        "人間関係 疲れた ひとりに なりたい",
+        "人間関係 疲れた友達",
+        "人間関係 疲れた 知恵袋",
+        "人間関係 疲れた 仕事",
+        "人間関係 疲れた 曲",
+        "人間関係 疲れた時",
+        "人間関係 疲れた 名言",
+        "人間関係 疲れた 本",
+        "人間関係 疲れた なんj",
+        "人間関係 疲れた 学校",
+        "人付き合い しんどい",
+        "人付き合い しんどい 仕事",
+        "人付き合い しんどい 寂しい",
+        "人付き合い しんどい 知恵袋",
+        "人付き合い しんどい 時",
+        "人付き合い 苦手 しんどい",
+        "人付き合い が しんどい 時",
+        "hsp 人付き合い しんどい",
+        "友達関係 疲れる",
+        "誰にも会いたくない",
+        "誰にも会いたくない時",
+        "誰にも会いたくない うつ",
+        "誰にも会いたくない 映画",
+        "誰にも会いたくない 疲れた",
+        "誰にも会いたくない 話したくない",
+        "誰にも会いたくない日",
+        "誰にも会いたくない 家族にも",
+        "誰にも会いたくない 仕事",
+        "誰にも会いたくない 知恵袋"
+      ],
+      "candidatePhrases": [
+        "人間関係 疲れた",
+        "人付き合い しんどい",
+        "友達関係 疲れる",
+        "誰にも会いたくない",
+        "人間関係 疲れた ひとりに なりたい",
+        "人間関係 疲れた友達",
+        "人間関係 疲れた 知恵袋",
+        "人間関係 疲れた 仕事",
+        "人間関係 疲れた 曲",
+        "人間関係 疲れた時",
+        "人間関係 疲れた 名言",
+        "人間関係 疲れた 本",
+        "人間関係 疲れた なんj",
+        "人間関係 疲れた 学校",
+        "人付き合い しんどい 仕事",
+        "人付き合い しんどい 寂しい",
+        "人付き合い しんどい 知恵袋",
+        "人付き合い しんどい 時",
+        "人付き合い 苦手 しんどい",
+        "人付き合い が しんどい 時",
+        "hsp 人付き合い しんどい",
+        "誰にも会いたくない時",
+        "誰にも会いたくない うつ",
+        "誰にも会いたくない 映画",
+        "誰にも会いたくない 疲れた",
+        "誰にも会いたくない 話したくない",
+        "誰にも会いたくない日",
+        "誰にも会いたくない 家族にも",
+        "誰にも会いたくない 仕事",
+        "誰にも会いたくない 知恵袋"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "人間関係 疲れた",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人付き合い しんどい",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "友達関係 疲れる",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "誰にも会いたくない",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人間関係 疲れた ひとりに なりたい",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人間関係 疲れた友達",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人間関係 疲れた 知恵袋",
+          "status": "review",
+          "reasons": [
+            "platform-specific query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人間関係 疲れた 仕事",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人間関係 疲れた 曲",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人間関係 疲れた時",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人間関係 疲れた 名言",
+          "status": "review",
+          "reasons": [
+            "reference or concept query",
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人間関係 疲れた 本",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人間関係 疲れた なんj",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人間関係 疲れた 学校",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人付き合い しんどい 仕事",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人付き合い しんどい 寂しい",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人付き合い しんどい 知恵袋",
+          "status": "review",
+          "reasons": [
+            "platform-specific query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人付き合い しんどい 時",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人付き合い 苦手 しんどい",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人付き合い が しんどい 時",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "hsp 人付き合い しんどい",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "誰にも会いたくない時",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "誰にも会いたくない うつ",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "誰にも会いたくない 映画",
+          "status": "low-signal",
+          "reasons": [
+            "entertainment lookup"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "誰にも会いたくない 疲れた",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "誰にも会いたくない 話したくない",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "誰にも会いたくない日",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "誰にも会いたくない 家族にも",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "誰にも会いたくない 仕事",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "誰にも会いたくない 知恵袋",
+          "status": "review",
+          "reasons": [
+            "platform-specific query"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "人間関係 疲れた",
+        "人付き合い しんどい",
+        "友達関係 疲れる",
+        "誰にも会いたくない",
+        "人間関係 疲れた ひとりに なりたい",
+        "人間関係 疲れた友達",
+        "人間関係 疲れた 仕事",
+        "人間関係 疲れた 曲",
+        "人間関係 疲れた時",
+        "人間関係 疲れた なんj",
+        "人間関係 疲れた 学校",
+        "人付き合い しんどい 仕事",
+        "人付き合い しんどい 寂しい",
+        "人付き合い しんどい 時",
+        "人付き合い 苦手 しんどい",
+        "人付き合い が しんどい 時",
+        "hsp 人付き合い しんどい",
+        "誰にも会いたくない時",
+        "誰にも会いたくない うつ",
+        "誰にも会いたくない 疲れた",
+        "誰にも会いたくない 話したくない",
+        "誰にも会いたくない日",
+        "誰にも会いたくない 家族にも",
+        "誰にも会いたくない 仕事"
+      ],
+      "reviewCandidatePhrases": [
+        "人間関係 疲れた 知恵袋",
+        "人間関係 疲れた 名言",
+        "人間関係 疲れた 本",
+        "人付き合い しんどい 知恵袋",
+        "誰にも会いたくない 知恵袋"
+      ],
+      "lowSignalCandidatePhrases": [
+        "誰にも会いたくない 映画"
+      ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "route": "/relationships/regret-words",
+      "slot": "relationships/regret-words",
+      "axis": "worry",
+      "sourceQueries": [
+        "失言 後悔",
+        "言い過ぎた 後悔",
+        "変なこと言ったかも 不安",
+        "あの一言 後悔"
+      ],
+      "baseQueries": [
+        "失言 後悔",
+        "言い過ぎた 後悔",
+        "変なこと言ったかも 不安",
+        "あの一言 後悔"
+      ],
+      "googleSuggestions": [
+        "失言 後悔",
+        "失言 後悔 職場",
+        "失言 後悔 知恵袋",
+        "失言 後悔 切り替え",
+        "失言 後悔 立ち直る",
+        "言い過ぎた 後悔",
+        "言い過ぎた 後悔 男"
+      ],
+      "candidatePhrases": [
+        "失言 後悔",
+        "言い過ぎた 後悔",
+        "変なこと言ったかも 不安",
+        "あの一言 後悔",
+        "失言 後悔 職場",
+        "失言 後悔 知恵袋",
+        "失言 後悔 切り替え",
+        "失言 後悔 立ち直る",
+        "言い過ぎた 後悔 男"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "失言 後悔",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "言い過ぎた 後悔",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "変なこと言ったかも 不安",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "あの一言 後悔",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "失言 後悔 職場",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "失言 後悔 知恵袋",
+          "status": "review",
+          "reasons": [
+            "platform-specific query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "失言 後悔 切り替え",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "失言 後悔 立ち直る",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "言い過ぎた 後悔 男",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "失言 後悔",
+        "言い過ぎた 後悔",
+        "変なこと言ったかも 不安",
+        "あの一言 後悔",
+        "失言 後悔 職場",
+        "失言 後悔 切り替え",
+        "失言 後悔 立ち直る",
+        "言い過ぎた 後悔 男"
+      ],
+      "reviewCandidatePhrases": [
+        "失言 後悔 知恵袋"
+      ],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "route": "/work/quit-or-stay",
+      "slot": "work/quit-or-stay",
+      "axis": "worry",
+      "sourceQueries": [
+        "仕事 辞めるか続けるか",
+        "退職 迷う",
+        "仕事 辞めたい でも不安",
+        "会社 続けるべきか"
+      ],
+      "baseQueries": [
+        "仕事 辞めるか続けるか",
+        "退職 迷う",
+        "仕事 辞めたい でも不安",
+        "会社 続けるべきか"
+      ],
+      "googleSuggestions": [
+        "仕事 辞めるか続けるか",
+        "仕事 辞めるか続けるか 占い 無料",
+        "仕事 辞めるか続けるか 占い",
+        "仕事 辞めるか続けるか 診断",
+        "仕事 辞めるか続けるか タロット",
+        "退職 迷う",
+        "退職 迷う時",
+        "退職 迷う 相談",
+        "退職 迷う 理由",
+        "復職 退職 迷う",
+        "復職 退職 迷う 知恵袋",
+        "早期 退職 迷う",
+        "休職 退職 迷う",
+        "仕事 退職 迷う",
+        "dj あおい 退職 迷う",
+        "会社 続けるべきか"
+      ],
+      "candidatePhrases": [
+        "仕事 辞めるか続けるか",
+        "退職 迷う",
+        "仕事 辞めたい でも不安",
+        "会社 続けるべきか",
+        "仕事 辞めるか続けるか 占い 無料",
+        "仕事 辞めるか続けるか 占い",
+        "仕事 辞めるか続けるか 診断",
+        "仕事 辞めるか続けるか タロット",
+        "退職 迷う時",
+        "退職 迷う 相談",
+        "退職 迷う 理由",
+        "復職 退職 迷う",
+        "復職 退職 迷う 知恵袋",
+        "早期 退職 迷う",
+        "休職 退職 迷う",
+        "仕事 退職 迷う",
+        "dj あおい 退職 迷う"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "仕事 辞めるか続けるか",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "退職 迷う",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "仕事 辞めたい でも不安",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "会社 続けるべきか",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "仕事 辞めるか続けるか 占い 無料",
+          "status": "low-signal",
+          "reasons": [
+            "fortune-telling / diagnosis drift"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "仕事 辞めるか続けるか 占い",
+          "status": "low-signal",
+          "reasons": [
+            "fortune-telling / diagnosis drift"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "仕事 辞めるか続けるか 診断",
+          "status": "low-signal",
+          "reasons": [
+            "fortune-telling / diagnosis drift"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "仕事 辞めるか続けるか タロット",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "退職 迷う時",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "退職 迷う 相談",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "退職 迷う 理由",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "復職 退職 迷う",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "復職 退職 迷う 知恵袋",
+          "status": "review",
+          "reasons": [
+            "platform-specific query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "早期 退職 迷う",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "休職 退職 迷う",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "仕事 退職 迷う",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "dj あおい 退職 迷う",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "仕事 辞めるか続けるか",
+        "退職 迷う",
+        "仕事 辞めたい でも不安",
+        "会社 続けるべきか",
+        "仕事 辞めるか続けるか タロット",
+        "退職 迷う時",
+        "退職 迷う 相談",
+        "退職 迷う 理由",
+        "復職 退職 迷う",
+        "早期 退職 迷う",
+        "休職 退職 迷う",
+        "仕事 退職 迷う",
+        "dj あおい 退職 迷う"
+      ],
+      "reviewCandidatePhrases": [
+        "復職 退職 迷う 知恵袋"
+      ],
+      "lowSignalCandidatePhrases": [
+        "仕事 辞めるか続けるか 占い 無料",
+        "仕事 辞めるか続けるか 占い",
+        "仕事 辞めるか続けるか 診断"
+      ],
       "clusterHints": {},
       "errors": []
     }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T05:49:21.986Z",
+  "generatedAt": "2026-06-22T06:06:03.557Z",
   "thresholds": {
     "grades": {
       "A": "90+",
@@ -11,13 +11,13 @@
   },
   "summary": {
     "total": 89,
-    "averageScore": 89,
+    "averageScore": 90,
     "grades": {
-      "B": 45,
-      "A": 44
+      "B": 30,
+      "A": 59
     },
     "coverage": {
-      "sourceSignal": 44,
+      "sourceSignal": 59,
       "sourceInsights": 19,
       "related": 89,
       "verified": 89
@@ -28,10 +28,10 @@
       "axis": "worry",
       "label": "고민",
       "count": 62,
-      "averageScore": 88,
+      "averageScore": 90,
       "grades": {
-        "B": 31,
-        "A": 31
+        "B": 16,
+        "A": 46
       }
     },
     {
@@ -121,9 +121,9 @@
     {
       "key": "sourceSignal",
       "label": "언어권 관심 신호",
-      "passed": 44,
+      "passed": 59,
       "total": 89,
-      "coverage": 49
+      "coverage": 66
     },
     {
       "key": "sourceInsights",
@@ -140,1495 +140,10 @@
     },
     {
       "issue": "언어권별 수집 표현을 canonical node에 연결",
-      "count": 45
+      "count": 30
     }
   ],
   "entries": [
-    {
-      "key": "love/cant-read-them",
-      "href": "/love/cant-read-them",
-      "axis": "worry",
-      "axisLabel": "고민",
-      "title": "상대 마음을 모를 때",
-      "summary": "상대의 마음은 내가 들여다볼 수 없는 영역인데, 그 빈칸을 내 불안이 제멋대로 채워 넣는 상태.",
-      "categoryTitle": "연애 / 짝사랑",
-      "groupTitle": "관계",
-      "score": 83,
-      "grade": "B",
-      "status": "공개 안정",
-      "issues": [
-        "언어권별 수집 표현을 canonical node에 연결",
-        "언어권별 표현 차이와 공통점을 인사이트로 정리"
-      ],
-      "metrics": {
-        "cards": 3,
-        "verifiedCount": 3,
-        "tags": 4,
-        "doors": 7,
-        "actionOrReflect": 4,
-        "related": 6,
-        "people": 3,
-        "perspectives": 3,
-        "sourceSignal": false,
-        "sourceInsights": 0,
-        "summaryLength": 53,
-        "placeholder": false
-      },
-      "criteria": {
-        "published": {
-          "label": "공개 가능한 본문",
-          "passed": true,
-          "weight": 15,
-          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
-        },
-        "summary": {
-          "label": "요약 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
-        },
-        "doors": {
-          "label": "사용자 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
-        },
-        "cards": {
-          "label": "관점 카드",
-          "passed": true,
-          "weight": 15,
-          "action": "서로 다른 관점 카드 3개 이상 유지"
-        },
-        "verified": {
-          "label": "검증 출처",
-          "passed": true,
-          "weight": 15,
-          "action": "검증된 출처 카드 3개 이상 확보"
-        },
-        "tags": {
-          "label": "태그 연결",
-          "passed": true,
-          "weight": 10,
-          "action": "고민/생각 태그 3개 이상 연결"
-        },
-        "actionOrReflect": {
-          "label": "행동/질문",
-          "passed": true,
-          "weight": 10,
-          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
-        },
-        "related": {
-          "label": "관련 흐름",
-          "passed": true,
-          "weight": 10,
-          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
-        },
-        "people": {
-          "label": "인물/논쟁 관점",
-          "passed": true,
-          "weight": 5,
-          "action": "관련 인물 관점 2명 이상 확보"
-        },
-        "sourceSignal": {
-          "label": "언어권 관심 신호",
-          "passed": false,
-          "weight": 8,
-          "action": "언어권별 수집 표현을 canonical node에 연결"
-        },
-        "sourceInsights": {
-          "label": "언어권 표현 인사이트",
-          "passed": false,
-          "weight": 12,
-          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
-        }
-      }
-    },
-    {
-      "key": "love/relationship-boredom",
-      "href": "/love/relationship-boredom",
-      "axis": "worry",
-      "axisLabel": "고민",
-      "title": "권태기와 연애 현타가 왔을 때",
-      "summary": "권태기와 연애 현타는 사랑이 끝났다는 증거일 수도 있지만, 설렘이 줄어든 뒤 관계를 어떤 방식으로 돌볼지 묻는 신호일 수도 있다.",
-      "categoryTitle": "연애 / 짝사랑",
-      "groupTitle": "관계",
-      "score": 83,
-      "grade": "B",
-      "status": "공개 안정",
-      "issues": [
-        "언어권별 수집 표현을 canonical node에 연결",
-        "언어권별 표현 차이와 공통점을 인사이트로 정리"
-      ],
-      "metrics": {
-        "cards": 3,
-        "verifiedCount": 3,
-        "tags": 6,
-        "doors": 6,
-        "actionOrReflect": 4,
-        "related": 6,
-        "people": 3,
-        "perspectives": 3,
-        "sourceSignal": false,
-        "sourceInsights": 0,
-        "summaryLength": 72,
-        "placeholder": false
-      },
-      "criteria": {
-        "published": {
-          "label": "공개 가능한 본문",
-          "passed": true,
-          "weight": 15,
-          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
-        },
-        "summary": {
-          "label": "요약 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
-        },
-        "doors": {
-          "label": "사용자 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
-        },
-        "cards": {
-          "label": "관점 카드",
-          "passed": true,
-          "weight": 15,
-          "action": "서로 다른 관점 카드 3개 이상 유지"
-        },
-        "verified": {
-          "label": "검증 출처",
-          "passed": true,
-          "weight": 15,
-          "action": "검증된 출처 카드 3개 이상 확보"
-        },
-        "tags": {
-          "label": "태그 연결",
-          "passed": true,
-          "weight": 10,
-          "action": "고민/생각 태그 3개 이상 연결"
-        },
-        "actionOrReflect": {
-          "label": "행동/질문",
-          "passed": true,
-          "weight": 10,
-          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
-        },
-        "related": {
-          "label": "관련 흐름",
-          "passed": true,
-          "weight": 10,
-          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
-        },
-        "people": {
-          "label": "인물/논쟁 관점",
-          "passed": true,
-          "weight": 5,
-          "action": "관련 인물 관점 2명 이상 확보"
-        },
-        "sourceSignal": {
-          "label": "언어권 관심 신호",
-          "passed": false,
-          "weight": 8,
-          "action": "언어권별 수집 표현을 canonical node에 연결"
-        },
-        "sourceInsights": {
-          "label": "언어권 표현 인사이트",
-          "passed": false,
-          "weight": 12,
-          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
-        }
-      }
-    },
-    {
-      "key": "breakup/right-after",
-      "href": "/breakup/right-after",
-      "axis": "worry",
-      "axisLabel": "고민",
-      "title": "이별 직후 무너질 때",
-      "summary": "이별 직후의 무너짐은, 함께였던 미래를 한꺼번에 잃었기 때문이다.",
-      "categoryTitle": "이별 / 실연",
-      "groupTitle": "관계",
-      "score": 83,
-      "grade": "B",
-      "status": "공개 안정",
-      "issues": [
-        "언어권별 수집 표현을 canonical node에 연결",
-        "언어권별 표현 차이와 공통점을 인사이트로 정리"
-      ],
-      "metrics": {
-        "cards": 3,
-        "verifiedCount": 3,
-        "tags": 5,
-        "doors": 4,
-        "actionOrReflect": 3,
-        "related": 6,
-        "people": 3,
-        "perspectives": 3,
-        "sourceSignal": false,
-        "sourceInsights": 0,
-        "summaryLength": 36,
-        "placeholder": false
-      },
-      "criteria": {
-        "published": {
-          "label": "공개 가능한 본문",
-          "passed": true,
-          "weight": 15,
-          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
-        },
-        "summary": {
-          "label": "요약 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
-        },
-        "doors": {
-          "label": "사용자 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
-        },
-        "cards": {
-          "label": "관점 카드",
-          "passed": true,
-          "weight": 15,
-          "action": "서로 다른 관점 카드 3개 이상 유지"
-        },
-        "verified": {
-          "label": "검증 출처",
-          "passed": true,
-          "weight": 15,
-          "action": "검증된 출처 카드 3개 이상 확보"
-        },
-        "tags": {
-          "label": "태그 연결",
-          "passed": true,
-          "weight": 10,
-          "action": "고민/생각 태그 3개 이상 연결"
-        },
-        "actionOrReflect": {
-          "label": "행동/질문",
-          "passed": true,
-          "weight": 10,
-          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
-        },
-        "related": {
-          "label": "관련 흐름",
-          "passed": true,
-          "weight": 10,
-          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
-        },
-        "people": {
-          "label": "인물/논쟁 관점",
-          "passed": true,
-          "weight": 5,
-          "action": "관련 인물 관점 2명 이상 확보"
-        },
-        "sourceSignal": {
-          "label": "언어권 관심 신호",
-          "passed": false,
-          "weight": 8,
-          "action": "언어권별 수집 표현을 canonical node에 연결"
-        },
-        "sourceInsights": {
-          "label": "언어권 표현 인사이트",
-          "passed": false,
-          "weight": 12,
-          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
-        }
-      }
-    },
-    {
-      "key": "breakup/obsession",
-      "href": "/breakup/obsession",
-      "axis": "worry",
-      "axisLabel": "고민",
-      "title": "집착을 끊고 싶을 때",
-      "summary": "집착은 '의지가 약해서'가 아니라, 내 손 밖의 것을 내 것이라 붙들고 있는 마음의 습관이다 — 끊는 게 아니라 풀어내는 것.",
-      "categoryTitle": "이별 / 실연",
-      "groupTitle": "관계",
-      "score": 83,
-      "grade": "B",
-      "status": "공개 안정",
-      "issues": [
-        "언어권별 수집 표현을 canonical node에 연결",
-        "언어권별 표현 차이와 공통점을 인사이트로 정리"
-      ],
-      "metrics": {
-        "cards": 3,
-        "verifiedCount": 3,
-        "tags": 4,
-        "doors": 7,
-        "actionOrReflect": 4,
-        "related": 6,
-        "people": 3,
-        "perspectives": 3,
-        "sourceSignal": false,
-        "sourceInsights": 0,
-        "summaryLength": 70,
-        "placeholder": false
-      },
-      "criteria": {
-        "published": {
-          "label": "공개 가능한 본문",
-          "passed": true,
-          "weight": 15,
-          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
-        },
-        "summary": {
-          "label": "요약 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
-        },
-        "doors": {
-          "label": "사용자 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
-        },
-        "cards": {
-          "label": "관점 카드",
-          "passed": true,
-          "weight": 15,
-          "action": "서로 다른 관점 카드 3개 이상 유지"
-        },
-        "verified": {
-          "label": "검증 출처",
-          "passed": true,
-          "weight": 15,
-          "action": "검증된 출처 카드 3개 이상 확보"
-        },
-        "tags": {
-          "label": "태그 연결",
-          "passed": true,
-          "weight": 10,
-          "action": "고민/생각 태그 3개 이상 연결"
-        },
-        "actionOrReflect": {
-          "label": "행동/질문",
-          "passed": true,
-          "weight": 10,
-          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
-        },
-        "related": {
-          "label": "관련 흐름",
-          "passed": true,
-          "weight": 10,
-          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
-        },
-        "people": {
-          "label": "인물/논쟁 관점",
-          "passed": true,
-          "weight": 5,
-          "action": "관련 인물 관점 2명 이상 확보"
-        },
-        "sourceSignal": {
-          "label": "언어권 관심 신호",
-          "passed": false,
-          "weight": 8,
-          "action": "언어권별 수집 표현을 canonical node에 연결"
-        },
-        "sourceInsights": {
-          "label": "언어권 표현 인사이트",
-          "passed": false,
-          "weight": 12,
-          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
-        }
-      }
-    },
-    {
-      "key": "breakup/reunion",
-      "href": "/breakup/reunion",
-      "axis": "worry",
-      "axisLabel": "고민",
-      "title": "재회해야 할지 고민될 때",
-      "summary": "재회 고민은 그 사람이 그리운 마음과, 다시 만나도 같은 이유로 무너질지 모른다는 두려움이 동시에 붙잡는 상태다.",
-      "categoryTitle": "이별 / 실연",
-      "groupTitle": "관계",
-      "score": 83,
-      "grade": "B",
-      "status": "공개 안정",
-      "issues": [
-        "언어권별 수집 표현을 canonical node에 연결",
-        "언어권별 표현 차이와 공통점을 인사이트로 정리"
-      ],
-      "metrics": {
-        "cards": 3,
-        "verifiedCount": 3,
-        "tags": 5,
-        "doors": 6,
-        "actionOrReflect": 4,
-        "related": 6,
-        "people": 3,
-        "perspectives": 3,
-        "sourceSignal": false,
-        "sourceInsights": 0,
-        "summaryLength": 63,
-        "placeholder": false
-      },
-      "criteria": {
-        "published": {
-          "label": "공개 가능한 본문",
-          "passed": true,
-          "weight": 15,
-          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
-        },
-        "summary": {
-          "label": "요약 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
-        },
-        "doors": {
-          "label": "사용자 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
-        },
-        "cards": {
-          "label": "관점 카드",
-          "passed": true,
-          "weight": 15,
-          "action": "서로 다른 관점 카드 3개 이상 유지"
-        },
-        "verified": {
-          "label": "검증 출처",
-          "passed": true,
-          "weight": 15,
-          "action": "검증된 출처 카드 3개 이상 확보"
-        },
-        "tags": {
-          "label": "태그 연결",
-          "passed": true,
-          "weight": 10,
-          "action": "고민/생각 태그 3개 이상 연결"
-        },
-        "actionOrReflect": {
-          "label": "행동/질문",
-          "passed": true,
-          "weight": 10,
-          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
-        },
-        "related": {
-          "label": "관련 흐름",
-          "passed": true,
-          "weight": 10,
-          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
-        },
-        "people": {
-          "label": "인물/논쟁 관점",
-          "passed": true,
-          "weight": 5,
-          "action": "관련 인물 관점 2명 이상 확보"
-        },
-        "sourceSignal": {
-          "label": "언어권 관심 신호",
-          "passed": false,
-          "weight": 8,
-          "action": "언어권별 수집 표현을 canonical node에 연결"
-        },
-        "sourceInsights": {
-          "label": "언어권 표현 인사이트",
-          "passed": false,
-          "weight": 12,
-          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
-        }
-      }
-    },
-    {
-      "key": "breakup/ex-contact",
-      "href": "/breakup/ex-contact",
-      "axis": "worry",
-      "axisLabel": "고민",
-      "title": "전 애인 연락이 흔들릴 때",
-      "summary": "끝났다고 생각했는데 이름 하나, 알림 하나에 마음이 다시 과거로 끌려가는 상태.",
-      "categoryTitle": "이별 / 실연",
-      "groupTitle": "관계",
-      "score": 83,
-      "grade": "B",
-      "status": "공개 안정",
-      "issues": [
-        "언어권별 수집 표현을 canonical node에 연결",
-        "언어권별 표현 차이와 공통점을 인사이트로 정리"
-      ],
-      "metrics": {
-        "cards": 3,
-        "verifiedCount": 3,
-        "tags": 4,
-        "doors": 6,
-        "actionOrReflect": 4,
-        "related": 6,
-        "people": 3,
-        "perspectives": 3,
-        "sourceSignal": false,
-        "sourceInsights": 0,
-        "summaryLength": 44,
-        "placeholder": false
-      },
-      "criteria": {
-        "published": {
-          "label": "공개 가능한 본문",
-          "passed": true,
-          "weight": 15,
-          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
-        },
-        "summary": {
-          "label": "요약 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
-        },
-        "doors": {
-          "label": "사용자 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
-        },
-        "cards": {
-          "label": "관점 카드",
-          "passed": true,
-          "weight": 15,
-          "action": "서로 다른 관점 카드 3개 이상 유지"
-        },
-        "verified": {
-          "label": "검증 출처",
-          "passed": true,
-          "weight": 15,
-          "action": "검증된 출처 카드 3개 이상 확보"
-        },
-        "tags": {
-          "label": "태그 연결",
-          "passed": true,
-          "weight": 10,
-          "action": "고민/생각 태그 3개 이상 연결"
-        },
-        "actionOrReflect": {
-          "label": "행동/질문",
-          "passed": true,
-          "weight": 10,
-          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
-        },
-        "related": {
-          "label": "관련 흐름",
-          "passed": true,
-          "weight": 10,
-          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
-        },
-        "people": {
-          "label": "인물/논쟁 관점",
-          "passed": true,
-          "weight": 5,
-          "action": "관련 인물 관점 2명 이상 확보"
-        },
-        "sourceSignal": {
-          "label": "언어권 관심 신호",
-          "passed": false,
-          "weight": 8,
-          "action": "언어권별 수집 표현을 canonical node에 연결"
-        },
-        "sourceInsights": {
-          "label": "언어권 표현 인사이트",
-          "passed": false,
-          "weight": 12,
-          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
-        }
-      }
-    },
-    {
-      "key": "self-esteem/self-hate",
-      "href": "/self-esteem/self-hate",
-      "axis": "worry",
-      "axisLabel": "고민",
-      "title": "나를 싫어할 때",
-      "summary": "자기혐오는 '내가 못났다'는 사실이 아니라, 나에 대한 가혹한 판결을 내가 계속 사실로 믿는 마음이다.",
-      "categoryTitle": "자존감",
-      "groupTitle": "자아 / 마음",
-      "score": 83,
-      "grade": "B",
-      "status": "공개 안정",
-      "issues": [
-        "언어권별 수집 표현을 canonical node에 연결",
-        "언어권별 표현 차이와 공통점을 인사이트로 정리"
-      ],
-      "metrics": {
-        "cards": 3,
-        "verifiedCount": 3,
-        "tags": 3,
-        "doors": 7,
-        "actionOrReflect": 4,
-        "related": 6,
-        "people": 3,
-        "perspectives": 3,
-        "sourceSignal": false,
-        "sourceInsights": 0,
-        "summaryLength": 57,
-        "placeholder": false
-      },
-      "criteria": {
-        "published": {
-          "label": "공개 가능한 본문",
-          "passed": true,
-          "weight": 15,
-          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
-        },
-        "summary": {
-          "label": "요약 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
-        },
-        "doors": {
-          "label": "사용자 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
-        },
-        "cards": {
-          "label": "관점 카드",
-          "passed": true,
-          "weight": 15,
-          "action": "서로 다른 관점 카드 3개 이상 유지"
-        },
-        "verified": {
-          "label": "검증 출처",
-          "passed": true,
-          "weight": 15,
-          "action": "검증된 출처 카드 3개 이상 확보"
-        },
-        "tags": {
-          "label": "태그 연결",
-          "passed": true,
-          "weight": 10,
-          "action": "고민/생각 태그 3개 이상 연결"
-        },
-        "actionOrReflect": {
-          "label": "행동/질문",
-          "passed": true,
-          "weight": 10,
-          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
-        },
-        "related": {
-          "label": "관련 흐름",
-          "passed": true,
-          "weight": 10,
-          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
-        },
-        "people": {
-          "label": "인물/논쟁 관점",
-          "passed": true,
-          "weight": 5,
-          "action": "관련 인물 관점 2명 이상 확보"
-        },
-        "sourceSignal": {
-          "label": "언어권 관심 신호",
-          "passed": false,
-          "weight": 8,
-          "action": "언어권별 수집 표현을 canonical node에 연결"
-        },
-        "sourceInsights": {
-          "label": "언어권 표현 인사이트",
-          "passed": false,
-          "weight": 12,
-          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
-        }
-      }
-    },
-    {
-      "key": "self-esteem/cant-accept-praise",
-      "href": "/self-esteem/cant-accept-praise",
-      "axis": "worry",
-      "axisLabel": "고민",
-      "title": "칭찬을 못 받아들일 때",
-      "summary": "칭찬을 못 받아들이는 건 겸손이 아니라, 내 가치를 정할 권한을 남의 입에 맡겨버린 상태다.",
-      "categoryTitle": "자존감",
-      "groupTitle": "자아 / 마음",
-      "score": 83,
-      "grade": "B",
-      "status": "공개 안정",
-      "issues": [
-        "언어권별 수집 표현을 canonical node에 연결",
-        "언어권별 표현 차이와 공통점을 인사이트로 정리"
-      ],
-      "metrics": {
-        "cards": 3,
-        "verifiedCount": 3,
-        "tags": 3,
-        "doors": 7,
-        "actionOrReflect": 4,
-        "related": 6,
-        "people": 3,
-        "perspectives": 3,
-        "sourceSignal": false,
-        "sourceInsights": 0,
-        "summaryLength": 51,
-        "placeholder": false
-      },
-      "criteria": {
-        "published": {
-          "label": "공개 가능한 본문",
-          "passed": true,
-          "weight": 15,
-          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
-        },
-        "summary": {
-          "label": "요약 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
-        },
-        "doors": {
-          "label": "사용자 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
-        },
-        "cards": {
-          "label": "관점 카드",
-          "passed": true,
-          "weight": 15,
-          "action": "서로 다른 관점 카드 3개 이상 유지"
-        },
-        "verified": {
-          "label": "검증 출처",
-          "passed": true,
-          "weight": 15,
-          "action": "검증된 출처 카드 3개 이상 확보"
-        },
-        "tags": {
-          "label": "태그 연결",
-          "passed": true,
-          "weight": 10,
-          "action": "고민/생각 태그 3개 이상 연결"
-        },
-        "actionOrReflect": {
-          "label": "행동/질문",
-          "passed": true,
-          "weight": 10,
-          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
-        },
-        "related": {
-          "label": "관련 흐름",
-          "passed": true,
-          "weight": 10,
-          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
-        },
-        "people": {
-          "label": "인물/논쟁 관점",
-          "passed": true,
-          "weight": 5,
-          "action": "관련 인물 관점 2명 이상 확보"
-        },
-        "sourceSignal": {
-          "label": "언어권 관심 신호",
-          "passed": false,
-          "weight": 8,
-          "action": "언어권별 수집 표현을 canonical node에 연결"
-        },
-        "sourceInsights": {
-          "label": "언어권 표현 인사이트",
-          "passed": false,
-          "weight": 12,
-          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
-        }
-      }
-    },
-    {
-      "key": "self-esteem/falling-behind",
-      "href": "/self-esteem/falling-behind",
-      "axis": "worry",
-      "axisLabel": "고민",
-      "title": "나만 뒤처지는 것 같을 때",
-      "summary": "남과 같은 트랙을 달린다고 착각하며, 내 속도를 남의 시계로 재는 초조함.",
-      "categoryTitle": "자존감",
-      "groupTitle": "자아 / 마음",
-      "score": 83,
-      "grade": "B",
-      "status": "공개 안정",
-      "issues": [
-        "언어권별 수집 표현을 canonical node에 연결",
-        "언어권별 표현 차이와 공통점을 인사이트로 정리"
-      ],
-      "metrics": {
-        "cards": 3,
-        "verifiedCount": 3,
-        "tags": 3,
-        "doors": 7,
-        "actionOrReflect": 4,
-        "related": 6,
-        "people": 3,
-        "perspectives": 3,
-        "sourceSignal": false,
-        "sourceInsights": 0,
-        "summaryLength": 41,
-        "placeholder": false
-      },
-      "criteria": {
-        "published": {
-          "label": "공개 가능한 본문",
-          "passed": true,
-          "weight": 15,
-          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
-        },
-        "summary": {
-          "label": "요약 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
-        },
-        "doors": {
-          "label": "사용자 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
-        },
-        "cards": {
-          "label": "관점 카드",
-          "passed": true,
-          "weight": 15,
-          "action": "서로 다른 관점 카드 3개 이상 유지"
-        },
-        "verified": {
-          "label": "검증 출처",
-          "passed": true,
-          "weight": 15,
-          "action": "검증된 출처 카드 3개 이상 확보"
-        },
-        "tags": {
-          "label": "태그 연결",
-          "passed": true,
-          "weight": 10,
-          "action": "고민/생각 태그 3개 이상 연결"
-        },
-        "actionOrReflect": {
-          "label": "행동/질문",
-          "passed": true,
-          "weight": 10,
-          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
-        },
-        "related": {
-          "label": "관련 흐름",
-          "passed": true,
-          "weight": 10,
-          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
-        },
-        "people": {
-          "label": "인물/논쟁 관점",
-          "passed": true,
-          "weight": 5,
-          "action": "관련 인물 관점 2명 이상 확보"
-        },
-        "sourceSignal": {
-          "label": "언어권 관심 신호",
-          "passed": false,
-          "weight": 8,
-          "action": "언어권별 수집 표현을 canonical node에 연결"
-        },
-        "sourceInsights": {
-          "label": "언어권 표현 인사이트",
-          "passed": false,
-          "weight": 12,
-          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
-        }
-      }
-    },
-    {
-      "key": "self-esteem/dating-self-esteem",
-      "href": "/self-esteem/dating-self-esteem",
-      "axis": "worry",
-      "axisLabel": "고민",
-      "title": "자존감 낮은 연애를 할 때",
-      "summary": "연애가 사랑의 장소가 아니라 내 가치가 계속 시험받는 장소처럼 느껴지는 상태.",
-      "categoryTitle": "자존감",
-      "groupTitle": "자아 / 마음",
-      "score": 83,
-      "grade": "B",
-      "status": "공개 안정",
-      "issues": [
-        "언어권별 수집 표현을 canonical node에 연결",
-        "언어권별 표현 차이와 공통점을 인사이트로 정리"
-      ],
-      "metrics": {
-        "cards": 4,
-        "verifiedCount": 4,
-        "tags": 3,
-        "doors": 6,
-        "actionOrReflect": 4,
-        "related": 6,
-        "people": 4,
-        "perspectives": 4,
-        "sourceSignal": false,
-        "sourceInsights": 0,
-        "summaryLength": 43,
-        "placeholder": false
-      },
-      "criteria": {
-        "published": {
-          "label": "공개 가능한 본문",
-          "passed": true,
-          "weight": 15,
-          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
-        },
-        "summary": {
-          "label": "요약 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
-        },
-        "doors": {
-          "label": "사용자 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
-        },
-        "cards": {
-          "label": "관점 카드",
-          "passed": true,
-          "weight": 15,
-          "action": "서로 다른 관점 카드 3개 이상 유지"
-        },
-        "verified": {
-          "label": "검증 출처",
-          "passed": true,
-          "weight": 15,
-          "action": "검증된 출처 카드 3개 이상 확보"
-        },
-        "tags": {
-          "label": "태그 연결",
-          "passed": true,
-          "weight": 10,
-          "action": "고민/생각 태그 3개 이상 연결"
-        },
-        "actionOrReflect": {
-          "label": "행동/질문",
-          "passed": true,
-          "weight": 10,
-          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
-        },
-        "related": {
-          "label": "관련 흐름",
-          "passed": true,
-          "weight": 10,
-          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
-        },
-        "people": {
-          "label": "인물/논쟁 관점",
-          "passed": true,
-          "weight": 5,
-          "action": "관련 인물 관점 2명 이상 확보"
-        },
-        "sourceSignal": {
-          "label": "언어권 관심 신호",
-          "passed": false,
-          "weight": 8,
-          "action": "언어권별 수집 표현을 canonical node에 연결"
-        },
-        "sourceInsights": {
-          "label": "언어권 표현 인사이트",
-          "passed": false,
-          "weight": 12,
-          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
-        }
-      }
-    },
-    {
-      "key": "relationships/hurtful-words",
-      "href": "/relationships/hurtful-words",
-      "axis": "worry",
-      "axisLabel": "고민",
-      "title": "상처받은 말이 잊히지 않을 때",
-      "summary": "들은 말이 사실인지와 상관없이, 그 말에 '계속 곱씹을 권한'을 내가 내어주고 있을 때 생기는 통증.",
-      "categoryTitle": "인간관계",
-      "groupTitle": "관계",
-      "score": 83,
-      "grade": "B",
-      "status": "공개 안정",
-      "issues": [
-        "언어권별 수집 표현을 canonical node에 연결",
-        "언어권별 표현 차이와 공통점을 인사이트로 정리"
-      ],
-      "metrics": {
-        "cards": 3,
-        "verifiedCount": 3,
-        "tags": 4,
-        "doors": 7,
-        "actionOrReflect": 4,
-        "related": 6,
-        "people": 3,
-        "perspectives": 3,
-        "sourceSignal": false,
-        "sourceInsights": 0,
-        "summaryLength": 56,
-        "placeholder": false
-      },
-      "criteria": {
-        "published": {
-          "label": "공개 가능한 본문",
-          "passed": true,
-          "weight": 15,
-          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
-        },
-        "summary": {
-          "label": "요약 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
-        },
-        "doors": {
-          "label": "사용자 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
-        },
-        "cards": {
-          "label": "관점 카드",
-          "passed": true,
-          "weight": 15,
-          "action": "서로 다른 관점 카드 3개 이상 유지"
-        },
-        "verified": {
-          "label": "검증 출처",
-          "passed": true,
-          "weight": 15,
-          "action": "검증된 출처 카드 3개 이상 확보"
-        },
-        "tags": {
-          "label": "태그 연결",
-          "passed": true,
-          "weight": 10,
-          "action": "고민/생각 태그 3개 이상 연결"
-        },
-        "actionOrReflect": {
-          "label": "행동/질문",
-          "passed": true,
-          "weight": 10,
-          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
-        },
-        "related": {
-          "label": "관련 흐름",
-          "passed": true,
-          "weight": 10,
-          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
-        },
-        "people": {
-          "label": "인물/논쟁 관점",
-          "passed": true,
-          "weight": 5,
-          "action": "관련 인물 관점 2명 이상 확보"
-        },
-        "sourceSignal": {
-          "label": "언어권 관심 신호",
-          "passed": false,
-          "weight": 8,
-          "action": "언어권별 수집 표현을 canonical node에 연결"
-        },
-        "sourceInsights": {
-          "label": "언어권 표현 인사이트",
-          "passed": false,
-          "weight": 12,
-          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
-        }
-      }
-    },
-    {
-      "key": "relationships/people-pleasing",
-      "href": "/relationships/people-pleasing",
-      "axis": "worry",
-      "axisLabel": "고민",
-      "title": "눈치 보는 성격을 고치고 싶을 때",
-      "summary": "눈치 보는 성격은 배려가 많아서만 생기지 않는다. 거절당할까 봐 내 기준을 계속 뒤로 미루는 습관이 굳어질 때 마음이 지친다.",
-      "categoryTitle": "인간관계",
-      "groupTitle": "관계",
-      "score": 83,
-      "grade": "B",
-      "status": "공개 안정",
-      "issues": [
-        "언어권별 수집 표현을 canonical node에 연결",
-        "언어권별 표현 차이와 공통점을 인사이트로 정리"
-      ],
-      "metrics": {
-        "cards": 3,
-        "verifiedCount": 3,
-        "tags": 6,
-        "doors": 6,
-        "actionOrReflect": 4,
-        "related": 6,
-        "people": 3,
-        "perspectives": 3,
-        "sourceSignal": false,
-        "sourceInsights": 0,
-        "summaryLength": 70,
-        "placeholder": false
-      },
-      "criteria": {
-        "published": {
-          "label": "공개 가능한 본문",
-          "passed": true,
-          "weight": 15,
-          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
-        },
-        "summary": {
-          "label": "요약 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
-        },
-        "doors": {
-          "label": "사용자 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
-        },
-        "cards": {
-          "label": "관점 카드",
-          "passed": true,
-          "weight": 15,
-          "action": "서로 다른 관점 카드 3개 이상 유지"
-        },
-        "verified": {
-          "label": "검증 출처",
-          "passed": true,
-          "weight": 15,
-          "action": "검증된 출처 카드 3개 이상 확보"
-        },
-        "tags": {
-          "label": "태그 연결",
-          "passed": true,
-          "weight": 10,
-          "action": "고민/생각 태그 3개 이상 연결"
-        },
-        "actionOrReflect": {
-          "label": "행동/질문",
-          "passed": true,
-          "weight": 10,
-          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
-        },
-        "related": {
-          "label": "관련 흐름",
-          "passed": true,
-          "weight": 10,
-          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
-        },
-        "people": {
-          "label": "인물/논쟁 관점",
-          "passed": true,
-          "weight": 5,
-          "action": "관련 인물 관점 2명 이상 확보"
-        },
-        "sourceSignal": {
-          "label": "언어권 관심 신호",
-          "passed": false,
-          "weight": 8,
-          "action": "언어권별 수집 표현을 canonical node에 연결"
-        },
-        "sourceInsights": {
-          "label": "언어권 표현 인사이트",
-          "passed": false,
-          "weight": 12,
-          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
-        }
-      }
-    },
-    {
-      "key": "relationships/relationship-burnout",
-      "href": "/relationships/relationship-burnout",
-      "axis": "worry",
-      "axisLabel": "고민",
-      "title": "인간관계 현타가 올 때",
-      "summary": "인간관계 현타는 사람이 싫어져서만 오지 않는다. 내가 주는 만큼 돌아오지 않거나, 관계마다 역할을 연기한다고 느낄 때 마음이 꺼진다.",
-      "categoryTitle": "인간관계",
-      "groupTitle": "관계",
-      "score": 83,
-      "grade": "B",
-      "status": "공개 안정",
-      "issues": [
-        "언어권별 수집 표현을 canonical node에 연결",
-        "언어권별 표현 차이와 공통점을 인사이트로 정리"
-      ],
-      "metrics": {
-        "cards": 3,
-        "verifiedCount": 3,
-        "tags": 5,
-        "doors": 6,
-        "actionOrReflect": 4,
-        "related": 6,
-        "people": 3,
-        "perspectives": 3,
-        "sourceSignal": false,
-        "sourceInsights": 0,
-        "summaryLength": 74,
-        "placeholder": false
-      },
-      "criteria": {
-        "published": {
-          "label": "공개 가능한 본문",
-          "passed": true,
-          "weight": 15,
-          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
-        },
-        "summary": {
-          "label": "요약 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
-        },
-        "doors": {
-          "label": "사용자 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
-        },
-        "cards": {
-          "label": "관점 카드",
-          "passed": true,
-          "weight": 15,
-          "action": "서로 다른 관점 카드 3개 이상 유지"
-        },
-        "verified": {
-          "label": "검증 출처",
-          "passed": true,
-          "weight": 15,
-          "action": "검증된 출처 카드 3개 이상 확보"
-        },
-        "tags": {
-          "label": "태그 연결",
-          "passed": true,
-          "weight": 10,
-          "action": "고민/생각 태그 3개 이상 연결"
-        },
-        "actionOrReflect": {
-          "label": "행동/질문",
-          "passed": true,
-          "weight": 10,
-          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
-        },
-        "related": {
-          "label": "관련 흐름",
-          "passed": true,
-          "weight": 10,
-          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
-        },
-        "people": {
-          "label": "인물/논쟁 관점",
-          "passed": true,
-          "weight": 5,
-          "action": "관련 인물 관점 2명 이상 확보"
-        },
-        "sourceSignal": {
-          "label": "언어권 관심 신호",
-          "passed": false,
-          "weight": 8,
-          "action": "언어권별 수집 표현을 canonical node에 연결"
-        },
-        "sourceInsights": {
-          "label": "언어권 표현 인사이트",
-          "passed": false,
-          "weight": 12,
-          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
-        }
-      }
-    },
-    {
-      "key": "relationships/regret-words",
-      "href": "/relationships/regret-words",
-      "axis": "worry",
-      "axisLabel": "고민",
-      "title": "말실수 후회가 클 때",
-      "summary": "이미 뱉은 말이 계속 되감기되며, 관계 전체가 망가졌을까 봐 불안한 상태.",
-      "categoryTitle": "인간관계",
-      "groupTitle": "관계",
-      "score": 83,
-      "grade": "B",
-      "status": "공개 안정",
-      "issues": [
-        "언어권별 수집 표현을 canonical node에 연결",
-        "언어권별 표현 차이와 공통점을 인사이트로 정리"
-      ],
-      "metrics": {
-        "cards": 3,
-        "verifiedCount": 3,
-        "tags": 4,
-        "doors": 6,
-        "actionOrReflect": 4,
-        "related": 6,
-        "people": 3,
-        "perspectives": 3,
-        "sourceSignal": false,
-        "sourceInsights": 0,
-        "summaryLength": 41,
-        "placeholder": false
-      },
-      "criteria": {
-        "published": {
-          "label": "공개 가능한 본문",
-          "passed": true,
-          "weight": 15,
-          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
-        },
-        "summary": {
-          "label": "요약 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
-        },
-        "doors": {
-          "label": "사용자 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
-        },
-        "cards": {
-          "label": "관점 카드",
-          "passed": true,
-          "weight": 15,
-          "action": "서로 다른 관점 카드 3개 이상 유지"
-        },
-        "verified": {
-          "label": "검증 출처",
-          "passed": true,
-          "weight": 15,
-          "action": "검증된 출처 카드 3개 이상 확보"
-        },
-        "tags": {
-          "label": "태그 연결",
-          "passed": true,
-          "weight": 10,
-          "action": "고민/생각 태그 3개 이상 연결"
-        },
-        "actionOrReflect": {
-          "label": "행동/질문",
-          "passed": true,
-          "weight": 10,
-          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
-        },
-        "related": {
-          "label": "관련 흐름",
-          "passed": true,
-          "weight": 10,
-          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
-        },
-        "people": {
-          "label": "인물/논쟁 관점",
-          "passed": true,
-          "weight": 5,
-          "action": "관련 인물 관점 2명 이상 확보"
-        },
-        "sourceSignal": {
-          "label": "언어권 관심 신호",
-          "passed": false,
-          "weight": 8,
-          "action": "언어권별 수집 표현을 canonical node에 연결"
-        },
-        "sourceInsights": {
-          "label": "언어권 표현 인사이트",
-          "passed": false,
-          "weight": 12,
-          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
-        }
-      }
-    },
-    {
-      "key": "work/quit-or-stay",
-      "href": "/work/quit-or-stay",
-      "axis": "worry",
-      "axisLabel": "고민",
-      "title": "퇴사해야 할지 버텨야 할지 고민될 때",
-      "summary": "퇴사해야 할지 버텨야 할지 모르는 마음은, 지금의 고통과 이후의 불확실성이 서로를 키울 때 생긴다.",
-      "categoryTitle": "직장 / 커리어",
-      "groupTitle": "현실 / 미래",
-      "score": 83,
-      "grade": "B",
-      "status": "공개 안정",
-      "issues": [
-        "언어권별 수집 표현을 canonical node에 연결",
-        "언어권별 표현 차이와 공통점을 인사이트로 정리"
-      ],
-      "metrics": {
-        "cards": 3,
-        "verifiedCount": 3,
-        "tags": 5,
-        "doors": 6,
-        "actionOrReflect": 4,
-        "related": 6,
-        "people": 3,
-        "perspectives": 3,
-        "sourceSignal": false,
-        "sourceInsights": 0,
-        "summaryLength": 55,
-        "placeholder": false
-      },
-      "criteria": {
-        "published": {
-          "label": "공개 가능한 본문",
-          "passed": true,
-          "weight": 15,
-          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
-        },
-        "summary": {
-          "label": "요약 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
-        },
-        "doors": {
-          "label": "사용자 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
-        },
-        "cards": {
-          "label": "관점 카드",
-          "passed": true,
-          "weight": 15,
-          "action": "서로 다른 관점 카드 3개 이상 유지"
-        },
-        "verified": {
-          "label": "검증 출처",
-          "passed": true,
-          "weight": 15,
-          "action": "검증된 출처 카드 3개 이상 확보"
-        },
-        "tags": {
-          "label": "태그 연결",
-          "passed": true,
-          "weight": 10,
-          "action": "고민/생각 태그 3개 이상 연결"
-        },
-        "actionOrReflect": {
-          "label": "행동/질문",
-          "passed": true,
-          "weight": 10,
-          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
-        },
-        "related": {
-          "label": "관련 흐름",
-          "passed": true,
-          "weight": 10,
-          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
-        },
-        "people": {
-          "label": "인물/논쟁 관점",
-          "passed": true,
-          "weight": 5,
-          "action": "관련 인물 관점 2명 이상 확보"
-        },
-        "sourceSignal": {
-          "label": "언어권 관심 신호",
-          "passed": false,
-          "weight": 8,
-          "action": "언어권별 수집 표현을 canonical node에 연결"
-        },
-        "sourceInsights": {
-          "label": "언어권 표현 인사이트",
-          "passed": false,
-          "weight": 12,
-          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
-        }
-      }
-    },
     {
       "key": "work/unrecognized",
       "href": "/work/unrecognized",
@@ -4698,6 +3213,104 @@
       }
     },
     {
+      "key": "love/cant-read-them",
+      "href": "/love/cant-read-them",
+      "axis": "worry",
+      "axisLabel": "고민",
+      "title": "상대 마음을 모를 때",
+      "summary": "상대의 마음은 내가 들여다볼 수 없는 영역인데, 그 빈칸을 내 불안이 제멋대로 채워 넣는 상태.",
+      "categoryTitle": "연애 / 짝사랑",
+      "groupTitle": "관계",
+      "score": 90,
+      "grade": "A",
+      "status": "강함",
+      "issues": [
+        "언어권별 표현 차이와 공통점을 인사이트로 정리"
+      ],
+      "metrics": {
+        "cards": 3,
+        "verifiedCount": 3,
+        "tags": 4,
+        "doors": 7,
+        "actionOrReflect": 4,
+        "related": 6,
+        "people": 3,
+        "perspectives": 3,
+        "sourceSignal": true,
+        "sourceInsights": 0,
+        "summaryLength": 53,
+        "placeholder": false
+      },
+      "criteria": {
+        "published": {
+          "label": "공개 가능한 본문",
+          "passed": true,
+          "weight": 15,
+          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
+        },
+        "summary": {
+          "label": "요약 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
+        },
+        "doors": {
+          "label": "사용자 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
+        },
+        "cards": {
+          "label": "관점 카드",
+          "passed": true,
+          "weight": 15,
+          "action": "서로 다른 관점 카드 3개 이상 유지"
+        },
+        "verified": {
+          "label": "검증 출처",
+          "passed": true,
+          "weight": 15,
+          "action": "검증된 출처 카드 3개 이상 확보"
+        },
+        "tags": {
+          "label": "태그 연결",
+          "passed": true,
+          "weight": 10,
+          "action": "고민/생각 태그 3개 이상 연결"
+        },
+        "actionOrReflect": {
+          "label": "행동/질문",
+          "passed": true,
+          "weight": 10,
+          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
+        },
+        "related": {
+          "label": "관련 흐름",
+          "passed": true,
+          "weight": 10,
+          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
+        },
+        "people": {
+          "label": "인물/논쟁 관점",
+          "passed": true,
+          "weight": 5,
+          "action": "관련 인물 관점 2명 이상 확보"
+        },
+        "sourceSignal": {
+          "label": "언어권 관심 신호",
+          "passed": true,
+          "weight": 8,
+          "action": "언어권별 수집 표현을 canonical node에 연결"
+        },
+        "sourceInsights": {
+          "label": "언어권 표현 인사이트",
+          "passed": false,
+          "weight": 12,
+          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
+        }
+      }
+    },
+    {
       "key": "love/attachment-anxiety",
       "href": "/love/attachment-anxiety",
       "axis": "worry",
@@ -4724,6 +3337,104 @@
         "sourceSignal": true,
         "sourceInsights": 0,
         "summaryLength": 85,
+        "placeholder": false
+      },
+      "criteria": {
+        "published": {
+          "label": "공개 가능한 본문",
+          "passed": true,
+          "weight": 15,
+          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
+        },
+        "summary": {
+          "label": "요약 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
+        },
+        "doors": {
+          "label": "사용자 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
+        },
+        "cards": {
+          "label": "관점 카드",
+          "passed": true,
+          "weight": 15,
+          "action": "서로 다른 관점 카드 3개 이상 유지"
+        },
+        "verified": {
+          "label": "검증 출처",
+          "passed": true,
+          "weight": 15,
+          "action": "검증된 출처 카드 3개 이상 확보"
+        },
+        "tags": {
+          "label": "태그 연결",
+          "passed": true,
+          "weight": 10,
+          "action": "고민/생각 태그 3개 이상 연결"
+        },
+        "actionOrReflect": {
+          "label": "행동/질문",
+          "passed": true,
+          "weight": 10,
+          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
+        },
+        "related": {
+          "label": "관련 흐름",
+          "passed": true,
+          "weight": 10,
+          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
+        },
+        "people": {
+          "label": "인물/논쟁 관점",
+          "passed": true,
+          "weight": 5,
+          "action": "관련 인물 관점 2명 이상 확보"
+        },
+        "sourceSignal": {
+          "label": "언어권 관심 신호",
+          "passed": true,
+          "weight": 8,
+          "action": "언어권별 수집 표현을 canonical node에 연결"
+        },
+        "sourceInsights": {
+          "label": "언어권 표현 인사이트",
+          "passed": false,
+          "weight": 12,
+          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
+        }
+      }
+    },
+    {
+      "key": "love/relationship-boredom",
+      "href": "/love/relationship-boredom",
+      "axis": "worry",
+      "axisLabel": "고민",
+      "title": "권태기와 연애 현타가 왔을 때",
+      "summary": "권태기와 연애 현타는 사랑이 끝났다는 증거일 수도 있지만, 설렘이 줄어든 뒤 관계를 어떤 방식으로 돌볼지 묻는 신호일 수도 있다.",
+      "categoryTitle": "연애 / 짝사랑",
+      "groupTitle": "관계",
+      "score": 90,
+      "grade": "A",
+      "status": "강함",
+      "issues": [
+        "언어권별 표현 차이와 공통점을 인사이트로 정리"
+      ],
+      "metrics": {
+        "cards": 3,
+        "verifiedCount": 3,
+        "tags": 6,
+        "doors": 6,
+        "actionOrReflect": 4,
+        "related": 6,
+        "people": 3,
+        "perspectives": 3,
+        "sourceSignal": true,
+        "sourceInsights": 0,
+        "summaryLength": 72,
         "placeholder": false
       },
       "criteria": {
@@ -4992,6 +3703,104 @@
       }
     },
     {
+      "key": "breakup/right-after",
+      "href": "/breakup/right-after",
+      "axis": "worry",
+      "axisLabel": "고민",
+      "title": "이별 직후 무너질 때",
+      "summary": "이별 직후의 무너짐은, 함께였던 미래를 한꺼번에 잃었기 때문이다.",
+      "categoryTitle": "이별 / 실연",
+      "groupTitle": "관계",
+      "score": 90,
+      "grade": "A",
+      "status": "강함",
+      "issues": [
+        "언어권별 표현 차이와 공통점을 인사이트로 정리"
+      ],
+      "metrics": {
+        "cards": 3,
+        "verifiedCount": 3,
+        "tags": 5,
+        "doors": 4,
+        "actionOrReflect": 3,
+        "related": 6,
+        "people": 3,
+        "perspectives": 3,
+        "sourceSignal": true,
+        "sourceInsights": 0,
+        "summaryLength": 36,
+        "placeholder": false
+      },
+      "criteria": {
+        "published": {
+          "label": "공개 가능한 본문",
+          "passed": true,
+          "weight": 15,
+          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
+        },
+        "summary": {
+          "label": "요약 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
+        },
+        "doors": {
+          "label": "사용자 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
+        },
+        "cards": {
+          "label": "관점 카드",
+          "passed": true,
+          "weight": 15,
+          "action": "서로 다른 관점 카드 3개 이상 유지"
+        },
+        "verified": {
+          "label": "검증 출처",
+          "passed": true,
+          "weight": 15,
+          "action": "검증된 출처 카드 3개 이상 확보"
+        },
+        "tags": {
+          "label": "태그 연결",
+          "passed": true,
+          "weight": 10,
+          "action": "고민/생각 태그 3개 이상 연결"
+        },
+        "actionOrReflect": {
+          "label": "행동/질문",
+          "passed": true,
+          "weight": 10,
+          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
+        },
+        "related": {
+          "label": "관련 흐름",
+          "passed": true,
+          "weight": 10,
+          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
+        },
+        "people": {
+          "label": "인물/논쟁 관점",
+          "passed": true,
+          "weight": 5,
+          "action": "관련 인물 관점 2명 이상 확보"
+        },
+        "sourceSignal": {
+          "label": "언어권 관심 신호",
+          "passed": true,
+          "weight": 8,
+          "action": "언어권별 수집 표현을 canonical node에 연결"
+        },
+        "sourceInsights": {
+          "label": "언어권 표현 인사이트",
+          "passed": false,
+          "weight": 12,
+          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
+        }
+      }
+    },
+    {
       "key": "breakup/lingering",
       "href": "/breakup/lingering",
       "axis": "worry",
@@ -5018,6 +3827,104 @@
         "sourceSignal": true,
         "sourceInsights": 0,
         "summaryLength": 63,
+        "placeholder": false
+      },
+      "criteria": {
+        "published": {
+          "label": "공개 가능한 본문",
+          "passed": true,
+          "weight": 15,
+          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
+        },
+        "summary": {
+          "label": "요약 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
+        },
+        "doors": {
+          "label": "사용자 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
+        },
+        "cards": {
+          "label": "관점 카드",
+          "passed": true,
+          "weight": 15,
+          "action": "서로 다른 관점 카드 3개 이상 유지"
+        },
+        "verified": {
+          "label": "검증 출처",
+          "passed": true,
+          "weight": 15,
+          "action": "검증된 출처 카드 3개 이상 확보"
+        },
+        "tags": {
+          "label": "태그 연결",
+          "passed": true,
+          "weight": 10,
+          "action": "고민/생각 태그 3개 이상 연결"
+        },
+        "actionOrReflect": {
+          "label": "행동/질문",
+          "passed": true,
+          "weight": 10,
+          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
+        },
+        "related": {
+          "label": "관련 흐름",
+          "passed": true,
+          "weight": 10,
+          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
+        },
+        "people": {
+          "label": "인물/논쟁 관점",
+          "passed": true,
+          "weight": 5,
+          "action": "관련 인물 관점 2명 이상 확보"
+        },
+        "sourceSignal": {
+          "label": "언어권 관심 신호",
+          "passed": true,
+          "weight": 8,
+          "action": "언어권별 수집 표현을 canonical node에 연결"
+        },
+        "sourceInsights": {
+          "label": "언어권 표현 인사이트",
+          "passed": false,
+          "weight": 12,
+          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
+        }
+      }
+    },
+    {
+      "key": "breakup/obsession",
+      "href": "/breakup/obsession",
+      "axis": "worry",
+      "axisLabel": "고민",
+      "title": "집착을 끊고 싶을 때",
+      "summary": "집착은 '의지가 약해서'가 아니라, 내 손 밖의 것을 내 것이라 붙들고 있는 마음의 습관이다 — 끊는 게 아니라 풀어내는 것.",
+      "categoryTitle": "이별 / 실연",
+      "groupTitle": "관계",
+      "score": 90,
+      "grade": "A",
+      "status": "강함",
+      "issues": [
+        "언어권별 표현 차이와 공통점을 인사이트로 정리"
+      ],
+      "metrics": {
+        "cards": 3,
+        "verifiedCount": 3,
+        "tags": 4,
+        "doors": 7,
+        "actionOrReflect": 4,
+        "related": 6,
+        "people": 3,
+        "perspectives": 3,
+        "sourceSignal": true,
+        "sourceInsights": 0,
+        "summaryLength": 70,
         "placeholder": false
       },
       "criteria": {
@@ -5188,6 +4095,300 @@
       }
     },
     {
+      "key": "breakup/reunion",
+      "href": "/breakup/reunion",
+      "axis": "worry",
+      "axisLabel": "고민",
+      "title": "재회해야 할지 고민될 때",
+      "summary": "재회 고민은 그 사람이 그리운 마음과, 다시 만나도 같은 이유로 무너질지 모른다는 두려움이 동시에 붙잡는 상태다.",
+      "categoryTitle": "이별 / 실연",
+      "groupTitle": "관계",
+      "score": 90,
+      "grade": "A",
+      "status": "강함",
+      "issues": [
+        "언어권별 표현 차이와 공통점을 인사이트로 정리"
+      ],
+      "metrics": {
+        "cards": 3,
+        "verifiedCount": 3,
+        "tags": 5,
+        "doors": 6,
+        "actionOrReflect": 4,
+        "related": 6,
+        "people": 3,
+        "perspectives": 3,
+        "sourceSignal": true,
+        "sourceInsights": 0,
+        "summaryLength": 63,
+        "placeholder": false
+      },
+      "criteria": {
+        "published": {
+          "label": "공개 가능한 본문",
+          "passed": true,
+          "weight": 15,
+          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
+        },
+        "summary": {
+          "label": "요약 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
+        },
+        "doors": {
+          "label": "사용자 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
+        },
+        "cards": {
+          "label": "관점 카드",
+          "passed": true,
+          "weight": 15,
+          "action": "서로 다른 관점 카드 3개 이상 유지"
+        },
+        "verified": {
+          "label": "검증 출처",
+          "passed": true,
+          "weight": 15,
+          "action": "검증된 출처 카드 3개 이상 확보"
+        },
+        "tags": {
+          "label": "태그 연결",
+          "passed": true,
+          "weight": 10,
+          "action": "고민/생각 태그 3개 이상 연결"
+        },
+        "actionOrReflect": {
+          "label": "행동/질문",
+          "passed": true,
+          "weight": 10,
+          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
+        },
+        "related": {
+          "label": "관련 흐름",
+          "passed": true,
+          "weight": 10,
+          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
+        },
+        "people": {
+          "label": "인물/논쟁 관점",
+          "passed": true,
+          "weight": 5,
+          "action": "관련 인물 관점 2명 이상 확보"
+        },
+        "sourceSignal": {
+          "label": "언어권 관심 신호",
+          "passed": true,
+          "weight": 8,
+          "action": "언어권별 수집 표현을 canonical node에 연결"
+        },
+        "sourceInsights": {
+          "label": "언어권 표현 인사이트",
+          "passed": false,
+          "weight": 12,
+          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
+        }
+      }
+    },
+    {
+      "key": "breakup/ex-contact",
+      "href": "/breakup/ex-contact",
+      "axis": "worry",
+      "axisLabel": "고민",
+      "title": "전 애인 연락이 흔들릴 때",
+      "summary": "끝났다고 생각했는데 이름 하나, 알림 하나에 마음이 다시 과거로 끌려가는 상태.",
+      "categoryTitle": "이별 / 실연",
+      "groupTitle": "관계",
+      "score": 90,
+      "grade": "A",
+      "status": "강함",
+      "issues": [
+        "언어권별 표현 차이와 공통점을 인사이트로 정리"
+      ],
+      "metrics": {
+        "cards": 3,
+        "verifiedCount": 3,
+        "tags": 4,
+        "doors": 6,
+        "actionOrReflect": 4,
+        "related": 6,
+        "people": 3,
+        "perspectives": 3,
+        "sourceSignal": true,
+        "sourceInsights": 0,
+        "summaryLength": 44,
+        "placeholder": false
+      },
+      "criteria": {
+        "published": {
+          "label": "공개 가능한 본문",
+          "passed": true,
+          "weight": 15,
+          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
+        },
+        "summary": {
+          "label": "요약 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
+        },
+        "doors": {
+          "label": "사용자 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
+        },
+        "cards": {
+          "label": "관점 카드",
+          "passed": true,
+          "weight": 15,
+          "action": "서로 다른 관점 카드 3개 이상 유지"
+        },
+        "verified": {
+          "label": "검증 출처",
+          "passed": true,
+          "weight": 15,
+          "action": "검증된 출처 카드 3개 이상 확보"
+        },
+        "tags": {
+          "label": "태그 연결",
+          "passed": true,
+          "weight": 10,
+          "action": "고민/생각 태그 3개 이상 연결"
+        },
+        "actionOrReflect": {
+          "label": "행동/질문",
+          "passed": true,
+          "weight": 10,
+          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
+        },
+        "related": {
+          "label": "관련 흐름",
+          "passed": true,
+          "weight": 10,
+          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
+        },
+        "people": {
+          "label": "인물/논쟁 관점",
+          "passed": true,
+          "weight": 5,
+          "action": "관련 인물 관점 2명 이상 확보"
+        },
+        "sourceSignal": {
+          "label": "언어권 관심 신호",
+          "passed": true,
+          "weight": 8,
+          "action": "언어권별 수집 표현을 canonical node에 연결"
+        },
+        "sourceInsights": {
+          "label": "언어권 표현 인사이트",
+          "passed": false,
+          "weight": 12,
+          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
+        }
+      }
+    },
+    {
+      "key": "self-esteem/self-hate",
+      "href": "/self-esteem/self-hate",
+      "axis": "worry",
+      "axisLabel": "고민",
+      "title": "나를 싫어할 때",
+      "summary": "자기혐오는 '내가 못났다'는 사실이 아니라, 나에 대한 가혹한 판결을 내가 계속 사실로 믿는 마음이다.",
+      "categoryTitle": "자존감",
+      "groupTitle": "자아 / 마음",
+      "score": 90,
+      "grade": "A",
+      "status": "강함",
+      "issues": [
+        "언어권별 표현 차이와 공통점을 인사이트로 정리"
+      ],
+      "metrics": {
+        "cards": 3,
+        "verifiedCount": 3,
+        "tags": 3,
+        "doors": 7,
+        "actionOrReflect": 4,
+        "related": 6,
+        "people": 3,
+        "perspectives": 3,
+        "sourceSignal": true,
+        "sourceInsights": 0,
+        "summaryLength": 57,
+        "placeholder": false
+      },
+      "criteria": {
+        "published": {
+          "label": "공개 가능한 본문",
+          "passed": true,
+          "weight": 15,
+          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
+        },
+        "summary": {
+          "label": "요약 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
+        },
+        "doors": {
+          "label": "사용자 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
+        },
+        "cards": {
+          "label": "관점 카드",
+          "passed": true,
+          "weight": 15,
+          "action": "서로 다른 관점 카드 3개 이상 유지"
+        },
+        "verified": {
+          "label": "검증 출처",
+          "passed": true,
+          "weight": 15,
+          "action": "검증된 출처 카드 3개 이상 확보"
+        },
+        "tags": {
+          "label": "태그 연결",
+          "passed": true,
+          "weight": 10,
+          "action": "고민/생각 태그 3개 이상 연결"
+        },
+        "actionOrReflect": {
+          "label": "행동/질문",
+          "passed": true,
+          "weight": 10,
+          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
+        },
+        "related": {
+          "label": "관련 흐름",
+          "passed": true,
+          "weight": 10,
+          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
+        },
+        "people": {
+          "label": "인물/논쟁 관점",
+          "passed": true,
+          "weight": 5,
+          "action": "관련 인물 관점 2명 이상 확보"
+        },
+        "sourceSignal": {
+          "label": "언어권 관심 신호",
+          "passed": true,
+          "weight": 8,
+          "action": "언어권별 수집 표현을 canonical node에 연결"
+        },
+        "sourceInsights": {
+          "label": "언어권 표현 인사이트",
+          "passed": false,
+          "weight": 12,
+          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
+        }
+      }
+    },
+    {
       "key": "self-esteem/comparing",
       "href": "/self-esteem/comparing",
       "axis": "worry",
@@ -5286,6 +4487,202 @@
       }
     },
     {
+      "key": "self-esteem/cant-accept-praise",
+      "href": "/self-esteem/cant-accept-praise",
+      "axis": "worry",
+      "axisLabel": "고민",
+      "title": "칭찬을 못 받아들일 때",
+      "summary": "칭찬을 못 받아들이는 건 겸손이 아니라, 내 가치를 정할 권한을 남의 입에 맡겨버린 상태다.",
+      "categoryTitle": "자존감",
+      "groupTitle": "자아 / 마음",
+      "score": 90,
+      "grade": "A",
+      "status": "강함",
+      "issues": [
+        "언어권별 표현 차이와 공통점을 인사이트로 정리"
+      ],
+      "metrics": {
+        "cards": 3,
+        "verifiedCount": 3,
+        "tags": 3,
+        "doors": 7,
+        "actionOrReflect": 4,
+        "related": 6,
+        "people": 3,
+        "perspectives": 3,
+        "sourceSignal": true,
+        "sourceInsights": 0,
+        "summaryLength": 51,
+        "placeholder": false
+      },
+      "criteria": {
+        "published": {
+          "label": "공개 가능한 본문",
+          "passed": true,
+          "weight": 15,
+          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
+        },
+        "summary": {
+          "label": "요약 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
+        },
+        "doors": {
+          "label": "사용자 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
+        },
+        "cards": {
+          "label": "관점 카드",
+          "passed": true,
+          "weight": 15,
+          "action": "서로 다른 관점 카드 3개 이상 유지"
+        },
+        "verified": {
+          "label": "검증 출처",
+          "passed": true,
+          "weight": 15,
+          "action": "검증된 출처 카드 3개 이상 확보"
+        },
+        "tags": {
+          "label": "태그 연결",
+          "passed": true,
+          "weight": 10,
+          "action": "고민/생각 태그 3개 이상 연결"
+        },
+        "actionOrReflect": {
+          "label": "행동/질문",
+          "passed": true,
+          "weight": 10,
+          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
+        },
+        "related": {
+          "label": "관련 흐름",
+          "passed": true,
+          "weight": 10,
+          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
+        },
+        "people": {
+          "label": "인물/논쟁 관점",
+          "passed": true,
+          "weight": 5,
+          "action": "관련 인물 관점 2명 이상 확보"
+        },
+        "sourceSignal": {
+          "label": "언어권 관심 신호",
+          "passed": true,
+          "weight": 8,
+          "action": "언어권별 수집 표현을 canonical node에 연결"
+        },
+        "sourceInsights": {
+          "label": "언어권 표현 인사이트",
+          "passed": false,
+          "weight": 12,
+          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
+        }
+      }
+    },
+    {
+      "key": "self-esteem/falling-behind",
+      "href": "/self-esteem/falling-behind",
+      "axis": "worry",
+      "axisLabel": "고민",
+      "title": "나만 뒤처지는 것 같을 때",
+      "summary": "남과 같은 트랙을 달린다고 착각하며, 내 속도를 남의 시계로 재는 초조함.",
+      "categoryTitle": "자존감",
+      "groupTitle": "자아 / 마음",
+      "score": 90,
+      "grade": "A",
+      "status": "강함",
+      "issues": [
+        "언어권별 표현 차이와 공통점을 인사이트로 정리"
+      ],
+      "metrics": {
+        "cards": 3,
+        "verifiedCount": 3,
+        "tags": 3,
+        "doors": 7,
+        "actionOrReflect": 4,
+        "related": 6,
+        "people": 3,
+        "perspectives": 3,
+        "sourceSignal": true,
+        "sourceInsights": 0,
+        "summaryLength": 41,
+        "placeholder": false
+      },
+      "criteria": {
+        "published": {
+          "label": "공개 가능한 본문",
+          "passed": true,
+          "weight": 15,
+          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
+        },
+        "summary": {
+          "label": "요약 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
+        },
+        "doors": {
+          "label": "사용자 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
+        },
+        "cards": {
+          "label": "관점 카드",
+          "passed": true,
+          "weight": 15,
+          "action": "서로 다른 관점 카드 3개 이상 유지"
+        },
+        "verified": {
+          "label": "검증 출처",
+          "passed": true,
+          "weight": 15,
+          "action": "검증된 출처 카드 3개 이상 확보"
+        },
+        "tags": {
+          "label": "태그 연결",
+          "passed": true,
+          "weight": 10,
+          "action": "고민/생각 태그 3개 이상 연결"
+        },
+        "actionOrReflect": {
+          "label": "행동/질문",
+          "passed": true,
+          "weight": 10,
+          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
+        },
+        "related": {
+          "label": "관련 흐름",
+          "passed": true,
+          "weight": 10,
+          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
+        },
+        "people": {
+          "label": "인물/논쟁 관점",
+          "passed": true,
+          "weight": 5,
+          "action": "관련 인물 관점 2명 이상 확보"
+        },
+        "sourceSignal": {
+          "label": "언어권 관심 신호",
+          "passed": true,
+          "weight": 8,
+          "action": "언어권별 수집 표현을 canonical node에 연결"
+        },
+        "sourceInsights": {
+          "label": "언어권 표현 인사이트",
+          "passed": false,
+          "weight": 12,
+          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
+        }
+      }
+    },
+    {
       "key": "self-esteem/low-self-esteem",
       "href": "/self-esteem/low-self-esteem",
       "axis": "worry",
@@ -5312,6 +4709,202 @@
         "sourceSignal": true,
         "sourceInsights": 0,
         "summaryLength": 50,
+        "placeholder": false
+      },
+      "criteria": {
+        "published": {
+          "label": "공개 가능한 본문",
+          "passed": true,
+          "weight": 15,
+          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
+        },
+        "summary": {
+          "label": "요약 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
+        },
+        "doors": {
+          "label": "사용자 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
+        },
+        "cards": {
+          "label": "관점 카드",
+          "passed": true,
+          "weight": 15,
+          "action": "서로 다른 관점 카드 3개 이상 유지"
+        },
+        "verified": {
+          "label": "검증 출처",
+          "passed": true,
+          "weight": 15,
+          "action": "검증된 출처 카드 3개 이상 확보"
+        },
+        "tags": {
+          "label": "태그 연결",
+          "passed": true,
+          "weight": 10,
+          "action": "고민/생각 태그 3개 이상 연결"
+        },
+        "actionOrReflect": {
+          "label": "행동/질문",
+          "passed": true,
+          "weight": 10,
+          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
+        },
+        "related": {
+          "label": "관련 흐름",
+          "passed": true,
+          "weight": 10,
+          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
+        },
+        "people": {
+          "label": "인물/논쟁 관점",
+          "passed": true,
+          "weight": 5,
+          "action": "관련 인물 관점 2명 이상 확보"
+        },
+        "sourceSignal": {
+          "label": "언어권 관심 신호",
+          "passed": true,
+          "weight": 8,
+          "action": "언어권별 수집 표현을 canonical node에 연결"
+        },
+        "sourceInsights": {
+          "label": "언어권 표현 인사이트",
+          "passed": false,
+          "weight": 12,
+          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
+        }
+      }
+    },
+    {
+      "key": "self-esteem/dating-self-esteem",
+      "href": "/self-esteem/dating-self-esteem",
+      "axis": "worry",
+      "axisLabel": "고민",
+      "title": "자존감 낮은 연애를 할 때",
+      "summary": "연애가 사랑의 장소가 아니라 내 가치가 계속 시험받는 장소처럼 느껴지는 상태.",
+      "categoryTitle": "자존감",
+      "groupTitle": "자아 / 마음",
+      "score": 90,
+      "grade": "A",
+      "status": "강함",
+      "issues": [
+        "언어권별 표현 차이와 공통점을 인사이트로 정리"
+      ],
+      "metrics": {
+        "cards": 4,
+        "verifiedCount": 4,
+        "tags": 3,
+        "doors": 6,
+        "actionOrReflect": 4,
+        "related": 6,
+        "people": 4,
+        "perspectives": 4,
+        "sourceSignal": true,
+        "sourceInsights": 0,
+        "summaryLength": 43,
+        "placeholder": false
+      },
+      "criteria": {
+        "published": {
+          "label": "공개 가능한 본문",
+          "passed": true,
+          "weight": 15,
+          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
+        },
+        "summary": {
+          "label": "요약 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
+        },
+        "doors": {
+          "label": "사용자 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
+        },
+        "cards": {
+          "label": "관점 카드",
+          "passed": true,
+          "weight": 15,
+          "action": "서로 다른 관점 카드 3개 이상 유지"
+        },
+        "verified": {
+          "label": "검증 출처",
+          "passed": true,
+          "weight": 15,
+          "action": "검증된 출처 카드 3개 이상 확보"
+        },
+        "tags": {
+          "label": "태그 연결",
+          "passed": true,
+          "weight": 10,
+          "action": "고민/생각 태그 3개 이상 연결"
+        },
+        "actionOrReflect": {
+          "label": "행동/질문",
+          "passed": true,
+          "weight": 10,
+          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
+        },
+        "related": {
+          "label": "관련 흐름",
+          "passed": true,
+          "weight": 10,
+          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
+        },
+        "people": {
+          "label": "인물/논쟁 관점",
+          "passed": true,
+          "weight": 5,
+          "action": "관련 인물 관점 2명 이상 확보"
+        },
+        "sourceSignal": {
+          "label": "언어권 관심 신호",
+          "passed": true,
+          "weight": 8,
+          "action": "언어권별 수집 표현을 canonical node에 연결"
+        },
+        "sourceInsights": {
+          "label": "언어권 표현 인사이트",
+          "passed": false,
+          "weight": 12,
+          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
+        }
+      }
+    },
+    {
+      "key": "relationships/hurtful-words",
+      "href": "/relationships/hurtful-words",
+      "axis": "worry",
+      "axisLabel": "고민",
+      "title": "상처받은 말이 잊히지 않을 때",
+      "summary": "들은 말이 사실인지와 상관없이, 그 말에 '계속 곱씹을 권한'을 내가 내어주고 있을 때 생기는 통증.",
+      "categoryTitle": "인간관계",
+      "groupTitle": "관계",
+      "score": 90,
+      "grade": "A",
+      "status": "강함",
+      "issues": [
+        "언어권별 표현 차이와 공통점을 인사이트로 정리"
+      ],
+      "metrics": {
+        "cards": 3,
+        "verifiedCount": 3,
+        "tags": 4,
+        "doors": 7,
+        "actionOrReflect": 4,
+        "related": 6,
+        "people": 3,
+        "perspectives": 3,
+        "sourceSignal": true,
+        "sourceInsights": 0,
+        "summaryLength": 56,
         "placeholder": false
       },
       "criteria": {
@@ -5678,6 +5271,300 @@
       }
     },
     {
+      "key": "relationships/people-pleasing",
+      "href": "/relationships/people-pleasing",
+      "axis": "worry",
+      "axisLabel": "고민",
+      "title": "눈치 보는 성격을 고치고 싶을 때",
+      "summary": "눈치 보는 성격은 배려가 많아서만 생기지 않는다. 거절당할까 봐 내 기준을 계속 뒤로 미루는 습관이 굳어질 때 마음이 지친다.",
+      "categoryTitle": "인간관계",
+      "groupTitle": "관계",
+      "score": 90,
+      "grade": "A",
+      "status": "강함",
+      "issues": [
+        "언어권별 표현 차이와 공통점을 인사이트로 정리"
+      ],
+      "metrics": {
+        "cards": 3,
+        "verifiedCount": 3,
+        "tags": 6,
+        "doors": 6,
+        "actionOrReflect": 4,
+        "related": 6,
+        "people": 3,
+        "perspectives": 3,
+        "sourceSignal": true,
+        "sourceInsights": 0,
+        "summaryLength": 70,
+        "placeholder": false
+      },
+      "criteria": {
+        "published": {
+          "label": "공개 가능한 본문",
+          "passed": true,
+          "weight": 15,
+          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
+        },
+        "summary": {
+          "label": "요약 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
+        },
+        "doors": {
+          "label": "사용자 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
+        },
+        "cards": {
+          "label": "관점 카드",
+          "passed": true,
+          "weight": 15,
+          "action": "서로 다른 관점 카드 3개 이상 유지"
+        },
+        "verified": {
+          "label": "검증 출처",
+          "passed": true,
+          "weight": 15,
+          "action": "검증된 출처 카드 3개 이상 확보"
+        },
+        "tags": {
+          "label": "태그 연결",
+          "passed": true,
+          "weight": 10,
+          "action": "고민/생각 태그 3개 이상 연결"
+        },
+        "actionOrReflect": {
+          "label": "행동/질문",
+          "passed": true,
+          "weight": 10,
+          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
+        },
+        "related": {
+          "label": "관련 흐름",
+          "passed": true,
+          "weight": 10,
+          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
+        },
+        "people": {
+          "label": "인물/논쟁 관점",
+          "passed": true,
+          "weight": 5,
+          "action": "관련 인물 관점 2명 이상 확보"
+        },
+        "sourceSignal": {
+          "label": "언어권 관심 신호",
+          "passed": true,
+          "weight": 8,
+          "action": "언어권별 수집 표현을 canonical node에 연결"
+        },
+        "sourceInsights": {
+          "label": "언어권 표현 인사이트",
+          "passed": false,
+          "weight": 12,
+          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
+        }
+      }
+    },
+    {
+      "key": "relationships/relationship-burnout",
+      "href": "/relationships/relationship-burnout",
+      "axis": "worry",
+      "axisLabel": "고민",
+      "title": "인간관계 현타가 올 때",
+      "summary": "인간관계 현타는 사람이 싫어져서만 오지 않는다. 내가 주는 만큼 돌아오지 않거나, 관계마다 역할을 연기한다고 느낄 때 마음이 꺼진다.",
+      "categoryTitle": "인간관계",
+      "groupTitle": "관계",
+      "score": 90,
+      "grade": "A",
+      "status": "강함",
+      "issues": [
+        "언어권별 표현 차이와 공통점을 인사이트로 정리"
+      ],
+      "metrics": {
+        "cards": 3,
+        "verifiedCount": 3,
+        "tags": 5,
+        "doors": 6,
+        "actionOrReflect": 4,
+        "related": 6,
+        "people": 3,
+        "perspectives": 3,
+        "sourceSignal": true,
+        "sourceInsights": 0,
+        "summaryLength": 74,
+        "placeholder": false
+      },
+      "criteria": {
+        "published": {
+          "label": "공개 가능한 본문",
+          "passed": true,
+          "weight": 15,
+          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
+        },
+        "summary": {
+          "label": "요약 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
+        },
+        "doors": {
+          "label": "사용자 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
+        },
+        "cards": {
+          "label": "관점 카드",
+          "passed": true,
+          "weight": 15,
+          "action": "서로 다른 관점 카드 3개 이상 유지"
+        },
+        "verified": {
+          "label": "검증 출처",
+          "passed": true,
+          "weight": 15,
+          "action": "검증된 출처 카드 3개 이상 확보"
+        },
+        "tags": {
+          "label": "태그 연결",
+          "passed": true,
+          "weight": 10,
+          "action": "고민/생각 태그 3개 이상 연결"
+        },
+        "actionOrReflect": {
+          "label": "행동/질문",
+          "passed": true,
+          "weight": 10,
+          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
+        },
+        "related": {
+          "label": "관련 흐름",
+          "passed": true,
+          "weight": 10,
+          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
+        },
+        "people": {
+          "label": "인물/논쟁 관점",
+          "passed": true,
+          "weight": 5,
+          "action": "관련 인물 관점 2명 이상 확보"
+        },
+        "sourceSignal": {
+          "label": "언어권 관심 신호",
+          "passed": true,
+          "weight": 8,
+          "action": "언어권별 수집 표현을 canonical node에 연결"
+        },
+        "sourceInsights": {
+          "label": "언어권 표현 인사이트",
+          "passed": false,
+          "weight": 12,
+          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
+        }
+      }
+    },
+    {
+      "key": "relationships/regret-words",
+      "href": "/relationships/regret-words",
+      "axis": "worry",
+      "axisLabel": "고민",
+      "title": "말실수 후회가 클 때",
+      "summary": "이미 뱉은 말이 계속 되감기되며, 관계 전체가 망가졌을까 봐 불안한 상태.",
+      "categoryTitle": "인간관계",
+      "groupTitle": "관계",
+      "score": 90,
+      "grade": "A",
+      "status": "강함",
+      "issues": [
+        "언어권별 표현 차이와 공통점을 인사이트로 정리"
+      ],
+      "metrics": {
+        "cards": 3,
+        "verifiedCount": 3,
+        "tags": 4,
+        "doors": 6,
+        "actionOrReflect": 4,
+        "related": 6,
+        "people": 3,
+        "perspectives": 3,
+        "sourceSignal": true,
+        "sourceInsights": 0,
+        "summaryLength": 41,
+        "placeholder": false
+      },
+      "criteria": {
+        "published": {
+          "label": "공개 가능한 본문",
+          "passed": true,
+          "weight": 15,
+          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
+        },
+        "summary": {
+          "label": "요약 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
+        },
+        "doors": {
+          "label": "사용자 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
+        },
+        "cards": {
+          "label": "관점 카드",
+          "passed": true,
+          "weight": 15,
+          "action": "서로 다른 관점 카드 3개 이상 유지"
+        },
+        "verified": {
+          "label": "검증 출처",
+          "passed": true,
+          "weight": 15,
+          "action": "검증된 출처 카드 3개 이상 확보"
+        },
+        "tags": {
+          "label": "태그 연결",
+          "passed": true,
+          "weight": 10,
+          "action": "고민/생각 태그 3개 이상 연결"
+        },
+        "actionOrReflect": {
+          "label": "행동/질문",
+          "passed": true,
+          "weight": 10,
+          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
+        },
+        "related": {
+          "label": "관련 흐름",
+          "passed": true,
+          "weight": 10,
+          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
+        },
+        "people": {
+          "label": "인물/논쟁 관점",
+          "passed": true,
+          "weight": 5,
+          "action": "관련 인물 관점 2명 이상 확보"
+        },
+        "sourceSignal": {
+          "label": "언어권 관심 신호",
+          "passed": true,
+          "weight": 8,
+          "action": "언어권별 수집 표현을 canonical node에 연결"
+        },
+        "sourceInsights": {
+          "label": "언어권 표현 인사이트",
+          "passed": false,
+          "weight": 12,
+          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
+        }
+      }
+    },
+    {
       "key": "work/dont-want-to",
       "href": "/work/dont-want-to",
       "axis": "worry",
@@ -5900,6 +5787,104 @@
         "sourceSignal": true,
         "sourceInsights": 0,
         "summaryLength": 62,
+        "placeholder": false
+      },
+      "criteria": {
+        "published": {
+          "label": "공개 가능한 본문",
+          "passed": true,
+          "weight": 15,
+          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
+        },
+        "summary": {
+          "label": "요약 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
+        },
+        "doors": {
+          "label": "사용자 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
+        },
+        "cards": {
+          "label": "관점 카드",
+          "passed": true,
+          "weight": 15,
+          "action": "서로 다른 관점 카드 3개 이상 유지"
+        },
+        "verified": {
+          "label": "검증 출처",
+          "passed": true,
+          "weight": 15,
+          "action": "검증된 출처 카드 3개 이상 확보"
+        },
+        "tags": {
+          "label": "태그 연결",
+          "passed": true,
+          "weight": 10,
+          "action": "고민/생각 태그 3개 이상 연결"
+        },
+        "actionOrReflect": {
+          "label": "행동/질문",
+          "passed": true,
+          "weight": 10,
+          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
+        },
+        "related": {
+          "label": "관련 흐름",
+          "passed": true,
+          "weight": 10,
+          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
+        },
+        "people": {
+          "label": "인물/논쟁 관점",
+          "passed": true,
+          "weight": 5,
+          "action": "관련 인물 관점 2명 이상 확보"
+        },
+        "sourceSignal": {
+          "label": "언어권 관심 신호",
+          "passed": true,
+          "weight": 8,
+          "action": "언어권별 수집 표현을 canonical node에 연결"
+        },
+        "sourceInsights": {
+          "label": "언어권 표현 인사이트",
+          "passed": false,
+          "weight": 12,
+          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
+        }
+      }
+    },
+    {
+      "key": "work/quit-or-stay",
+      "href": "/work/quit-or-stay",
+      "axis": "worry",
+      "axisLabel": "고민",
+      "title": "퇴사해야 할지 버텨야 할지 고민될 때",
+      "summary": "퇴사해야 할지 버텨야 할지 모르는 마음은, 지금의 고통과 이후의 불확실성이 서로를 키울 때 생긴다.",
+      "categoryTitle": "직장 / 커리어",
+      "groupTitle": "현실 / 미래",
+      "score": 90,
+      "grade": "A",
+      "status": "강함",
+      "issues": [
+        "언어권별 표현 차이와 공통점을 인사이트로 정리"
+      ],
+      "metrics": {
+        "cards": 3,
+        "verifiedCount": 3,
+        "tags": 5,
+        "doors": 6,
+        "actionOrReflect": 4,
+        "related": 6,
+        "people": 3,
+        "perspectives": 3,
+        "sourceSignal": true,
+        "sourceInsights": 0,
+        "summaryLength": 55,
         "placeholder": false
       },
       "criteria": {

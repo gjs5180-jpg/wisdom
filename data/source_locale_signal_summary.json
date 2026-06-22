@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T05:45:00.753Z",
+  "generatedAt": "2026-06-22T06:05:52.155Z",
   "sourceLocales": [
     "ja-JP",
     "zh-CN",
@@ -8,12 +8,12 @@
     "de-DE"
   ],
   "totals": {
-    "routes": 44,
-    "localeRows": 220,
-    "candidatePhrases": 3609,
-    "usableCandidatePhrases": 3212,
-    "reviewCandidatePhrases": 272,
-    "lowSignalCandidatePhrases": 125
+    "routes": 59,
+    "localeRows": 295,
+    "candidatePhrases": 4458,
+    "usableCandidatePhrases": 3996,
+    "reviewCandidatePhrases": 306,
+    "lowSignalCandidatePhrases": 156
   },
   "commonSignals": [
     "debate/remote-work",
@@ -21,8 +21,8 @@
     "breakup/ghosting",
     "debate/childfree",
     "study/exam-anxiety",
-    "thought/good-life",
     "meaning/meaningless",
+    "thought/good-life",
     "money/future-anxiety",
     "thought/happiness",
     "family/independence",
@@ -35,8 +35,8 @@
     "breakup/ghosting",
     "debate/childfree",
     "study/exam-anxiety",
-    "thought/good-life",
     "meaning/meaningless",
+    "thought/good-life",
     "money/future-anxiety",
     "thought/happiness",
     "family/independence",
@@ -49,8 +49,8 @@
         "key": "thought/good-life",
         "route": "/thought/good-life",
         "usableCount": 6,
-        "candidateCount": 25,
-        "clusterHintCount": 7
+        "candidateCount": 24,
+        "clusterHintCount": 6
       },
       {
         "key": "study/exam-anxiety",
@@ -81,10 +81,10 @@
         "clusterHintCount": 0
       },
       {
-        "key": "self-esteem/low-self-esteem",
-        "route": "/self-esteem/low-self-esteem",
-        "usableCount": 27,
-        "candidateCount": 31,
+        "key": "self-esteem/self-hate",
+        "route": "/self-esteem/self-hate",
+        "usableCount": 30,
+        "candidateCount": 33,
         "clusterHintCount": 0
       }
     ],
@@ -493,6 +493,118 @@
       "score": 273
     },
     {
+      "key": "breakup/ex-contact",
+      "route": "/breakup/ex-contact",
+      "slot": "breakup/ex-contact",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 13,
+          "usableCount": 12,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "元恋人から連絡 揺れる",
+            "元彼 連絡きた どうする",
+            "元カノ 連絡きた",
+            "別れた相手 連絡 心が揺れる",
+            "元カノ 連絡きた 心理",
+            "元カノ 連絡きた 対応"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "前任突然联系我怎么办",
+            "前任发消息心乱",
+            "分手后前任联系",
+            "收到前任消息怎么办"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 22,
+          "usableCount": 21,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "mi ex me escribió qué hago",
+            "contacto de mi ex me desestabiliza",
+            "ex vuelve a escribir",
+            "qué hacer si mi ex me busca",
+            "mi ex me escribió que hago",
+            "mi ex me desestabiliza"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 14,
+          "usableCount": 14,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "mon ex m'a écrit que faire",
+            "message de mon ex je suis perdu",
+            "mon ex reprend contact",
+            "que faire quand son ex revient",
+            "mon ex m'ignore que faire",
+            "mon ex m insulte que faire"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 18,
+          "usableCount": 18,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "ex meldet sich was tun",
+            "nachricht vom ex bringt mich durcheinander",
+            "ex schreibt wieder",
+            "was tun wenn ex kontakt sucht",
+            "ex meldet sich wieder was tun",
+            "ex meldet sich nicht um was tun"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 71,
+      "totalUsable": 69,
+      "totalReview": 2,
+      "totalLowSignal": 0,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "es-ES",
+          "usableCount": 21,
+          "candidateCount": 22
+        },
+        {
+          "locale": "de-DE",
+          "usableCount": 18,
+          "candidateCount": 18
+        },
+        {
+          "locale": "fr-FR",
+          "usableCount": 14,
+          "candidateCount": 14
+        }
+      ],
+      "strength": "moderate",
+      "score": 219
+    },
+    {
       "key": "breakup/ghosting",
       "route": "/breakup/ghosting",
       "slot": "breakup/ghosting",
@@ -725,6 +837,343 @@
       ],
       "strength": "very-strong",
       "score": 264
+    },
+    {
+      "key": "breakup/obsession",
+      "route": "/breakup/obsession",
+      "slot": "breakup/obsession",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 8,
+          "usableCount": 6,
+          "reviewCount": 1,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "元恋人 執着 やめたい",
+            "好きな人 執着 つらい",
+            "執着を手放す 恋愛",
+            "連絡したい 衝動",
+            "執着を手放す 恋愛 男",
+            "執着を手放す 恋愛 片思い"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "对前任执念太深",
+            "放不下执念怎么办",
+            "感情里太执着",
+            "想联系前任控制不住"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 15,
+          "usableCount": 14,
+          "reviewCount": 0,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "obsesión por mi ex",
+            "cómo dejar de obsesionarme con alguien",
+            "no puedo soltar a mi ex",
+            "impulso de escribirle a mi ex",
+            "obsesion por mi ex",
+            "tengo obsesion por mi ex"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 8,
+          "usableCount": 8,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "obsession pour mon ex",
+            "comment arrêter d'être obsédé par quelqu'un",
+            "je n'arrive pas à lâcher mon ex",
+            "envie d'écrire à mon ex",
+            "comment arreter d etre attiré par quelqu un",
+            "je n arrive pas a lacher prise avec mon ex"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 18,
+          "usableCount": 18,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "besessen von ex",
+            "wie höre ich auf an ihn zu denken",
+            "ex nicht loslassen können",
+            "drang ex zu schreiben",
+            "besessen von ex freundin",
+            "besessen von der ex meines freundes"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 53,
+      "totalUsable": 50,
+      "totalReview": 1,
+      "totalLowSignal": 2,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "de-DE",
+          "usableCount": 18,
+          "candidateCount": 18
+        },
+        {
+          "locale": "es-ES",
+          "usableCount": 14,
+          "candidateCount": 15
+        },
+        {
+          "locale": "fr-FR",
+          "usableCount": 8,
+          "candidateCount": 8
+        }
+      ],
+      "strength": "moderate",
+      "score": 200
+    },
+    {
+      "key": "breakup/reunion",
+      "route": "/breakup/reunion",
+      "slot": "breakup/reunion",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 14,
+          "usableCount": 11,
+          "reviewCount": 1,
+          "lowSignalCount": 2,
+          "clusterHints": {},
+          "topPhrases": [
+            "復縁 すべきか",
+            "元恋人 戻るべきか",
+            "復縁 迷う",
+            "別れた理由 変わらない",
+            "復縁 迷う理由",
+            "復縁 迷う 女"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 5,
+          "usableCount": 5,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "要不要复合",
+            "和前任复合好吗",
+            "复合会不会重蹈覆辙",
+            "想复合但害怕",
+            "要不要复合 dcard"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 28,
+          "usableCount": 26,
+          "reviewCount": 1,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "volver con mi ex o no",
+            "debería volver con mi ex",
+            "miedo a repetir lo mismo con mi ex",
+            "reconciliación con ex",
+            "volver con mi ex novia",
+            "quiero volver con mi ex novia"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 21,
+          "usableCount": 21,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "dois-je retourner avec mon ex",
+            "reprendre avec son ex bonne idée",
+            "peur de refaire les mêmes erreurs",
+            "se remettre avec son ex",
+            "dois je retourner avec mon ex",
+            "devrais je retourner avec mon ex"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 12,
+          "usableCount": 11,
+          "reviewCount": 0,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "soll ich zum ex zurück",
+            "wieder mit ex zusammenkommen",
+            "angst gleiche fehler zu wiederholen",
+            "ex zurück ja oder nein",
+            "soll ich ex zurücknehmen",
+            "soll ich zurück zum ex"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 80,
+      "totalUsable": 74,
+      "totalReview": 2,
+      "totalLowSignal": 4,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "es-ES",
+          "usableCount": 26,
+          "candidateCount": 28
+        },
+        {
+          "locale": "fr-FR",
+          "usableCount": 21,
+          "candidateCount": 21
+        },
+        {
+          "locale": "ja-JP",
+          "usableCount": 11,
+          "candidateCount": 14
+        }
+      ],
+      "strength": "strong",
+      "score": 224
+    },
+    {
+      "key": "breakup/right-after",
+      "route": "/breakup/right-after",
+      "slot": "breakup/right-after",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 11,
+          "usableCount": 11,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "別れた直後 つらい",
+            "失恋 直後 立ち直れない",
+            "別れた後 寂しい",
+            "失恋 何もできない",
+            "別れた直後 辛い",
+            "別れた後 寂しい 男"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 5,
+          "usableCount": 5,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "刚分手很痛苦",
+            "分手后走不出来",
+            "失恋后崩溃",
+            "分手后很想哭",
+            "分手后走不出来 dcard"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 6,
+          "usableCount": 6,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "acabo de terminar y estoy mal",
+            "cómo superar una ruptura reciente",
+            "después de una ruptura no puedo parar de llorar",
+            "primeros días después de una ruptura",
+            "como superar una ruptura reciente",
+            "primeros dias despues de una ruptura"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 8,
+          "usableCount": 8,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "rupture récente très mal",
+            "comment survivre après une rupture",
+            "je viens de rompre je souffre",
+            "premiers jours après rupture",
+            "comment survivre après une rupture amoureuse",
+            "comment survivre apres une rupture"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 5,
+          "usableCount": 5,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "frisch getrennt es tut weh",
+            "trennung gerade passiert was tun",
+            "nach trennung am boden",
+            "erste tage nach trennung",
+            "nach trennung am boden zerstört"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 35,
+      "totalUsable": 35,
+      "totalReview": 0,
+      "totalLowSignal": 0,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "ja-JP",
+          "usableCount": 11,
+          "candidateCount": 11
+        },
+        {
+          "locale": "fr-FR",
+          "usableCount": 8,
+          "candidateCount": 8
+        },
+        {
+          "locale": "es-ES",
+          "usableCount": 6,
+          "candidateCount": 6
+        }
+      ],
+      "strength": "emerging",
+      "score": 185
     },
     {
       "key": "breakup/should-contact",
@@ -2375,9 +2824,9 @@
         {
           "locale": "fr-FR",
           "candidateCount": 33,
-          "usableCount": 23,
+          "usableCount": 24,
           "reviewCount": 7,
-          "lowSignalCount": 3,
+          "lowSignalCount": 2,
           "clusterHints": {},
           "topPhrases": [
             "peur de l'abandon en couple",
@@ -2407,15 +2856,15 @@
       ],
       "localeCoverage": 5,
       "totalCandidate": 98,
-      "totalUsable": 73,
+      "totalUsable": 74,
       "totalReview": 20,
-      "totalLowSignal": 5,
+      "totalLowSignal": 4,
       "clusterHints": {},
       "totalClusterHints": 0,
       "strongestLocales": [
         {
           "locale": "fr-FR",
-          "usableCount": 23,
+          "usableCount": 24,
           "candidateCount": 33
         },
         {
@@ -2430,7 +2879,7 @@
         }
       ],
       "strength": "strong",
-      "score": 223
+      "score": 224
     },
     {
       "key": "love/cant-confess",
@@ -2546,6 +2995,118 @@
       "score": 191
     },
     {
+      "key": "love/cant-read-them",
+      "route": "/love/cant-read-them",
+      "slot": "love/cant-read-them",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 21,
+          "usableCount": 19,
+          "reviewCount": 2,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "相手の気持ちがわからない",
+            "好きな人 気持ち わからない",
+            "脈あり わからない",
+            "相手の気持ちがわからない人",
+            "相手の気持ちがわからない 障害",
+            "相手の気持ちがわからない 恋愛"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "不知道对方怎么想",
+            "喜欢的人心里怎么想",
+            "暧昧对象想什么",
+            "看不懂对方的态度"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 13,
+          "usableCount": 13,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "no sé qué siente por mí",
+            "señales mixtas en el amor",
+            "cómo saber si le gusto",
+            "no entiendo sus sentimientos",
+            "cómo saber si le gusto a alguien",
+            "cómo saber si le gusto a una chica"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 15,
+          "usableCount": 14,
+          "reviewCount": 0,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "je ne sais pas ce qu'il ressent",
+            "signes ambigus amour",
+            "comment savoir si je lui plais",
+            "je ne comprends pas ses sentiments",
+            "je ne sais pas ce qu'il.ressent pour moi",
+            "comment savoir si je lui plais par message"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 15,
+          "usableCount": 15,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "ich weiß nicht was er fühlt",
+            "gemischte signale liebe",
+            "woran erkenne ich ob er mich mag",
+            "seine gefühle nicht verstehen",
+            "ich weiß nicht was er für mich fühlt",
+            "er weiss nicht was er fühlt"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 68,
+      "totalUsable": 65,
+      "totalReview": 2,
+      "totalLowSignal": 1,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "ja-JP",
+          "usableCount": 19,
+          "candidateCount": 21
+        },
+        {
+          "locale": "de-DE",
+          "usableCount": 15,
+          "candidateCount": 15
+        },
+        {
+          "locale": "fr-FR",
+          "usableCount": 14,
+          "candidateCount": 15
+        }
+      ],
+      "strength": "moderate",
+      "score": 215
+    },
+    {
       "key": "love/impatient",
       "route": "/love/impatient",
       "slot": "love/impatient",
@@ -2652,6 +3213,118 @@
       ],
       "strength": "emerging",
       "score": 181
+    },
+    {
+      "key": "love/relationship-boredom",
+      "route": "/love/relationship-boredom",
+      "slot": "love/relationship-boredom",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 25,
+          "usableCount": 25,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "倦怠期 乗り越え方",
+            "恋愛 冷めたかも",
+            "彼氏 ときめかない",
+            "関係 マンネリ",
+            "倦怠期 乗り越え方 彼氏",
+            "倦怠期 乗り越え方 彼氏だけ"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "恋爱倦怠期怎么办",
+            "感觉不爱了怎么办",
+            "关系变平淡",
+            "没有心动了"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 19,
+          "usableCount": 19,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "crisis de pareja aburrimiento",
+            "ya no siento lo mismo por mi pareja",
+            "rutina en la relación",
+            "cómo superar una crisis de pareja",
+            "ya no siento lo mismo por mi pareja que hago",
+            "porque ya no siento lo mismo por mi pareja"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 25,
+          "usableCount": 25,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "routine dans le couple",
+            "je ne ressens plus rien couple",
+            "crise de couple que faire",
+            "ennui dans la relation",
+            "routine dans le couple que faire",
+            "monotonie dans le couple"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 6,
+          "usableCount": 6,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "beziehung langweilig geworden",
+            "ich fühle nichts mehr beziehung",
+            "beziehung krise was tun",
+            "routine in der beziehung",
+            "krise beziehung was tun",
+            "zu viel routine in der beziehung"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 79,
+      "totalUsable": 79,
+      "totalReview": 0,
+      "totalLowSignal": 0,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "ja-JP",
+          "usableCount": 25,
+          "candidateCount": 25
+        },
+        {
+          "locale": "fr-FR",
+          "usableCount": 25,
+          "candidateCount": 25
+        },
+        {
+          "locale": "es-ES",
+          "usableCount": 19,
+          "candidateCount": 19
+        }
+      ],
+      "strength": "strong",
+      "score": 229
     },
     {
       "key": "love/relationship-values",
@@ -3679,6 +4352,107 @@
       "score": 202
     },
     {
+      "key": "relationships/hurtful-words",
+      "route": "/relationships/hurtful-words",
+      "slot": "relationships/hurtful-words",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "傷つく言葉 忘れられない",
+            "言われたこと 思い出してつらい",
+            "ひどい言葉 引きずる",
+            "言葉の傷 癒えない"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "被人说的话忘不了",
+            "伤人的话一直想起",
+            "一句话让我很受伤",
+            "语言伤害怎么走出来"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 4,
+          "usableCount": 3,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "no puedo olvidar palabras hirientes",
+            "me duele lo que me dijo",
+            "cómo superar palabras que duelen"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 4,
+          "usableCount": 2,
+          "reviewCount": 0,
+          "lowSignalCount": 2,
+          "clusterHints": {},
+          "topPhrases": [
+            "ses mots me font encore mal",
+            "comment oublier une phrase blessante"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "verletzende worte vergessen",
+            "was jemand gesagt hat tut noch weh",
+            "verletzende aussage loslassen",
+            "worte die nicht aus dem kopf gehen"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 20,
+      "totalUsable": 17,
+      "totalReview": 1,
+      "totalLowSignal": 2,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "ja-JP",
+          "usableCount": 4,
+          "candidateCount": 4
+        },
+        {
+          "locale": "zh-CN",
+          "usableCount": 4,
+          "candidateCount": 4
+        },
+        {
+          "locale": "de-DE",
+          "usableCount": 4,
+          "candidateCount": 4
+        }
+      ],
+      "strength": "emerging",
+      "score": 167
+    },
+    {
       "key": "relationships/lonely-but-prefer-alone",
       "route": "/relationships/lonely-but-prefer-alone",
       "slot": "relationships/lonely-but-prefer-alone",
@@ -3785,6 +4559,448 @@
       ],
       "strength": "emerging",
       "score": 179
+    },
+    {
+      "key": "relationships/people-pleasing",
+      "route": "/relationships/people-pleasing",
+      "slot": "relationships/people-pleasing",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 11,
+          "usableCount": 9,
+          "reviewCount": 2,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "人の顔色をうかがう やめたい",
+            "嫌われるのが怖くて断れない",
+            "いい人をやめたい",
+            "人に合わせすぎる",
+            "人の顔色を伺う やめたい",
+            "人に合わせすぎる 言い換え"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "总是看别人脸色",
+            "害怕被讨厌不敢拒绝",
+            "讨好型人格怎么办",
+            "总是迎合别人很累"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 22,
+          "usableCount": 19,
+          "reviewCount": 2,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "dejar de complacer a los demás",
+            "miedo a caer mal",
+            "no sé decir que no",
+            "personalidad complaciente",
+            "dejar de complacer a los demas",
+            "yo no sé decir que no"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 14,
+          "usableCount": 11,
+          "reviewCount": 1,
+          "lowSignalCount": 2,
+          "clusterHints": {},
+          "topPhrases": [
+            "arrêter de faire plaisir à tout le monde",
+            "peur de déplaire",
+            "je ne sais pas dire non",
+            "personnalité complaisante",
+            "peur de déplaire aux autres",
+            "je ne sais pas dire non aux hommes"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 23,
+          "usableCount": 19,
+          "reviewCount": 3,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "es allen recht machen aufhören",
+            "angst nicht gemocht zu werden",
+            "ich kann nicht nein sagen",
+            "people pleasing deutsch",
+            "aufhören es allen recht machen zu wollen",
+            "angst nicht mehr gemocht zu werden"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 74,
+      "totalUsable": 62,
+      "totalReview": 8,
+      "totalLowSignal": 4,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "de-DE",
+          "usableCount": 19,
+          "candidateCount": 23
+        },
+        {
+          "locale": "es-ES",
+          "usableCount": 19,
+          "candidateCount": 22
+        },
+        {
+          "locale": "fr-FR",
+          "usableCount": 11,
+          "candidateCount": 14
+        }
+      ],
+      "strength": "moderate",
+      "score": 212
+    },
+    {
+      "key": "relationships/regret-words",
+      "route": "/relationships/regret-words",
+      "slot": "relationships/regret-words",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 9,
+          "usableCount": 8,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "失言 後悔",
+            "言い過ぎた 後悔",
+            "変なこと言ったかも 不安",
+            "あの一言 後悔",
+            "失言 後悔 職場",
+            "失言 後悔 切り替え"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "说错话后悔",
+            "说话太过分后悔",
+            "担心自己说错话",
+            "一句话后悔很久"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 7,
+          "usableCount": 7,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "me arrepiento de lo que dije",
+            "dije algo mal y me preocupa",
+            "ansiedad por haber dicho algo",
+            "cómo arreglar una metida de pata",
+            "no me arrepiento de lo que dije en ingles",
+            "me arrepiento cuando dije que te odiaba para siempre"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 7,
+          "usableCount": 6,
+          "reviewCount": 0,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "je regrette ce que j'ai dit",
+            "j'ai dit quelque chose de mal",
+            "anxiété après avoir parlé",
+            "comment réparer une parole maladroite",
+            "si j ai dit quelque chose de mal",
+            "est ce que j ai dit quelque chose de mal"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 5,
+          "usableCount": 5,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "ich bereue was ich gesagt habe",
+            "etwas falsches gesagt angst",
+            "peinliche aussage bereuen",
+            "wie entschuldige ich mich nach falschen worten",
+            "angst etwas falsches gesagt zu haben"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 32,
+      "totalUsable": 30,
+      "totalReview": 1,
+      "totalLowSignal": 1,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "ja-JP",
+          "usableCount": 8,
+          "candidateCount": 9
+        },
+        {
+          "locale": "es-ES",
+          "usableCount": 7,
+          "candidateCount": 7
+        },
+        {
+          "locale": "fr-FR",
+          "usableCount": 6,
+          "candidateCount": 7
+        }
+      ],
+      "strength": "emerging",
+      "score": 180
+    },
+    {
+      "key": "relationships/relationship-burnout",
+      "route": "/relationships/relationship-burnout",
+      "slot": "relationships/relationship-burnout",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 30,
+          "usableCount": 24,
+          "reviewCount": 5,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "人間関係 疲れた",
+            "人付き合い しんどい",
+            "友達関係 疲れる",
+            "誰にも会いたくない",
+            "人間関係 疲れた ひとりに なりたい",
+            "人間関係 疲れた友達"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "人际关系很累",
+            "不想社交了",
+            "和朋友相处很疲惫",
+            "关系消耗我"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 13,
+          "usableCount": 13,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "cansancio de las relaciones",
+            "estoy agotado de la gente",
+            "no quiero socializar",
+            "las amistades me consumen",
+            "cansancio despues de las relaciones sexuales",
+            "cansancio relaciones sexuales"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 13,
+          "usableCount": 10,
+          "reviewCount": 2,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "fatigue relationnelle",
+            "je suis épuisé par les gens",
+            "je ne veux voir personne",
+            "les relations me vident",
+            "je ne veux voir personne à la maternité",
+            "je ne veux plus voir personne"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 18,
+          "usableCount": 14,
+          "reviewCount": 3,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "beziehungen erschöpfen mich",
+            "menschen sind mir zu viel",
+            "keine lust auf soziale kontakte",
+            "soziale erschöpfung",
+            "menschen werden mir zu viel",
+            "keine lust auf soziale kontakte schwangerschaft"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 78,
+      "totalUsable": 65,
+      "totalReview": 10,
+      "totalLowSignal": 3,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "ja-JP",
+          "usableCount": 24,
+          "candidateCount": 30
+        },
+        {
+          "locale": "de-DE",
+          "usableCount": 14,
+          "candidateCount": 18
+        },
+        {
+          "locale": "es-ES",
+          "usableCount": 13,
+          "candidateCount": 13
+        }
+      ],
+      "strength": "moderate",
+      "score": 215
+    },
+    {
+      "key": "self-esteem/cant-accept-praise",
+      "route": "/self-esteem/cant-accept-praise",
+      "slot": "self-esteem/cant-accept-praise",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "褒められても受け取れない",
+            "褒め言葉 信じられない",
+            "自分に自信がない 褒められる",
+            "褒められると怖い"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "听到夸奖不相信",
+            "不会接受赞美",
+            "被夸就不自在",
+            "为什么不能接受表扬"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 5,
+          "usableCount": 4,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "no sé aceptar cumplidos",
+            "me incomodan los cumplidos",
+            "por qué no acepto elogios",
+            "porque me incomodan los cumplidos"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 11,
+          "usableCount": 11,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "je n'accepte pas les compliments",
+            "je ne crois pas les compliments",
+            "les compliments me mettent mal à l'aise",
+            "pourquoi je refuse les compliments",
+            "je n accepte pas les compliments",
+            "pourquoi je n accepte pas les compliments"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 5,
+          "usableCount": 5,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "ich kann komplimente nicht annehmen",
+            "ich glaube komplimente nicht",
+            "komplimente machen mich unsicher",
+            "warum kann ich lob nicht annehmen",
+            "warum kann man lob nicht annehmen"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 29,
+      "totalUsable": 28,
+      "totalReview": 1,
+      "totalLowSignal": 0,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "fr-FR",
+          "usableCount": 11,
+          "candidateCount": 11
+        },
+        {
+          "locale": "de-DE",
+          "usableCount": 5,
+          "candidateCount": 5
+        },
+        {
+          "locale": "es-ES",
+          "usableCount": 4,
+          "candidateCount": 5
+        }
+      ],
+      "strength": "emerging",
+      "score": 178
     },
     {
       "key": "self-esteem/comparing",
@@ -3899,6 +5115,226 @@
       "score": 217
     },
     {
+      "key": "self-esteem/dating-self-esteem",
+      "route": "/self-esteem/dating-self-esteem",
+      "slot": "self-esteem/dating-self-esteem",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 13,
+          "usableCount": 13,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "恋愛 自己肯定感 低い",
+            "恋人に依存 自信ない",
+            "愛される価値がない 恋愛",
+            "恋愛で自尊心が下がる",
+            "恋愛 だけ 自己肯定感 低い",
+            "自己肯定感 低い 恋愛 できない"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 5,
+          "usableCount": 5,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "恋爱中自尊很低",
+            "谈恋爱没有安全感",
+            "觉得自己不值得被爱",
+            "恋爱让自信变差",
+            "觉得自己不值得被爱dcard"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 17,
+          "usableCount": 14,
+          "reviewCount": 2,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "baja autoestima en una relación",
+            "siento que no merezco amor",
+            "mi pareja afecta mi autoestima",
+            "inseguridad en el amor",
+            "baja autoestima en una relacion",
+            "personas con baja autoestima en una relacion"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 14,
+          "usableCount": 14,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "faible estime de soi en couple",
+            "je ne mérite pas d'être aimé",
+            "mon couple détruit mon estime",
+            "insécurité amoureuse",
+            "manque de confiance en soi couple",
+            "manque de confiance en moi couple"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 5,
+          "usableCount": 5,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "geringes selbstwertgefühl in beziehung",
+            "ich verdiene keine liebe",
+            "beziehung macht mich unsicher",
+            "unsicherheit in der liebe",
+            "unsicherheit liebe sprüche"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 54,
+      "totalUsable": 51,
+      "totalReview": 2,
+      "totalLowSignal": 1,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "es-ES",
+          "usableCount": 14,
+          "candidateCount": 17
+        },
+        {
+          "locale": "fr-FR",
+          "usableCount": 14,
+          "candidateCount": 14
+        },
+        {
+          "locale": "ja-JP",
+          "usableCount": 13,
+          "candidateCount": 13
+        }
+      ],
+      "strength": "moderate",
+      "score": 201
+    },
+    {
+      "key": "self-esteem/falling-behind",
+      "route": "/self-esteem/falling-behind",
+      "slot": "self-esteem/falling-behind",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "自分だけ遅れている",
+            "周りと比べて焦る",
+            "人生 遅れている気がする",
+            "同年代 比較 つらい"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "感觉自己落后了",
+            "和同龄人比较焦虑",
+            "人生进度落后",
+            "觉得别人都比我成功"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 7,
+          "usableCount": 7,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "siento que me estoy quedando atrás",
+            "compararme con gente de mi edad",
+            "todos avanzan menos yo",
+            "ansiedad por ir tarde en la vida",
+            "siento que me estoy quedando atras",
+            "porque todos avanzan menos yo"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 9,
+          "usableCount": 9,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "j'ai l'impression d'être en retard dans la vie",
+            "me comparer aux autres âge",
+            "tout le monde avance sauf moi",
+            "peur d'être en retard",
+            "angoisse d être en retard",
+            "peur d'arriver en retard"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "ich habe das gefühl zurückzubleiben",
+            "mit gleichaltrigen vergleichen",
+            "alle kommen weiter nur ich nicht",
+            "angst im leben zu spät zu sein"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 28,
+      "totalUsable": 28,
+      "totalReview": 0,
+      "totalLowSignal": 0,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "fr-FR",
+          "usableCount": 9,
+          "candidateCount": 9
+        },
+        {
+          "locale": "es-ES",
+          "usableCount": 7,
+          "candidateCount": 7
+        },
+        {
+          "locale": "ja-JP",
+          "usableCount": 4,
+          "candidateCount": 4
+        }
+      ],
+      "strength": "emerging",
+      "score": 178
+    },
+    {
       "key": "self-esteem/low-self-esteem",
       "route": "/self-esteem/low-self-esteem",
       "slot": "self-esteem/low-self-esteem",
@@ -4010,6 +5446,120 @@
       ],
       "strength": "very-strong",
       "score": 268
+    },
+    {
+      "key": "self-esteem/self-hate",
+      "route": "/self-esteem/self-hate",
+      "slot": "self-esteem/self-hate",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 33,
+          "usableCount": 30,
+          "reviewCount": 1,
+          "lowSignalCount": 2,
+          "clusterHints": {},
+          "topPhrases": [
+            "自分が嫌い",
+            "自己嫌悪 つらい",
+            "自分を責めてしまう",
+            "自分を好きになれない",
+            "自分が嫌いすぎる",
+            "自分が嫌いになる"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 13,
+          "usableCount": 10,
+          "reviewCount": 0,
+          "lowSignalCount": 3,
+          "clusterHints": {},
+          "topPhrases": [
+            "很讨厌自己怎么办",
+            "自我厌恶",
+            "总是责备自己",
+            "无法喜欢自己",
+            "自我厌恶 日文",
+            "自我厌恶忧郁症"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 23,
+          "usableCount": 20,
+          "reviewCount": 2,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "me odio a mí mismo",
+            "no puedo quererme",
+            "me culpo por todo",
+            "cómo dejar de odiarme",
+            "me odio a mi mismo en ingles",
+            "me odio a mi mismo meme"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 18,
+          "usableCount": 16,
+          "reviewCount": 1,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "je me déteste",
+            "je n'arrive pas à m'aimer",
+            "culpabilité envers soi-même",
+            "comment arrêter de se détester",
+            "je me déteste profondément",
+            "je me déteste nuit incolore"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 16,
+          "usableCount": 15,
+          "reviewCount": 0,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "ich hasse mich selbst",
+            "ich kann mich nicht mögen",
+            "ich gebe mir für alles die schuld",
+            "selbsthass was tun",
+            "ich hasse mich selbst sprüche",
+            "ich hasse mich selbst so sehr"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 103,
+      "totalUsable": 91,
+      "totalReview": 4,
+      "totalLowSignal": 8,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "ja-JP",
+          "usableCount": 30,
+          "candidateCount": 33
+        },
+        {
+          "locale": "es-ES",
+          "usableCount": 20,
+          "candidateCount": 23
+        },
+        {
+          "locale": "fr-FR",
+          "usableCount": 16,
+          "candidateCount": 18
+        }
+      ],
+      "strength": "strong",
+      "score": 241
     },
     {
       "key": "study/cant-study",
@@ -4376,12 +5926,12 @@
       "locales": [
         {
           "locale": "ja-JP",
-          "candidateCount": 25,
+          "candidateCount": 24,
           "usableCount": 6,
-          "reviewCount": 17,
+          "reviewCount": 16,
           "lowSignalCount": 2,
           "clusterHints": {
-            "meaning/ikigai": 7
+            "meaning/ikigai": 6
           },
           "topPhrases": [
             "どう生きるべきか",
@@ -4456,14 +6006,14 @@
         }
       ],
       "localeCoverage": 5,
-      "totalCandidate": 152,
+      "totalCandidate": 151,
       "totalUsable": 122,
-      "totalReview": 22,
+      "totalReview": 21,
       "totalLowSignal": 8,
       "clusterHints": {
-        "meaning/ikigai": 7
+        "meaning/ikigai": 6
       },
-      "totalClusterHints": 7,
+      "totalClusterHints": 6,
       "strongestLocales": [
         {
           "locale": "es-ES",
@@ -4482,7 +6032,7 @@
         }
       ],
       "strength": "very-strong",
-      "score": 314
+      "score": 308
     },
     {
       "key": "thought/happiness",
@@ -5158,6 +6708,117 @@
       "score": 219
     },
     {
+      "key": "work/quit-or-stay",
+      "route": "/work/quit-or-stay",
+      "slot": "work/quit-or-stay",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 17,
+          "usableCount": 13,
+          "reviewCount": 1,
+          "lowSignalCount": 3,
+          "clusterHints": {},
+          "topPhrases": [
+            "仕事 辞めるか続けるか",
+            "退職 迷う",
+            "仕事 辞めたい でも不安",
+            "会社 続けるべきか",
+            "仕事 辞めるか続けるか タロット",
+            "退職 迷う時"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "要不要辞职",
+            "辞职还是坚持",
+            "想辞职但害怕",
+            "工作该不该继续"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 5,
+          "usableCount": 5,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "dejar el trabajo o aguantar",
+            "renunciar o seguir",
+            "quiero dejar mi trabajo pero tengo miedo",
+            "debería cambiar de trabajo",
+            "deberia cambiar de trabajo"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 9,
+          "usableCount": 8,
+          "reviewCount": 0,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "quitter son travail ou rester",
+            "démissionner ou tenir",
+            "je veux quitter mon travail mais j'ai peur",
+            "dois-je changer de travail",
+            "dois je changer de travail",
+            "dois je changer de metier"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 13,
+          "usableCount": 11,
+          "reviewCount": 0,
+          "lowSignalCount": 2,
+          "clusterHints": {},
+          "topPhrases": [
+            "kündigen oder bleiben",
+            "job kündigen oder durchhalten",
+            "ich will kündigen aber habe angst",
+            "soll ich den job wechseln",
+            "job kündigen oder bleiben",
+            "mobbing kündigen oder bleiben"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 48,
+      "totalUsable": 41,
+      "totalReview": 1,
+      "totalLowSignal": 6,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "ja-JP",
+          "usableCount": 13,
+          "candidateCount": 17
+        },
+        {
+          "locale": "de-DE",
+          "usableCount": 11,
+          "candidateCount": 13
+        },
+        {
+          "locale": "fr-FR",
+          "usableCount": 8,
+          "candidateCount": 9
+        }
+      ],
+      "strength": "moderate",
+      "score": 191
+    },
+    {
       "key": "work/workplace-relationships",
       "route": "/work/workplace-relationships",
       "slot": "work/workplace-relationships",
@@ -5227,8 +6888,8 @@
         },
         {
           "locale": "de-DE",
-          "candidateCount": 31,
-          "usableCount": 29,
+          "candidateCount": 29,
+          "usableCount": 27,
           "reviewCount": 2,
           "lowSignalCount": 0,
           "clusterHints": {},
@@ -5243,8 +6904,8 @@
         }
       ],
       "localeCoverage": 5,
-      "totalCandidate": 102,
-      "totalUsable": 92,
+      "totalCandidate": 100,
+      "totalUsable": 90,
       "totalReview": 9,
       "totalLowSignal": 1,
       "clusterHints": {},
@@ -5252,8 +6913,8 @@
       "strongestLocales": [
         {
           "locale": "de-DE",
-          "usableCount": 29,
-          "candidateCount": 31
+          "usableCount": 27,
+          "candidateCount": 29
         },
         {
           "locale": "fr-FR",
@@ -5267,7 +6928,7 @@
         }
       ],
       "strength": "strong",
-      "score": 242
+      "score": 240
     }
   ]
 }

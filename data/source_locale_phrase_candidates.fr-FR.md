@@ -8,12 +8,12 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 
 ## Summary
 
-- collectedAt: 2026-06-22T05:43:35.534Z
-- nodes scanned: 44
-- candidate phrases: 903
-- usable: 800
-- review: 66
-- low-signal: 37
+- collectedAt: 2026-06-22T06:04:12.534Z
+- nodes scanned: 59
+- candidate phrases: 1093
+- usable: 978
+- review: 70
+- low-signal: 45
 
 ## Potential New Cluster Hints
 
@@ -270,9 +270,9 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 - axis: worry
 - base queries: peur de l'abandon en couple, dépendance affective, anxiété relationnelle, besoin d'être rassuré couple
 - google suggestions: 32
-- usable candidates: 23
+- usable candidates: 24
 - review candidates: 7
-- low-signal candidates: 3
+- low-signal candidates: 2
 
 ### Usable candidates
 
@@ -290,6 +290,7 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 - dépendance affective en amour
 - dépendance affective cause
 - dépendance affective amitié
+- dépendance affective comment en sortir
 - anxiété relationnelle amoureuse
 - anxiété relationnelle couple
 - anxiété relationnelle travail
@@ -312,7 +313,6 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 
 ### Low-signal candidates
 
-- dépendance affective test
 - dépendance affective en anglais
 - anxiété relationnelle test
 
@@ -1511,4 +1511,403 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 - interdiction du chatiment corporel à l école
 - la punition corporelle est à supprimer à l école
 - violence éducative ordinaire école
+
+## /love/cant-read-them
+
+- axis: worry
+- base queries: je ne sais pas ce qu'il ressent, signes ambigus amour, comment savoir si je lui plais, je ne comprends pas ses sentiments
+- google suggestions: 12
+- usable candidates: 14
+- review candidates: 0
+- low-signal candidates: 1
+
+### Usable candidates
+
+- je ne sais pas ce qu'il ressent
+- signes ambigus amour
+- comment savoir si je lui plais
+- je ne comprends pas ses sentiments
+- je ne sais pas ce qu'il.ressent pour moi
+- comment savoir si je lui plais par message
+- comment savoir si je lui plais femme
+- comment savoir si je lui plais en secret
+- comment savoir si je lui plais vraiment
+- comment savoir si je lui plais regard
+- comment savoir si je lui plais par message homme
+- comment savoir si je lui plais sans lui parler
+- comment savoir si je lui plais au travail
+- je ne comprends pas mes sentiments
+
+### Low-signal candidates
+
+- comment savoir si je lui plais test
+
+## /love/relationship-boredom
+
+- axis: worry
+- base queries: routine dans le couple, je ne ressens plus rien couple, crise de couple que faire, ennui dans la relation
+- google suggestions: 23
+- usable candidates: 25
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- routine dans le couple
+- je ne ressens plus rien couple
+- crise de couple que faire
+- ennui dans la relation
+- routine dans le couple que faire
+- monotonie dans le couple
+- routine couple au bout de combien de temps
+- routine couple ennui
+- routine couple que faire
+- routine couple à distance
+- comment lutter contre la routine dans le couple
+- je ne ressens plus rien dans mon couple
+- je ne ressens plus rien en amour
+- je ne ressens plus rien pour mon conjoint
+- toc du couple je ne ressens plus rien
+- problème de couple que faire
+- dispute de couple que faire
+- grosse crise de couple que faire
+- crise de couple faire un break
+- grosse dispute de couple que faire
+- probleme de couple islam que faire
+- crise de couple comment faire
+- ennui dans une relation
+- ennui relation amoureuse
+
+## /breakup/right-after
+
+- axis: worry
+- base queries: rupture récente très mal, comment survivre après une rupture, je viens de rompre je souffre, premiers jours après rupture
+- google suggestions: 4
+- usable candidates: 8
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- rupture récente très mal
+- comment survivre après une rupture
+- je viens de rompre je souffre
+- premiers jours après rupture
+- comment survivre après une rupture amoureuse
+- comment survivre apres une rupture
+- comment survivre à une séparation
+- les premiers jours apres une rupture
+
+## /breakup/obsession
+
+- axis: worry
+- base queries: obsession pour mon ex, comment arrêter d'être obsédé par quelqu'un, je n'arrive pas à lâcher mon ex, envie d'écrire à mon ex
+- google suggestions: 6
+- usable candidates: 8
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- obsession pour mon ex
+- comment arrêter d'être obsédé par quelqu'un
+- je n'arrive pas à lâcher mon ex
+- envie d'écrire à mon ex
+- comment arreter d etre attiré par quelqu un
+- je n arrive pas a lacher prise avec mon ex
+- j'ai envie d'écrire à mon ex
+- envie d'envoyer un message à mon ex
+
+## /breakup/reunion
+
+- axis: worry
+- base queries: dois-je retourner avec mon ex, reprendre avec son ex bonne idée, peur de refaire les mêmes erreurs, se remettre avec son ex
+- google suggestions: 18
+- usable candidates: 21
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- dois-je retourner avec mon ex
+- reprendre avec son ex bonne idée
+- peur de refaire les mêmes erreurs
+- se remettre avec son ex
+- dois je retourner avec mon ex
+- devrais je retourner avec mon ex
+- je retourne avec mon ex
+- comment savoir si je dois retourner avec mon ex
+- vais je retourner avec mon ex
+- doit on retourner avec son ex
+- revenir avec son ex bonne ou mauvaise idée
+- j'ai peur de m'attacher refaire les memes erreurs
+- se remettre avec son ex 10 ans après
+- se remettre avec son ex après 2 mois
+- se remettre avec son ex mari
+- se remettre avec son ex après plusieurs mois
+- se remettre avec son ex apres une rupture
+- se remettre avec son ex femme
+- se remettre avec son ex des années après
+- se remettre avec son ex après 2 ans
+- se remettre avec son ex mari après divorce
+
+## /breakup/ex-contact
+
+- axis: worry
+- base queries: mon ex m'a écrit que faire, message de mon ex je suis perdu, mon ex reprend contact, que faire quand son ex revient
+- google suggestions: 11
+- usable candidates: 14
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- mon ex m'a écrit que faire
+- message de mon ex je suis perdu
+- mon ex reprend contact
+- que faire quand son ex revient
+- mon ex m'ignore que faire
+- mon ex m insulte que faire
+- mon ex m espionne que faire
+- mon ex me harcèle que faire
+- mon ex reprend contact psychologie
+- mon ex reprend contact avec moi
+- mon ex reprend contact puis plus rien
+- mon ex prend contact avec ma famille
+- pourquoi mon ex reprend contact avec moi
+- que faire quand son ex veut revenir
+
+## /self-esteem/self-hate
+
+- axis: worry
+- base queries: je me déteste, je n'arrive pas à m'aimer, culpabilité envers soi-même, comment arrêter de se détester
+- google suggestions: 16
+- usable candidates: 16
+- review candidates: 1
+- low-signal candidates: 1
+
+### Usable candidates
+
+- je me déteste
+- je n'arrive pas à m'aimer
+- culpabilité envers soi-même
+- comment arrêter de se détester
+- je me déteste profondément
+- je me déteste nuit incolore
+- je me déteste physiquement
+- je me déteste physiquement et mentalement
+- je me déteste in english
+- je me déteste parole
+- je me déteste en arabe
+- je n arrive pas à m aimer
+- pourquoi je n'arrive pas à m'aimer
+- je n arrive pas à croire qu il m aime
+- culpabilité envers soi meme
+- comment arrêter de détester quelqu un
+
+### Review candidates
+
+- je me déteste citation
+
+### Low-signal candidates
+
+- je me déteste test
+
+## /self-esteem/cant-accept-praise
+
+- axis: worry
+- base queries: je n'accepte pas les compliments, je ne crois pas les compliments, les compliments me mettent mal à l'aise, pourquoi je refuse les compliments
+- google suggestions: 7
+- usable candidates: 11
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- je n'accepte pas les compliments
+- je ne crois pas les compliments
+- les compliments me mettent mal à l'aise
+- pourquoi je refuse les compliments
+- je n accepte pas les compliments
+- pourquoi je n accepte pas les compliments
+- n accepte pas les compliments
+- je n aime pas les compliments
+- je ne crois pas aux compliments
+- les compliments me mettent mal à l aise
+- pourquoi les compliments me mettent mal à l aise
+
+## /self-esteem/falling-behind
+
+- axis: worry
+- base queries: j'ai l'impression d'être en retard dans la vie, me comparer aux autres âge, tout le monde avance sauf moi, peur d'être en retard
+- google suggestions: 7
+- usable candidates: 9
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- j'ai l'impression d'être en retard dans la vie
+- me comparer aux autres âge
+- tout le monde avance sauf moi
+- peur d'être en retard
+- angoisse d être en retard
+- peur d'arriver en retard
+- rever d avoir peur d être en retard
+- j ai peur d arriver en retard
+- comment s appelle la peur d être en retard
+
+## /self-esteem/dating-self-esteem
+
+- axis: worry
+- base queries: faible estime de soi en couple, je ne mérite pas d'être aimé, mon couple détruit mon estime, insécurité amoureuse
+- google suggestions: 12
+- usable candidates: 14
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- faible estime de soi en couple
+- je ne mérite pas d'être aimé
+- mon couple détruit mon estime
+- insécurité amoureuse
+- manque de confiance en soi couple
+- manque de confiance en moi couple
+- manque d estime de soi en amour
+- manque de confiance en soi relation amoureuse
+- manque de confiance en soi amour
+- manque de confiance en soi relation
+- je ne merite pas d'etre aimé
+- je ne mérite pas d'être aimée
+- insécurité relation amoureuse
+- vaincre l'insécurité amoureuse
+
+## /relationships/hurtful-words
+
+- axis: worry
+- base queries: je n'arrive pas à oublier ses paroles blessantes, ses mots me font encore mal, comment oublier une phrase blessante, paroles qui blessent longtemps
+- google suggestions: 0
+- usable candidates: 2
+- review candidates: 0
+- low-signal candidates: 2
+
+### Usable candidates
+
+- ses mots me font encore mal
+- comment oublier une phrase blessante
+
+### Low-signal candidates
+
+- je n'arrive pas à oublier ses paroles blessantes
+- paroles qui blessent longtemps
+
+## /relationships/people-pleasing
+
+- axis: worry
+- base queries: arrêter de faire plaisir à tout le monde, peur de déplaire, je ne sais pas dire non, personnalité complaisante
+- google suggestions: 13
+- usable candidates: 11
+- review candidates: 1
+- low-signal candidates: 2
+
+### Usable candidates
+
+- arrêter de faire plaisir à tout le monde
+- peur de déplaire
+- je ne sais pas dire non
+- personnalité complaisante
+- peur de déplaire aux autres
+- je ne sais pas dire non aux hommes
+- je ne sais pas dire non au travail
+- je ne peux pas dire non
+- je ne peux pas dire non tout va bien
+- pourquoi je ne sais pas dire non
+- bref je ne sais pas dire non
+
+### Review candidates
+
+- livre je ne sais pas dire non
+
+### Low-signal candidates
+
+- je ne sais pas dire non chanson
+- je ne peux pas dire non en anglais
+
+## /relationships/relationship-burnout
+
+- axis: worry
+- base queries: fatigue relationnelle, je suis épuisé par les gens, je ne veux voir personne, les relations me vident
+- google suggestions: 11
+- usable candidates: 10
+- review candidates: 2
+- low-signal candidates: 1
+
+### Usable candidates
+
+- fatigue relationnelle
+- je suis épuisé par les gens
+- je ne veux voir personne
+- les relations me vident
+- je ne veux voir personne à la maternité
+- je ne veux plus voir personne
+- pourquoi je ne veux voir personne
+- je ne veux personne à mon enterrement
+- pourquoi je ne veux plus voir personne
+- je ne veux personne d'autre que toi
+
+### Review candidates
+
+- je ne veux plus voir personne en harley davidson
+- depression je ne veux voir personne
+
+### Low-signal candidates
+
+- je ne veux voir personne en anglais
+
+## /relationships/regret-words
+
+- axis: worry
+- base queries: je regrette ce que j'ai dit, j'ai dit quelque chose de mal, anxiété après avoir parlé, comment réparer une parole maladroite
+- google suggestions: 5
+- usable candidates: 6
+- review candidates: 0
+- low-signal candidates: 1
+
+### Usable candidates
+
+- je regrette ce que j'ai dit
+- j'ai dit quelque chose de mal
+- anxiété après avoir parlé
+- comment réparer une parole maladroite
+- si j ai dit quelque chose de mal
+- est ce que j ai dit quelque chose de mal
+
+### Low-signal candidates
+
+- j ai dit quelque chose de mal en anglais
+
+## /work/quit-or-stay
+
+- axis: worry
+- base queries: quitter son travail ou rester, démissionner ou tenir, je veux quitter mon travail mais j'ai peur, dois-je changer de travail
+- google suggestions: 7
+- usable candidates: 8
+- review candidates: 0
+- low-signal candidates: 1
+
+### Usable candidates
+
+- quitter son travail ou rester
+- démissionner ou tenir
+- je veux quitter mon travail mais j'ai peur
+- dois-je changer de travail
+- dois je changer de travail
+- dois je changer de metier
+- signes que je dois changer de travail
+- savoir si je dois changer de travail
+
+### Low-signal candidates
+
+- dois je changer de travail test
 

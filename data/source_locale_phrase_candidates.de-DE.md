@@ -8,12 +8,12 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 
 ## Summary
 
-- collectedAt: 2026-06-22T05:44:44.976Z
-- nodes scanned: 44
-- candidate phrases: 817
-- usable: 745
-- review: 46
-- low-signal: 26
+- collectedAt: 2026-06-22T06:05:31.661Z
+- nodes scanned: 59
+- candidate phrases: 982
+- usable: 898
+- review: 52
+- low-signal: 32
 
 ## Potential New Cluster Hints
 
@@ -546,6 +546,7 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 - usable candidates: 9
 - review candidates: 0
 - low-signal candidates: 0
+- fetch errors: 1
 
 ### Usable candidates
 
@@ -742,10 +743,11 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 
 - axis: worry
 - base queries: schwierige kollegen, toxisches arbeitsklima, konflikte am arbeitsplatz, soziale angst bei der arbeit
-- google suggestions: 30
-- usable candidates: 29
+- google suggestions: 28
+- usable candidates: 27
 - review candidates: 2
 - low-signal candidates: 0
+- fetch errors: 1
 
 ### Usable candidates
 
@@ -1449,4 +1451,372 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 - körperstrafe in der schule pro contra
 - ist körperliche bestrafung wirksam
 - disziplin ohne strafe schule
+
+## /love/cant-read-them
+
+- axis: worry
+- base queries: ich weiß nicht was er fühlt, gemischte signale liebe, woran erkenne ich ob er mich mag, seine gefühle nicht verstehen
+- google suggestions: 12
+- usable candidates: 15
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- ich weiß nicht was er fühlt
+- gemischte signale liebe
+- woran erkenne ich ob er mich mag
+- seine gefühle nicht verstehen
+- ich weiß nicht was er für mich fühlt
+- er weiss nicht was er fühlt
+- woran erkenne ich ob er mich wirklich mag
+- woran erkenne ich beim schreiben ob er mich mag
+- woran erkenne ich ob sie mich mag
+- woran erkenne ich ob jemand mich mag
+- woran erkenne ich dass er mich mag körpersprache
+- woran erkenne ich ob mein hund mich mag
+- woran erkenne ich ob ein mann mich mag
+- woran erkenne ich ob meine katze mich mag
+- woran erkenne ich ob eine frau mich mag
+
+## /love/relationship-boredom
+
+- axis: worry
+- base queries: beziehung langweilig geworden, ich fühle nichts mehr beziehung, beziehung krise was tun, routine in der beziehung
+- google suggestions: 5
+- usable candidates: 6
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- beziehung langweilig geworden
+- ich fühle nichts mehr beziehung
+- beziehung krise was tun
+- routine in der beziehung
+- krise beziehung was tun
+- zu viel routine in der beziehung
+
+## /breakup/right-after
+
+- axis: worry
+- base queries: frisch getrennt es tut weh, trennung gerade passiert was tun, nach trennung am boden, erste tage nach trennung
+- google suggestions: 3
+- usable candidates: 5
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- frisch getrennt es tut weh
+- trennung gerade passiert was tun
+- nach trennung am boden
+- erste tage nach trennung
+- nach trennung am boden zerstört
+
+## /breakup/obsession
+
+- axis: worry
+- base queries: besessen von ex, wie höre ich auf an ihn zu denken, ex nicht loslassen können, drang ex zu schreiben
+- google suggestions: 18
+- usable candidates: 18
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- besessen von ex
+- wie höre ich auf an ihn zu denken
+- ex nicht loslassen können
+- drang ex zu schreiben
+- besessen von ex freundin
+- besessen von der ex meines freundes
+- besessen exorzismus
+- besessen von alpha bruder meines ex
+- wie höre ich auf ständig an ihn zu denken
+- wie höre ich auf an jemanden zu denken
+- wie höre ich auf an essen zu denken
+- wie höre ich auf an sie zu denken
+- wie höre ich auf an etwas zu denken
+- wie höre ich auf zu denken
+- wie höre ich auf an meinen ex zu denken
+- ex partner nicht loslassen können
+- ex freundin nicht loslassen können
+- ex freund nicht loslassen können
+
+## /breakup/reunion
+
+- axis: worry
+- base queries: soll ich zum ex zurück, wieder mit ex zusammenkommen, angst gleiche fehler zu wiederholen, ex zurück ja oder nein
+- google suggestions: 10
+- usable candidates: 11
+- review candidates: 0
+- low-signal candidates: 1
+
+### Usable candidates
+
+- soll ich zum ex zurück
+- wieder mit ex zusammenkommen
+- angst gleiche fehler zu wiederholen
+- ex zurück ja oder nein
+- soll ich ex zurücknehmen
+- soll ich zurück zum ex
+- wahrscheinlichkeit wieder mit dem ex zusammenkommen
+- mit ex partner wieder zusammenkommen
+- sollte man wieder mit dem ex zusammenkommen
+- mit ex freund wieder zusammenkommen
+- kann man wieder mit dem ex zusammenkommen
+
+### Low-signal candidates
+
+- soll ich meinen ex zurücknehmen test
+
+## /breakup/ex-contact
+
+- axis: worry
+- base queries: ex meldet sich was tun, nachricht vom ex bringt mich durcheinander, ex schreibt wieder, was tun wenn ex kontakt sucht
+- google suggestions: 16
+- usable candidates: 18
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- ex meldet sich was tun
+- nachricht vom ex bringt mich durcheinander
+- ex schreibt wieder
+- was tun wenn ex kontakt sucht
+- ex meldet sich wieder was tun
+- ex meldet sich nicht um was tun
+- ex meldet sich immer wieder was tun
+- ex partner meldet sich nicht um was tun
+- was tun damit ex sich meldet
+- ex schreibt wieder wie reagieren
+- ex schreibt immer wieder
+- ex schreibt mir wieder
+- ex schreibt plötzlich wieder
+- ex freundin schreibt wieder
+- ex schreibt dann wieder nicht
+- ex affäre schreibt wieder
+- ex schreibt mir immer wieder
+- ex freund schreibt immer wieder
+
+## /self-esteem/self-hate
+
+- axis: worry
+- base queries: ich hasse mich selbst, ich kann mich nicht mögen, ich gebe mir für alles die schuld, selbsthass was tun
+- google suggestions: 15
+- usable candidates: 15
+- review candidates: 0
+- low-signal candidates: 1
+
+### Usable candidates
+
+- ich hasse mich selbst
+- ich kann mich nicht mögen
+- ich gebe mir für alles die schuld
+- selbsthass was tun
+- ich hasse mich selbst sprüche
+- ich hasse mich selbst so sehr
+- ich hasse mich selbst was tun
+- ich hasse mich selbst und mein leben
+- ich hasse mich selbst in english
+- ich hasse mich selbst dafür
+- ich hasse mich selbst meaning
+- hasse ich mich selbst teste dich
+- ich gebe mir die schuld an der trennung
+- ich gebe mir die schuld an allem
+- ich gebe mir die schuld
+
+### Low-signal candidates
+
+- ich hasse mich selbst test
+
+## /self-esteem/cant-accept-praise
+
+- axis: worry
+- base queries: ich kann komplimente nicht annehmen, ich glaube komplimente nicht, komplimente machen mich unsicher, warum kann ich lob nicht annehmen
+- google suggestions: 3
+- usable candidates: 5
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- ich kann komplimente nicht annehmen
+- ich glaube komplimente nicht
+- komplimente machen mich unsicher
+- warum kann ich lob nicht annehmen
+- warum kann man lob nicht annehmen
+
+## /self-esteem/falling-behind
+
+- axis: worry
+- base queries: ich habe das gefühl zurückzubleiben, mit gleichaltrigen vergleichen, alle kommen weiter nur ich nicht, angst im leben zu spät zu sein
+- google suggestions: 0
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- ich habe das gefühl zurückzubleiben
+- mit gleichaltrigen vergleichen
+- alle kommen weiter nur ich nicht
+- angst im leben zu spät zu sein
+
+## /self-esteem/dating-self-esteem
+
+- axis: worry
+- base queries: geringes selbstwertgefühl in beziehung, ich verdiene keine liebe, beziehung macht mich unsicher, unsicherheit in der liebe
+- google suggestions: 4
+- usable candidates: 5
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- geringes selbstwertgefühl in beziehung
+- ich verdiene keine liebe
+- beziehung macht mich unsicher
+- unsicherheit in der liebe
+- unsicherheit liebe sprüche
+
+## /relationships/hurtful-words
+
+- axis: worry
+- base queries: verletzende worte vergessen, was jemand gesagt hat tut noch weh, verletzende aussage loslassen, worte die nicht aus dem kopf gehen
+- google suggestions: 0
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- verletzende worte vergessen
+- was jemand gesagt hat tut noch weh
+- verletzende aussage loslassen
+- worte die nicht aus dem kopf gehen
+
+## /relationships/people-pleasing
+
+- axis: worry
+- base queries: es allen recht machen aufhören, angst nicht gemocht zu werden, ich kann nicht nein sagen, people pleasing deutsch
+- google suggestions: 22
+- usable candidates: 19
+- review candidates: 3
+- low-signal candidates: 1
+
+### Usable candidates
+
+- es allen recht machen aufhören
+- angst nicht gemocht zu werden
+- ich kann nicht nein sagen
+- people pleasing deutsch
+- aufhören es allen recht machen zu wollen
+- angst nicht mehr gemocht zu werden
+- ständig angst nicht gemocht zu werden
+- woher kommt die angst nicht gemocht zu werden
+- ich kann nicht nein sagen psychologie
+- ich kann nicht nein sagen lied
+- ich kann einfach nicht nein sagen
+- da kann ich nicht nein sagen
+- da kann ich nicht nein sagen nadja einzmann interpretation
+- da kann ich nicht nein sagen nadja einzmann
+- ich kann nicht nein zu essen sagen
+- people pleasing deutscher begriff
+- people pleasing trauma deutsch
+- stop people pleasing deutsch
+- people pleasing synonym deutsch
+
+### Review candidates
+
+- ich kann nicht nein sagen buch
+- people pleasing deutsch buch
+- people pleasing definition deutsch
+
+### Low-signal candidates
+
+- ich kann nicht nein sagen englisch
+
+## /relationships/relationship-burnout
+
+- axis: worry
+- base queries: beziehungen erschöpfen mich, menschen sind mir zu viel, keine lust auf soziale kontakte, soziale erschöpfung
+- google suggestions: 17
+- usable candidates: 14
+- review candidates: 3
+- low-signal candidates: 1
+
+### Usable candidates
+
+- beziehungen erschöpfen mich
+- menschen sind mir zu viel
+- keine lust auf soziale kontakte
+- soziale erschöpfung
+- menschen werden mir zu viel
+- keine lust auf soziale kontakte schwangerschaft
+- keine lust mehr auf soziale kontakte
+- plötzlich keine lust auf soziale kontakte
+- soziale erschöpfung adhs
+- soziale erschöpfung introvertiert
+- soziale erschöpfung reizüberflutung und innerer rückzug
+- soziale erschöpfung was tun
+- erschöpfung soziale kontakte
+- erschöpfung soziale arbeit
+
+### Review candidates
+
+- depression keine lust auf soziale kontakte
+- soziale erschöpfung symptome
+- soziale erschöpfung definition
+
+### Low-signal candidates
+
+- soziale erschöpfung englisch
+
+## /relationships/regret-words
+
+- axis: worry
+- base queries: ich bereue was ich gesagt habe, etwas falsches gesagt angst, peinliche aussage bereuen, wie entschuldige ich mich nach falschen worten
+- google suggestions: 2
+- usable candidates: 5
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- ich bereue was ich gesagt habe
+- etwas falsches gesagt angst
+- peinliche aussage bereuen
+- wie entschuldige ich mich nach falschen worten
+- angst etwas falsches gesagt zu haben
+
+## /work/quit-or-stay
+
+- axis: worry
+- base queries: kündigen oder bleiben, job kündigen oder durchhalten, ich will kündigen aber habe angst, soll ich den job wechseln
+- google suggestions: 12
+- usable candidates: 11
+- review candidates: 0
+- low-signal candidates: 2
+
+### Usable candidates
+
+- kündigen oder bleiben
+- job kündigen oder durchhalten
+- ich will kündigen aber habe angst
+- soll ich den job wechseln
+- job kündigen oder bleiben
+- mobbing kündigen oder bleiben
+- soll ich kündigen oder bleiben eine entscheidungshilfe
+- soll ich kündigen oder bleiben standard
+- frust im job kündigen oder bleiben
+- soll ich den job wechseln oder nicht
+- woher weiß ich ob ich den job wechseln soll
+
+### Low-signal candidates
+
+- kündigen oder bleiben test
+- soll ich den job wechseln test
 

@@ -8,12 +8,12 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 
 ## Summary
 
-- collectedAt: 2026-06-22T03:45:27.325Z
-- nodes scanned: 44
-- candidate phrases: 249
-- usable: 231
+- collectedAt: 2026-06-22T06:01:33.122Z
+- nodes scanned: 59
+- candidate phrases: 321
+- usable: 300
 - review: 9
-- low-signal: 9
+- low-signal: 12
 
 ## Potential New Cluster Hints
 
@@ -836,4 +836,259 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 - 学校体罚 是否应该
 - 教师惩戒权 体罚
 - 学生纪律 不体罚
+
+## /love/cant-read-them
+
+- axis: worry
+- base queries: 不知道对方怎么想, 喜欢的人心里怎么想, 暧昧对象想什么, 看不懂对方的态度
+- google suggestions: 0
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 不知道对方怎么想
+- 喜欢的人心里怎么想
+- 暧昧对象想什么
+- 看不懂对方的态度
+
+## /love/relationship-boredom
+
+- axis: worry
+- base queries: 恋爱倦怠期怎么办, 感觉不爱了怎么办, 关系变平淡, 没有心动了
+- google suggestions: 0
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 恋爱倦怠期怎么办
+- 感觉不爱了怎么办
+- 关系变平淡
+- 没有心动了
+
+## /breakup/right-after
+
+- axis: worry
+- base queries: 刚分手很痛苦, 分手后走不出来, 失恋后崩溃, 分手后很想哭
+- google suggestions: 2
+- usable candidates: 5
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 刚分手很痛苦
+- 分手后走不出来
+- 失恋后崩溃
+- 分手后很想哭
+- 分手后走不出来 dcard
+
+## /breakup/obsession
+
+- axis: worry
+- base queries: 对前任执念太深, 放不下执念怎么办, 感情里太执着, 想联系前任控制不住
+- google suggestions: 0
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 对前任执念太深
+- 放不下执念怎么办
+- 感情里太执着
+- 想联系前任控制不住
+
+## /breakup/reunion
+
+- axis: worry
+- base queries: 要不要复合, 和前任复合好吗, 复合会不会重蹈覆辙, 想复合但害怕
+- google suggestions: 1
+- usable candidates: 5
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 要不要复合
+- 和前任复合好吗
+- 复合会不会重蹈覆辙
+- 想复合但害怕
+- 要不要复合 dcard
+
+## /breakup/ex-contact
+
+- axis: worry
+- base queries: 前任突然联系我怎么办, 前任发消息心乱, 分手后前任联系, 收到前任消息怎么办
+- google suggestions: 0
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 前任突然联系我怎么办
+- 前任发消息心乱
+- 分手后前任联系
+- 收到前任消息怎么办
+
+## /self-esteem/self-hate
+
+- axis: worry
+- base queries: 很讨厌自己怎么办, 自我厌恶, 总是责备自己, 无法喜欢自己
+- google suggestions: 11
+- usable candidates: 10
+- review candidates: 0
+- low-signal candidates: 3
+
+### Usable candidates
+
+- 很讨厌自己怎么办
+- 自我厌恶
+- 总是责备自己
+- 无法喜欢自己
+- 自我厌恶 日文
+- 自我厌恶忧郁症
+- 自我厌恶dcard
+- 自我厌恶 意思
+- 自我厌恶 ptt
+- 自我厌恶 同义词
+
+### Low-signal candidates
+
+- 自我厌恶测试
+- 自我厌恶 英文
+- 自我厌恶 日语
+
+## /self-esteem/cant-accept-praise
+
+- axis: worry
+- base queries: 听到夸奖不相信, 不会接受赞美, 被夸就不自在, 为什么不能接受表扬
+- google suggestions: 0
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 听到夸奖不相信
+- 不会接受赞美
+- 被夸就不自在
+- 为什么不能接受表扬
+
+## /self-esteem/falling-behind
+
+- axis: worry
+- base queries: 感觉自己落后了, 和同龄人比较焦虑, 人生进度落后, 觉得别人都比我成功
+- google suggestions: 0
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 感觉自己落后了
+- 和同龄人比较焦虑
+- 人生进度落后
+- 觉得别人都比我成功
+
+## /self-esteem/dating-self-esteem
+
+- axis: worry
+- base queries: 恋爱中自尊很低, 谈恋爱没有安全感, 觉得自己不值得被爱, 恋爱让自信变差
+- google suggestions: 3
+- usable candidates: 5
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 恋爱中自尊很低
+- 谈恋爱没有安全感
+- 觉得自己不值得被爱
+- 恋爱让自信变差
+- 觉得自己不值得被爱dcard
+
+## /relationships/hurtful-words
+
+- axis: worry
+- base queries: 被人说的话忘不了, 伤人的话一直想起, 一句话让我很受伤, 语言伤害怎么走出来
+- google suggestions: 0
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 被人说的话忘不了
+- 伤人的话一直想起
+- 一句话让我很受伤
+- 语言伤害怎么走出来
+
+## /relationships/people-pleasing
+
+- axis: worry
+- base queries: 总是看别人脸色, 害怕被讨厌不敢拒绝, 讨好型人格怎么办, 总是迎合别人很累
+- google suggestions: 1
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 总是看别人脸色
+- 害怕被讨厌不敢拒绝
+- 讨好型人格怎么办
+- 总是迎合别人很累
+
+## /relationships/relationship-burnout
+
+- axis: worry
+- base queries: 人际关系很累, 不想社交了, 和朋友相处很疲惫, 关系消耗我
+- google suggestions: 0
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 人际关系很累
+- 不想社交了
+- 和朋友相处很疲惫
+- 关系消耗我
+
+## /relationships/regret-words
+
+- axis: worry
+- base queries: 说错话后悔, 说话太过分后悔, 担心自己说错话, 一句话后悔很久
+- google suggestions: 0
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 说错话后悔
+- 说话太过分后悔
+- 担心自己说错话
+- 一句话后悔很久
+
+## /work/quit-or-stay
+
+- axis: worry
+- base queries: 要不要辞职, 辞职还是坚持, 想辞职但害怕, 工作该不该继续
+- google suggestions: 1
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 要不要辞职
+- 辞职还是坚持
+- 想辞职但害怕
+- 工作该不该继续
 

@@ -8,16 +8,16 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 
 ## Summary
 
-- collectedAt: 2026-06-22T03:44:29.417Z
-- nodes scanned: 44
-- candidate phrases: 850
-- usable: 704
-- review: 108
-- low-signal: 38
+- collectedAt: 2026-06-22T06:00:17.093Z
+- nodes scanned: 59
+- candidate phrases: 1066
+- usable: 897
+- review: 122
+- low-signal: 47
 
 ## Potential New Cluster Hints
 
-- `meaning/ikigai`: 7
+- `meaning/ikigai`: 6
 - `study/school-refusal`: 1
 
 ## /thought/good-life
@@ -26,9 +26,9 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 - base queries: 良い人生とは, どう生きるべきか, 生きがいとは, 人生 何を大切にする
 - google suggestions: 23
 - usable candidates: 6
-- review candidates: 17
+- review candidates: 16
 - low-signal candidates: 2
-- cluster hints: meaning/ikigai 7
+- cluster hints: meaning/ikigai 6
 
 ### Usable candidates
 
@@ -56,7 +56,7 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 - 生き甲斐とは何か
 - 生きがいとはなにか
 - 生きがいとは 本
-- 生きがいとは何
+- 生甲斐とは
 
 ### Low-signal candidates
 
@@ -1520,4 +1520,436 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 - 体罰 禁止 教育
 - 体罰 の 禁止 学校 教育 法
 - 教育 令 体罰 禁止
+
+## /love/cant-read-them
+
+- axis: worry
+- base queries: 相手の気持ちがわからない, 好きな人 気持ち わからない, 脈あり わからない, 相手の本音 知りたい
+- google suggestions: 20
+- usable candidates: 19
+- review candidates: 2
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 相手の気持ちがわからない
+- 好きな人 気持ち わからない
+- 脈あり わからない
+- 相手の気持ちがわからない人
+- 相手の気持ちがわからない 障害
+- 相手の気持ちがわからない 恋愛
+- 相手の気持ちがわからない 病気
+- 相手の気持ちがわからない 曲
+- 相手の気持ちが分からない
+- 相手の気持ちがわからない 発達障害
+- 相手の気持ちがわからない 恋愛ソング
+- 相手の気持ちがわからない 子供
+- 脈あり 分からない
+- 脈あり わからない 女
+- 脈あり わからない 男
+- 脈あり なし わからない
+- 脈あり 脈なし 分からない
+- 脈なし 脈あり わからない
+- line 脈あり わからない
+
+### Review candidates
+
+- 相手の本音 知りたい
+- 脈あり か わからない 知恵袋
+
+## /love/relationship-boredom
+
+- axis: worry
+- base queries: 倦怠期 乗り越え方, 恋愛 冷めたかも, 彼氏 ときめかない, 関係 マンネリ
+- google suggestions: 24
+- usable candidates: 25
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 倦怠期 乗り越え方
+- 恋愛 冷めたかも
+- 彼氏 ときめかない
+- 関係 マンネリ
+- 倦怠期 乗り越え方 彼氏
+- 倦怠期 乗り越え方 彼氏だけ
+- 倦怠期 乗り越え方 夫婦
+- 倦怠期 乗り越え方 中学生
+- 倦怠期 乗り越え方 同棲
+- 倦怠期 乗り越え方 彼女だけ
+- 倦怠期 乗り越え方 自分だけ
+- 倦怠期 乗り越え方 遠距離
+- 倦怠期 乗り越え方 高校生
+- 彼氏 ときめかない 最初から
+- 彼氏 ときめかない 結婚
+- 彼氏 ときめかないけど好き
+- 彼氏 ときめかない 落ち着く
+- 彼氏 いい人 ときめかない
+- 落ち着くけど ときめかない 彼氏
+- 人間 関係 マンネリ化
+- 人間 関係 マンネリ
+- 友人 関係 マンネリ化
+- 関係 が マンネリ化
+- マンネリ の 関係
+
+## /breakup/right-after
+
+- axis: worry
+- base queries: 別れた直後 つらい, 失恋 直後 立ち直れない, 別れた後 寂しい, 失恋 何もできない
+- google suggestions: 9
+- usable candidates: 11
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 別れた直後 つらい
+- 失恋 直後 立ち直れない
+- 別れた後 寂しい
+- 失恋 何もできない
+- 別れた直後 辛い
+- 別れた後 寂しい 男
+- 別れた後 寂しい ライン
+- 別れた後 夜 寂しい
+- 同棲 別れた後 寂しい
+- デート 別れた後 寂しい
+- 彼氏 別れた後 寂しい
+
+## /breakup/obsession
+
+- axis: worry
+- base queries: 元恋人 執着 やめたい, 好きな人 執着 つらい, 執着を手放す 恋愛, 連絡したい 衝動
+- google suggestions: 5
+- usable candidates: 6
+- review candidates: 1
+- low-signal candidates: 1
+
+### Usable candidates
+
+- 元恋人 執着 やめたい
+- 好きな人 執着 つらい
+- 執着を手放す 恋愛
+- 連絡したい 衝動
+- 執着を手放す 恋愛 男
+- 執着を手放す 恋愛 片思い
+
+### Review candidates
+
+- 執着を手放す 恋愛 本
+
+### Low-signal candidates
+
+- 執着を手放す 恋愛 スピリチュアル
+
+## /breakup/reunion
+
+- axis: worry
+- base queries: 復縁 すべきか, 元恋人 戻るべきか, 復縁 迷う, 別れた理由 変わらない
+- google suggestions: 12
+- usable candidates: 11
+- review candidates: 1
+- low-signal candidates: 2
+
+### Usable candidates
+
+- 復縁 すべきか
+- 元恋人 戻るべきか
+- 復縁 迷う
+- 別れた理由 変わらない
+- 復縁 迷う理由
+- 復縁 迷う 女
+- 復縁 迷う 男
+- 元 彼 復縁 迷う
+- 元 旦那 復縁 迷う
+- 好き だけど 復縁 迷う
+- 元カノ 復縁 迷う
+
+### Review candidates
+
+- 復縁 迷う 知恵袋
+
+### Low-signal candidates
+
+- 復縁 すべきか 占い
+- 復縁 迷う 占い
+
+## /breakup/ex-contact
+
+- axis: worry
+- base queries: 元恋人から連絡 揺れる, 元彼 連絡きた どうする, 元カノ 連絡きた, 別れた相手 連絡 心が揺れる
+- google suggestions: 11
+- usable candidates: 12
+- review candidates: 1
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 元恋人から連絡 揺れる
+- 元彼 連絡きた どうする
+- 元カノ 連絡きた
+- 別れた相手 連絡 心が揺れる
+- 元カノ 連絡きた 心理
+- 元カノ 連絡きた 対応
+- 元カノ 連絡きた 無視
+- 元カノ 連絡来た
+- 元カノ 連絡きた 返信
+- 元カノ 連絡きた 今カノ
+- 元カノ 連絡きた 復縁
+- 元カノ 連絡きたら
+
+### Review candidates
+
+- 元カノ 連絡きた 知恵袋
+
+## /self-esteem/self-hate
+
+- axis: worry
+- base queries: 自分が嫌い, 自己嫌悪 つらい, 自分を責めてしまう, 自分を好きになれない
+- google suggestions: 33
+- usable candidates: 30
+- review candidates: 1
+- low-signal candidates: 2
+
+### Usable candidates
+
+- 自分が嫌い
+- 自己嫌悪 つらい
+- 自分を責めてしまう
+- 自分を好きになれない
+- 自分が嫌いすぎる
+- 自分が嫌いになる
+- 自分が嫌い 疲れた
+- 自分が嫌い 曲
+- 自分が嫌いな人
+- 自分が嫌いすぎて泣く
+- 自分が嫌いな人は相手も嫌い
+- 自分が嫌い hsp
+- 自己嫌悪 辛い時
+- 仕事 自己嫌悪 辛い
+- 自分を責めてしまう人
+- 自分を責めてしまう 対処法
+- 自分を責めてしまう癖
+- 自分を責めてしまう時
+- 自分を責めてしまうのはなぜ
+- 自分を責めてしまう 病気
+- 自分を責めてしまう 心理
+- 自分を責めてしまう人にかける言葉
+- 自分を好きになれない君へ
+- 自分を好きになれない人は人を好きになれない
+
+### Review candidates
+
+- 自分を責めてしまう 本
+
+### Low-signal candidates
+
+- 自分が嫌い診断
+- 自分を好きになれない 診断
+
+## /self-esteem/cant-accept-praise
+
+- axis: worry
+- base queries: 褒められても受け取れない, 褒め言葉 信じられない, 自分に自信がない 褒められる, 褒められると怖い
+- google suggestions: 3
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 褒められても受け取れない
+- 褒め言葉 信じられない
+- 自分に自信がない 褒められる
+- 褒められると怖い
+
+## /self-esteem/falling-behind
+
+- axis: worry
+- base queries: 自分だけ遅れている, 周りと比べて焦る, 人生 遅れている気がする, 同年代 比較 つらい
+- google suggestions: 1
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 自分だけ遅れている
+- 周りと比べて焦る
+- 人生 遅れている気がする
+- 同年代 比較 つらい
+
+## /self-esteem/dating-self-esteem
+
+- axis: worry
+- base queries: 恋愛 自己肯定感 低い, 恋人に依存 自信ない, 愛される価値がない 恋愛, 恋愛で自尊心が下がる
+- google suggestions: 10
+- usable candidates: 13
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 恋愛 自己肯定感 低い
+- 恋人に依存 自信ない
+- 愛される価値がない 恋愛
+- 恋愛で自尊心が下がる
+- 恋愛 だけ 自己肯定感 低い
+- 自己肯定感 低い 恋愛 できない
+- 自己肯定感 低い 恋愛 男
+- 自己肯定感 低い人 恋愛
+- 自己肯定感 低い男 恋愛
+- 自己肯定感 低い女 恋愛
+- 自己肯定感 低い プライド 高い 恋愛
+- 自己肯定感 低い 恋愛 怖い
+- 自己肯定感 低い同士 恋愛
+
+## /relationships/hurtful-words
+
+- axis: worry
+- base queries: 傷つく言葉 忘れられない, 言われたこと 思い出してつらい, ひどい言葉 引きずる, 言葉の傷 癒えない
+- google suggestions: 1
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 傷つく言葉 忘れられない
+- 言われたこと 思い出してつらい
+- ひどい言葉 引きずる
+- 言葉の傷 癒えない
+
+## /relationships/people-pleasing
+
+- axis: worry
+- base queries: 人の顔色をうかがう やめたい, 嫌われるのが怖くて断れない, いい人をやめたい, 人に合わせすぎる
+- google suggestions: 9
+- usable candidates: 9
+- review candidates: 2
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 人の顔色をうかがう やめたい
+- 嫌われるのが怖くて断れない
+- いい人をやめたい
+- 人に合わせすぎる
+- 人の顔色を伺う やめたい
+- 人に合わせすぎる 言い換え
+- 人に合わせすぎる人
+- 人に合わせすぎる性格
+- 人に合わせすぎる 病気
+
+### Review candidates
+
+- 人の顔色を伺う やめたい 本
+- 人の顔色を伺う やめたい 知恵袋
+
+## /relationships/relationship-burnout
+
+- axis: worry
+- base queries: 人間関係 疲れた, 人付き合い しんどい, 友達関係 疲れる, 誰にも会いたくない
+- google suggestions: 29
+- usable candidates: 24
+- review candidates: 5
+- low-signal candidates: 1
+
+### Usable candidates
+
+- 人間関係 疲れた
+- 人付き合い しんどい
+- 友達関係 疲れる
+- 誰にも会いたくない
+- 人間関係 疲れた ひとりに なりたい
+- 人間関係 疲れた友達
+- 人間関係 疲れた 仕事
+- 人間関係 疲れた 曲
+- 人間関係 疲れた時
+- 人間関係 疲れた なんj
+- 人間関係 疲れた 学校
+- 人付き合い しんどい 仕事
+- 人付き合い しんどい 寂しい
+- 人付き合い しんどい 時
+- 人付き合い 苦手 しんどい
+- 人付き合い が しんどい 時
+- hsp 人付き合い しんどい
+- 誰にも会いたくない時
+- 誰にも会いたくない うつ
+- 誰にも会いたくない 疲れた
+- 誰にも会いたくない 話したくない
+- 誰にも会いたくない日
+- 誰にも会いたくない 家族にも
+- 誰にも会いたくない 仕事
+
+### Review candidates
+
+- 人間関係 疲れた 知恵袋
+- 人間関係 疲れた 名言
+- 人間関係 疲れた 本
+- 人付き合い しんどい 知恵袋
+- 誰にも会いたくない 知恵袋
+
+### Low-signal candidates
+
+- 誰にも会いたくない 映画
+
+## /relationships/regret-words
+
+- axis: worry
+- base queries: 失言 後悔, 言い過ぎた 後悔, 変なこと言ったかも 不安, あの一言 後悔
+- google suggestions: 7
+- usable candidates: 8
+- review candidates: 1
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 失言 後悔
+- 言い過ぎた 後悔
+- 変なこと言ったかも 不安
+- あの一言 後悔
+- 失言 後悔 職場
+- 失言 後悔 切り替え
+- 失言 後悔 立ち直る
+- 言い過ぎた 後悔 男
+
+### Review candidates
+
+- 失言 後悔 知恵袋
+
+## /work/quit-or-stay
+
+- axis: worry
+- base queries: 仕事 辞めるか続けるか, 退職 迷う, 仕事 辞めたい でも不安, 会社 続けるべきか
+- google suggestions: 16
+- usable candidates: 13
+- review candidates: 1
+- low-signal candidates: 3
+
+### Usable candidates
+
+- 仕事 辞めるか続けるか
+- 退職 迷う
+- 仕事 辞めたい でも不安
+- 会社 続けるべきか
+- 仕事 辞めるか続けるか タロット
+- 退職 迷う時
+- 退職 迷う 相談
+- 退職 迷う 理由
+- 復職 退職 迷う
+- 早期 退職 迷う
+- 休職 退職 迷う
+- 仕事 退職 迷う
+- dj あおい 退職 迷う
+
+### Review candidates
+
+- 復職 退職 迷う 知恵袋
+
+### Low-signal candidates
+
+- 仕事 辞めるか続けるか 占い 無料
+- 仕事 辞めるか続けるか 占い
+- 仕事 辞めるか続けるか 診断
 

@@ -276,6 +276,96 @@
           "slot": "debate/school-corporal-punishment",
           "axis": "debate",
           "sourceQueries": ["学校 体罰 賛成 反対", "体罰 教育 効果", "教師 懲戒 体罰 違い", "体罰 禁止 教育"]
+        },
+        {
+          "route": "/love/cant-read-them",
+          "slot": "love/cant-read-them",
+          "axis": "worry",
+          "sourceQueries": ["相手の気持ちがわからない", "好きな人 気持ち わからない", "脈あり わからない", "相手の本音 知りたい"]
+        },
+        {
+          "route": "/love/relationship-boredom",
+          "slot": "love/relationship-boredom",
+          "axis": "worry",
+          "sourceQueries": ["倦怠期 乗り越え方", "恋愛 冷めたかも", "彼氏 ときめかない", "関係 マンネリ"]
+        },
+        {
+          "route": "/breakup/right-after",
+          "slot": "breakup/right-after",
+          "axis": "worry",
+          "sourceQueries": ["別れた直後 つらい", "失恋 直後 立ち直れない", "別れた後 寂しい", "失恋 何もできない"]
+        },
+        {
+          "route": "/breakup/obsession",
+          "slot": "breakup/obsession",
+          "axis": "worry",
+          "sourceQueries": ["元恋人 執着 やめたい", "好きな人 執着 つらい", "執着を手放す 恋愛", "連絡したい 衝動"]
+        },
+        {
+          "route": "/breakup/reunion",
+          "slot": "breakup/reunion",
+          "axis": "worry",
+          "sourceQueries": ["復縁 すべきか", "元恋人 戻るべきか", "復縁 迷う", "別れた理由 変わらない"]
+        },
+        {
+          "route": "/breakup/ex-contact",
+          "slot": "breakup/ex-contact",
+          "axis": "worry",
+          "sourceQueries": ["元恋人から連絡 揺れる", "元彼 連絡きた どうする", "元カノ 連絡きた", "別れた相手 連絡 心が揺れる"]
+        },
+        {
+          "route": "/self-esteem/self-hate",
+          "slot": "self-esteem/self-hate",
+          "axis": "worry",
+          "sourceQueries": ["自分が嫌い", "自己嫌悪 つらい", "自分を責めてしまう", "自分を好きになれない"]
+        },
+        {
+          "route": "/self-esteem/cant-accept-praise",
+          "slot": "self-esteem/cant-accept-praise",
+          "axis": "worry",
+          "sourceQueries": ["褒められても受け取れない", "褒め言葉 信じられない", "自分に自信がない 褒められる", "褒められると怖い"]
+        },
+        {
+          "route": "/self-esteem/falling-behind",
+          "slot": "self-esteem/falling-behind",
+          "axis": "worry",
+          "sourceQueries": ["自分だけ遅れている", "周りと比べて焦る", "人生 遅れている気がする", "同年代 比較 つらい"]
+        },
+        {
+          "route": "/self-esteem/dating-self-esteem",
+          "slot": "self-esteem/dating-self-esteem",
+          "axis": "worry",
+          "sourceQueries": ["恋愛 自己肯定感 低い", "恋人に依存 自信ない", "愛される価値がない 恋愛", "恋愛で自尊心が下がる"]
+        },
+        {
+          "route": "/relationships/hurtful-words",
+          "slot": "relationships/hurtful-words",
+          "axis": "worry",
+          "sourceQueries": ["傷つく言葉 忘れられない", "言われたこと 思い出してつらい", "ひどい言葉 引きずる", "言葉の傷 癒えない"]
+        },
+        {
+          "route": "/relationships/people-pleasing",
+          "slot": "relationships/people-pleasing",
+          "axis": "worry",
+          "sourceQueries": ["人の顔色をうかがう やめたい", "嫌われるのが怖くて断れない", "いい人をやめたい", "人に合わせすぎる"]
+        },
+        {
+          "route": "/relationships/relationship-burnout",
+          "slot": "relationships/relationship-burnout",
+          "axis": "worry",
+          "sourceQueries": ["人間関係 疲れた", "人付き合い しんどい", "友達関係 疲れる", "誰にも会いたくない"]
+        },
+        {
+          "route": "/relationships/regret-words",
+          "slot": "relationships/regret-words",
+          "axis": "worry",
+          "sourceQueries": ["失言 後悔", "言い過ぎた 後悔", "変なこと言ったかも 不安", "あの一言 後悔"]
+        },
+        {
+          "route": "/work/quit-or-stay",
+          "slot": "work/quit-or-stay",
+          "axis": "worry",
+          "sourceQueries": ["仕事 辞めるか続けるか", "退職 迷う", "仕事 辞めたい でも不安", "会社 続けるべきか"]
         }
       ]
     },
@@ -552,6 +642,96 @@
           "slot": "debate/school-corporal-punishment",
           "axis": "debate",
           "sourceQueries": ["体罚学生 争议", "学校体罚 是否应该", "教师惩戒权 体罚", "学生纪律 不体罚"]
+        },
+        {
+          "route": "/love/cant-read-them",
+          "slot": "love/cant-read-them",
+          "axis": "worry",
+          "sourceQueries": ["不知道对方怎么想", "喜欢的人心里怎么想", "暧昧对象想什么", "看不懂对方的态度"]
+        },
+        {
+          "route": "/love/relationship-boredom",
+          "slot": "love/relationship-boredom",
+          "axis": "worry",
+          "sourceQueries": ["恋爱倦怠期怎么办", "感觉不爱了怎么办", "关系变平淡", "没有心动了"]
+        },
+        {
+          "route": "/breakup/right-after",
+          "slot": "breakup/right-after",
+          "axis": "worry",
+          "sourceQueries": ["刚分手很痛苦", "分手后走不出来", "失恋后崩溃", "分手后很想哭"]
+        },
+        {
+          "route": "/breakup/obsession",
+          "slot": "breakup/obsession",
+          "axis": "worry",
+          "sourceQueries": ["对前任执念太深", "放不下执念怎么办", "感情里太执着", "想联系前任控制不住"]
+        },
+        {
+          "route": "/breakup/reunion",
+          "slot": "breakup/reunion",
+          "axis": "worry",
+          "sourceQueries": ["要不要复合", "和前任复合好吗", "复合会不会重蹈覆辙", "想复合但害怕"]
+        },
+        {
+          "route": "/breakup/ex-contact",
+          "slot": "breakup/ex-contact",
+          "axis": "worry",
+          "sourceQueries": ["前任突然联系我怎么办", "前任发消息心乱", "分手后前任联系", "收到前任消息怎么办"]
+        },
+        {
+          "route": "/self-esteem/self-hate",
+          "slot": "self-esteem/self-hate",
+          "axis": "worry",
+          "sourceQueries": ["很讨厌自己怎么办", "自我厌恶", "总是责备自己", "无法喜欢自己"]
+        },
+        {
+          "route": "/self-esteem/cant-accept-praise",
+          "slot": "self-esteem/cant-accept-praise",
+          "axis": "worry",
+          "sourceQueries": ["听到夸奖不相信", "不会接受赞美", "被夸就不自在", "为什么不能接受表扬"]
+        },
+        {
+          "route": "/self-esteem/falling-behind",
+          "slot": "self-esteem/falling-behind",
+          "axis": "worry",
+          "sourceQueries": ["感觉自己落后了", "和同龄人比较焦虑", "人生进度落后", "觉得别人都比我成功"]
+        },
+        {
+          "route": "/self-esteem/dating-self-esteem",
+          "slot": "self-esteem/dating-self-esteem",
+          "axis": "worry",
+          "sourceQueries": ["恋爱中自尊很低", "谈恋爱没有安全感", "觉得自己不值得被爱", "恋爱让自信变差"]
+        },
+        {
+          "route": "/relationships/hurtful-words",
+          "slot": "relationships/hurtful-words",
+          "axis": "worry",
+          "sourceQueries": ["被人说的话忘不了", "伤人的话一直想起", "一句话让我很受伤", "语言伤害怎么走出来"]
+        },
+        {
+          "route": "/relationships/people-pleasing",
+          "slot": "relationships/people-pleasing",
+          "axis": "worry",
+          "sourceQueries": ["总是看别人脸色", "害怕被讨厌不敢拒绝", "讨好型人格怎么办", "总是迎合别人很累"]
+        },
+        {
+          "route": "/relationships/relationship-burnout",
+          "slot": "relationships/relationship-burnout",
+          "axis": "worry",
+          "sourceQueries": ["人际关系很累", "不想社交了", "和朋友相处很疲惫", "关系消耗我"]
+        },
+        {
+          "route": "/relationships/regret-words",
+          "slot": "relationships/regret-words",
+          "axis": "worry",
+          "sourceQueries": ["说错话后悔", "说话太过分后悔", "担心自己说错话", "一句话后悔很久"]
+        },
+        {
+          "route": "/work/quit-or-stay",
+          "slot": "work/quit-or-stay",
+          "axis": "worry",
+          "sourceQueries": ["要不要辞职", "辞职还是坚持", "想辞职但害怕", "工作该不该继续"]
         }
       ]
     },
@@ -828,6 +1008,96 @@
           "slot": "debate/school-corporal-punishment",
           "axis": "debate",
           "sourceQueries": ["castigo corporal en la escuela debate", "castigo físico escolar pros y contras", "disciplina escolar sin violencia", "es efectivo el castigo corporal"]
+        },
+        {
+          "route": "/love/cant-read-them",
+          "slot": "love/cant-read-them",
+          "axis": "worry",
+          "sourceQueries": ["no sé qué siente por mí", "señales mixtas en el amor", "cómo saber si le gusto", "no entiendo sus sentimientos"]
+        },
+        {
+          "route": "/love/relationship-boredom",
+          "slot": "love/relationship-boredom",
+          "axis": "worry",
+          "sourceQueries": ["crisis de pareja aburrimiento", "ya no siento lo mismo por mi pareja", "rutina en la relación", "cómo superar una crisis de pareja"]
+        },
+        {
+          "route": "/breakup/right-after",
+          "slot": "breakup/right-after",
+          "axis": "worry",
+          "sourceQueries": ["acabo de terminar y estoy mal", "cómo superar una ruptura reciente", "después de una ruptura no puedo parar de llorar", "primeros días después de una ruptura"]
+        },
+        {
+          "route": "/breakup/obsession",
+          "slot": "breakup/obsession",
+          "axis": "worry",
+          "sourceQueries": ["obsesión por mi ex", "cómo dejar de obsesionarme con alguien", "no puedo soltar a mi ex", "impulso de escribirle a mi ex"]
+        },
+        {
+          "route": "/breakup/reunion",
+          "slot": "breakup/reunion",
+          "axis": "worry",
+          "sourceQueries": ["volver con mi ex o no", "debería volver con mi ex", "miedo a repetir lo mismo con mi ex", "reconciliación con ex"]
+        },
+        {
+          "route": "/breakup/ex-contact",
+          "slot": "breakup/ex-contact",
+          "axis": "worry",
+          "sourceQueries": ["mi ex me escribió qué hago", "contacto de mi ex me desestabiliza", "ex vuelve a escribir", "qué hacer si mi ex me busca"]
+        },
+        {
+          "route": "/self-esteem/self-hate",
+          "slot": "self-esteem/self-hate",
+          "axis": "worry",
+          "sourceQueries": ["me odio a mí mismo", "no puedo quererme", "me culpo por todo", "cómo dejar de odiarme"]
+        },
+        {
+          "route": "/self-esteem/cant-accept-praise",
+          "slot": "self-esteem/cant-accept-praise",
+          "axis": "worry",
+          "sourceQueries": ["no sé aceptar cumplidos", "no creo cuando me felicitan", "me incomodan los cumplidos", "por qué no acepto elogios"]
+        },
+        {
+          "route": "/self-esteem/falling-behind",
+          "slot": "self-esteem/falling-behind",
+          "axis": "worry",
+          "sourceQueries": ["siento que me estoy quedando atrás", "compararme con gente de mi edad", "todos avanzan menos yo", "ansiedad por ir tarde en la vida"]
+        },
+        {
+          "route": "/self-esteem/dating-self-esteem",
+          "slot": "self-esteem/dating-self-esteem",
+          "axis": "worry",
+          "sourceQueries": ["baja autoestima en una relación", "siento que no merezco amor", "mi pareja afecta mi autoestima", "inseguridad en el amor"]
+        },
+        {
+          "route": "/relationships/hurtful-words",
+          "slot": "relationships/hurtful-words",
+          "axis": "worry",
+          "sourceQueries": ["no puedo olvidar palabras hirientes", "me duele lo que me dijo", "cómo superar palabras que duelen", "sigo pensando en una frase hiriente"]
+        },
+        {
+          "route": "/relationships/people-pleasing",
+          "slot": "relationships/people-pleasing",
+          "axis": "worry",
+          "sourceQueries": ["dejar de complacer a los demás", "miedo a caer mal", "no sé decir que no", "personalidad complaciente"]
+        },
+        {
+          "route": "/relationships/relationship-burnout",
+          "slot": "relationships/relationship-burnout",
+          "axis": "worry",
+          "sourceQueries": ["cansancio de las relaciones", "estoy agotado de la gente", "no quiero socializar", "las amistades me consumen"]
+        },
+        {
+          "route": "/relationships/regret-words",
+          "slot": "relationships/regret-words",
+          "axis": "worry",
+          "sourceQueries": ["me arrepiento de lo que dije", "dije algo mal y me preocupa", "ansiedad por haber dicho algo", "cómo arreglar una metida de pata"]
+        },
+        {
+          "route": "/work/quit-or-stay",
+          "slot": "work/quit-or-stay",
+          "axis": "worry",
+          "sourceQueries": ["dejar el trabajo o aguantar", "renunciar o seguir", "quiero dejar mi trabajo pero tengo miedo", "debería cambiar de trabajo"]
         }
       ]
     },
@@ -1104,6 +1374,96 @@
           "slot": "debate/school-corporal-punishment",
           "axis": "debate",
           "sourceQueries": ["châtiment corporel école débat", "punition corporelle à l'école", "discipline scolaire sans violence", "violence éducative école"]
+        },
+        {
+          "route": "/love/cant-read-them",
+          "slot": "love/cant-read-them",
+          "axis": "worry",
+          "sourceQueries": ["je ne sais pas ce qu'il ressent", "signes ambigus amour", "comment savoir si je lui plais", "je ne comprends pas ses sentiments"]
+        },
+        {
+          "route": "/love/relationship-boredom",
+          "slot": "love/relationship-boredom",
+          "axis": "worry",
+          "sourceQueries": ["routine dans le couple", "je ne ressens plus rien couple", "crise de couple que faire", "ennui dans la relation"]
+        },
+        {
+          "route": "/breakup/right-after",
+          "slot": "breakup/right-after",
+          "axis": "worry",
+          "sourceQueries": ["rupture récente très mal", "comment survivre après une rupture", "je viens de rompre je souffre", "premiers jours après rupture"]
+        },
+        {
+          "route": "/breakup/obsession",
+          "slot": "breakup/obsession",
+          "axis": "worry",
+          "sourceQueries": ["obsession pour mon ex", "comment arrêter d'être obsédé par quelqu'un", "je n'arrive pas à lâcher mon ex", "envie d'écrire à mon ex"]
+        },
+        {
+          "route": "/breakup/reunion",
+          "slot": "breakup/reunion",
+          "axis": "worry",
+          "sourceQueries": ["dois-je retourner avec mon ex", "reprendre avec son ex bonne idée", "peur de refaire les mêmes erreurs", "se remettre avec son ex"]
+        },
+        {
+          "route": "/breakup/ex-contact",
+          "slot": "breakup/ex-contact",
+          "axis": "worry",
+          "sourceQueries": ["mon ex m'a écrit que faire", "message de mon ex je suis perdu", "mon ex reprend contact", "que faire quand son ex revient"]
+        },
+        {
+          "route": "/self-esteem/self-hate",
+          "slot": "self-esteem/self-hate",
+          "axis": "worry",
+          "sourceQueries": ["je me déteste", "je n'arrive pas à m'aimer", "culpabilité envers soi-même", "comment arrêter de se détester"]
+        },
+        {
+          "route": "/self-esteem/cant-accept-praise",
+          "slot": "self-esteem/cant-accept-praise",
+          "axis": "worry",
+          "sourceQueries": ["je n'accepte pas les compliments", "je ne crois pas les compliments", "les compliments me mettent mal à l'aise", "pourquoi je refuse les compliments"]
+        },
+        {
+          "route": "/self-esteem/falling-behind",
+          "slot": "self-esteem/falling-behind",
+          "axis": "worry",
+          "sourceQueries": ["j'ai l'impression d'être en retard dans la vie", "me comparer aux autres âge", "tout le monde avance sauf moi", "peur d'être en retard"]
+        },
+        {
+          "route": "/self-esteem/dating-self-esteem",
+          "slot": "self-esteem/dating-self-esteem",
+          "axis": "worry",
+          "sourceQueries": ["faible estime de soi en couple", "je ne mérite pas d'être aimé", "mon couple détruit mon estime", "insécurité amoureuse"]
+        },
+        {
+          "route": "/relationships/hurtful-words",
+          "slot": "relationships/hurtful-words",
+          "axis": "worry",
+          "sourceQueries": ["je n'arrive pas à oublier ses paroles blessantes", "ses mots me font encore mal", "comment oublier une phrase blessante", "paroles qui blessent longtemps"]
+        },
+        {
+          "route": "/relationships/people-pleasing",
+          "slot": "relationships/people-pleasing",
+          "axis": "worry",
+          "sourceQueries": ["arrêter de faire plaisir à tout le monde", "peur de déplaire", "je ne sais pas dire non", "personnalité complaisante"]
+        },
+        {
+          "route": "/relationships/relationship-burnout",
+          "slot": "relationships/relationship-burnout",
+          "axis": "worry",
+          "sourceQueries": ["fatigue relationnelle", "je suis épuisé par les gens", "je ne veux voir personne", "les relations me vident"]
+        },
+        {
+          "route": "/relationships/regret-words",
+          "slot": "relationships/regret-words",
+          "axis": "worry",
+          "sourceQueries": ["je regrette ce que j'ai dit", "j'ai dit quelque chose de mal", "anxiété après avoir parlé", "comment réparer une parole maladroite"]
+        },
+        {
+          "route": "/work/quit-or-stay",
+          "slot": "work/quit-or-stay",
+          "axis": "worry",
+          "sourceQueries": ["quitter son travail ou rester", "démissionner ou tenir", "je veux quitter mon travail mais j'ai peur", "dois-je changer de travail"]
         }
       ]
     },
@@ -1380,6 +1740,96 @@
           "slot": "debate/school-corporal-punishment",
           "axis": "debate",
           "sourceQueries": ["körperliche bestrafung schule debatte", "körperstrafe in der schule pro contra", "ist körperliche bestrafung wirksam", "disziplin ohne strafe schule"]
+        },
+        {
+          "route": "/love/cant-read-them",
+          "slot": "love/cant-read-them",
+          "axis": "worry",
+          "sourceQueries": ["ich weiß nicht was er fühlt", "gemischte signale liebe", "woran erkenne ich ob er mich mag", "seine gefühle nicht verstehen"]
+        },
+        {
+          "route": "/love/relationship-boredom",
+          "slot": "love/relationship-boredom",
+          "axis": "worry",
+          "sourceQueries": ["beziehung langweilig geworden", "ich fühle nichts mehr beziehung", "beziehung krise was tun", "routine in der beziehung"]
+        },
+        {
+          "route": "/breakup/right-after",
+          "slot": "breakup/right-after",
+          "axis": "worry",
+          "sourceQueries": ["frisch getrennt es tut weh", "trennung gerade passiert was tun", "nach trennung am boden", "erste tage nach trennung"]
+        },
+        {
+          "route": "/breakup/obsession",
+          "slot": "breakup/obsession",
+          "axis": "worry",
+          "sourceQueries": ["besessen von ex", "wie höre ich auf an ihn zu denken", "ex nicht loslassen können", "drang ex zu schreiben"]
+        },
+        {
+          "route": "/breakup/reunion",
+          "slot": "breakup/reunion",
+          "axis": "worry",
+          "sourceQueries": ["soll ich zum ex zurück", "wieder mit ex zusammenkommen", "angst gleiche fehler zu wiederholen", "ex zurück ja oder nein"]
+        },
+        {
+          "route": "/breakup/ex-contact",
+          "slot": "breakup/ex-contact",
+          "axis": "worry",
+          "sourceQueries": ["ex meldet sich was tun", "nachricht vom ex bringt mich durcheinander", "ex schreibt wieder", "was tun wenn ex kontakt sucht"]
+        },
+        {
+          "route": "/self-esteem/self-hate",
+          "slot": "self-esteem/self-hate",
+          "axis": "worry",
+          "sourceQueries": ["ich hasse mich selbst", "ich kann mich nicht mögen", "ich gebe mir für alles die schuld", "selbsthass was tun"]
+        },
+        {
+          "route": "/self-esteem/cant-accept-praise",
+          "slot": "self-esteem/cant-accept-praise",
+          "axis": "worry",
+          "sourceQueries": ["ich kann komplimente nicht annehmen", "ich glaube komplimente nicht", "komplimente machen mich unsicher", "warum kann ich lob nicht annehmen"]
+        },
+        {
+          "route": "/self-esteem/falling-behind",
+          "slot": "self-esteem/falling-behind",
+          "axis": "worry",
+          "sourceQueries": ["ich habe das gefühl zurückzubleiben", "mit gleichaltrigen vergleichen", "alle kommen weiter nur ich nicht", "angst im leben zu spät zu sein"]
+        },
+        {
+          "route": "/self-esteem/dating-self-esteem",
+          "slot": "self-esteem/dating-self-esteem",
+          "axis": "worry",
+          "sourceQueries": ["geringes selbstwertgefühl in beziehung", "ich verdiene keine liebe", "beziehung macht mich unsicher", "unsicherheit in der liebe"]
+        },
+        {
+          "route": "/relationships/hurtful-words",
+          "slot": "relationships/hurtful-words",
+          "axis": "worry",
+          "sourceQueries": ["verletzende worte vergessen", "was jemand gesagt hat tut noch weh", "verletzende aussage loslassen", "worte die nicht aus dem kopf gehen"]
+        },
+        {
+          "route": "/relationships/people-pleasing",
+          "slot": "relationships/people-pleasing",
+          "axis": "worry",
+          "sourceQueries": ["es allen recht machen aufhören", "angst nicht gemocht zu werden", "ich kann nicht nein sagen", "people pleasing deutsch"]
+        },
+        {
+          "route": "/relationships/relationship-burnout",
+          "slot": "relationships/relationship-burnout",
+          "axis": "worry",
+          "sourceQueries": ["beziehungen erschöpfen mich", "menschen sind mir zu viel", "keine lust auf soziale kontakte", "soziale erschöpfung"]
+        },
+        {
+          "route": "/relationships/regret-words",
+          "slot": "relationships/regret-words",
+          "axis": "worry",
+          "sourceQueries": ["ich bereue was ich gesagt habe", "etwas falsches gesagt angst", "peinliche aussage bereuen", "wie entschuldige ich mich nach falschen worten"]
+        },
+        {
+          "route": "/work/quit-or-stay",
+          "slot": "work/quit-or-stay",
+          "axis": "worry",
+          "sourceQueries": ["kündigen oder bleiben", "job kündigen oder durchhalten", "ich will kündigen aber habe angst", "soll ich den job wechseln"]
         }
       ]
     }

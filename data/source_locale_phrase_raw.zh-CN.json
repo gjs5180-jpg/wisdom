@@ -1,12 +1,12 @@
 {
-  "collectedAt": "2026-06-22T03:45:27.325Z",
+  "collectedAt": "2026-06-22T06:01:33.122Z",
   "locale": "zh-CN",
   "sourceStatus": "active-source",
-  "nodesScanned": 44,
-  "totalCandidatePhrases": 249,
-  "totalUsableCandidatePhrases": 231,
+  "nodesScanned": 59,
+  "totalCandidatePhrases": 321,
+  "totalUsableCandidatePhrases": 300,
   "totalReviewCandidatePhrases": 9,
-  "totalLowSignalCandidatePhrases": 9,
+  "totalLowSignalCandidatePhrases": 12,
   "clusterHints": {
     "family/family-of-origin": 1,
     "study/exam-pressure": 1,
@@ -3946,6 +3946,1187 @@
         "学校体罚 是否应该",
         "教师惩戒权 体罚",
         "学生纪律 不体罚"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/love/cant-read-them",
+      "slot": "love/cant-read-them",
+      "axis": "worry",
+      "sourceQueries": [
+        "不知道对方怎么想",
+        "喜欢的人心里怎么想",
+        "暧昧对象想什么",
+        "看不懂对方的态度"
+      ],
+      "baseQueries": [
+        "不知道对方怎么想",
+        "喜欢的人心里怎么想",
+        "暧昧对象想什么",
+        "看不懂对方的态度"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "不知道对方怎么想",
+        "喜欢的人心里怎么想",
+        "暧昧对象想什么",
+        "看不懂对方的态度"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "不知道对方怎么想",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "喜欢的人心里怎么想",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "暧昧对象想什么",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "看不懂对方的态度",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "不知道对方怎么想",
+        "喜欢的人心里怎么想",
+        "暧昧对象想什么",
+        "看不懂对方的态度"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/love/relationship-boredom",
+      "slot": "love/relationship-boredom",
+      "axis": "worry",
+      "sourceQueries": [
+        "恋爱倦怠期怎么办",
+        "感觉不爱了怎么办",
+        "关系变平淡",
+        "没有心动了"
+      ],
+      "baseQueries": [
+        "恋爱倦怠期怎么办",
+        "感觉不爱了怎么办",
+        "关系变平淡",
+        "没有心动了"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "恋爱倦怠期怎么办",
+        "感觉不爱了怎么办",
+        "关系变平淡",
+        "没有心动了"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "恋爱倦怠期怎么办",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "感觉不爱了怎么办",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "关系变平淡",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "没有心动了",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "恋爱倦怠期怎么办",
+        "感觉不爱了怎么办",
+        "关系变平淡",
+        "没有心动了"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/breakup/right-after",
+      "slot": "breakup/right-after",
+      "axis": "worry",
+      "sourceQueries": [
+        "刚分手很痛苦",
+        "分手后走不出来",
+        "失恋后崩溃",
+        "分手后很想哭"
+      ],
+      "baseQueries": [
+        "刚分手很痛苦",
+        "分手后走不出来",
+        "失恋后崩溃",
+        "分手后很想哭"
+      ],
+      "googleSuggestions": [
+        "分手后走不出来",
+        "分手后走不出来 dcard"
+      ],
+      "candidatePhrases": [
+        "刚分手很痛苦",
+        "分手后走不出来",
+        "失恋后崩溃",
+        "分手后很想哭",
+        "分手后走不出来 dcard"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "刚分手很痛苦",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "分手后走不出来",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "失恋后崩溃",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "分手后很想哭",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "分手后走不出来 dcard",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "刚分手很痛苦",
+        "分手后走不出来",
+        "失恋后崩溃",
+        "分手后很想哭",
+        "分手后走不出来 dcard"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/breakup/obsession",
+      "slot": "breakup/obsession",
+      "axis": "worry",
+      "sourceQueries": [
+        "对前任执念太深",
+        "放不下执念怎么办",
+        "感情里太执着",
+        "想联系前任控制不住"
+      ],
+      "baseQueries": [
+        "对前任执念太深",
+        "放不下执念怎么办",
+        "感情里太执着",
+        "想联系前任控制不住"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "对前任执念太深",
+        "放不下执念怎么办",
+        "感情里太执着",
+        "想联系前任控制不住"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "对前任执念太深",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "放不下执念怎么办",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "感情里太执着",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "想联系前任控制不住",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "对前任执念太深",
+        "放不下执念怎么办",
+        "感情里太执着",
+        "想联系前任控制不住"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/breakup/reunion",
+      "slot": "breakup/reunion",
+      "axis": "worry",
+      "sourceQueries": [
+        "要不要复合",
+        "和前任复合好吗",
+        "复合会不会重蹈覆辙",
+        "想复合但害怕"
+      ],
+      "baseQueries": [
+        "要不要复合",
+        "和前任复合好吗",
+        "复合会不会重蹈覆辙",
+        "想复合但害怕"
+      ],
+      "googleSuggestions": [
+        "要不要复合 dcard"
+      ],
+      "candidatePhrases": [
+        "要不要复合",
+        "和前任复合好吗",
+        "复合会不会重蹈覆辙",
+        "想复合但害怕",
+        "要不要复合 dcard"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "要不要复合",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "和前任复合好吗",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "复合会不会重蹈覆辙",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "想复合但害怕",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "要不要复合 dcard",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "要不要复合",
+        "和前任复合好吗",
+        "复合会不会重蹈覆辙",
+        "想复合但害怕",
+        "要不要复合 dcard"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/breakup/ex-contact",
+      "slot": "breakup/ex-contact",
+      "axis": "worry",
+      "sourceQueries": [
+        "前任突然联系我怎么办",
+        "前任发消息心乱",
+        "分手后前任联系",
+        "收到前任消息怎么办"
+      ],
+      "baseQueries": [
+        "前任突然联系我怎么办",
+        "前任发消息心乱",
+        "分手后前任联系",
+        "收到前任消息怎么办"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "前任突然联系我怎么办",
+        "前任发消息心乱",
+        "分手后前任联系",
+        "收到前任消息怎么办"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "前任突然联系我怎么办",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "前任发消息心乱",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "分手后前任联系",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "收到前任消息怎么办",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "前任突然联系我怎么办",
+        "前任发消息心乱",
+        "分手后前任联系",
+        "收到前任消息怎么办"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/self-esteem/self-hate",
+      "slot": "self-esteem/self-hate",
+      "axis": "worry",
+      "sourceQueries": [
+        "很讨厌自己怎么办",
+        "自我厌恶",
+        "总是责备自己",
+        "无法喜欢自己"
+      ],
+      "baseQueries": [
+        "很讨厌自己怎么办",
+        "自我厌恶",
+        "总是责备自己",
+        "无法喜欢自己"
+      ],
+      "googleSuggestions": [
+        "很讨厌自己怎么办",
+        "自我厌恶",
+        "自我厌恶测试",
+        "自我厌恶 英文",
+        "自我厌恶 日文",
+        "自我厌恶忧郁症",
+        "自我厌恶dcard",
+        "自我厌恶 日语",
+        "自我厌恶 意思",
+        "自我厌恶 ptt",
+        "自我厌恶 同义词"
+      ],
+      "candidatePhrases": [
+        "很讨厌自己怎么办",
+        "自我厌恶",
+        "总是责备自己",
+        "无法喜欢自己",
+        "自我厌恶测试",
+        "自我厌恶 英文",
+        "自我厌恶 日文",
+        "自我厌恶忧郁症",
+        "自我厌恶dcard",
+        "自我厌恶 日语",
+        "自我厌恶 意思",
+        "自我厌恶 ptt",
+        "自我厌恶 同义词"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "很讨厌自己怎么办",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自我厌恶",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "总是责备自己",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "无法喜欢自己",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自我厌恶测试",
+          "status": "low-signal",
+          "reasons": [
+            "fortune-telling / diagnosis drift"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自我厌恶 英文",
+          "status": "low-signal",
+          "reasons": [
+            "translation or language lookup"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自我厌恶 日文",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自我厌恶忧郁症",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自我厌恶dcard",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自我厌恶 日语",
+          "status": "low-signal",
+          "reasons": [
+            "translation or language lookup"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自我厌恶 意思",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自我厌恶 ptt",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自我厌恶 同义词",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "很讨厌自己怎么办",
+        "自我厌恶",
+        "总是责备自己",
+        "无法喜欢自己",
+        "自我厌恶 日文",
+        "自我厌恶忧郁症",
+        "自我厌恶dcard",
+        "自我厌恶 意思",
+        "自我厌恶 ptt",
+        "自我厌恶 同义词"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [
+        "自我厌恶测试",
+        "自我厌恶 英文",
+        "自我厌恶 日语"
+      ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/self-esteem/cant-accept-praise",
+      "slot": "self-esteem/cant-accept-praise",
+      "axis": "worry",
+      "sourceQueries": [
+        "听到夸奖不相信",
+        "不会接受赞美",
+        "被夸就不自在",
+        "为什么不能接受表扬"
+      ],
+      "baseQueries": [
+        "听到夸奖不相信",
+        "不会接受赞美",
+        "被夸就不自在",
+        "为什么不能接受表扬"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "听到夸奖不相信",
+        "不会接受赞美",
+        "被夸就不自在",
+        "为什么不能接受表扬"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "听到夸奖不相信",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "不会接受赞美",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "被夸就不自在",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "为什么不能接受表扬",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "听到夸奖不相信",
+        "不会接受赞美",
+        "被夸就不自在",
+        "为什么不能接受表扬"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/self-esteem/falling-behind",
+      "slot": "self-esteem/falling-behind",
+      "axis": "worry",
+      "sourceQueries": [
+        "感觉自己落后了",
+        "和同龄人比较焦虑",
+        "人生进度落后",
+        "觉得别人都比我成功"
+      ],
+      "baseQueries": [
+        "感觉自己落后了",
+        "和同龄人比较焦虑",
+        "人生进度落后",
+        "觉得别人都比我成功"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "感觉自己落后了",
+        "和同龄人比较焦虑",
+        "人生进度落后",
+        "觉得别人都比我成功"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "感觉自己落后了",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "和同龄人比较焦虑",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人生进度落后",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "觉得别人都比我成功",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "感觉自己落后了",
+        "和同龄人比较焦虑",
+        "人生进度落后",
+        "觉得别人都比我成功"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/self-esteem/dating-self-esteem",
+      "slot": "self-esteem/dating-self-esteem",
+      "axis": "worry",
+      "sourceQueries": [
+        "恋爱中自尊很低",
+        "谈恋爱没有安全感",
+        "觉得自己不值得被爱",
+        "恋爱让自信变差"
+      ],
+      "baseQueries": [
+        "恋爱中自尊很低",
+        "谈恋爱没有安全感",
+        "觉得自己不值得被爱",
+        "恋爱让自信变差"
+      ],
+      "googleSuggestions": [
+        "谈恋爱没有安全感",
+        "觉得自己不值得被爱",
+        "觉得自己不值得被爱dcard"
+      ],
+      "candidatePhrases": [
+        "恋爱中自尊很低",
+        "谈恋爱没有安全感",
+        "觉得自己不值得被爱",
+        "恋爱让自信变差",
+        "觉得自己不值得被爱dcard"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "恋爱中自尊很低",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "谈恋爱没有安全感",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "觉得自己不值得被爱",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "恋爱让自信变差",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "觉得自己不值得被爱dcard",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "恋爱中自尊很低",
+        "谈恋爱没有安全感",
+        "觉得自己不值得被爱",
+        "恋爱让自信变差",
+        "觉得自己不值得被爱dcard"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/relationships/hurtful-words",
+      "slot": "relationships/hurtful-words",
+      "axis": "worry",
+      "sourceQueries": [
+        "被人说的话忘不了",
+        "伤人的话一直想起",
+        "一句话让我很受伤",
+        "语言伤害怎么走出来"
+      ],
+      "baseQueries": [
+        "被人说的话忘不了",
+        "伤人的话一直想起",
+        "一句话让我很受伤",
+        "语言伤害怎么走出来"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "被人说的话忘不了",
+        "伤人的话一直想起",
+        "一句话让我很受伤",
+        "语言伤害怎么走出来"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "被人说的话忘不了",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "伤人的话一直想起",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "一句话让我很受伤",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "语言伤害怎么走出来",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "被人说的话忘不了",
+        "伤人的话一直想起",
+        "一句话让我很受伤",
+        "语言伤害怎么走出来"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/relationships/people-pleasing",
+      "slot": "relationships/people-pleasing",
+      "axis": "worry",
+      "sourceQueries": [
+        "总是看别人脸色",
+        "害怕被讨厌不敢拒绝",
+        "讨好型人格怎么办",
+        "总是迎合别人很累"
+      ],
+      "baseQueries": [
+        "总是看别人脸色",
+        "害怕被讨厌不敢拒绝",
+        "讨好型人格怎么办",
+        "总是迎合别人很累"
+      ],
+      "googleSuggestions": [
+        "讨好型人格怎么办"
+      ],
+      "candidatePhrases": [
+        "总是看别人脸色",
+        "害怕被讨厌不敢拒绝",
+        "讨好型人格怎么办",
+        "总是迎合别人很累"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "总是看别人脸色",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "害怕被讨厌不敢拒绝",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "讨好型人格怎么办",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "总是迎合别人很累",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "总是看别人脸色",
+        "害怕被讨厌不敢拒绝",
+        "讨好型人格怎么办",
+        "总是迎合别人很累"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/relationships/relationship-burnout",
+      "slot": "relationships/relationship-burnout",
+      "axis": "worry",
+      "sourceQueries": [
+        "人际关系很累",
+        "不想社交了",
+        "和朋友相处很疲惫",
+        "关系消耗我"
+      ],
+      "baseQueries": [
+        "人际关系很累",
+        "不想社交了",
+        "和朋友相处很疲惫",
+        "关系消耗我"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "人际关系很累",
+        "不想社交了",
+        "和朋友相处很疲惫",
+        "关系消耗我"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "人际关系很累",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "不想社交了",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "和朋友相处很疲惫",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "关系消耗我",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "人际关系很累",
+        "不想社交了",
+        "和朋友相处很疲惫",
+        "关系消耗我"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/relationships/regret-words",
+      "slot": "relationships/regret-words",
+      "axis": "worry",
+      "sourceQueries": [
+        "说错话后悔",
+        "说话太过分后悔",
+        "担心自己说错话",
+        "一句话后悔很久"
+      ],
+      "baseQueries": [
+        "说错话后悔",
+        "说话太过分后悔",
+        "担心自己说错话",
+        "一句话后悔很久"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "说错话后悔",
+        "说话太过分后悔",
+        "担心自己说错话",
+        "一句话后悔很久"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "说错话后悔",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "说话太过分后悔",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "担心自己说错话",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "一句话后悔很久",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "说错话后悔",
+        "说话太过分后悔",
+        "担心自己说错话",
+        "一句话后悔很久"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/work/quit-or-stay",
+      "slot": "work/quit-or-stay",
+      "axis": "worry",
+      "sourceQueries": [
+        "要不要辞职",
+        "辞职还是坚持",
+        "想辞职但害怕",
+        "工作该不该继续"
+      ],
+      "baseQueries": [
+        "要不要辞职",
+        "辞职还是坚持",
+        "想辞职但害怕",
+        "工作该不该继续"
+      ],
+      "googleSuggestions": [
+        "要不要辞职"
+      ],
+      "candidatePhrases": [
+        "要不要辞职",
+        "辞职还是坚持",
+        "想辞职但害怕",
+        "工作该不该继续"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "要不要辞职",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "辞职还是坚持",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "想辞职但害怕",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "工作该不该继续",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "要不要辞职",
+        "辞职还是坚持",
+        "想辞职但害怕",
+        "工作该不该继续"
       ],
       "reviewCandidatePhrases": [],
       "lowSignalCandidatePhrases": [],

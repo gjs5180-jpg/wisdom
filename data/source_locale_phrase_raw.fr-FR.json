@@ -1,12 +1,12 @@
 {
-  "collectedAt": "2026-06-22T05:43:35.534Z",
+  "collectedAt": "2026-06-22T06:04:12.534Z",
   "locale": "fr-FR",
   "sourceStatus": "active-source",
-  "nodesScanned": 44,
-  "totalCandidatePhrases": 903,
-  "totalUsableCandidatePhrases": 800,
-  "totalReviewCandidatePhrases": 66,
-  "totalLowSignalCandidatePhrases": 37,
+  "nodesScanned": 59,
+  "totalCandidatePhrases": 1093,
+  "totalUsableCandidatePhrases": 978,
+  "totalReviewCandidatePhrases": 70,
+  "totalLowSignalCandidatePhrases": 45,
   "clusterHints": {
     "relationships/ghosting": 1,
     "meaning/existential-vacuum": 12,
@@ -2093,7 +2093,6 @@
         "peur de l abandon conjoint",
         "dépendance affective",
         "dépendance affective def",
-        "dépendance affective test",
         "dépendance affective en amour",
         "dépendance affective symptômes",
         "dépendance affective en anglais",
@@ -2101,6 +2100,7 @@
         "dépendance affective cause",
         "dépendance affective amitié",
         "dépendance affective livre",
+        "dépendance affective comment en sortir",
         "anxiété relationnelle",
         "anxiété relationnelle amoureuse",
         "anxiété relationnelle définition",
@@ -2129,7 +2129,6 @@
         "peur de l'abandon relation",
         "peur de l abandon conjoint",
         "dépendance affective def",
-        "dépendance affective test",
         "dépendance affective en amour",
         "dépendance affective symptômes",
         "dépendance affective en anglais",
@@ -2137,6 +2136,7 @@
         "dépendance affective cause",
         "dépendance affective amitié",
         "dépendance affective livre",
+        "dépendance affective comment en sortir",
         "anxiété relationnelle amoureuse",
         "anxiété relationnelle définition",
         "anxiété relationnelle couple",
@@ -2257,16 +2257,6 @@
           "clusterHints": []
         },
         {
-          "phrase": "dépendance affective test",
-          "status": "low-signal",
-          "reasons": [
-            "fortune-telling / diagnosis drift",
-            "fortune-telling / diagnosis drift",
-            "fortune-telling / diagnosis drift"
-          ],
-          "clusterHints": []
-        },
-        {
           "phrase": "dépendance affective en amour",
           "status": "usable",
           "reasons": [
@@ -2319,6 +2309,14 @@
           "status": "review",
           "reasons": [
             "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "dépendance affective comment en sortir",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
           ],
           "clusterHints": []
         },
@@ -2436,6 +2434,7 @@
         "dépendance affective en amour",
         "dépendance affective cause",
         "dépendance affective amitié",
+        "dépendance affective comment en sortir",
         "anxiété relationnelle amoureuse",
         "anxiété relationnelle couple",
         "anxiété relationnelle travail",
@@ -2456,7 +2455,6 @@
         "anxiété relationnelle livre"
       ],
       "lowSignalCandidatePhrases": [
-        "dépendance affective test",
         "dépendance affective en anglais",
         "anxiété relationnelle test"
       ],
@@ -11410,6 +11408,2524 @@
       ],
       "reviewCandidatePhrases": [],
       "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "fr-FR",
+      "route": "/love/cant-read-them",
+      "slot": "love/cant-read-them",
+      "axis": "worry",
+      "sourceQueries": [
+        "je ne sais pas ce qu'il ressent",
+        "signes ambigus amour",
+        "comment savoir si je lui plais",
+        "je ne comprends pas ses sentiments"
+      ],
+      "baseQueries": [
+        "je ne sais pas ce qu'il ressent",
+        "signes ambigus amour",
+        "comment savoir si je lui plais",
+        "je ne comprends pas ses sentiments"
+      ],
+      "googleSuggestions": [
+        "je ne sais pas ce qu'il.ressent pour moi",
+        "comment savoir si je lui plais",
+        "comment savoir si je lui plais par message",
+        "comment savoir si je lui plais femme",
+        "comment savoir si je lui plais en secret",
+        "comment savoir si je lui plais vraiment",
+        "comment savoir si je lui plais regard",
+        "comment savoir si je lui plais par message homme",
+        "comment savoir si je lui plais test",
+        "comment savoir si je lui plais sans lui parler",
+        "comment savoir si je lui plais au travail",
+        "je ne comprends pas mes sentiments"
+      ],
+      "candidatePhrases": [
+        "je ne sais pas ce qu'il ressent",
+        "signes ambigus amour",
+        "comment savoir si je lui plais",
+        "je ne comprends pas ses sentiments",
+        "je ne sais pas ce qu'il.ressent pour moi",
+        "comment savoir si je lui plais par message",
+        "comment savoir si je lui plais femme",
+        "comment savoir si je lui plais en secret",
+        "comment savoir si je lui plais vraiment",
+        "comment savoir si je lui plais regard",
+        "comment savoir si je lui plais par message homme",
+        "comment savoir si je lui plais test",
+        "comment savoir si je lui plais sans lui parler",
+        "comment savoir si je lui plais au travail",
+        "je ne comprends pas mes sentiments"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "je ne sais pas ce qu'il ressent",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "signes ambigus amour",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "comment savoir si je lui plais",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "je ne comprends pas ses sentiments",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "je ne sais pas ce qu'il.ressent pour moi",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "comment savoir si je lui plais par message",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "comment savoir si je lui plais femme",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "comment savoir si je lui plais en secret",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "comment savoir si je lui plais vraiment",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "comment savoir si je lui plais regard",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "comment savoir si je lui plais par message homme",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "comment savoir si je lui plais test",
+          "status": "low-signal",
+          "reasons": [
+            "fortune-telling / diagnosis drift",
+            "fortune-telling / diagnosis drift",
+            "fortune-telling / diagnosis drift"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "comment savoir si je lui plais sans lui parler",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "comment savoir si je lui plais au travail",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "je ne comprends pas mes sentiments",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "je ne sais pas ce qu'il ressent",
+        "signes ambigus amour",
+        "comment savoir si je lui plais",
+        "je ne comprends pas ses sentiments",
+        "je ne sais pas ce qu'il.ressent pour moi",
+        "comment savoir si je lui plais par message",
+        "comment savoir si je lui plais femme",
+        "comment savoir si je lui plais en secret",
+        "comment savoir si je lui plais vraiment",
+        "comment savoir si je lui plais regard",
+        "comment savoir si je lui plais par message homme",
+        "comment savoir si je lui plais sans lui parler",
+        "comment savoir si je lui plais au travail",
+        "je ne comprends pas mes sentiments"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [
+        "comment savoir si je lui plais test"
+      ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "fr-FR",
+      "route": "/love/relationship-boredom",
+      "slot": "love/relationship-boredom",
+      "axis": "worry",
+      "sourceQueries": [
+        "routine dans le couple",
+        "je ne ressens plus rien couple",
+        "crise de couple que faire",
+        "ennui dans la relation"
+      ],
+      "baseQueries": [
+        "routine dans le couple",
+        "je ne ressens plus rien couple",
+        "crise de couple que faire",
+        "ennui dans la relation"
+      ],
+      "googleSuggestions": [
+        "routine dans le couple",
+        "routine dans le couple que faire",
+        "monotonie dans le couple",
+        "routine couple au bout de combien de temps",
+        "routine couple ennui",
+        "routine couple que faire",
+        "routine couple à distance",
+        "comment lutter contre la routine dans le couple",
+        "je ne ressens plus rien dans mon couple",
+        "je ne ressens plus rien en amour",
+        "je ne ressens plus rien pour mon conjoint",
+        "toc du couple je ne ressens plus rien",
+        "crise de couple que faire",
+        "problème de couple que faire",
+        "dispute de couple que faire",
+        "grosse crise de couple que faire",
+        "crise de couple faire un break",
+        "grosse dispute de couple que faire",
+        "probleme de couple islam que faire",
+        "crise de couple comment faire",
+        "ennui dans une relation",
+        "ennui relation amoureuse",
+        "ennui relationship"
+      ],
+      "candidatePhrases": [
+        "routine dans le couple",
+        "je ne ressens plus rien couple",
+        "crise de couple que faire",
+        "ennui dans la relation",
+        "routine dans le couple que faire",
+        "monotonie dans le couple",
+        "routine couple au bout de combien de temps",
+        "routine couple ennui",
+        "routine couple que faire",
+        "routine couple à distance",
+        "comment lutter contre la routine dans le couple",
+        "je ne ressens plus rien dans mon couple",
+        "je ne ressens plus rien en amour",
+        "je ne ressens plus rien pour mon conjoint",
+        "toc du couple je ne ressens plus rien",
+        "problème de couple que faire",
+        "dispute de couple que faire",
+        "grosse crise de couple que faire",
+        "crise de couple faire un break",
+        "grosse dispute de couple que faire",
+        "probleme de couple islam que faire",
+        "crise de couple comment faire",
+        "ennui dans une relation",
+        "ennui relation amoureuse",
+        "ennui relationship"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "routine dans le couple",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "je ne ressens plus rien couple",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "crise de couple que faire",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ennui dans la relation",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "routine dans le couple que faire",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "monotonie dans le couple",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "routine couple au bout de combien de temps",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "routine couple ennui",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "routine couple que faire",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "routine couple à distance",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "comment lutter contre la routine dans le couple",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "je ne ressens plus rien dans mon couple",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "je ne ressens plus rien en amour",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "je ne ressens plus rien pour mon conjoint",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "toc du couple je ne ressens plus rien",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "problème de couple que faire",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "dispute de couple que faire",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "grosse crise de couple que faire",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "crise de couple faire un break",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "grosse dispute de couple que faire",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "probleme de couple islam que faire",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "crise de couple comment faire",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ennui dans une relation",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ennui relation amoureuse",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ennui relationship",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "routine dans le couple",
+        "je ne ressens plus rien couple",
+        "crise de couple que faire",
+        "ennui dans la relation",
+        "routine dans le couple que faire",
+        "monotonie dans le couple",
+        "routine couple au bout de combien de temps",
+        "routine couple ennui",
+        "routine couple que faire",
+        "routine couple à distance",
+        "comment lutter contre la routine dans le couple",
+        "je ne ressens plus rien dans mon couple",
+        "je ne ressens plus rien en amour",
+        "je ne ressens plus rien pour mon conjoint",
+        "toc du couple je ne ressens plus rien",
+        "problème de couple que faire",
+        "dispute de couple que faire",
+        "grosse crise de couple que faire",
+        "crise de couple faire un break",
+        "grosse dispute de couple que faire",
+        "probleme de couple islam que faire",
+        "crise de couple comment faire",
+        "ennui dans une relation",
+        "ennui relation amoureuse",
+        "ennui relationship"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "fr-FR",
+      "route": "/breakup/right-after",
+      "slot": "breakup/right-after",
+      "axis": "worry",
+      "sourceQueries": [
+        "rupture récente très mal",
+        "comment survivre après une rupture",
+        "je viens de rompre je souffre",
+        "premiers jours après rupture"
+      ],
+      "baseQueries": [
+        "rupture récente très mal",
+        "comment survivre après une rupture",
+        "je viens de rompre je souffre",
+        "premiers jours après rupture"
+      ],
+      "googleSuggestions": [
+        "comment survivre après une rupture amoureuse",
+        "comment survivre apres une rupture",
+        "comment survivre à une séparation",
+        "les premiers jours apres une rupture"
+      ],
+      "candidatePhrases": [
+        "rupture récente très mal",
+        "comment survivre après une rupture",
+        "je viens de rompre je souffre",
+        "premiers jours après rupture",
+        "comment survivre après une rupture amoureuse",
+        "comment survivre apres une rupture",
+        "comment survivre à une séparation",
+        "les premiers jours apres une rupture"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "rupture récente très mal",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "comment survivre après une rupture",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "je viens de rompre je souffre",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "premiers jours après rupture",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "comment survivre après une rupture amoureuse",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "comment survivre apres une rupture",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "comment survivre à une séparation",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "les premiers jours apres une rupture",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "rupture récente très mal",
+        "comment survivre après une rupture",
+        "je viens de rompre je souffre",
+        "premiers jours après rupture",
+        "comment survivre après une rupture amoureuse",
+        "comment survivre apres une rupture",
+        "comment survivre à une séparation",
+        "les premiers jours apres une rupture"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "fr-FR",
+      "route": "/breakup/obsession",
+      "slot": "breakup/obsession",
+      "axis": "worry",
+      "sourceQueries": [
+        "obsession pour mon ex",
+        "comment arrêter d'être obsédé par quelqu'un",
+        "je n'arrive pas à lâcher mon ex",
+        "envie d'écrire à mon ex"
+      ],
+      "baseQueries": [
+        "obsession pour mon ex",
+        "comment arrêter d'être obsédé par quelqu'un",
+        "je n'arrive pas à lâcher mon ex",
+        "envie d'écrire à mon ex"
+      ],
+      "googleSuggestions": [
+        "obsession pour mon ex",
+        "comment arrêter d'être obsédé par quelqu'un",
+        "comment arreter d etre attiré par quelqu un",
+        "je n arrive pas a lacher prise avec mon ex",
+        "j'ai envie d'écrire à mon ex",
+        "envie d'envoyer un message à mon ex"
+      ],
+      "candidatePhrases": [
+        "obsession pour mon ex",
+        "comment arrêter d'être obsédé par quelqu'un",
+        "je n'arrive pas à lâcher mon ex",
+        "envie d'écrire à mon ex",
+        "comment arreter d etre attiré par quelqu un",
+        "je n arrive pas a lacher prise avec mon ex",
+        "j'ai envie d'écrire à mon ex",
+        "envie d'envoyer un message à mon ex"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "obsession pour mon ex",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "comment arrêter d'être obsédé par quelqu'un",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "je n'arrive pas à lâcher mon ex",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "envie d'écrire à mon ex",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "comment arreter d etre attiré par quelqu un",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "je n arrive pas a lacher prise avec mon ex",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "j'ai envie d'écrire à mon ex",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "envie d'envoyer un message à mon ex",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "obsession pour mon ex",
+        "comment arrêter d'être obsédé par quelqu'un",
+        "je n'arrive pas à lâcher mon ex",
+        "envie d'écrire à mon ex",
+        "comment arreter d etre attiré par quelqu un",
+        "je n arrive pas a lacher prise avec mon ex",
+        "j'ai envie d'écrire à mon ex",
+        "envie d'envoyer un message à mon ex"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "fr-FR",
+      "route": "/breakup/reunion",
+      "slot": "breakup/reunion",
+      "axis": "worry",
+      "sourceQueries": [
+        "dois-je retourner avec mon ex",
+        "reprendre avec son ex bonne idée",
+        "peur de refaire les mêmes erreurs",
+        "se remettre avec son ex"
+      ],
+      "baseQueries": [
+        "dois-je retourner avec mon ex",
+        "reprendre avec son ex bonne idée",
+        "peur de refaire les mêmes erreurs",
+        "se remettre avec son ex"
+      ],
+      "googleSuggestions": [
+        "dois je retourner avec mon ex",
+        "devrais je retourner avec mon ex",
+        "je retourne avec mon ex",
+        "comment savoir si je dois retourner avec mon ex",
+        "vais je retourner avec mon ex",
+        "doit on retourner avec son ex",
+        "revenir avec son ex bonne ou mauvaise idée",
+        "j'ai peur de m'attacher refaire les memes erreurs",
+        "se remettre avec son ex",
+        "se remettre avec son ex 10 ans après",
+        "se remettre avec son ex après 2 mois",
+        "se remettre avec son ex mari",
+        "se remettre avec son ex après plusieurs mois",
+        "se remettre avec son ex apres une rupture",
+        "se remettre avec son ex femme",
+        "se remettre avec son ex des années après",
+        "se remettre avec son ex après 2 ans",
+        "se remettre avec son ex mari après divorce"
+      ],
+      "candidatePhrases": [
+        "dois-je retourner avec mon ex",
+        "reprendre avec son ex bonne idée",
+        "peur de refaire les mêmes erreurs",
+        "se remettre avec son ex",
+        "dois je retourner avec mon ex",
+        "devrais je retourner avec mon ex",
+        "je retourne avec mon ex",
+        "comment savoir si je dois retourner avec mon ex",
+        "vais je retourner avec mon ex",
+        "doit on retourner avec son ex",
+        "revenir avec son ex bonne ou mauvaise idée",
+        "j'ai peur de m'attacher refaire les memes erreurs",
+        "se remettre avec son ex 10 ans après",
+        "se remettre avec son ex après 2 mois",
+        "se remettre avec son ex mari",
+        "se remettre avec son ex après plusieurs mois",
+        "se remettre avec son ex apres une rupture",
+        "se remettre avec son ex femme",
+        "se remettre avec son ex des années après",
+        "se remettre avec son ex après 2 ans",
+        "se remettre avec son ex mari après divorce"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "dois-je retourner avec mon ex",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "reprendre avec son ex bonne idée",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "peur de refaire les mêmes erreurs",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "se remettre avec son ex",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "dois je retourner avec mon ex",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "devrais je retourner avec mon ex",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "je retourne avec mon ex",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "comment savoir si je dois retourner avec mon ex",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "vais je retourner avec mon ex",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "doit on retourner avec son ex",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "revenir avec son ex bonne ou mauvaise idée",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "j'ai peur de m'attacher refaire les memes erreurs",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "se remettre avec son ex 10 ans après",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "se remettre avec son ex après 2 mois",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "se remettre avec son ex mari",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "se remettre avec son ex après plusieurs mois",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "se remettre avec son ex apres une rupture",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "se remettre avec son ex femme",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "se remettre avec son ex des années après",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "se remettre avec son ex après 2 ans",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "se remettre avec son ex mari après divorce",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "dois-je retourner avec mon ex",
+        "reprendre avec son ex bonne idée",
+        "peur de refaire les mêmes erreurs",
+        "se remettre avec son ex",
+        "dois je retourner avec mon ex",
+        "devrais je retourner avec mon ex",
+        "je retourne avec mon ex",
+        "comment savoir si je dois retourner avec mon ex",
+        "vais je retourner avec mon ex",
+        "doit on retourner avec son ex",
+        "revenir avec son ex bonne ou mauvaise idée",
+        "j'ai peur de m'attacher refaire les memes erreurs",
+        "se remettre avec son ex 10 ans après",
+        "se remettre avec son ex après 2 mois",
+        "se remettre avec son ex mari",
+        "se remettre avec son ex après plusieurs mois",
+        "se remettre avec son ex apres une rupture",
+        "se remettre avec son ex femme",
+        "se remettre avec son ex des années après",
+        "se remettre avec son ex après 2 ans",
+        "se remettre avec son ex mari après divorce"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "fr-FR",
+      "route": "/breakup/ex-contact",
+      "slot": "breakup/ex-contact",
+      "axis": "worry",
+      "sourceQueries": [
+        "mon ex m'a écrit que faire",
+        "message de mon ex je suis perdu",
+        "mon ex reprend contact",
+        "que faire quand son ex revient"
+      ],
+      "baseQueries": [
+        "mon ex m'a écrit que faire",
+        "message de mon ex je suis perdu",
+        "mon ex reprend contact",
+        "que faire quand son ex revient"
+      ],
+      "googleSuggestions": [
+        "mon ex m'ignore que faire",
+        "mon ex m insulte que faire",
+        "mon ex m espionne que faire",
+        "mon ex me harcèle que faire",
+        "mon ex reprend contact psychologie",
+        "mon ex reprend contact avec moi",
+        "mon ex reprend contact puis plus rien",
+        "mon ex prend contact avec ma famille",
+        "pourquoi mon ex reprend contact avec moi",
+        "que faire quand son ex revient",
+        "que faire quand son ex veut revenir"
+      ],
+      "candidatePhrases": [
+        "mon ex m'a écrit que faire",
+        "message de mon ex je suis perdu",
+        "mon ex reprend contact",
+        "que faire quand son ex revient",
+        "mon ex m'ignore que faire",
+        "mon ex m insulte que faire",
+        "mon ex m espionne que faire",
+        "mon ex me harcèle que faire",
+        "mon ex reprend contact psychologie",
+        "mon ex reprend contact avec moi",
+        "mon ex reprend contact puis plus rien",
+        "mon ex prend contact avec ma famille",
+        "pourquoi mon ex reprend contact avec moi",
+        "que faire quand son ex veut revenir"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "mon ex m'a écrit que faire",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "message de mon ex je suis perdu",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "mon ex reprend contact",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "que faire quand son ex revient",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "mon ex m'ignore que faire",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "mon ex m insulte que faire",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "mon ex m espionne que faire",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "mon ex me harcèle que faire",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "mon ex reprend contact psychologie",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "mon ex reprend contact avec moi",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "mon ex reprend contact puis plus rien",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "mon ex prend contact avec ma famille",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "pourquoi mon ex reprend contact avec moi",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "que faire quand son ex veut revenir",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "mon ex m'a écrit que faire",
+        "message de mon ex je suis perdu",
+        "mon ex reprend contact",
+        "que faire quand son ex revient",
+        "mon ex m'ignore que faire",
+        "mon ex m insulte que faire",
+        "mon ex m espionne que faire",
+        "mon ex me harcèle que faire",
+        "mon ex reprend contact psychologie",
+        "mon ex reprend contact avec moi",
+        "mon ex reprend contact puis plus rien",
+        "mon ex prend contact avec ma famille",
+        "pourquoi mon ex reprend contact avec moi",
+        "que faire quand son ex veut revenir"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "fr-FR",
+      "route": "/self-esteem/self-hate",
+      "slot": "self-esteem/self-hate",
+      "axis": "worry",
+      "sourceQueries": [
+        "je me déteste",
+        "je n'arrive pas à m'aimer",
+        "culpabilité envers soi-même",
+        "comment arrêter de se détester"
+      ],
+      "baseQueries": [
+        "je me déteste",
+        "je n'arrive pas à m'aimer",
+        "culpabilité envers soi-même",
+        "comment arrêter de se détester"
+      ],
+      "googleSuggestions": [
+        "je me déteste",
+        "je me déteste profondément",
+        "je me déteste nuit incolore",
+        "je me déteste physiquement",
+        "je me déteste physiquement et mentalement",
+        "je me déteste test",
+        "je me déteste in english",
+        "je me déteste parole",
+        "je me déteste en arabe",
+        "je me déteste citation",
+        "je n arrive pas à m aimer",
+        "pourquoi je n'arrive pas à m'aimer",
+        "je n arrive pas à croire qu il m aime",
+        "culpabilité envers soi meme",
+        "comment arrêter de se détester",
+        "comment arrêter de détester quelqu un"
+      ],
+      "candidatePhrases": [
+        "je me déteste",
+        "je n'arrive pas à m'aimer",
+        "culpabilité envers soi-même",
+        "comment arrêter de se détester",
+        "je me déteste profondément",
+        "je me déteste nuit incolore",
+        "je me déteste physiquement",
+        "je me déteste physiquement et mentalement",
+        "je me déteste test",
+        "je me déteste in english",
+        "je me déteste parole",
+        "je me déteste en arabe",
+        "je me déteste citation",
+        "je n arrive pas à m aimer",
+        "pourquoi je n'arrive pas à m'aimer",
+        "je n arrive pas à croire qu il m aime",
+        "culpabilité envers soi meme",
+        "comment arrêter de détester quelqu un"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "je me déteste",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "je n'arrive pas à m'aimer",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "culpabilité envers soi-même",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "comment arrêter de se détester",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "je me déteste profondément",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "je me déteste nuit incolore",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "je me déteste physiquement",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "je me déteste physiquement et mentalement",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "je me déteste test",
+          "status": "low-signal",
+          "reasons": [
+            "fortune-telling / diagnosis drift",
+            "fortune-telling / diagnosis drift",
+            "fortune-telling / diagnosis drift"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "je me déteste in english",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "je me déteste parole",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "je me déteste en arabe",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "je me déteste citation",
+          "status": "review",
+          "reasons": [
+            "reference or concept query",
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "je n arrive pas à m aimer",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "pourquoi je n'arrive pas à m'aimer",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "je n arrive pas à croire qu il m aime",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "culpabilité envers soi meme",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "comment arrêter de détester quelqu un",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "je me déteste",
+        "je n'arrive pas à m'aimer",
+        "culpabilité envers soi-même",
+        "comment arrêter de se détester",
+        "je me déteste profondément",
+        "je me déteste nuit incolore",
+        "je me déteste physiquement",
+        "je me déteste physiquement et mentalement",
+        "je me déteste in english",
+        "je me déteste parole",
+        "je me déteste en arabe",
+        "je n arrive pas à m aimer",
+        "pourquoi je n'arrive pas à m'aimer",
+        "je n arrive pas à croire qu il m aime",
+        "culpabilité envers soi meme",
+        "comment arrêter de détester quelqu un"
+      ],
+      "reviewCandidatePhrases": [
+        "je me déteste citation"
+      ],
+      "lowSignalCandidatePhrases": [
+        "je me déteste test"
+      ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "fr-FR",
+      "route": "/self-esteem/cant-accept-praise",
+      "slot": "self-esteem/cant-accept-praise",
+      "axis": "worry",
+      "sourceQueries": [
+        "je n'accepte pas les compliments",
+        "je ne crois pas les compliments",
+        "les compliments me mettent mal à l'aise",
+        "pourquoi je refuse les compliments"
+      ],
+      "baseQueries": [
+        "je n'accepte pas les compliments",
+        "je ne crois pas les compliments",
+        "les compliments me mettent mal à l'aise",
+        "pourquoi je refuse les compliments"
+      ],
+      "googleSuggestions": [
+        "je n accepte pas les compliments",
+        "pourquoi je n accepte pas les compliments",
+        "n accepte pas les compliments",
+        "je n aime pas les compliments",
+        "je ne crois pas aux compliments",
+        "les compliments me mettent mal à l aise",
+        "pourquoi les compliments me mettent mal à l aise"
+      ],
+      "candidatePhrases": [
+        "je n'accepte pas les compliments",
+        "je ne crois pas les compliments",
+        "les compliments me mettent mal à l'aise",
+        "pourquoi je refuse les compliments",
+        "je n accepte pas les compliments",
+        "pourquoi je n accepte pas les compliments",
+        "n accepte pas les compliments",
+        "je n aime pas les compliments",
+        "je ne crois pas aux compliments",
+        "les compliments me mettent mal à l aise",
+        "pourquoi les compliments me mettent mal à l aise"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "je n'accepte pas les compliments",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "je ne crois pas les compliments",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "les compliments me mettent mal à l'aise",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "pourquoi je refuse les compliments",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "je n accepte pas les compliments",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "pourquoi je n accepte pas les compliments",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "n accepte pas les compliments",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "je n aime pas les compliments",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "je ne crois pas aux compliments",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "les compliments me mettent mal à l aise",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "pourquoi les compliments me mettent mal à l aise",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "je n'accepte pas les compliments",
+        "je ne crois pas les compliments",
+        "les compliments me mettent mal à l'aise",
+        "pourquoi je refuse les compliments",
+        "je n accepte pas les compliments",
+        "pourquoi je n accepte pas les compliments",
+        "n accepte pas les compliments",
+        "je n aime pas les compliments",
+        "je ne crois pas aux compliments",
+        "les compliments me mettent mal à l aise",
+        "pourquoi les compliments me mettent mal à l aise"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "fr-FR",
+      "route": "/self-esteem/falling-behind",
+      "slot": "self-esteem/falling-behind",
+      "axis": "worry",
+      "sourceQueries": [
+        "j'ai l'impression d'être en retard dans la vie",
+        "me comparer aux autres âge",
+        "tout le monde avance sauf moi",
+        "peur d'être en retard"
+      ],
+      "baseQueries": [
+        "j'ai l'impression d'être en retard dans la vie",
+        "me comparer aux autres âge",
+        "tout le monde avance sauf moi",
+        "peur d'être en retard"
+      ],
+      "googleSuggestions": [
+        "tout le monde avance sauf moi",
+        "peur d'être en retard",
+        "angoisse d être en retard",
+        "peur d'arriver en retard",
+        "rever d avoir peur d être en retard",
+        "j ai peur d arriver en retard",
+        "comment s appelle la peur d être en retard"
+      ],
+      "candidatePhrases": [
+        "j'ai l'impression d'être en retard dans la vie",
+        "me comparer aux autres âge",
+        "tout le monde avance sauf moi",
+        "peur d'être en retard",
+        "angoisse d être en retard",
+        "peur d'arriver en retard",
+        "rever d avoir peur d être en retard",
+        "j ai peur d arriver en retard",
+        "comment s appelle la peur d être en retard"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "j'ai l'impression d'être en retard dans la vie",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "me comparer aux autres âge",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "tout le monde avance sauf moi",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "peur d'être en retard",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "angoisse d être en retard",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "peur d'arriver en retard",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "rever d avoir peur d être en retard",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "j ai peur d arriver en retard",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "comment s appelle la peur d être en retard",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "j'ai l'impression d'être en retard dans la vie",
+        "me comparer aux autres âge",
+        "tout le monde avance sauf moi",
+        "peur d'être en retard",
+        "angoisse d être en retard",
+        "peur d'arriver en retard",
+        "rever d avoir peur d être en retard",
+        "j ai peur d arriver en retard",
+        "comment s appelle la peur d être en retard"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "fr-FR",
+      "route": "/self-esteem/dating-self-esteem",
+      "slot": "self-esteem/dating-self-esteem",
+      "axis": "worry",
+      "sourceQueries": [
+        "faible estime de soi en couple",
+        "je ne mérite pas d'être aimé",
+        "mon couple détruit mon estime",
+        "insécurité amoureuse"
+      ],
+      "baseQueries": [
+        "faible estime de soi en couple",
+        "je ne mérite pas d'être aimé",
+        "mon couple détruit mon estime",
+        "insécurité amoureuse"
+      ],
+      "googleSuggestions": [
+        "faible estime de soi en couple",
+        "manque de confiance en soi couple",
+        "manque de confiance en moi couple",
+        "manque d estime de soi en amour",
+        "manque de confiance en soi relation amoureuse",
+        "manque de confiance en soi amour",
+        "manque de confiance en soi relation",
+        "je ne merite pas d'etre aimé",
+        "je ne mérite pas d'être aimée",
+        "insécurité amoureuse",
+        "insécurité relation amoureuse",
+        "vaincre l'insécurité amoureuse"
+      ],
+      "candidatePhrases": [
+        "faible estime de soi en couple",
+        "je ne mérite pas d'être aimé",
+        "mon couple détruit mon estime",
+        "insécurité amoureuse",
+        "manque de confiance en soi couple",
+        "manque de confiance en moi couple",
+        "manque d estime de soi en amour",
+        "manque de confiance en soi relation amoureuse",
+        "manque de confiance en soi amour",
+        "manque de confiance en soi relation",
+        "je ne merite pas d'etre aimé",
+        "je ne mérite pas d'être aimée",
+        "insécurité relation amoureuse",
+        "vaincre l'insécurité amoureuse"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "faible estime de soi en couple",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "je ne mérite pas d'être aimé",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "mon couple détruit mon estime",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "insécurité amoureuse",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "manque de confiance en soi couple",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "manque de confiance en moi couple",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "manque d estime de soi en amour",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "manque de confiance en soi relation amoureuse",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "manque de confiance en soi amour",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "manque de confiance en soi relation",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "je ne merite pas d'etre aimé",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "je ne mérite pas d'être aimée",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "insécurité relation amoureuse",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "vaincre l'insécurité amoureuse",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "faible estime de soi en couple",
+        "je ne mérite pas d'être aimé",
+        "mon couple détruit mon estime",
+        "insécurité amoureuse",
+        "manque de confiance en soi couple",
+        "manque de confiance en moi couple",
+        "manque d estime de soi en amour",
+        "manque de confiance en soi relation amoureuse",
+        "manque de confiance en soi amour",
+        "manque de confiance en soi relation",
+        "je ne merite pas d'etre aimé",
+        "je ne mérite pas d'être aimée",
+        "insécurité relation amoureuse",
+        "vaincre l'insécurité amoureuse"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "fr-FR",
+      "route": "/relationships/hurtful-words",
+      "slot": "relationships/hurtful-words",
+      "axis": "worry",
+      "sourceQueries": [
+        "je n'arrive pas à oublier ses paroles blessantes",
+        "ses mots me font encore mal",
+        "comment oublier une phrase blessante",
+        "paroles qui blessent longtemps"
+      ],
+      "baseQueries": [
+        "je n'arrive pas à oublier ses paroles blessantes",
+        "ses mots me font encore mal",
+        "comment oublier une phrase blessante",
+        "paroles qui blessent longtemps"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "je n'arrive pas à oublier ses paroles blessantes",
+        "ses mots me font encore mal",
+        "comment oublier une phrase blessante",
+        "paroles qui blessent longtemps"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "je n'arrive pas à oublier ses paroles blessantes",
+          "status": "low-signal",
+          "reasons": [
+            "entertainment lookup"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ses mots me font encore mal",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "comment oublier une phrase blessante",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "paroles qui blessent longtemps",
+          "status": "low-signal",
+          "reasons": [
+            "entertainment lookup"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "ses mots me font encore mal",
+        "comment oublier une phrase blessante"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [
+        "je n'arrive pas à oublier ses paroles blessantes",
+        "paroles qui blessent longtemps"
+      ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "fr-FR",
+      "route": "/relationships/people-pleasing",
+      "slot": "relationships/people-pleasing",
+      "axis": "worry",
+      "sourceQueries": [
+        "arrêter de faire plaisir à tout le monde",
+        "peur de déplaire",
+        "je ne sais pas dire non",
+        "personnalité complaisante"
+      ],
+      "baseQueries": [
+        "arrêter de faire plaisir à tout le monde",
+        "peur de déplaire",
+        "je ne sais pas dire non",
+        "personnalité complaisante"
+      ],
+      "googleSuggestions": [
+        "peur de déplaire",
+        "peur de déplaire aux autres",
+        "je ne sais pas dire non",
+        "je ne sais pas dire non aux hommes",
+        "je ne sais pas dire non chanson",
+        "je ne sais pas dire non au travail",
+        "je ne peux pas dire non",
+        "je ne peux pas dire non tout va bien",
+        "je ne peux pas dire non en anglais",
+        "pourquoi je ne sais pas dire non",
+        "bref je ne sais pas dire non",
+        "livre je ne sais pas dire non",
+        "personnalité complaisante"
+      ],
+      "candidatePhrases": [
+        "arrêter de faire plaisir à tout le monde",
+        "peur de déplaire",
+        "je ne sais pas dire non",
+        "personnalité complaisante",
+        "peur de déplaire aux autres",
+        "je ne sais pas dire non aux hommes",
+        "je ne sais pas dire non chanson",
+        "je ne sais pas dire non au travail",
+        "je ne peux pas dire non",
+        "je ne peux pas dire non tout va bien",
+        "je ne peux pas dire non en anglais",
+        "pourquoi je ne sais pas dire non",
+        "bref je ne sais pas dire non",
+        "livre je ne sais pas dire non"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "arrêter de faire plaisir à tout le monde",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "peur de déplaire",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "je ne sais pas dire non",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "personnalité complaisante",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "peur de déplaire aux autres",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "je ne sais pas dire non aux hommes",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "je ne sais pas dire non chanson",
+          "status": "low-signal",
+          "reasons": [
+            "entertainment lookup"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "je ne sais pas dire non au travail",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "je ne peux pas dire non",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "je ne peux pas dire non tout va bien",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "je ne peux pas dire non en anglais",
+          "status": "low-signal",
+          "reasons": [
+            "translation or language lookup"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "pourquoi je ne sais pas dire non",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "bref je ne sais pas dire non",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "livre je ne sais pas dire non",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "arrêter de faire plaisir à tout le monde",
+        "peur de déplaire",
+        "je ne sais pas dire non",
+        "personnalité complaisante",
+        "peur de déplaire aux autres",
+        "je ne sais pas dire non aux hommes",
+        "je ne sais pas dire non au travail",
+        "je ne peux pas dire non",
+        "je ne peux pas dire non tout va bien",
+        "pourquoi je ne sais pas dire non",
+        "bref je ne sais pas dire non"
+      ],
+      "reviewCandidatePhrases": [
+        "livre je ne sais pas dire non"
+      ],
+      "lowSignalCandidatePhrases": [
+        "je ne sais pas dire non chanson",
+        "je ne peux pas dire non en anglais"
+      ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "fr-FR",
+      "route": "/relationships/relationship-burnout",
+      "slot": "relationships/relationship-burnout",
+      "axis": "worry",
+      "sourceQueries": [
+        "fatigue relationnelle",
+        "je suis épuisé par les gens",
+        "je ne veux voir personne",
+        "les relations me vident"
+      ],
+      "baseQueries": [
+        "fatigue relationnelle",
+        "je suis épuisé par les gens",
+        "je ne veux voir personne",
+        "les relations me vident"
+      ],
+      "googleSuggestions": [
+        "fatigue relationnelle",
+        "je ne veux voir personne",
+        "je ne veux voir personne à la maternité",
+        "je ne veux voir personne en anglais",
+        "je ne veux plus voir personne",
+        "pourquoi je ne veux voir personne",
+        "je ne veux plus voir personne en harley davidson",
+        "depression je ne veux voir personne",
+        "je ne veux personne à mon enterrement",
+        "pourquoi je ne veux plus voir personne",
+        "je ne veux personne d'autre que toi"
+      ],
+      "candidatePhrases": [
+        "fatigue relationnelle",
+        "je suis épuisé par les gens",
+        "je ne veux voir personne",
+        "les relations me vident",
+        "je ne veux voir personne à la maternité",
+        "je ne veux voir personne en anglais",
+        "je ne veux plus voir personne",
+        "pourquoi je ne veux voir personne",
+        "je ne veux plus voir personne en harley davidson",
+        "depression je ne veux voir personne",
+        "je ne veux personne à mon enterrement",
+        "pourquoi je ne veux plus voir personne",
+        "je ne veux personne d'autre que toi"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "fatigue relationnelle",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "je suis épuisé par les gens",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "je ne veux voir personne",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "les relations me vident",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "je ne veux voir personne à la maternité",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "je ne veux voir personne en anglais",
+          "status": "low-signal",
+          "reasons": [
+            "translation or language lookup"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "je ne veux plus voir personne",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "pourquoi je ne veux voir personne",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "je ne veux plus voir personne en harley davidson",
+          "status": "review",
+          "reasons": [
+            "legal/institutional review needed"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "depression je ne veux voir personne",
+          "status": "review",
+          "reasons": [
+            "medical review needed"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "je ne veux personne à mon enterrement",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "pourquoi je ne veux plus voir personne",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "je ne veux personne d'autre que toi",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "fatigue relationnelle",
+        "je suis épuisé par les gens",
+        "je ne veux voir personne",
+        "les relations me vident",
+        "je ne veux voir personne à la maternité",
+        "je ne veux plus voir personne",
+        "pourquoi je ne veux voir personne",
+        "je ne veux personne à mon enterrement",
+        "pourquoi je ne veux plus voir personne",
+        "je ne veux personne d'autre que toi"
+      ],
+      "reviewCandidatePhrases": [
+        "je ne veux plus voir personne en harley davidson",
+        "depression je ne veux voir personne"
+      ],
+      "lowSignalCandidatePhrases": [
+        "je ne veux voir personne en anglais"
+      ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "fr-FR",
+      "route": "/relationships/regret-words",
+      "slot": "relationships/regret-words",
+      "axis": "worry",
+      "sourceQueries": [
+        "je regrette ce que j'ai dit",
+        "j'ai dit quelque chose de mal",
+        "anxiété après avoir parlé",
+        "comment réparer une parole maladroite"
+      ],
+      "baseQueries": [
+        "je regrette ce que j'ai dit",
+        "j'ai dit quelque chose de mal",
+        "anxiété après avoir parlé",
+        "comment réparer une parole maladroite"
+      ],
+      "googleSuggestions": [
+        "je regrette ce que j'ai dit",
+        "j'ai dit quelque chose de mal",
+        "j ai dit quelque chose de mal en anglais",
+        "si j ai dit quelque chose de mal",
+        "est ce que j ai dit quelque chose de mal"
+      ],
+      "candidatePhrases": [
+        "je regrette ce que j'ai dit",
+        "j'ai dit quelque chose de mal",
+        "anxiété après avoir parlé",
+        "comment réparer une parole maladroite",
+        "j ai dit quelque chose de mal en anglais",
+        "si j ai dit quelque chose de mal",
+        "est ce que j ai dit quelque chose de mal"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "je regrette ce que j'ai dit",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "j'ai dit quelque chose de mal",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "anxiété après avoir parlé",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "comment réparer une parole maladroite",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "j ai dit quelque chose de mal en anglais",
+          "status": "low-signal",
+          "reasons": [
+            "translation or language lookup"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "si j ai dit quelque chose de mal",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "est ce que j ai dit quelque chose de mal",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "je regrette ce que j'ai dit",
+        "j'ai dit quelque chose de mal",
+        "anxiété après avoir parlé",
+        "comment réparer une parole maladroite",
+        "si j ai dit quelque chose de mal",
+        "est ce que j ai dit quelque chose de mal"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [
+        "j ai dit quelque chose de mal en anglais"
+      ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "fr-FR",
+      "route": "/work/quit-or-stay",
+      "slot": "work/quit-or-stay",
+      "axis": "worry",
+      "sourceQueries": [
+        "quitter son travail ou rester",
+        "démissionner ou tenir",
+        "je veux quitter mon travail mais j'ai peur",
+        "dois-je changer de travail"
+      ],
+      "baseQueries": [
+        "quitter son travail ou rester",
+        "démissionner ou tenir",
+        "je veux quitter mon travail mais j'ai peur",
+        "dois-je changer de travail"
+      ],
+      "googleSuggestions": [
+        "quitter son travail ou rester",
+        "je veux quitter mon travail mais j'ai peur",
+        "dois je changer de travail",
+        "dois je changer de travail test",
+        "dois je changer de metier",
+        "signes que je dois changer de travail",
+        "savoir si je dois changer de travail"
+      ],
+      "candidatePhrases": [
+        "quitter son travail ou rester",
+        "démissionner ou tenir",
+        "je veux quitter mon travail mais j'ai peur",
+        "dois-je changer de travail",
+        "dois je changer de travail",
+        "dois je changer de travail test",
+        "dois je changer de metier",
+        "signes que je dois changer de travail",
+        "savoir si je dois changer de travail"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "quitter son travail ou rester",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "démissionner ou tenir",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "je veux quitter mon travail mais j'ai peur",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "dois-je changer de travail",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "dois je changer de travail",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "dois je changer de travail test",
+          "status": "low-signal",
+          "reasons": [
+            "fortune-telling / diagnosis drift",
+            "fortune-telling / diagnosis drift",
+            "fortune-telling / diagnosis drift"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "dois je changer de metier",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "signes que je dois changer de travail",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "savoir si je dois changer de travail",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "quitter son travail ou rester",
+        "démissionner ou tenir",
+        "je veux quitter mon travail mais j'ai peur",
+        "dois-je changer de travail",
+        "dois je changer de travail",
+        "dois je changer de metier",
+        "signes que je dois changer de travail",
+        "savoir si je dois changer de travail"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [
+        "dois je changer de travail test"
+      ],
       "clusterHints": {},
       "errors": []
     }

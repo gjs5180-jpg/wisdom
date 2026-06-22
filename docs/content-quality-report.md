@@ -1,25 +1,25 @@
 # 콘텐츠 품질 리포트
 
-생성 시각: 2026. 6. 22. PM 2:49:21
+생성 시각: 2026. 6. 22. PM 3:06:03
 
 이 리포트는 공개 카드 전체를 같은 기준으로 점검합니다. 점수는 완성도 절대값이라기보다 다음 보강 순서를 정하기 위한 운영 지표입니다.
 
 ## 요약
 
 - 공개 카드: 89개
-- 평균 점수: 89/100
-- A 등급: 44개
-- B 등급: 45개
+- 평균 점수: 90/100
+- A 등급: 59개
+- B 등급: 30개
 - C 등급: 0개
 - D 등급: 0개
-- 언어권 관심 신호 연결: 44/89
+- 언어권 관심 신호 연결: 59/89
 - 언어권 표현 인사이트 연결: 19/89
 
 ## 축별 상태
 
 | 축 | 카드 | 평균 | 등급 |
 | --- | --- | --- | --- |
-| 고민 | 62 | 88 | A 31 / B 31 / C 0 / D 0 |
+| 고민 | 62 | 90 | A 46 / B 16 / C 0 / D 0 |
 | 논쟁 | 23 | 89 | A 9 / B 14 / C 0 / D 0 |
 | 생각 | 4 | 98 | A 4 / B 0 / C 0 / D 0 |
 
@@ -36,7 +36,7 @@
 | 행동/질문 | 89/89 | 100% |
 | 관련 흐름 | 89/89 | 100% |
 | 인물/논쟁 관점 | 89/89 | 100% |
-| 언어권 관심 신호 | 44/89 | 49% |
+| 언어권 관심 신호 | 59/89 | 66% |
 | 언어권 표현 인사이트 | 19/89 | 21% |
 
 ## 가장 많이 걸린 보강 항목
@@ -44,7 +44,7 @@
 | 보강 항목 | 카드 수 |
 | --- | --- |
 | 언어권별 표현 차이와 공통점을 인사이트로 정리 | 70 |
-| 언어권별 수집 표현을 canonical node에 연결 | 45 |
+| 언어권별 수집 표현을 canonical node에 연결 | 30 |
 
 ## 우선 보강 카드
 
@@ -52,51 +52,51 @@
 
 | 점수 | 축 | 카드 | 주요 보강 |
 | --- | --- | --- | --- |
-| 83 B | 고민 | [상대 마음을 모를 때](/love/cant-read-them) | 언어권별 수집 표현을 canonical node에 연결; 언어권별 표현 차이와 공통점을 인사이트로 정리 |
-| 83 B | 고민 | [권태기와 연애 현타가 왔을 때](/love/relationship-boredom) | 언어권별 수집 표현을 canonical node에 연결; 언어권별 표현 차이와 공통점을 인사이트로 정리 |
-| 83 B | 고민 | [이별 직후 무너질 때](/breakup/right-after) | 언어권별 수집 표현을 canonical node에 연결; 언어권별 표현 차이와 공통점을 인사이트로 정리 |
-| 83 B | 고민 | [집착을 끊고 싶을 때](/breakup/obsession) | 언어권별 수집 표현을 canonical node에 연결; 언어권별 표현 차이와 공통점을 인사이트로 정리 |
-| 83 B | 고민 | [재회해야 할지 고민될 때](/breakup/reunion) | 언어권별 수집 표현을 canonical node에 연결; 언어권별 표현 차이와 공통점을 인사이트로 정리 |
-| 83 B | 고민 | [전 애인 연락이 흔들릴 때](/breakup/ex-contact) | 언어권별 수집 표현을 canonical node에 연결; 언어권별 표현 차이와 공통점을 인사이트로 정리 |
-| 83 B | 고민 | [나를 싫어할 때](/self-esteem/self-hate) | 언어권별 수집 표현을 canonical node에 연결; 언어권별 표현 차이와 공통점을 인사이트로 정리 |
-| 83 B | 고민 | [칭찬을 못 받아들일 때](/self-esteem/cant-accept-praise) | 언어권별 수집 표현을 canonical node에 연결; 언어권별 표현 차이와 공통점을 인사이트로 정리 |
-| 83 B | 고민 | [나만 뒤처지는 것 같을 때](/self-esteem/falling-behind) | 언어권별 수집 표현을 canonical node에 연결; 언어권별 표현 차이와 공통점을 인사이트로 정리 |
-| 83 B | 고민 | [자존감 낮은 연애를 할 때](/self-esteem/dating-self-esteem) | 언어권별 수집 표현을 canonical node에 연결; 언어권별 표현 차이와 공통점을 인사이트로 정리 |
-| 83 B | 고민 | [상처받은 말이 잊히지 않을 때](/relationships/hurtful-words) | 언어권별 수집 표현을 canonical node에 연결; 언어권별 표현 차이와 공통점을 인사이트로 정리 |
-| 83 B | 고민 | [눈치 보는 성격을 고치고 싶을 때](/relationships/people-pleasing) | 언어권별 수집 표현을 canonical node에 연결; 언어권별 표현 차이와 공통점을 인사이트로 정리 |
-| 83 B | 고민 | [인간관계 현타가 올 때](/relationships/relationship-burnout) | 언어권별 수집 표현을 canonical node에 연결; 언어권별 표현 차이와 공통점을 인사이트로 정리 |
-| 83 B | 고민 | [말실수 후회가 클 때](/relationships/regret-words) | 언어권별 수집 표현을 canonical node에 연결; 언어권별 표현 차이와 공통점을 인사이트로 정리 |
-| 83 B | 고민 | [퇴사해야 할지 버텨야 할지 고민될 때](/work/quit-or-stay) | 언어권별 수집 표현을 canonical node에 연결; 언어권별 표현 차이와 공통점을 인사이트로 정리 |
 | 83 B | 고민 | [인정받지 못하는 느낌이 들 때](/work/unrecognized) | 언어권별 수집 표현을 canonical node에 연결; 언어권별 표현 차이와 공통점을 인사이트로 정리 |
 | 83 B | 고민 | [직장 우울감이 심할 때](/work/work-depression) | 언어권별 수집 표현을 canonical node에 연결; 언어권별 표현 차이와 공통점을 인사이트로 정리 |
 | 83 B | 고민 | [일 못하는 것 같을 때](/work/not-good-enough) | 언어권별 수집 표현을 canonical node에 연결; 언어권별 표현 차이와 공통점을 인사이트로 정리 |
 | 83 B | 고민 | [일에 회의감이 들 때](/work/work-skepticism) | 언어권별 수집 표현을 canonical node에 연결; 언어권별 표현 차이와 공통점을 인사이트로 정리 |
 | 83 B | 고민 | [내가 뭘 원하는지 모를 때](/meaning/dont-know-want) | 언어권별 수집 표현을 canonical node에 연결; 언어권별 표현 차이와 공통점을 인사이트로 정리 |
+| 83 B | 고민 | [공허함이 느껴질 때](/meaning/emptiness) | 언어권별 수집 표현을 canonical node에 연결; 언어권별 표현 차이와 공통점을 인사이트로 정리 |
+| 83 B | 고민 | [목표가 없을 때](/meaning/no-goal) | 언어권별 수집 표현을 canonical node에 연결; 언어권별 표현 차이와 공통점을 인사이트로 정리 |
+| 83 B | 고민 | [방황하고 있을 때](/meaning/wandering) | 언어권별 수집 표현을 canonical node에 연결; 언어권별 표현 차이와 공통점을 인사이트로 정리 |
+| 83 B | 고민 | [명절 스트레스가 심할 때](/family/holiday-stress) | 언어권별 수집 표현을 canonical node에 연결; 언어권별 표현 차이와 공통점을 인사이트로 정리 |
+| 83 B | 고민 | [가족 손절을 고민할 때](/family/family-cutoff) | 언어권별 수집 표현을 canonical node에 연결; 언어권별 표현 차이와 공통점을 인사이트로 정리 |
+| 83 B | 고민 | [엄마랑 안 맞을 때](/family/mother-conflict) | 언어권별 수집 표현을 canonical node에 연결; 언어권별 표현 차이와 공통점을 인사이트로 정리 |
+| 83 B | 고민 | [외모 콤플렉스와 몸이 싫을 때](/body/body-anxiety) | 언어권별 수집 표현을 canonical node에 연결; 언어권별 표현 차이와 공통점을 인사이트로 정리 |
+| 83 B | 고민 | [노화가 불안할 때](/body/aging-anxiety) | 언어권별 수집 표현을 canonical node에 연결; 언어권별 표현 차이와 공통점을 인사이트로 정리 |
+| 83 B | 고민 | [탈모 스트레스가 심할 때](/body/hair-loss-stress) | 언어권별 수집 표현을 canonical node에 연결; 언어권별 표현 차이와 공통점을 인사이트로 정리 |
+| 83 B | 고민 | [꿈을 포기해야 할지 고민될 때](/career/dream-reality) | 언어권별 수집 표현을 canonical node에 연결; 언어권별 표현 차이와 공통점을 인사이트로 정리 |
+| 83 B | 고민 | [후회 없는 선택을 하고 싶을 때](/career/regret-free-choice) | 언어권별 수집 표현을 canonical node에 연결; 언어권별 표현 차이와 공통점을 인사이트로 정리 |
+| 83 B | 논쟁 | [안락사, 허용해도 되나?](/debate/euthanasia) | 언어권별 수집 표현을 canonical node에 연결; 언어권별 표현 차이와 공통점을 인사이트로 정리 |
+| 83 B | 논쟁 | [사형제, 유지해야 하나?](/debate/death-penalty) | 언어권별 수집 표현을 canonical node에 연결; 언어권별 표현 차이와 공통점을 인사이트로 정리 |
+| 83 B | 논쟁 | [낙태, 어디까지 허용해야 하나?](/debate/abortion) | 언어권별 수집 표현을 canonical node에 연결; 언어권별 표현 차이와 공통점을 인사이트로 정리 |
+| 83 B | 논쟁 | [동물실험, 정당화될 수 있나?](/debate/animal-testing) | 언어권별 수집 표현을 canonical node에 연결; 언어권별 표현 차이와 공통점을 인사이트로 정리 |
 
 ## 언어권 레이어 보강 후보
 
 | 점수 | 축 | 카드 | 상태 |
 | --- | --- | --- | --- |
-| 83 B | 고민 | [상대 마음을 모를 때](/love/cant-read-them) | 신호 없음 / 인사이트 0 |
-| 83 B | 고민 | [권태기와 연애 현타가 왔을 때](/love/relationship-boredom) | 신호 없음 / 인사이트 0 |
-| 83 B | 고민 | [이별 직후 무너질 때](/breakup/right-after) | 신호 없음 / 인사이트 0 |
-| 83 B | 고민 | [집착을 끊고 싶을 때](/breakup/obsession) | 신호 없음 / 인사이트 0 |
-| 83 B | 고민 | [재회해야 할지 고민될 때](/breakup/reunion) | 신호 없음 / 인사이트 0 |
-| 83 B | 고민 | [전 애인 연락이 흔들릴 때](/breakup/ex-contact) | 신호 없음 / 인사이트 0 |
-| 83 B | 고민 | [나를 싫어할 때](/self-esteem/self-hate) | 신호 없음 / 인사이트 0 |
-| 83 B | 고민 | [칭찬을 못 받아들일 때](/self-esteem/cant-accept-praise) | 신호 없음 / 인사이트 0 |
-| 83 B | 고민 | [나만 뒤처지는 것 같을 때](/self-esteem/falling-behind) | 신호 없음 / 인사이트 0 |
-| 83 B | 고민 | [자존감 낮은 연애를 할 때](/self-esteem/dating-self-esteem) | 신호 없음 / 인사이트 0 |
-| 83 B | 고민 | [상처받은 말이 잊히지 않을 때](/relationships/hurtful-words) | 신호 없음 / 인사이트 0 |
-| 83 B | 고민 | [눈치 보는 성격을 고치고 싶을 때](/relationships/people-pleasing) | 신호 없음 / 인사이트 0 |
-| 83 B | 고민 | [인간관계 현타가 올 때](/relationships/relationship-burnout) | 신호 없음 / 인사이트 0 |
-| 83 B | 고민 | [말실수 후회가 클 때](/relationships/regret-words) | 신호 없음 / 인사이트 0 |
-| 83 B | 고민 | [퇴사해야 할지 버텨야 할지 고민될 때](/work/quit-or-stay) | 신호 없음 / 인사이트 0 |
 | 83 B | 고민 | [인정받지 못하는 느낌이 들 때](/work/unrecognized) | 신호 없음 / 인사이트 0 |
 | 83 B | 고민 | [직장 우울감이 심할 때](/work/work-depression) | 신호 없음 / 인사이트 0 |
 | 83 B | 고민 | [일 못하는 것 같을 때](/work/not-good-enough) | 신호 없음 / 인사이트 0 |
 | 83 B | 고민 | [일에 회의감이 들 때](/work/work-skepticism) | 신호 없음 / 인사이트 0 |
 | 83 B | 고민 | [내가 뭘 원하는지 모를 때](/meaning/dont-know-want) | 신호 없음 / 인사이트 0 |
+| 83 B | 고민 | [공허함이 느껴질 때](/meaning/emptiness) | 신호 없음 / 인사이트 0 |
+| 83 B | 고민 | [목표가 없을 때](/meaning/no-goal) | 신호 없음 / 인사이트 0 |
+| 83 B | 고민 | [방황하고 있을 때](/meaning/wandering) | 신호 없음 / 인사이트 0 |
+| 83 B | 고민 | [명절 스트레스가 심할 때](/family/holiday-stress) | 신호 없음 / 인사이트 0 |
+| 83 B | 고민 | [가족 손절을 고민할 때](/family/family-cutoff) | 신호 없음 / 인사이트 0 |
+| 83 B | 고민 | [엄마랑 안 맞을 때](/family/mother-conflict) | 신호 없음 / 인사이트 0 |
+| 83 B | 고민 | [외모 콤플렉스와 몸이 싫을 때](/body/body-anxiety) | 신호 없음 / 인사이트 0 |
+| 83 B | 고민 | [노화가 불안할 때](/body/aging-anxiety) | 신호 없음 / 인사이트 0 |
+| 83 B | 고민 | [탈모 스트레스가 심할 때](/body/hair-loss-stress) | 신호 없음 / 인사이트 0 |
+| 83 B | 고민 | [꿈을 포기해야 할지 고민될 때](/career/dream-reality) | 신호 없음 / 인사이트 0 |
+| 83 B | 고민 | [후회 없는 선택을 하고 싶을 때](/career/regret-free-choice) | 신호 없음 / 인사이트 0 |
+| 83 B | 논쟁 | [안락사, 허용해도 되나?](/debate/euthanasia) | 신호 없음 / 인사이트 0 |
+| 83 B | 논쟁 | [사형제, 유지해야 하나?](/debate/death-penalty) | 신호 없음 / 인사이트 0 |
+| 83 B | 논쟁 | [낙태, 어디까지 허용해야 하나?](/debate/abortion) | 신호 없음 / 인사이트 0 |
+| 83 B | 논쟁 | [동물실험, 정당화될 수 있나?](/debate/animal-testing) | 신호 없음 / 인사이트 0 |
 
 ## 다음 작업 추천
 

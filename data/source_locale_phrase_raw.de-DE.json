@@ -1,12 +1,12 @@
 {
-  "collectedAt": "2026-06-22T05:44:44.976Z",
+  "collectedAt": "2026-06-22T06:05:31.661Z",
   "locale": "de-DE",
   "sourceStatus": "active-source",
-  "nodesScanned": 44,
-  "totalCandidatePhrases": 817,
-  "totalUsableCandidatePhrases": 745,
-  "totalReviewCandidatePhrases": 46,
-  "totalLowSignalCandidatePhrases": 26,
+  "nodesScanned": 59,
+  "totalCandidatePhrases": 982,
+  "totalUsableCandidatePhrases": 898,
+  "totalReviewCandidatePhrases": 52,
+  "totalLowSignalCandidatePhrases": 32,
   "clusterHints": {
     "relationships/ghosting": 9,
     "meaning/existential-vacuum": 2,
@@ -3979,7 +3979,13 @@
       "reviewCandidatePhrases": [],
       "lowSignalCandidatePhrases": [],
       "clusterHints": {},
-      "errors": []
+      "errors": [
+        {
+          "source": "google-suggest",
+          "query": "ich will nicht unter menschen aber bin einsam",
+          "error": "500 Internal Server Error"
+        }
+      ]
     },
     {
       "locale": "de-DE",
@@ -5384,9 +5390,7 @@
         "konflikte am arbeitsplatz fallbeispiele",
         "konflikte am arbeitsplatz b2 sprechen",
         "konflikte am arbeitsplatz statistik deutschland",
-        "konflikte am arbeitsplatz b2",
-        "soziale angst auf der arbeit",
-        "soziale angst am arbeitsplatz"
+        "konflikte am arbeitsplatz b2"
       ],
       "candidatePhrases": [
         "schwierige kollegen",
@@ -5417,9 +5421,7 @@
         "konflikte am arbeitsplatz fallbeispiele",
         "konflikte am arbeitsplatz b2 sprechen",
         "konflikte am arbeitsplatz statistik deutschland",
-        "konflikte am arbeitsplatz b2",
-        "soziale angst auf der arbeit",
-        "soziale angst am arbeitsplatz"
+        "konflikte am arbeitsplatz b2"
       ],
       "candidateReview": [
         {
@@ -5655,22 +5657,6 @@
             "general source-locale topic phrasing"
           ],
           "clusterHints": []
-        },
-        {
-          "phrase": "soziale angst auf der arbeit",
-          "status": "usable",
-          "reasons": [
-            "source-locale worry/debate phrasing"
-          ],
-          "clusterHints": []
-        },
-        {
-          "phrase": "soziale angst am arbeitsplatz",
-          "status": "usable",
-          "reasons": [
-            "source-locale worry/debate phrasing"
-          ],
-          "clusterHints": []
         }
       ],
       "usableCandidatePhrases": [
@@ -5700,9 +5686,7 @@
         "konflikte am arbeitsplatz fallbeispiele",
         "konflikte am arbeitsplatz b2 sprechen",
         "konflikte am arbeitsplatz statistik deutschland",
-        "konflikte am arbeitsplatz b2",
-        "soziale angst auf der arbeit",
-        "soziale angst am arbeitsplatz"
+        "konflikte am arbeitsplatz b2"
       ],
       "reviewCandidatePhrases": [
         "toxisches arbeitsklima bedeutung",
@@ -5710,7 +5694,13 @@
       ],
       "lowSignalCandidatePhrases": [],
       "clusterHints": {},
-      "errors": []
+      "errors": [
+        {
+          "source": "google-suggest",
+          "query": "soziale angst bei der arbeit",
+          "error": "500 Internal Server Error"
+        }
+      ]
     },
     {
       "locale": "de-DE",
@@ -10495,6 +10485,2278 @@
       ],
       "reviewCandidatePhrases": [],
       "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "de-DE",
+      "route": "/love/cant-read-them",
+      "slot": "love/cant-read-them",
+      "axis": "worry",
+      "sourceQueries": [
+        "ich weiß nicht was er fühlt",
+        "gemischte signale liebe",
+        "woran erkenne ich ob er mich mag",
+        "seine gefühle nicht verstehen"
+      ],
+      "baseQueries": [
+        "ich weiß nicht was er fühlt",
+        "gemischte signale liebe",
+        "woran erkenne ich ob er mich mag",
+        "seine gefühle nicht verstehen"
+      ],
+      "googleSuggestions": [
+        "ich weiß nicht was er für mich fühlt",
+        "er weiss nicht was er fühlt",
+        "woran erkenne ich ob er mich mag",
+        "woran erkenne ich ob er mich wirklich mag",
+        "woran erkenne ich beim schreiben ob er mich mag",
+        "woran erkenne ich ob sie mich mag",
+        "woran erkenne ich ob jemand mich mag",
+        "woran erkenne ich dass er mich mag körpersprache",
+        "woran erkenne ich ob mein hund mich mag",
+        "woran erkenne ich ob ein mann mich mag",
+        "woran erkenne ich ob meine katze mich mag",
+        "woran erkenne ich ob eine frau mich mag"
+      ],
+      "candidatePhrases": [
+        "ich weiß nicht was er fühlt",
+        "gemischte signale liebe",
+        "woran erkenne ich ob er mich mag",
+        "seine gefühle nicht verstehen",
+        "ich weiß nicht was er für mich fühlt",
+        "er weiss nicht was er fühlt",
+        "woran erkenne ich ob er mich wirklich mag",
+        "woran erkenne ich beim schreiben ob er mich mag",
+        "woran erkenne ich ob sie mich mag",
+        "woran erkenne ich ob jemand mich mag",
+        "woran erkenne ich dass er mich mag körpersprache",
+        "woran erkenne ich ob mein hund mich mag",
+        "woran erkenne ich ob ein mann mich mag",
+        "woran erkenne ich ob meine katze mich mag",
+        "woran erkenne ich ob eine frau mich mag"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "ich weiß nicht was er fühlt",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "gemischte signale liebe",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "woran erkenne ich ob er mich mag",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "seine gefühle nicht verstehen",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich weiß nicht was er für mich fühlt",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "er weiss nicht was er fühlt",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "woran erkenne ich ob er mich wirklich mag",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "woran erkenne ich beim schreiben ob er mich mag",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "woran erkenne ich ob sie mich mag",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "woran erkenne ich ob jemand mich mag",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "woran erkenne ich dass er mich mag körpersprache",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "woran erkenne ich ob mein hund mich mag",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "woran erkenne ich ob ein mann mich mag",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "woran erkenne ich ob meine katze mich mag",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "woran erkenne ich ob eine frau mich mag",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "ich weiß nicht was er fühlt",
+        "gemischte signale liebe",
+        "woran erkenne ich ob er mich mag",
+        "seine gefühle nicht verstehen",
+        "ich weiß nicht was er für mich fühlt",
+        "er weiss nicht was er fühlt",
+        "woran erkenne ich ob er mich wirklich mag",
+        "woran erkenne ich beim schreiben ob er mich mag",
+        "woran erkenne ich ob sie mich mag",
+        "woran erkenne ich ob jemand mich mag",
+        "woran erkenne ich dass er mich mag körpersprache",
+        "woran erkenne ich ob mein hund mich mag",
+        "woran erkenne ich ob ein mann mich mag",
+        "woran erkenne ich ob meine katze mich mag",
+        "woran erkenne ich ob eine frau mich mag"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "de-DE",
+      "route": "/love/relationship-boredom",
+      "slot": "love/relationship-boredom",
+      "axis": "worry",
+      "sourceQueries": [
+        "beziehung langweilig geworden",
+        "ich fühle nichts mehr beziehung",
+        "beziehung krise was tun",
+        "routine in der beziehung"
+      ],
+      "baseQueries": [
+        "beziehung langweilig geworden",
+        "ich fühle nichts mehr beziehung",
+        "beziehung krise was tun",
+        "routine in der beziehung"
+      ],
+      "googleSuggestions": [
+        "beziehung langweilig geworden",
+        "ich fühle nichts mehr beziehung",
+        "krise beziehung was tun",
+        "routine in der beziehung",
+        "zu viel routine in der beziehung"
+      ],
+      "candidatePhrases": [
+        "beziehung langweilig geworden",
+        "ich fühle nichts mehr beziehung",
+        "beziehung krise was tun",
+        "routine in der beziehung",
+        "krise beziehung was tun",
+        "zu viel routine in der beziehung"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "beziehung langweilig geworden",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich fühle nichts mehr beziehung",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "beziehung krise was tun",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "routine in der beziehung",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "krise beziehung was tun",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "zu viel routine in der beziehung",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "beziehung langweilig geworden",
+        "ich fühle nichts mehr beziehung",
+        "beziehung krise was tun",
+        "routine in der beziehung",
+        "krise beziehung was tun",
+        "zu viel routine in der beziehung"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "de-DE",
+      "route": "/breakup/right-after",
+      "slot": "breakup/right-after",
+      "axis": "worry",
+      "sourceQueries": [
+        "frisch getrennt es tut weh",
+        "trennung gerade passiert was tun",
+        "nach trennung am boden",
+        "erste tage nach trennung"
+      ],
+      "baseQueries": [
+        "frisch getrennt es tut weh",
+        "trennung gerade passiert was tun",
+        "nach trennung am boden",
+        "erste tage nach trennung"
+      ],
+      "googleSuggestions": [
+        "nach trennung am boden zerstört",
+        "nach trennung am boden",
+        "erste tage nach trennung"
+      ],
+      "candidatePhrases": [
+        "frisch getrennt es tut weh",
+        "trennung gerade passiert was tun",
+        "nach trennung am boden",
+        "erste tage nach trennung",
+        "nach trennung am boden zerstört"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "frisch getrennt es tut weh",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "trennung gerade passiert was tun",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "nach trennung am boden",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "erste tage nach trennung",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "nach trennung am boden zerstört",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "frisch getrennt es tut weh",
+        "trennung gerade passiert was tun",
+        "nach trennung am boden",
+        "erste tage nach trennung",
+        "nach trennung am boden zerstört"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "de-DE",
+      "route": "/breakup/obsession",
+      "slot": "breakup/obsession",
+      "axis": "worry",
+      "sourceQueries": [
+        "besessen von ex",
+        "wie höre ich auf an ihn zu denken",
+        "ex nicht loslassen können",
+        "drang ex zu schreiben"
+      ],
+      "baseQueries": [
+        "besessen von ex",
+        "wie höre ich auf an ihn zu denken",
+        "ex nicht loslassen können",
+        "drang ex zu schreiben"
+      ],
+      "googleSuggestions": [
+        "besessen von ex",
+        "besessen von ex freundin",
+        "besessen von der ex meines freundes",
+        "besessen exorzismus",
+        "besessen von alpha bruder meines ex",
+        "wie höre ich auf an ihn zu denken",
+        "wie höre ich auf ständig an ihn zu denken",
+        "wie höre ich auf an jemanden zu denken",
+        "wie höre ich auf an essen zu denken",
+        "wie höre ich auf an sie zu denken",
+        "wie höre ich auf an etwas zu denken",
+        "wie höre ich auf zu denken",
+        "wie höre ich auf an meinen ex zu denken",
+        "ex nicht loslassen können",
+        "ex partner nicht loslassen können",
+        "ex freundin nicht loslassen können",
+        "ex freund nicht loslassen können",
+        "drang ex zu schreiben"
+      ],
+      "candidatePhrases": [
+        "besessen von ex",
+        "wie höre ich auf an ihn zu denken",
+        "ex nicht loslassen können",
+        "drang ex zu schreiben",
+        "besessen von ex freundin",
+        "besessen von der ex meines freundes",
+        "besessen exorzismus",
+        "besessen von alpha bruder meines ex",
+        "wie höre ich auf ständig an ihn zu denken",
+        "wie höre ich auf an jemanden zu denken",
+        "wie höre ich auf an essen zu denken",
+        "wie höre ich auf an sie zu denken",
+        "wie höre ich auf an etwas zu denken",
+        "wie höre ich auf zu denken",
+        "wie höre ich auf an meinen ex zu denken",
+        "ex partner nicht loslassen können",
+        "ex freundin nicht loslassen können",
+        "ex freund nicht loslassen können"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "besessen von ex",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "wie höre ich auf an ihn zu denken",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ex nicht loslassen können",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "drang ex zu schreiben",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "besessen von ex freundin",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "besessen von der ex meines freundes",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "besessen exorzismus",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "besessen von alpha bruder meines ex",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "wie höre ich auf ständig an ihn zu denken",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "wie höre ich auf an jemanden zu denken",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "wie höre ich auf an essen zu denken",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "wie höre ich auf an sie zu denken",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "wie höre ich auf an etwas zu denken",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "wie höre ich auf zu denken",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "wie höre ich auf an meinen ex zu denken",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ex partner nicht loslassen können",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ex freundin nicht loslassen können",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ex freund nicht loslassen können",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "besessen von ex",
+        "wie höre ich auf an ihn zu denken",
+        "ex nicht loslassen können",
+        "drang ex zu schreiben",
+        "besessen von ex freundin",
+        "besessen von der ex meines freundes",
+        "besessen exorzismus",
+        "besessen von alpha bruder meines ex",
+        "wie höre ich auf ständig an ihn zu denken",
+        "wie höre ich auf an jemanden zu denken",
+        "wie höre ich auf an essen zu denken",
+        "wie höre ich auf an sie zu denken",
+        "wie höre ich auf an etwas zu denken",
+        "wie höre ich auf zu denken",
+        "wie höre ich auf an meinen ex zu denken",
+        "ex partner nicht loslassen können",
+        "ex freundin nicht loslassen können",
+        "ex freund nicht loslassen können"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "de-DE",
+      "route": "/breakup/reunion",
+      "slot": "breakup/reunion",
+      "axis": "worry",
+      "sourceQueries": [
+        "soll ich zum ex zurück",
+        "wieder mit ex zusammenkommen",
+        "angst gleiche fehler zu wiederholen",
+        "ex zurück ja oder nein"
+      ],
+      "baseQueries": [
+        "soll ich zum ex zurück",
+        "wieder mit ex zusammenkommen",
+        "angst gleiche fehler zu wiederholen",
+        "ex zurück ja oder nein"
+      ],
+      "googleSuggestions": [
+        "soll ich ex zurücknehmen",
+        "soll ich meinen ex zurücknehmen test",
+        "soll ich zurück zum ex",
+        "wieder mit ex zusammenkommen",
+        "wahrscheinlichkeit wieder mit dem ex zusammenkommen",
+        "mit ex partner wieder zusammenkommen",
+        "sollte man wieder mit dem ex zusammenkommen",
+        "mit ex freund wieder zusammenkommen",
+        "kann man wieder mit dem ex zusammenkommen",
+        "ex zurück ja oder nein"
+      ],
+      "candidatePhrases": [
+        "soll ich zum ex zurück",
+        "wieder mit ex zusammenkommen",
+        "angst gleiche fehler zu wiederholen",
+        "ex zurück ja oder nein",
+        "soll ich ex zurücknehmen",
+        "soll ich meinen ex zurücknehmen test",
+        "soll ich zurück zum ex",
+        "wahrscheinlichkeit wieder mit dem ex zusammenkommen",
+        "mit ex partner wieder zusammenkommen",
+        "sollte man wieder mit dem ex zusammenkommen",
+        "mit ex freund wieder zusammenkommen",
+        "kann man wieder mit dem ex zusammenkommen"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "soll ich zum ex zurück",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "wieder mit ex zusammenkommen",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "angst gleiche fehler zu wiederholen",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ex zurück ja oder nein",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "soll ich ex zurücknehmen",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "soll ich meinen ex zurücknehmen test",
+          "status": "low-signal",
+          "reasons": [
+            "fortune-telling / diagnosis drift",
+            "fortune-telling / diagnosis drift",
+            "fortune-telling / diagnosis drift"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "soll ich zurück zum ex",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "wahrscheinlichkeit wieder mit dem ex zusammenkommen",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "mit ex partner wieder zusammenkommen",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "sollte man wieder mit dem ex zusammenkommen",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "mit ex freund wieder zusammenkommen",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "kann man wieder mit dem ex zusammenkommen",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "soll ich zum ex zurück",
+        "wieder mit ex zusammenkommen",
+        "angst gleiche fehler zu wiederholen",
+        "ex zurück ja oder nein",
+        "soll ich ex zurücknehmen",
+        "soll ich zurück zum ex",
+        "wahrscheinlichkeit wieder mit dem ex zusammenkommen",
+        "mit ex partner wieder zusammenkommen",
+        "sollte man wieder mit dem ex zusammenkommen",
+        "mit ex freund wieder zusammenkommen",
+        "kann man wieder mit dem ex zusammenkommen"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [
+        "soll ich meinen ex zurücknehmen test"
+      ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "de-DE",
+      "route": "/breakup/ex-contact",
+      "slot": "breakup/ex-contact",
+      "axis": "worry",
+      "sourceQueries": [
+        "ex meldet sich was tun",
+        "nachricht vom ex bringt mich durcheinander",
+        "ex schreibt wieder",
+        "was tun wenn ex kontakt sucht"
+      ],
+      "baseQueries": [
+        "ex meldet sich was tun",
+        "nachricht vom ex bringt mich durcheinander",
+        "ex schreibt wieder",
+        "was tun wenn ex kontakt sucht"
+      ],
+      "googleSuggestions": [
+        "ex meldet sich was tun",
+        "ex meldet sich wieder was tun",
+        "ex meldet sich nicht um was tun",
+        "ex meldet sich immer wieder was tun",
+        "ex partner meldet sich nicht um was tun",
+        "was tun damit ex sich meldet",
+        "ex schreibt wieder",
+        "ex schreibt wieder wie reagieren",
+        "ex schreibt immer wieder",
+        "ex schreibt mir wieder",
+        "ex schreibt plötzlich wieder",
+        "ex freundin schreibt wieder",
+        "ex schreibt dann wieder nicht",
+        "ex affäre schreibt wieder",
+        "ex schreibt mir immer wieder",
+        "ex freund schreibt immer wieder"
+      ],
+      "candidatePhrases": [
+        "ex meldet sich was tun",
+        "nachricht vom ex bringt mich durcheinander",
+        "ex schreibt wieder",
+        "was tun wenn ex kontakt sucht",
+        "ex meldet sich wieder was tun",
+        "ex meldet sich nicht um was tun",
+        "ex meldet sich immer wieder was tun",
+        "ex partner meldet sich nicht um was tun",
+        "was tun damit ex sich meldet",
+        "ex schreibt wieder wie reagieren",
+        "ex schreibt immer wieder",
+        "ex schreibt mir wieder",
+        "ex schreibt plötzlich wieder",
+        "ex freundin schreibt wieder",
+        "ex schreibt dann wieder nicht",
+        "ex affäre schreibt wieder",
+        "ex schreibt mir immer wieder",
+        "ex freund schreibt immer wieder"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "ex meldet sich was tun",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "nachricht vom ex bringt mich durcheinander",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ex schreibt wieder",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "was tun wenn ex kontakt sucht",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ex meldet sich wieder was tun",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ex meldet sich nicht um was tun",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ex meldet sich immer wieder was tun",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ex partner meldet sich nicht um was tun",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "was tun damit ex sich meldet",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ex schreibt wieder wie reagieren",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ex schreibt immer wieder",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ex schreibt mir wieder",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ex schreibt plötzlich wieder",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ex freundin schreibt wieder",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ex schreibt dann wieder nicht",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ex affäre schreibt wieder",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ex schreibt mir immer wieder",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ex freund schreibt immer wieder",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "ex meldet sich was tun",
+        "nachricht vom ex bringt mich durcheinander",
+        "ex schreibt wieder",
+        "was tun wenn ex kontakt sucht",
+        "ex meldet sich wieder was tun",
+        "ex meldet sich nicht um was tun",
+        "ex meldet sich immer wieder was tun",
+        "ex partner meldet sich nicht um was tun",
+        "was tun damit ex sich meldet",
+        "ex schreibt wieder wie reagieren",
+        "ex schreibt immer wieder",
+        "ex schreibt mir wieder",
+        "ex schreibt plötzlich wieder",
+        "ex freundin schreibt wieder",
+        "ex schreibt dann wieder nicht",
+        "ex affäre schreibt wieder",
+        "ex schreibt mir immer wieder",
+        "ex freund schreibt immer wieder"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "de-DE",
+      "route": "/self-esteem/self-hate",
+      "slot": "self-esteem/self-hate",
+      "axis": "worry",
+      "sourceQueries": [
+        "ich hasse mich selbst",
+        "ich kann mich nicht mögen",
+        "ich gebe mir für alles die schuld",
+        "selbsthass was tun"
+      ],
+      "baseQueries": [
+        "ich hasse mich selbst",
+        "ich kann mich nicht mögen",
+        "ich gebe mir für alles die schuld",
+        "selbsthass was tun"
+      ],
+      "googleSuggestions": [
+        "ich hasse mich selbst",
+        "ich hasse mich selbst sprüche",
+        "ich hasse mich selbst so sehr",
+        "ich hasse mich selbst was tun",
+        "ich hasse mich selbst und mein leben",
+        "ich hasse mich selbst in english",
+        "ich hasse mich selbst test",
+        "ich hasse mich selbst dafür",
+        "ich hasse mich selbst meaning",
+        "hasse ich mich selbst teste dich",
+        "ich gebe mir für alles die schuld",
+        "ich gebe mir die schuld an der trennung",
+        "ich gebe mir die schuld an allem",
+        "ich gebe mir die schuld",
+        "selbsthass was tun"
+      ],
+      "candidatePhrases": [
+        "ich hasse mich selbst",
+        "ich kann mich nicht mögen",
+        "ich gebe mir für alles die schuld",
+        "selbsthass was tun",
+        "ich hasse mich selbst sprüche",
+        "ich hasse mich selbst so sehr",
+        "ich hasse mich selbst was tun",
+        "ich hasse mich selbst und mein leben",
+        "ich hasse mich selbst in english",
+        "ich hasse mich selbst test",
+        "ich hasse mich selbst dafür",
+        "ich hasse mich selbst meaning",
+        "hasse ich mich selbst teste dich",
+        "ich gebe mir die schuld an der trennung",
+        "ich gebe mir die schuld an allem",
+        "ich gebe mir die schuld"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "ich hasse mich selbst",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich kann mich nicht mögen",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich gebe mir für alles die schuld",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "selbsthass was tun",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich hasse mich selbst sprüche",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich hasse mich selbst so sehr",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich hasse mich selbst was tun",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich hasse mich selbst und mein leben",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich hasse mich selbst in english",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich hasse mich selbst test",
+          "status": "low-signal",
+          "reasons": [
+            "fortune-telling / diagnosis drift",
+            "fortune-telling / diagnosis drift",
+            "fortune-telling / diagnosis drift"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich hasse mich selbst dafür",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich hasse mich selbst meaning",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "hasse ich mich selbst teste dich",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich gebe mir die schuld an der trennung",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich gebe mir die schuld an allem",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich gebe mir die schuld",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "ich hasse mich selbst",
+        "ich kann mich nicht mögen",
+        "ich gebe mir für alles die schuld",
+        "selbsthass was tun",
+        "ich hasse mich selbst sprüche",
+        "ich hasse mich selbst so sehr",
+        "ich hasse mich selbst was tun",
+        "ich hasse mich selbst und mein leben",
+        "ich hasse mich selbst in english",
+        "ich hasse mich selbst dafür",
+        "ich hasse mich selbst meaning",
+        "hasse ich mich selbst teste dich",
+        "ich gebe mir die schuld an der trennung",
+        "ich gebe mir die schuld an allem",
+        "ich gebe mir die schuld"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [
+        "ich hasse mich selbst test"
+      ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "de-DE",
+      "route": "/self-esteem/cant-accept-praise",
+      "slot": "self-esteem/cant-accept-praise",
+      "axis": "worry",
+      "sourceQueries": [
+        "ich kann komplimente nicht annehmen",
+        "ich glaube komplimente nicht",
+        "komplimente machen mich unsicher",
+        "warum kann ich lob nicht annehmen"
+      ],
+      "baseQueries": [
+        "ich kann komplimente nicht annehmen",
+        "ich glaube komplimente nicht",
+        "komplimente machen mich unsicher",
+        "warum kann ich lob nicht annehmen"
+      ],
+      "googleSuggestions": [
+        "ich kann komplimente nicht annehmen",
+        "warum kann ich lob nicht annehmen",
+        "warum kann man lob nicht annehmen"
+      ],
+      "candidatePhrases": [
+        "ich kann komplimente nicht annehmen",
+        "ich glaube komplimente nicht",
+        "komplimente machen mich unsicher",
+        "warum kann ich lob nicht annehmen",
+        "warum kann man lob nicht annehmen"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "ich kann komplimente nicht annehmen",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich glaube komplimente nicht",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "komplimente machen mich unsicher",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "warum kann ich lob nicht annehmen",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "warum kann man lob nicht annehmen",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "ich kann komplimente nicht annehmen",
+        "ich glaube komplimente nicht",
+        "komplimente machen mich unsicher",
+        "warum kann ich lob nicht annehmen",
+        "warum kann man lob nicht annehmen"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "de-DE",
+      "route": "/self-esteem/falling-behind",
+      "slot": "self-esteem/falling-behind",
+      "axis": "worry",
+      "sourceQueries": [
+        "ich habe das gefühl zurückzubleiben",
+        "mit gleichaltrigen vergleichen",
+        "alle kommen weiter nur ich nicht",
+        "angst im leben zu spät zu sein"
+      ],
+      "baseQueries": [
+        "ich habe das gefühl zurückzubleiben",
+        "mit gleichaltrigen vergleichen",
+        "alle kommen weiter nur ich nicht",
+        "angst im leben zu spät zu sein"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "ich habe das gefühl zurückzubleiben",
+        "mit gleichaltrigen vergleichen",
+        "alle kommen weiter nur ich nicht",
+        "angst im leben zu spät zu sein"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "ich habe das gefühl zurückzubleiben",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "mit gleichaltrigen vergleichen",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "alle kommen weiter nur ich nicht",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "angst im leben zu spät zu sein",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "ich habe das gefühl zurückzubleiben",
+        "mit gleichaltrigen vergleichen",
+        "alle kommen weiter nur ich nicht",
+        "angst im leben zu spät zu sein"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "de-DE",
+      "route": "/self-esteem/dating-self-esteem",
+      "slot": "self-esteem/dating-self-esteem",
+      "axis": "worry",
+      "sourceQueries": [
+        "geringes selbstwertgefühl in beziehung",
+        "ich verdiene keine liebe",
+        "beziehung macht mich unsicher",
+        "unsicherheit in der liebe"
+      ],
+      "baseQueries": [
+        "geringes selbstwertgefühl in beziehung",
+        "ich verdiene keine liebe",
+        "beziehung macht mich unsicher",
+        "unsicherheit in der liebe"
+      ],
+      "googleSuggestions": [
+        "geringes selbstwertgefühl in beziehung",
+        "ich verdiene keine liebe",
+        "unsicherheit in der liebe",
+        "unsicherheit liebe sprüche"
+      ],
+      "candidatePhrases": [
+        "geringes selbstwertgefühl in beziehung",
+        "ich verdiene keine liebe",
+        "beziehung macht mich unsicher",
+        "unsicherheit in der liebe",
+        "unsicherheit liebe sprüche"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "geringes selbstwertgefühl in beziehung",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich verdiene keine liebe",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "beziehung macht mich unsicher",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "unsicherheit in der liebe",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "unsicherheit liebe sprüche",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "geringes selbstwertgefühl in beziehung",
+        "ich verdiene keine liebe",
+        "beziehung macht mich unsicher",
+        "unsicherheit in der liebe",
+        "unsicherheit liebe sprüche"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "de-DE",
+      "route": "/relationships/hurtful-words",
+      "slot": "relationships/hurtful-words",
+      "axis": "worry",
+      "sourceQueries": [
+        "verletzende worte vergessen",
+        "was jemand gesagt hat tut noch weh",
+        "verletzende aussage loslassen",
+        "worte die nicht aus dem kopf gehen"
+      ],
+      "baseQueries": [
+        "verletzende worte vergessen",
+        "was jemand gesagt hat tut noch weh",
+        "verletzende aussage loslassen",
+        "worte die nicht aus dem kopf gehen"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "verletzende worte vergessen",
+        "was jemand gesagt hat tut noch weh",
+        "verletzende aussage loslassen",
+        "worte die nicht aus dem kopf gehen"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "verletzende worte vergessen",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "was jemand gesagt hat tut noch weh",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "verletzende aussage loslassen",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "worte die nicht aus dem kopf gehen",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "verletzende worte vergessen",
+        "was jemand gesagt hat tut noch weh",
+        "verletzende aussage loslassen",
+        "worte die nicht aus dem kopf gehen"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "de-DE",
+      "route": "/relationships/people-pleasing",
+      "slot": "relationships/people-pleasing",
+      "axis": "worry",
+      "sourceQueries": [
+        "es allen recht machen aufhören",
+        "angst nicht gemocht zu werden",
+        "ich kann nicht nein sagen",
+        "people pleasing deutsch"
+      ],
+      "baseQueries": [
+        "es allen recht machen aufhören",
+        "angst nicht gemocht zu werden",
+        "ich kann nicht nein sagen",
+        "people pleasing deutsch"
+      ],
+      "googleSuggestions": [
+        "aufhören es allen recht machen zu wollen",
+        "angst nicht gemocht zu werden",
+        "angst nicht mehr gemocht zu werden",
+        "ständig angst nicht gemocht zu werden",
+        "woher kommt die angst nicht gemocht zu werden",
+        "ich kann nicht nein sagen",
+        "ich kann nicht nein sagen psychologie",
+        "ich kann nicht nein sagen lied",
+        "ich kann nicht nein sagen englisch",
+        "ich kann nicht nein sagen buch",
+        "ich kann einfach nicht nein sagen",
+        "da kann ich nicht nein sagen",
+        "da kann ich nicht nein sagen nadja einzmann interpretation",
+        "da kann ich nicht nein sagen nadja einzmann",
+        "ich kann nicht nein zu essen sagen",
+        "people pleasing deutsch",
+        "people pleasing deutscher begriff",
+        "people pleasing deutsch buch",
+        "people pleasing trauma deutsch",
+        "stop people pleasing deutsch",
+        "people pleasing definition deutsch",
+        "people pleasing synonym deutsch"
+      ],
+      "candidatePhrases": [
+        "es allen recht machen aufhören",
+        "angst nicht gemocht zu werden",
+        "ich kann nicht nein sagen",
+        "people pleasing deutsch",
+        "aufhören es allen recht machen zu wollen",
+        "angst nicht mehr gemocht zu werden",
+        "ständig angst nicht gemocht zu werden",
+        "woher kommt die angst nicht gemocht zu werden",
+        "ich kann nicht nein sagen psychologie",
+        "ich kann nicht nein sagen lied",
+        "ich kann nicht nein sagen englisch",
+        "ich kann nicht nein sagen buch",
+        "ich kann einfach nicht nein sagen",
+        "da kann ich nicht nein sagen",
+        "da kann ich nicht nein sagen nadja einzmann interpretation",
+        "da kann ich nicht nein sagen nadja einzmann",
+        "ich kann nicht nein zu essen sagen",
+        "people pleasing deutscher begriff",
+        "people pleasing deutsch buch",
+        "people pleasing trauma deutsch",
+        "stop people pleasing deutsch",
+        "people pleasing definition deutsch",
+        "people pleasing synonym deutsch"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "es allen recht machen aufhören",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "angst nicht gemocht zu werden",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich kann nicht nein sagen",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "people pleasing deutsch",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "aufhören es allen recht machen zu wollen",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "angst nicht mehr gemocht zu werden",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ständig angst nicht gemocht zu werden",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "woher kommt die angst nicht gemocht zu werden",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich kann nicht nein sagen psychologie",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich kann nicht nein sagen lied",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich kann nicht nein sagen englisch",
+          "status": "low-signal",
+          "reasons": [
+            "translation or language lookup"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich kann nicht nein sagen buch",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich kann einfach nicht nein sagen",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "da kann ich nicht nein sagen",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "da kann ich nicht nein sagen nadja einzmann interpretation",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "da kann ich nicht nein sagen nadja einzmann",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich kann nicht nein zu essen sagen",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "people pleasing deutscher begriff",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "people pleasing deutsch buch",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "people pleasing trauma deutsch",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "stop people pleasing deutsch",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "people pleasing definition deutsch",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "people pleasing synonym deutsch",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "es allen recht machen aufhören",
+        "angst nicht gemocht zu werden",
+        "ich kann nicht nein sagen",
+        "people pleasing deutsch",
+        "aufhören es allen recht machen zu wollen",
+        "angst nicht mehr gemocht zu werden",
+        "ständig angst nicht gemocht zu werden",
+        "woher kommt die angst nicht gemocht zu werden",
+        "ich kann nicht nein sagen psychologie",
+        "ich kann nicht nein sagen lied",
+        "ich kann einfach nicht nein sagen",
+        "da kann ich nicht nein sagen",
+        "da kann ich nicht nein sagen nadja einzmann interpretation",
+        "da kann ich nicht nein sagen nadja einzmann",
+        "ich kann nicht nein zu essen sagen",
+        "people pleasing deutscher begriff",
+        "people pleasing trauma deutsch",
+        "stop people pleasing deutsch",
+        "people pleasing synonym deutsch"
+      ],
+      "reviewCandidatePhrases": [
+        "ich kann nicht nein sagen buch",
+        "people pleasing deutsch buch",
+        "people pleasing definition deutsch"
+      ],
+      "lowSignalCandidatePhrases": [
+        "ich kann nicht nein sagen englisch"
+      ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "de-DE",
+      "route": "/relationships/relationship-burnout",
+      "slot": "relationships/relationship-burnout",
+      "axis": "worry",
+      "sourceQueries": [
+        "beziehungen erschöpfen mich",
+        "menschen sind mir zu viel",
+        "keine lust auf soziale kontakte",
+        "soziale erschöpfung"
+      ],
+      "baseQueries": [
+        "beziehungen erschöpfen mich",
+        "menschen sind mir zu viel",
+        "keine lust auf soziale kontakte",
+        "soziale erschöpfung"
+      ],
+      "googleSuggestions": [
+        "menschen sind mir zu viel",
+        "menschen werden mir zu viel",
+        "keine lust auf soziale kontakte",
+        "keine lust auf soziale kontakte schwangerschaft",
+        "keine lust mehr auf soziale kontakte",
+        "plötzlich keine lust auf soziale kontakte",
+        "depression keine lust auf soziale kontakte",
+        "soziale erschöpfung",
+        "soziale erschöpfung adhs",
+        "soziale erschöpfung symptome",
+        "soziale erschöpfung introvertiert",
+        "soziale erschöpfung definition",
+        "soziale erschöpfung reizüberflutung und innerer rückzug",
+        "soziale erschöpfung was tun",
+        "soziale erschöpfung englisch",
+        "erschöpfung soziale kontakte",
+        "erschöpfung soziale arbeit"
+      ],
+      "candidatePhrases": [
+        "beziehungen erschöpfen mich",
+        "menschen sind mir zu viel",
+        "keine lust auf soziale kontakte",
+        "soziale erschöpfung",
+        "menschen werden mir zu viel",
+        "keine lust auf soziale kontakte schwangerschaft",
+        "keine lust mehr auf soziale kontakte",
+        "plötzlich keine lust auf soziale kontakte",
+        "depression keine lust auf soziale kontakte",
+        "soziale erschöpfung adhs",
+        "soziale erschöpfung symptome",
+        "soziale erschöpfung introvertiert",
+        "soziale erschöpfung definition",
+        "soziale erschöpfung reizüberflutung und innerer rückzug",
+        "soziale erschöpfung was tun",
+        "soziale erschöpfung englisch",
+        "erschöpfung soziale kontakte",
+        "erschöpfung soziale arbeit"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "beziehungen erschöpfen mich",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "menschen sind mir zu viel",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "keine lust auf soziale kontakte",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "soziale erschöpfung",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "menschen werden mir zu viel",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "keine lust auf soziale kontakte schwangerschaft",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "keine lust mehr auf soziale kontakte",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "plötzlich keine lust auf soziale kontakte",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "depression keine lust auf soziale kontakte",
+          "status": "review",
+          "reasons": [
+            "medical review needed"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "soziale erschöpfung adhs",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "soziale erschöpfung symptome",
+          "status": "review",
+          "reasons": [
+            "medical review needed"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "soziale erschöpfung introvertiert",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "soziale erschöpfung definition",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "soziale erschöpfung reizüberflutung und innerer rückzug",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "soziale erschöpfung was tun",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "soziale erschöpfung englisch",
+          "status": "low-signal",
+          "reasons": [
+            "translation or language lookup"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "erschöpfung soziale kontakte",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "erschöpfung soziale arbeit",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "beziehungen erschöpfen mich",
+        "menschen sind mir zu viel",
+        "keine lust auf soziale kontakte",
+        "soziale erschöpfung",
+        "menschen werden mir zu viel",
+        "keine lust auf soziale kontakte schwangerschaft",
+        "keine lust mehr auf soziale kontakte",
+        "plötzlich keine lust auf soziale kontakte",
+        "soziale erschöpfung adhs",
+        "soziale erschöpfung introvertiert",
+        "soziale erschöpfung reizüberflutung und innerer rückzug",
+        "soziale erschöpfung was tun",
+        "erschöpfung soziale kontakte",
+        "erschöpfung soziale arbeit"
+      ],
+      "reviewCandidatePhrases": [
+        "depression keine lust auf soziale kontakte",
+        "soziale erschöpfung symptome",
+        "soziale erschöpfung definition"
+      ],
+      "lowSignalCandidatePhrases": [
+        "soziale erschöpfung englisch"
+      ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "de-DE",
+      "route": "/relationships/regret-words",
+      "slot": "relationships/regret-words",
+      "axis": "worry",
+      "sourceQueries": [
+        "ich bereue was ich gesagt habe",
+        "etwas falsches gesagt angst",
+        "peinliche aussage bereuen",
+        "wie entschuldige ich mich nach falschen worten"
+      ],
+      "baseQueries": [
+        "ich bereue was ich gesagt habe",
+        "etwas falsches gesagt angst",
+        "peinliche aussage bereuen",
+        "wie entschuldige ich mich nach falschen worten"
+      ],
+      "googleSuggestions": [
+        "ich bereue was ich gesagt habe",
+        "angst etwas falsches gesagt zu haben"
+      ],
+      "candidatePhrases": [
+        "ich bereue was ich gesagt habe",
+        "etwas falsches gesagt angst",
+        "peinliche aussage bereuen",
+        "wie entschuldige ich mich nach falschen worten",
+        "angst etwas falsches gesagt zu haben"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "ich bereue was ich gesagt habe",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "etwas falsches gesagt angst",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "peinliche aussage bereuen",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "wie entschuldige ich mich nach falschen worten",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "angst etwas falsches gesagt zu haben",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "ich bereue was ich gesagt habe",
+        "etwas falsches gesagt angst",
+        "peinliche aussage bereuen",
+        "wie entschuldige ich mich nach falschen worten",
+        "angst etwas falsches gesagt zu haben"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "de-DE",
+      "route": "/work/quit-or-stay",
+      "slot": "work/quit-or-stay",
+      "axis": "worry",
+      "sourceQueries": [
+        "kündigen oder bleiben",
+        "job kündigen oder durchhalten",
+        "ich will kündigen aber habe angst",
+        "soll ich den job wechseln"
+      ],
+      "baseQueries": [
+        "kündigen oder bleiben",
+        "job kündigen oder durchhalten",
+        "ich will kündigen aber habe angst",
+        "soll ich den job wechseln"
+      ],
+      "googleSuggestions": [
+        "kündigen oder bleiben",
+        "kündigen oder bleiben test",
+        "job kündigen oder bleiben",
+        "mobbing kündigen oder bleiben",
+        "soll ich kündigen oder bleiben eine entscheidungshilfe",
+        "soll ich kündigen oder bleiben standard",
+        "frust im job kündigen oder bleiben",
+        "job kündigen oder durchhalten",
+        "soll ich den job wechseln",
+        "soll ich den job wechseln oder nicht",
+        "soll ich den job wechseln test",
+        "woher weiß ich ob ich den job wechseln soll"
+      ],
+      "candidatePhrases": [
+        "kündigen oder bleiben",
+        "job kündigen oder durchhalten",
+        "ich will kündigen aber habe angst",
+        "soll ich den job wechseln",
+        "kündigen oder bleiben test",
+        "job kündigen oder bleiben",
+        "mobbing kündigen oder bleiben",
+        "soll ich kündigen oder bleiben eine entscheidungshilfe",
+        "soll ich kündigen oder bleiben standard",
+        "frust im job kündigen oder bleiben",
+        "soll ich den job wechseln oder nicht",
+        "soll ich den job wechseln test",
+        "woher weiß ich ob ich den job wechseln soll"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "kündigen oder bleiben",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "job kündigen oder durchhalten",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich will kündigen aber habe angst",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "soll ich den job wechseln",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "kündigen oder bleiben test",
+          "status": "low-signal",
+          "reasons": [
+            "fortune-telling / diagnosis drift",
+            "fortune-telling / diagnosis drift",
+            "fortune-telling / diagnosis drift"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "job kündigen oder bleiben",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "mobbing kündigen oder bleiben",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "soll ich kündigen oder bleiben eine entscheidungshilfe",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "soll ich kündigen oder bleiben standard",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "frust im job kündigen oder bleiben",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "soll ich den job wechseln oder nicht",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "soll ich den job wechseln test",
+          "status": "low-signal",
+          "reasons": [
+            "fortune-telling / diagnosis drift",
+            "fortune-telling / diagnosis drift",
+            "fortune-telling / diagnosis drift"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "woher weiß ich ob ich den job wechseln soll",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "kündigen oder bleiben",
+        "job kündigen oder durchhalten",
+        "ich will kündigen aber habe angst",
+        "soll ich den job wechseln",
+        "job kündigen oder bleiben",
+        "mobbing kündigen oder bleiben",
+        "soll ich kündigen oder bleiben eine entscheidungshilfe",
+        "soll ich kündigen oder bleiben standard",
+        "frust im job kündigen oder bleiben",
+        "soll ich den job wechseln oder nicht",
+        "woher weiß ich ob ich den job wechseln soll"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [
+        "kündigen oder bleiben test",
+        "soll ich den job wechseln test"
+      ],
       "clusterHints": {},
       "errors": []
     }

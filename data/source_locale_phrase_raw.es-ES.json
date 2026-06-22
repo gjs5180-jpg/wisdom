@@ -1,12 +1,12 @@
 {
-  "collectedAt": "2026-06-22T05:42:37.480Z",
+  "collectedAt": "2026-06-22T06:02:50.584Z",
   "locale": "es-ES",
   "sourceStatus": "active-source",
-  "nodesScanned": 44,
-  "totalCandidatePhrases": 790,
-  "totalUsableCandidatePhrases": 732,
-  "totalReviewCandidatePhrases": 43,
-  "totalLowSignalCandidatePhrases": 15,
+  "nodesScanned": 59,
+  "totalCandidatePhrases": 996,
+  "totalUsableCandidatePhrases": 923,
+  "totalReviewCandidatePhrases": 53,
+  "totalLowSignalCandidatePhrases": 20,
   "clusterHints": {
     "relationships/ghosting": 15,
     "meaning/existential-vacuum": 1,
@@ -10153,6 +10153,2698 @@
         "castigo físico escolar pros y contras",
         "disciplina escolar sin violencia",
         "es efectivo el castigo corporal"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "es-ES",
+      "route": "/love/cant-read-them",
+      "slot": "love/cant-read-them",
+      "axis": "worry",
+      "sourceQueries": [
+        "no sé qué siente por mí",
+        "señales mixtas en el amor",
+        "cómo saber si le gusto",
+        "no entiendo sus sentimientos"
+      ],
+      "baseQueries": [
+        "no sé qué siente por mí",
+        "señales mixtas en el amor",
+        "cómo saber si le gusto",
+        "no entiendo sus sentimientos"
+      ],
+      "googleSuggestions": [
+        "cómo saber si le gusto a alguien",
+        "cómo saber si le gusto a una chica",
+        "cómo saber si le gustas a una mujer",
+        "cómo saber si le gusto",
+        "cómo saber si le gusto a mi amiga",
+        "cómo saber si le gustas a un hombre",
+        "cómo saber si le gusto a mi mejor amigo",
+        "cómo saber si le gustas a una mujer casada",
+        "cómo saber si le gusto a mi crush",
+        "como saber si le gustas a un niño"
+      ],
+      "candidatePhrases": [
+        "no sé qué siente por mí",
+        "señales mixtas en el amor",
+        "cómo saber si le gusto",
+        "no entiendo sus sentimientos",
+        "cómo saber si le gusto a alguien",
+        "cómo saber si le gusto a una chica",
+        "cómo saber si le gustas a una mujer",
+        "cómo saber si le gusto a mi amiga",
+        "cómo saber si le gustas a un hombre",
+        "cómo saber si le gusto a mi mejor amigo",
+        "cómo saber si le gustas a una mujer casada",
+        "cómo saber si le gusto a mi crush",
+        "como saber si le gustas a un niño"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "no sé qué siente por mí",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "señales mixtas en el amor",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "cómo saber si le gusto",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no entiendo sus sentimientos",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "cómo saber si le gusto a alguien",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "cómo saber si le gusto a una chica",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "cómo saber si le gustas a una mujer",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "cómo saber si le gusto a mi amiga",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "cómo saber si le gustas a un hombre",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "cómo saber si le gusto a mi mejor amigo",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "cómo saber si le gustas a una mujer casada",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "cómo saber si le gusto a mi crush",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "como saber si le gustas a un niño",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "no sé qué siente por mí",
+        "señales mixtas en el amor",
+        "cómo saber si le gusto",
+        "no entiendo sus sentimientos",
+        "cómo saber si le gusto a alguien",
+        "cómo saber si le gusto a una chica",
+        "cómo saber si le gustas a una mujer",
+        "cómo saber si le gusto a mi amiga",
+        "cómo saber si le gustas a un hombre",
+        "cómo saber si le gusto a mi mejor amigo",
+        "cómo saber si le gustas a una mujer casada",
+        "cómo saber si le gusto a mi crush",
+        "como saber si le gustas a un niño"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "es-ES",
+      "route": "/love/relationship-boredom",
+      "slot": "love/relationship-boredom",
+      "axis": "worry",
+      "sourceQueries": [
+        "crisis de pareja aburrimiento",
+        "ya no siento lo mismo por mi pareja",
+        "rutina en la relación",
+        "cómo superar una crisis de pareja"
+      ],
+      "baseQueries": [
+        "crisis de pareja aburrimiento",
+        "ya no siento lo mismo por mi pareja",
+        "rutina en la relación",
+        "cómo superar una crisis de pareja"
+      ],
+      "googleSuggestions": [
+        "ya no siento lo mismo por mi pareja",
+        "ya no siento lo mismo por mi pareja que hago",
+        "porque ya no siento lo mismo por mi pareja",
+        "creo que ya no siento lo mismo por mi pareja",
+        "ya no siento el mismo amor por mi pareja",
+        "ya no siento el mismo interes por mi pareja",
+        "ya no siento lo mismo con mi pareja",
+        "porque ya no siento el mismo amor por mi pareja",
+        "como saber si no siento lo mismo por mi pareja",
+        "que pasa si no siento lo mismo por mi pareja",
+        "rutina en la relación",
+        "rutina en la relacion de pareja",
+        "cómo superar una crisis de pareja",
+        "como superar una crisis de pareja con hijos",
+        "como superar una crisis de pareja por infidelidad",
+        "como superar una crisis de pareja a distancia",
+        "como superar una crisis economica en pareja",
+        "como superar la primera crisis de pareja"
+      ],
+      "candidatePhrases": [
+        "crisis de pareja aburrimiento",
+        "ya no siento lo mismo por mi pareja",
+        "rutina en la relación",
+        "cómo superar una crisis de pareja",
+        "ya no siento lo mismo por mi pareja que hago",
+        "porque ya no siento lo mismo por mi pareja",
+        "creo que ya no siento lo mismo por mi pareja",
+        "ya no siento el mismo amor por mi pareja",
+        "ya no siento el mismo interes por mi pareja",
+        "ya no siento lo mismo con mi pareja",
+        "porque ya no siento el mismo amor por mi pareja",
+        "como saber si no siento lo mismo por mi pareja",
+        "que pasa si no siento lo mismo por mi pareja",
+        "rutina en la relacion de pareja",
+        "como superar una crisis de pareja con hijos",
+        "como superar una crisis de pareja por infidelidad",
+        "como superar una crisis de pareja a distancia",
+        "como superar una crisis economica en pareja",
+        "como superar la primera crisis de pareja"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "crisis de pareja aburrimiento",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ya no siento lo mismo por mi pareja",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "rutina en la relación",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "cómo superar una crisis de pareja",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ya no siento lo mismo por mi pareja que hago",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "porque ya no siento lo mismo por mi pareja",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "creo que ya no siento lo mismo por mi pareja",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ya no siento el mismo amor por mi pareja",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ya no siento el mismo interes por mi pareja",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ya no siento lo mismo con mi pareja",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "porque ya no siento el mismo amor por mi pareja",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "como saber si no siento lo mismo por mi pareja",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "que pasa si no siento lo mismo por mi pareja",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "rutina en la relacion de pareja",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "como superar una crisis de pareja con hijos",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "como superar una crisis de pareja por infidelidad",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "como superar una crisis de pareja a distancia",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "como superar una crisis economica en pareja",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "como superar la primera crisis de pareja",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "crisis de pareja aburrimiento",
+        "ya no siento lo mismo por mi pareja",
+        "rutina en la relación",
+        "cómo superar una crisis de pareja",
+        "ya no siento lo mismo por mi pareja que hago",
+        "porque ya no siento lo mismo por mi pareja",
+        "creo que ya no siento lo mismo por mi pareja",
+        "ya no siento el mismo amor por mi pareja",
+        "ya no siento el mismo interes por mi pareja",
+        "ya no siento lo mismo con mi pareja",
+        "porque ya no siento el mismo amor por mi pareja",
+        "como saber si no siento lo mismo por mi pareja",
+        "que pasa si no siento lo mismo por mi pareja",
+        "rutina en la relacion de pareja",
+        "como superar una crisis de pareja con hijos",
+        "como superar una crisis de pareja por infidelidad",
+        "como superar una crisis de pareja a distancia",
+        "como superar una crisis economica en pareja",
+        "como superar la primera crisis de pareja"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "es-ES",
+      "route": "/breakup/right-after",
+      "slot": "breakup/right-after",
+      "axis": "worry",
+      "sourceQueries": [
+        "acabo de terminar y estoy mal",
+        "cómo superar una ruptura reciente",
+        "después de una ruptura no puedo parar de llorar",
+        "primeros días después de una ruptura"
+      ],
+      "baseQueries": [
+        "acabo de terminar y estoy mal",
+        "cómo superar una ruptura reciente",
+        "después de una ruptura no puedo parar de llorar",
+        "primeros días después de una ruptura"
+      ],
+      "googleSuggestions": [
+        "como superar una ruptura reciente",
+        "primeros dias despues de una ruptura"
+      ],
+      "candidatePhrases": [
+        "acabo de terminar y estoy mal",
+        "cómo superar una ruptura reciente",
+        "después de una ruptura no puedo parar de llorar",
+        "primeros días después de una ruptura",
+        "como superar una ruptura reciente",
+        "primeros dias despues de una ruptura"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "acabo de terminar y estoy mal",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "cómo superar una ruptura reciente",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "después de una ruptura no puedo parar de llorar",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "primeros días después de una ruptura",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "como superar una ruptura reciente",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "primeros dias despues de una ruptura",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "acabo de terminar y estoy mal",
+        "cómo superar una ruptura reciente",
+        "después de una ruptura no puedo parar de llorar",
+        "primeros días después de una ruptura",
+        "como superar una ruptura reciente",
+        "primeros dias despues de una ruptura"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "es-ES",
+      "route": "/breakup/obsession",
+      "slot": "breakup/obsession",
+      "axis": "worry",
+      "sourceQueries": [
+        "obsesión por mi ex",
+        "cómo dejar de obsesionarme con alguien",
+        "no puedo soltar a mi ex",
+        "impulso de escribirle a mi ex"
+      ],
+      "baseQueries": [
+        "obsesión por mi ex",
+        "cómo dejar de obsesionarme con alguien",
+        "no puedo soltar a mi ex",
+        "impulso de escribirle a mi ex"
+      ],
+      "googleSuggestions": [
+        "obsesion por mi ex",
+        "tengo obsesion por mi ex",
+        "obsesion sexual por mi ex",
+        "como quitar la obsesion por mi ex",
+        "como superar una obsesión por mi ex",
+        "obsesion por la ex de mi pareja",
+        "mi obsesión por helena final explicado",
+        "como dejar de obsesionarse con alguien",
+        "no puedo soltar a mi ex",
+        "porque no puedo soltar a mi ex",
+        "no logro soltar a mi ex",
+        "no quiero soltar a mi ex"
+      ],
+      "candidatePhrases": [
+        "obsesión por mi ex",
+        "cómo dejar de obsesionarme con alguien",
+        "no puedo soltar a mi ex",
+        "impulso de escribirle a mi ex",
+        "obsesion por mi ex",
+        "tengo obsesion por mi ex",
+        "obsesion sexual por mi ex",
+        "como quitar la obsesion por mi ex",
+        "como superar una obsesión por mi ex",
+        "obsesion por la ex de mi pareja",
+        "mi obsesión por helena final explicado",
+        "como dejar de obsesionarse con alguien",
+        "porque no puedo soltar a mi ex",
+        "no logro soltar a mi ex",
+        "no quiero soltar a mi ex"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "obsesión por mi ex",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "cómo dejar de obsesionarme con alguien",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no puedo soltar a mi ex",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "impulso de escribirle a mi ex",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "obsesion por mi ex",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "tengo obsesion por mi ex",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "obsesion sexual por mi ex",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "como quitar la obsesion por mi ex",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "como superar una obsesión por mi ex",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "obsesion por la ex de mi pareja",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "mi obsesión por helena final explicado",
+          "status": "low-signal",
+          "reasons": [
+            "entertainment lookup"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "como dejar de obsesionarse con alguien",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "porque no puedo soltar a mi ex",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no logro soltar a mi ex",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no quiero soltar a mi ex",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "obsesión por mi ex",
+        "cómo dejar de obsesionarme con alguien",
+        "no puedo soltar a mi ex",
+        "impulso de escribirle a mi ex",
+        "obsesion por mi ex",
+        "tengo obsesion por mi ex",
+        "obsesion sexual por mi ex",
+        "como quitar la obsesion por mi ex",
+        "como superar una obsesión por mi ex",
+        "obsesion por la ex de mi pareja",
+        "como dejar de obsesionarse con alguien",
+        "porque no puedo soltar a mi ex",
+        "no logro soltar a mi ex",
+        "no quiero soltar a mi ex"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [
+        "mi obsesión por helena final explicado"
+      ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "es-ES",
+      "route": "/breakup/reunion",
+      "slot": "breakup/reunion",
+      "axis": "worry",
+      "sourceQueries": [
+        "volver con mi ex o no",
+        "debería volver con mi ex",
+        "miedo a repetir lo mismo con mi ex",
+        "reconciliación con ex"
+      ],
+      "baseQueries": [
+        "volver con mi ex o no",
+        "debería volver con mi ex",
+        "miedo a repetir lo mismo con mi ex",
+        "reconciliación con ex"
+      ],
+      "googleSuggestions": [
+        "volver con mi ex o no",
+        "volver con mi ex novia",
+        "quiero volver con mi ex novia",
+        "carta para volver con mi ex novia",
+        "frases para volver con mi ex novia",
+        "como puedo volver con mi ex novia",
+        "mensaje para volver con mi ex novia",
+        "testamento para volver con mi ex novia",
+        "porque al.volver con mi ex novia es mas.caliente",
+        "texto para volver con mi ex novia",
+        "debería volver con mi ex",
+        "debería volver con mi ex test",
+        "porque deberia volver con mi ex",
+        "deberia volver a hablar con mi ex",
+        "como saber si deberia volver con mi ex",
+        "deberia volver con mi ex si ya estuvo con otro",
+        "reconciliacion con ex",
+        "reconciliación con mi ex",
+        "reconciliación expiación propiciación rescate redención y ser declarados justos",
+        "reconciliacion externa sap business one",
+        "reconciliación experiencias en colombia y el mundo",
+        "reconciliación explicacion para niños",
+        "reconciliación examen de conciencia",
+        "reconciliación existe",
+        "soñar con reconciliacion con ex pareja",
+        "soñar con reconciliación con ex amiga"
+      ],
+      "candidatePhrases": [
+        "volver con mi ex o no",
+        "debería volver con mi ex",
+        "miedo a repetir lo mismo con mi ex",
+        "reconciliación con ex",
+        "volver con mi ex novia",
+        "quiero volver con mi ex novia",
+        "carta para volver con mi ex novia",
+        "frases para volver con mi ex novia",
+        "como puedo volver con mi ex novia",
+        "mensaje para volver con mi ex novia",
+        "testamento para volver con mi ex novia",
+        "porque al.volver con mi ex novia es mas.caliente",
+        "texto para volver con mi ex novia",
+        "debería volver con mi ex test",
+        "porque deberia volver con mi ex",
+        "deberia volver a hablar con mi ex",
+        "como saber si deberia volver con mi ex",
+        "deberia volver con mi ex si ya estuvo con otro",
+        "reconciliacion con ex",
+        "reconciliación con mi ex",
+        "reconciliación expiación propiciación rescate redención y ser declarados justos",
+        "reconciliacion externa sap business one",
+        "reconciliación experiencias en colombia y el mundo",
+        "reconciliación explicacion para niños",
+        "reconciliación examen de conciencia",
+        "reconciliación existe",
+        "soñar con reconciliacion con ex pareja",
+        "soñar con reconciliación con ex amiga"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "volver con mi ex o no",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "debería volver con mi ex",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "miedo a repetir lo mismo con mi ex",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "reconciliación con ex",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "volver con mi ex novia",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "quiero volver con mi ex novia",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "carta para volver con mi ex novia",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "frases para volver con mi ex novia",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "como puedo volver con mi ex novia",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "mensaje para volver con mi ex novia",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "testamento para volver con mi ex novia",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "porque al.volver con mi ex novia es mas.caliente",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "texto para volver con mi ex novia",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "debería volver con mi ex test",
+          "status": "low-signal",
+          "reasons": [
+            "fortune-telling / diagnosis drift",
+            "fortune-telling / diagnosis drift",
+            "fortune-telling / diagnosis drift"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "porque deberia volver con mi ex",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "deberia volver a hablar con mi ex",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "como saber si deberia volver con mi ex",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "deberia volver con mi ex si ya estuvo con otro",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "reconciliacion con ex",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "reconciliación con mi ex",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "reconciliación expiación propiciación rescate redención y ser declarados justos",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "reconciliacion externa sap business one",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "reconciliación experiencias en colombia y el mundo",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "reconciliación explicacion para niños",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "reconciliación examen de conciencia",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "reconciliación existe",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "soñar con reconciliacion con ex pareja",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "soñar con reconciliación con ex amiga",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "volver con mi ex o no",
+        "debería volver con mi ex",
+        "miedo a repetir lo mismo con mi ex",
+        "reconciliación con ex",
+        "volver con mi ex novia",
+        "quiero volver con mi ex novia",
+        "carta para volver con mi ex novia",
+        "como puedo volver con mi ex novia",
+        "mensaje para volver con mi ex novia",
+        "testamento para volver con mi ex novia",
+        "porque al.volver con mi ex novia es mas.caliente",
+        "texto para volver con mi ex novia",
+        "porque deberia volver con mi ex",
+        "deberia volver a hablar con mi ex",
+        "como saber si deberia volver con mi ex",
+        "deberia volver con mi ex si ya estuvo con otro",
+        "reconciliacion con ex",
+        "reconciliación con mi ex",
+        "reconciliación expiación propiciación rescate redención y ser declarados justos",
+        "reconciliacion externa sap business one",
+        "reconciliación experiencias en colombia y el mundo",
+        "reconciliación explicacion para niños",
+        "reconciliación examen de conciencia",
+        "reconciliación existe",
+        "soñar con reconciliacion con ex pareja",
+        "soñar con reconciliación con ex amiga"
+      ],
+      "reviewCandidatePhrases": [
+        "frases para volver con mi ex novia"
+      ],
+      "lowSignalCandidatePhrases": [
+        "debería volver con mi ex test"
+      ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "es-ES",
+      "route": "/breakup/ex-contact",
+      "slot": "breakup/ex-contact",
+      "axis": "worry",
+      "sourceQueries": [
+        "mi ex me escribió qué hago",
+        "contacto de mi ex me desestabiliza",
+        "ex vuelve a escribir",
+        "qué hacer si mi ex me busca"
+      ],
+      "baseQueries": [
+        "mi ex me escribió qué hago",
+        "contacto de mi ex me desestabiliza",
+        "ex vuelve a escribir",
+        "qué hacer si mi ex me busca"
+      ],
+      "googleSuggestions": [
+        "mi ex me escribió que hago",
+        "mi ex me desestabiliza",
+        "mi ex vuelve a escribirme",
+        "porque un ex vuelve a escribir",
+        "cuando tu ex te vuelve a escribir",
+        "si tu ex te vuelve a escribir que significa",
+        "si tu ex te vuelve a escribir",
+        "si tu ex te vuelve a escribir solo dile (vv)",
+        "frases cuando tu ex te vuelve a escribir",
+        "que significa soñar que tu ex vuelve a escribirte",
+        "que hacer si mi ex me busca",
+        "que hacer si mi ex me busca en el contacto cero",
+        "que hacer si mi ex me busca pero tiene novia",
+        "que hacer si mi ex me sigue buscando",
+        "que hacer si mi ex me vuelve a buscar",
+        "que pasa si mi ex me busca",
+        "que significa si mi ex me busca",
+        "que pasa si mi ex me busca en mercurio retrogrado"
+      ],
+      "candidatePhrases": [
+        "mi ex me escribió qué hago",
+        "contacto de mi ex me desestabiliza",
+        "ex vuelve a escribir",
+        "qué hacer si mi ex me busca",
+        "mi ex me escribió que hago",
+        "mi ex me desestabiliza",
+        "mi ex vuelve a escribirme",
+        "porque un ex vuelve a escribir",
+        "cuando tu ex te vuelve a escribir",
+        "si tu ex te vuelve a escribir que significa",
+        "si tu ex te vuelve a escribir",
+        "si tu ex te vuelve a escribir solo dile (vv)",
+        "frases cuando tu ex te vuelve a escribir",
+        "que significa soñar que tu ex vuelve a escribirte",
+        "que hacer si mi ex me busca",
+        "que hacer si mi ex me busca en el contacto cero",
+        "que hacer si mi ex me busca pero tiene novia",
+        "que hacer si mi ex me sigue buscando",
+        "que hacer si mi ex me vuelve a buscar",
+        "que pasa si mi ex me busca",
+        "que significa si mi ex me busca",
+        "que pasa si mi ex me busca en mercurio retrogrado"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "mi ex me escribió qué hago",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "contacto de mi ex me desestabiliza",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ex vuelve a escribir",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "qué hacer si mi ex me busca",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "mi ex me escribió que hago",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "mi ex me desestabiliza",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "mi ex vuelve a escribirme",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "porque un ex vuelve a escribir",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "cuando tu ex te vuelve a escribir",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "si tu ex te vuelve a escribir que significa",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "si tu ex te vuelve a escribir",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "si tu ex te vuelve a escribir solo dile (vv)",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "frases cuando tu ex te vuelve a escribir",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "que significa soñar que tu ex vuelve a escribirte",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "que hacer si mi ex me busca",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "que hacer si mi ex me busca en el contacto cero",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "que hacer si mi ex me busca pero tiene novia",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "que hacer si mi ex me sigue buscando",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "que hacer si mi ex me vuelve a buscar",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "que pasa si mi ex me busca",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "que significa si mi ex me busca",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "que pasa si mi ex me busca en mercurio retrogrado",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "mi ex me escribió qué hago",
+        "contacto de mi ex me desestabiliza",
+        "ex vuelve a escribir",
+        "qué hacer si mi ex me busca",
+        "mi ex me escribió que hago",
+        "mi ex me desestabiliza",
+        "mi ex vuelve a escribirme",
+        "porque un ex vuelve a escribir",
+        "cuando tu ex te vuelve a escribir",
+        "si tu ex te vuelve a escribir que significa",
+        "si tu ex te vuelve a escribir",
+        "si tu ex te vuelve a escribir solo dile (vv)",
+        "que significa soñar que tu ex vuelve a escribirte",
+        "que hacer si mi ex me busca",
+        "que hacer si mi ex me busca en el contacto cero",
+        "que hacer si mi ex me busca pero tiene novia",
+        "que hacer si mi ex me sigue buscando",
+        "que hacer si mi ex me vuelve a buscar",
+        "que pasa si mi ex me busca",
+        "que significa si mi ex me busca",
+        "que pasa si mi ex me busca en mercurio retrogrado"
+      ],
+      "reviewCandidatePhrases": [
+        "frases cuando tu ex te vuelve a escribir"
+      ],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "es-ES",
+      "route": "/self-esteem/self-hate",
+      "slot": "self-esteem/self-hate",
+      "axis": "worry",
+      "sourceQueries": [
+        "me odio a mí mismo",
+        "no puedo quererme",
+        "me culpo por todo",
+        "cómo dejar de odiarme"
+      ],
+      "baseQueries": [
+        "me odio a mí mismo",
+        "no puedo quererme",
+        "me culpo por todo",
+        "cómo dejar de odiarme"
+      ],
+      "googleSuggestions": [
+        "me odio a mí mismo test",
+        "me odio a mí mismo",
+        "me odio a mi mismo en ingles",
+        "me odio a mi mismo frases",
+        "me odio a mi mismo reddit",
+        "me odio a mi mismo meme",
+        "me odio a mi mismo pelicula",
+        "me odio a mí mismo carta",
+        "me odio a mi mismo por amarte",
+        "me odio a mi mismo subaru",
+        "no puedo quererme",
+        "porque no puedo quererme a mí misma",
+        "no puedo obligarte a quererme",
+        "no puedo obligar a quererme",
+        "no puedo obligarte a quererme laberinto",
+        "no puedo castigarte por no quererme",
+        "no puedo culparte por no quererme",
+        "porque me culpo por todo",
+        "como dejar de odiarme",
+        "como dejar de odiarme a mi mismo",
+        "como hago para dejar de odiarme"
+      ],
+      "candidatePhrases": [
+        "me odio a mí mismo",
+        "no puedo quererme",
+        "me culpo por todo",
+        "cómo dejar de odiarme",
+        "me odio a mí mismo test",
+        "me odio a mi mismo en ingles",
+        "me odio a mi mismo frases",
+        "me odio a mi mismo reddit",
+        "me odio a mi mismo meme",
+        "me odio a mi mismo pelicula",
+        "me odio a mí mismo carta",
+        "me odio a mi mismo por amarte",
+        "me odio a mi mismo subaru",
+        "porque no puedo quererme a mí misma",
+        "no puedo obligarte a quererme",
+        "no puedo obligar a quererme",
+        "no puedo obligarte a quererme laberinto",
+        "no puedo castigarte por no quererme",
+        "no puedo culparte por no quererme",
+        "porque me culpo por todo",
+        "como dejar de odiarme",
+        "como dejar de odiarme a mi mismo",
+        "como hago para dejar de odiarme"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "me odio a mí mismo",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no puedo quererme",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "me culpo por todo",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "cómo dejar de odiarme",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "me odio a mí mismo test",
+          "status": "low-signal",
+          "reasons": [
+            "fortune-telling / diagnosis drift",
+            "fortune-telling / diagnosis drift",
+            "fortune-telling / diagnosis drift"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "me odio a mi mismo en ingles",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "me odio a mi mismo frases",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "me odio a mi mismo reddit",
+          "status": "review",
+          "reasons": [
+            "platform-specific query",
+            "platform-specific query",
+            "platform-specific query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "me odio a mi mismo meme",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "me odio a mi mismo pelicula",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "me odio a mí mismo carta",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "me odio a mi mismo por amarte",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "me odio a mi mismo subaru",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "porque no puedo quererme a mí misma",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no puedo obligarte a quererme",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no puedo obligar a quererme",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no puedo obligarte a quererme laberinto",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no puedo castigarte por no quererme",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no puedo culparte por no quererme",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "porque me culpo por todo",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "como dejar de odiarme",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "como dejar de odiarme a mi mismo",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "como hago para dejar de odiarme",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "me odio a mí mismo",
+        "no puedo quererme",
+        "me culpo por todo",
+        "cómo dejar de odiarme",
+        "me odio a mi mismo en ingles",
+        "me odio a mi mismo meme",
+        "me odio a mi mismo pelicula",
+        "me odio a mí mismo carta",
+        "me odio a mi mismo por amarte",
+        "me odio a mi mismo subaru",
+        "porque no puedo quererme a mí misma",
+        "no puedo obligarte a quererme",
+        "no puedo obligar a quererme",
+        "no puedo obligarte a quererme laberinto",
+        "no puedo castigarte por no quererme",
+        "no puedo culparte por no quererme",
+        "porque me culpo por todo",
+        "como dejar de odiarme",
+        "como dejar de odiarme a mi mismo",
+        "como hago para dejar de odiarme"
+      ],
+      "reviewCandidatePhrases": [
+        "me odio a mi mismo frases",
+        "me odio a mi mismo reddit"
+      ],
+      "lowSignalCandidatePhrases": [
+        "me odio a mí mismo test"
+      ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "es-ES",
+      "route": "/self-esteem/cant-accept-praise",
+      "slot": "self-esteem/cant-accept-praise",
+      "axis": "worry",
+      "sourceQueries": [
+        "no sé aceptar cumplidos",
+        "no creo cuando me felicitan",
+        "me incomodan los cumplidos",
+        "por qué no acepto elogios"
+      ],
+      "baseQueries": [
+        "no sé aceptar cumplidos",
+        "no creo cuando me felicitan",
+        "me incomodan los cumplidos",
+        "por qué no acepto elogios"
+      ],
+      "googleSuggestions": [
+        "porque me incomodan los cumplidos"
+      ],
+      "candidatePhrases": [
+        "no sé aceptar cumplidos",
+        "no creo cuando me felicitan",
+        "me incomodan los cumplidos",
+        "por qué no acepto elogios",
+        "porque me incomodan los cumplidos"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "no sé aceptar cumplidos",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no creo cuando me felicitan",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "me incomodan los cumplidos",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "por qué no acepto elogios",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "porque me incomodan los cumplidos",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "no sé aceptar cumplidos",
+        "me incomodan los cumplidos",
+        "por qué no acepto elogios",
+        "porque me incomodan los cumplidos"
+      ],
+      "reviewCandidatePhrases": [
+        "no creo cuando me felicitan"
+      ],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "es-ES",
+      "route": "/self-esteem/falling-behind",
+      "slot": "self-esteem/falling-behind",
+      "axis": "worry",
+      "sourceQueries": [
+        "siento que me estoy quedando atrás",
+        "compararme con gente de mi edad",
+        "todos avanzan menos yo",
+        "ansiedad por ir tarde en la vida"
+      ],
+      "baseQueries": [
+        "siento que me estoy quedando atrás",
+        "compararme con gente de mi edad",
+        "todos avanzan menos yo",
+        "ansiedad por ir tarde en la vida"
+      ],
+      "googleSuggestions": [
+        "siento que me estoy quedando atras",
+        "todos avanzan menos yo",
+        "porque todos avanzan menos yo",
+        "siento que todos avanzan menos yo"
+      ],
+      "candidatePhrases": [
+        "siento que me estoy quedando atrás",
+        "compararme con gente de mi edad",
+        "todos avanzan menos yo",
+        "ansiedad por ir tarde en la vida",
+        "siento que me estoy quedando atras",
+        "porque todos avanzan menos yo",
+        "siento que todos avanzan menos yo"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "siento que me estoy quedando atrás",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "compararme con gente de mi edad",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "todos avanzan menos yo",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ansiedad por ir tarde en la vida",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "siento que me estoy quedando atras",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "porque todos avanzan menos yo",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "siento que todos avanzan menos yo",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "siento que me estoy quedando atrás",
+        "compararme con gente de mi edad",
+        "todos avanzan menos yo",
+        "ansiedad por ir tarde en la vida",
+        "siento que me estoy quedando atras",
+        "porque todos avanzan menos yo",
+        "siento que todos avanzan menos yo"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "es-ES",
+      "route": "/self-esteem/dating-self-esteem",
+      "slot": "self-esteem/dating-self-esteem",
+      "axis": "worry",
+      "sourceQueries": [
+        "baja autoestima en una relación",
+        "siento que no merezco amor",
+        "mi pareja afecta mi autoestima",
+        "inseguridad en el amor"
+      ],
+      "baseQueries": [
+        "baja autoestima en una relación",
+        "siento que no merezco amor",
+        "mi pareja afecta mi autoestima",
+        "inseguridad en el amor"
+      ],
+      "googleSuggestions": [
+        "baja autoestima en una relacion",
+        "personas con baja autoestima en una relacion",
+        "siento que no merezco amor",
+        "porque siento que no merezco amor",
+        "siento que no merezco el amor de dios",
+        "inseguridad en el amor",
+        "inseguridad en el amor frases",
+        "inseguridad en el amor libro",
+        "canción de inseguridad en el amor",
+        "poemas de inseguridad en el amor",
+        "imagenes de inseguridad en el amor",
+        "memes de inseguridad en el amor",
+        "reflexion de inseguridad en el amor",
+        "cartas de inseguridad en el amor",
+        "como superar la inseguridad en el amor"
+      ],
+      "candidatePhrases": [
+        "baja autoestima en una relación",
+        "siento que no merezco amor",
+        "mi pareja afecta mi autoestima",
+        "inseguridad en el amor",
+        "baja autoestima en una relacion",
+        "personas con baja autoestima en una relacion",
+        "porque siento que no merezco amor",
+        "siento que no merezco el amor de dios",
+        "inseguridad en el amor frases",
+        "inseguridad en el amor libro",
+        "canción de inseguridad en el amor",
+        "poemas de inseguridad en el amor",
+        "imagenes de inseguridad en el amor",
+        "memes de inseguridad en el amor",
+        "reflexion de inseguridad en el amor",
+        "cartas de inseguridad en el amor",
+        "como superar la inseguridad en el amor"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "baja autoestima en una relación",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "siento que no merezco amor",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "mi pareja afecta mi autoestima",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "inseguridad en el amor",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "baja autoestima en una relacion",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "personas con baja autoestima en una relacion",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "porque siento que no merezco amor",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "siento que no merezco el amor de dios",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "inseguridad en el amor frases",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "inseguridad en el amor libro",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "canción de inseguridad en el amor",
+          "status": "low-signal",
+          "reasons": [
+            "entertainment lookup"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "poemas de inseguridad en el amor",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "imagenes de inseguridad en el amor",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "memes de inseguridad en el amor",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "reflexion de inseguridad en el amor",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "cartas de inseguridad en el amor",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "como superar la inseguridad en el amor",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "baja autoestima en una relación",
+        "siento que no merezco amor",
+        "mi pareja afecta mi autoestima",
+        "inseguridad en el amor",
+        "baja autoestima en una relacion",
+        "personas con baja autoestima en una relacion",
+        "porque siento que no merezco amor",
+        "siento que no merezco el amor de dios",
+        "poemas de inseguridad en el amor",
+        "imagenes de inseguridad en el amor",
+        "memes de inseguridad en el amor",
+        "reflexion de inseguridad en el amor",
+        "cartas de inseguridad en el amor",
+        "como superar la inseguridad en el amor"
+      ],
+      "reviewCandidatePhrases": [
+        "inseguridad en el amor frases",
+        "inseguridad en el amor libro"
+      ],
+      "lowSignalCandidatePhrases": [
+        "canción de inseguridad en el amor"
+      ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "es-ES",
+      "route": "/relationships/hurtful-words",
+      "slot": "relationships/hurtful-words",
+      "axis": "worry",
+      "sourceQueries": [
+        "no puedo olvidar palabras hirientes",
+        "me duele lo que me dijo",
+        "cómo superar palabras que duelen",
+        "sigo pensando en una frase hiriente"
+      ],
+      "baseQueries": [
+        "no puedo olvidar palabras hirientes",
+        "me duele lo que me dijo",
+        "cómo superar palabras que duelen",
+        "sigo pensando en una frase hiriente"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "no puedo olvidar palabras hirientes",
+        "me duele lo que me dijo",
+        "cómo superar palabras que duelen",
+        "sigo pensando en una frase hiriente"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "no puedo olvidar palabras hirientes",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "me duele lo que me dijo",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "cómo superar palabras que duelen",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "sigo pensando en una frase hiriente",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "no puedo olvidar palabras hirientes",
+        "me duele lo que me dijo",
+        "cómo superar palabras que duelen"
+      ],
+      "reviewCandidatePhrases": [
+        "sigo pensando en una frase hiriente"
+      ],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "es-ES",
+      "route": "/relationships/people-pleasing",
+      "slot": "relationships/people-pleasing",
+      "axis": "worry",
+      "sourceQueries": [
+        "dejar de complacer a los demás",
+        "miedo a caer mal",
+        "no sé decir que no",
+        "personalidad complaciente"
+      ],
+      "baseQueries": [
+        "dejar de complacer a los demás",
+        "miedo a caer mal",
+        "no sé decir que no",
+        "personalidad complaciente"
+      ],
+      "googleSuggestions": [
+        "dejar de complacer a los demas",
+        "frases dejar de complacer a los demas",
+        "como dejar de complacer a los demas libro",
+        "miedo a caer mal",
+        "no sé decir que no",
+        "yo no sé decir que no",
+        "yo no sé decir que no beele",
+        "yo no sé decir que no letra",
+        "no sé decir no puedo",
+        "por qué no sé decir que no",
+        "joss favela yo no sé decir que no",
+        "yo no sé decir no puedo",
+        "yo no sé decir no puedo los tucanes de tijuana",
+        "siempre tuve un defecto nose decir que no",
+        "personalidad complaciente",
+        "personalidad complaciente psicologia",
+        "personalidad complaciente karen horney",
+        "personalidad complaciente ejemplos",
+        "personalidad hiper complaciente",
+        "la personalidad complaciente para horney es hostil ruda y dominante",
+        "trastorno de personalidad complaciente"
+      ],
+      "candidatePhrases": [
+        "dejar de complacer a los demás",
+        "miedo a caer mal",
+        "no sé decir que no",
+        "personalidad complaciente",
+        "dejar de complacer a los demas",
+        "frases dejar de complacer a los demas",
+        "como dejar de complacer a los demas libro",
+        "yo no sé decir que no",
+        "yo no sé decir que no beele",
+        "yo no sé decir que no letra",
+        "no sé decir no puedo",
+        "por qué no sé decir que no",
+        "joss favela yo no sé decir que no",
+        "yo no sé decir no puedo",
+        "yo no sé decir no puedo los tucanes de tijuana",
+        "siempre tuve un defecto nose decir que no",
+        "personalidad complaciente psicologia",
+        "personalidad complaciente karen horney",
+        "personalidad complaciente ejemplos",
+        "personalidad hiper complaciente",
+        "la personalidad complaciente para horney es hostil ruda y dominante",
+        "trastorno de personalidad complaciente"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "dejar de complacer a los demás",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "miedo a caer mal",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no sé decir que no",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "personalidad complaciente",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "dejar de complacer a los demas",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "frases dejar de complacer a los demas",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "como dejar de complacer a los demas libro",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "yo no sé decir que no",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "yo no sé decir que no beele",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "yo no sé decir que no letra",
+          "status": "low-signal",
+          "reasons": [
+            "entertainment lookup"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no sé decir no puedo",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "por qué no sé decir que no",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "joss favela yo no sé decir que no",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "yo no sé decir no puedo",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "yo no sé decir no puedo los tucanes de tijuana",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "siempre tuve un defecto nose decir que no",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "personalidad complaciente psicologia",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "personalidad complaciente karen horney",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "personalidad complaciente ejemplos",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "personalidad hiper complaciente",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "la personalidad complaciente para horney es hostil ruda y dominante",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "trastorno de personalidad complaciente",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "dejar de complacer a los demás",
+        "miedo a caer mal",
+        "no sé decir que no",
+        "personalidad complaciente",
+        "dejar de complacer a los demas",
+        "yo no sé decir que no",
+        "yo no sé decir que no beele",
+        "no sé decir no puedo",
+        "por qué no sé decir que no",
+        "joss favela yo no sé decir que no",
+        "yo no sé decir no puedo",
+        "yo no sé decir no puedo los tucanes de tijuana",
+        "siempre tuve un defecto nose decir que no",
+        "personalidad complaciente psicologia",
+        "personalidad complaciente karen horney",
+        "personalidad complaciente ejemplos",
+        "personalidad hiper complaciente",
+        "la personalidad complaciente para horney es hostil ruda y dominante",
+        "trastorno de personalidad complaciente"
+      ],
+      "reviewCandidatePhrases": [
+        "frases dejar de complacer a los demas",
+        "como dejar de complacer a los demas libro"
+      ],
+      "lowSignalCandidatePhrases": [
+        "yo no sé decir que no letra"
+      ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "es-ES",
+      "route": "/relationships/relationship-burnout",
+      "slot": "relationships/relationship-burnout",
+      "axis": "worry",
+      "sourceQueries": [
+        "cansancio de las relaciones",
+        "estoy agotado de la gente",
+        "no quiero socializar",
+        "las amistades me consumen"
+      ],
+      "baseQueries": [
+        "cansancio de las relaciones",
+        "estoy agotado de la gente",
+        "no quiero socializar",
+        "las amistades me consumen"
+      ],
+      "googleSuggestions": [
+        "cansancio despues de las relaciones sexuales",
+        "cansancio relaciones sexuales",
+        "no quiero socializar",
+        "no quiero socializar con nadie",
+        "porque no quiero socializar",
+        "porque no quiero socializar con nadie",
+        "cuando no quiero socializar",
+        "meme no quiero socializar",
+        "que pasa si no quiero socializar",
+        "porque a veces no quiero socializar"
+      ],
+      "candidatePhrases": [
+        "cansancio de las relaciones",
+        "estoy agotado de la gente",
+        "no quiero socializar",
+        "las amistades me consumen",
+        "cansancio despues de las relaciones sexuales",
+        "cansancio relaciones sexuales",
+        "no quiero socializar con nadie",
+        "porque no quiero socializar",
+        "porque no quiero socializar con nadie",
+        "cuando no quiero socializar",
+        "meme no quiero socializar",
+        "que pasa si no quiero socializar",
+        "porque a veces no quiero socializar"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "cansancio de las relaciones",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "estoy agotado de la gente",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no quiero socializar",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "las amistades me consumen",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "cansancio despues de las relaciones sexuales",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "cansancio relaciones sexuales",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no quiero socializar con nadie",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "porque no quiero socializar",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "porque no quiero socializar con nadie",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "cuando no quiero socializar",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "meme no quiero socializar",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "que pasa si no quiero socializar",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "porque a veces no quiero socializar",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "cansancio de las relaciones",
+        "estoy agotado de la gente",
+        "no quiero socializar",
+        "las amistades me consumen",
+        "cansancio despues de las relaciones sexuales",
+        "cansancio relaciones sexuales",
+        "no quiero socializar con nadie",
+        "porque no quiero socializar",
+        "porque no quiero socializar con nadie",
+        "cuando no quiero socializar",
+        "meme no quiero socializar",
+        "que pasa si no quiero socializar",
+        "porque a veces no quiero socializar"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "es-ES",
+      "route": "/relationships/regret-words",
+      "slot": "relationships/regret-words",
+      "axis": "worry",
+      "sourceQueries": [
+        "me arrepiento de lo que dije",
+        "dije algo mal y me preocupa",
+        "ansiedad por haber dicho algo",
+        "cómo arreglar una metida de pata"
+      ],
+      "baseQueries": [
+        "me arrepiento de lo que dije",
+        "dije algo mal y me preocupa",
+        "ansiedad por haber dicho algo",
+        "cómo arreglar una metida de pata"
+      ],
+      "googleSuggestions": [
+        "me arrepiento de lo que dije",
+        "no me arrepiento de lo que dije en ingles",
+        "me arrepiento cuando dije que te odiaba para siempre",
+        "dije algo de lo que me arrepiento"
+      ],
+      "candidatePhrases": [
+        "me arrepiento de lo que dije",
+        "dije algo mal y me preocupa",
+        "ansiedad por haber dicho algo",
+        "cómo arreglar una metida de pata",
+        "no me arrepiento de lo que dije en ingles",
+        "me arrepiento cuando dije que te odiaba para siempre",
+        "dije algo de lo que me arrepiento"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "me arrepiento de lo que dije",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "dije algo mal y me preocupa",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ansiedad por haber dicho algo",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "cómo arreglar una metida de pata",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no me arrepiento de lo que dije en ingles",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "me arrepiento cuando dije que te odiaba para siempre",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "dije algo de lo que me arrepiento",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "me arrepiento de lo que dije",
+        "dije algo mal y me preocupa",
+        "ansiedad por haber dicho algo",
+        "cómo arreglar una metida de pata",
+        "no me arrepiento de lo que dije en ingles",
+        "me arrepiento cuando dije que te odiaba para siempre",
+        "dije algo de lo que me arrepiento"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "es-ES",
+      "route": "/work/quit-or-stay",
+      "slot": "work/quit-or-stay",
+      "axis": "worry",
+      "sourceQueries": [
+        "dejar el trabajo o aguantar",
+        "renunciar o seguir",
+        "quiero dejar mi trabajo pero tengo miedo",
+        "debería cambiar de trabajo"
+      ],
+      "baseQueries": [
+        "dejar el trabajo o aguantar",
+        "renunciar o seguir",
+        "quiero dejar mi trabajo pero tengo miedo",
+        "debería cambiar de trabajo"
+      ],
+      "googleSuggestions": [
+        "renunciar o seguir",
+        "quiero dejar mi trabajo pero tengo miedo",
+        "deberia cambiar de trabajo"
+      ],
+      "candidatePhrases": [
+        "dejar el trabajo o aguantar",
+        "renunciar o seguir",
+        "quiero dejar mi trabajo pero tengo miedo",
+        "debería cambiar de trabajo",
+        "deberia cambiar de trabajo"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "dejar el trabajo o aguantar",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "renunciar o seguir",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "quiero dejar mi trabajo pero tengo miedo",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "debería cambiar de trabajo",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "deberia cambiar de trabajo",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "dejar el trabajo o aguantar",
+        "renunciar o seguir",
+        "quiero dejar mi trabajo pero tengo miedo",
+        "debería cambiar de trabajo",
+        "deberia cambiar de trabajo"
       ],
       "reviewCandidatePhrases": [],
       "lowSignalCandidatePhrases": [],
