@@ -1,16 +1,17 @@
 {
-  "collectedAt": "2026-06-22T06:01:33.122Z",
+  "collectedAt": "2026-06-22T06:20:19.023Z",
   "locale": "zh-CN",
   "sourceStatus": "active-source",
-  "nodesScanned": 59,
-  "totalCandidatePhrases": 321,
-  "totalUsableCandidatePhrases": 300,
-  "totalReviewCandidatePhrases": 9,
-  "totalLowSignalCandidatePhrases": 12,
+  "nodesScanned": 89,
+  "totalCandidatePhrases": 496,
+  "totalUsableCandidatePhrases": 463,
+  "totalReviewCandidatePhrases": 13,
+  "totalLowSignalCandidatePhrases": 20,
   "clusterHints": {
-    "family/family-of-origin": 1,
+    "family/family-of-origin": 2,
     "study/exam-pressure": 1,
-    "debate/childfree-identity": 1
+    "debate/childfree-identity": 1,
+    "family/filial-duty": 3
   },
   "rows": [
     {
@@ -5127,6 +5128,2735 @@
         "辞职还是坚持",
         "想辞职但害怕",
         "工作该不该继续"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/work/unrecognized",
+      "slot": "work/unrecognized",
+      "axis": "worry",
+      "sourceQueries": [
+        "工作不被认可",
+        "努力不被看见",
+        "职场不被肯定",
+        "付出没有回报"
+      ],
+      "baseQueries": [
+        "工作不被认可",
+        "努力不被看见",
+        "职场不被肯定",
+        "付出没有回报"
+      ],
+      "googleSuggestions": [
+        "努力不被看见",
+        "付出没有回报 成语",
+        "付出没有回报",
+        "付出没有回报 英文"
+      ],
+      "candidatePhrases": [
+        "工作不被认可",
+        "努力不被看见",
+        "职场不被肯定",
+        "付出没有回报",
+        "付出没有回报 成语",
+        "付出没有回报 英文"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "工作不被认可",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "努力不被看见",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "职场不被肯定",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "付出没有回报",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "付出没有回报 成语",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "付出没有回报 英文",
+          "status": "low-signal",
+          "reasons": [
+            "translation or language lookup"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "工作不被认可",
+        "努力不被看见",
+        "职场不被肯定",
+        "付出没有回报",
+        "付出没有回报 成语"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [
+        "付出没有回报 英文"
+      ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/work/work-depression",
+      "slot": "work/work-depression",
+      "axis": "worry",
+      "sourceQueries": [
+        "工作抑郁怎么办",
+        "上班很痛苦",
+        "工作压力让我崩溃",
+        "不想去公司"
+      ],
+      "baseQueries": [
+        "工作抑郁怎么办",
+        "上班很痛苦",
+        "工作压力让我崩溃",
+        "不想去公司"
+      ],
+      "googleSuggestions": [
+        "上班很痛苦dcard",
+        "上班很痛苦怎么办",
+        "上班很痛苦",
+        "上班很痛苦 ptt",
+        "不想去公司聚餐",
+        "不想去公司 线上看",
+        "不想去公司 韩剧",
+        "不想去公司 韓劇",
+        "不想去公司 線上看"
+      ],
+      "candidatePhrases": [
+        "工作抑郁怎么办",
+        "上班很痛苦",
+        "工作压力让我崩溃",
+        "不想去公司",
+        "上班很痛苦dcard",
+        "上班很痛苦怎么办",
+        "上班很痛苦 ptt",
+        "不想去公司聚餐",
+        "不想去公司 线上看",
+        "不想去公司 韩剧",
+        "不想去公司 韓劇",
+        "不想去公司 線上看"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "工作抑郁怎么办",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "上班很痛苦",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "工作压力让我崩溃",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "不想去公司",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "上班很痛苦dcard",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "上班很痛苦怎么办",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "上班很痛苦 ptt",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "不想去公司聚餐",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "不想去公司 线上看",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "不想去公司 韩剧",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "不想去公司 韓劇",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "不想去公司 線上看",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "工作抑郁怎么办",
+        "上班很痛苦",
+        "工作压力让我崩溃",
+        "不想去公司",
+        "上班很痛苦dcard",
+        "上班很痛苦怎么办",
+        "上班很痛苦 ptt",
+        "不想去公司聚餐",
+        "不想去公司 线上看",
+        "不想去公司 韩剧",
+        "不想去公司 韓劇",
+        "不想去公司 線上看"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/work/not-good-enough",
+      "slot": "work/not-good-enough",
+      "axis": "worry",
+      "sourceQueries": [
+        "觉得自己工作能力差",
+        "工作做不好怎么办",
+        "感觉自己很无能",
+        "职场能力不足焦虑"
+      ],
+      "baseQueries": [
+        "觉得自己工作能力差",
+        "工作做不好怎么办",
+        "感觉自己很无能",
+        "职场能力不足焦虑"
+      ],
+      "googleSuggestions": [
+        "觉得自己工作能力差",
+        "工作做不好怎么办"
+      ],
+      "candidatePhrases": [
+        "觉得自己工作能力差",
+        "工作做不好怎么办",
+        "感觉自己很无能",
+        "职场能力不足焦虑"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "觉得自己工作能力差",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "工作做不好怎么办",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "感觉自己很无能",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "职场能力不足焦虑",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "觉得自己工作能力差",
+        "工作做不好怎么办",
+        "感觉自己很无能",
+        "职场能力不足焦虑"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/work/work-skepticism",
+      "slot": "work/work-skepticism",
+      "axis": "worry",
+      "sourceQueries": [
+        "工作没有意义",
+        "不知道为什么工作",
+        "工作没有成就感",
+        "上班的意义是什么"
+      ],
+      "baseQueries": [
+        "工作没有意义",
+        "不知道为什么工作",
+        "工作没有成就感",
+        "上班的意义是什么"
+      ],
+      "googleSuggestions": [
+        "工作没有意义",
+        "工作没有成就感",
+        "工作没有成就感dcard",
+        "工作没有成就感离职",
+        "工作没有成就感 ptt",
+        "上班的意义是什么"
+      ],
+      "candidatePhrases": [
+        "工作没有意义",
+        "不知道为什么工作",
+        "工作没有成就感",
+        "上班的意义是什么",
+        "工作没有成就感dcard",
+        "工作没有成就感离职",
+        "工作没有成就感 ptt"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "工作没有意义",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "不知道为什么工作",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "工作没有成就感",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "上班的意义是什么",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "工作没有成就感dcard",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "工作没有成就感离职",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "工作没有成就感 ptt",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "工作没有意义",
+        "不知道为什么工作",
+        "工作没有成就感",
+        "上班的意义是什么",
+        "工作没有成就感dcard",
+        "工作没有成就感离职",
+        "工作没有成就感 ptt"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/meaning/dont-know-want",
+      "slot": "meaning/dont-know-want",
+      "axis": "worry",
+      "sourceQueries": [
+        "不知道自己想要什么",
+        "不知道自己想做什么",
+        "没有想做的事",
+        "找不到自己的真实想法"
+      ],
+      "baseQueries": [
+        "不知道自己想要什么",
+        "不知道自己想做什么",
+        "没有想做的事",
+        "找不到自己的真实想法"
+      ],
+      "googleSuggestions": [
+        "不知道自己想要什么dcard",
+        "不知道自己想要什么感情",
+        "不知道自己想要什么ptt",
+        "不知道自己想要什么",
+        "不知道自己想做什么工作",
+        "不知道自己想做什么",
+        "不知道自己想做什么工作 dcard",
+        "没有想做的事",
+        "没有想做的事情",
+        "没有想做的事 ptt"
+      ],
+      "candidatePhrases": [
+        "不知道自己想要什么",
+        "不知道自己想做什么",
+        "没有想做的事",
+        "找不到自己的真实想法",
+        "不知道自己想要什么dcard",
+        "不知道自己想要什么感情",
+        "不知道自己想要什么ptt",
+        "不知道自己想做什么工作",
+        "不知道自己想做什么工作 dcard",
+        "没有想做的事情",
+        "没有想做的事 ptt"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "不知道自己想要什么",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "不知道自己想做什么",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "没有想做的事",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "找不到自己的真实想法",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "不知道自己想要什么dcard",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "不知道自己想要什么感情",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "不知道自己想要什么ptt",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "不知道自己想做什么工作",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "不知道自己想做什么工作 dcard",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "没有想做的事情",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "没有想做的事 ptt",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "不知道自己想要什么",
+        "不知道自己想做什么",
+        "没有想做的事",
+        "找不到自己的真实想法",
+        "不知道自己想要什么dcard",
+        "不知道自己想要什么感情",
+        "不知道自己想要什么ptt",
+        "不知道自己想做什么工作",
+        "不知道自己想做什么工作 dcard",
+        "没有想做的事情",
+        "没有想做的事 ptt"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/meaning/emptiness",
+      "slot": "meaning/emptiness",
+      "axis": "worry",
+      "sourceQueries": [
+        "内心空虚怎么办",
+        "感觉很空",
+        "什么都提不起兴趣",
+        "做什么都不满足"
+      ],
+      "baseQueries": [
+        "内心空虚怎么办",
+        "感觉很空",
+        "什么都提不起兴趣",
+        "做什么都不满足"
+      ],
+      "googleSuggestions": [
+        "内心空虚怎么办"
+      ],
+      "candidatePhrases": [
+        "内心空虚怎么办",
+        "感觉很空",
+        "什么都提不起兴趣",
+        "做什么都不满足"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "内心空虚怎么办",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "感觉很空",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "什么都提不起兴趣",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "做什么都不满足",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "内心空虚怎么办",
+        "感觉很空",
+        "什么都提不起兴趣",
+        "做什么都不满足"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/meaning/no-goal",
+      "slot": "meaning/no-goal",
+      "axis": "worry",
+      "sourceQueries": [
+        "没有人生目标",
+        "找不到目标怎么办",
+        "没有梦想很焦虑",
+        "不知道该追求什么"
+      ],
+      "baseQueries": [
+        "没有人生目标",
+        "找不到目标怎么办",
+        "没有梦想很焦虑",
+        "不知道该追求什么"
+      ],
+      "googleSuggestions": [
+        "没有人生目标怎么办",
+        "没有人生目标",
+        "没有人生目标 英文",
+        "没有人生目标 ptt",
+        "找不到目标怎么办"
+      ],
+      "candidatePhrases": [
+        "没有人生目标",
+        "找不到目标怎么办",
+        "没有梦想很焦虑",
+        "不知道该追求什么",
+        "没有人生目标怎么办",
+        "没有人生目标 英文",
+        "没有人生目标 ptt"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "没有人生目标",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "找不到目标怎么办",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "没有梦想很焦虑",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "不知道该追求什么",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "没有人生目标怎么办",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "没有人生目标 英文",
+          "status": "low-signal",
+          "reasons": [
+            "translation or language lookup"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "没有人生目标 ptt",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "没有人生目标",
+        "找不到目标怎么办",
+        "没有梦想很焦虑",
+        "不知道该追求什么",
+        "没有人生目标怎么办",
+        "没有人生目标 ptt"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [
+        "没有人生目标 英文"
+      ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/meaning/wandering",
+      "slot": "meaning/wandering",
+      "axis": "worry",
+      "sourceQueries": [
+        "人生迷茫怎么办",
+        "不知道方向",
+        "对未来很迷茫",
+        "感觉自己在漂泊"
+      ],
+      "baseQueries": [
+        "人生迷茫怎么办",
+        "不知道方向",
+        "对未来很迷茫",
+        "感觉自己在漂泊"
+      ],
+      "googleSuggestions": [
+        "人生迷茫怎么办",
+        "对未来很迷茫"
+      ],
+      "candidatePhrases": [
+        "人生迷茫怎么办",
+        "不知道方向",
+        "对未来很迷茫",
+        "感觉自己在漂泊"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "人生迷茫怎么办",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "不知道方向",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "对未来很迷茫",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "感觉自己在漂泊",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "人生迷茫怎么办",
+        "不知道方向",
+        "对未来很迷茫",
+        "感觉自己在漂泊"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/family/holiday-stress",
+      "slot": "family/holiday-stress",
+      "axis": "worry",
+      "sourceQueries": [
+        "过年回家压力",
+        "春节家庭压力",
+        "亲戚问问题很烦",
+        "回家过年焦虑"
+      ],
+      "baseQueries": [
+        "过年回家压力",
+        "春节家庭压力",
+        "亲戚问问题很烦",
+        "回家过年焦虑"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "过年回家压力",
+        "春节家庭压力",
+        "亲戚问问题很烦",
+        "回家过年焦虑"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "过年回家压力",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "春节家庭压力",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "亲戚问问题很烦",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "回家过年焦虑",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "过年回家压力",
+        "春节家庭压力",
+        "亲戚问问题很烦",
+        "回家过年焦虑"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/family/family-cutoff",
+      "slot": "family/family-cutoff",
+      "axis": "worry",
+      "sourceQueries": [
+        "想和家人断绝关系",
+        "和父母断联",
+        "原生家庭想远离",
+        "要不要和家人断联"
+      ],
+      "baseQueries": [
+        "想和家人断绝关系",
+        "和父母断联",
+        "原生家庭想远离",
+        "要不要和家人断联"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "想和家人断绝关系",
+        "和父母断联",
+        "原生家庭想远离",
+        "要不要和家人断联"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "想和家人断绝关系",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "和父母断联",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "原生家庭想远离",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": [
+            "family/family-of-origin"
+          ]
+        },
+        {
+          "phrase": "要不要和家人断联",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "想和家人断绝关系",
+        "和父母断联",
+        "原生家庭想远离",
+        "要不要和家人断联"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {
+        "family/family-of-origin": 1
+      },
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/family/mother-conflict",
+      "slot": "family/mother-conflict",
+      "axis": "worry",
+      "sourceQueries": [
+        "和妈妈合不来",
+        "妈妈让我很累",
+        "总和妈妈吵架",
+        "想和妈妈保持距离"
+      ],
+      "baseQueries": [
+        "和妈妈合不来",
+        "妈妈让我很累",
+        "总和妈妈吵架",
+        "想和妈妈保持距离"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "和妈妈合不来",
+        "妈妈让我很累",
+        "总和妈妈吵架",
+        "想和妈妈保持距离"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "和妈妈合不来",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "妈妈让我很累",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "总和妈妈吵架",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "想和妈妈保持距离",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "和妈妈合不来",
+        "妈妈让我很累",
+        "总和妈妈吵架",
+        "想和妈妈保持距离"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/body/body-anxiety",
+      "slot": "body/body-anxiety",
+      "axis": "worry",
+      "sourceQueries": [
+        "讨厌自己的外貌",
+        "身材焦虑怎么办",
+        "外貌焦虑",
+        "不喜欢自己的身体"
+      ],
+      "baseQueries": [
+        "讨厌自己的外貌",
+        "身材焦虑怎么办",
+        "外貌焦虑",
+        "不喜欢自己的身体"
+      ],
+      "googleSuggestions": [
+        "身材焦虑怎么办",
+        "外貌焦虑",
+        "外貌焦虑 英文",
+        "外貌焦虑症测试",
+        "外貌焦虑症",
+        "外貌焦虑 dcard",
+        "外貌焦虑症 英文"
+      ],
+      "candidatePhrases": [
+        "讨厌自己的外貌",
+        "身材焦虑怎么办",
+        "外貌焦虑",
+        "不喜欢自己的身体",
+        "外貌焦虑 英文",
+        "外貌焦虑症测试",
+        "外貌焦虑症",
+        "外貌焦虑 dcard",
+        "外貌焦虑症 英文"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "讨厌自己的外貌",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "身材焦虑怎么办",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "外貌焦虑",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "不喜欢自己的身体",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "外貌焦虑 英文",
+          "status": "low-signal",
+          "reasons": [
+            "translation or language lookup"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "外貌焦虑症测试",
+          "status": "low-signal",
+          "reasons": [
+            "fortune-telling / diagnosis drift"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "外貌焦虑症",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "外貌焦虑 dcard",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "外貌焦虑症 英文",
+          "status": "low-signal",
+          "reasons": [
+            "translation or language lookup"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "讨厌自己的外貌",
+        "身材焦虑怎么办",
+        "外貌焦虑",
+        "不喜欢自己的身体",
+        "外貌焦虑症",
+        "外貌焦虑 dcard"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [
+        "外貌焦虑 英文",
+        "外貌焦虑症测试",
+        "外貌焦虑症 英文"
+      ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/body/aging-anxiety",
+      "slot": "body/aging-anxiety",
+      "axis": "worry",
+      "sourceQueries": [
+        "害怕变老",
+        "年龄焦虑",
+        "衰老焦虑",
+        "害怕失去年轻"
+      ],
+      "baseQueries": [
+        "害怕变老",
+        "年龄焦虑",
+        "衰老焦虑",
+        "害怕失去年轻"
+      ],
+      "googleSuggestions": [
+        "害怕变老",
+        "害怕变老dcard",
+        "害怕变老 ptt",
+        "年龄焦虑",
+        "年龄焦虑dcard",
+        "年龄焦虑 英文",
+        "年龄焦虑ptt",
+        "年龄焦虑 日语",
+        "年龄焦虑 lihkg",
+        "女生 年龄焦虑",
+        "30岁 年龄焦虑"
+      ],
+      "candidatePhrases": [
+        "害怕变老",
+        "年龄焦虑",
+        "衰老焦虑",
+        "害怕失去年轻",
+        "害怕变老dcard",
+        "害怕变老 ptt",
+        "年龄焦虑dcard",
+        "年龄焦虑 英文",
+        "年龄焦虑ptt",
+        "年龄焦虑 日语",
+        "年龄焦虑 lihkg",
+        "女生 年龄焦虑",
+        "30岁 年龄焦虑"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "害怕变老",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "年龄焦虑",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "衰老焦虑",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "害怕失去年轻",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "害怕变老dcard",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "害怕变老 ptt",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "年龄焦虑dcard",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "年龄焦虑 英文",
+          "status": "low-signal",
+          "reasons": [
+            "translation or language lookup"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "年龄焦虑ptt",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "年龄焦虑 日语",
+          "status": "low-signal",
+          "reasons": [
+            "translation or language lookup"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "年龄焦虑 lihkg",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "女生 年龄焦虑",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "30岁 年龄焦虑",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "害怕变老",
+        "年龄焦虑",
+        "衰老焦虑",
+        "害怕失去年轻",
+        "害怕变老dcard",
+        "害怕变老 ptt",
+        "年龄焦虑dcard",
+        "年龄焦虑ptt",
+        "年龄焦虑 lihkg",
+        "女生 年龄焦虑",
+        "30岁 年龄焦虑"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [
+        "年龄焦虑 英文",
+        "年龄焦虑 日语"
+      ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/body/hair-loss-stress",
+      "slot": "body/hair-loss-stress",
+      "axis": "worry",
+      "sourceQueries": [
+        "脱发焦虑",
+        "掉头发很焦虑",
+        "害怕秃头",
+        "头发变少压力大"
+      ],
+      "baseQueries": [
+        "脱发焦虑",
+        "掉头发很焦虑",
+        "害怕秃头",
+        "头发变少压力大"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "脱发焦虑",
+        "掉头发很焦虑",
+        "害怕秃头",
+        "头发变少压力大"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "脱发焦虑",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "掉头发很焦虑",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "害怕秃头",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "头发变少压力大",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "脱发焦虑",
+        "掉头发很焦虑",
+        "害怕秃头",
+        "头发变少压力大"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/career/dream-reality",
+      "slot": "career/dream-reality",
+      "axis": "worry",
+      "sourceQueries": [
+        "要不要放弃梦想",
+        "梦想和现实冲突",
+        "喜欢的事能不能当工作",
+        "年龄大了还追梦吗"
+      ],
+      "baseQueries": [
+        "要不要放弃梦想",
+        "梦想和现实冲突",
+        "喜欢的事能不能当工作",
+        "年龄大了还追梦吗"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "要不要放弃梦想",
+        "梦想和现实冲突",
+        "喜欢的事能不能当工作",
+        "年龄大了还追梦吗"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "要不要放弃梦想",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "梦想和现实冲突",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "喜欢的事能不能当工作",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "年龄大了还追梦吗",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "要不要放弃梦想",
+        "梦想和现实冲突",
+        "喜欢的事能不能当工作",
+        "年龄大了还追梦吗"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/career/regret-free-choice",
+      "slot": "career/regret-free-choice",
+      "axis": "worry",
+      "sourceQueries": [
+        "怎么做不后悔的选择",
+        "害怕选错",
+        "无论选哪个都会后悔",
+        "人生选择困难"
+      ],
+      "baseQueries": [
+        "怎么做不后悔的选择",
+        "害怕选错",
+        "无论选哪个都会后悔",
+        "人生选择困难"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "怎么做不后悔的选择",
+        "害怕选错",
+        "无论选哪个都会后悔",
+        "人生选择困难"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "怎么做不后悔的选择",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "害怕选错",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "无论选哪个都会后悔",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人生选择困难",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "怎么做不后悔的选择",
+        "害怕选错",
+        "无论选哪个都会后悔",
+        "人生选择困难"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/debate/euthanasia",
+      "slot": "debate/euthanasia",
+      "axis": "debate",
+      "sourceQueries": [
+        "安乐死 应不应该合法",
+        "安乐死 争议",
+        "尊严死 讨论",
+        "生命自主权 安乐死"
+      ],
+      "baseQueries": [
+        "安乐死 应不应该合法",
+        "安乐死 争议",
+        "尊严死 讨论",
+        "生命自主权 安乐死"
+      ],
+      "googleSuggestions": [
+        "安乐死 争议",
+        "安乐死争议案例",
+        "安乐死 争议 点",
+        "安乐死 争议 新闻",
+        "安乐死 争议 香港",
+        "安乐死 争议 道德",
+        "瑞士 安乐死 争议",
+        "台湾 安乐死 争议",
+        "荷兰 安乐死 争议",
+        "动物 安乐死 争议",
+        "生命自主权 安乐死"
+      ],
+      "candidatePhrases": [
+        "安乐死 应不应该合法",
+        "安乐死 争议",
+        "尊严死 讨论",
+        "生命自主权 安乐死",
+        "安乐死争议案例",
+        "安乐死 争议 点",
+        "安乐死 争议 新闻",
+        "安乐死 争议 香港",
+        "安乐死 争议 道德",
+        "瑞士 安乐死 争议",
+        "台湾 安乐死 争议",
+        "荷兰 安乐死 争议",
+        "动物 安乐死 争议"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "安乐死 应不应该合法",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "安乐死 争议",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "尊严死 讨论",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "生命自主权 安乐死",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "安乐死争议案例",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "安乐死 争议 点",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "安乐死 争议 新闻",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "安乐死 争议 香港",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "安乐死 争议 道德",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "瑞士 安乐死 争议",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "台湾 安乐死 争议",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "荷兰 安乐死 争议",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "动物 安乐死 争议",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "安乐死 应不应该合法",
+        "安乐死 争议",
+        "尊严死 讨论",
+        "生命自主权 安乐死",
+        "安乐死争议案例",
+        "安乐死 争议 点",
+        "安乐死 争议 新闻",
+        "安乐死 争议 香港",
+        "安乐死 争议 道德",
+        "瑞士 安乐死 争议",
+        "台湾 安乐死 争议",
+        "荷兰 安乐死 争议",
+        "动物 安乐死 争议"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/debate/death-penalty",
+      "slot": "debate/death-penalty",
+      "axis": "debate",
+      "sourceQueries": [
+        "死刑 应不应该保留",
+        "死刑废除争议",
+        "死刑和冤案",
+        "死刑正义吗"
+      ],
+      "baseQueries": [
+        "死刑 应不应该保留",
+        "死刑废除争议",
+        "死刑和冤案",
+        "死刑正义吗"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "死刑 应不应该保留",
+        "死刑废除争议",
+        "死刑和冤案",
+        "死刑正义吗"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "死刑 应不应该保留",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "死刑废除争议",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "死刑和冤案",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "死刑正义吗",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "死刑 应不应该保留",
+        "死刑废除争议",
+        "死刑和冤案",
+        "死刑正义吗"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/debate/abortion",
+      "slot": "debate/abortion",
+      "axis": "debate",
+      "sourceQueries": [
+        "堕胎 应该允许吗",
+        "人工流产 争议",
+        "堕胎权",
+        "胎儿生命和女性自主"
+      ],
+      "baseQueries": [
+        "堕胎 应该允许吗",
+        "人工流产 争议",
+        "堕胎权",
+        "胎儿生命和女性自主"
+      ],
+      "googleSuggestions": [
+        "堕胎权",
+        "堕胎权台湾",
+        "堕胎权 ptt",
+        "堕胎权 英文",
+        "堕胎权 美国",
+        "特朗普 堕胎权",
+        "法国 堕胎权"
+      ],
+      "candidatePhrases": [
+        "堕胎 应该允许吗",
+        "人工流产 争议",
+        "堕胎权",
+        "胎儿生命和女性自主",
+        "堕胎权台湾",
+        "堕胎权 ptt",
+        "堕胎权 英文",
+        "堕胎权 美国",
+        "特朗普 堕胎权",
+        "法国 堕胎权"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "堕胎 应该允许吗",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人工流产 争议",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "堕胎权",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "胎儿生命和女性自主",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "堕胎权台湾",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "堕胎权 ptt",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "堕胎权 英文",
+          "status": "low-signal",
+          "reasons": [
+            "translation or language lookup"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "堕胎权 美国",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "特朗普 堕胎权",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "法国 堕胎权",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "堕胎 应该允许吗",
+        "人工流产 争议",
+        "堕胎权",
+        "胎儿生命和女性自主",
+        "堕胎权台湾",
+        "堕胎权 ptt",
+        "堕胎权 美国",
+        "特朗普 堕胎权",
+        "法国 堕胎权"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [
+        "堕胎权 英文"
+      ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/debate/animal-testing",
+      "slot": "debate/animal-testing",
+      "axis": "debate",
+      "sourceQueries": [
+        "动物实验 应不应该",
+        "动物实验 争议",
+        "动物实验伦理",
+        "化妆品动物实验"
+      ],
+      "baseQueries": [
+        "动物实验 应不应该",
+        "动物实验 争议",
+        "动物实验伦理",
+        "化妆品动物实验"
+      ],
+      "googleSuggestions": [
+        "动物实验争议"
+      ],
+      "candidatePhrases": [
+        "动物实验 应不应该",
+        "动物实验 争议",
+        "动物实验伦理",
+        "化妆品动物实验",
+        "动物实验争议"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "动物实验 应不应该",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "动物实验 争议",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "动物实验伦理",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "化妆品动物实验",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "动物实验争议",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "动物实验 应不应该",
+        "动物实验 争议",
+        "动物实验伦理",
+        "化妆品动物实验",
+        "动物实验争议"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/debate/juvenile-offenders",
+      "slot": "debate/juvenile-offenders",
+      "axis": "debate",
+      "sourceQueries": [
+        "未成年人犯罪该不该严惩",
+        "少年犯刑责年龄",
+        "未成年犯罪责任",
+        "少年法争议"
+      ],
+      "baseQueries": [
+        "未成年人犯罪该不该严惩",
+        "少年犯刑责年龄",
+        "未成年犯罪责任",
+        "少年法争议"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "未成年人犯罪该不该严惩",
+        "少年犯刑责年龄",
+        "未成年犯罪责任",
+        "少年法争议"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "未成年人犯罪该不该严惩",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "少年犯刑责年龄",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "未成年犯罪责任",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "少年法争议",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "未成年人犯罪该不该严惩",
+        "少年犯刑责年龄",
+        "未成年犯罪责任",
+        "少年法争议"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/debate/meritocracy",
+      "slot": "debate/meritocracy",
+      "axis": "debate",
+      "sourceQueries": [
+        "能力主义公平吗",
+        "努力一定有回报吗",
+        "能力主义批判",
+        "起点差异与公平"
+      ],
+      "baseQueries": [
+        "能力主义公平吗",
+        "努力一定有回报吗",
+        "能力主义批判",
+        "起点差异与公平"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "能力主义公平吗",
+        "努力一定有回报吗",
+        "能力主义批判",
+        "起点差异与公平"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "能力主义公平吗",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "努力一定有回报吗",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "能力主义批判",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "起点差异与公平",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "能力主义公平吗",
+        "努力一定有回报吗",
+        "能力主义批判",
+        "起点差异与公平"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/debate/basic-income",
+      "slot": "debate/basic-income",
+      "axis": "debate",
+      "sourceQueries": [
+        "基本收入 应不应该",
+        "全民基本收入 争议",
+        "基本收入资金来源",
+        "基本收入会不会让人不工作"
+      ],
+      "baseQueries": [
+        "基本收入 应不应该",
+        "全民基本收入 争议",
+        "基本收入资金来源",
+        "基本收入会不会让人不工作"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "基本收入 应不应该",
+        "全民基本收入 争议",
+        "基本收入资金来源",
+        "基本收入会不会让人不工作"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "基本收入 应不应该",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "全民基本收入 争议",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "基本收入资金来源",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "基本收入会不会让人不工作",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [],
+      "reviewCandidatePhrases": [
+        "基本收入 应不应该",
+        "全民基本收入 争议",
+        "基本收入资金来源",
+        "基本收入会不会让人不工作"
+      ],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/debate/ai-art",
+      "slot": "debate/ai-art",
+      "axis": "debate",
+      "sourceQueries": [
+        "AI绘画算艺术吗",
+        "AI艺术版权争议",
+        "生成式AI创作伦理",
+        "AI画师争议"
+      ],
+      "baseQueries": [
+        "AI绘画算艺术吗",
+        "AI艺术版权争议",
+        "生成式AI创作伦理",
+        "AI画师争议"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "AI绘画算艺术吗",
+        "AI艺术版权争议",
+        "生成式AI创作伦理",
+        "AI画师争议"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "AI绘画算艺术吗",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "AI艺术版权争议",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "生成式AI创作伦理",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "AI画师争议",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "AI绘画算艺术吗",
+        "AI艺术版权争议",
+        "生成式AI创作伦理",
+        "AI画师争议"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/debate/cohabitation",
+      "slot": "debate/cohabitation",
+      "axis": "debate",
+      "sourceQueries": [
+        "婚前同居可以吗",
+        "婚前同居利弊",
+        "同居和婚姻责任",
+        "同居会影响关系吗"
+      ],
+      "baseQueries": [
+        "婚前同居可以吗",
+        "婚前同居利弊",
+        "同居和婚姻责任",
+        "同居会影响关系吗"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "婚前同居可以吗",
+        "婚前同居利弊",
+        "同居和婚姻责任",
+        "同居会影响关系吗"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "婚前同居可以吗",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "婚前同居利弊",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "同居和婚姻责任",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "同居会影响关系吗",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "婚前同居可以吗",
+        "婚前同居利弊",
+        "同居和婚姻责任",
+        "同居会影响关系吗"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/debate/vegetarianism",
+      "slot": "debate/vegetarianism",
+      "axis": "debate",
+      "sourceQueries": [
+        "素食是不是道德义务",
+        "吃肉伦理",
+        "纯素主义争议",
+        "素食环保"
+      ],
+      "baseQueries": [
+        "素食是不是道德义务",
+        "吃肉伦理",
+        "纯素主义争议",
+        "素食环保"
+      ],
+      "googleSuggestions": [
+        "素食环保救地球",
+        "素食 环保"
+      ],
+      "candidatePhrases": [
+        "素食是不是道德义务",
+        "吃肉伦理",
+        "纯素主义争议",
+        "素食环保",
+        "素食环保救地球",
+        "素食 环保"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "素食是不是道德义务",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "吃肉伦理",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "纯素主义争议",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "素食环保",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "素食环保救地球",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "素食 环保",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "素食是不是道德义务",
+        "吃肉伦理",
+        "纯素主义争议",
+        "素食环保",
+        "素食环保救地球",
+        "素食 环保"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/debate/parent-support",
+      "slot": "debate/parent-support",
+      "axis": "debate",
+      "sourceQueries": [
+        "子女有赡养父母义务吗",
+        "赡养父母责任",
+        "父母养老谁负责",
+        "不想赡养父母"
+      ],
+      "baseQueries": [
+        "子女有赡养父母义务吗",
+        "赡养父母责任",
+        "父母养老谁负责",
+        "不想赡养父母"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "子女有赡养父母义务吗",
+        "赡养父母责任",
+        "父母养老谁负责",
+        "不想赡养父母"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "子女有赡养父母义务吗",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": [
+            "family/filial-duty"
+          ]
+        },
+        {
+          "phrase": "赡养父母责任",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": [
+            "family/filial-duty"
+          ]
+        },
+        {
+          "phrase": "父母养老谁负责",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "不想赡养父母",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": [
+            "family/filial-duty"
+          ]
+        }
+      ],
+      "usableCandidatePhrases": [
+        "子女有赡养父母义务吗",
+        "赡养父母责任",
+        "父母养老谁负责",
+        "不想赡养父母"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {
+        "family/filial-duty": 3
+      },
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/debate/pet-euthanasia",
+      "slot": "debate/pet-euthanasia",
+      "axis": "debate",
+      "sourceQueries": [
+        "宠物安乐死该不该",
+        "狗狗安乐死怎么决定",
+        "宠物痛苦要不要安乐死",
+        "动物安乐死伦理"
+      ],
+      "baseQueries": [
+        "宠物安乐死该不该",
+        "狗狗安乐死怎么决定",
+        "宠物痛苦要不要安乐死",
+        "动物安乐死伦理"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "宠物安乐死该不该",
+        "狗狗安乐死怎么决定",
+        "宠物痛苦要不要安乐死",
+        "动物安乐死伦理"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "宠物安乐死该不该",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "狗狗安乐死怎么决定",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "宠物痛苦要不要安乐死",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "动物安乐死伦理",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "宠物安乐死该不该",
+        "狗狗安乐死怎么决定",
+        "宠物痛苦要不要安乐死",
+        "动物安乐死伦理"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/debate/cancel-culture",
+      "slot": "debate/cancel-culture",
+      "axis": "debate",
+      "sourceQueries": [
+        "取消文化 争议",
+        "网络抵制算不算审判",
+        "取消文化和言论自由",
+        "追责还是网暴"
+      ],
+      "baseQueries": [
+        "取消文化 争议",
+        "网络抵制算不算审判",
+        "取消文化和言论自由",
+        "追责还是网暴"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "取消文化 争议",
+        "网络抵制算不算审判",
+        "取消文化和言论自由",
+        "追责还是网暴"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "取消文化 争议",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "网络抵制算不算审判",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "取消文化和言论自由",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "追责还是网暴",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "取消文化 争议",
+        "网络抵制算不算审判",
+        "取消文化和言论自由",
+        "追责还是网暴"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/debate/nice-people-finish-last",
+      "slot": "debate/nice-people-finish-last",
+      "axis": "debate",
+      "sourceQueries": [
+        "好人是不是吃亏",
+        "太善良会被利用",
+        "做好人有用吗",
+        "善良和软弱区别"
+      ],
+      "baseQueries": [
+        "好人是不是吃亏",
+        "太善良会被利用",
+        "做好人有用吗",
+        "善良和软弱区别"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "好人是不是吃亏",
+        "太善良会被利用",
+        "做好人有用吗",
+        "善良和软弱区别"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "好人是不是吃亏",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "太善良会被利用",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "做好人有用吗",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "善良和软弱区别",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "好人是不是吃亏",
+        "太善良会被利用",
+        "做好人有用吗",
+        "善良和软弱区别"
       ],
       "reviewCandidatePhrases": [],
       "lowSignalCandidatePhrases": [],

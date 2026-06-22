@@ -8,16 +8,17 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 
 ## Summary
 
-- collectedAt: 2026-06-22T06:00:17.093Z
-- nodes scanned: 59
-- candidate phrases: 1066
-- usable: 897
-- review: 122
-- low-signal: 47
+- collectedAt: 2026-06-22T06:18:25.504Z
+- nodes scanned: 89
+- candidate phrases: 1438
+- usable: 1214
+- review: 165
+- low-signal: 59
 
 ## Potential New Cluster Hints
 
 - `meaning/ikigai`: 6
+- `family/caregiving-burden`: 1
 - `study/school-refusal`: 1
 
 ## /thought/good-life
@@ -822,13 +823,13 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 - 何もしたくない 疲れた
 - 何もしたくない 仕事
 - やる気が出ない歌
-- やる気が出ないとき
 - やる気が出ない時
 - やる気が出ない 病気
 - やる気が出ない 何もしたくない
 - やる気が出ない 対処法
 - やる気が出ない 仕事
 - やる気が出ない 原因
+- やる気が出ない 更年期
 - 無気力 辛い
 - 無気力 すぎ て 辛い
 - 無気力 で 辛い
@@ -1851,7 +1852,7 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 - axis: worry
 - base queries: 人間関係 疲れた, 人付き合い しんどい, 友達関係 疲れる, 誰にも会いたくない
 - google suggestions: 29
-- usable candidates: 24
+- usable candidates: 23
 - review candidates: 5
 - low-signal candidates: 1
 
@@ -1867,7 +1868,6 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 - 人間関係 疲れた 曲
 - 人間関係 疲れた時
 - 人間関係 疲れた なんj
-- 人間関係 疲れた 学校
 - 人付き合い しんどい 仕事
 - 人付き合い しんどい 寂しい
 - 人付き合い しんどい 時
@@ -1952,4 +1952,801 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 - 仕事 辞めるか続けるか 占い 無料
 - 仕事 辞めるか続けるか 占い
 - 仕事 辞めるか続けるか 診断
+
+## /work/unrecognized
+
+- axis: worry
+- base queries: 仕事 認められない, 頑張っても評価されない, 職場 評価されない, 仕事 報われない
+- google suggestions: 20
+- usable candidates: 19
+- review candidates: 0
+- low-signal candidates: 1
+
+### Usable candidates
+
+- 仕事 認められない
+- 頑張っても評価されない
+- 職場 評価されない
+- 仕事 報われない
+- 仕事 認められない 辞めたい
+- 仕事 認められない ストレス
+- 仕事 認められない 悔しい
+- 頑張っても評価されない会社
+- 頑張っても評価されない 疲れた
+- 頑張っても評価されない人
+- 職場 評価されない人
+- 仕事 報われない 疲れた
+- 仕事 報われないとき
+- 仕事 報われない 辞めたい
+- 仕事 報われない人
+- 仕事 報われない 転職
+- 仕事 頑張っても 報われない
+- 仕事 一生懸命 報われない
+- 仕事 努力 報われない
+
+### Low-signal candidates
+
+- 仕事 報われない 占い
+
+## /work/work-depression
+
+- axis: worry
+- base queries: 仕事 うつっぽい, 会社 行くのがつらい, 仕事で心が限界, 職場 ストレス 眠れない
+- google suggestions: 6
+- usable candidates: 8
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 仕事 うつっぽい
+- 会社 行くのがつらい
+- 仕事で心が限界
+- 職場 ストレス 眠れない
+- 仕事 鬱っぽい
+- 彼氏 仕事 うつっぽい
+- うつっぽい 仕事 休む
+- 会社 行くのが辛い
+
+## /work/not-good-enough
+
+- axis: worry
+- base queries: 仕事 できない 自分, 仕事が遅い つらい, 自分だけ仕事できない, 無能感 職場
+- google suggestions: 14
+- usable candidates: 16
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 仕事 できない 自分
+- 仕事が遅い つらい
+- 自分だけ仕事できない
+- 無能感 職場
+- 仕事 できない 自分が嫌い
+- 仕事 できない 自分が悪い
+- 仕事 できない 自分 が 嫌 に なる
+- 仕事 できない 自分 が 嫌
+- 仕事 できない 自分 情けない
+- 仕事 できない 自分 を 責める
+- 仕事 できない 自分 イライラ
+- 仕事 できない 自分 の せい
+- 仕事 できない 自分 に 嫌気
+- 仕事が遅い 辛い
+- バイト 自分だけ仕事できない
+- 職場 無能感
+
+## /work/work-skepticism
+
+- axis: worry
+- base queries: 仕事 意味ない, 働く意味 わからない, 仕事にやりがいがない, 何のために働く
+- google suggestions: 24
+- usable candidates: 10
+- review candidates: 14
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 仕事にやりがいがない
+- 何のために働く
+- 仕事にやりがいがない 転職
+- 何のために働くのか
+- 何のために働くの
+- 何のために働くのか 面接
+- 何のために働くのか 北尾吉孝
+- 何のために働くのか 北尾
+- 何のために働くのか アンケート
+- 何のために働くのかわからない
+
+### Review candidates
+
+- 仕事 意味ない
+- 働く意味 わからない
+- 仕事 意味ないことばかり
+- 仕事 意味無い
+- 仕事 意味ない なんj
+- 仕事 意味ないと言われた
+- 仕事 頑張っても 意味ない
+- 仕事 頑張る 意味ない
+- 仕事 怒る 意味ない
+- 仕事 メモ 意味ない
+- 熱中症警戒アラート 意味ない 仕事
+- 働く意味 が わからない 40代
+- 何のために働く のか 名言
+- 何のために働くのか 本
+
+## /meaning/dont-know-want
+
+- axis: worry
+- base queries: 自分が何をしたいかわからない, 何がしたいかわからない 人生, やりたいことがない, 自分の本音がわからない
+- google suggestions: 22
+- usable candidates: 17
+- review candidates: 4
+- low-signal candidates: 1
+
+### Usable candidates
+
+- 自分が何をしたいかわからない
+- 何がしたいかわからない 人生
+- やりたいことがない
+- 自分が何をしたいかわからない 仕事
+- 自分が何をしたいかわからない 大学
+- 自分が何をしたいかわからない 高校生
+- 転職 自分が何をしたいかわからない
+- 人生 何がしたいか分からない
+- やりたいことがない 仕事
+- やりたいことがない 大学
+- やりたいことがない 人生
+- やりたいことがない 転職
+- やりたい事がない
+- やりたいことがない 就活
+- やりたいことがない人 特徴
+- やりたいことがない なぜ
+- やりたいことがない人
+
+### Review candidates
+
+- 自分の本音がわからない
+- 自分が何をしたいかわからない 本
+- 自分の本音がわからない 病気
+- 自分の本音がわからない 知恵袋
+
+### Low-signal candidates
+
+- 自分の本音がわからない 診断
+
+## /meaning/emptiness
+
+- axis: worry
+- base queries: 心が空っぽ, 空虚感 つらい, 何をしても満たされない, 虚しい 気持ち
+- google suggestions: 25
+- usable candidates: 21
+- review candidates: 4
+- low-signal candidates: 1
+
+### Usable candidates
+
+- 心が空っぽ
+- 空虚感 つらい
+- 何をしても満たされない
+- 虚しい 気持ち
+- 心が空っぽ 言い換え
+- 心が空っぽになる
+- 心が空っぽの状態
+- 心が空っぽな感じ
+- 心が空っぽになった
+- 心が空っぽな人
+- 心が空っぽに感じる
+- 空虚感 辛い
+- 何をしても満たされない人
+- 何をしても満たされない時
+- 何をしても満たされない 寂しい
+- 何をしても満たされない 病気
+- 何をしても満たされない 楽しくない
+- 何をしても満たされない 鬱
+- 虚しい 気持ち 言い換え
+- 虚しい 気持ち うつ
+- 虚しい 気持ち 対処
+
+### Review candidates
+
+- 心が空っぽとは
+- 何をしても満たされない 知恵袋
+- 虚しい 気持ち とは
+- 虚しい 気持ち 意味 恋愛
+
+### Low-signal candidates
+
+- 心が空っぽ 英語
+
+## /meaning/no-goal
+
+- axis: worry
+- base queries: 目標がない, 人生 目標 見つからない, 夢がない 不安, 何を目指せばいい
+- google suggestions: 11
+- usable candidates: 14
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 目標がない
+- 人生 目標 見つからない
+- 夢がない 不安
+- 何を目指せばいい
+- 目標がない無気力
+- 目標がない人
+- 目標がないと頑張れない
+- 目標がない人 特徴
+- 目標がない 仕事
+- 目標がない人生
+- 目標がない 言い換え
+- 目標がない やる気が出ない
+- 目標がない 無気力 大学生
+- 何を目指せばいいのか
+
+## /meaning/wandering
+
+- axis: worry
+- base queries: 人生 迷子, 何をしているかわからない, 将来 迷っている, 生き方に迷う
+- google suggestions: 20
+- usable candidates: 18
+- review candidates: 0
+- low-signal candidates: 3
+
+### Usable candidates
+
+- 人生 迷子
+- 何をしているかわからない
+- 将来 迷っている
+- 生き方に迷う
+- 人生 迷子になった時
+- 人生 迷子 40代
+- 人生 迷子 50代
+- 人生 迷子 30代
+- 人生 迷子 と は
+- 人生 迷子 20 代
+- 人生 迷子 中
+- 何をしているかわからない 言い換え
+- 何をしているかわからない人 仕事
+- 何をしているか分からない 彼氏
+- 仕事 何をしているかわからない
+- 上司 何をしているかわからない
+- 会社 何をしているかわからない人
+- 部下 何をしているかわからない
+
+### Low-signal candidates
+
+- 人生 迷子 英語
+- 人生 迷子 診断
+- 何をしているかわからない 英語
+
+## /family/holiday-stress
+
+- axis: worry
+- base queries: 年末年始 家族 ストレス, 帰省 ストレス, 親戚付き合い 疲れる, 実家に帰るのがつらい
+- google suggestions: 12
+- usable candidates: 13
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 年末年始 家族 ストレス
+- 帰省 ストレス
+- 親戚付き合い 疲れる
+- 実家に帰るのがつらい
+- 帰省 ストレス 自分の実家
+- 帰省 ストレス なん j
+- 赤ちゃん 帰省 ストレス
+- 娘 の 帰省 ストレス
+- hsp 実家 帰省 ストレス
+- 義実家 帰省 ストレス
+- 一人暮らし 帰省 ストレス
+- 実家 帰省 ストレス
+- 兄弟 帰省 ストレス
+
+## /family/family-cutoff
+
+- axis: worry
+- base queries: 家族と縁を切りたい, 毒親 距離を置く, 家族 連絡 断つべきか, 親と関わりたくない
+- google suggestions: 10
+- usable candidates: 11
+- review candidates: 1
+- low-signal candidates: 1
+
+### Usable candidates
+
+- 家族と縁を切りたい
+- 毒親 距離を置く
+- 家族 連絡 断つべきか
+- 親と関わりたくない
+- 家族と縁を切りたい 弁護士
+- 家族と縁を切りたい 戸籍
+- 家族と縁を切りたい 高校生
+- 親と関わりたくない 心理
+- 親と関わりたくない 社会人
+- 親と関わりたくない 大学生
+- 親と関わりたくない 高校生
+
+### Review candidates
+
+- 親と関わりたくない 知恵袋
+
+### Low-signal candidates
+
+- 家族と縁を切りたい スピリチュアル
+
+## /family/mother-conflict
+
+- axis: worry
+- base queries: 母親と合わない, 母親がしんどい, 母親と喧嘩ばかり, 母親 距離を置きたい
+- google suggestions: 14
+- usable candidates: 12
+- review candidates: 0
+- low-signal candidates: 2
+
+### Usable candidates
+
+- 母親と合わない
+- 母親がしんどい
+- 母親と喧嘩ばかり
+- 母親 距離を置きたい
+- 母親と合わない 長女
+- 母親と合わない 30代
+- 母親と合わない娘
+- 母親と合わない 息子
+- 母親と合わない 50代
+- 母親と合わない 40代
+- 母親と合わない 20代
+- 母親と合わない 同居
+
+### Low-signal candidates
+
+- 母親と合わない スピリチュアル
+- 母親がしんどい 漫画
+
+## /body/body-anxiety
+
+- axis: worry
+- base queries: 自分の見た目が嫌い, 外見コンプレックス, 体型 気になる つらい, 自分の体が嫌い
+- google suggestions: 15
+- usable candidates: 12
+- review candidates: 3
+- low-signal candidates: 1
+
+### Usable candidates
+
+- 自分の見た目が嫌い
+- 外見コンプレックス
+- 体型 気になる つらい
+- 自分の体が嫌い
+- 自分の見た目が嫌い 病気
+- 外見コンプレックス 男
+- 外見コンプレックス 克服
+- 外見コンプレックス 病気
+- 外見コンプレックス 女
+- 自分の体が嫌い 女
+- 自分の体が嫌い 男
+- 自分の体が嫌い 病気
+
+### Review candidates
+
+- 自分の見た目が嫌い 知恵袋
+- 外見コンプレックス 本
+- 自分の体が嫌い 知恵袋
+
+### Low-signal candidates
+
+- 外見コンプレックス 英語
+
+## /body/aging-anxiety
+
+- axis: worry
+- base queries: 老いるのが怖い, 年を取るのが不安, 老化 不安, 若さを失うのが怖い
+- google suggestions: 5
+- usable candidates: 6
+- review candidates: 1
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 老いるのが怖い
+- 年を取るのが不安
+- 老化 不安
+- 若さを失うのが怖い
+- 老いるのが怖い 病気
+- 老化 不安障害
+
+### Review candidates
+
+- 老いるのが怖い 知恵袋
+
+## /body/hair-loss-stress
+
+- axis: worry
+- base queries: 薄毛 ストレス, 抜け毛 不安, ハゲるのが怖い, 髪が薄くなってつらい
+- google suggestions: 11
+- usable candidates: 12
+- review candidates: 1
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 薄毛 ストレス
+- 抜け毛 不安
+- ハゲるのが怖い
+- 髪が薄くなってつらい
+- 薄毛 ストレス 治る
+- 薄毛 ストレス 改善
+- 薄毛 ストレス 関係ない
+- 抜毛 症 不安 障害
+- 抜毛 症 不安
+- 不安 障害 抜け毛
+- 不安症 抜け毛
+- 禿げるのが怖い
+
+### Review candidates
+
+- 抜毛 症 抗 不安 薬
+
+## /career/dream-reality
+
+- axis: worry
+- base queries: 夢を諦めるべきか, 夢と現実 迷う, 好きなこと 仕事 不安, 年齢 夢 諦める
+- google suggestions: 4
+- usable candidates: 6
+- review candidates: 0
+- low-signal candidates: 1
+
+### Usable candidates
+
+- 夢を諦めるべきか
+- 夢と現実 迷う
+- 好きなこと 仕事 不安
+- 年齢 夢 諦める
+- 夢 を 諦める 年齢
+- 夢 諦める 年齢
+
+### Low-signal candidates
+
+- 夢を諦めるべきか 占い
+
+## /career/regret-free-choice
+
+- axis: worry
+- base queries: 後悔しない選択, 選択 後悔 怖い, どっちを選んでも後悔しそう, 人生 選択 迷う
+- google suggestions: 12
+- usable candidates: 13
+- review candidates: 1
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 後悔しない選択
+- 選択 後悔 怖い
+- どっちを選んでも後悔しそう
+- 人生 選択 迷う
+- 後悔しない選択を
+- 後悔しない選択をするんじゃなくて選択したからにはその選択を後悔しないようにするしかない
+- 後悔しない選択をするには
+- 後悔しない選択なんてない
+- 後悔しない選択を選んでほしいの
+- 後悔しない選択をするんじゃなくて
+- 後悔しない選択 古賀紗理那
+- 後悔しない選択 リヴァイ
+- 人生 の 選択 に 迷う 時
+
+### Review candidates
+
+- 後悔しない選択とは
+
+## /debate/euthanasia
+
+- axis: debate
+- base queries: 安楽死 賛成 反対, 安楽死 認めるべきか, 尊厳死 議論, 終末期 自己決定
+- google suggestions: 2
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 安楽死 賛成 反対
+- 安楽死 認めるべきか
+- 尊厳死 議論
+- 終末期 自己決定
+
+## /debate/death-penalty
+
+- axis: debate
+- base queries: 死刑制度 賛成 反対, 死刑 廃止すべきか, 死刑 冤罪, 応報刑 議論
+- google suggestions: 16
+- usable candidates: 9
+- review candidates: 7
+- low-signal candidates: 1
+
+### Usable candidates
+
+- 死刑 廃止すべきか
+- 死刑 冤罪
+- 応報刑 議論
+- 死刑 冤罪 執行
+- 死刑 冤罪 実例
+- 死刑 冤罪 例
+- 死刑 冤罪事件
+- 死刑 冤罪率
+- 死刑 冤罪 最近
+
+### Review candidates
+
+- 死刑制度 賛成 反対
+- 死刑制度 賛成 反対 割合
+- 死刑制度 賛成 反対 理由
+- 死刑制度 賛成 反対 意見
+- 死刑制度 賛成 反対 知恵袋
+- 死刑 冤罪 日本
+- 死刑 冤罪 件数 日本
+
+### Low-signal candidates
+
+- 死刑 冤罪 映画
+
+## /debate/abortion
+
+- axis: debate
+- base queries: 中絶 賛成 反対, 人工妊娠中絶 議論, 中絶 権利, 胎児 生命 自己決定
+- google suggestions: 10
+- usable candidates: 10
+- review candidates: 1
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 中絶 賛成 反対
+- 人工妊娠中絶 議論
+- 中絶 権利
+- 胎児 生命 自己決定
+- 中絶 権利 アメリカ
+- 中絶 胎児 の 権利
+- 中絶 の 権利 と は
+- 中絶 母親 の 権利
+- 中絶 子ども の 権利
+- 女性 中絶 権利
+
+### Review candidates
+
+- 中絶 権利 日本
+
+## /debate/animal-testing
+
+- axis: debate
+- base queries: 動物実験 賛成 反対, 動物実験 必要か, 動物実験 倫理, 化粧品 動物実験
+- google suggestions: 20
+- usable candidates: 18
+- review candidates: 4
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 動物実験 賛成 反対
+- 動物実験 必要か
+- 動物実験 倫理
+- 化粧品 動物実験
+- 動物実験 倫理委員会
+- 動物実験 倫理的問題
+- 動物実験 倫理規定
+- 動物実験 倫理審査
+- 動物実験 倫理 3r
+- 動物実験 倫理委員会の承認
+- 動物実験 倫理指針
+- 動物実験 倫理的配慮
+- 化粧品 動物実験 禁止
+- 化粧品 動物実験 現在
+- 化粧品 動物実験しているメーカー
+- 化粧品 動物実験し てい ないメーカー
+- 化粧品 動物実験 なし どうやって
+- 化粧品 動物実験禁止 なぜ
+
+### Review candidates
+
+- 動物実験 倫理 論文
+- 化粧品 動物実験 日本
+- 化粧品 動物実験とは
+- 化粧品 動物実験 禁止 日本
+
+## /debate/juvenile-offenders
+
+- axis: debate
+- base queries: 少年犯罪 厳罰化, 触法少年 処罰, 少年法 引き下げ, 未成年 犯罪 責任
+- google suggestions: 14
+- usable candidates: 15
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 少年犯罪 厳罰化
+- 触法少年 処罰
+- 少年法 引き下げ
+- 未成年 犯罪 責任
+- 少年犯罪 厳罰化 きっかけ
+- 少年犯罪 厳罰化 なぜ
+- 少年法 引き下げ メリット デメリット
+- 少年法 引き下げ 反対 理由
+- 少年法 引き下げ 理由
+- 少年法 引き下げ 賛成
+- 少年法 引き下げ 14歳
+- 少年法 年齢 引き下げ
+- 少年法 適用年齢 引き下げ
+- 少年法 18歳 引き下げ
+- 成人年齢 引き下げ 少年法
+
+## /debate/meritocracy
+
+- axis: debate
+- base queries: 能力主義 公平か, メリトクラシー 批判, 努力は報われるか, 格差と能力主義
+- google suggestions: 2
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 能力主義 公平か
+- メリトクラシー 批判
+- 努力は報われるか
+- 格差と能力主義
+
+## /debate/basic-income
+
+- axis: debate
+- base queries: ベーシックインカム 賛成 反対, 基本所得 必要か, ベーシックインカム 財源, 働かなくなる 議論
+- google suggestions: 10
+- usable candidates: 10
+- review candidates: 2
+- low-signal candidates: 0
+
+### Usable candidates
+
+- ベーシックインカム 賛成 反対
+- ベーシックインカム 財源
+- 働かなくなる 議論
+- ベーシックインカム 財源 どこから
+- ベーシックインカム 財源確保
+- ベーシックインカム 財源 試算
+- ベーシックインカム 財源 ひろゆき
+- ベーシックインカム 財源問題
+- ベーシックインカム 財源案
+- ベーシックインカム フィンランド 財源
+
+### Review candidates
+
+- 基本所得 必要か
+- 日本 ベーシックインカム 財源
+
+## /debate/ai-art
+
+- axis: debate
+- base queries: AIイラストは芸術か, AIアート 著作権, AI絵師 議論, 生成AI 創作 倫理
+- google suggestions: 1
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- AIイラストは芸術か
+- AIアート 著作権
+- AI絵師 議論
+- 生成AI 創作 倫理
+
+## /debate/cohabitation
+
+- axis: debate
+- base queries: 同棲 結婚前 ありか, 結婚前 同棲 メリット デメリット, 同棲 責任, 事実婚 同棲 違い
+- google suggestions: 8
+- usable candidates: 9
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 同棲 結婚前 ありか
+- 結婚前 同棲 メリット デメリット
+- 同棲 責任
+- 事実婚 同棲 違い
+- 同棲 責任がない
+- 同棲 責任感
+- 同棲 法 的 責任
+- 同棲 個人 賠償 責任 保険
+- 事実婚 内縁 同棲 違い
+
+## /debate/vegetarianism
+
+- axis: debate
+- base queries: ヴィーガン 倫理, 菜食主義 賛成 反対, 肉を食べる 倫理, 環境と菜食
+- google suggestions: 3
+- usable candidates: 5
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- ヴィーガン 倫理
+- 菜食主義 賛成 反対
+- 肉を食べる 倫理
+- 環境と菜食
+- ヴィーガン 倫理 的
+
+## /debate/parent-support
+
+- axis: debate
+- base queries: 親の扶養 義務, 親の介護 子供 責任, 老親 扶養 どこまで, 親を支えるべきか
+- google suggestions: 1
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+- cluster hints: family/caregiving-burden 1
+
+### Usable candidates
+
+- 親の扶養 義務
+- 親の介護 子供 責任
+- 老親 扶養 どこまで
+- 親を支えるべきか
+
+## /debate/pet-euthanasia
+
+- axis: debate
+- base queries: ペット 安楽死 迷う, 犬 安楽死 すべきか, ペット 苦痛 延命, 動物 安楽死 倫理
+- google suggestions: 0
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- ペット 安楽死 迷う
+- 犬 安楽死 すべきか
+- ペット 苦痛 延命
+- 動物 安楽死 倫理
+
+## /debate/cancel-culture
+
+- axis: debate
+- base queries: キャンセルカルチャー 賛成 反対, 炎上 罰しすぎ, 表現の自由 キャンセル, 責任追及と集団リンチ
+- google suggestions: 1
+- usable candidates: 5
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- キャンセルカルチャー 賛成 反対
+- 炎上 罰しすぎ
+- 表現の自由 キャンセル
+- 責任追及と集団リンチ
+- キャンセルカルチャー 表現の自由
+
+## /debate/nice-people-finish-last
+
+- axis: debate
+- base queries: 優しい人 損をする, いい人は利用される, 優しすぎる つらい, 善人 損 議論
+- google suggestions: 7
+- usable candidates: 9
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 優しい人 損をする
+- いい人は利用される
+- 優しすぎる つらい
+- 善人 損 議論
+- 優しすぎる 辛い
+- 彼女 優しすぎる 辛い
+- 好きな人 優しすぎる 辛い
+- 親 優しすぎる 辛い
+- 彼氏 優しすぎる 辛い
 

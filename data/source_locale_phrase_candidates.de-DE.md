@@ -8,12 +8,12 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 
 ## Summary
 
-- collectedAt: 2026-06-22T06:05:31.661Z
-- nodes scanned: 59
-- candidate phrases: 982
-- usable: 898
-- review: 52
-- low-signal: 32
+- collectedAt: 2026-06-22T06:25:59.164Z
+- nodes scanned: 89
+- candidate phrases: 1337
+- usable: 1230
+- review: 71
+- low-signal: 36
 
 ## Potential New Cluster Hints
 
@@ -22,8 +22,8 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 - `family/family-of-origin`: 11
 - `study/exam-pressure`: 10
 - `relationships/ghosting`: 9
+- `meaning/existential-vacuum`: 4
 - `money/precarity`: 3
-- `meaning/existential-vacuum`: 2
 
 ## /thought/good-life
 
@@ -546,7 +546,6 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 - usable candidates: 9
 - review candidates: 0
 - low-signal candidates: 0
-- fetch errors: 1
 
 ### Usable candidates
 
@@ -598,7 +597,7 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 - axis: worry
 - base queries: ich will nicht arbeiten, keine lust auf arbeit, ich hasse meinen job, arbeiten müssen aber nicht wollen
 - google suggestions: 30
-- usable candidates: 29
+- usable candidates: 28
 - review candidates: 3
 - low-signal candidates: 0
 
@@ -618,7 +617,6 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 - keine lust auf arbeit was tun
 - keine lust auf arbeit sprüche
 - keine lust auf arbeit lustig
-- keine lust auf arbeiten
 - keine lust auf arbeit lied
 - keine lust auf arbeit werde lehrer
 - keine lust auf arbeit bilder
@@ -628,6 +626,7 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 - ich hasse meinen job kann aber nicht kündigen
 - ich hasse meinen job öffentlicher dienst
 - ich hasse meinen job als erzieherin
+- ich hasse meinen job was tun
 
 ### Review candidates
 
@@ -743,11 +742,10 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 
 - axis: worry
 - base queries: schwierige kollegen, toxisches arbeitsklima, konflikte am arbeitsplatz, soziale angst bei der arbeit
-- google suggestions: 28
-- usable candidates: 27
+- google suggestions: 30
+- usable candidates: 29
 - review candidates: 2
 - low-signal candidates: 0
-- fetch errors: 1
 
 ### Usable candidates
 
@@ -1819,4 +1817,749 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 
 - kündigen oder bleiben test
 - soll ich den job wechseln test
+
+## /work/unrecognized
+
+- axis: worry
+- base queries: nicht anerkannt bei der arbeit, meine leistung wird nicht gesehen, fühle mich unsichtbar im job, keine wertschätzung arbeit
+- google suggestions: 4
+- usable candidates: 7
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- nicht anerkannt bei der arbeit
+- meine leistung wird nicht gesehen
+- fühle mich unsichtbar im job
+- keine wertschätzung arbeit
+- keine wertschätzung arbeitgeber
+- keine wertschätzung arbeitsplatz
+- sprüche keine wertschätzung arbeit
+
+## /work/work-depression
+
+- axis: worry
+- base queries: depression durch arbeit, ich kann nicht mehr zur arbeit, arbeit macht mich depressiv, job belastet psychisch
+- google suggestions: 23
+- usable candidates: 11
+- review candidates: 13
+- low-signal candidates: 0
+
+### Usable candidates
+
+- ich kann nicht mehr zur arbeit
+- arbeit macht mich depressiv
+- job belastet psychisch
+- ich kann nicht mehr zur arbeit gehen
+- ich kann nicht mehr arbeiten psyche
+- ich kann nicht mehr arbeiten was tun
+- ich kann nicht mehr arbeiten wegen krankheit
+- ich kann nicht mehr arbeiten burnout
+- kann ich einfach nicht mehr zur arbeit gehen
+- ich kann nicht mehr vollzeit arbeiten
+- kann ich kündigen und nicht mehr zur arbeit gehen
+
+### Review candidates
+
+- depression durch arbeit
+- depression durch arbeitslosigkeit
+- depression durch arbeit was tun
+- depression durch arbeitgeber
+- depression durch arbeitsplatz
+- depression durch arbeitsplatzverlust
+- depression durch arbeitsüberlastung
+- depression durch arbeitskollegen
+- depression durch arbeit symptome
+- depression durch arbeitsstress
+- ich kann nicht mehr arbeiten depression
+- ich kann nicht mehr arbeiten reddit
+- arbeit macht mich depressiv reddit
+
+## /work/not-good-enough
+
+- axis: worry
+- base queries: ich bin nicht gut genug im job, angst nicht gut genug zu sein arbeit, impostor syndrom arbeit, ich mache alles falsch im job
+- google suggestions: 3
+- usable candidates: 5
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- ich bin nicht gut genug im job
+- angst nicht gut genug zu sein arbeit
+- impostor syndrom arbeit
+- ich mache alles falsch im job
+- impostor syndrom arbeiterkind
+
+## /work/work-skepticism
+
+- axis: worry
+- base queries: arbeit hat keinen sinn, warum arbeiten, kein sinn mehr im job, sinnkrise arbeit
+- google suggestions: 12
+- usable candidates: 14
+- review candidates: 0
+- low-signal candidates: 0
+- cluster hints: meaning/existential-vacuum 1
+
+### Usable candidates
+
+- arbeit hat keinen sinn
+- warum arbeiten
+- kein sinn mehr im job
+- sinnkrise arbeit
+- warum arbeiten in ägypten nur männer im hotel
+- warum arbeiten menschen
+- warum arbeiten wir
+- warum arbeiten so viele polen in deutschland
+- warum arbeiten israel und usa zusammen
+- warum arbeiten so wenig ukrainer in deutschland
+- warum arbeiten beamte 41 stunden
+- warum arbeiten kinder
+- warum arbeiten so viele philippiner auf der aida
+- kein sinn im job
+
+## /meaning/dont-know-want
+
+- axis: worry
+- base queries: ich weiß nicht was ich will, ich weiß nicht was ich mit meinem leben machen soll, ich habe keine ziele, herausfinden was ich will
+- google suggestions: 25
+- usable candidates: 24
+- review candidates: 1
+- low-signal candidates: 1
+
+### Usable candidates
+
+- ich weiß nicht was ich will
+- ich weiß nicht was ich mit meinem leben machen soll
+- ich habe keine ziele
+- herausfinden was ich will
+- ich weiß nicht was ich will im leben
+- ich weiß nicht was ich will beruflich
+- ich weiß nicht was ich will beziehung
+- ich weiß nicht was ich will und wer ich bin
+- ich weiß nicht was ich will psychologie
+- ich weiß nicht was ich will sprüche
+- ich bin 40 und weiß nicht was ich will
+- ich weiß was ich will
+- ich weiß was ich will udo jürgens
+- ich habe keine ziele im leben
+- ich habe keine ziele mehr
+- ich habe keine ziele mehr im leben
+- ich habe keine träume und ziele
+- herausfinden was ich wirklich will
+- herausfinden was ich beruflich will
+- meditation herausfinden was ich will
+- herausfinden was ich im leben will
+- herausfinden was man will psychologie
+- herausfinden was man will beziehung
+- herausfinden was man will im leben
+
+### Review candidates
+
+- herausfinden was man will buch
+
+### Low-signal candidates
+
+- herausfinden was man will test
+
+## /meaning/emptiness
+
+- axis: worry
+- base queries: ich fühle mich leer, innere leere, nichts erfüllt mich, existenzielle leere
+- google suggestions: 22
+- usable candidates: 20
+- review candidates: 1
+- low-signal candidates: 1
+- cluster hints: meaning/existential-vacuum 1
+
+### Usable candidates
+
+- ich fühle mich leer
+- innere leere
+- nichts erfüllt mich
+- existenzielle leere
+- ich fühle mich leer und traurig
+- ich fühle mich leer und einsam
+- ich fühle mich leer und gefühllos
+- ich fühle mich leer und ausgebrannt
+- ich fühle mich leer sprüche
+- ich fühle mich leer und antriebslos
+- ich fühle mich leer und erschöpft
+- ich fühle mich leer nach trennung
+- ich fühle mich leer und müde
+- innere leere borderline
+- innere leere füllen
+- innere leere psychologie
+- innere leere keine gefühle
+- innere leere sprüche
+- innere leere ursache
+- innere leere was tun
+
+### Review candidates
+
+- innere leere körperliche symptome
+
+### Low-signal candidates
+
+- innere leere test
+
+## /meaning/no-goal
+
+- axis: worry
+- base queries: ich habe keine ziele im leben, wie finde ich ein ziel, ich habe keinen traum, ich weiß nicht worauf ich hinarbeiten soll
+- google suggestions: 14
+- usable candidates: 15
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- ich habe keine ziele im leben
+- wie finde ich ein ziel
+- ich habe keinen traum
+- ich weiß nicht worauf ich hinarbeiten soll
+- ich habe keine ziele mehr im leben
+- wie finde ich ein ziel im leben
+- wie finde ich meine ziele
+- wie finde ich meine zielgruppe
+- wie finde ich meine ziele heraus
+- wie finde ich meine zielgruppe auf instagram
+- wie finde ich neue ziele im leben
+- wie finde ich neue ziele
+- wie finde ich wieder ziele im leben
+- wie finde ich mein berufliches ziel
+- ich habe keinen traumberuf
+
+## /meaning/wandering
+
+- axis: worry
+- base queries: ich bin im leben verloren, ich weiß nicht wohin, ich fühle mich orientierungslos, keine richtung im leben
+- google suggestions: 13
+- usable candidates: 12
+- review candidates: 1
+- low-signal candidates: 1
+
+### Usable candidates
+
+- ich bin im leben verloren
+- ich weiß nicht wohin
+- ich fühle mich orientierungslos
+- keine richtung im leben
+- ich bin verloren im leben
+- ich weiß nicht wohin mit mir
+- ich weiß nicht wohin in urlaub
+- ich weiß nicht wohin ich gehöre
+- ich weiß nicht wohin gott mich führt aber ich weiß dass er mich führt
+- ich weiß nicht wohin gott mich führt
+- ich weiß nicht wohin mit meinen gefühlen
+- ich weiß nicht wohin im leben
+
+### Review candidates
+
+- ich weiß nicht wohin mit mir bedeutung
+
+### Low-signal candidates
+
+- ich weiß nicht wohin mit mir englisch
+
+## /family/holiday-stress
+
+- axis: worry
+- base queries: familienfeier stress, weihnachten familie stress, unangenehme fragen familie, heimfahren zur familie angst
+- google suggestions: 2
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- familienfeier stress
+- weihnachten familie stress
+- unangenehme fragen familie
+- heimfahren zur familie angst
+
+## /family/family-cutoff
+
+- axis: worry
+- base queries: kontakt zur familie abbrechen, toxische familie abstand nehmen, mit eltern keinen kontakt mehr, schuldgefühle kontaktabbruch familie
+- google suggestions: 9
+- usable candidates: 11
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- kontakt zur familie abbrechen
+- toxische familie abstand nehmen
+- mit eltern keinen kontakt mehr
+- schuldgefühle kontaktabbruch familie
+- kontakt zur familie abbrechen gründe
+- kontakt zur familie abbrechen erfahrungen
+- kontakt zur familie abbrechen forum
+- kontakt zur eigenen familie abbrechen
+- kontakt abbrechen familie sprüche
+- wenn kinder den kontakt zur familie abbrechen
+- wann sollte man den kontakt zur familie abbrechen
+
+## /family/mother-conflict
+
+- axis: worry
+- base queries: ich komme mit meiner mutter nicht klar, meine mutter belastet mich, ständig streit mit mutter, grenzen setzen mutter
+- google suggestions: 12
+- usable candidates: 12
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- ich komme mit meiner mutter nicht klar
+- meine mutter belastet mich
+- ständig streit mit mutter
+- grenzen setzen mutter
+- ich komme mit meiner mutter nicht mehr klar
+- ich komme mit dem tod meiner mutter nicht klar
+- ich komme mit der demenz meiner mutter nicht klar
+- meine mutter belastet mich mit ihren problemen
+- ständig streit mit mutter erwachsen
+- ständig streit mit mutter erwachsen sohn
+- ständig streit mit alter mutter
+- grenzen setzen narzisstische mutter
+
+## /body/body-anxiety
+
+- axis: worry
+- base queries: ich hasse meinen körper, körperbild angst, komplexe wegen aussehen, ich mag mein aussehen nicht
+- google suggestions: 14
+- usable candidates: 13
+- review candidates: 0
+- low-signal candidates: 1
+
+### Usable candidates
+
+- ich hasse meinen körper
+- körperbild angst
+- komplexe wegen aussehen
+- ich mag mein aussehen nicht
+- ich hasse meinen körper ard
+- ich hasse meinen körper was tun
+- ich hasse meinen körper nach der schwangerschaft
+- ich hasse meinen körper doku
+- ich hasse meinen körper sprüche
+- ich hasse meinen körper staffel 2 folge 1
+- ich hasse meinen körper so sehr
+- ich hasse meinen schwangeren körper
+- starke komplexe wegen aussehen
+
+### Low-signal candidates
+
+- hasse ich meinen körper test
+
+## /body/aging-anxiety
+
+- axis: worry
+- base queries: angst vor dem älterwerden, altersangst, angst jung zu verlieren, krise wegen alter
+- google suggestions: 7
+- usable candidates: 8
+- review candidates: 1
+- low-signal candidates: 0
+
+### Usable candidates
+
+- angst vor dem älterwerden
+- altersangst
+- angst jung zu verlieren
+- krise wegen alter
+- keine angst vor dem älterwerden
+- cicero keine angst vor dem älterwerden
+- altersangst generation z
+- der altersangst komplex
+
+### Review candidates
+
+- altersangst symptome
+
+## /body/hair-loss-stress
+
+- axis: worry
+- base queries: haarausfall angst, angst kahl zu werden, haarausfall selbstwert, stress wegen haarausfall
+- google suggestions: 9
+- usable candidates: 12
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- haarausfall angst
+- angst kahl zu werden
+- haarausfall selbstwert
+- stress wegen haarausfall
+- haarausfall angststörung
+- haarausfall angst vor haare waschen
+- haarausfall angst vor glatze
+- angstzustände haarausfall
+- generalisierte angststörung haarausfall
+- kann angst haarausfall auslösen
+- wegen stress haarausfall
+- kann man wegen stress haarausfall bekommen
+
+## /career/dream-reality
+
+- axis: worry
+- base queries: traum aufgeben oder weitermachen, traum und realität, leidenschaft zum beruf machen oder realistisch sein, angst dem traum zu folgen
+- google suggestions: 10
+- usable candidates: 13
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- traum aufgeben oder weitermachen
+- traum und realität
+- leidenschaft zum beruf machen oder realistisch sein
+- angst dem traum zu folgen
+- traum und realität nicht unterscheiden können
+- traum und realität verschwimmt
+- traum und realität vermischen sich
+- traum und realität unterscheiden
+- traum und realität verwechseln
+- zwischen traum und realität
+- probleme traum und realität nicht auseinanderhalten
+- unterschied traum und realität
+- traum realität vermischt
+
+## /career/regret-free-choice
+
+- axis: worry
+- base queries: entscheidung ohne reue treffen, angst falsch zu entscheiden, ich werde jede wahl bereuen, wichtige entscheidung blockiert
+- google suggestions: 1
+- usable candidates: 5
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- entscheidung ohne reue treffen
+- angst falsch zu entscheiden
+- ich werde jede wahl bereuen
+- wichtige entscheidung blockiert
+- angst sich falsch zu entscheiden
+
+## /debate/euthanasia
+
+- axis: debate
+- base queries: euthanasie debatte, sterbehilfe pro contra, recht auf würdiges sterben, sollte sterbehilfe erlaubt sein
+- google suggestions: 14
+- usable candidates: 15
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- euthanasie debatte
+- sterbehilfe pro contra
+- recht auf würdiges sterben
+- sollte sterbehilfe erlaubt sein
+- sterbehilfe pro contra unterricht
+- sterbehilfe pro contra argumente
+- sterbehilfe pro und contra tabelle
+- aktive sterbehilfe pro contra
+- sterbehilfe pro und contra ethisch
+- aktive sterbehilfe pro und contra tabelle
+- passive sterbehilfe pro und contra
+- sterbehilfe deutschland pro und contra
+- indirekte sterbehilfe pro und contra
+- sollte aktive sterbehilfe erlaubt sein
+- sollte aktive sterbehilfe in deutschland erlaubt sein
+
+## /debate/death-penalty
+
+- axis: debate
+- base queries: todesstrafe debatte, todesstrafe pro contra, todesstrafe abschaffen, justizirrtum todesstrafe
+- google suggestions: 7
+- usable candidates: 8
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- todesstrafe debatte
+- todesstrafe pro contra
+- todesstrafe abschaffen
+- justizirrtum todesstrafe
+- todesstrafe pro contra argumente
+- todesstrafe pro contra philosophie
+- todesstrafe pro und contra argumente erörterung
+- todesstrafe deutschland pro und contra
+
+## /debate/abortion
+
+- axis: debate
+- base queries: abtreibung debatte, abtreibung pro contra, recht auf abtreibung, ungeborenes leben selbstbestimmung
+- google suggestions: 28
+- usable candidates: 28
+- review candidates: 1
+- low-signal candidates: 0
+
+### Usable candidates
+
+- abtreibung debatte
+- abtreibung pro contra
+- recht auf abtreibung
+- ungeborenes leben selbstbestimmung
+- abtreibung debatte bundestag
+- debatte abtreibung deutschland
+- debatte abtreibung argumente
+- abtreibung aktuelle debatte
+- trump abtreibung debatte
+- abtreibung deutschland aktuelle debatte
+- gesellschaftliche debatte abtreibung
+- abtreibung pro contra unterricht
+- abtreibung pro contra argumente
+- abtreibung pro und contra tabelle
+- abtreibung pro und contra ethik
+- abtreibung pro und contra liste
+- abtreibung diskussion pro contra
+- abtreibung verbieten pro contra
+- abtreibung ethische pro/contra argumente
+- recht auf abtreibung deutschland
+- recht auf abtreibung usa
+- recht auf abtreibung frankreich
+- recht auf abtreibung eu
+- recht auf abtreibung europa
+
+### Review candidates
+
+- abtreibung legalisieren pro und contra
+
+## /debate/animal-testing
+
+- axis: debate
+- base queries: tierversuche debatte, tierversuche pro contra, ethik tierversuche, tierversuche kosmetik
+- google suggestions: 23
+- usable candidates: 22
+- review candidates: 1
+- low-signal candidates: 0
+
+### Usable candidates
+
+- tierversuche debatte
+- tierversuche pro contra
+- ethik tierversuche
+- tierversuche kosmetik
+- tierversuche pro contra argumente tabelle
+- tierversuche pro contra argumente
+- tierversuche ethik pro contra
+- tierversuche verstehen pro contra
+- tierversuche medizin pro contra
+- ärzte gegen tierversuche pro contra
+- tierversuche kosmetik pro und contra
+- tierversuche in der wissenschaft pro contra
+- tierversuche ethik unterricht
+- tierversuche ethik referat
+- tierversuche kosmetik liste
+- tierversuche kosmetik deutschland
+- tierversuche kosmetik marken
+- tierversuche kosmetik peta
+- tierversuche kosmetik statistik
+- tierversuche kosmetik beispiele
+- tierversuche kosmetik negativliste
+- tierversuche kosmetik österreich
+
+### Review candidates
+
+- tierversuche medikamente pro contra
+
+## /debate/juvenile-offenders
+
+- axis: debate
+- base queries: jugendstrafrecht debatte, strafmündigkeit senken, jugendliche straftäter bestrafen oder resozialisieren, minderjährige kriminelle verantwortung
+- google suggestions: 8
+- usable candidates: 10
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- jugendstrafrecht debatte
+- strafmündigkeit senken
+- jugendliche straftäter bestrafen oder resozialisieren
+- minderjährige kriminelle verantwortung
+- strafmündigkeit senken pro und contra
+- strafmündigkeit senken österreich
+- strafmündigkeit alter senken
+- strafmündigkeit deutschland senken
+- volksbegehren strafmündigkeit senken
+- strafmündigkeit auf 12 senken
+
+## /debate/meritocracy
+
+- axis: debate
+- base queries: meritokratie gerecht, kritik der meritokratie, lohnt sich leistung immer, ungleichheit und leistung
+- google suggestions: 1
+- usable candidates: 5
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- meritokratie gerecht
+- kritik der meritokratie
+- lohnt sich leistung immer
+- ungleichheit und leistung
+- kritik meritokratie
+
+## /debate/basic-income
+
+- axis: debate
+- base queries: bedingungsloses grundeinkommen debatte, grundeinkommen pro contra, finanzierung grundeinkommen, grundeinkommen arbeiten
+- google suggestions: 13
+- usable candidates: 14
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- bedingungsloses grundeinkommen debatte
+- grundeinkommen pro contra
+- finanzierung grundeinkommen
+- grundeinkommen arbeiten
+- bedingungsloses grundeinkommen pro contra
+- bedingungsloses grundeinkommen pro & contra tabelle
+- grundeinkommen hamburg pro contra
+- bedingungsloses grundeinkommen pro contra unterricht
+- hamburg volksentscheid grundeinkommen pro contra
+- bedingungsloses grundeinkommen hamburg pro contra
+- finanzierung bedingungsloses grundeinkommen
+- finanzierung mein grundeinkommen
+- bedingungsloses grundeinkommen finanzierung deutschland
+- diw grundeinkommen finanzierung
+
+## /debate/ai-art
+
+- axis: debate
+- base queries: KI kunst debatte, kann KI kunst schaffen, urheberrecht KI kunst, künstler und künstliche intelligenz
+- google suggestions: 4
+- usable candidates: 6
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- KI kunst debatte
+- kann KI kunst schaffen
+- urheberrecht KI kunst
+- künstler und künstliche intelligenz
+- kann ki kunst oder musik schaffen wie
+- künstler künstliche intelligenz
+
+## /debate/cohabitation
+
+- axis: debate
+- base queries: zusammenziehen vor der ehe, zusammenleben vor heirat pro contra, unverheiratet zusammenleben verantwortung, ehe oder zusammenleben
+- google suggestions: 5
+- usable candidates: 8
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- zusammenziehen vor der ehe
+- zusammenleben vor heirat pro contra
+- unverheiratet zusammenleben verantwortung
+- ehe oder zusammenleben
+- zusammenziehen vor der ehe bibel
+- was sagt die bibel zum zusammenziehen vor der ehe
+- als christen vor der ehe zusammenziehen
+- darf man vor der ehe zusammenziehen
+
+## /debate/vegetarianism
+
+- axis: debate
+- base queries: veganismus ethik debatte, vegetarismus moralische pflicht, fleisch essen ethik, veganismus umwelt
+- google suggestions: 8
+- usable candidates: 10
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- veganismus ethik debatte
+- vegetarismus moralische pflicht
+- fleisch essen ethik
+- veganismus umwelt
+- fleisch essen pro contra ethik
+- veganismus umweltfreundlich
+- veganismus umweltschutz
+- veganismus nachteile umwelt
+- veganismus auswirkungen umwelt
+- vorteile veganismus umwelt
+
+## /debate/parent-support
+
+- axis: debate
+- base queries: pflicht eltern zu unterstützen, pflege der eltern verantwortung kinder, wie weit eltern helfen, elternunterhalt debatte
+- google suggestions: 0
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- pflicht eltern zu unterstützen
+- pflege der eltern verantwortung kinder
+- wie weit eltern helfen
+- elternunterhalt debatte
+
+## /debate/pet-euthanasia
+
+- axis: debate
+- base queries: haustier einschläfern entscheidung, hund einschläfern leid, tier euthanasie ethik, wann haustier einschläfern
+- google suggestions: 3
+- usable candidates: 7
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- haustier einschläfern entscheidung
+- hund einschläfern leid
+- tier euthanasie ethik
+- wann haustier einschläfern
+- hund leidet einschläfern
+- hund einschläfern bevor er leidet
+- wann haustier einschläfern lassen
+
+## /debate/cancel-culture
+
+- axis: debate
+- base queries: cancel culture debatte, cancel culture meinungsfreiheit, verantwortung oder mobbing, online anprangerung debatte
+- google suggestions: 2
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- cancel culture debatte
+- cancel culture meinungsfreiheit
+- verantwortung oder mobbing
+- online anprangerung debatte
+
+## /debate/nice-people-finish-last
+
+- axis: debate
+- base queries: nette menschen verlieren immer, zu gutmütig ausgenutzt, nett sein nachteil, güte oder schwäche
+- google suggestions: 0
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- nette menschen verlieren immer
+- zu gutmütig ausgenutzt
+- nett sein nachteil
+- güte oder schwäche
 

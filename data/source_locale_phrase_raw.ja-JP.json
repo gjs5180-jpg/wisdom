@@ -1,15 +1,16 @@
 {
-  "collectedAt": "2026-06-22T06:00:17.093Z",
+  "collectedAt": "2026-06-22T06:18:25.504Z",
   "locale": "ja-JP",
   "sourceStatus": "active-source",
-  "nodesScanned": 59,
-  "totalCandidatePhrases": 1066,
-  "totalUsableCandidatePhrases": 897,
-  "totalReviewCandidatePhrases": 122,
-  "totalLowSignalCandidatePhrases": 47,
+  "nodesScanned": 89,
+  "totalCandidatePhrases": 1438,
+  "totalUsableCandidatePhrases": 1214,
+  "totalReviewCandidatePhrases": 165,
+  "totalLowSignalCandidatePhrases": 59,
   "clusterHints": {
     "meaning/ikigai": 6,
-    "study/school-refusal": 1
+    "study/school-refusal": 1,
+    "family/caregiving-burden": 1
   },
   "rows": [
     {
@@ -5568,7 +5569,6 @@
         "何もしたくない 仕事",
         "やる気が出ない歌",
         "やる気が出ない",
-        "やる気が出ないとき",
         "やる気が出ない時",
         "やる気が出ない 病気",
         "やる気が出ない 何もしたくない",
@@ -5576,6 +5576,7 @@
         "やる気が出ない 仕事",
         "やる気が出ない 英語",
         "やる気が出ない 原因",
+        "やる気が出ない 更年期",
         "無気力 つらい",
         "無気力 辛い",
         "無気力 辛い 知恵袋",
@@ -5610,7 +5611,6 @@
         "何もしたくない 韓国ドラマ",
         "何もしたくない 仕事",
         "やる気が出ない歌",
-        "やる気が出ないとき",
         "やる気が出ない時",
         "やる気が出ない 病気",
         "やる気が出ない 何もしたくない",
@@ -5618,6 +5618,7 @@
         "やる気が出ない 仕事",
         "やる気が出ない 英語",
         "やる気が出ない 原因",
+        "やる気が出ない 更年期",
         "無気力 辛い",
         "無気力 辛い 知恵袋",
         "無気力 すぎ て 辛い",
@@ -5749,14 +5750,6 @@
           "clusterHints": []
         },
         {
-          "phrase": "やる気が出ないとき",
-          "status": "usable",
-          "reasons": [
-            "general source-locale topic phrasing"
-          ],
-          "clusterHints": []
-        },
-        {
           "phrase": "やる気が出ない時",
           "status": "usable",
           "reasons": [
@@ -5806,6 +5799,14 @@
         },
         {
           "phrase": "やる気が出ない 原因",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "やる気が出ない 更年期",
           "status": "usable",
           "reasons": [
             "general source-locale topic phrasing"
@@ -5954,13 +5955,13 @@
         "何もしたくない 疲れた",
         "何もしたくない 仕事",
         "やる気が出ない歌",
-        "やる気が出ないとき",
         "やる気が出ない時",
         "やる気が出ない 病気",
         "やる気が出ない 何もしたくない",
         "やる気が出ない 対処法",
         "やる気が出ない 仕事",
         "やる気が出ない 原因",
+        "やる気が出ない 更年期",
         "無気力 辛い",
         "無気力 すぎ て 辛い",
         "無気力 で 辛い",
@@ -12846,6 +12847,7 @@
         "誰にも会いたくない"
       ],
       "googleSuggestions": [
+        "人間関係 疲れた",
         "人間関係 疲れた ひとりに なりたい",
         "人間関係 疲れた友達",
         "人間関係 疲れた 知恵袋",
@@ -12855,7 +12857,6 @@
         "人間関係 疲れた 名言",
         "人間関係 疲れた 本",
         "人間関係 疲れた なんj",
-        "人間関係 疲れた 学校",
         "人付き合い しんどい",
         "人付き合い しんどい 仕事",
         "人付き合い しんどい 寂しい",
@@ -12890,7 +12891,6 @@
         "人間関係 疲れた 名言",
         "人間関係 疲れた 本",
         "人間関係 疲れた なんj",
-        "人間関係 疲れた 学校",
         "人付き合い しんどい 仕事",
         "人付き合い しんどい 寂しい",
         "人付き合い しんどい 知恵袋",
@@ -13008,14 +13008,6 @@
         },
         {
           "phrase": "人間関係 疲れた なんj",
-          "status": "usable",
-          "reasons": [
-            "source-locale worry/debate phrasing"
-          ],
-          "clusterHints": []
-        },
-        {
-          "phrase": "人間関係 疲れた 学校",
           "status": "usable",
           "reasons": [
             "source-locale worry/debate phrasing"
@@ -13162,7 +13154,6 @@
         "人間関係 疲れた 曲",
         "人間関係 疲れた時",
         "人間関係 疲れた なんj",
-        "人間関係 疲れた 学校",
         "人付き合い しんどい 仕事",
         "人付き合い しんどい 寂しい",
         "人付き合い しんどい 時",
@@ -13533,6 +13524,4989 @@
         "仕事 辞めるか続けるか 占い",
         "仕事 辞めるか続けるか 診断"
       ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "route": "/work/unrecognized",
+      "slot": "work/unrecognized",
+      "axis": "worry",
+      "sourceQueries": [
+        "仕事 認められない",
+        "頑張っても評価されない",
+        "職場 評価されない",
+        "仕事 報われない"
+      ],
+      "baseQueries": [
+        "仕事 認められない",
+        "頑張っても評価されない",
+        "職場 評価されない",
+        "仕事 報われない"
+      ],
+      "googleSuggestions": [
+        "仕事 認められない 辞めたい",
+        "仕事 認められない ストレス",
+        "仕事 認められない 悔しい",
+        "仕事 認められない",
+        "頑張っても評価されない",
+        "頑張っても評価されない会社",
+        "頑張っても評価されない 疲れた",
+        "頑張っても評価されない人",
+        "職場 評価されない",
+        "職場 評価されない人",
+        "仕事 報われない",
+        "仕事 報われない 疲れた",
+        "仕事 報われないとき",
+        "仕事 報われない 辞めたい",
+        "仕事 報われない 占い",
+        "仕事 報われない人",
+        "仕事 報われない 転職",
+        "仕事 頑張っても 報われない",
+        "仕事 一生懸命 報われない",
+        "仕事 努力 報われない"
+      ],
+      "candidatePhrases": [
+        "仕事 認められない",
+        "頑張っても評価されない",
+        "職場 評価されない",
+        "仕事 報われない",
+        "仕事 認められない 辞めたい",
+        "仕事 認められない ストレス",
+        "仕事 認められない 悔しい",
+        "頑張っても評価されない会社",
+        "頑張っても評価されない 疲れた",
+        "頑張っても評価されない人",
+        "職場 評価されない人",
+        "仕事 報われない 疲れた",
+        "仕事 報われないとき",
+        "仕事 報われない 辞めたい",
+        "仕事 報われない 占い",
+        "仕事 報われない人",
+        "仕事 報われない 転職",
+        "仕事 頑張っても 報われない",
+        "仕事 一生懸命 報われない",
+        "仕事 努力 報われない"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "仕事 認められない",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "頑張っても評価されない",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "職場 評価されない",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "仕事 報われない",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "仕事 認められない 辞めたい",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "仕事 認められない ストレス",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "仕事 認められない 悔しい",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "頑張っても評価されない会社",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "頑張っても評価されない 疲れた",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "頑張っても評価されない人",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "職場 評価されない人",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "仕事 報われない 疲れた",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "仕事 報われないとき",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "仕事 報われない 辞めたい",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "仕事 報われない 占い",
+          "status": "low-signal",
+          "reasons": [
+            "fortune-telling / diagnosis drift"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "仕事 報われない人",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "仕事 報われない 転職",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "仕事 頑張っても 報われない",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "仕事 一生懸命 報われない",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "仕事 努力 報われない",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "仕事 認められない",
+        "頑張っても評価されない",
+        "職場 評価されない",
+        "仕事 報われない",
+        "仕事 認められない 辞めたい",
+        "仕事 認められない ストレス",
+        "仕事 認められない 悔しい",
+        "頑張っても評価されない会社",
+        "頑張っても評価されない 疲れた",
+        "頑張っても評価されない人",
+        "職場 評価されない人",
+        "仕事 報われない 疲れた",
+        "仕事 報われないとき",
+        "仕事 報われない 辞めたい",
+        "仕事 報われない人",
+        "仕事 報われない 転職",
+        "仕事 頑張っても 報われない",
+        "仕事 一生懸命 報われない",
+        "仕事 努力 報われない"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [
+        "仕事 報われない 占い"
+      ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "route": "/work/work-depression",
+      "slot": "work/work-depression",
+      "axis": "worry",
+      "sourceQueries": [
+        "仕事 うつっぽい",
+        "会社 行くのがつらい",
+        "仕事で心が限界",
+        "職場 ストレス 眠れない"
+      ],
+      "baseQueries": [
+        "仕事 うつっぽい",
+        "会社 行くのがつらい",
+        "仕事で心が限界",
+        "職場 ストレス 眠れない"
+      ],
+      "googleSuggestions": [
+        "仕事 鬱っぽい",
+        "彼氏 仕事 うつっぽい",
+        "うつっぽい 仕事 休む",
+        "会社 行くのが辛い",
+        "会社 行くのがつらい",
+        "職場 ストレス 眠れない"
+      ],
+      "candidatePhrases": [
+        "仕事 うつっぽい",
+        "会社 行くのがつらい",
+        "仕事で心が限界",
+        "職場 ストレス 眠れない",
+        "仕事 鬱っぽい",
+        "彼氏 仕事 うつっぽい",
+        "うつっぽい 仕事 休む",
+        "会社 行くのが辛い"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "仕事 うつっぽい",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "会社 行くのがつらい",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "仕事で心が限界",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "職場 ストレス 眠れない",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "仕事 鬱っぽい",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "彼氏 仕事 うつっぽい",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "うつっぽい 仕事 休む",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "会社 行くのが辛い",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "仕事 うつっぽい",
+        "会社 行くのがつらい",
+        "仕事で心が限界",
+        "職場 ストレス 眠れない",
+        "仕事 鬱っぽい",
+        "彼氏 仕事 うつっぽい",
+        "うつっぽい 仕事 休む",
+        "会社 行くのが辛い"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "route": "/work/not-good-enough",
+      "slot": "work/not-good-enough",
+      "axis": "worry",
+      "sourceQueries": [
+        "仕事 できない 自分",
+        "仕事が遅い つらい",
+        "自分だけ仕事できない",
+        "無能感 職場"
+      ],
+      "baseQueries": [
+        "仕事 できない 自分",
+        "仕事が遅い つらい",
+        "自分だけ仕事できない",
+        "無能感 職場"
+      ],
+      "googleSuggestions": [
+        "仕事 できない 自分が嫌い",
+        "仕事 できない 自分が悪い",
+        "仕事 できない 自分",
+        "仕事 できない 自分 が 嫌 に なる",
+        "仕事 できない 自分 が 嫌",
+        "仕事 できない 自分 情けない",
+        "仕事 できない 自分 を 責める",
+        "仕事 できない 自分 イライラ",
+        "仕事 できない 自分 の せい",
+        "仕事 できない 自分 に 嫌気",
+        "仕事が遅い 辛い",
+        "自分だけ仕事できない",
+        "バイト 自分だけ仕事できない",
+        "職場 無能感"
+      ],
+      "candidatePhrases": [
+        "仕事 できない 自分",
+        "仕事が遅い つらい",
+        "自分だけ仕事できない",
+        "無能感 職場",
+        "仕事 できない 自分が嫌い",
+        "仕事 できない 自分が悪い",
+        "仕事 できない 自分 が 嫌 に なる",
+        "仕事 できない 自分 が 嫌",
+        "仕事 できない 自分 情けない",
+        "仕事 できない 自分 を 責める",
+        "仕事 できない 自分 イライラ",
+        "仕事 できない 自分 の せい",
+        "仕事 できない 自分 に 嫌気",
+        "仕事が遅い 辛い",
+        "バイト 自分だけ仕事できない",
+        "職場 無能感"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "仕事 できない 自分",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "仕事が遅い つらい",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自分だけ仕事できない",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "無能感 職場",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "仕事 できない 自分が嫌い",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "仕事 できない 自分が悪い",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "仕事 できない 自分 が 嫌 に なる",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "仕事 できない 自分 が 嫌",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "仕事 できない 自分 情けない",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "仕事 できない 自分 を 責める",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "仕事 できない 自分 イライラ",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "仕事 できない 自分 の せい",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "仕事 できない 自分 に 嫌気",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "仕事が遅い 辛い",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "バイト 自分だけ仕事できない",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "職場 無能感",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "仕事 できない 自分",
+        "仕事が遅い つらい",
+        "自分だけ仕事できない",
+        "無能感 職場",
+        "仕事 できない 自分が嫌い",
+        "仕事 できない 自分が悪い",
+        "仕事 できない 自分 が 嫌 に なる",
+        "仕事 できない 自分 が 嫌",
+        "仕事 できない 自分 情けない",
+        "仕事 できない 自分 を 責める",
+        "仕事 できない 自分 イライラ",
+        "仕事 できない 自分 の せい",
+        "仕事 できない 自分 に 嫌気",
+        "仕事が遅い 辛い",
+        "バイト 自分だけ仕事できない",
+        "職場 無能感"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "route": "/work/work-skepticism",
+      "slot": "work/work-skepticism",
+      "axis": "worry",
+      "sourceQueries": [
+        "仕事 意味ない",
+        "働く意味 わからない",
+        "仕事にやりがいがない",
+        "何のために働く"
+      ],
+      "baseQueries": [
+        "仕事 意味ない",
+        "働く意味 わからない",
+        "仕事にやりがいがない",
+        "何のために働く"
+      ],
+      "googleSuggestions": [
+        "仕事 意味ない",
+        "仕事 意味ないことばかり",
+        "仕事 意味無い",
+        "仕事 意味ない なんj",
+        "仕事 意味ないと言われた",
+        "仕事 頑張っても 意味ない",
+        "仕事 頑張る 意味ない",
+        "仕事 怒る 意味ない",
+        "仕事 メモ 意味ない",
+        "熱中症警戒アラート 意味ない 仕事",
+        "働く意味 わからない",
+        "働く意味 が わからない 40代",
+        "仕事にやりがいがない",
+        "仕事にやりがいがない 転職",
+        "何のために働くのか",
+        "何のために働く のか 名言",
+        "何のために働く",
+        "何のために働くのか 本",
+        "何のために働くの",
+        "何のために働くのか 面接",
+        "何のために働くのか 北尾吉孝",
+        "何のために働くのか 北尾",
+        "何のために働くのか アンケート",
+        "何のために働くのかわからない"
+      ],
+      "candidatePhrases": [
+        "仕事 意味ない",
+        "働く意味 わからない",
+        "仕事にやりがいがない",
+        "何のために働く",
+        "仕事 意味ないことばかり",
+        "仕事 意味無い",
+        "仕事 意味ない なんj",
+        "仕事 意味ないと言われた",
+        "仕事 頑張っても 意味ない",
+        "仕事 頑張る 意味ない",
+        "仕事 怒る 意味ない",
+        "仕事 メモ 意味ない",
+        "熱中症警戒アラート 意味ない 仕事",
+        "働く意味 が わからない 40代",
+        "仕事にやりがいがない 転職",
+        "何のために働くのか",
+        "何のために働く のか 名言",
+        "何のために働くのか 本",
+        "何のために働くの",
+        "何のために働くのか 面接",
+        "何のために働くのか 北尾吉孝",
+        "何のために働くのか 北尾",
+        "何のために働くのか アンケート",
+        "何のために働くのかわからない"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "仕事 意味ない",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "働く意味 わからない",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "仕事にやりがいがない",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "何のために働く",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "仕事 意味ないことばかり",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "仕事 意味無い",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "仕事 意味ない なんj",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "仕事 意味ないと言われた",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "仕事 頑張っても 意味ない",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "仕事 頑張る 意味ない",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "仕事 怒る 意味ない",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "仕事 メモ 意味ない",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "熱中症警戒アラート 意味ない 仕事",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "働く意味 が わからない 40代",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "仕事にやりがいがない 転職",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "何のために働くのか",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "何のために働く のか 名言",
+          "status": "review",
+          "reasons": [
+            "reference or concept query",
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "何のために働くのか 本",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "何のために働くの",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "何のために働くのか 面接",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "何のために働くのか 北尾吉孝",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "何のために働くのか 北尾",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "何のために働くのか アンケート",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "何のために働くのかわからない",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "仕事にやりがいがない",
+        "何のために働く",
+        "仕事にやりがいがない 転職",
+        "何のために働くのか",
+        "何のために働くの",
+        "何のために働くのか 面接",
+        "何のために働くのか 北尾吉孝",
+        "何のために働くのか 北尾",
+        "何のために働くのか アンケート",
+        "何のために働くのかわからない"
+      ],
+      "reviewCandidatePhrases": [
+        "仕事 意味ない",
+        "働く意味 わからない",
+        "仕事 意味ないことばかり",
+        "仕事 意味無い",
+        "仕事 意味ない なんj",
+        "仕事 意味ないと言われた",
+        "仕事 頑張っても 意味ない",
+        "仕事 頑張る 意味ない",
+        "仕事 怒る 意味ない",
+        "仕事 メモ 意味ない",
+        "熱中症警戒アラート 意味ない 仕事",
+        "働く意味 が わからない 40代",
+        "何のために働く のか 名言",
+        "何のために働くのか 本"
+      ],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "route": "/meaning/dont-know-want",
+      "slot": "meaning/dont-know-want",
+      "axis": "worry",
+      "sourceQueries": [
+        "自分が何をしたいかわからない",
+        "何がしたいかわからない 人生",
+        "やりたいことがない",
+        "自分の本音がわからない"
+      ],
+      "baseQueries": [
+        "自分が何をしたいかわからない",
+        "何がしたいかわからない 人生",
+        "やりたいことがない",
+        "自分の本音がわからない"
+      ],
+      "googleSuggestions": [
+        "自分が何をしたいかわからない",
+        "自分が何をしたいかわからない 仕事",
+        "自分が何をしたいかわからない 大学",
+        "自分が何をしたいかわからない 本",
+        "自分が何をしたいかわからない 高校生",
+        "転職 自分が何をしたいかわからない",
+        "何がしたいかわからない 人生",
+        "人生 何がしたいか分からない",
+        "やりたいことがない",
+        "やりたいことがない 仕事",
+        "やりたいことがない 大学",
+        "やりたいことがない 人生",
+        "やりたいことがない 転職",
+        "やりたい事がない",
+        "やりたいことがない 就活",
+        "やりたいことがない人 特徴",
+        "やりたいことがない なぜ",
+        "やりたいことがない人",
+        "自分の本音がわからない",
+        "自分の本音がわからない 病気",
+        "自分の本音がわからない 診断",
+        "自分の本音がわからない 知恵袋"
+      ],
+      "candidatePhrases": [
+        "自分が何をしたいかわからない",
+        "何がしたいかわからない 人生",
+        "やりたいことがない",
+        "自分の本音がわからない",
+        "自分が何をしたいかわからない 仕事",
+        "自分が何をしたいかわからない 大学",
+        "自分が何をしたいかわからない 本",
+        "自分が何をしたいかわからない 高校生",
+        "転職 自分が何をしたいかわからない",
+        "人生 何がしたいか分からない",
+        "やりたいことがない 仕事",
+        "やりたいことがない 大学",
+        "やりたいことがない 人生",
+        "やりたいことがない 転職",
+        "やりたい事がない",
+        "やりたいことがない 就活",
+        "やりたいことがない人 特徴",
+        "やりたいことがない なぜ",
+        "やりたいことがない人",
+        "自分の本音がわからない 病気",
+        "自分の本音がわからない 診断",
+        "自分の本音がわからない 知恵袋"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "自分が何をしたいかわからない",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "何がしたいかわからない 人生",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "やりたいことがない",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自分の本音がわからない",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自分が何をしたいかわからない 仕事",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自分が何をしたいかわからない 大学",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自分が何をしたいかわからない 本",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自分が何をしたいかわからない 高校生",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "転職 自分が何をしたいかわからない",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人生 何がしたいか分からない",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "やりたいことがない 仕事",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "やりたいことがない 大学",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "やりたいことがない 人生",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "やりたいことがない 転職",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "やりたい事がない",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "やりたいことがない 就活",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "やりたいことがない人 特徴",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "やりたいことがない なぜ",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "やりたいことがない人",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自分の本音がわからない 病気",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自分の本音がわからない 診断",
+          "status": "low-signal",
+          "reasons": [
+            "fortune-telling / diagnosis drift"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自分の本音がわからない 知恵袋",
+          "status": "review",
+          "reasons": [
+            "platform-specific query",
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "自分が何をしたいかわからない",
+        "何がしたいかわからない 人生",
+        "やりたいことがない",
+        "自分が何をしたいかわからない 仕事",
+        "自分が何をしたいかわからない 大学",
+        "自分が何をしたいかわからない 高校生",
+        "転職 自分が何をしたいかわからない",
+        "人生 何がしたいか分からない",
+        "やりたいことがない 仕事",
+        "やりたいことがない 大学",
+        "やりたいことがない 人生",
+        "やりたいことがない 転職",
+        "やりたい事がない",
+        "やりたいことがない 就活",
+        "やりたいことがない人 特徴",
+        "やりたいことがない なぜ",
+        "やりたいことがない人"
+      ],
+      "reviewCandidatePhrases": [
+        "自分の本音がわからない",
+        "自分が何をしたいかわからない 本",
+        "自分の本音がわからない 病気",
+        "自分の本音がわからない 知恵袋"
+      ],
+      "lowSignalCandidatePhrases": [
+        "自分の本音がわからない 診断"
+      ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "route": "/meaning/emptiness",
+      "slot": "meaning/emptiness",
+      "axis": "worry",
+      "sourceQueries": [
+        "心が空っぽ",
+        "空虚感 つらい",
+        "何をしても満たされない",
+        "虚しい 気持ち"
+      ],
+      "baseQueries": [
+        "心が空っぽ",
+        "空虚感 つらい",
+        "何をしても満たされない",
+        "虚しい 気持ち"
+      ],
+      "googleSuggestions": [
+        "心が空っぽ",
+        "心が空っぽ 言い換え",
+        "心が空っぽになる",
+        "心が空っぽの状態",
+        "心が空っぽな感じ",
+        "心が空っぽ 英語",
+        "心が空っぽとは",
+        "心が空っぽになった",
+        "心が空っぽな人",
+        "心が空っぽに感じる",
+        "空虚感 辛い",
+        "何をしても満たされない",
+        "何をしても満たされない人",
+        "何をしても満たされない時",
+        "何をしても満たされない 寂しい",
+        "何をしても満たされない 知恵袋",
+        "何をしても満たされない 病気",
+        "何をしても満たされない 楽しくない",
+        "何をしても満たされない 鬱",
+        "虚しい 気持ち 言い換え",
+        "虚しい 気持ち うつ",
+        "虚しい 気持ち 対処",
+        "虚しい 気持ち とは",
+        "虚しい 気持ち 意味 恋愛",
+        "虚しい 気持ち"
+      ],
+      "candidatePhrases": [
+        "心が空っぽ",
+        "空虚感 つらい",
+        "何をしても満たされない",
+        "虚しい 気持ち",
+        "心が空っぽ 言い換え",
+        "心が空っぽになる",
+        "心が空っぽの状態",
+        "心が空っぽな感じ",
+        "心が空っぽ 英語",
+        "心が空っぽとは",
+        "心が空っぽになった",
+        "心が空っぽな人",
+        "心が空っぽに感じる",
+        "空虚感 辛い",
+        "何をしても満たされない人",
+        "何をしても満たされない時",
+        "何をしても満たされない 寂しい",
+        "何をしても満たされない 知恵袋",
+        "何をしても満たされない 病気",
+        "何をしても満たされない 楽しくない",
+        "何をしても満たされない 鬱",
+        "虚しい 気持ち 言い換え",
+        "虚しい 気持ち うつ",
+        "虚しい 気持ち 対処",
+        "虚しい 気持ち とは",
+        "虚しい 気持ち 意味 恋愛"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "心が空っぽ",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "空虚感 つらい",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "何をしても満たされない",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "虚しい 気持ち",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "心が空っぽ 言い換え",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "心が空っぽになる",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "心が空っぽの状態",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "心が空っぽな感じ",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "心が空っぽ 英語",
+          "status": "low-signal",
+          "reasons": [
+            "translation or language lookup"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "心が空っぽとは",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "心が空っぽになった",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "心が空っぽな人",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "心が空っぽに感じる",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "空虚感 辛い",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "何をしても満たされない人",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "何をしても満たされない時",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "何をしても満たされない 寂しい",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "何をしても満たされない 知恵袋",
+          "status": "review",
+          "reasons": [
+            "platform-specific query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "何をしても満たされない 病気",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "何をしても満たされない 楽しくない",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "何をしても満たされない 鬱",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "虚しい 気持ち 言い換え",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "虚しい 気持ち うつ",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "虚しい 気持ち 対処",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "虚しい 気持ち とは",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "虚しい 気持ち 意味 恋愛",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "心が空っぽ",
+        "空虚感 つらい",
+        "何をしても満たされない",
+        "虚しい 気持ち",
+        "心が空っぽ 言い換え",
+        "心が空っぽになる",
+        "心が空っぽの状態",
+        "心が空っぽな感じ",
+        "心が空っぽになった",
+        "心が空っぽな人",
+        "心が空っぽに感じる",
+        "空虚感 辛い",
+        "何をしても満たされない人",
+        "何をしても満たされない時",
+        "何をしても満たされない 寂しい",
+        "何をしても満たされない 病気",
+        "何をしても満たされない 楽しくない",
+        "何をしても満たされない 鬱",
+        "虚しい 気持ち 言い換え",
+        "虚しい 気持ち うつ",
+        "虚しい 気持ち 対処"
+      ],
+      "reviewCandidatePhrases": [
+        "心が空っぽとは",
+        "何をしても満たされない 知恵袋",
+        "虚しい 気持ち とは",
+        "虚しい 気持ち 意味 恋愛"
+      ],
+      "lowSignalCandidatePhrases": [
+        "心が空っぽ 英語"
+      ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "route": "/meaning/no-goal",
+      "slot": "meaning/no-goal",
+      "axis": "worry",
+      "sourceQueries": [
+        "目標がない",
+        "人生 目標 見つからない",
+        "夢がない 不安",
+        "何を目指せばいい"
+      ],
+      "baseQueries": [
+        "目標がない",
+        "人生 目標 見つからない",
+        "夢がない 不安",
+        "何を目指せばいい"
+      ],
+      "googleSuggestions": [
+        "目標がない",
+        "目標がない無気力",
+        "目標がない人",
+        "目標がないと頑張れない",
+        "目標がない人 特徴",
+        "目標がない 仕事",
+        "目標がない人生",
+        "目標がない 言い換え",
+        "目標がない やる気が出ない",
+        "目標がない 無気力 大学生",
+        "何を目指せばいいのか"
+      ],
+      "candidatePhrases": [
+        "目標がない",
+        "人生 目標 見つからない",
+        "夢がない 不安",
+        "何を目指せばいい",
+        "目標がない無気力",
+        "目標がない人",
+        "目標がないと頑張れない",
+        "目標がない人 特徴",
+        "目標がない 仕事",
+        "目標がない人生",
+        "目標がない 言い換え",
+        "目標がない やる気が出ない",
+        "目標がない 無気力 大学生",
+        "何を目指せばいいのか"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "目標がない",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人生 目標 見つからない",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "夢がない 不安",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "何を目指せばいい",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "目標がない無気力",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "目標がない人",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "目標がないと頑張れない",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "目標がない人 特徴",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "目標がない 仕事",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "目標がない人生",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "目標がない 言い換え",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "目標がない やる気が出ない",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "目標がない 無気力 大学生",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "何を目指せばいいのか",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "目標がない",
+        "人生 目標 見つからない",
+        "夢がない 不安",
+        "何を目指せばいい",
+        "目標がない無気力",
+        "目標がない人",
+        "目標がないと頑張れない",
+        "目標がない人 特徴",
+        "目標がない 仕事",
+        "目標がない人生",
+        "目標がない 言い換え",
+        "目標がない やる気が出ない",
+        "目標がない 無気力 大学生",
+        "何を目指せばいいのか"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "route": "/meaning/wandering",
+      "slot": "meaning/wandering",
+      "axis": "worry",
+      "sourceQueries": [
+        "人生 迷子",
+        "何をしているかわからない",
+        "将来 迷っている",
+        "生き方に迷う"
+      ],
+      "baseQueries": [
+        "人生 迷子",
+        "何をしているかわからない",
+        "将来 迷っている",
+        "生き方に迷う"
+      ],
+      "googleSuggestions": [
+        "人生 迷子",
+        "人生 迷子になった時",
+        "人生 迷子 40代",
+        "人生 迷子 50代",
+        "人生 迷子 30代",
+        "人生 迷子 と は",
+        "人生 迷子 20 代",
+        "人生 迷子 中",
+        "人生 迷子 英語",
+        "人生 迷子 診断",
+        "何をしているかわからない 言い換え",
+        "何をしているかわからない人 仕事",
+        "何をしているかわからない 英語",
+        "何をしているか分からない 彼氏",
+        "仕事 何をしているかわからない",
+        "上司 何をしているかわからない",
+        "会社 何をしているかわからない人",
+        "部下 何をしているかわからない",
+        "将来 迷っている",
+        "生き方に迷う"
+      ],
+      "candidatePhrases": [
+        "人生 迷子",
+        "何をしているかわからない",
+        "将来 迷っている",
+        "生き方に迷う",
+        "人生 迷子になった時",
+        "人生 迷子 40代",
+        "人生 迷子 50代",
+        "人生 迷子 30代",
+        "人生 迷子 と は",
+        "人生 迷子 20 代",
+        "人生 迷子 中",
+        "人生 迷子 英語",
+        "人生 迷子 診断",
+        "何をしているかわからない 言い換え",
+        "何をしているかわからない人 仕事",
+        "何をしているかわからない 英語",
+        "何をしているか分からない 彼氏",
+        "仕事 何をしているかわからない",
+        "上司 何をしているかわからない",
+        "会社 何をしているかわからない人",
+        "部下 何をしているかわからない"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "人生 迷子",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "何をしているかわからない",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "将来 迷っている",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "生き方に迷う",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人生 迷子になった時",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人生 迷子 40代",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人生 迷子 50代",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人生 迷子 30代",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人生 迷子 と は",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人生 迷子 20 代",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人生 迷子 中",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人生 迷子 英語",
+          "status": "low-signal",
+          "reasons": [
+            "translation or language lookup"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人生 迷子 診断",
+          "status": "low-signal",
+          "reasons": [
+            "fortune-telling / diagnosis drift"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "何をしているかわからない 言い換え",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "何をしているかわからない人 仕事",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "何をしているかわからない 英語",
+          "status": "low-signal",
+          "reasons": [
+            "translation or language lookup"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "何をしているか分からない 彼氏",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "仕事 何をしているかわからない",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "上司 何をしているかわからない",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "会社 何をしているかわからない人",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "部下 何をしているかわからない",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "人生 迷子",
+        "何をしているかわからない",
+        "将来 迷っている",
+        "生き方に迷う",
+        "人生 迷子になった時",
+        "人生 迷子 40代",
+        "人生 迷子 50代",
+        "人生 迷子 30代",
+        "人生 迷子 と は",
+        "人生 迷子 20 代",
+        "人生 迷子 中",
+        "何をしているかわからない 言い換え",
+        "何をしているかわからない人 仕事",
+        "何をしているか分からない 彼氏",
+        "仕事 何をしているかわからない",
+        "上司 何をしているかわからない",
+        "会社 何をしているかわからない人",
+        "部下 何をしているかわからない"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [
+        "人生 迷子 英語",
+        "人生 迷子 診断",
+        "何をしているかわからない 英語"
+      ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "route": "/family/holiday-stress",
+      "slot": "family/holiday-stress",
+      "axis": "worry",
+      "sourceQueries": [
+        "年末年始 家族 ストレス",
+        "帰省 ストレス",
+        "親戚付き合い 疲れる",
+        "実家に帰るのがつらい"
+      ],
+      "baseQueries": [
+        "年末年始 家族 ストレス",
+        "帰省 ストレス",
+        "親戚付き合い 疲れる",
+        "実家に帰るのがつらい"
+      ],
+      "googleSuggestions": [
+        "年末年始 家族 ストレス",
+        "帰省 ストレス",
+        "帰省 ストレス 自分の実家",
+        "帰省 ストレス なん j",
+        "赤ちゃん 帰省 ストレス",
+        "娘 の 帰省 ストレス",
+        "hsp 実家 帰省 ストレス",
+        "義実家 帰省 ストレス",
+        "一人暮らし 帰省 ストレス",
+        "実家 帰省 ストレス",
+        "兄弟 帰省 ストレス",
+        "親戚付き合い 疲れる"
+      ],
+      "candidatePhrases": [
+        "年末年始 家族 ストレス",
+        "帰省 ストレス",
+        "親戚付き合い 疲れる",
+        "実家に帰るのがつらい",
+        "帰省 ストレス 自分の実家",
+        "帰省 ストレス なん j",
+        "赤ちゃん 帰省 ストレス",
+        "娘 の 帰省 ストレス",
+        "hsp 実家 帰省 ストレス",
+        "義実家 帰省 ストレス",
+        "一人暮らし 帰省 ストレス",
+        "実家 帰省 ストレス",
+        "兄弟 帰省 ストレス"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "年末年始 家族 ストレス",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "帰省 ストレス",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "親戚付き合い 疲れる",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "実家に帰るのがつらい",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "帰省 ストレス 自分の実家",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "帰省 ストレス なん j",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "赤ちゃん 帰省 ストレス",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "娘 の 帰省 ストレス",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "hsp 実家 帰省 ストレス",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "義実家 帰省 ストレス",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "一人暮らし 帰省 ストレス",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "実家 帰省 ストレス",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "兄弟 帰省 ストレス",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "年末年始 家族 ストレス",
+        "帰省 ストレス",
+        "親戚付き合い 疲れる",
+        "実家に帰るのがつらい",
+        "帰省 ストレス 自分の実家",
+        "帰省 ストレス なん j",
+        "赤ちゃん 帰省 ストレス",
+        "娘 の 帰省 ストレス",
+        "hsp 実家 帰省 ストレス",
+        "義実家 帰省 ストレス",
+        "一人暮らし 帰省 ストレス",
+        "実家 帰省 ストレス",
+        "兄弟 帰省 ストレス"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "route": "/family/family-cutoff",
+      "slot": "family/family-cutoff",
+      "axis": "worry",
+      "sourceQueries": [
+        "家族と縁を切りたい",
+        "毒親 距離を置く",
+        "家族 連絡 断つべきか",
+        "親と関わりたくない"
+      ],
+      "baseQueries": [
+        "家族と縁を切りたい",
+        "毒親 距離を置く",
+        "家族 連絡 断つべきか",
+        "親と関わりたくない"
+      ],
+      "googleSuggestions": [
+        "家族と縁を切りたい 弁護士",
+        "家族と縁を切りたい 戸籍",
+        "家族と縁を切りたい 高校生",
+        "家族と縁を切りたい スピリチュアル",
+        "親と関わりたくない",
+        "親と関わりたくない 知恵袋",
+        "親と関わりたくない 心理",
+        "親と関わりたくない 社会人",
+        "親と関わりたくない 大学生",
+        "親と関わりたくない 高校生"
+      ],
+      "candidatePhrases": [
+        "家族と縁を切りたい",
+        "毒親 距離を置く",
+        "家族 連絡 断つべきか",
+        "親と関わりたくない",
+        "家族と縁を切りたい 弁護士",
+        "家族と縁を切りたい 戸籍",
+        "家族と縁を切りたい 高校生",
+        "家族と縁を切りたい スピリチュアル",
+        "親と関わりたくない 知恵袋",
+        "親と関わりたくない 心理",
+        "親と関わりたくない 社会人",
+        "親と関わりたくない 大学生",
+        "親と関わりたくない 高校生"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "家族と縁を切りたい",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "毒親 距離を置く",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "家族 連絡 断つべきか",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "親と関わりたくない",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "家族と縁を切りたい 弁護士",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "家族と縁を切りたい 戸籍",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "家族と縁を切りたい 高校生",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "家族と縁を切りたい スピリチュアル",
+          "status": "low-signal",
+          "reasons": [
+            "fortune-telling / diagnosis drift"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "親と関わりたくない 知恵袋",
+          "status": "review",
+          "reasons": [
+            "platform-specific query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "親と関わりたくない 心理",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "親と関わりたくない 社会人",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "親と関わりたくない 大学生",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "親と関わりたくない 高校生",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "家族と縁を切りたい",
+        "毒親 距離を置く",
+        "家族 連絡 断つべきか",
+        "親と関わりたくない",
+        "家族と縁を切りたい 弁護士",
+        "家族と縁を切りたい 戸籍",
+        "家族と縁を切りたい 高校生",
+        "親と関わりたくない 心理",
+        "親と関わりたくない 社会人",
+        "親と関わりたくない 大学生",
+        "親と関わりたくない 高校生"
+      ],
+      "reviewCandidatePhrases": [
+        "親と関わりたくない 知恵袋"
+      ],
+      "lowSignalCandidatePhrases": [
+        "家族と縁を切りたい スピリチュアル"
+      ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "route": "/family/mother-conflict",
+      "slot": "family/mother-conflict",
+      "axis": "worry",
+      "sourceQueries": [
+        "母親と合わない",
+        "母親がしんどい",
+        "母親と喧嘩ばかり",
+        "母親 距離を置きたい"
+      ],
+      "baseQueries": [
+        "母親と合わない",
+        "母親がしんどい",
+        "母親と喧嘩ばかり",
+        "母親 距離を置きたい"
+      ],
+      "googleSuggestions": [
+        "母親と合わない",
+        "母親と合わない 長女",
+        "母親と合わない スピリチュアル",
+        "母親と合わない 30代",
+        "母親と合わない娘",
+        "母親と合わない 息子",
+        "母親と合わない 50代",
+        "母親と合わない 40代",
+        "母親と合わない 20代",
+        "母親と合わない 同居",
+        "母親がしんどい",
+        "母親がしんどい 漫画",
+        "母親と喧嘩ばかり",
+        "母親 距離を置きたい"
+      ],
+      "candidatePhrases": [
+        "母親と合わない",
+        "母親がしんどい",
+        "母親と喧嘩ばかり",
+        "母親 距離を置きたい",
+        "母親と合わない 長女",
+        "母親と合わない スピリチュアル",
+        "母親と合わない 30代",
+        "母親と合わない娘",
+        "母親と合わない 息子",
+        "母親と合わない 50代",
+        "母親と合わない 40代",
+        "母親と合わない 20代",
+        "母親と合わない 同居",
+        "母親がしんどい 漫画"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "母親と合わない",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "母親がしんどい",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "母親と喧嘩ばかり",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "母親 距離を置きたい",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "母親と合わない 長女",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "母親と合わない スピリチュアル",
+          "status": "low-signal",
+          "reasons": [
+            "fortune-telling / diagnosis drift"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "母親と合わない 30代",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "母親と合わない娘",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "母親と合わない 息子",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "母親と合わない 50代",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "母親と合わない 40代",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "母親と合わない 20代",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "母親と合わない 同居",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "母親がしんどい 漫画",
+          "status": "low-signal",
+          "reasons": [
+            "entertainment lookup",
+            "entertainment lookup"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "母親と合わない",
+        "母親がしんどい",
+        "母親と喧嘩ばかり",
+        "母親 距離を置きたい",
+        "母親と合わない 長女",
+        "母親と合わない 30代",
+        "母親と合わない娘",
+        "母親と合わない 息子",
+        "母親と合わない 50代",
+        "母親と合わない 40代",
+        "母親と合わない 20代",
+        "母親と合わない 同居"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [
+        "母親と合わない スピリチュアル",
+        "母親がしんどい 漫画"
+      ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "route": "/body/body-anxiety",
+      "slot": "body/body-anxiety",
+      "axis": "worry",
+      "sourceQueries": [
+        "自分の見た目が嫌い",
+        "外見コンプレックス",
+        "体型 気になる つらい",
+        "自分の体が嫌い"
+      ],
+      "baseQueries": [
+        "自分の見た目が嫌い",
+        "外見コンプレックス",
+        "体型 気になる つらい",
+        "自分の体が嫌い"
+      ],
+      "googleSuggestions": [
+        "自分の見た目が嫌い",
+        "自分の見た目が嫌い 病気",
+        "自分の見た目が嫌い 知恵袋",
+        "外見コンプレックス",
+        "外見コンプレックス 男",
+        "外見コンプレックス 克服",
+        "外見コンプレックス 英語",
+        "外見コンプレックス 病気",
+        "外見コンプレックス 本",
+        "外見コンプレックス 女",
+        "自分の体が嫌い",
+        "自分の体が嫌い 女",
+        "自分の体が嫌い 男",
+        "自分の体が嫌い 病気",
+        "自分の体が嫌い 知恵袋"
+      ],
+      "candidatePhrases": [
+        "自分の見た目が嫌い",
+        "外見コンプレックス",
+        "体型 気になる つらい",
+        "自分の体が嫌い",
+        "自分の見た目が嫌い 病気",
+        "自分の見た目が嫌い 知恵袋",
+        "外見コンプレックス 男",
+        "外見コンプレックス 克服",
+        "外見コンプレックス 英語",
+        "外見コンプレックス 病気",
+        "外見コンプレックス 本",
+        "外見コンプレックス 女",
+        "自分の体が嫌い 女",
+        "自分の体が嫌い 男",
+        "自分の体が嫌い 病気",
+        "自分の体が嫌い 知恵袋"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "自分の見た目が嫌い",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "外見コンプレックス",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "体型 気になる つらい",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自分の体が嫌い",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自分の見た目が嫌い 病気",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自分の見た目が嫌い 知恵袋",
+          "status": "review",
+          "reasons": [
+            "platform-specific query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "外見コンプレックス 男",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "外見コンプレックス 克服",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "外見コンプレックス 英語",
+          "status": "low-signal",
+          "reasons": [
+            "translation or language lookup"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "外見コンプレックス 病気",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "外見コンプレックス 本",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "外見コンプレックス 女",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自分の体が嫌い 女",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自分の体が嫌い 男",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自分の体が嫌い 病気",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "自分の体が嫌い 知恵袋",
+          "status": "review",
+          "reasons": [
+            "platform-specific query"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "自分の見た目が嫌い",
+        "外見コンプレックス",
+        "体型 気になる つらい",
+        "自分の体が嫌い",
+        "自分の見た目が嫌い 病気",
+        "外見コンプレックス 男",
+        "外見コンプレックス 克服",
+        "外見コンプレックス 病気",
+        "外見コンプレックス 女",
+        "自分の体が嫌い 女",
+        "自分の体が嫌い 男",
+        "自分の体が嫌い 病気"
+      ],
+      "reviewCandidatePhrases": [
+        "自分の見た目が嫌い 知恵袋",
+        "外見コンプレックス 本",
+        "自分の体が嫌い 知恵袋"
+      ],
+      "lowSignalCandidatePhrases": [
+        "外見コンプレックス 英語"
+      ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "route": "/body/aging-anxiety",
+      "slot": "body/aging-anxiety",
+      "axis": "worry",
+      "sourceQueries": [
+        "老いるのが怖い",
+        "年を取るのが不安",
+        "老化 不安",
+        "若さを失うのが怖い"
+      ],
+      "baseQueries": [
+        "老いるのが怖い",
+        "年を取るのが不安",
+        "老化 不安",
+        "若さを失うのが怖い"
+      ],
+      "googleSuggestions": [
+        "老いるのが怖い 知恵袋",
+        "老いるのが怖い 病気",
+        "老化 不安",
+        "老化 不安障害",
+        "若さを失うのが怖い"
+      ],
+      "candidatePhrases": [
+        "老いるのが怖い",
+        "年を取るのが不安",
+        "老化 不安",
+        "若さを失うのが怖い",
+        "老いるのが怖い 知恵袋",
+        "老いるのが怖い 病気",
+        "老化 不安障害"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "老いるのが怖い",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "年を取るのが不安",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "老化 不安",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "若さを失うのが怖い",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "老いるのが怖い 知恵袋",
+          "status": "review",
+          "reasons": [
+            "platform-specific query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "老いるのが怖い 病気",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "老化 不安障害",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "老いるのが怖い",
+        "年を取るのが不安",
+        "老化 不安",
+        "若さを失うのが怖い",
+        "老いるのが怖い 病気",
+        "老化 不安障害"
+      ],
+      "reviewCandidatePhrases": [
+        "老いるのが怖い 知恵袋"
+      ],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "route": "/body/hair-loss-stress",
+      "slot": "body/hair-loss-stress",
+      "axis": "worry",
+      "sourceQueries": [
+        "薄毛 ストレス",
+        "抜け毛 不安",
+        "ハゲるのが怖い",
+        "髪が薄くなってつらい"
+      ],
+      "baseQueries": [
+        "薄毛 ストレス",
+        "抜け毛 不安",
+        "ハゲるのが怖い",
+        "髪が薄くなってつらい"
+      ],
+      "googleSuggestions": [
+        "薄毛 ストレス",
+        "薄毛 ストレス 治る",
+        "薄毛 ストレス 改善",
+        "薄毛 ストレス 関係ない",
+        "抜け毛 不安",
+        "抜毛 症 不安 障害",
+        "抜毛 症 抗 不安 薬",
+        "抜毛 症 不安",
+        "不安 障害 抜け毛",
+        "不安症 抜け毛",
+        "禿げるのが怖い"
+      ],
+      "candidatePhrases": [
+        "薄毛 ストレス",
+        "抜け毛 不安",
+        "ハゲるのが怖い",
+        "髪が薄くなってつらい",
+        "薄毛 ストレス 治る",
+        "薄毛 ストレス 改善",
+        "薄毛 ストレス 関係ない",
+        "抜毛 症 不安 障害",
+        "抜毛 症 抗 不安 薬",
+        "抜毛 症 不安",
+        "不安 障害 抜け毛",
+        "不安症 抜け毛",
+        "禿げるのが怖い"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "薄毛 ストレス",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "抜け毛 不安",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ハゲるのが怖い",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "髪が薄くなってつらい",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "薄毛 ストレス 治る",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "薄毛 ストレス 改善",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "薄毛 ストレス 関係ない",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "抜毛 症 不安 障害",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "抜毛 症 抗 不安 薬",
+          "status": "review",
+          "reasons": [
+            "medical review needed"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "抜毛 症 不安",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "不安 障害 抜け毛",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "不安症 抜け毛",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "禿げるのが怖い",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "薄毛 ストレス",
+        "抜け毛 不安",
+        "ハゲるのが怖い",
+        "髪が薄くなってつらい",
+        "薄毛 ストレス 治る",
+        "薄毛 ストレス 改善",
+        "薄毛 ストレス 関係ない",
+        "抜毛 症 不安 障害",
+        "抜毛 症 不安",
+        "不安 障害 抜け毛",
+        "不安症 抜け毛",
+        "禿げるのが怖い"
+      ],
+      "reviewCandidatePhrases": [
+        "抜毛 症 抗 不安 薬"
+      ],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "route": "/career/dream-reality",
+      "slot": "career/dream-reality",
+      "axis": "worry",
+      "sourceQueries": [
+        "夢を諦めるべきか",
+        "夢と現実 迷う",
+        "好きなこと 仕事 不安",
+        "年齢 夢 諦める"
+      ],
+      "baseQueries": [
+        "夢を諦めるべきか",
+        "夢と現実 迷う",
+        "好きなこと 仕事 不安",
+        "年齢 夢 諦める"
+      ],
+      "googleSuggestions": [
+        "夢を諦めるべきか",
+        "夢を諦めるべきか 占い",
+        "夢 を 諦める 年齢",
+        "夢 諦める 年齢"
+      ],
+      "candidatePhrases": [
+        "夢を諦めるべきか",
+        "夢と現実 迷う",
+        "好きなこと 仕事 不安",
+        "年齢 夢 諦める",
+        "夢を諦めるべきか 占い",
+        "夢 を 諦める 年齢",
+        "夢 諦める 年齢"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "夢を諦めるべきか",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "夢と現実 迷う",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "好きなこと 仕事 不安",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "年齢 夢 諦める",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "夢を諦めるべきか 占い",
+          "status": "low-signal",
+          "reasons": [
+            "fortune-telling / diagnosis drift"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "夢 を 諦める 年齢",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "夢 諦める 年齢",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "夢を諦めるべきか",
+        "夢と現実 迷う",
+        "好きなこと 仕事 不安",
+        "年齢 夢 諦める",
+        "夢 を 諦める 年齢",
+        "夢 諦める 年齢"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [
+        "夢を諦めるべきか 占い"
+      ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "route": "/career/regret-free-choice",
+      "slot": "career/regret-free-choice",
+      "axis": "worry",
+      "sourceQueries": [
+        "後悔しない選択",
+        "選択 後悔 怖い",
+        "どっちを選んでも後悔しそう",
+        "人生 選択 迷う"
+      ],
+      "baseQueries": [
+        "後悔しない選択",
+        "選択 後悔 怖い",
+        "どっちを選んでも後悔しそう",
+        "人生 選択 迷う"
+      ],
+      "googleSuggestions": [
+        "後悔しない選択",
+        "後悔しない選択を",
+        "後悔しない選択をするんじゃなくて選択したからにはその選択を後悔しないようにするしかない",
+        "後悔しない選択をするには",
+        "後悔しない選択とは",
+        "後悔しない選択なんてない",
+        "後悔しない選択を選んでほしいの",
+        "後悔しない選択をするんじゃなくて",
+        "後悔しない選択 古賀紗理那",
+        "後悔しない選択 リヴァイ",
+        "人生 選択 迷う",
+        "人生 の 選択 に 迷う 時"
+      ],
+      "candidatePhrases": [
+        "後悔しない選択",
+        "選択 後悔 怖い",
+        "どっちを選んでも後悔しそう",
+        "人生 選択 迷う",
+        "後悔しない選択を",
+        "後悔しない選択をするんじゃなくて選択したからにはその選択を後悔しないようにするしかない",
+        "後悔しない選択をするには",
+        "後悔しない選択とは",
+        "後悔しない選択なんてない",
+        "後悔しない選択を選んでほしいの",
+        "後悔しない選択をするんじゃなくて",
+        "後悔しない選択 古賀紗理那",
+        "後悔しない選択 リヴァイ",
+        "人生 の 選択 に 迷う 時"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "後悔しない選択",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "選択 後悔 怖い",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "どっちを選んでも後悔しそう",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人生 選択 迷う",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "後悔しない選択を",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "後悔しない選択をするんじゃなくて選択したからにはその選択を後悔しないようにするしかない",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "後悔しない選択をするには",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "後悔しない選択とは",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "後悔しない選択なんてない",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "後悔しない選択を選んでほしいの",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "後悔しない選択をするんじゃなくて",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "後悔しない選択 古賀紗理那",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "後悔しない選択 リヴァイ",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人生 の 選択 に 迷う 時",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "後悔しない選択",
+        "選択 後悔 怖い",
+        "どっちを選んでも後悔しそう",
+        "人生 選択 迷う",
+        "後悔しない選択を",
+        "後悔しない選択をするんじゃなくて選択したからにはその選択を後悔しないようにするしかない",
+        "後悔しない選択をするには",
+        "後悔しない選択なんてない",
+        "後悔しない選択を選んでほしいの",
+        "後悔しない選択をするんじゃなくて",
+        "後悔しない選択 古賀紗理那",
+        "後悔しない選択 リヴァイ",
+        "人生 の 選択 に 迷う 時"
+      ],
+      "reviewCandidatePhrases": [
+        "後悔しない選択とは"
+      ],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "route": "/debate/euthanasia",
+      "slot": "debate/euthanasia",
+      "axis": "debate",
+      "sourceQueries": [
+        "安楽死 賛成 反対",
+        "安楽死 認めるべきか",
+        "尊厳死 議論",
+        "終末期 自己決定"
+      ],
+      "baseQueries": [
+        "安楽死 賛成 反対",
+        "安楽死 認めるべきか",
+        "尊厳死 議論",
+        "終末期 自己決定"
+      ],
+      "googleSuggestions": [
+        "尊厳死 議論",
+        "終末期 自己決定"
+      ],
+      "candidatePhrases": [
+        "安楽死 賛成 反対",
+        "安楽死 認めるべきか",
+        "尊厳死 議論",
+        "終末期 自己決定"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "安楽死 賛成 反対",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "安楽死 認めるべきか",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "尊厳死 議論",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "終末期 自己決定",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "安楽死 賛成 反対",
+        "安楽死 認めるべきか",
+        "尊厳死 議論",
+        "終末期 自己決定"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "route": "/debate/death-penalty",
+      "slot": "debate/death-penalty",
+      "axis": "debate",
+      "sourceQueries": [
+        "死刑制度 賛成 反対",
+        "死刑 廃止すべきか",
+        "死刑 冤罪",
+        "応報刑 議論"
+      ],
+      "baseQueries": [
+        "死刑制度 賛成 反対",
+        "死刑 廃止すべきか",
+        "死刑 冤罪",
+        "応報刑 議論"
+      ],
+      "googleSuggestions": [
+        "死刑制度 賛成 反対",
+        "死刑制度 賛成 反対 割合",
+        "死刑制度 賛成 反対 理由",
+        "死刑制度 賛成 反対 意見",
+        "死刑制度 賛成 反対 知恵袋",
+        "死刑 廃止すべきか",
+        "死刑 冤罪",
+        "死刑 冤罪 執行",
+        "死刑 冤罪 実例",
+        "死刑 冤罪 例",
+        "死刑 冤罪事件",
+        "死刑 冤罪 映画",
+        "死刑 冤罪率",
+        "死刑 冤罪 日本",
+        "死刑 冤罪 件数 日本",
+        "死刑 冤罪 最近"
+      ],
+      "candidatePhrases": [
+        "死刑制度 賛成 反対",
+        "死刑 廃止すべきか",
+        "死刑 冤罪",
+        "応報刑 議論",
+        "死刑制度 賛成 反対 割合",
+        "死刑制度 賛成 反対 理由",
+        "死刑制度 賛成 反対 意見",
+        "死刑制度 賛成 反対 知恵袋",
+        "死刑 冤罪 執行",
+        "死刑 冤罪 実例",
+        "死刑 冤罪 例",
+        "死刑 冤罪事件",
+        "死刑 冤罪 映画",
+        "死刑 冤罪率",
+        "死刑 冤罪 日本",
+        "死刑 冤罪 件数 日本",
+        "死刑 冤罪 最近"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "死刑制度 賛成 反対",
+          "status": "review",
+          "reasons": [
+            "legal/institutional review needed",
+            "legal/institutional review needed"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "死刑 廃止すべきか",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "死刑 冤罪",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "応報刑 議論",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "死刑制度 賛成 反対 割合",
+          "status": "review",
+          "reasons": [
+            "legal/institutional review needed",
+            "legal/institutional review needed"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "死刑制度 賛成 反対 理由",
+          "status": "review",
+          "reasons": [
+            "legal/institutional review needed",
+            "legal/institutional review needed"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "死刑制度 賛成 反対 意見",
+          "status": "review",
+          "reasons": [
+            "legal/institutional review needed",
+            "legal/institutional review needed"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "死刑制度 賛成 反対 知恵袋",
+          "status": "review",
+          "reasons": [
+            "platform-specific query",
+            "legal/institutional review needed",
+            "legal/institutional review needed"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "死刑 冤罪 執行",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "死刑 冤罪 実例",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "死刑 冤罪 例",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "死刑 冤罪事件",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "死刑 冤罪 映画",
+          "status": "low-signal",
+          "reasons": [
+            "entertainment lookup"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "死刑 冤罪率",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "死刑 冤罪 日本",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "死刑 冤罪 件数 日本",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "死刑 冤罪 最近",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "死刑 廃止すべきか",
+        "死刑 冤罪",
+        "応報刑 議論",
+        "死刑 冤罪 執行",
+        "死刑 冤罪 実例",
+        "死刑 冤罪 例",
+        "死刑 冤罪事件",
+        "死刑 冤罪率",
+        "死刑 冤罪 最近"
+      ],
+      "reviewCandidatePhrases": [
+        "死刑制度 賛成 反対",
+        "死刑制度 賛成 反対 割合",
+        "死刑制度 賛成 反対 理由",
+        "死刑制度 賛成 反対 意見",
+        "死刑制度 賛成 反対 知恵袋",
+        "死刑 冤罪 日本",
+        "死刑 冤罪 件数 日本"
+      ],
+      "lowSignalCandidatePhrases": [
+        "死刑 冤罪 映画"
+      ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "route": "/debate/abortion",
+      "slot": "debate/abortion",
+      "axis": "debate",
+      "sourceQueries": [
+        "中絶 賛成 反対",
+        "人工妊娠中絶 議論",
+        "中絶 権利",
+        "胎児 生命 自己決定"
+      ],
+      "baseQueries": [
+        "中絶 賛成 反対",
+        "人工妊娠中絶 議論",
+        "中絶 権利",
+        "胎児 生命 自己決定"
+      ],
+      "googleSuggestions": [
+        "中絶 賛成 反対",
+        "人工妊娠中絶 議論",
+        "中絶 権利",
+        "中絶 権利 日本",
+        "中絶 権利 アメリカ",
+        "中絶 胎児 の 権利",
+        "中絶 の 権利 と は",
+        "中絶 母親 の 権利",
+        "中絶 子ども の 権利",
+        "女性 中絶 権利"
+      ],
+      "candidatePhrases": [
+        "中絶 賛成 反対",
+        "人工妊娠中絶 議論",
+        "中絶 権利",
+        "胎児 生命 自己決定",
+        "中絶 権利 日本",
+        "中絶 権利 アメリカ",
+        "中絶 胎児 の 権利",
+        "中絶 の 権利 と は",
+        "中絶 母親 の 権利",
+        "中絶 子ども の 権利",
+        "女性 中絶 権利"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "中絶 賛成 反対",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "人工妊娠中絶 議論",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "中絶 権利",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "胎児 生命 自己決定",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "中絶 権利 日本",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "中絶 権利 アメリカ",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "中絶 胎児 の 権利",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "中絶 の 権利 と は",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "中絶 母親 の 権利",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "中絶 子ども の 権利",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "女性 中絶 権利",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "中絶 賛成 反対",
+        "人工妊娠中絶 議論",
+        "中絶 権利",
+        "胎児 生命 自己決定",
+        "中絶 権利 アメリカ",
+        "中絶 胎児 の 権利",
+        "中絶 の 権利 と は",
+        "中絶 母親 の 権利",
+        "中絶 子ども の 権利",
+        "女性 中絶 権利"
+      ],
+      "reviewCandidatePhrases": [
+        "中絶 権利 日本"
+      ],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "route": "/debate/animal-testing",
+      "slot": "debate/animal-testing",
+      "axis": "debate",
+      "sourceQueries": [
+        "動物実験 賛成 反対",
+        "動物実験 必要か",
+        "動物実験 倫理",
+        "化粧品 動物実験"
+      ],
+      "baseQueries": [
+        "動物実験 賛成 反対",
+        "動物実験 必要か",
+        "動物実験 倫理",
+        "化粧品 動物実験"
+      ],
+      "googleSuggestions": [
+        "動物実験 倫理",
+        "動物実験 倫理委員会",
+        "動物実験 倫理的問題",
+        "動物実験 倫理規定",
+        "動物実験 倫理審査",
+        "動物実験 倫理 3r",
+        "動物実験 倫理委員会の承認",
+        "動物実験 倫理指針",
+        "動物実験 倫理的配慮",
+        "動物実験 倫理 論文",
+        "化粧品 動物実験",
+        "化粧品 動物実験 日本",
+        "化粧品 動物実験 禁止",
+        "化粧品 動物実験 現在",
+        "化粧品 動物実験しているメーカー",
+        "化粧品 動物実験とは",
+        "化粧品 動物実験し てい ないメーカー",
+        "化粧品 動物実験 なし どうやって",
+        "化粧品 動物実験禁止 なぜ",
+        "化粧品 動物実験 禁止 日本"
+      ],
+      "candidatePhrases": [
+        "動物実験 賛成 反対",
+        "動物実験 必要か",
+        "動物実験 倫理",
+        "化粧品 動物実験",
+        "動物実験 倫理委員会",
+        "動物実験 倫理的問題",
+        "動物実験 倫理規定",
+        "動物実験 倫理審査",
+        "動物実験 倫理 3r",
+        "動物実験 倫理委員会の承認",
+        "動物実験 倫理指針",
+        "動物実験 倫理的配慮",
+        "動物実験 倫理 論文",
+        "化粧品 動物実験 日本",
+        "化粧品 動物実験 禁止",
+        "化粧品 動物実験 現在",
+        "化粧品 動物実験しているメーカー",
+        "化粧品 動物実験とは",
+        "化粧品 動物実験し てい ないメーカー",
+        "化粧品 動物実験 なし どうやって",
+        "化粧品 動物実験禁止 なぜ",
+        "化粧品 動物実験 禁止 日本"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "動物実験 賛成 反対",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "動物実験 必要か",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "動物実験 倫理",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "化粧品 動物実験",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "動物実験 倫理委員会",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "動物実験 倫理的問題",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "動物実験 倫理規定",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "動物実験 倫理審査",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "動物実験 倫理 3r",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "動物実験 倫理委員会の承認",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "動物実験 倫理指針",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "動物実験 倫理的配慮",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "動物実験 倫理 論文",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "化粧品 動物実験 日本",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "化粧品 動物実験 禁止",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "化粧品 動物実験 現在",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "化粧品 動物実験しているメーカー",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "化粧品 動物実験とは",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "化粧品 動物実験し てい ないメーカー",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "化粧品 動物実験 なし どうやって",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "化粧品 動物実験禁止 なぜ",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "化粧品 動物実験 禁止 日本",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "動物実験 賛成 反対",
+        "動物実験 必要か",
+        "動物実験 倫理",
+        "化粧品 動物実験",
+        "動物実験 倫理委員会",
+        "動物実験 倫理的問題",
+        "動物実験 倫理規定",
+        "動物実験 倫理審査",
+        "動物実験 倫理 3r",
+        "動物実験 倫理委員会の承認",
+        "動物実験 倫理指針",
+        "動物実験 倫理的配慮",
+        "化粧品 動物実験 禁止",
+        "化粧品 動物実験 現在",
+        "化粧品 動物実験しているメーカー",
+        "化粧品 動物実験し てい ないメーカー",
+        "化粧品 動物実験 なし どうやって",
+        "化粧品 動物実験禁止 なぜ"
+      ],
+      "reviewCandidatePhrases": [
+        "動物実験 倫理 論文",
+        "化粧品 動物実験 日本",
+        "化粧品 動物実験とは",
+        "化粧品 動物実験 禁止 日本"
+      ],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "route": "/debate/juvenile-offenders",
+      "slot": "debate/juvenile-offenders",
+      "axis": "debate",
+      "sourceQueries": [
+        "少年犯罪 厳罰化",
+        "触法少年 処罰",
+        "少年法 引き下げ",
+        "未成年 犯罪 責任"
+      ],
+      "baseQueries": [
+        "少年犯罪 厳罰化",
+        "触法少年 処罰",
+        "少年法 引き下げ",
+        "未成年 犯罪 責任"
+      ],
+      "googleSuggestions": [
+        "少年犯罪 厳罰化",
+        "少年犯罪 厳罰化 きっかけ",
+        "少年犯罪 厳罰化 なぜ",
+        "触法少年 処罰",
+        "少年法 引き下げ",
+        "少年法 引き下げ メリット デメリット",
+        "少年法 引き下げ 反対 理由",
+        "少年法 引き下げ 理由",
+        "少年法 引き下げ 賛成",
+        "少年法 引き下げ 14歳",
+        "少年法 年齢 引き下げ",
+        "少年法 適用年齢 引き下げ",
+        "少年法 18歳 引き下げ",
+        "成人年齢 引き下げ 少年法"
+      ],
+      "candidatePhrases": [
+        "少年犯罪 厳罰化",
+        "触法少年 処罰",
+        "少年法 引き下げ",
+        "未成年 犯罪 責任",
+        "少年犯罪 厳罰化 きっかけ",
+        "少年犯罪 厳罰化 なぜ",
+        "少年法 引き下げ メリット デメリット",
+        "少年法 引き下げ 反対 理由",
+        "少年法 引き下げ 理由",
+        "少年法 引き下げ 賛成",
+        "少年法 引き下げ 14歳",
+        "少年法 年齢 引き下げ",
+        "少年法 適用年齢 引き下げ",
+        "少年法 18歳 引き下げ",
+        "成人年齢 引き下げ 少年法"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "少年犯罪 厳罰化",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "触法少年 処罰",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "少年法 引き下げ",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "未成年 犯罪 責任",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "少年犯罪 厳罰化 きっかけ",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "少年犯罪 厳罰化 なぜ",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "少年法 引き下げ メリット デメリット",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "少年法 引き下げ 反対 理由",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "少年法 引き下げ 理由",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "少年法 引き下げ 賛成",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "少年法 引き下げ 14歳",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "少年法 年齢 引き下げ",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "少年法 適用年齢 引き下げ",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "少年法 18歳 引き下げ",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "成人年齢 引き下げ 少年法",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "少年犯罪 厳罰化",
+        "触法少年 処罰",
+        "少年法 引き下げ",
+        "未成年 犯罪 責任",
+        "少年犯罪 厳罰化 きっかけ",
+        "少年犯罪 厳罰化 なぜ",
+        "少年法 引き下げ メリット デメリット",
+        "少年法 引き下げ 反対 理由",
+        "少年法 引き下げ 理由",
+        "少年法 引き下げ 賛成",
+        "少年法 引き下げ 14歳",
+        "少年法 年齢 引き下げ",
+        "少年法 適用年齢 引き下げ",
+        "少年法 18歳 引き下げ",
+        "成人年齢 引き下げ 少年法"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "route": "/debate/meritocracy",
+      "slot": "debate/meritocracy",
+      "axis": "debate",
+      "sourceQueries": [
+        "能力主義 公平か",
+        "メリトクラシー 批判",
+        "努力は報われるか",
+        "格差と能力主義"
+      ],
+      "baseQueries": [
+        "能力主義 公平か",
+        "メリトクラシー 批判",
+        "努力は報われるか",
+        "格差と能力主義"
+      ],
+      "googleSuggestions": [
+        "メリトクラシー 批判",
+        "努力は報われるか"
+      ],
+      "candidatePhrases": [
+        "能力主義 公平か",
+        "メリトクラシー 批判",
+        "努力は報われるか",
+        "格差と能力主義"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "能力主義 公平か",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "メリトクラシー 批判",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "努力は報われるか",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "格差と能力主義",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "能力主義 公平か",
+        "メリトクラシー 批判",
+        "努力は報われるか",
+        "格差と能力主義"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "route": "/debate/basic-income",
+      "slot": "debate/basic-income",
+      "axis": "debate",
+      "sourceQueries": [
+        "ベーシックインカム 賛成 反対",
+        "基本所得 必要か",
+        "ベーシックインカム 財源",
+        "働かなくなる 議論"
+      ],
+      "baseQueries": [
+        "ベーシックインカム 賛成 反対",
+        "基本所得 必要か",
+        "ベーシックインカム 財源",
+        "働かなくなる 議論"
+      ],
+      "googleSuggestions": [
+        "ベーシックインカム 賛成 反対",
+        "ベーシックインカム 財源",
+        "ベーシックインカム 財源 どこから",
+        "ベーシックインカム 財源確保",
+        "ベーシックインカム 財源 試算",
+        "ベーシックインカム 財源 ひろゆき",
+        "ベーシックインカム 財源問題",
+        "ベーシックインカム 財源案",
+        "ベーシックインカム フィンランド 財源",
+        "日本 ベーシックインカム 財源"
+      ],
+      "candidatePhrases": [
+        "ベーシックインカム 賛成 反対",
+        "基本所得 必要か",
+        "ベーシックインカム 財源",
+        "働かなくなる 議論",
+        "ベーシックインカム 財源 どこから",
+        "ベーシックインカム 財源確保",
+        "ベーシックインカム 財源 試算",
+        "ベーシックインカム 財源 ひろゆき",
+        "ベーシックインカム 財源問題",
+        "ベーシックインカム 財源案",
+        "ベーシックインカム フィンランド 財源",
+        "日本 ベーシックインカム 財源"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "ベーシックインカム 賛成 反対",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "基本所得 必要か",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ベーシックインカム 財源",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "働かなくなる 議論",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ベーシックインカム 財源 どこから",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ベーシックインカム 財源確保",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ベーシックインカム 財源 試算",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ベーシックインカム 財源 ひろゆき",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ベーシックインカム 財源問題",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ベーシックインカム 財源案",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ベーシックインカム フィンランド 財源",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "日本 ベーシックインカム 財源",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "ベーシックインカム 賛成 反対",
+        "ベーシックインカム 財源",
+        "働かなくなる 議論",
+        "ベーシックインカム 財源 どこから",
+        "ベーシックインカム 財源確保",
+        "ベーシックインカム 財源 試算",
+        "ベーシックインカム 財源 ひろゆき",
+        "ベーシックインカム 財源問題",
+        "ベーシックインカム 財源案",
+        "ベーシックインカム フィンランド 財源"
+      ],
+      "reviewCandidatePhrases": [
+        "基本所得 必要か",
+        "日本 ベーシックインカム 財源"
+      ],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "route": "/debate/ai-art",
+      "slot": "debate/ai-art",
+      "axis": "debate",
+      "sourceQueries": [
+        "AIイラストは芸術か",
+        "AIアート 著作権",
+        "AI絵師 議論",
+        "生成AI 創作 倫理"
+      ],
+      "baseQueries": [
+        "AIイラストは芸術か",
+        "AIアート 著作権",
+        "AI絵師 議論",
+        "生成AI 創作 倫理"
+      ],
+      "googleSuggestions": [
+        "aiアート 著作権"
+      ],
+      "candidatePhrases": [
+        "AIイラストは芸術か",
+        "AIアート 著作権",
+        "AI絵師 議論",
+        "生成AI 創作 倫理"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "AIイラストは芸術か",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "AIアート 著作権",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "AI絵師 議論",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "生成AI 創作 倫理",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "AIイラストは芸術か",
+        "AIアート 著作権",
+        "AI絵師 議論",
+        "生成AI 創作 倫理"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "route": "/debate/cohabitation",
+      "slot": "debate/cohabitation",
+      "axis": "debate",
+      "sourceQueries": [
+        "同棲 結婚前 ありか",
+        "結婚前 同棲 メリット デメリット",
+        "同棲 責任",
+        "事実婚 同棲 違い"
+      ],
+      "baseQueries": [
+        "同棲 結婚前 ありか",
+        "結婚前 同棲 メリット デメリット",
+        "同棲 責任",
+        "事実婚 同棲 違い"
+      ],
+      "googleSuggestions": [
+        "結婚前 同棲 メリット デメリット",
+        "同棲 責任",
+        "同棲 責任がない",
+        "同棲 責任感",
+        "同棲 法 的 責任",
+        "同棲 個人 賠償 責任 保険",
+        "事実婚 同棲 違い",
+        "事実婚 内縁 同棲 違い"
+      ],
+      "candidatePhrases": [
+        "同棲 結婚前 ありか",
+        "結婚前 同棲 メリット デメリット",
+        "同棲 責任",
+        "事実婚 同棲 違い",
+        "同棲 責任がない",
+        "同棲 責任感",
+        "同棲 法 的 責任",
+        "同棲 個人 賠償 責任 保険",
+        "事実婚 内縁 同棲 違い"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "同棲 結婚前 ありか",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "結婚前 同棲 メリット デメリット",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "同棲 責任",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "事実婚 同棲 違い",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "同棲 責任がない",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "同棲 責任感",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "同棲 法 的 責任",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "同棲 個人 賠償 責任 保険",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "事実婚 内縁 同棲 違い",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "同棲 結婚前 ありか",
+        "結婚前 同棲 メリット デメリット",
+        "同棲 責任",
+        "事実婚 同棲 違い",
+        "同棲 責任がない",
+        "同棲 責任感",
+        "同棲 法 的 責任",
+        "同棲 個人 賠償 責任 保険",
+        "事実婚 内縁 同棲 違い"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "route": "/debate/vegetarianism",
+      "slot": "debate/vegetarianism",
+      "axis": "debate",
+      "sourceQueries": [
+        "ヴィーガン 倫理",
+        "菜食主義 賛成 反対",
+        "肉を食べる 倫理",
+        "環境と菜食"
+      ],
+      "baseQueries": [
+        "ヴィーガン 倫理",
+        "菜食主義 賛成 反対",
+        "肉を食べる 倫理",
+        "環境と菜食"
+      ],
+      "googleSuggestions": [
+        "ヴィーガン 倫理",
+        "ヴィーガン 倫理 的",
+        "肉を食べる 倫理"
+      ],
+      "candidatePhrases": [
+        "ヴィーガン 倫理",
+        "菜食主義 賛成 反対",
+        "肉を食べる 倫理",
+        "環境と菜食",
+        "ヴィーガン 倫理 的"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "ヴィーガン 倫理",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "菜食主義 賛成 反対",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "肉を食べる 倫理",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "環境と菜食",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ヴィーガン 倫理 的",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "ヴィーガン 倫理",
+        "菜食主義 賛成 反対",
+        "肉を食べる 倫理",
+        "環境と菜食",
+        "ヴィーガン 倫理 的"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "route": "/debate/parent-support",
+      "slot": "debate/parent-support",
+      "axis": "debate",
+      "sourceQueries": [
+        "親の扶養 義務",
+        "親の介護 子供 責任",
+        "老親 扶養 どこまで",
+        "親を支えるべきか"
+      ],
+      "baseQueries": [
+        "親の扶養 義務",
+        "親の介護 子供 責任",
+        "老親 扶養 どこまで",
+        "親を支えるべきか"
+      ],
+      "googleSuggestions": [
+        "親の扶養 義務"
+      ],
+      "candidatePhrases": [
+        "親の扶養 義務",
+        "親の介護 子供 責任",
+        "老親 扶養 どこまで",
+        "親を支えるべきか"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "親の扶養 義務",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "親の介護 子供 責任",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": [
+            "family/caregiving-burden"
+          ]
+        },
+        {
+          "phrase": "老親 扶養 どこまで",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "親を支えるべきか",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "親の扶養 義務",
+        "親の介護 子供 責任",
+        "老親 扶養 どこまで",
+        "親を支えるべきか"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {
+        "family/caregiving-burden": 1
+      },
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "route": "/debate/pet-euthanasia",
+      "slot": "debate/pet-euthanasia",
+      "axis": "debate",
+      "sourceQueries": [
+        "ペット 安楽死 迷う",
+        "犬 安楽死 すべきか",
+        "ペット 苦痛 延命",
+        "動物 安楽死 倫理"
+      ],
+      "baseQueries": [
+        "ペット 安楽死 迷う",
+        "犬 安楽死 すべきか",
+        "ペット 苦痛 延命",
+        "動物 安楽死 倫理"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "ペット 安楽死 迷う",
+        "犬 安楽死 すべきか",
+        "ペット 苦痛 延命",
+        "動物 安楽死 倫理"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "ペット 安楽死 迷う",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "犬 安楽死 すべきか",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ペット 苦痛 延命",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "動物 安楽死 倫理",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "ペット 安楽死 迷う",
+        "犬 安楽死 すべきか",
+        "ペット 苦痛 延命",
+        "動物 安楽死 倫理"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "route": "/debate/cancel-culture",
+      "slot": "debate/cancel-culture",
+      "axis": "debate",
+      "sourceQueries": [
+        "キャンセルカルチャー 賛成 反対",
+        "炎上 罰しすぎ",
+        "表現の自由 キャンセル",
+        "責任追及と集団リンチ"
+      ],
+      "baseQueries": [
+        "キャンセルカルチャー 賛成 反対",
+        "炎上 罰しすぎ",
+        "表現の自由 キャンセル",
+        "責任追及と集団リンチ"
+      ],
+      "googleSuggestions": [
+        "キャンセルカルチャー 表現の自由"
+      ],
+      "candidatePhrases": [
+        "キャンセルカルチャー 賛成 反対",
+        "炎上 罰しすぎ",
+        "表現の自由 キャンセル",
+        "責任追及と集団リンチ",
+        "キャンセルカルチャー 表現の自由"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "キャンセルカルチャー 賛成 反対",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "炎上 罰しすぎ",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "表現の自由 キャンセル",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "責任追及と集団リンチ",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "キャンセルカルチャー 表現の自由",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "キャンセルカルチャー 賛成 反対",
+        "炎上 罰しすぎ",
+        "表現の自由 キャンセル",
+        "責任追及と集団リンチ",
+        "キャンセルカルチャー 表現の自由"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "route": "/debate/nice-people-finish-last",
+      "slot": "debate/nice-people-finish-last",
+      "axis": "debate",
+      "sourceQueries": [
+        "優しい人 損をする",
+        "いい人は利用される",
+        "優しすぎる つらい",
+        "善人 損 議論"
+      ],
+      "baseQueries": [
+        "優しい人 損をする",
+        "いい人は利用される",
+        "優しすぎる つらい",
+        "善人 損 議論"
+      ],
+      "googleSuggestions": [
+        "優しい人 損をする",
+        "優しすぎる 辛い",
+        "優しすぎる つらい",
+        "彼女 優しすぎる 辛い",
+        "好きな人 優しすぎる 辛い",
+        "親 優しすぎる 辛い",
+        "彼氏 優しすぎる 辛い"
+      ],
+      "candidatePhrases": [
+        "優しい人 損をする",
+        "いい人は利用される",
+        "優しすぎる つらい",
+        "善人 損 議論",
+        "優しすぎる 辛い",
+        "彼女 優しすぎる 辛い",
+        "好きな人 優しすぎる 辛い",
+        "親 優しすぎる 辛い",
+        "彼氏 優しすぎる 辛い"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "優しい人 損をする",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "いい人は利用される",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "優しすぎる つらい",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "善人 損 議論",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "優しすぎる 辛い",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "彼女 優しすぎる 辛い",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "好きな人 優しすぎる 辛い",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "親 優しすぎる 辛い",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "彼氏 優しすぎる 辛い",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "優しい人 損をする",
+        "いい人は利用される",
+        "優しすぎる つらい",
+        "善人 損 議論",
+        "優しすぎる 辛い",
+        "彼女 優しすぎる 辛い",
+        "好きな人 優しすぎる 辛い",
+        "親 優しすぎる 辛い",
+        "彼氏 優しすぎる 辛い"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
       "clusterHints": {},
       "errors": []
     }

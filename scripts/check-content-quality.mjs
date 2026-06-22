@@ -273,7 +273,9 @@ function criterionSummary(rows) {
   });
 }
 
-function markdownTable(rows, columns) {
+function markdownTable(rows, columns, emptyText = "_없음._") {
+  if (rows.length === 0) return emptyText;
+
   const header = `| ${columns.map((column) => column.label).join(" | ")} |`;
   const divider = `| ${columns.map(() => "---").join(" | ")} |`;
   const body = rows.map(
@@ -286,7 +288,9 @@ function markdownTable(rows, columns) {
 }
 
 function makeMarkdown(report) {
-  const priorityRows = report.entries.slice(0, 20);
+  const priorityRows = report.entries
+    .filter((entry) => entry.issues.length > 0 || entry.score < 100)
+    .slice(0, 20);
   const sourceBacklog = report.entries
     .filter((entry) => !entry.metrics.sourceSignal || entry.metrics.sourceInsights === 0)
     .sort(
@@ -350,7 +354,9 @@ ${markdownTable(report.topIssues, [
 
 ## 우선 보강 카드
 
-최저점 카드 20개입니다. C/D 등급이 없더라도 여기부터 보강하면 전체 품질 편차를 줄일 수 있습니다.
+${priorityRows.length > 0
+    ? "최저점 카드 20개입니다. C/D 등급이 없더라도 여기부터 보강하면 전체 품질 편차를 줄일 수 있습니다."
+    : "현재 자동 점검 기준에서 우선 보강 카드가 없습니다. 다음 단계는 수동 큐레이션과 사용자 경험 개선입니다."}
 
 ${markdownTable(priorityRows, [
   { label: "점수", value: (row) => `${row.score} ${row.grade}` },
@@ -376,9 +382,9 @@ ${markdownTable(sourceBacklog, [
 
 ## 다음 작업 추천
 
-1. C/D 등급 카드부터 태그와 언어권 신호를 보강합니다.
-2. 논쟁 카드는 태그 수가 적은 항목을 먼저 정리합니다.
-3. 언어권 신호는 있으나 인사이트가 없는 카드를 우선 10개 골라 상세 페이지 표현을 보강합니다.
+1. 자동 생성된 언어권 인사이트를 사람이 읽기 좋은 문장으로 우선순위별 큐레이션합니다.
+2. 언어권별 대표 고민 표현을 홈과 상세 페이지에서 더 오래 탐색하게 만드는 UX 실험을 진행합니다.
+3. 새 언어권이나 새 매체를 추가할 때는 수집 신호, 카드 연결, 출력 언어 반영 순서로 검증합니다.
 4. 이 리포트를 PR마다 확인해서 새 카드가 전체 평균을 크게 낮추지 않게 합니다.
 `;
 }

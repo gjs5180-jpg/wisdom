@@ -8,17 +8,18 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 
 ## Summary
 
-- collectedAt: 2026-06-22T06:01:33.122Z
-- nodes scanned: 59
-- candidate phrases: 321
-- usable: 300
-- review: 9
-- low-signal: 12
+- collectedAt: 2026-06-22T06:20:19.023Z
+- nodes scanned: 89
+- candidate phrases: 496
+- usable: 463
+- review: 13
+- low-signal: 20
 
 ## Potential New Cluster Hints
 
+- `family/filial-duty`: 3
+- `family/family-of-origin`: 2
 - `debate/childfree-identity`: 1
-- `family/family-of-origin`: 1
 - `study/exam-pressure`: 1
 
 ## /thought/good-life
@@ -1091,4 +1092,559 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 - 辞职还是坚持
 - 想辞职但害怕
 - 工作该不该继续
+
+## /work/unrecognized
+
+- axis: worry
+- base queries: 工作不被认可, 努力不被看见, 职场不被肯定, 付出没有回报
+- google suggestions: 4
+- usable candidates: 5
+- review candidates: 0
+- low-signal candidates: 1
+
+### Usable candidates
+
+- 工作不被认可
+- 努力不被看见
+- 职场不被肯定
+- 付出没有回报
+- 付出没有回报 成语
+
+### Low-signal candidates
+
+- 付出没有回报 英文
+
+## /work/work-depression
+
+- axis: worry
+- base queries: 工作抑郁怎么办, 上班很痛苦, 工作压力让我崩溃, 不想去公司
+- google suggestions: 9
+- usable candidates: 12
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 工作抑郁怎么办
+- 上班很痛苦
+- 工作压力让我崩溃
+- 不想去公司
+- 上班很痛苦dcard
+- 上班很痛苦怎么办
+- 上班很痛苦 ptt
+- 不想去公司聚餐
+- 不想去公司 线上看
+- 不想去公司 韩剧
+- 不想去公司 韓劇
+- 不想去公司 線上看
+
+## /work/not-good-enough
+
+- axis: worry
+- base queries: 觉得自己工作能力差, 工作做不好怎么办, 感觉自己很无能, 职场能力不足焦虑
+- google suggestions: 2
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 觉得自己工作能力差
+- 工作做不好怎么办
+- 感觉自己很无能
+- 职场能力不足焦虑
+
+## /work/work-skepticism
+
+- axis: worry
+- base queries: 工作没有意义, 不知道为什么工作, 工作没有成就感, 上班的意义是什么
+- google suggestions: 6
+- usable candidates: 7
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 工作没有意义
+- 不知道为什么工作
+- 工作没有成就感
+- 上班的意义是什么
+- 工作没有成就感dcard
+- 工作没有成就感离职
+- 工作没有成就感 ptt
+
+## /meaning/dont-know-want
+
+- axis: worry
+- base queries: 不知道自己想要什么, 不知道自己想做什么, 没有想做的事, 找不到自己的真实想法
+- google suggestions: 10
+- usable candidates: 11
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 不知道自己想要什么
+- 不知道自己想做什么
+- 没有想做的事
+- 找不到自己的真实想法
+- 不知道自己想要什么dcard
+- 不知道自己想要什么感情
+- 不知道自己想要什么ptt
+- 不知道自己想做什么工作
+- 不知道自己想做什么工作 dcard
+- 没有想做的事情
+- 没有想做的事 ptt
+
+## /meaning/emptiness
+
+- axis: worry
+- base queries: 内心空虚怎么办, 感觉很空, 什么都提不起兴趣, 做什么都不满足
+- google suggestions: 1
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 内心空虚怎么办
+- 感觉很空
+- 什么都提不起兴趣
+- 做什么都不满足
+
+## /meaning/no-goal
+
+- axis: worry
+- base queries: 没有人生目标, 找不到目标怎么办, 没有梦想很焦虑, 不知道该追求什么
+- google suggestions: 5
+- usable candidates: 6
+- review candidates: 0
+- low-signal candidates: 1
+
+### Usable candidates
+
+- 没有人生目标
+- 找不到目标怎么办
+- 没有梦想很焦虑
+- 不知道该追求什么
+- 没有人生目标怎么办
+- 没有人生目标 ptt
+
+### Low-signal candidates
+
+- 没有人生目标 英文
+
+## /meaning/wandering
+
+- axis: worry
+- base queries: 人生迷茫怎么办, 不知道方向, 对未来很迷茫, 感觉自己在漂泊
+- google suggestions: 2
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 人生迷茫怎么办
+- 不知道方向
+- 对未来很迷茫
+- 感觉自己在漂泊
+
+## /family/holiday-stress
+
+- axis: worry
+- base queries: 过年回家压力, 春节家庭压力, 亲戚问问题很烦, 回家过年焦虑
+- google suggestions: 0
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 过年回家压力
+- 春节家庭压力
+- 亲戚问问题很烦
+- 回家过年焦虑
+
+## /family/family-cutoff
+
+- axis: worry
+- base queries: 想和家人断绝关系, 和父母断联, 原生家庭想远离, 要不要和家人断联
+- google suggestions: 0
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+- cluster hints: family/family-of-origin 1
+
+### Usable candidates
+
+- 想和家人断绝关系
+- 和父母断联
+- 原生家庭想远离
+- 要不要和家人断联
+
+## /family/mother-conflict
+
+- axis: worry
+- base queries: 和妈妈合不来, 妈妈让我很累, 总和妈妈吵架, 想和妈妈保持距离
+- google suggestions: 0
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 和妈妈合不来
+- 妈妈让我很累
+- 总和妈妈吵架
+- 想和妈妈保持距离
+
+## /body/body-anxiety
+
+- axis: worry
+- base queries: 讨厌自己的外貌, 身材焦虑怎么办, 外貌焦虑, 不喜欢自己的身体
+- google suggestions: 7
+- usable candidates: 6
+- review candidates: 0
+- low-signal candidates: 3
+
+### Usable candidates
+
+- 讨厌自己的外貌
+- 身材焦虑怎么办
+- 外貌焦虑
+- 不喜欢自己的身体
+- 外貌焦虑症
+- 外貌焦虑 dcard
+
+### Low-signal candidates
+
+- 外貌焦虑 英文
+- 外貌焦虑症测试
+- 外貌焦虑症 英文
+
+## /body/aging-anxiety
+
+- axis: worry
+- base queries: 害怕变老, 年龄焦虑, 衰老焦虑, 害怕失去年轻
+- google suggestions: 11
+- usable candidates: 11
+- review candidates: 0
+- low-signal candidates: 2
+
+### Usable candidates
+
+- 害怕变老
+- 年龄焦虑
+- 衰老焦虑
+- 害怕失去年轻
+- 害怕变老dcard
+- 害怕变老 ptt
+- 年龄焦虑dcard
+- 年龄焦虑ptt
+- 年龄焦虑 lihkg
+- 女生 年龄焦虑
+- 30岁 年龄焦虑
+
+### Low-signal candidates
+
+- 年龄焦虑 英文
+- 年龄焦虑 日语
+
+## /body/hair-loss-stress
+
+- axis: worry
+- base queries: 脱发焦虑, 掉头发很焦虑, 害怕秃头, 头发变少压力大
+- google suggestions: 0
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 脱发焦虑
+- 掉头发很焦虑
+- 害怕秃头
+- 头发变少压力大
+
+## /career/dream-reality
+
+- axis: worry
+- base queries: 要不要放弃梦想, 梦想和现实冲突, 喜欢的事能不能当工作, 年龄大了还追梦吗
+- google suggestions: 0
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 要不要放弃梦想
+- 梦想和现实冲突
+- 喜欢的事能不能当工作
+- 年龄大了还追梦吗
+
+## /career/regret-free-choice
+
+- axis: worry
+- base queries: 怎么做不后悔的选择, 害怕选错, 无论选哪个都会后悔, 人生选择困难
+- google suggestions: 0
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 怎么做不后悔的选择
+- 害怕选错
+- 无论选哪个都会后悔
+- 人生选择困难
+
+## /debate/euthanasia
+
+- axis: debate
+- base queries: 安乐死 应不应该合法, 安乐死 争议, 尊严死 讨论, 生命自主权 安乐死
+- google suggestions: 11
+- usable candidates: 13
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 安乐死 应不应该合法
+- 安乐死 争议
+- 尊严死 讨论
+- 生命自主权 安乐死
+- 安乐死争议案例
+- 安乐死 争议 点
+- 安乐死 争议 新闻
+- 安乐死 争议 香港
+- 安乐死 争议 道德
+- 瑞士 安乐死 争议
+- 台湾 安乐死 争议
+- 荷兰 安乐死 争议
+- 动物 安乐死 争议
+
+## /debate/death-penalty
+
+- axis: debate
+- base queries: 死刑 应不应该保留, 死刑废除争议, 死刑和冤案, 死刑正义吗
+- google suggestions: 0
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 死刑 应不应该保留
+- 死刑废除争议
+- 死刑和冤案
+- 死刑正义吗
+
+## /debate/abortion
+
+- axis: debate
+- base queries: 堕胎 应该允许吗, 人工流产 争议, 堕胎权, 胎儿生命和女性自主
+- google suggestions: 7
+- usable candidates: 9
+- review candidates: 0
+- low-signal candidates: 1
+
+### Usable candidates
+
+- 堕胎 应该允许吗
+- 人工流产 争议
+- 堕胎权
+- 胎儿生命和女性自主
+- 堕胎权台湾
+- 堕胎权 ptt
+- 堕胎权 美国
+- 特朗普 堕胎权
+- 法国 堕胎权
+
+### Low-signal candidates
+
+- 堕胎权 英文
+
+## /debate/animal-testing
+
+- axis: debate
+- base queries: 动物实验 应不应该, 动物实验 争议, 动物实验伦理, 化妆品动物实验
+- google suggestions: 1
+- usable candidates: 5
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 动物实验 应不应该
+- 动物实验 争议
+- 动物实验伦理
+- 化妆品动物实验
+- 动物实验争议
+
+## /debate/juvenile-offenders
+
+- axis: debate
+- base queries: 未成年人犯罪该不该严惩, 少年犯刑责年龄, 未成年犯罪责任, 少年法争议
+- google suggestions: 0
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 未成年人犯罪该不该严惩
+- 少年犯刑责年龄
+- 未成年犯罪责任
+- 少年法争议
+
+## /debate/meritocracy
+
+- axis: debate
+- base queries: 能力主义公平吗, 努力一定有回报吗, 能力主义批判, 起点差异与公平
+- google suggestions: 0
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 能力主义公平吗
+- 努力一定有回报吗
+- 能力主义批判
+- 起点差异与公平
+
+## /debate/basic-income
+
+- axis: debate
+- base queries: 基本收入 应不应该, 全民基本收入 争议, 基本收入资金来源, 基本收入会不会让人不工作
+- google suggestions: 0
+- usable candidates: 0
+- review candidates: 4
+- low-signal candidates: 0
+
+### Usable candidates
+
+
+### Review candidates
+
+- 基本收入 应不应该
+- 全民基本收入 争议
+- 基本收入资金来源
+- 基本收入会不会让人不工作
+
+## /debate/ai-art
+
+- axis: debate
+- base queries: AI绘画算艺术吗, AI艺术版权争议, 生成式AI创作伦理, AI画师争议
+- google suggestions: 0
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- AI绘画算艺术吗
+- AI艺术版权争议
+- 生成式AI创作伦理
+- AI画师争议
+
+## /debate/cohabitation
+
+- axis: debate
+- base queries: 婚前同居可以吗, 婚前同居利弊, 同居和婚姻责任, 同居会影响关系吗
+- google suggestions: 0
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 婚前同居可以吗
+- 婚前同居利弊
+- 同居和婚姻责任
+- 同居会影响关系吗
+
+## /debate/vegetarianism
+
+- axis: debate
+- base queries: 素食是不是道德义务, 吃肉伦理, 纯素主义争议, 素食环保
+- google suggestions: 2
+- usable candidates: 6
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 素食是不是道德义务
+- 吃肉伦理
+- 纯素主义争议
+- 素食环保
+- 素食环保救地球
+- 素食 环保
+
+## /debate/parent-support
+
+- axis: debate
+- base queries: 子女有赡养父母义务吗, 赡养父母责任, 父母养老谁负责, 不想赡养父母
+- google suggestions: 0
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+- cluster hints: family/filial-duty 3
+
+### Usable candidates
+
+- 子女有赡养父母义务吗
+- 赡养父母责任
+- 父母养老谁负责
+- 不想赡养父母
+
+## /debate/pet-euthanasia
+
+- axis: debate
+- base queries: 宠物安乐死该不该, 狗狗安乐死怎么决定, 宠物痛苦要不要安乐死, 动物安乐死伦理
+- google suggestions: 0
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 宠物安乐死该不该
+- 狗狗安乐死怎么决定
+- 宠物痛苦要不要安乐死
+- 动物安乐死伦理
+
+## /debate/cancel-culture
+
+- axis: debate
+- base queries: 取消文化 争议, 网络抵制算不算审判, 取消文化和言论自由, 追责还是网暴
+- google suggestions: 0
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 取消文化 争议
+- 网络抵制算不算审判
+- 取消文化和言论自由
+- 追责还是网暴
+
+## /debate/nice-people-finish-last
+
+- axis: debate
+- base queries: 好人是不是吃亏, 太善良会被利用, 做好人有用吗, 善良和软弱区别
+- google suggestions: 0
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 好人是不是吃亏
+- 太善良会被利用
+- 做好人有用吗
+- 善良和软弱区别
 

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T06:05:52.155Z",
+  "generatedAt": "2026-06-22T06:26:14.013Z",
   "sourceLocales": [
     "ja-JP",
     "zh-CN",
@@ -8,16 +8,17 @@
     "de-DE"
   ],
   "totals": {
-    "routes": 59,
-    "localeRows": 295,
-    "candidatePhrases": 4458,
-    "usableCandidatePhrases": 3996,
-    "reviewCandidatePhrases": 306,
-    "lowSignalCandidatePhrases": 156
+    "routes": 89,
+    "localeRows": 445,
+    "candidatePhrases": 6254,
+    "usableCandidatePhrases": 5595,
+    "reviewCandidatePhrases": 453,
+    "lowSignalCandidatePhrases": 206
   },
   "commonSignals": [
     "debate/remote-work",
     "family/parent-conflict",
+    "meaning/emptiness",
     "breakup/ghosting",
     "debate/childfree",
     "study/exam-anxiety",
@@ -26,12 +27,12 @@
     "money/future-anxiety",
     "thought/happiness",
     "family/independence",
-    "work/dont-want-to",
-    "body/insomnia"
+    "work/dont-want-to"
   ],
   "strongestSignals": [
     "debate/remote-work",
     "family/parent-conflict",
+    "meaning/emptiness",
     "breakup/ghosting",
     "debate/childfree",
     "study/exam-anxiety",
@@ -40,8 +41,7 @@
     "money/future-anxiety",
     "thought/happiness",
     "family/independence",
-    "work/dont-want-to",
-    "body/insomnia"
+    "work/dont-want-to"
   ],
   "localeHighlights": {
     "ja-JP": [
@@ -57,6 +57,13 @@
         "route": "/study/exam-anxiety",
         "usableCount": 26,
         "candidateCount": 31,
+        "clusterHintCount": 1
+      },
+      {
+        "key": "debate/parent-support",
+        "route": "/debate/parent-support",
+        "usableCount": 4,
+        "candidateCount": 4,
         "clusterHintCount": 1
       },
       {
@@ -79,16 +86,16 @@
         "usableCount": 31,
         "candidateCount": 34,
         "clusterHintCount": 0
-      },
-      {
-        "key": "self-esteem/self-hate",
-        "route": "/self-esteem/self-hate",
-        "usableCount": 30,
-        "candidateCount": 33,
-        "clusterHintCount": 0
       }
     ],
     "zh-CN": [
+      {
+        "key": "debate/parent-support",
+        "route": "/debate/parent-support",
+        "usableCount": 4,
+        "candidateCount": 4,
+        "clusterHintCount": 3
+      },
       {
         "key": "family/parent-conflict",
         "route": "/family/parent-conflict",
@@ -111,24 +118,17 @@
         "clusterHintCount": 1
       },
       {
+        "key": "family/family-cutoff",
+        "route": "/family/family-cutoff",
+        "usableCount": 4,
+        "candidateCount": 4,
+        "clusterHintCount": 1
+      },
+      {
         "key": "debate/marriage",
         "route": "/debate/marriage",
         "usableCount": 13,
         "candidateCount": 15,
-        "clusterHintCount": 0
-      },
-      {
-        "key": "meaning/no-motivation",
-        "route": "/meaning/no-motivation",
-        "usableCount": 13,
-        "candidateCount": 13,
-        "clusterHintCount": 0
-      },
-      {
-        "key": "body/insomnia",
-        "route": "/body/insomnia",
-        "usableCount": 13,
-        "candidateCount": 13,
         "clusterHintCount": 0
       }
     ],
@@ -146,6 +146,13 @@
         "usableCount": 13,
         "candidateCount": 14,
         "clusterHintCount": 12
+      },
+      {
+        "key": "meaning/emptiness",
+        "route": "/meaning/emptiness",
+        "usableCount": 24,
+        "candidateCount": 32,
+        "clusterHintCount": 10
       },
       {
         "key": "family/independence",
@@ -166,13 +173,6 @@
         "route": "/meaning/meaningless",
         "usableCount": 22,
         "candidateCount": 26,
-        "clusterHintCount": 1
-      },
-      {
-        "key": "study/exam-anxiety",
-        "route": "/study/exam-anxiety",
-        "usableCount": 21,
-        "candidateCount": 22,
         "clusterHintCount": 1
       }
     ],
@@ -199,6 +199,13 @@
         "clusterHintCount": 12
       },
       {
+        "key": "meaning/emptiness",
+        "route": "/meaning/emptiness",
+        "usableCount": 23,
+        "candidateCount": 27,
+        "clusterHintCount": 10
+      },
+      {
         "key": "money/future-anxiety",
         "route": "/money/future-anxiety",
         "usableCount": 23,
@@ -211,13 +218,6 @@
         "usableCount": 13,
         "candidateCount": 14,
         "clusterHintCount": 3
-      },
-      {
-        "key": "debate/childfree",
-        "route": "/debate/childfree",
-        "usableCount": 16,
-        "candidateCount": 19,
-        "clusterHintCount": 2
       }
     ],
     "de-DE": [
@@ -266,6 +266,346 @@
     ]
   },
   "routes": [
+    {
+      "key": "body/aging-anxiety",
+      "route": "/body/aging-anxiety",
+      "slot": "body/aging-anxiety",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 7,
+          "usableCount": 6,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "老いるのが怖い",
+            "年を取るのが不安",
+            "老化 不安",
+            "若さを失うのが怖い",
+            "老いるのが怖い 病気",
+            "老化 不安障害"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 13,
+          "usableCount": 11,
+          "reviewCount": 0,
+          "lowSignalCount": 2,
+          "clusterHints": {},
+          "topPhrases": [
+            "害怕变老",
+            "年龄焦虑",
+            "衰老焦虑",
+            "害怕失去年轻",
+            "害怕变老dcard",
+            "害怕变老 ptt"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 14,
+          "usableCount": 12,
+          "reviewCount": 2,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "miedo a envejecer",
+            "ansiedad por la edad",
+            "me da miedo perder la juventud",
+            "crisis por hacerse mayor",
+            "miedo a envejecer mujeres",
+            "miedo a envejecer y morir"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 18,
+          "usableCount": 17,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "peur de vieillir",
+            "anxiété liée à l'âge",
+            "peur de perdre sa jeunesse",
+            "crise de l'âge",
+            "peur de vieillir et de mourir",
+            "peur de vieillir seule"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 9,
+          "usableCount": 8,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "angst vor dem älterwerden",
+            "altersangst",
+            "angst jung zu verlieren",
+            "krise wegen alter",
+            "keine angst vor dem älterwerden",
+            "cicero keine angst vor dem älterwerden"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 61,
+      "totalUsable": 54,
+      "totalReview": 5,
+      "totalLowSignal": 2,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "fr-FR",
+          "usableCount": 17,
+          "candidateCount": 18
+        },
+        {
+          "locale": "es-ES",
+          "usableCount": 12,
+          "candidateCount": 14
+        },
+        {
+          "locale": "zh-CN",
+          "usableCount": 11,
+          "candidateCount": 13
+        }
+      ],
+      "strength": "moderate",
+      "score": 204
+    },
+    {
+      "key": "body/body-anxiety",
+      "route": "/body/body-anxiety",
+      "slot": "body/body-anxiety",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 16,
+          "usableCount": 12,
+          "reviewCount": 3,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "自分の見た目が嫌い",
+            "外見コンプレックス",
+            "体型 気になる つらい",
+            "自分の体が嫌い",
+            "自分の見た目が嫌い 病気",
+            "外見コンプレックス 男"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 9,
+          "usableCount": 6,
+          "reviewCount": 0,
+          "lowSignalCount": 3,
+          "clusterHints": {},
+          "topPhrases": [
+            "讨厌自己的外貌",
+            "身材焦虑怎么办",
+            "外貌焦虑",
+            "不喜欢自己的身体",
+            "外貌焦虑症",
+            "外貌焦虑 dcard"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 21,
+          "usableCount": 16,
+          "reviewCount": 3,
+          "lowSignalCount": 2,
+          "clusterHints": {},
+          "topPhrases": [
+            "odio mi cuerpo",
+            "inseguridad con mi cuerpo",
+            "complejo físico",
+            "ansiedad por mi apariencia",
+            "odio mi cuerpo 1974",
+            "odio mi cuerpo reparto"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 32,
+          "usableCount": 30,
+          "reviewCount": 1,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "je déteste mon corps",
+            "complexe physique",
+            "anxiété liée à l'apparence",
+            "je n'aime pas mon apparence",
+            "je déteste mon corps après accouchement",
+            "je déteste mon corps enceinte"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 14,
+          "usableCount": 13,
+          "reviewCount": 0,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "ich hasse meinen körper",
+            "körperbild angst",
+            "komplexe wegen aussehen",
+            "ich mag mein aussehen nicht",
+            "ich hasse meinen körper ard",
+            "ich hasse meinen körper was tun"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 92,
+      "totalUsable": 77,
+      "totalReview": 7,
+      "totalLowSignal": 8,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "fr-FR",
+          "usableCount": 30,
+          "candidateCount": 32
+        },
+        {
+          "locale": "es-ES",
+          "usableCount": 16,
+          "candidateCount": 21
+        },
+        {
+          "locale": "de-DE",
+          "usableCount": 13,
+          "candidateCount": 14
+        }
+      ],
+      "strength": "strong",
+      "score": 227
+    },
+    {
+      "key": "body/hair-loss-stress",
+      "route": "/body/hair-loss-stress",
+      "slot": "body/hair-loss-stress",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 13,
+          "usableCount": 12,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "薄毛 ストレス",
+            "抜け毛 不安",
+            "ハゲるのが怖い",
+            "髪が薄くなってつらい",
+            "薄毛 ストレス 治る",
+            "薄毛 ストレス 改善"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "脱发焦虑",
+            "掉头发很焦虑",
+            "害怕秃头",
+            "头发变少压力大"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 6,
+          "usableCount": 6,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "ansiedad por caída del pelo",
+            "miedo a quedarme calvo",
+            "pérdida de cabello autoestima",
+            "estrés por alopecia",
+            "ansiedad caida del pelo",
+            "tengo miedo a quedarse calvo"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 18,
+          "usableCount": 17,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "anxiété perte de cheveux",
+            "peur de devenir chauve",
+            "perte de cheveux estime de soi",
+            "stress alopécie",
+            "stress perte de cheveux",
+            "stress perte de cheveux homme"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 12,
+          "usableCount": 12,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "haarausfall angst",
+            "angst kahl zu werden",
+            "haarausfall selbstwert",
+            "stress wegen haarausfall",
+            "haarausfall angststörung",
+            "haarausfall angst vor haare waschen"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 53,
+      "totalUsable": 51,
+      "totalReview": 2,
+      "totalLowSignal": 0,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "fr-FR",
+          "usableCount": 17,
+          "candidateCount": 18
+        },
+        {
+          "locale": "ja-JP",
+          "usableCount": 12,
+          "candidateCount": 13
+        },
+        {
+          "locale": "de-DE",
+          "usableCount": 12,
+          "candidateCount": 12
+        }
+      ],
+      "strength": "moderate",
+      "score": 201
+    },
     {
       "key": "body/health-anxiety",
       "route": "/body/health-anxiety",
@@ -1400,6 +1740,446 @@
       "score": 215
     },
     {
+      "key": "career/dream-reality",
+      "route": "/career/dream-reality",
+      "slot": "career/dream-reality",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 7,
+          "usableCount": 6,
+          "reviewCount": 0,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "夢を諦めるべきか",
+            "夢と現実 迷う",
+            "好きなこと 仕事 不安",
+            "年齢 夢 諦める",
+            "夢 を 諦める 年齢",
+            "夢 諦める 年齢"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "要不要放弃梦想",
+            "梦想和现实冲突",
+            "喜欢的事能不能当工作",
+            "年龄大了还追梦吗"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "renunciar a mi sueño o seguir",
+            "sueño versus realidad",
+            "trabajar en lo que amo o ser realista",
+            "miedo a perseguir mi sueño"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 13,
+          "usableCount": 11,
+          "reviewCount": 2,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "abandonner son rêve ou continuer",
+            "rêve et réalité",
+            "vivre de sa passion ou être réaliste",
+            "peur de poursuivre son rêve",
+            "rêve et réalité comines",
+            "rêve et réalité champeaux"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 13,
+          "usableCount": 13,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "traum aufgeben oder weitermachen",
+            "traum und realität",
+            "leidenschaft zum beruf machen oder realistisch sein",
+            "angst dem traum zu folgen",
+            "traum und realität nicht unterscheiden können",
+            "traum und realität verschwimmt"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 41,
+      "totalUsable": 38,
+      "totalReview": 2,
+      "totalLowSignal": 1,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "de-DE",
+          "usableCount": 13,
+          "candidateCount": 13
+        },
+        {
+          "locale": "fr-FR",
+          "usableCount": 11,
+          "candidateCount": 13
+        },
+        {
+          "locale": "ja-JP",
+          "usableCount": 6,
+          "candidateCount": 7
+        }
+      ],
+      "strength": "emerging",
+      "score": 188
+    },
+    {
+      "key": "career/regret-free-choice",
+      "route": "/career/regret-free-choice",
+      "slot": "career/regret-free-choice",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 14,
+          "usableCount": 13,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "後悔しない選択",
+            "選択 後悔 怖い",
+            "どっちを選んでも後悔しそう",
+            "人生 選択 迷う",
+            "後悔しない選択を",
+            "後悔しない選択をするんじゃなくて選択したからにはその選択を後悔しないようにするしかない"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "怎么做不后悔的选择",
+            "害怕选错",
+            "无论选哪个都会后悔",
+            "人生选择困难"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "cómo tomar una decisión sin arrepentirme",
+            "miedo a elegir mal",
+            "cualquier opción me hará arrepentirme",
+            "decisión importante bloqueado"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 5,
+          "usableCount": 5,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "comment choisir sans regret",
+            "peur de faire le mauvais choix",
+            "je vais regretter quoi que je choisisse",
+            "bloqué devant une décision",
+            "j'ai.peur de faire le.mauvais choix"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 5,
+          "usableCount": 5,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "entscheidung ohne reue treffen",
+            "angst falsch zu entscheiden",
+            "ich werde jede wahl bereuen",
+            "wichtige entscheidung blockiert",
+            "angst sich falsch zu entscheiden"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 32,
+      "totalUsable": 31,
+      "totalReview": 1,
+      "totalLowSignal": 0,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "ja-JP",
+          "usableCount": 13,
+          "candidateCount": 14
+        },
+        {
+          "locale": "fr-FR",
+          "usableCount": 5,
+          "candidateCount": 5
+        },
+        {
+          "locale": "de-DE",
+          "usableCount": 5,
+          "candidateCount": 5
+        }
+      ],
+      "strength": "emerging",
+      "score": 181
+    },
+    {
+      "key": "debate/abortion",
+      "route": "/debate/abortion",
+      "slot": "debate/abortion",
+      "axis": "debate",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 11,
+          "usableCount": 10,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "中絶 賛成 反対",
+            "人工妊娠中絶 議論",
+            "中絶 権利",
+            "胎児 生命 自己決定",
+            "中絶 権利 アメリカ",
+            "中絶 胎児 の 権利"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 10,
+          "usableCount": 9,
+          "reviewCount": 0,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "堕胎 应该允许吗",
+            "人工流产 争议",
+            "堕胎权",
+            "胎儿生命和女性自主",
+            "堕胎权台湾",
+            "堕胎权 ptt"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 30,
+          "usableCount": 27,
+          "reviewCount": 3,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "aborto debate",
+            "aborto a favor y en contra",
+            "derecho al aborto",
+            "vida fetal autonomía mujer",
+            "aborto debate a favor",
+            "aborto debate en contra"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 25,
+          "usableCount": 24,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "avortement débat",
+            "avortement pour ou contre",
+            "droit à l'avortement",
+            "vie du fœtus autonomie",
+            "avortement debat pour contre",
+            "débat avortement arguments contre"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 29,
+          "usableCount": 28,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "abtreibung debatte",
+            "abtreibung pro contra",
+            "recht auf abtreibung",
+            "ungeborenes leben selbstbestimmung",
+            "abtreibung debatte bundestag",
+            "debatte abtreibung deutschland"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 105,
+      "totalUsable": 98,
+      "totalReview": 6,
+      "totalLowSignal": 1,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "de-DE",
+          "usableCount": 28,
+          "candidateCount": 29
+        },
+        {
+          "locale": "es-ES",
+          "usableCount": 27,
+          "candidateCount": 30
+        },
+        {
+          "locale": "fr-FR",
+          "usableCount": 24,
+          "candidateCount": 25
+        }
+      ],
+      "strength": "strong",
+      "score": 248
+    },
+    {
+      "key": "debate/ai-art",
+      "route": "/debate/ai-art",
+      "slot": "debate/ai-art",
+      "axis": "debate",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "AIイラストは芸術か",
+            "AIアート 著作権",
+            "AI絵師 議論",
+            "生成AI 創作 倫理"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "AI绘画算艺术吗",
+            "AI艺术版权争议",
+            "生成式AI创作伦理",
+            "AI画师争议"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 9,
+          "usableCount": 9,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "arte generado por IA debate",
+            "la IA puede hacer arte",
+            "derechos de autor arte IA",
+            "artistas y inteligencia artificial",
+            "porque la ia no puede hacer arte",
+            "artistas inteligencia artificial"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "art généré par IA débat",
+            "l'IA peut-elle créer de l'art",
+            "droit d'auteur art IA",
+            "artistes et intelligence artificielle"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 6,
+          "usableCount": 6,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "KI kunst debatte",
+            "kann KI kunst schaffen",
+            "urheberrecht KI kunst",
+            "künstler und künstliche intelligenz",
+            "kann ki kunst oder musik schaffen wie",
+            "künstler künstliche intelligenz"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 27,
+      "totalUsable": 27,
+      "totalReview": 0,
+      "totalLowSignal": 0,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "es-ES",
+          "usableCount": 9,
+          "candidateCount": 9
+        },
+        {
+          "locale": "de-DE",
+          "usableCount": 6,
+          "candidateCount": 6
+        },
+        {
+          "locale": "ja-JP",
+          "usableCount": 4,
+          "candidateCount": 4
+        }
+      ],
+      "strength": "emerging",
+      "score": 177
+    },
+    {
       "key": "debate/ai-replacement",
       "route": "/debate/ai-replacement",
       "slot": "debate/ai-replacement",
@@ -1512,6 +2292,332 @@
       ],
       "strength": "moderate",
       "score": 200
+    },
+    {
+      "key": "debate/animal-testing",
+      "route": "/debate/animal-testing",
+      "slot": "debate/animal-testing",
+      "axis": "debate",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 22,
+          "usableCount": 18,
+          "reviewCount": 4,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "動物実験 賛成 反対",
+            "動物実験 必要か",
+            "動物実験 倫理",
+            "化粧品 動物実験",
+            "動物実験 倫理委員会",
+            "動物実験 倫理的問題"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 5,
+          "usableCount": 5,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "动物实验 应不应该",
+            "动物实验 争议",
+            "动物实验伦理",
+            "化妆品动物实验",
+            "动物实验争议"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 12,
+          "usableCount": 11,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "experimentación animal debate",
+            "experimentos con animales pros y contras",
+            "ética de la experimentación animal",
+            "pruebas en animales cosméticos",
+            "experimentación animal debate en contra",
+            "experimentación animal debate a favor"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 15,
+          "usableCount": 8,
+          "reviewCount": 0,
+          "lowSignalCount": 7,
+          "clusterHints": {},
+          "topPhrases": [
+            "expérimentation animale débat",
+            "tests sur animaux pour ou contre",
+            "éthique expérimentation animale",
+            "cosmétiques tests animaux",
+            "expérimentation animale arguments contre",
+            "animal experimentation arguments"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 23,
+          "usableCount": 22,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "tierversuche debatte",
+            "tierversuche pro contra",
+            "ethik tierversuche",
+            "tierversuche kosmetik",
+            "tierversuche pro contra argumente tabelle",
+            "tierversuche pro contra argumente"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 77,
+      "totalUsable": 64,
+      "totalReview": 6,
+      "totalLowSignal": 7,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "de-DE",
+          "usableCount": 22,
+          "candidateCount": 23
+        },
+        {
+          "locale": "ja-JP",
+          "usableCount": 18,
+          "candidateCount": 22
+        },
+        {
+          "locale": "es-ES",
+          "usableCount": 11,
+          "candidateCount": 12
+        }
+      ],
+      "strength": "moderate",
+      "score": 214
+    },
+    {
+      "key": "debate/basic-income",
+      "route": "/debate/basic-income",
+      "slot": "debate/basic-income",
+      "axis": "debate",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 12,
+          "usableCount": 10,
+          "reviewCount": 2,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "ベーシックインカム 賛成 反対",
+            "ベーシックインカム 財源",
+            "働かなくなる 議論",
+            "ベーシックインカム 財源 どこから",
+            "ベーシックインカム 財源確保",
+            "ベーシックインカム 財源 試算"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 0,
+          "reviewCount": 4,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": []
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 7,
+          "usableCount": 7,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "renta básica universal debate",
+            "renta básica pros y contras",
+            "ingreso básico universal financiación",
+            "la renta básica desincentiva trabajar",
+            "la renta básica universal fundamentos debates y posibilidades",
+            "debate sobre la renta básica universal"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 5,
+          "usableCount": 5,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "revenu universel débat",
+            "revenu de base pour ou contre",
+            "financement revenu universel",
+            "revenu universel travail",
+            "revenu universel argument pour"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 14,
+          "usableCount": 14,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "bedingungsloses grundeinkommen debatte",
+            "grundeinkommen pro contra",
+            "finanzierung grundeinkommen",
+            "grundeinkommen arbeiten",
+            "bedingungsloses grundeinkommen pro contra",
+            "bedingungsloses grundeinkommen pro & contra tabelle"
+          ]
+        }
+      ],
+      "localeCoverage": 4,
+      "totalCandidate": 42,
+      "totalUsable": 36,
+      "totalReview": 6,
+      "totalLowSignal": 0,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "de-DE",
+          "usableCount": 14,
+          "candidateCount": 14
+        },
+        {
+          "locale": "ja-JP",
+          "usableCount": 10,
+          "candidateCount": 12
+        },
+        {
+          "locale": "es-ES",
+          "usableCount": 7,
+          "candidateCount": 7
+        }
+      ],
+      "strength": "emerging",
+      "score": 156
+    },
+    {
+      "key": "debate/cancel-culture",
+      "route": "/debate/cancel-culture",
+      "slot": "debate/cancel-culture",
+      "axis": "debate",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 5,
+          "usableCount": 5,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "キャンセルカルチャー 賛成 反対",
+            "炎上 罰しすぎ",
+            "表現の自由 キャンセル",
+            "責任追及と集団リンチ",
+            "キャンセルカルチャー 表現の自由"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "取消文化 争议",
+            "网络抵制算不算审判",
+            "取消文化和言论自由",
+            "追责还是网暴"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "cultura de la cancelación debate",
+            "cancel culture libertad de expresión",
+            "responsabilidad o linchamiento",
+            "funa en redes debate"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 13,
+          "usableCount": 13,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "cancel culture débat",
+            "culture de l'annulation liberté d'expression",
+            "responsabilité ou lynchage",
+            "boycott réseaux sociaux",
+            "cancel culture debat",
+            "cancel culture argument"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "cancel culture debatte",
+            "cancel culture meinungsfreiheit",
+            "verantwortung oder mobbing",
+            "online anprangerung debatte"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 30,
+      "totalUsable": 30,
+      "totalReview": 0,
+      "totalLowSignal": 0,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "fr-FR",
+          "usableCount": 13,
+          "candidateCount": 13
+        },
+        {
+          "locale": "ja-JP",
+          "usableCount": 5,
+          "candidateCount": 5
+        },
+        {
+          "locale": "zh-CN",
+          "usableCount": 4,
+          "candidateCount": 4
+        }
+      ],
+      "strength": "emerging",
+      "score": 180
     },
     {
       "key": "debate/childfree",
@@ -1636,6 +2742,229 @@
       "score": 338
     },
     {
+      "key": "debate/cohabitation",
+      "route": "/debate/cohabitation",
+      "slot": "debate/cohabitation",
+      "axis": "debate",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 9,
+          "usableCount": 9,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "同棲 結婚前 ありか",
+            "結婚前 同棲 メリット デメリット",
+            "同棲 責任",
+            "事実婚 同棲 違い",
+            "同棲 責任がない",
+            "同棲 責任感"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "婚前同居可以吗",
+            "婚前同居利弊",
+            "同居和婚姻责任",
+            "同居会影响关系吗"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 5,
+          "usableCount": 5,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "convivencia antes del matrimonio",
+            "vivir juntos antes de casarse pros y contras",
+            "convivencia responsabilidad pareja",
+            "unión libre debate",
+            "convivencia antes del matrimonio biblia"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 10,
+          "usableCount": 10,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "vivre ensemble avant le mariage",
+            "cohabitation avant mariage pour ou contre",
+            "concubinage responsabilité couple",
+            "vivre en couple sans se marier",
+            "vivre ensemble avant le mariage catholique",
+            "vivre ensemble avant le mariage islam"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 8,
+          "usableCount": 8,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "zusammenziehen vor der ehe",
+            "zusammenleben vor heirat pro contra",
+            "unverheiratet zusammenleben verantwortung",
+            "ehe oder zusammenleben",
+            "zusammenziehen vor der ehe bibel",
+            "was sagt die bibel zum zusammenziehen vor der ehe"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 36,
+      "totalUsable": 36,
+      "totalReview": 0,
+      "totalLowSignal": 0,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "fr-FR",
+          "usableCount": 10,
+          "candidateCount": 10
+        },
+        {
+          "locale": "ja-JP",
+          "usableCount": 9,
+          "candidateCount": 9
+        },
+        {
+          "locale": "de-DE",
+          "usableCount": 8,
+          "candidateCount": 8
+        }
+      ],
+      "strength": "emerging",
+      "score": 186
+    },
+    {
+      "key": "debate/death-penalty",
+      "route": "/debate/death-penalty",
+      "slot": "debate/death-penalty",
+      "axis": "debate",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 17,
+          "usableCount": 9,
+          "reviewCount": 7,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "死刑 廃止すべきか",
+            "死刑 冤罪",
+            "応報刑 議論",
+            "死刑 冤罪 執行",
+            "死刑 冤罪 実例",
+            "死刑 冤罪 例"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "死刑 应不应该保留",
+            "死刑废除争议",
+            "死刑和冤案",
+            "死刑正义吗"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 29,
+          "usableCount": 26,
+          "reviewCount": 3,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "pena de muerte debate",
+            "pena de muerte a favor y en contra",
+            "abolir la pena de muerte",
+            "pena de muerte errores judiciales",
+            "pena de muerte debate a favor",
+            "pena de muerte debate en contra"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 39,
+          "usableCount": 38,
+          "reviewCount": 0,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "peine de mort débat",
+            "peine de mort pour ou contre",
+            "abolition peine de mort",
+            "erreur judiciaire peine de mort",
+            "peine de mort debat pour ou contre",
+            "peine de mort debat pour"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 8,
+          "usableCount": 8,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "todesstrafe debatte",
+            "todesstrafe pro contra",
+            "todesstrafe abschaffen",
+            "justizirrtum todesstrafe",
+            "todesstrafe pro contra argumente",
+            "todesstrafe pro contra philosophie"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 97,
+      "totalUsable": 85,
+      "totalReview": 10,
+      "totalLowSignal": 2,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "fr-FR",
+          "usableCount": 38,
+          "candidateCount": 39
+        },
+        {
+          "locale": "es-ES",
+          "usableCount": 26,
+          "candidateCount": 29
+        },
+        {
+          "locale": "ja-JP",
+          "usableCount": 9,
+          "candidateCount": 17
+        }
+      ],
+      "strength": "strong",
+      "score": 235
+    },
+    {
       "key": "debate/employment-contract",
       "route": "/debate/employment-contract",
       "slot": "debate/employment-contract",
@@ -1752,6 +3081,227 @@
       "score": 213
     },
     {
+      "key": "debate/euthanasia",
+      "route": "/debate/euthanasia",
+      "slot": "debate/euthanasia",
+      "axis": "debate",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "安楽死 賛成 反対",
+            "安楽死 認めるべきか",
+            "尊厳死 議論",
+            "終末期 自己決定"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 13,
+          "usableCount": 13,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "安乐死 应不应该合法",
+            "安乐死 争议",
+            "尊严死 讨论",
+            "生命自主权 安乐死",
+            "安乐死争议案例",
+            "安乐死 争议 点"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 38,
+          "usableCount": 25,
+          "reviewCount": 13,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "eutanasia debate",
+            "eutanasia a favor y en contra",
+            "derecho a morir dignamente",
+            "eutanasia debate a favor",
+            "eutanasia debate en contra",
+            "eutanasia debate etico"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 30,
+          "usableCount": 24,
+          "reviewCount": 6,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "euthanasie débat",
+            "euthanasie pour ou contre",
+            "droit de mourir dans la dignité",
+            "légalisation de l'euthanasie",
+            "débat euthanasie assemblée nationale",
+            "débat euthanasie pour ou contre"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 15,
+          "usableCount": 15,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "euthanasie debatte",
+            "sterbehilfe pro contra",
+            "recht auf würdiges sterben",
+            "sollte sterbehilfe erlaubt sein",
+            "sterbehilfe pro contra unterricht",
+            "sterbehilfe pro contra argumente"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 100,
+      "totalUsable": 81,
+      "totalReview": 19,
+      "totalLowSignal": 0,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "es-ES",
+          "usableCount": 25,
+          "candidateCount": 38
+        },
+        {
+          "locale": "fr-FR",
+          "usableCount": 24,
+          "candidateCount": 30
+        },
+        {
+          "locale": "de-DE",
+          "usableCount": 15,
+          "candidateCount": 15
+        }
+      ],
+      "strength": "strong",
+      "score": 231
+    },
+    {
+      "key": "debate/juvenile-offenders",
+      "route": "/debate/juvenile-offenders",
+      "slot": "debate/juvenile-offenders",
+      "axis": "debate",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 15,
+          "usableCount": 15,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "少年犯罪 厳罰化",
+            "触法少年 処罰",
+            "少年法 引き下げ",
+            "未成年 犯罪 責任",
+            "少年犯罪 厳罰化 きっかけ",
+            "少年犯罪 厳罰化 なぜ"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "未成年人犯罪该不该严惩",
+            "少年犯刑责年龄",
+            "未成年犯罪责任",
+            "少年法争议"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 4,
+          "usableCount": 3,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "menores infractores debate",
+            "bajar edad penal menores",
+            "justicia juvenil castigo o rehabilitación"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 23,
+          "usableCount": 22,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "délinquance juvénile débat",
+            "responsabilité pénale des mineurs",
+            "punir ou réhabiliter les mineurs",
+            "justice des mineurs",
+            "juvenile crime debate",
+            "responsabilité pénale des mineurs en france"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 10,
+          "usableCount": 10,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "jugendstrafrecht debatte",
+            "strafmündigkeit senken",
+            "jugendliche straftäter bestrafen oder resozialisieren",
+            "minderjährige kriminelle verantwortung",
+            "strafmündigkeit senken pro und contra",
+            "strafmündigkeit senken österreich"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 56,
+      "totalUsable": 54,
+      "totalReview": 2,
+      "totalLowSignal": 0,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "fr-FR",
+          "usableCount": 22,
+          "candidateCount": 23
+        },
+        {
+          "locale": "ja-JP",
+          "usableCount": 15,
+          "candidateCount": 15
+        },
+        {
+          "locale": "de-DE",
+          "usableCount": 10,
+          "candidateCount": 10
+        }
+      ],
+      "strength": "moderate",
+      "score": 204
+    },
+    {
       "key": "debate/marriage",
       "route": "/debate/marriage",
       "slot": "debate/marriage",
@@ -1866,6 +3416,222 @@
       "score": 245
     },
     {
+      "key": "debate/meritocracy",
+      "route": "/debate/meritocracy",
+      "slot": "debate/meritocracy",
+      "axis": "debate",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "能力主義 公平か",
+            "メリトクラシー 批判",
+            "努力は報われるか",
+            "格差と能力主義"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "能力主义公平吗",
+            "努力一定有回报吗",
+            "能力主义批判",
+            "起点差异与公平"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 6,
+          "usableCount": 6,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "meritocracia es justa",
+            "crítica a la meritocracia",
+            "el esfuerzo siempre se recompensa",
+            "desigualdad y meritocracia",
+            "critica a la meritocracia",
+            "el esfuerzo siempre recompensa"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "méritocratie est-elle juste",
+            "critique de la méritocratie",
+            "l'effort est-il toujours récompensé",
+            "inégalités et mérite"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 5,
+          "usableCount": 5,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "meritokratie gerecht",
+            "kritik der meritokratie",
+            "lohnt sich leistung immer",
+            "ungleichheit und leistung",
+            "kritik meritokratie"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 23,
+      "totalUsable": 23,
+      "totalReview": 0,
+      "totalLowSignal": 0,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "es-ES",
+          "usableCount": 6,
+          "candidateCount": 6
+        },
+        {
+          "locale": "de-DE",
+          "usableCount": 5,
+          "candidateCount": 5
+        },
+        {
+          "locale": "ja-JP",
+          "usableCount": 4,
+          "candidateCount": 4
+        }
+      ],
+      "strength": "emerging",
+      "score": 173
+    },
+    {
+      "key": "debate/nice-people-finish-last",
+      "route": "/debate/nice-people-finish-last",
+      "slot": "debate/nice-people-finish-last",
+      "axis": "debate",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 9,
+          "usableCount": 9,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "優しい人 損をする",
+            "いい人は利用される",
+            "優しすぎる つらい",
+            "善人 損 議論",
+            "優しすぎる 辛い",
+            "彼女 優しすぎる 辛い"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "好人是不是吃亏",
+            "太善良会被利用",
+            "做好人有用吗",
+            "善良和软弱区别"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 5,
+          "usableCount": 5,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "ser buena persona es una desventaja",
+            "la gente buena termina última",
+            "ser demasiado bueno se aprovechan",
+            "bondad o debilidad",
+            "bondad debilidad"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 6,
+          "usableCount": 6,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "les gentils finissent-ils derniers",
+            "être trop gentil se faire avoir",
+            "bonté ou faiblesse",
+            "les bonnes personnes perdent-elles",
+            "les gentils finissent derniers",
+            "être trop gentil et se faire avoir"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "nette menschen verlieren immer",
+            "zu gutmütig ausgenutzt",
+            "nett sein nachteil",
+            "güte oder schwäche"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 28,
+      "totalUsable": 28,
+      "totalReview": 0,
+      "totalLowSignal": 0,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "ja-JP",
+          "usableCount": 9,
+          "candidateCount": 9
+        },
+        {
+          "locale": "fr-FR",
+          "usableCount": 6,
+          "candidateCount": 6
+        },
+        {
+          "locale": "es-ES",
+          "usableCount": 5,
+          "candidateCount": 5
+        }
+      ],
+      "strength": "emerging",
+      "score": 178
+    },
+    {
       "key": "debate/no-kids-zone",
       "route": "/debate/no-kids-zone",
       "slot": "debate/no-kids-zone",
@@ -1971,6 +3737,227 @@
       ],
       "strength": "emerging",
       "score": 176
+    },
+    {
+      "key": "debate/parent-support",
+      "route": "/debate/parent-support",
+      "slot": "debate/parent-support",
+      "axis": "debate",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {
+            "family/caregiving-burden": 1
+          },
+          "topPhrases": [
+            "親の扶養 義務",
+            "親の介護 子供 責任",
+            "老親 扶養 どこまで",
+            "親を支えるべきか"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {
+            "family/filial-duty": 3
+          },
+          "topPhrases": [
+            "子女有赡养父母义务吗",
+            "赡养父母责任",
+            "父母养老谁负责",
+            "不想赡养父母"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 13,
+          "usableCount": 12,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "obligación de mantener a los padres",
+            "cuidar padres ancianos responsabilidad hijos",
+            "hasta dónde ayudar a los padres",
+            "deber filial debate",
+            "obligacion de mantener a los padres",
+            "los hijos tienen obligación de mantener a los padres"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "obligation d'aider ses parents",
+            "s'occuper de parents âgés responsabilité enfants",
+            "jusqu'où soutenir ses parents",
+            "devoir filial débat"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "pflicht eltern zu unterstützen",
+            "pflege der eltern verantwortung kinder",
+            "wie weit eltern helfen",
+            "elternunterhalt debatte"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 29,
+      "totalUsable": 28,
+      "totalReview": 1,
+      "totalLowSignal": 0,
+      "clusterHints": {
+        "family/caregiving-burden": 1,
+        "family/filial-duty": 3
+      },
+      "totalClusterHints": 4,
+      "strongestLocales": [
+        {
+          "locale": "es-ES",
+          "usableCount": 12,
+          "candidateCount": 13
+        },
+        {
+          "locale": "ja-JP",
+          "usableCount": 4,
+          "candidateCount": 4
+        },
+        {
+          "locale": "zh-CN",
+          "usableCount": 4,
+          "candidateCount": 4
+        }
+      ],
+      "strength": "emerging",
+      "score": 202
+    },
+    {
+      "key": "debate/pet-euthanasia",
+      "route": "/debate/pet-euthanasia",
+      "slot": "debate/pet-euthanasia",
+      "axis": "debate",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "ペット 安楽死 迷う",
+            "犬 安楽死 すべきか",
+            "ペット 苦痛 延命",
+            "動物 安楽死 倫理"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "宠物安乐死该不该",
+            "狗狗安乐死怎么决定",
+            "宠物痛苦要不要安乐死",
+            "动物安乐死伦理"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 6,
+          "usableCount": 6,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "eutanasia mascota decisión",
+            "sacrificar perro por sufrimiento",
+            "eutanasia animal ética",
+            "cuándo dormir a una mascota",
+            "cuando dormir a una mascota",
+            "como saber cuando dormir a una mascota"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "euthanasie animal de compagnie décision",
+            "faire euthanasier son chien souffrance",
+            "euthanasie animale éthique",
+            "quand endormir un animal"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 7,
+          "usableCount": 7,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "haustier einschläfern entscheidung",
+            "hund einschläfern leid",
+            "tier euthanasie ethik",
+            "wann haustier einschläfern",
+            "hund leidet einschläfern",
+            "hund einschläfern bevor er leidet"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 25,
+      "totalUsable": 25,
+      "totalReview": 0,
+      "totalLowSignal": 0,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "de-DE",
+          "usableCount": 7,
+          "candidateCount": 7
+        },
+        {
+          "locale": "es-ES",
+          "usableCount": 6,
+          "candidateCount": 6
+        },
+        {
+          "locale": "ja-JP",
+          "usableCount": 4,
+          "candidateCount": 4
+        }
+      ],
+      "strength": "emerging",
+      "score": 175
     },
     {
       "key": "debate/remote-work",
@@ -2311,6 +4298,117 @@
       "score": 183
     },
     {
+      "key": "debate/vegetarianism",
+      "route": "/debate/vegetarianism",
+      "slot": "debate/vegetarianism",
+      "axis": "debate",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 5,
+          "usableCount": 5,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "ヴィーガン 倫理",
+            "菜食主義 賛成 反対",
+            "肉を食べる 倫理",
+            "環境と菜食",
+            "ヴィーガン 倫理 的"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 6,
+          "usableCount": 6,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "素食是不是道德义务",
+            "吃肉伦理",
+            "纯素主义争议",
+            "素食环保",
+            "素食环保救地球",
+            "素食 环保"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "veganismo debate ético",
+            "vegetarianismo obligación moral",
+            "comer carne ética",
+            "veganismo medio ambiente"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 8,
+          "usableCount": 8,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "véganisme débat éthique",
+            "végétarisme obligation morale",
+            "manger de la viande éthique",
+            "véganisme environnement",
+            "manger de la viande ethique",
+            "manger de la viande animale est il contraire à l éthique"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 10,
+          "usableCount": 10,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "veganismus ethik debatte",
+            "vegetarismus moralische pflicht",
+            "fleisch essen ethik",
+            "veganismus umwelt",
+            "fleisch essen pro contra ethik",
+            "veganismus umweltfreundlich"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 33,
+      "totalUsable": 33,
+      "totalReview": 0,
+      "totalLowSignal": 0,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "de-DE",
+          "usableCount": 10,
+          "candidateCount": 10
+        },
+        {
+          "locale": "fr-FR",
+          "usableCount": 8,
+          "candidateCount": 8
+        },
+        {
+          "locale": "zh-CN",
+          "usableCount": 6,
+          "candidateCount": 6
+        }
+      ],
+      "strength": "emerging",
+      "score": 183
+    },
+    {
       "key": "debate/white-lie",
       "route": "/debate/white-lie",
       "slot": "debate/white-lie",
@@ -2532,6 +4630,234 @@
       "score": 214
     },
     {
+      "key": "family/family-cutoff",
+      "route": "/family/family-cutoff",
+      "slot": "family/family-cutoff",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 13,
+          "usableCount": 11,
+          "reviewCount": 1,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "家族と縁を切りたい",
+            "毒親 距離を置く",
+            "家族 連絡 断つべきか",
+            "親と関わりたくない",
+            "家族と縁を切りたい 弁護士",
+            "家族と縁を切りたい 戸籍"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {
+            "family/family-of-origin": 1
+          },
+          "topPhrases": [
+            "想和家人断绝关系",
+            "和父母断联",
+            "原生家庭想远离",
+            "要不要和家人断联"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 6,
+          "usableCount": 6,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {
+            "family/family-of-origin": 1
+          },
+          "topPhrases": [
+            "cortar contacto con la familia",
+            "alejarme de mi familia tóxica",
+            "dejar de hablar con mis padres",
+            "culpa por alejarme de la familia",
+            "alejarme de mi familia toxica",
+            "alejarme de mi familia porque es toxica"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 18,
+          "usableCount": 12,
+          "reviewCount": 6,
+          "lowSignalCount": 0,
+          "clusterHints": {
+            "family/family-of-origin": 3
+          },
+          "topPhrases": [
+            "couper les ponts avec sa famille",
+            "ne plus parler à ses parents",
+            "culpabilité de couper avec sa famille",
+            "couper les ponts avec sa famille toxique",
+            "couper les ponts avec sa famille pour se protéger",
+            "couper les ponts avec sa famille forum"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 11,
+          "usableCount": 11,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "kontakt zur familie abbrechen",
+            "toxische familie abstand nehmen",
+            "mit eltern keinen kontakt mehr",
+            "schuldgefühle kontaktabbruch familie",
+            "kontakt zur familie abbrechen gründe",
+            "kontakt zur familie abbrechen erfahrungen"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 52,
+      "totalUsable": 44,
+      "totalReview": 7,
+      "totalLowSignal": 1,
+      "clusterHints": {
+        "family/family-of-origin": 5
+      },
+      "totalClusterHints": 5,
+      "strongestLocales": [
+        {
+          "locale": "fr-FR",
+          "usableCount": 12,
+          "candidateCount": 18
+        },
+        {
+          "locale": "ja-JP",
+          "usableCount": 11,
+          "candidateCount": 13
+        },
+        {
+          "locale": "de-DE",
+          "usableCount": 11,
+          "candidateCount": 11
+        }
+      ],
+      "strength": "moderate",
+      "score": 224
+    },
+    {
+      "key": "family/holiday-stress",
+      "route": "/family/holiday-stress",
+      "slot": "family/holiday-stress",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 13,
+          "usableCount": 13,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "年末年始 家族 ストレス",
+            "帰省 ストレス",
+            "親戚付き合い 疲れる",
+            "実家に帰るのがつらい",
+            "帰省 ストレス 自分の実家",
+            "帰省 ストレス なん j"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "过年回家压力",
+            "春节家庭压力",
+            "亲戚问问题很烦",
+            "回家过年焦虑"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 6,
+          "usableCount": 6,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "estrés familiar en navidad",
+            "reuniones familiares estrés",
+            "preguntas incómodas de la familia",
+            "ansiedad por visitar a la familia",
+            "preguntas incomodas de familia",
+            "preguntas incomodas para la familia"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "stress repas de famille",
+            "fêtes de famille angoisse",
+            "questions intrusives famille",
+            "rentrer dans sa famille stress"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "familienfeier stress",
+            "weihnachten familie stress",
+            "unangenehme fragen familie",
+            "heimfahren zur familie angst"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 31,
+      "totalUsable": 31,
+      "totalReview": 0,
+      "totalLowSignal": 0,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "ja-JP",
+          "usableCount": 13,
+          "candidateCount": 13
+        },
+        {
+          "locale": "es-ES",
+          "usableCount": 6,
+          "candidateCount": 6
+        },
+        {
+          "locale": "zh-CN",
+          "usableCount": 4,
+          "candidateCount": 4
+        }
+      ],
+      "strength": "emerging",
+      "score": 181
+    },
+    {
       "key": "family/independence",
       "route": "/family/independence",
       "slot": "family/independence",
@@ -2646,6 +4972,118 @@
       ],
       "strength": "moderate",
       "score": 276
+    },
+    {
+      "key": "family/mother-conflict",
+      "route": "/family/mother-conflict",
+      "slot": "family/mother-conflict",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 14,
+          "usableCount": 12,
+          "reviewCount": 0,
+          "lowSignalCount": 2,
+          "clusterHints": {},
+          "topPhrases": [
+            "母親と合わない",
+            "母親がしんどい",
+            "母親と喧嘩ばかり",
+            "母親 距離を置きたい",
+            "母親と合わない 長女",
+            "母親と合わない 30代"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "和妈妈合不来",
+            "妈妈让我很累",
+            "总和妈妈吵架",
+            "想和妈妈保持距离"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 8,
+          "usableCount": 8,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "no me llevo bien con mi madre",
+            "mi madre me agota",
+            "peleo mucho con mi mamá",
+            "poner límites a mi madre",
+            "porque no me llevo bien con mi madre",
+            "mi madre me agota psicológicamente"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 14,
+          "usableCount": 14,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "je ne m'entends pas avec ma mère",
+            "ma mère m'épuise",
+            "je me dispute avec ma mère",
+            "mettre des limites à ma mère",
+            "je ne m entends pas avec ma mère islam",
+            "pourquoi je ne m'entends pas avec ma mère"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 12,
+          "usableCount": 12,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "ich komme mit meiner mutter nicht klar",
+            "meine mutter belastet mich",
+            "ständig streit mit mutter",
+            "grenzen setzen mutter",
+            "ich komme mit meiner mutter nicht mehr klar",
+            "ich komme mit dem tod meiner mutter nicht klar"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 52,
+      "totalUsable": 50,
+      "totalReview": 0,
+      "totalLowSignal": 2,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "fr-FR",
+          "usableCount": 14,
+          "candidateCount": 14
+        },
+        {
+          "locale": "ja-JP",
+          "usableCount": 12,
+          "candidateCount": 14
+        },
+        {
+          "locale": "de-DE",
+          "usableCount": 12,
+          "candidateCount": 12
+        }
+      ],
+      "strength": "moderate",
+      "score": 200
     },
     {
       "key": "family/parent-conflict",
@@ -2824,9 +5262,9 @@
         {
           "locale": "fr-FR",
           "candidateCount": 33,
-          "usableCount": 24,
+          "usableCount": 23,
           "reviewCount": 7,
-          "lowSignalCount": 2,
+          "lowSignalCount": 3,
           "clusterHints": {},
           "topPhrases": [
             "peur de l'abandon en couple",
@@ -2856,15 +5294,15 @@
       ],
       "localeCoverage": 5,
       "totalCandidate": 98,
-      "totalUsable": 74,
+      "totalUsable": 73,
       "totalReview": 20,
-      "totalLowSignal": 4,
+      "totalLowSignal": 5,
       "clusterHints": {},
       "totalClusterHints": 0,
       "strongestLocales": [
         {
           "locale": "fr-FR",
-          "usableCount": 24,
+          "usableCount": 23,
           "candidateCount": 33
         },
         {
@@ -2879,7 +5317,7 @@
         }
       ],
       "strength": "strong",
-      "score": 224
+      "score": 223
     },
     {
       "key": "love/cant-confess",
@@ -3657,6 +6095,240 @@
       "score": 183
     },
     {
+      "key": "meaning/dont-know-want",
+      "route": "/meaning/dont-know-want",
+      "slot": "meaning/dont-know-want",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 22,
+          "usableCount": 17,
+          "reviewCount": 4,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "自分が何をしたいかわからない",
+            "何がしたいかわからない 人生",
+            "やりたいことがない",
+            "自分が何をしたいかわからない 仕事",
+            "自分が何をしたいかわからない 大学",
+            "自分が何をしたいかわからない 高校生"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 11,
+          "usableCount": 11,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "不知道自己想要什么",
+            "不知道自己想做什么",
+            "没有想做的事",
+            "找不到自己的真实想法",
+            "不知道自己想要什么dcard",
+            "不知道自己想要什么感情"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 32,
+          "usableCount": 26,
+          "reviewCount": 3,
+          "lowSignalCount": 3,
+          "clusterHints": {},
+          "topPhrases": [
+            "no sé qué quiero en la vida",
+            "no sé qué hacer con mi vida",
+            "no tengo ganas de nada",
+            "cómo saber lo que quiero",
+            "no sé que quiero en la vida",
+            "no sé que quiero hacer con mi vida"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 40,
+          "usableCount": 36,
+          "reviewCount": 2,
+          "lowSignalCount": 2,
+          "clusterHints": {},
+          "topPhrases": [
+            "je ne sais pas ce que je veux",
+            "je ne sais pas quoi faire de ma vie",
+            "je n'ai envie de rien",
+            "comment savoir ce que je veux",
+            "je ne sais pas ce que je veux faire de ma vie",
+            "je ne sais pas ce que je veux dans la vie"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 26,
+          "usableCount": 24,
+          "reviewCount": 1,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "ich weiß nicht was ich will",
+            "ich weiß nicht was ich mit meinem leben machen soll",
+            "ich habe keine ziele",
+            "herausfinden was ich will",
+            "ich weiß nicht was ich will im leben",
+            "ich weiß nicht was ich will beruflich"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 131,
+      "totalUsable": 114,
+      "totalReview": 10,
+      "totalLowSignal": 7,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "fr-FR",
+          "usableCount": 36,
+          "candidateCount": 40
+        },
+        {
+          "locale": "es-ES",
+          "usableCount": 26,
+          "candidateCount": 32
+        },
+        {
+          "locale": "de-DE",
+          "usableCount": 24,
+          "candidateCount": 26
+        }
+      ],
+      "strength": "very-strong",
+      "score": 264
+    },
+    {
+      "key": "meaning/emptiness",
+      "route": "/meaning/emptiness",
+      "slot": "meaning/emptiness",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 26,
+          "usableCount": 21,
+          "reviewCount": 4,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "心が空っぽ",
+            "空虚感 つらい",
+            "何をしても満たされない",
+            "虚しい 気持ち",
+            "心が空っぽ 言い換え",
+            "心が空っぽになる"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "内心空虚怎么办",
+            "感觉很空",
+            "什么都提不起兴趣",
+            "做什么都不满足"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 32,
+          "usableCount": 24,
+          "reviewCount": 4,
+          "lowSignalCount": 4,
+          "clusterHints": {
+            "meaning/existential-vacuum": 10
+          },
+          "topPhrases": [
+            "siento vacío por dentro",
+            "vacío existencial",
+            "nada me llena",
+            "me siento vacío sin razón",
+            "siento vacío por dentro mi amor",
+            "me siento vacio por dentro"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 27,
+          "usableCount": 23,
+          "reviewCount": 2,
+          "lowSignalCount": 2,
+          "clusterHints": {
+            "meaning/existential-vacuum": 10
+          },
+          "topPhrases": [
+            "je me sens vide",
+            "vide existentiel",
+            "rien ne me remplit",
+            "sentiment de vide intérieur",
+            "je me sens vide dans mon couple",
+            "je me sens vide et inutile"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 22,
+          "usableCount": 20,
+          "reviewCount": 1,
+          "lowSignalCount": 1,
+          "clusterHints": {
+            "meaning/existential-vacuum": 1
+          },
+          "topPhrases": [
+            "ich fühle mich leer",
+            "innere leere",
+            "nichts erfüllt mich",
+            "existenzielle leere",
+            "ich fühle mich leer und traurig",
+            "ich fühle mich leer und einsam"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 111,
+      "totalUsable": 92,
+      "totalReview": 11,
+      "totalLowSignal": 8,
+      "clusterHints": {
+        "meaning/existential-vacuum": 21
+      },
+      "totalClusterHints": 21,
+      "strongestLocales": [
+        {
+          "locale": "es-ES",
+          "usableCount": 24,
+          "candidateCount": 32
+        },
+        {
+          "locale": "fr-FR",
+          "usableCount": 23,
+          "candidateCount": 27
+        },
+        {
+          "locale": "ja-JP",
+          "usableCount": 21,
+          "candidateCount": 26
+        }
+      ],
+      "strength": "strong",
+      "score": 368
+    },
+    {
       "key": "meaning/fear-death",
       "route": "/meaning/fear-death",
       "slot": "meaning/fear-death",
@@ -3893,6 +6565,120 @@
       "score": 314
     },
     {
+      "key": "meaning/no-goal",
+      "route": "/meaning/no-goal",
+      "slot": "meaning/no-goal",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 14,
+          "usableCount": 14,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "目標がない",
+            "人生 目標 見つからない",
+            "夢がない 不安",
+            "何を目指せばいい",
+            "目標がない無気力",
+            "目標がない人"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 7,
+          "usableCount": 6,
+          "reviewCount": 0,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "没有人生目标",
+            "找不到目标怎么办",
+            "没有梦想很焦虑",
+            "不知道该追求什么",
+            "没有人生目标怎么办",
+            "没有人生目标 ptt"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 27,
+          "usableCount": 27,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "no tengo metas en la vida",
+            "no sé cuál es mi objetivo",
+            "no tengo sueños",
+            "cómo encontrar una meta",
+            "porque no tengo metas en la vida",
+            "que pasa si no tengo metas en la vida"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 21,
+          "usableCount": 20,
+          "reviewCount": 0,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "je n'ai pas d'objectif dans la vie",
+            "comment trouver un but",
+            "je n'ai pas de rêve",
+            "je ne sais pas quoi viser",
+            "je n ai pas d objectif dans la vie",
+            "pourquoi je n ai pas d objectif dans la vie"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 15,
+          "usableCount": 15,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "ich habe keine ziele im leben",
+            "wie finde ich ein ziel",
+            "ich habe keinen traum",
+            "ich weiß nicht worauf ich hinarbeiten soll",
+            "ich habe keine ziele mehr im leben",
+            "wie finde ich ein ziel im leben"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 84,
+      "totalUsable": 82,
+      "totalReview": 0,
+      "totalLowSignal": 2,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "es-ES",
+          "usableCount": 27,
+          "candidateCount": 27
+        },
+        {
+          "locale": "fr-FR",
+          "usableCount": 20,
+          "candidateCount": 21
+        },
+        {
+          "locale": "de-DE",
+          "usableCount": 15,
+          "candidateCount": 15
+        }
+      ],
+      "strength": "strong",
+      "score": 232
+    },
+    {
       "key": "meaning/no-motivation",
       "route": "/meaning/no-motivation",
       "slot": "meaning/no-motivation",
@@ -4005,6 +6791,118 @@
       ],
       "strength": "very-strong",
       "score": 270
+    },
+    {
+      "key": "meaning/wandering",
+      "route": "/meaning/wandering",
+      "slot": "meaning/wandering",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 21,
+          "usableCount": 18,
+          "reviewCount": 0,
+          "lowSignalCount": 3,
+          "clusterHints": {},
+          "topPhrases": [
+            "人生 迷子",
+            "何をしているかわからない",
+            "将来 迷っている",
+            "生き方に迷う",
+            "人生 迷子になった時",
+            "人生 迷子 40代"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "人生迷茫怎么办",
+            "不知道方向",
+            "对未来很迷茫",
+            "感觉自己在漂泊"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 27,
+          "usableCount": 22,
+          "reviewCount": 3,
+          "lowSignalCount": 2,
+          "clusterHints": {},
+          "topPhrases": [
+            "estoy perdido en la vida",
+            "no sé hacia dónde voy",
+            "me siento perdido",
+            "estoy a la deriva",
+            "estoy perdido en la vida y no se que hacer",
+            "estoy perdido en la vida que hago"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 13,
+          "usableCount": 12,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "je suis perdu dans ma vie",
+            "je ne sais pas où je vais",
+            "je me sens à la dérive",
+            "je cherche ma direction",
+            "je suis perdu dans ma vie que faire",
+            "je suis perdu dans ma vie islam"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 14,
+          "usableCount": 12,
+          "reviewCount": 1,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "ich bin im leben verloren",
+            "ich weiß nicht wohin",
+            "ich fühle mich orientierungslos",
+            "keine richtung im leben",
+            "ich bin verloren im leben",
+            "ich weiß nicht wohin mit mir"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 79,
+      "totalUsable": 68,
+      "totalReview": 5,
+      "totalLowSignal": 6,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "es-ES",
+          "usableCount": 22,
+          "candidateCount": 27
+        },
+        {
+          "locale": "ja-JP",
+          "usableCount": 18,
+          "candidateCount": 21
+        },
+        {
+          "locale": "de-DE",
+          "usableCount": 12,
+          "candidateCount": 14
+        }
+      ],
+      "strength": "moderate",
+      "score": 218
     },
     {
       "key": "money/future-anxiety",
@@ -4791,8 +7689,8 @@
       "locales": [
         {
           "locale": "ja-JP",
-          "candidateCount": 30,
-          "usableCount": 24,
+          "candidateCount": 29,
+          "usableCount": 23,
           "reviewCount": 5,
           "lowSignalCount": 1,
           "clusterHints": {},
@@ -4869,8 +7767,8 @@
         }
       ],
       "localeCoverage": 5,
-      "totalCandidate": 78,
-      "totalUsable": 65,
+      "totalCandidate": 77,
+      "totalUsable": 64,
       "totalReview": 10,
       "totalLowSignal": 3,
       "clusterHints": {},
@@ -4878,8 +7776,8 @@
       "strongestLocales": [
         {
           "locale": "ja-JP",
-          "usableCount": 24,
-          "candidateCount": 30
+          "usableCount": 23,
+          "candidateCount": 29
         },
         {
           "locale": "de-DE",
@@ -4893,7 +7791,7 @@
         }
       ],
       "strength": "moderate",
-      "score": 215
+      "score": 214
     },
     {
       "key": "self-esteem/cant-accept-praise",
@@ -6552,8 +9450,8 @@
         },
         {
           "locale": "de-DE",
-          "candidateCount": 32,
-          "usableCount": 29,
+          "candidateCount": 31,
+          "usableCount": 28,
           "reviewCount": 3,
           "lowSignalCount": 0,
           "clusterHints": {},
@@ -6568,8 +9466,8 @@
         }
       ],
       "localeCoverage": 5,
-      "totalCandidate": 139,
-      "totalUsable": 125,
+      "totalCandidate": 138,
+      "totalUsable": 124,
       "totalReview": 6,
       "totalLowSignal": 8,
       "clusterHints": {},
@@ -6587,12 +9485,12 @@
         },
         {
           "locale": "de-DE",
-          "usableCount": 29,
-          "candidateCount": 32
+          "usableCount": 28,
+          "candidateCount": 31
         }
       ],
       "strength": "very-strong",
-      "score": 275
+      "score": 274
     },
     {
       "key": "work/job-change",
@@ -6708,6 +9606,117 @@
       "score": 219
     },
     {
+      "key": "work/not-good-enough",
+      "route": "/work/not-good-enough",
+      "slot": "work/not-good-enough",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 16,
+          "usableCount": 16,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "仕事 できない 自分",
+            "仕事が遅い つらい",
+            "自分だけ仕事できない",
+            "無能感 職場",
+            "仕事 できない 自分が嫌い",
+            "仕事 できない 自分が悪い"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "觉得自己工作能力差",
+            "工作做不好怎么办",
+            "感觉自己很无能",
+            "职场能力不足焦虑"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 6,
+          "usableCount": 6,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "siento que no soy bueno en mi trabajo",
+            "miedo a no estar a la altura trabajo",
+            "síndrome del impostor trabajo",
+            "hago mal mi trabajo ansiedad",
+            "sindrome del impostor trabajo",
+            "sindrome del impostor nuevo trabajo"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 13,
+          "usableCount": 12,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "je ne suis pas assez bon au travail",
+            "peur de ne pas être à la hauteur travail",
+            "syndrome de l'imposteur travail",
+            "je fais mal mon travail",
+            "je ne suis pas efficace au travail",
+            "peur de ne pas être à la hauteur au travail"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 5,
+          "usableCount": 5,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "ich bin nicht gut genug im job",
+            "angst nicht gut genug zu sein arbeit",
+            "impostor syndrom arbeit",
+            "ich mache alles falsch im job",
+            "impostor syndrom arbeiterkind"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 44,
+      "totalUsable": 43,
+      "totalReview": 1,
+      "totalLowSignal": 0,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "ja-JP",
+          "usableCount": 16,
+          "candidateCount": 16
+        },
+        {
+          "locale": "fr-FR",
+          "usableCount": 12,
+          "candidateCount": 13
+        },
+        {
+          "locale": "es-ES",
+          "usableCount": 6,
+          "candidateCount": 6
+        }
+      ],
+      "strength": "moderate",
+      "score": 193
+    },
+    {
       "key": "work/quit-or-stay",
       "route": "/work/quit-or-stay",
       "slot": "work/quit-or-stay",
@@ -6819,6 +9828,351 @@
       "score": 191
     },
     {
+      "key": "work/unrecognized",
+      "route": "/work/unrecognized",
+      "slot": "work/unrecognized",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 20,
+          "usableCount": 19,
+          "reviewCount": 0,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "仕事 認められない",
+            "頑張っても評価されない",
+            "職場 評価されない",
+            "仕事 報われない",
+            "仕事 認められない 辞めたい",
+            "仕事 認められない ストレス"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 6,
+          "usableCount": 5,
+          "reviewCount": 0,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "工作不被认可",
+            "努力不被看见",
+            "职场不被肯定",
+            "付出没有回报",
+            "付出没有回报 成语"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 10,
+          "usableCount": 7,
+          "reviewCount": 3,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "no me valoran en el trabajo",
+            "trabajo y no me reconocen",
+            "esfuerzo no reconocido",
+            "me siento invisible en el trabajo",
+            "siento que no me valoran en el trabajo",
+            "que hacer si no me valoran en el trabajo"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 15,
+          "usableCount": 15,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "pas reconnu au travail",
+            "mes efforts ne sont pas reconnus",
+            "je me sens invisible au travail",
+            "manque de reconnaissance professionnelle",
+            "pas de reconnaissance au travail",
+            "ne pas se sentir reconnu au travail"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 7,
+          "usableCount": 7,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "nicht anerkannt bei der arbeit",
+            "meine leistung wird nicht gesehen",
+            "fühle mich unsichtbar im job",
+            "keine wertschätzung arbeit",
+            "keine wertschätzung arbeitgeber",
+            "keine wertschätzung arbeitsplatz"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 58,
+      "totalUsable": 53,
+      "totalReview": 3,
+      "totalLowSignal": 2,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "ja-JP",
+          "usableCount": 19,
+          "candidateCount": 20
+        },
+        {
+          "locale": "fr-FR",
+          "usableCount": 15,
+          "candidateCount": 15
+        },
+        {
+          "locale": "es-ES",
+          "usableCount": 7,
+          "candidateCount": 10
+        }
+      ],
+      "strength": "moderate",
+      "score": 203
+    },
+    {
+      "key": "work/work-depression",
+      "route": "/work/work-depression",
+      "slot": "work/work-depression",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 8,
+          "usableCount": 8,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "仕事 うつっぽい",
+            "会社 行くのがつらい",
+            "仕事で心が限界",
+            "職場 ストレス 眠れない",
+            "仕事 鬱っぽい",
+            "彼氏 仕事 うつっぽい"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 12,
+          "usableCount": 12,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "工作抑郁怎么办",
+            "上班很痛苦",
+            "工作压力让我崩溃",
+            "不想去公司",
+            "上班很痛苦dcard",
+            "上班很痛苦怎么办"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 13,
+          "usableCount": 10,
+          "reviewCount": 3,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "no puedo ir al trabajo ansiedad",
+            "trabajo me está deprimiendo",
+            "estrés laboral no puedo más",
+            "depresion por trabajo sintomas",
+            "baja por depresion trabajo",
+            "depresion por no tener trabajo"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 28,
+          "usableCount": 15,
+          "reviewCount": 13,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "je n'arrive plus à aller travailler",
+            "travail me déprime",
+            "souffrance au travail",
+            "je n arrive plus à aller travailler",
+            "je n arrive plus à me lever pour aller travailler",
+            "je n arrive plus à travailler"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 24,
+          "usableCount": 11,
+          "reviewCount": 13,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "ich kann nicht mehr zur arbeit",
+            "arbeit macht mich depressiv",
+            "job belastet psychisch",
+            "ich kann nicht mehr zur arbeit gehen",
+            "ich kann nicht mehr arbeiten psyche",
+            "ich kann nicht mehr arbeiten was tun"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 85,
+      "totalUsable": 56,
+      "totalReview": 29,
+      "totalLowSignal": 0,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "fr-FR",
+          "usableCount": 15,
+          "candidateCount": 28
+        },
+        {
+          "locale": "zh-CN",
+          "usableCount": 12,
+          "candidateCount": 12
+        },
+        {
+          "locale": "de-DE",
+          "usableCount": 11,
+          "candidateCount": 24
+        }
+      ],
+      "strength": "moderate",
+      "score": 206
+    },
+    {
+      "key": "work/work-skepticism",
+      "route": "/work/work-skepticism",
+      "slot": "work/work-skepticism",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 24,
+          "usableCount": 10,
+          "reviewCount": 14,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "仕事にやりがいがない",
+            "何のために働く",
+            "仕事にやりがいがない 転職",
+            "何のために働くのか",
+            "何のために働くの",
+            "何のために働くのか 面接"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 7,
+          "usableCount": 7,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "工作没有意义",
+            "不知道为什么工作",
+            "工作没有成就感",
+            "上班的意义是什么",
+            "工作没有成就感dcard",
+            "工作没有成就感离职"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 16,
+          "usableCount": 16,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "mi trabajo no tiene sentido",
+            "para qué trabajar",
+            "no encuentro sentido en mi trabajo",
+            "falta de propósito laboral",
+            "mi trabajo tiene sentido cuando",
+            "para qué trabajar un proyecto de vida"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 21,
+          "usableCount": 21,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "mon travail n'a pas de sens",
+            "pourquoi travailler",
+            "je ne trouve plus de sens au travail",
+            "perte de sens professionnel",
+            "mon travail n a pas de sens",
+            "pourquoi travailler dans la fonction publique"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 14,
+          "usableCount": 14,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {
+            "meaning/existential-vacuum": 1
+          },
+          "topPhrases": [
+            "arbeit hat keinen sinn",
+            "warum arbeiten",
+            "kein sinn mehr im job",
+            "sinnkrise arbeit",
+            "warum arbeiten in ägypten nur männer im hotel",
+            "warum arbeiten menschen"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 82,
+      "totalUsable": 68,
+      "totalReview": 14,
+      "totalLowSignal": 0,
+      "clusterHints": {
+        "meaning/existential-vacuum": 1
+      },
+      "totalClusterHints": 1,
+      "strongestLocales": [
+        {
+          "locale": "fr-FR",
+          "usableCount": 21,
+          "candidateCount": 21
+        },
+        {
+          "locale": "es-ES",
+          "usableCount": 16,
+          "candidateCount": 16
+        },
+        {
+          "locale": "de-DE",
+          "usableCount": 14,
+          "candidateCount": 14
+        }
+      ],
+      "strength": "moderate",
+      "score": 224
+    },
+    {
       "key": "work/workplace-relationships",
       "route": "/work/workplace-relationships",
       "slot": "work/workplace-relationships",
@@ -6888,8 +10242,8 @@
         },
         {
           "locale": "de-DE",
-          "candidateCount": 29,
-          "usableCount": 27,
+          "candidateCount": 31,
+          "usableCount": 29,
           "reviewCount": 2,
           "lowSignalCount": 0,
           "clusterHints": {},
@@ -6904,8 +10258,8 @@
         }
       ],
       "localeCoverage": 5,
-      "totalCandidate": 100,
-      "totalUsable": 90,
+      "totalCandidate": 102,
+      "totalUsable": 92,
       "totalReview": 9,
       "totalLowSignal": 1,
       "clusterHints": {},
@@ -6913,8 +10267,8 @@
       "strongestLocales": [
         {
           "locale": "de-DE",
-          "usableCount": 27,
-          "candidateCount": 29
+          "usableCount": 29,
+          "candidateCount": 31
         },
         {
           "locale": "fr-FR",
@@ -6928,7 +10282,7 @@
         }
       ],
       "strength": "strong",
-      "score": 240
+      "score": 242
     }
   ]
 }

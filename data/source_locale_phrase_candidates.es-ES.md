@@ -8,23 +8,23 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 
 ## Summary
 
-- collectedAt: 2026-06-22T06:02:50.584Z
-- nodes scanned: 59
-- candidate phrases: 996
-- usable: 923
-- review: 53
-- low-signal: 20
+- collectedAt: 2026-06-22T06:22:12.833Z
+- nodes scanned: 89
+- candidate phrases: 1400
+- usable: 1273
+- review: 96
+- low-signal: 31
 
 ## Potential New Cluster Hints
 
 - `relationships/ghosting`: 15
 - `work/remote-work-culture`: 12
+- `meaning/existential-vacuum`: 11
 - `family/late-independence`: 10
 - `debate/childfree-identity`: 4
+- `family/family-of-origin`: 2
 - `money/precarity`: 2
 - `study/exam-pressure`: 2
-- `family/family-of-origin`: 1
-- `meaning/existential-vacuum`: 1
 
 ## /thought/good-life
 
@@ -1794,4 +1794,811 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 - quiero dejar mi trabajo pero tengo miedo
 - debería cambiar de trabajo
 - deberia cambiar de trabajo
+
+## /work/unrecognized
+
+- axis: worry
+- base queries: no me valoran en el trabajo, trabajo y no me reconocen, esfuerzo no reconocido, me siento invisible en el trabajo
+- google suggestions: 9
+- usable candidates: 7
+- review candidates: 3
+- low-signal candidates: 0
+
+### Usable candidates
+
+- no me valoran en el trabajo
+- trabajo y no me reconocen
+- esfuerzo no reconocido
+- me siento invisible en el trabajo
+- siento que no me valoran en el trabajo
+- que hacer si no me valoran en el trabajo
+- porque no me valoran en mi trabajo
+
+### Review candidates
+
+- no me valoran en el trabajo frases
+- no me valoran en el trabajo forocoches
+- frases de esfuerzo no reconocido
+
+## /work/work-depression
+
+- axis: worry
+- base queries: depresión por trabajo, no puedo ir al trabajo ansiedad, trabajo me está deprimiendo, estrés laboral no puedo más
+- google suggestions: 10
+- usable candidates: 10
+- review candidates: 3
+- low-signal candidates: 0
+
+### Usable candidates
+
+- no puedo ir al trabajo ansiedad
+- trabajo me está deprimiendo
+- estrés laboral no puedo más
+- depresion por trabajo sintomas
+- baja por depresion trabajo
+- depresion por no tener trabajo
+- depresion por no encontrar trabajo
+- depresion por perdida de trabajo
+- depresion por exceso de trabajo
+- depresion por volver al trabajo
+
+### Review candidates
+
+- depresión por trabajo
+- depresión por trabajo como se llama
+- depresión por cambio de trabajo
+
+## /work/not-good-enough
+
+- axis: worry
+- base queries: siento que no soy bueno en mi trabajo, miedo a no estar a la altura trabajo, síndrome del impostor trabajo, hago mal mi trabajo ansiedad
+- google suggestions: 3
+- usable candidates: 6
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- siento que no soy bueno en mi trabajo
+- miedo a no estar a la altura trabajo
+- síndrome del impostor trabajo
+- hago mal mi trabajo ansiedad
+- sindrome del impostor trabajo
+- sindrome del impostor nuevo trabajo
+
+## /work/work-skepticism
+
+- axis: worry
+- base queries: mi trabajo no tiene sentido, para qué trabajar, no encuentro sentido en mi trabajo, falta de propósito laboral
+- google suggestions: 13
+- usable candidates: 16
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- mi trabajo no tiene sentido
+- para qué trabajar
+- no encuentro sentido en mi trabajo
+- falta de propósito laboral
+- mi trabajo tiene sentido cuando
+- para qué trabajar un proyecto de vida
+- para qué trabajar un seminario
+- para qué trabajar un proyecto de nación
+- para que trabajar
+- para que trabajar tanto
+- para trabajar que se necesita
+- para trabajar que te piden
+- para que sirve trabajar
+- para que sirve trabajar aductores
+- para que sirve trabajar en equipo
+- no le encuentro sentido a mi trabajo
+
+## /meaning/dont-know-want
+
+- axis: worry
+- base queries: no sé qué quiero en la vida, no sé qué hacer con mi vida, no tengo ganas de nada, cómo saber lo que quiero
+- google suggestions: 31
+- usable candidates: 26
+- review candidates: 3
+- low-signal candidates: 3
+
+### Usable candidates
+
+- no sé qué quiero en la vida
+- no sé qué hacer con mi vida
+- no tengo ganas de nada
+- cómo saber lo que quiero
+- no sé que quiero en la vida
+- no sé que quiero hacer con mi vida
+- no sé que hacer con mi vida profesional
+- no sé qué hacer con mi vida amaral
+- yo no sé qué hacer con mi vida
+- no sé qué voy a hacer con mi vida
+- por qué no sé qué hacer con mi vida
+- soy joven y no sé que hacer con mi vida
+- no tengo ganas de nada solo de dormir
+- no tengo ganas de nada que me pasa
+- no tengo ganas de nada en ingles
+- no tengo ganas de nada que hago
+- no tengo ganas de nada me siento cansada
+- no tengo ganas de nada solo quiero dormir
+- no tengo ganas de nada solo de llorar
+- cómo saber lo que quiero en la vida
+- como saber lo que quiero estudiar
+- como saber lo que quiero hacer con mi vida
+- como saber lo que quiero en el amor
+- como saber lo que quiero realmente
+
+### Review candidates
+
+- no sé que hacer con mi vida reddit
+- no tengo ganas de nada frases
+- no tengo ganas de nada reddit
+
+### Low-signal candidates
+
+- no sé qué hacer con mi vida en inglés
+- como saber lo que quiero estudiar test
+- como saber que quiero en la vida test
+
+## /meaning/emptiness
+
+- axis: worry
+- base queries: siento vacío por dentro, vacío existencial, nada me llena, me siento vacío sin razón
+- google suggestions: 30
+- usable candidates: 24
+- review candidates: 4
+- low-signal candidates: 4
+- cluster hints: meaning/existential-vacuum 10
+
+### Usable candidates
+
+- siento vacío por dentro
+- vacío existencial
+- nada me llena
+- me siento vacío sin razón
+- siento vacío por dentro mi amor
+- me siento vacio por dentro
+- siento un vacio por dentro que me esta consumiendo
+- siento un vacio por dentro mi amor oscar maydon
+- siento un vacio por dentro cancion
+- me siento vacio por dentro en ingles
+- vacío existencial según la biblia
+- vacío existencial como se cura
+- vacío existencial viktor frankl
+- vacío existencial filosofía
+- vacío existencial psicología
+- vacío existencial aa
+- nada me llena ni me hace feliz
+- nada me llena jey long
+- nada me llena como tu me llenas
+- nada me llena como tu me llenas alex zurdo
+- nada me llena alex zurdo
+- nada me llena emocionalmente
+- nada me llena mas que tu presencia
+- nada me llena los ojos
+
+### Review candidates
+
+- me siento vacio por dentro frases
+- vacío existencial síntomas
+- vacío existencial viktor frankl pdf
+- vacío existencial frases
+
+### Low-signal candidates
+
+- siento un vacio por dentro mi amor letra
+- siento un vacio por dentro letra
+- siento un vacio por dentro que me esta consumiendo letra
+- nada me llena joylong letra
+
+## /meaning/no-goal
+
+- axis: worry
+- base queries: no tengo metas en la vida, no sé cuál es mi objetivo, no tengo sueños, cómo encontrar una meta
+- google suggestions: 25
+- usable candidates: 27
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- no tengo metas en la vida
+- no sé cuál es mi objetivo
+- no tengo sueños
+- cómo encontrar una meta
+- porque no tengo metas en la vida
+- que pasa si no tengo metas en la vida
+- que hacer si no tengo metas en la vida
+- no te preocupes por mi soy inteligente tengo metas en la vida
+- no tengo sueños tengo metas
+- no tengo sueños ni metas
+- no tengo sueños cuando duermo
+- no tengo sueños tengo metas y voy por la siguiente
+- no tengo sueños en la vida
+- no tengo sueños humedos
+- no tengo sueños ni aspiraciones
+- no tengo sueños vivo al dia
+- no tengo sueños ni metas que hago
+- como encontrar una meta en la vida
+- como encontrar una metafora en un poema
+- como encontrar una metafora
+- como encontrar una meta
+- como encontrar una metafora en un texto
+- como encontrar meta ai en whatsapp
+- como encontrar metal en minecraft
+
+## /meaning/wandering
+
+- axis: worry
+- base queries: estoy perdido en la vida, no sé hacia dónde voy, me siento perdido, estoy a la deriva
+- google suggestions: 26
+- usable candidates: 22
+- review candidates: 3
+- low-signal candidates: 2
+
+### Usable candidates
+
+- estoy perdido en la vida
+- no sé hacia dónde voy
+- me siento perdido
+- estoy a la deriva
+- estoy perdido en la vida y no se que hacer
+- estoy perdido en la vida que hago
+- estoy muy perdido en la vida
+- siento que estoy perdido en la vida
+- como saber si estoy perdido en la vida
+- estoy perdido casos de la vida real
+- no sé hacia donde voy
+- yo no sé hacia dónde voy
+- yo no sé hacia donde voy puede ser donde estas tu
+- ya no sé quien soy ni hacia donde voy
+- me siento perdido en la vida
+- me siento perdido acordes
+- me siento perdido eslabon armado
+- me siento perdido mentalmente
+- me siento perdido no se que hacer con mi vida
+- me siento perdido tabs
+- me siento perdido en este mundo y mi ultimo fracaso
+- estoy a la deriva en ingles
+
+### Review candidates
+
+- estoy perdido en la vida reddit
+- estoy perdido en la vida forocoches
+- estoy a la deriva significado
+
+### Low-signal candidates
+
+- me siento perdido letra
+- me siento perdido en inglés
+
+## /family/holiday-stress
+
+- axis: worry
+- base queries: estrés familiar en navidad, reuniones familiares estrés, preguntas incómodas de la familia, ansiedad por visitar a la familia
+- google suggestions: 2
+- usable candidates: 6
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- estrés familiar en navidad
+- reuniones familiares estrés
+- preguntas incómodas de la familia
+- ansiedad por visitar a la familia
+- preguntas incomodas de familia
+- preguntas incomodas para la familia
+
+## /family/family-cutoff
+
+- axis: worry
+- base queries: cortar contacto con la familia, alejarme de mi familia tóxica, dejar de hablar con mis padres, culpa por alejarme de la familia
+- google suggestions: 3
+- usable candidates: 6
+- review candidates: 0
+- low-signal candidates: 0
+- cluster hints: family/family-of-origin 1
+
+### Usable candidates
+
+- cortar contacto con la familia
+- alejarme de mi familia tóxica
+- dejar de hablar con mis padres
+- culpa por alejarme de la familia
+- alejarme de mi familia toxica
+- alejarme de mi familia porque es toxica
+
+## /family/mother-conflict
+
+- axis: worry
+- base queries: no me llevo bien con mi madre, mi madre me agota, peleo mucho con mi mamá, poner límites a mi madre
+- google suggestions: 7
+- usable candidates: 8
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- no me llevo bien con mi madre
+- mi madre me agota
+- peleo mucho con mi mamá
+- poner límites a mi madre
+- porque no me llevo bien con mi madre
+- mi madre me agota psicológicamente
+- porque peleo mucho con mi mamá
+- que hacer si peleo mucho con mi mamá
+
+## /body/body-anxiety
+
+- axis: worry
+- base queries: odio mi cuerpo, inseguridad con mi cuerpo, complejo físico, ansiedad por mi apariencia
+- google suggestions: 20
+- usable candidates: 16
+- review candidates: 3
+- low-signal candidates: 2
+
+### Usable candidates
+
+- odio mi cuerpo
+- inseguridad con mi cuerpo
+- complejo físico
+- ansiedad por mi apariencia
+- odio mi cuerpo 1974
+- odio mi cuerpo reparto
+- odio mi cuerpo cancion
+- odio mi cuerpo en ingles
+- odio mi cuerpo gordo
+- odio mi cuerpo después del embarazo
+- odio mi cuerpo 1974 ok ru
+- tengo inseguridad con mi cuerpo
+- inseguridad por mi cuerpo
+- complejo fisico aitana
+- complejo fisico sinonimo
+- espacio físico complejo cientifico y tecnologico simon bolivar *
+
+### Review candidates
+
+- odio mi cuerpo frases
+- inseguridad de mi cuerpo frases
+- complejo fisico significado
+
+### Low-signal candidates
+
+- odio mi cuerpo película
+- complejo físico en inglés
+
+## /body/aging-anxiety
+
+- axis: worry
+- base queries: miedo a envejecer, ansiedad por la edad, me da miedo perder la juventud, crisis por hacerse mayor
+- google suggestions: 12
+- usable candidates: 12
+- review candidates: 2
+- low-signal candidates: 0
+
+### Usable candidates
+
+- miedo a envejecer
+- ansiedad por la edad
+- me da miedo perder la juventud
+- crisis por hacerse mayor
+- miedo a envejecer mujeres
+- miedo a envejecer y morir
+- miedo a envejecer psicologia
+- miedo a envejecer como se llama
+- miedo a envejecer solo
+- miedo a envejecer fobia
+- miedo a envejecer cancion
+- ansiedad por separacion edad
+
+### Review candidates
+
+- miedo a envejecer frases
+- miedo a envejecer reddit
+
+## /body/hair-loss-stress
+
+- axis: worry
+- base queries: ansiedad por caída del pelo, miedo a quedarme calvo, pérdida de cabello autoestima, estrés por alopecia
+- google suggestions: 2
+- usable candidates: 6
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- ansiedad por caída del pelo
+- miedo a quedarme calvo
+- pérdida de cabello autoestima
+- estrés por alopecia
+- ansiedad caida del pelo
+- tengo miedo a quedarse calvo
+
+## /career/dream-reality
+
+- axis: worry
+- base queries: renunciar a mi sueño o seguir, sueño versus realidad, trabajar en lo que amo o ser realista, miedo a perseguir mi sueño
+- google suggestions: 0
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- renunciar a mi sueño o seguir
+- sueño versus realidad
+- trabajar en lo que amo o ser realista
+- miedo a perseguir mi sueño
+
+## /career/regret-free-choice
+
+- axis: worry
+- base queries: cómo tomar una decisión sin arrepentirme, miedo a elegir mal, cualquier opción me hará arrepentirme, decisión importante bloqueado
+- google suggestions: 1
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- cómo tomar una decisión sin arrepentirme
+- miedo a elegir mal
+- cualquier opción me hará arrepentirme
+- decisión importante bloqueado
+
+## /debate/euthanasia
+
+- axis: debate
+- base queries: eutanasia debate, eutanasia a favor y en contra, derecho a morir dignamente, legalizar la eutanasia
+- google suggestions: 38
+- usable candidates: 25
+- review candidates: 13
+- low-signal candidates: 0
+
+### Usable candidates
+
+- eutanasia debate
+- eutanasia a favor y en contra
+- derecho a morir dignamente
+- eutanasia debate a favor
+- eutanasia debate en contra
+- eutanasia debate etico
+- eutanasia debate a favor y en contra
+- eutanasia debate argumentos a favor
+- eutanasia debate preguntas
+- eutanasia debate moral
+- debate eutanasia uruguay
+- eutanasia a favor y en contra argumentos
+- eutanasia en el perú a favor y en contra
+- opiniones sobre la eutanasia a favor y en contra
+- ensayo argumentativo sobre la eutanasia argumentos a favor y en contra
+- preguntas a favor y en contra de la eutanasia
+- derecho a morir dignamente colombia
+- derecho a morir dignamente españa
+- derecho a morir dignamente madrid
+- derecho a morir dignamente teléfono
+- derecho a morir dignamente barcelona
+- derecho a morir dignamente bogota
+- derecho a morir dignamente requisitos
+- derecho a morir dignamente constitución política de colombia
+
+### Review candidates
+
+- legalizar la eutanasia
+- eutanasia debate pdf
+- eutanasia a favor y en contra pdf
+- eutanasia argumentos a favor y en contra pdf
+- legalizar la eutanasia en mexico
+- legalizar la eutanasia en el peru
+- legalizar la eutanasia en chile
+- porque legalizar la eutanasia
+- se debe legalizar la eutanasia
+- argumentos para legalizar la eutanasia
+- se debería legalizar la eutanasia
+- se debe legalizar la eutanasia en chile
+- se debe legalizar la eutanasia en mexico
+
+## /debate/death-penalty
+
+- axis: debate
+- base queries: pena de muerte debate, pena de muerte a favor y en contra, abolir la pena de muerte, pena de muerte errores judiciales
+- google suggestions: 28
+- usable candidates: 26
+- review candidates: 3
+- low-signal candidates: 0
+- fetch errors: 1
+
+### Usable candidates
+
+- pena de muerte debate
+- pena de muerte a favor y en contra
+- abolir la pena de muerte
+- pena de muerte errores judiciales
+- pena de muerte debate a favor
+- pena de muerte debate en contra
+- pena de muerte debate en contra argumentos
+- pena de muerte debate a favor argumentos
+- pena de muerte debate a favor y en contra
+- pena de muerte debate preguntas
+- pena de muerte debate argumentos
+- pena de muerte para debate
+- pena de muerte argumentos a favor y en contra
+- pena de muerte puntos a favor y en contra
+- pena de muerte en el perú a favor y en contra
+- la pena de muerte reflexiones a favor y en contra
+- 3 argumentos a favor y en contra de la pena de muerte
+- argumentos a favor y en contra de la pena de muerte en colombia
+- porque abolir la pena de muerte
+- se puede abolir la pena de muerte en chile
+- protocolo para abolir la pena de muerte
+- razones para abolir la pena de muerte
+- se debe abolir la pena de muerte
+- primer pais en abolir la pena de muerte
+
+### Review candidates
+
+- pena de muerte debate pdf
+- pena de muerte a favor y en contra pdf
+- abolir la pena de muerte significado
+
+## /debate/abortion
+
+- axis: debate
+- base queries: aborto debate, aborto a favor y en contra, derecho al aborto, vida fetal autonomía mujer
+- google suggestions: 29
+- usable candidates: 27
+- review candidates: 3
+- low-signal candidates: 0
+
+### Usable candidates
+
+- aborto debate
+- aborto a favor y en contra
+- derecho al aborto
+- vida fetal autonomía mujer
+- aborto debate a favor
+- aborto debate en contra
+- aborto debate preguntas
+- aborto debate etico
+- aborto debate a favor y en contra
+- debate aborto argentina
+- debate aborto chile
+- debate aborto españa
+- aborto argumentos a favor y en contra
+- aborto puntos a favor y en contra
+- aborto opiniones a favor y en contra
+- debate aborto a favor y en contra
+- información del aborto a favor y en contra
+- preguntas sobre el aborto a favor y en contra
+- derecho al aborto en españa
+- derecho al aborto en colombia
+- derecho al aborto constitucion
+- derecho al aborto en argentina
+- derecho al aborto en méxico
+- derecho al aborto onu
+
+### Review candidates
+
+- aborto debate pdf
+- aborto a favor y en contra pdf
+- legalización del aborto a favor y en contra
+
+## /debate/animal-testing
+
+- axis: debate
+- base queries: experimentación animal debate, experimentos con animales pros y contras, ética de la experimentación animal, pruebas en animales cosméticos
+- google suggestions: 9
+- usable candidates: 11
+- review candidates: 1
+- low-signal candidates: 0
+
+### Usable candidates
+
+- experimentación animal debate
+- experimentos con animales pros y contras
+- ética de la experimentación animal
+- pruebas en animales cosméticos
+- experimentación animal debate en contra
+- experimentación animal debate a favor
+- experimentos en animales pros y contras
+- etica de la experimentacion animal
+- paradojas de la experimentación en animales ética salud y crisis ecológica
+- pruebas en animales cosmeticos
+- pruebas de cosméticos en animales en méxico
+
+### Review candidates
+
+- pruebas de cosméticos en animales pdf
+
+## /debate/juvenile-offenders
+
+- axis: debate
+- base queries: menores infractores debate, bajar edad penal menores, justicia juvenil castigo o rehabilitación, delitos de menores responsabilidad
+- google suggestions: 0
+- usable candidates: 3
+- review candidates: 1
+- low-signal candidates: 0
+
+### Usable candidates
+
+- menores infractores debate
+- bajar edad penal menores
+- justicia juvenil castigo o rehabilitación
+
+### Review candidates
+
+- delitos de menores responsabilidad
+
+## /debate/meritocracy
+
+- axis: debate
+- base queries: meritocracia es justa, crítica a la meritocracia, el esfuerzo siempre se recompensa, desigualdad y meritocracia
+- google suggestions: 4
+- usable candidates: 6
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- meritocracia es justa
+- crítica a la meritocracia
+- el esfuerzo siempre se recompensa
+- desigualdad y meritocracia
+- critica a la meritocracia
+- el esfuerzo siempre recompensa
+
+## /debate/basic-income
+
+- axis: debate
+- base queries: renta básica universal debate, renta básica pros y contras, ingreso básico universal financiación, la renta básica desincentiva trabajar
+- google suggestions: 3
+- usable candidates: 7
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- renta básica universal debate
+- renta básica pros y contras
+- ingreso básico universal financiación
+- la renta básica desincentiva trabajar
+- la renta básica universal fundamentos debates y posibilidades
+- debate sobre la renta básica universal
+- renta básica universal pros y contras
+
+## /debate/ai-art
+
+- axis: debate
+- base queries: arte generado por IA debate, la IA puede hacer arte, derechos de autor arte IA, artistas y inteligencia artificial
+- google suggestions: 6
+- usable candidates: 9
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- arte generado por IA debate
+- la IA puede hacer arte
+- derechos de autor arte IA
+- artistas y inteligencia artificial
+- porque la ia no puede hacer arte
+- artistas inteligencia artificial
+- artistas contra inteligencia artificial
+- artistas de inteligencia artificial
+- artistas processam inteligencia artificial
+
+## /debate/cohabitation
+
+- axis: debate
+- base queries: convivencia antes del matrimonio, vivir juntos antes de casarse pros y contras, convivencia responsabilidad pareja, unión libre debate
+- google suggestions: 2
+- usable candidates: 5
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- convivencia antes del matrimonio
+- vivir juntos antes de casarse pros y contras
+- convivencia responsabilidad pareja
+- unión libre debate
+- convivencia antes del matrimonio biblia
+
+## /debate/vegetarianism
+
+- axis: debate
+- base queries: veganismo debate ético, vegetarianismo obligación moral, comer carne ética, veganismo medio ambiente
+- google suggestions: 1
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- veganismo debate ético
+- vegetarianismo obligación moral
+- comer carne ética
+- veganismo medio ambiente
+
+## /debate/parent-support
+
+- axis: debate
+- base queries: obligación de mantener a los padres, cuidar padres ancianos responsabilidad hijos, hasta dónde ayudar a los padres, deber filial debate
+- google suggestions: 9
+- usable candidates: 12
+- review candidates: 1
+- low-signal candidates: 0
+
+### Usable candidates
+
+- obligación de mantener a los padres
+- cuidar padres ancianos responsabilidad hijos
+- hasta dónde ayudar a los padres
+- deber filial debate
+- obligacion de mantener a los padres
+- los hijos tienen obligación de mantener a los padres
+- obligacion de los hijos de mantener a los padres en mexico
+- obligacion de los.hijos de mantener a los padres
+- es obligación mantener a los padres en la vejez
+- es obligación de los hijos mantener a los padres en su vejez
+- es mi obligacion mantener a los padres
+- obligación de los padres de mantener a sus hijos
+
+### Review candidates
+
+- obligacion legal de mantener a los padres
+
+## /debate/pet-euthanasia
+
+- axis: debate
+- base queries: eutanasia mascota decisión, sacrificar perro por sufrimiento, eutanasia animal ética, cuándo dormir a una mascota
+- google suggestions: 2
+- usable candidates: 6
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- eutanasia mascota decisión
+- sacrificar perro por sufrimiento
+- eutanasia animal ética
+- cuándo dormir a una mascota
+- cuando dormir a una mascota
+- como saber cuando dormir a una mascota
+
+## /debate/cancel-culture
+
+- axis: debate
+- base queries: cultura de la cancelación debate, cancel culture libertad de expresión, responsabilidad o linchamiento, funa en redes debate
+- google suggestions: 0
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- cultura de la cancelación debate
+- cancel culture libertad de expresión
+- responsabilidad o linchamiento
+- funa en redes debate
+
+## /debate/nice-people-finish-last
+
+- axis: debate
+- base queries: ser buena persona es una desventaja, la gente buena termina última, ser demasiado bueno se aprovechan, bondad o debilidad
+- google suggestions: 1
+- usable candidates: 5
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- ser buena persona es una desventaja
+- la gente buena termina última
+- ser demasiado bueno se aprovechan
+- bondad o debilidad
+- bondad debilidad
 

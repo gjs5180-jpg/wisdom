@@ -1,15 +1,15 @@
 {
-  "collectedAt": "2026-06-22T06:05:31.661Z",
+  "collectedAt": "2026-06-22T06:25:59.164Z",
   "locale": "de-DE",
   "sourceStatus": "active-source",
-  "nodesScanned": 59,
-  "totalCandidatePhrases": 982,
-  "totalUsableCandidatePhrases": 898,
-  "totalReviewCandidatePhrases": 52,
-  "totalLowSignalCandidatePhrases": 32,
+  "nodesScanned": 89,
+  "totalCandidatePhrases": 1337,
+  "totalUsableCandidatePhrases": 1230,
+  "totalReviewCandidatePhrases": 71,
+  "totalLowSignalCandidatePhrases": 36,
   "clusterHints": {
     "relationships/ghosting": 9,
-    "meaning/existential-vacuum": 2,
+    "meaning/existential-vacuum": 4,
     "family/family-of-origin": 11,
     "money/precarity": 3,
     "study/exam-pressure": 10,
@@ -3979,13 +3979,7 @@
       "reviewCandidatePhrases": [],
       "lowSignalCandidatePhrases": [],
       "clusterHints": {},
-      "errors": [
-        {
-          "source": "google-suggest",
-          "query": "ich will nicht unter menschen aber bin einsam",
-          "error": "500 Internal Server Error"
-        }
-      ]
+      "errors": []
     },
     {
       "locale": "de-DE",
@@ -4275,10 +4269,10 @@
         "ich will nicht arbeiten gehen",
         "ich will nicht arbeiten lustig",
         "ich will nicht arbeiten reddit",
+        "keine lust auf arbeit",
         "keine lust auf arbeit was tun",
         "keine lust auf arbeit sprüche",
         "keine lust auf arbeit lustig",
-        "keine lust auf arbeiten",
         "keine lust auf arbeit lied",
         "keine lust auf arbeit werde lehrer",
         "keine lust auf arbeit bilder",
@@ -4313,7 +4307,6 @@
         "keine lust auf arbeit was tun",
         "keine lust auf arbeit sprüche",
         "keine lust auf arbeit lustig",
-        "keine lust auf arbeiten",
         "keine lust auf arbeit lied",
         "keine lust auf arbeit werde lehrer",
         "keine lust auf arbeit bilder",
@@ -4462,14 +4455,6 @@
           "clusterHints": []
         },
         {
-          "phrase": "keine lust auf arbeiten",
-          "status": "usable",
-          "reasons": [
-            "general source-locale topic phrasing"
-          ],
-          "clusterHints": []
-        },
-        {
           "phrase": "keine lust auf arbeit lied",
           "status": "usable",
           "reasons": [
@@ -4605,7 +4590,6 @@
         "keine lust auf arbeit was tun",
         "keine lust auf arbeit sprüche",
         "keine lust auf arbeit lustig",
-        "keine lust auf arbeiten",
         "keine lust auf arbeit lied",
         "keine lust auf arbeit werde lehrer",
         "keine lust auf arbeit bilder",
@@ -5390,7 +5374,9 @@
         "konflikte am arbeitsplatz fallbeispiele",
         "konflikte am arbeitsplatz b2 sprechen",
         "konflikte am arbeitsplatz statistik deutschland",
-        "konflikte am arbeitsplatz b2"
+        "konflikte am arbeitsplatz b2",
+        "soziale angst auf der arbeit",
+        "soziale angst am arbeitsplatz"
       ],
       "candidatePhrases": [
         "schwierige kollegen",
@@ -5421,7 +5407,9 @@
         "konflikte am arbeitsplatz fallbeispiele",
         "konflikte am arbeitsplatz b2 sprechen",
         "konflikte am arbeitsplatz statistik deutschland",
-        "konflikte am arbeitsplatz b2"
+        "konflikte am arbeitsplatz b2",
+        "soziale angst auf der arbeit",
+        "soziale angst am arbeitsplatz"
       ],
       "candidateReview": [
         {
@@ -5657,6 +5645,22 @@
             "general source-locale topic phrasing"
           ],
           "clusterHints": []
+        },
+        {
+          "phrase": "soziale angst auf der arbeit",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "soziale angst am arbeitsplatz",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
         }
       ],
       "usableCandidatePhrases": [
@@ -5686,7 +5690,9 @@
         "konflikte am arbeitsplatz fallbeispiele",
         "konflikte am arbeitsplatz b2 sprechen",
         "konflikte am arbeitsplatz statistik deutschland",
-        "konflikte am arbeitsplatz b2"
+        "konflikte am arbeitsplatz b2",
+        "soziale angst auf der arbeit",
+        "soziale angst am arbeitsplatz"
       ],
       "reviewCandidatePhrases": [
         "toxisches arbeitsklima bedeutung",
@@ -5694,13 +5700,7 @@
       ],
       "lowSignalCandidatePhrases": [],
       "clusterHints": {},
-      "errors": [
-        {
-          "source": "google-suggest",
-          "query": "soziale angst bei der arbeit",
-          "error": "500 Internal Server Error"
-        }
-      ]
+      "errors": []
     },
     {
       "locale": "de-DE",
@@ -12757,6 +12757,4769 @@
         "kündigen oder bleiben test",
         "soll ich den job wechseln test"
       ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "de-DE",
+      "route": "/work/unrecognized",
+      "slot": "work/unrecognized",
+      "axis": "worry",
+      "sourceQueries": [
+        "nicht anerkannt bei der arbeit",
+        "meine leistung wird nicht gesehen",
+        "fühle mich unsichtbar im job",
+        "keine wertschätzung arbeit"
+      ],
+      "baseQueries": [
+        "nicht anerkannt bei der arbeit",
+        "meine leistung wird nicht gesehen",
+        "fühle mich unsichtbar im job",
+        "keine wertschätzung arbeit"
+      ],
+      "googleSuggestions": [
+        "keine wertschätzung arbeit",
+        "keine wertschätzung arbeitgeber",
+        "keine wertschätzung arbeitsplatz",
+        "sprüche keine wertschätzung arbeit"
+      ],
+      "candidatePhrases": [
+        "nicht anerkannt bei der arbeit",
+        "meine leistung wird nicht gesehen",
+        "fühle mich unsichtbar im job",
+        "keine wertschätzung arbeit",
+        "keine wertschätzung arbeitgeber",
+        "keine wertschätzung arbeitsplatz",
+        "sprüche keine wertschätzung arbeit"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "nicht anerkannt bei der arbeit",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "meine leistung wird nicht gesehen",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "fühle mich unsichtbar im job",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "keine wertschätzung arbeit",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "keine wertschätzung arbeitgeber",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "keine wertschätzung arbeitsplatz",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "sprüche keine wertschätzung arbeit",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "nicht anerkannt bei der arbeit",
+        "meine leistung wird nicht gesehen",
+        "fühle mich unsichtbar im job",
+        "keine wertschätzung arbeit",
+        "keine wertschätzung arbeitgeber",
+        "keine wertschätzung arbeitsplatz",
+        "sprüche keine wertschätzung arbeit"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "de-DE",
+      "route": "/work/work-depression",
+      "slot": "work/work-depression",
+      "axis": "worry",
+      "sourceQueries": [
+        "depression durch arbeit",
+        "ich kann nicht mehr zur arbeit",
+        "arbeit macht mich depressiv",
+        "job belastet psychisch"
+      ],
+      "baseQueries": [
+        "depression durch arbeit",
+        "ich kann nicht mehr zur arbeit",
+        "arbeit macht mich depressiv",
+        "job belastet psychisch"
+      ],
+      "googleSuggestions": [
+        "depression durch arbeit",
+        "depression durch arbeitslosigkeit",
+        "depression durch arbeit was tun",
+        "depression durch arbeitgeber",
+        "depression durch arbeitsplatz",
+        "depression durch arbeitsplatzverlust",
+        "depression durch arbeitsüberlastung",
+        "depression durch arbeitskollegen",
+        "depression durch arbeit symptome",
+        "depression durch arbeitsstress",
+        "ich kann nicht mehr zur arbeit gehen",
+        "ich kann nicht mehr arbeiten psyche",
+        "ich kann nicht mehr arbeiten depression",
+        "ich kann nicht mehr arbeiten was tun",
+        "ich kann nicht mehr arbeiten wegen krankheit",
+        "ich kann nicht mehr arbeiten reddit",
+        "ich kann nicht mehr arbeiten burnout",
+        "kann ich einfach nicht mehr zur arbeit gehen",
+        "ich kann nicht mehr vollzeit arbeiten",
+        "kann ich kündigen und nicht mehr zur arbeit gehen",
+        "arbeit macht mich depressiv",
+        "arbeit macht mich depressiv reddit",
+        "job belastet psychisch"
+      ],
+      "candidatePhrases": [
+        "depression durch arbeit",
+        "ich kann nicht mehr zur arbeit",
+        "arbeit macht mich depressiv",
+        "job belastet psychisch",
+        "depression durch arbeitslosigkeit",
+        "depression durch arbeit was tun",
+        "depression durch arbeitgeber",
+        "depression durch arbeitsplatz",
+        "depression durch arbeitsplatzverlust",
+        "depression durch arbeitsüberlastung",
+        "depression durch arbeitskollegen",
+        "depression durch arbeit symptome",
+        "depression durch arbeitsstress",
+        "ich kann nicht mehr zur arbeit gehen",
+        "ich kann nicht mehr arbeiten psyche",
+        "ich kann nicht mehr arbeiten depression",
+        "ich kann nicht mehr arbeiten was tun",
+        "ich kann nicht mehr arbeiten wegen krankheit",
+        "ich kann nicht mehr arbeiten reddit",
+        "ich kann nicht mehr arbeiten burnout",
+        "kann ich einfach nicht mehr zur arbeit gehen",
+        "ich kann nicht mehr vollzeit arbeiten",
+        "kann ich kündigen und nicht mehr zur arbeit gehen",
+        "arbeit macht mich depressiv reddit"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "depression durch arbeit",
+          "status": "review",
+          "reasons": [
+            "medical review needed"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich kann nicht mehr zur arbeit",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "arbeit macht mich depressiv",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "job belastet psychisch",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "depression durch arbeitslosigkeit",
+          "status": "review",
+          "reasons": [
+            "medical review needed"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "depression durch arbeit was tun",
+          "status": "review",
+          "reasons": [
+            "medical review needed"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "depression durch arbeitgeber",
+          "status": "review",
+          "reasons": [
+            "medical review needed"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "depression durch arbeitsplatz",
+          "status": "review",
+          "reasons": [
+            "medical review needed"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "depression durch arbeitsplatzverlust",
+          "status": "review",
+          "reasons": [
+            "medical review needed"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "depression durch arbeitsüberlastung",
+          "status": "review",
+          "reasons": [
+            "medical review needed"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "depression durch arbeitskollegen",
+          "status": "review",
+          "reasons": [
+            "medical review needed"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "depression durch arbeit symptome",
+          "status": "review",
+          "reasons": [
+            "medical review needed"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "depression durch arbeitsstress",
+          "status": "review",
+          "reasons": [
+            "medical review needed"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich kann nicht mehr zur arbeit gehen",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich kann nicht mehr arbeiten psyche",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich kann nicht mehr arbeiten depression",
+          "status": "review",
+          "reasons": [
+            "medical review needed"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich kann nicht mehr arbeiten was tun",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich kann nicht mehr arbeiten wegen krankheit",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich kann nicht mehr arbeiten reddit",
+          "status": "review",
+          "reasons": [
+            "platform-specific query",
+            "platform-specific query",
+            "platform-specific query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich kann nicht mehr arbeiten burnout",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "kann ich einfach nicht mehr zur arbeit gehen",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich kann nicht mehr vollzeit arbeiten",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "kann ich kündigen und nicht mehr zur arbeit gehen",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "arbeit macht mich depressiv reddit",
+          "status": "review",
+          "reasons": [
+            "platform-specific query",
+            "platform-specific query",
+            "platform-specific query"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "ich kann nicht mehr zur arbeit",
+        "arbeit macht mich depressiv",
+        "job belastet psychisch",
+        "ich kann nicht mehr zur arbeit gehen",
+        "ich kann nicht mehr arbeiten psyche",
+        "ich kann nicht mehr arbeiten was tun",
+        "ich kann nicht mehr arbeiten wegen krankheit",
+        "ich kann nicht mehr arbeiten burnout",
+        "kann ich einfach nicht mehr zur arbeit gehen",
+        "ich kann nicht mehr vollzeit arbeiten",
+        "kann ich kündigen und nicht mehr zur arbeit gehen"
+      ],
+      "reviewCandidatePhrases": [
+        "depression durch arbeit",
+        "depression durch arbeitslosigkeit",
+        "depression durch arbeit was tun",
+        "depression durch arbeitgeber",
+        "depression durch arbeitsplatz",
+        "depression durch arbeitsplatzverlust",
+        "depression durch arbeitsüberlastung",
+        "depression durch arbeitskollegen",
+        "depression durch arbeit symptome",
+        "depression durch arbeitsstress",
+        "ich kann nicht mehr arbeiten depression",
+        "ich kann nicht mehr arbeiten reddit",
+        "arbeit macht mich depressiv reddit"
+      ],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "de-DE",
+      "route": "/work/not-good-enough",
+      "slot": "work/not-good-enough",
+      "axis": "worry",
+      "sourceQueries": [
+        "ich bin nicht gut genug im job",
+        "angst nicht gut genug zu sein arbeit",
+        "impostor syndrom arbeit",
+        "ich mache alles falsch im job"
+      ],
+      "baseQueries": [
+        "ich bin nicht gut genug im job",
+        "angst nicht gut genug zu sein arbeit",
+        "impostor syndrom arbeit",
+        "ich mache alles falsch im job"
+      ],
+      "googleSuggestions": [
+        "angst nicht gut genug zu sein arbeit",
+        "impostor syndrom arbeit",
+        "impostor syndrom arbeiterkind"
+      ],
+      "candidatePhrases": [
+        "ich bin nicht gut genug im job",
+        "angst nicht gut genug zu sein arbeit",
+        "impostor syndrom arbeit",
+        "ich mache alles falsch im job",
+        "impostor syndrom arbeiterkind"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "ich bin nicht gut genug im job",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "angst nicht gut genug zu sein arbeit",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "impostor syndrom arbeit",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich mache alles falsch im job",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "impostor syndrom arbeiterkind",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "ich bin nicht gut genug im job",
+        "angst nicht gut genug zu sein arbeit",
+        "impostor syndrom arbeit",
+        "ich mache alles falsch im job",
+        "impostor syndrom arbeiterkind"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "de-DE",
+      "route": "/work/work-skepticism",
+      "slot": "work/work-skepticism",
+      "axis": "worry",
+      "sourceQueries": [
+        "arbeit hat keinen sinn",
+        "warum arbeiten",
+        "kein sinn mehr im job",
+        "sinnkrise arbeit"
+      ],
+      "baseQueries": [
+        "arbeit hat keinen sinn",
+        "warum arbeiten",
+        "kein sinn mehr im job",
+        "sinnkrise arbeit"
+      ],
+      "googleSuggestions": [
+        "warum arbeiten in ägypten nur männer im hotel",
+        "warum arbeiten menschen",
+        "warum arbeiten wir",
+        "warum arbeiten",
+        "warum arbeiten so viele polen in deutschland",
+        "warum arbeiten israel und usa zusammen",
+        "warum arbeiten so wenig ukrainer in deutschland",
+        "warum arbeiten beamte 41 stunden",
+        "warum arbeiten kinder",
+        "warum arbeiten so viele philippiner auf der aida",
+        "kein sinn im job",
+        "sinnkrise arbeit"
+      ],
+      "candidatePhrases": [
+        "arbeit hat keinen sinn",
+        "warum arbeiten",
+        "kein sinn mehr im job",
+        "sinnkrise arbeit",
+        "warum arbeiten in ägypten nur männer im hotel",
+        "warum arbeiten menschen",
+        "warum arbeiten wir",
+        "warum arbeiten so viele polen in deutschland",
+        "warum arbeiten israel und usa zusammen",
+        "warum arbeiten so wenig ukrainer in deutschland",
+        "warum arbeiten beamte 41 stunden",
+        "warum arbeiten kinder",
+        "warum arbeiten so viele philippiner auf der aida",
+        "kein sinn im job"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "arbeit hat keinen sinn",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "warum arbeiten",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "kein sinn mehr im job",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "sinnkrise arbeit",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": [
+            "meaning/existential-vacuum"
+          ]
+        },
+        {
+          "phrase": "warum arbeiten in ägypten nur männer im hotel",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "warum arbeiten menschen",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "warum arbeiten wir",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "warum arbeiten so viele polen in deutschland",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "warum arbeiten israel und usa zusammen",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "warum arbeiten so wenig ukrainer in deutschland",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "warum arbeiten beamte 41 stunden",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "warum arbeiten kinder",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "warum arbeiten so viele philippiner auf der aida",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "kein sinn im job",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "arbeit hat keinen sinn",
+        "warum arbeiten",
+        "kein sinn mehr im job",
+        "sinnkrise arbeit",
+        "warum arbeiten in ägypten nur männer im hotel",
+        "warum arbeiten menschen",
+        "warum arbeiten wir",
+        "warum arbeiten so viele polen in deutschland",
+        "warum arbeiten israel und usa zusammen",
+        "warum arbeiten so wenig ukrainer in deutschland",
+        "warum arbeiten beamte 41 stunden",
+        "warum arbeiten kinder",
+        "warum arbeiten so viele philippiner auf der aida",
+        "kein sinn im job"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {
+        "meaning/existential-vacuum": 1
+      },
+      "errors": []
+    },
+    {
+      "locale": "de-DE",
+      "route": "/meaning/dont-know-want",
+      "slot": "meaning/dont-know-want",
+      "axis": "worry",
+      "sourceQueries": [
+        "ich weiß nicht was ich will",
+        "ich weiß nicht was ich mit meinem leben machen soll",
+        "ich habe keine ziele",
+        "herausfinden was ich will"
+      ],
+      "baseQueries": [
+        "ich weiß nicht was ich will",
+        "ich weiß nicht was ich mit meinem leben machen soll",
+        "ich habe keine ziele",
+        "herausfinden was ich will"
+      ],
+      "googleSuggestions": [
+        "ich weiß nicht was ich will",
+        "ich weiß nicht was ich will im leben",
+        "ich weiß nicht was ich will beruflich",
+        "ich weiß nicht was ich will beziehung",
+        "ich weiß nicht was ich will und wer ich bin",
+        "ich weiß nicht was ich will psychologie",
+        "ich weiß nicht was ich will sprüche",
+        "ich bin 40 und weiß nicht was ich will",
+        "ich weiß was ich will",
+        "ich weiß was ich will udo jürgens",
+        "ich habe keine ziele im leben",
+        "ich habe keine ziele",
+        "ich habe keine ziele mehr",
+        "ich habe keine ziele mehr im leben",
+        "ich habe keine träume und ziele",
+        "herausfinden was ich will",
+        "herausfinden was ich wirklich will",
+        "herausfinden was ich beruflich will",
+        "meditation herausfinden was ich will",
+        "herausfinden was ich im leben will",
+        "herausfinden was man will psychologie",
+        "herausfinden was man will buch",
+        "herausfinden was man will test",
+        "herausfinden was man will beziehung",
+        "herausfinden was man will im leben"
+      ],
+      "candidatePhrases": [
+        "ich weiß nicht was ich will",
+        "ich weiß nicht was ich mit meinem leben machen soll",
+        "ich habe keine ziele",
+        "herausfinden was ich will",
+        "ich weiß nicht was ich will im leben",
+        "ich weiß nicht was ich will beruflich",
+        "ich weiß nicht was ich will beziehung",
+        "ich weiß nicht was ich will und wer ich bin",
+        "ich weiß nicht was ich will psychologie",
+        "ich weiß nicht was ich will sprüche",
+        "ich bin 40 und weiß nicht was ich will",
+        "ich weiß was ich will",
+        "ich weiß was ich will udo jürgens",
+        "ich habe keine ziele im leben",
+        "ich habe keine ziele mehr",
+        "ich habe keine ziele mehr im leben",
+        "ich habe keine träume und ziele",
+        "herausfinden was ich wirklich will",
+        "herausfinden was ich beruflich will",
+        "meditation herausfinden was ich will",
+        "herausfinden was ich im leben will",
+        "herausfinden was man will psychologie",
+        "herausfinden was man will buch",
+        "herausfinden was man will test",
+        "herausfinden was man will beziehung",
+        "herausfinden was man will im leben"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "ich weiß nicht was ich will",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich weiß nicht was ich mit meinem leben machen soll",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich habe keine ziele",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "herausfinden was ich will",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich weiß nicht was ich will im leben",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich weiß nicht was ich will beruflich",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich weiß nicht was ich will beziehung",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich weiß nicht was ich will und wer ich bin",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich weiß nicht was ich will psychologie",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich weiß nicht was ich will sprüche",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich bin 40 und weiß nicht was ich will",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich weiß was ich will",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich weiß was ich will udo jürgens",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich habe keine ziele im leben",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich habe keine ziele mehr",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich habe keine ziele mehr im leben",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich habe keine träume und ziele",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "herausfinden was ich wirklich will",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "herausfinden was ich beruflich will",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "meditation herausfinden was ich will",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "herausfinden was ich im leben will",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "herausfinden was man will psychologie",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "herausfinden was man will buch",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "herausfinden was man will test",
+          "status": "low-signal",
+          "reasons": [
+            "fortune-telling / diagnosis drift",
+            "fortune-telling / diagnosis drift",
+            "fortune-telling / diagnosis drift"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "herausfinden was man will beziehung",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "herausfinden was man will im leben",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "ich weiß nicht was ich will",
+        "ich weiß nicht was ich mit meinem leben machen soll",
+        "ich habe keine ziele",
+        "herausfinden was ich will",
+        "ich weiß nicht was ich will im leben",
+        "ich weiß nicht was ich will beruflich",
+        "ich weiß nicht was ich will beziehung",
+        "ich weiß nicht was ich will und wer ich bin",
+        "ich weiß nicht was ich will psychologie",
+        "ich weiß nicht was ich will sprüche",
+        "ich bin 40 und weiß nicht was ich will",
+        "ich weiß was ich will",
+        "ich weiß was ich will udo jürgens",
+        "ich habe keine ziele im leben",
+        "ich habe keine ziele mehr",
+        "ich habe keine ziele mehr im leben",
+        "ich habe keine träume und ziele",
+        "herausfinden was ich wirklich will",
+        "herausfinden was ich beruflich will",
+        "meditation herausfinden was ich will",
+        "herausfinden was ich im leben will",
+        "herausfinden was man will psychologie",
+        "herausfinden was man will beziehung",
+        "herausfinden was man will im leben"
+      ],
+      "reviewCandidatePhrases": [
+        "herausfinden was man will buch"
+      ],
+      "lowSignalCandidatePhrases": [
+        "herausfinden was man will test"
+      ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "de-DE",
+      "route": "/meaning/emptiness",
+      "slot": "meaning/emptiness",
+      "axis": "worry",
+      "sourceQueries": [
+        "ich fühle mich leer",
+        "innere leere",
+        "nichts erfüllt mich",
+        "existenzielle leere"
+      ],
+      "baseQueries": [
+        "ich fühle mich leer",
+        "innere leere",
+        "nichts erfüllt mich",
+        "existenzielle leere"
+      ],
+      "googleSuggestions": [
+        "ich fühle mich leer",
+        "ich fühle mich leer und traurig",
+        "ich fühle mich leer und einsam",
+        "ich fühle mich leer und gefühllos",
+        "ich fühle mich leer und ausgebrannt",
+        "ich fühle mich leer sprüche",
+        "ich fühle mich leer und antriebslos",
+        "ich fühle mich leer und erschöpft",
+        "ich fühle mich leer nach trennung",
+        "ich fühle mich leer und müde",
+        "innere leere",
+        "innere leere borderline",
+        "innere leere füllen",
+        "innere leere psychologie",
+        "innere leere keine gefühle",
+        "innere leere sprüche",
+        "innere leere test",
+        "innere leere körperliche symptome",
+        "innere leere ursache",
+        "innere leere was tun",
+        "nichts erfüllt mich",
+        "existenzielle leere"
+      ],
+      "candidatePhrases": [
+        "ich fühle mich leer",
+        "innere leere",
+        "nichts erfüllt mich",
+        "existenzielle leere",
+        "ich fühle mich leer und traurig",
+        "ich fühle mich leer und einsam",
+        "ich fühle mich leer und gefühllos",
+        "ich fühle mich leer und ausgebrannt",
+        "ich fühle mich leer sprüche",
+        "ich fühle mich leer und antriebslos",
+        "ich fühle mich leer und erschöpft",
+        "ich fühle mich leer nach trennung",
+        "ich fühle mich leer und müde",
+        "innere leere borderline",
+        "innere leere füllen",
+        "innere leere psychologie",
+        "innere leere keine gefühle",
+        "innere leere sprüche",
+        "innere leere test",
+        "innere leere körperliche symptome",
+        "innere leere ursache",
+        "innere leere was tun"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "ich fühle mich leer",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "innere leere",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "nichts erfüllt mich",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "existenzielle leere",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": [
+            "meaning/existential-vacuum"
+          ]
+        },
+        {
+          "phrase": "ich fühle mich leer und traurig",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich fühle mich leer und einsam",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich fühle mich leer und gefühllos",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich fühle mich leer und ausgebrannt",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich fühle mich leer sprüche",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich fühle mich leer und antriebslos",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich fühle mich leer und erschöpft",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich fühle mich leer nach trennung",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich fühle mich leer und müde",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "innere leere borderline",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "innere leere füllen",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "innere leere psychologie",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "innere leere keine gefühle",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "innere leere sprüche",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "innere leere test",
+          "status": "low-signal",
+          "reasons": [
+            "fortune-telling / diagnosis drift",
+            "fortune-telling / diagnosis drift",
+            "fortune-telling / diagnosis drift"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "innere leere körperliche symptome",
+          "status": "review",
+          "reasons": [
+            "medical review needed"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "innere leere ursache",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "innere leere was tun",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "ich fühle mich leer",
+        "innere leere",
+        "nichts erfüllt mich",
+        "existenzielle leere",
+        "ich fühle mich leer und traurig",
+        "ich fühle mich leer und einsam",
+        "ich fühle mich leer und gefühllos",
+        "ich fühle mich leer und ausgebrannt",
+        "ich fühle mich leer sprüche",
+        "ich fühle mich leer und antriebslos",
+        "ich fühle mich leer und erschöpft",
+        "ich fühle mich leer nach trennung",
+        "ich fühle mich leer und müde",
+        "innere leere borderline",
+        "innere leere füllen",
+        "innere leere psychologie",
+        "innere leere keine gefühle",
+        "innere leere sprüche",
+        "innere leere ursache",
+        "innere leere was tun"
+      ],
+      "reviewCandidatePhrases": [
+        "innere leere körperliche symptome"
+      ],
+      "lowSignalCandidatePhrases": [
+        "innere leere test"
+      ],
+      "clusterHints": {
+        "meaning/existential-vacuum": 1
+      },
+      "errors": []
+    },
+    {
+      "locale": "de-DE",
+      "route": "/meaning/no-goal",
+      "slot": "meaning/no-goal",
+      "axis": "worry",
+      "sourceQueries": [
+        "ich habe keine ziele im leben",
+        "wie finde ich ein ziel",
+        "ich habe keinen traum",
+        "ich weiß nicht worauf ich hinarbeiten soll"
+      ],
+      "baseQueries": [
+        "ich habe keine ziele im leben",
+        "wie finde ich ein ziel",
+        "ich habe keinen traum",
+        "ich weiß nicht worauf ich hinarbeiten soll"
+      ],
+      "googleSuggestions": [
+        "ich habe keine ziele im leben",
+        "ich habe keine ziele mehr im leben",
+        "wie finde ich ein ziel im leben",
+        "wie finde ich ein ziel",
+        "wie finde ich meine ziele",
+        "wie finde ich meine zielgruppe",
+        "wie finde ich meine ziele heraus",
+        "wie finde ich meine zielgruppe auf instagram",
+        "wie finde ich neue ziele im leben",
+        "wie finde ich neue ziele",
+        "wie finde ich wieder ziele im leben",
+        "wie finde ich mein berufliches ziel",
+        "ich habe keinen traumberuf",
+        "ich habe keinen traum"
+      ],
+      "candidatePhrases": [
+        "ich habe keine ziele im leben",
+        "wie finde ich ein ziel",
+        "ich habe keinen traum",
+        "ich weiß nicht worauf ich hinarbeiten soll",
+        "ich habe keine ziele mehr im leben",
+        "wie finde ich ein ziel im leben",
+        "wie finde ich meine ziele",
+        "wie finde ich meine zielgruppe",
+        "wie finde ich meine ziele heraus",
+        "wie finde ich meine zielgruppe auf instagram",
+        "wie finde ich neue ziele im leben",
+        "wie finde ich neue ziele",
+        "wie finde ich wieder ziele im leben",
+        "wie finde ich mein berufliches ziel",
+        "ich habe keinen traumberuf"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "ich habe keine ziele im leben",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "wie finde ich ein ziel",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich habe keinen traum",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich weiß nicht worauf ich hinarbeiten soll",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich habe keine ziele mehr im leben",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "wie finde ich ein ziel im leben",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "wie finde ich meine ziele",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "wie finde ich meine zielgruppe",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "wie finde ich meine ziele heraus",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "wie finde ich meine zielgruppe auf instagram",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "wie finde ich neue ziele im leben",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "wie finde ich neue ziele",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "wie finde ich wieder ziele im leben",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "wie finde ich mein berufliches ziel",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich habe keinen traumberuf",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "ich habe keine ziele im leben",
+        "wie finde ich ein ziel",
+        "ich habe keinen traum",
+        "ich weiß nicht worauf ich hinarbeiten soll",
+        "ich habe keine ziele mehr im leben",
+        "wie finde ich ein ziel im leben",
+        "wie finde ich meine ziele",
+        "wie finde ich meine zielgruppe",
+        "wie finde ich meine ziele heraus",
+        "wie finde ich meine zielgruppe auf instagram",
+        "wie finde ich neue ziele im leben",
+        "wie finde ich neue ziele",
+        "wie finde ich wieder ziele im leben",
+        "wie finde ich mein berufliches ziel",
+        "ich habe keinen traumberuf"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "de-DE",
+      "route": "/meaning/wandering",
+      "slot": "meaning/wandering",
+      "axis": "worry",
+      "sourceQueries": [
+        "ich bin im leben verloren",
+        "ich weiß nicht wohin",
+        "ich fühle mich orientierungslos",
+        "keine richtung im leben"
+      ],
+      "baseQueries": [
+        "ich bin im leben verloren",
+        "ich weiß nicht wohin",
+        "ich fühle mich orientierungslos",
+        "keine richtung im leben"
+      ],
+      "googleSuggestions": [
+        "ich bin verloren im leben",
+        "ich weiß nicht wohin mit mir",
+        "ich weiß nicht wohin in urlaub",
+        "ich weiß nicht wohin",
+        "ich weiß nicht wohin ich gehöre",
+        "ich weiß nicht wohin gott mich führt aber ich weiß dass er mich führt",
+        "ich weiß nicht wohin mit mir bedeutung",
+        "ich weiß nicht wohin gott mich führt",
+        "ich weiß nicht wohin mit meinen gefühlen",
+        "ich weiß nicht wohin mit mir englisch",
+        "ich weiß nicht wohin im leben",
+        "ich fühle mich orientierungslos",
+        "keine richtung im leben"
+      ],
+      "candidatePhrases": [
+        "ich bin im leben verloren",
+        "ich weiß nicht wohin",
+        "ich fühle mich orientierungslos",
+        "keine richtung im leben",
+        "ich bin verloren im leben",
+        "ich weiß nicht wohin mit mir",
+        "ich weiß nicht wohin in urlaub",
+        "ich weiß nicht wohin ich gehöre",
+        "ich weiß nicht wohin gott mich führt aber ich weiß dass er mich führt",
+        "ich weiß nicht wohin mit mir bedeutung",
+        "ich weiß nicht wohin gott mich führt",
+        "ich weiß nicht wohin mit meinen gefühlen",
+        "ich weiß nicht wohin mit mir englisch",
+        "ich weiß nicht wohin im leben"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "ich bin im leben verloren",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich weiß nicht wohin",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich fühle mich orientierungslos",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "keine richtung im leben",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich bin verloren im leben",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich weiß nicht wohin mit mir",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich weiß nicht wohin in urlaub",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich weiß nicht wohin ich gehöre",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich weiß nicht wohin gott mich führt aber ich weiß dass er mich führt",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich weiß nicht wohin mit mir bedeutung",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich weiß nicht wohin gott mich führt",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich weiß nicht wohin mit meinen gefühlen",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich weiß nicht wohin mit mir englisch",
+          "status": "low-signal",
+          "reasons": [
+            "translation or language lookup"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich weiß nicht wohin im leben",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "ich bin im leben verloren",
+        "ich weiß nicht wohin",
+        "ich fühle mich orientierungslos",
+        "keine richtung im leben",
+        "ich bin verloren im leben",
+        "ich weiß nicht wohin mit mir",
+        "ich weiß nicht wohin in urlaub",
+        "ich weiß nicht wohin ich gehöre",
+        "ich weiß nicht wohin gott mich führt aber ich weiß dass er mich führt",
+        "ich weiß nicht wohin gott mich führt",
+        "ich weiß nicht wohin mit meinen gefühlen",
+        "ich weiß nicht wohin im leben"
+      ],
+      "reviewCandidatePhrases": [
+        "ich weiß nicht wohin mit mir bedeutung"
+      ],
+      "lowSignalCandidatePhrases": [
+        "ich weiß nicht wohin mit mir englisch"
+      ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "de-DE",
+      "route": "/family/holiday-stress",
+      "slot": "family/holiday-stress",
+      "axis": "worry",
+      "sourceQueries": [
+        "familienfeier stress",
+        "weihnachten familie stress",
+        "unangenehme fragen familie",
+        "heimfahren zur familie angst"
+      ],
+      "baseQueries": [
+        "familienfeier stress",
+        "weihnachten familie stress",
+        "unangenehme fragen familie",
+        "heimfahren zur familie angst"
+      ],
+      "googleSuggestions": [
+        "familienfeier stress",
+        "weihnachten familie stress"
+      ],
+      "candidatePhrases": [
+        "familienfeier stress",
+        "weihnachten familie stress",
+        "unangenehme fragen familie",
+        "heimfahren zur familie angst"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "familienfeier stress",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "weihnachten familie stress",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "unangenehme fragen familie",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "heimfahren zur familie angst",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "familienfeier stress",
+        "weihnachten familie stress",
+        "unangenehme fragen familie",
+        "heimfahren zur familie angst"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "de-DE",
+      "route": "/family/family-cutoff",
+      "slot": "family/family-cutoff",
+      "axis": "worry",
+      "sourceQueries": [
+        "kontakt zur familie abbrechen",
+        "toxische familie abstand nehmen",
+        "mit eltern keinen kontakt mehr",
+        "schuldgefühle kontaktabbruch familie"
+      ],
+      "baseQueries": [
+        "kontakt zur familie abbrechen",
+        "toxische familie abstand nehmen",
+        "mit eltern keinen kontakt mehr",
+        "schuldgefühle kontaktabbruch familie"
+      ],
+      "googleSuggestions": [
+        "kontakt zur familie abbrechen",
+        "kontakt zur familie abbrechen gründe",
+        "kontakt zur familie abbrechen erfahrungen",
+        "kontakt zur familie abbrechen forum",
+        "kontakt zur eigenen familie abbrechen",
+        "kontakt abbrechen familie sprüche",
+        "wenn kinder den kontakt zur familie abbrechen",
+        "wann sollte man den kontakt zur familie abbrechen",
+        "mit eltern keinen kontakt mehr"
+      ],
+      "candidatePhrases": [
+        "kontakt zur familie abbrechen",
+        "toxische familie abstand nehmen",
+        "mit eltern keinen kontakt mehr",
+        "schuldgefühle kontaktabbruch familie",
+        "kontakt zur familie abbrechen gründe",
+        "kontakt zur familie abbrechen erfahrungen",
+        "kontakt zur familie abbrechen forum",
+        "kontakt zur eigenen familie abbrechen",
+        "kontakt abbrechen familie sprüche",
+        "wenn kinder den kontakt zur familie abbrechen",
+        "wann sollte man den kontakt zur familie abbrechen"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "kontakt zur familie abbrechen",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "toxische familie abstand nehmen",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "mit eltern keinen kontakt mehr",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "schuldgefühle kontaktabbruch familie",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "kontakt zur familie abbrechen gründe",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "kontakt zur familie abbrechen erfahrungen",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "kontakt zur familie abbrechen forum",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "kontakt zur eigenen familie abbrechen",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "kontakt abbrechen familie sprüche",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "wenn kinder den kontakt zur familie abbrechen",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "wann sollte man den kontakt zur familie abbrechen",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "kontakt zur familie abbrechen",
+        "toxische familie abstand nehmen",
+        "mit eltern keinen kontakt mehr",
+        "schuldgefühle kontaktabbruch familie",
+        "kontakt zur familie abbrechen gründe",
+        "kontakt zur familie abbrechen erfahrungen",
+        "kontakt zur familie abbrechen forum",
+        "kontakt zur eigenen familie abbrechen",
+        "kontakt abbrechen familie sprüche",
+        "wenn kinder den kontakt zur familie abbrechen",
+        "wann sollte man den kontakt zur familie abbrechen"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "de-DE",
+      "route": "/family/mother-conflict",
+      "slot": "family/mother-conflict",
+      "axis": "worry",
+      "sourceQueries": [
+        "ich komme mit meiner mutter nicht klar",
+        "meine mutter belastet mich",
+        "ständig streit mit mutter",
+        "grenzen setzen mutter"
+      ],
+      "baseQueries": [
+        "ich komme mit meiner mutter nicht klar",
+        "meine mutter belastet mich",
+        "ständig streit mit mutter",
+        "grenzen setzen mutter"
+      ],
+      "googleSuggestions": [
+        "ich komme mit meiner mutter nicht klar",
+        "ich komme mit meiner mutter nicht mehr klar",
+        "ich komme mit dem tod meiner mutter nicht klar",
+        "ich komme mit der demenz meiner mutter nicht klar",
+        "meine mutter belastet mich",
+        "meine mutter belastet mich mit ihren problemen",
+        "ständig streit mit mutter",
+        "ständig streit mit mutter erwachsen",
+        "ständig streit mit mutter erwachsen sohn",
+        "ständig streit mit alter mutter",
+        "grenzen setzen mutter",
+        "grenzen setzen narzisstische mutter"
+      ],
+      "candidatePhrases": [
+        "ich komme mit meiner mutter nicht klar",
+        "meine mutter belastet mich",
+        "ständig streit mit mutter",
+        "grenzen setzen mutter",
+        "ich komme mit meiner mutter nicht mehr klar",
+        "ich komme mit dem tod meiner mutter nicht klar",
+        "ich komme mit der demenz meiner mutter nicht klar",
+        "meine mutter belastet mich mit ihren problemen",
+        "ständig streit mit mutter erwachsen",
+        "ständig streit mit mutter erwachsen sohn",
+        "ständig streit mit alter mutter",
+        "grenzen setzen narzisstische mutter"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "ich komme mit meiner mutter nicht klar",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "meine mutter belastet mich",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ständig streit mit mutter",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "grenzen setzen mutter",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich komme mit meiner mutter nicht mehr klar",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich komme mit dem tod meiner mutter nicht klar",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich komme mit der demenz meiner mutter nicht klar",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "meine mutter belastet mich mit ihren problemen",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ständig streit mit mutter erwachsen",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ständig streit mit mutter erwachsen sohn",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ständig streit mit alter mutter",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "grenzen setzen narzisstische mutter",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "ich komme mit meiner mutter nicht klar",
+        "meine mutter belastet mich",
+        "ständig streit mit mutter",
+        "grenzen setzen mutter",
+        "ich komme mit meiner mutter nicht mehr klar",
+        "ich komme mit dem tod meiner mutter nicht klar",
+        "ich komme mit der demenz meiner mutter nicht klar",
+        "meine mutter belastet mich mit ihren problemen",
+        "ständig streit mit mutter erwachsen",
+        "ständig streit mit mutter erwachsen sohn",
+        "ständig streit mit alter mutter",
+        "grenzen setzen narzisstische mutter"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "de-DE",
+      "route": "/body/body-anxiety",
+      "slot": "body/body-anxiety",
+      "axis": "worry",
+      "sourceQueries": [
+        "ich hasse meinen körper",
+        "körperbild angst",
+        "komplexe wegen aussehen",
+        "ich mag mein aussehen nicht"
+      ],
+      "baseQueries": [
+        "ich hasse meinen körper",
+        "körperbild angst",
+        "komplexe wegen aussehen",
+        "ich mag mein aussehen nicht"
+      ],
+      "googleSuggestions": [
+        "ich hasse meinen körper",
+        "ich hasse meinen körper ard",
+        "ich hasse meinen körper was tun",
+        "ich hasse meinen körper nach der schwangerschaft",
+        "ich hasse meinen körper doku",
+        "ich hasse meinen körper sprüche",
+        "ich hasse meinen körper staffel 2 folge 1",
+        "ich hasse meinen körper so sehr",
+        "hasse ich meinen körper test",
+        "ich hasse meinen schwangeren körper",
+        "körperbild angst",
+        "komplexe wegen aussehen",
+        "starke komplexe wegen aussehen",
+        "ich mag mein aussehen nicht"
+      ],
+      "candidatePhrases": [
+        "ich hasse meinen körper",
+        "körperbild angst",
+        "komplexe wegen aussehen",
+        "ich mag mein aussehen nicht",
+        "ich hasse meinen körper ard",
+        "ich hasse meinen körper was tun",
+        "ich hasse meinen körper nach der schwangerschaft",
+        "ich hasse meinen körper doku",
+        "ich hasse meinen körper sprüche",
+        "ich hasse meinen körper staffel 2 folge 1",
+        "ich hasse meinen körper so sehr",
+        "hasse ich meinen körper test",
+        "ich hasse meinen schwangeren körper",
+        "starke komplexe wegen aussehen"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "ich hasse meinen körper",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "körperbild angst",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "komplexe wegen aussehen",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich mag mein aussehen nicht",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich hasse meinen körper ard",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich hasse meinen körper was tun",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich hasse meinen körper nach der schwangerschaft",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich hasse meinen körper doku",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich hasse meinen körper sprüche",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich hasse meinen körper staffel 2 folge 1",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich hasse meinen körper so sehr",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "hasse ich meinen körper test",
+          "status": "low-signal",
+          "reasons": [
+            "fortune-telling / diagnosis drift",
+            "fortune-telling / diagnosis drift",
+            "fortune-telling / diagnosis drift"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich hasse meinen schwangeren körper",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "starke komplexe wegen aussehen",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "ich hasse meinen körper",
+        "körperbild angst",
+        "komplexe wegen aussehen",
+        "ich mag mein aussehen nicht",
+        "ich hasse meinen körper ard",
+        "ich hasse meinen körper was tun",
+        "ich hasse meinen körper nach der schwangerschaft",
+        "ich hasse meinen körper doku",
+        "ich hasse meinen körper sprüche",
+        "ich hasse meinen körper staffel 2 folge 1",
+        "ich hasse meinen körper so sehr",
+        "ich hasse meinen schwangeren körper",
+        "starke komplexe wegen aussehen"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [
+        "hasse ich meinen körper test"
+      ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "de-DE",
+      "route": "/body/aging-anxiety",
+      "slot": "body/aging-anxiety",
+      "axis": "worry",
+      "sourceQueries": [
+        "angst vor dem älterwerden",
+        "altersangst",
+        "angst jung zu verlieren",
+        "krise wegen alter"
+      ],
+      "baseQueries": [
+        "angst vor dem älterwerden",
+        "altersangst",
+        "angst jung zu verlieren",
+        "krise wegen alter"
+      ],
+      "googleSuggestions": [
+        "angst vor dem älterwerden",
+        "keine angst vor dem älterwerden",
+        "cicero keine angst vor dem älterwerden",
+        "altersangst",
+        "altersangst generation z",
+        "altersangst symptome",
+        "der altersangst komplex"
+      ],
+      "candidatePhrases": [
+        "angst vor dem älterwerden",
+        "altersangst",
+        "angst jung zu verlieren",
+        "krise wegen alter",
+        "keine angst vor dem älterwerden",
+        "cicero keine angst vor dem älterwerden",
+        "altersangst generation z",
+        "altersangst symptome",
+        "der altersangst komplex"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "angst vor dem älterwerden",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "altersangst",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "angst jung zu verlieren",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "krise wegen alter",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "keine angst vor dem älterwerden",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "cicero keine angst vor dem älterwerden",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "altersangst generation z",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "altersangst symptome",
+          "status": "review",
+          "reasons": [
+            "medical review needed"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "der altersangst komplex",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "angst vor dem älterwerden",
+        "altersangst",
+        "angst jung zu verlieren",
+        "krise wegen alter",
+        "keine angst vor dem älterwerden",
+        "cicero keine angst vor dem älterwerden",
+        "altersangst generation z",
+        "der altersangst komplex"
+      ],
+      "reviewCandidatePhrases": [
+        "altersangst symptome"
+      ],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "de-DE",
+      "route": "/body/hair-loss-stress",
+      "slot": "body/hair-loss-stress",
+      "axis": "worry",
+      "sourceQueries": [
+        "haarausfall angst",
+        "angst kahl zu werden",
+        "haarausfall selbstwert",
+        "stress wegen haarausfall"
+      ],
+      "baseQueries": [
+        "haarausfall angst",
+        "angst kahl zu werden",
+        "haarausfall selbstwert",
+        "stress wegen haarausfall"
+      ],
+      "googleSuggestions": [
+        "haarausfall angststörung",
+        "haarausfall angst vor haare waschen",
+        "haarausfall angst",
+        "haarausfall angst vor glatze",
+        "angstzustände haarausfall",
+        "generalisierte angststörung haarausfall",
+        "kann angst haarausfall auslösen",
+        "wegen stress haarausfall",
+        "kann man wegen stress haarausfall bekommen"
+      ],
+      "candidatePhrases": [
+        "haarausfall angst",
+        "angst kahl zu werden",
+        "haarausfall selbstwert",
+        "stress wegen haarausfall",
+        "haarausfall angststörung",
+        "haarausfall angst vor haare waschen",
+        "haarausfall angst vor glatze",
+        "angstzustände haarausfall",
+        "generalisierte angststörung haarausfall",
+        "kann angst haarausfall auslösen",
+        "wegen stress haarausfall",
+        "kann man wegen stress haarausfall bekommen"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "haarausfall angst",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "angst kahl zu werden",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "haarausfall selbstwert",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "stress wegen haarausfall",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "haarausfall angststörung",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "haarausfall angst vor haare waschen",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "haarausfall angst vor glatze",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "angstzustände haarausfall",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "generalisierte angststörung haarausfall",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "kann angst haarausfall auslösen",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "wegen stress haarausfall",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "kann man wegen stress haarausfall bekommen",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "haarausfall angst",
+        "angst kahl zu werden",
+        "haarausfall selbstwert",
+        "stress wegen haarausfall",
+        "haarausfall angststörung",
+        "haarausfall angst vor haare waschen",
+        "haarausfall angst vor glatze",
+        "angstzustände haarausfall",
+        "generalisierte angststörung haarausfall",
+        "kann angst haarausfall auslösen",
+        "wegen stress haarausfall",
+        "kann man wegen stress haarausfall bekommen"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "de-DE",
+      "route": "/career/dream-reality",
+      "slot": "career/dream-reality",
+      "axis": "worry",
+      "sourceQueries": [
+        "traum aufgeben oder weitermachen",
+        "traum und realität",
+        "leidenschaft zum beruf machen oder realistisch sein",
+        "angst dem traum zu folgen"
+      ],
+      "baseQueries": [
+        "traum aufgeben oder weitermachen",
+        "traum und realität",
+        "leidenschaft zum beruf machen oder realistisch sein",
+        "angst dem traum zu folgen"
+      ],
+      "googleSuggestions": [
+        "traum und realität nicht unterscheiden können",
+        "traum und realität",
+        "traum und realität verschwimmt",
+        "traum und realität vermischen sich",
+        "traum und realität unterscheiden",
+        "traum und realität verwechseln",
+        "zwischen traum und realität",
+        "probleme traum und realität nicht auseinanderhalten",
+        "unterschied traum und realität",
+        "traum realität vermischt"
+      ],
+      "candidatePhrases": [
+        "traum aufgeben oder weitermachen",
+        "traum und realität",
+        "leidenschaft zum beruf machen oder realistisch sein",
+        "angst dem traum zu folgen",
+        "traum und realität nicht unterscheiden können",
+        "traum und realität verschwimmt",
+        "traum und realität vermischen sich",
+        "traum und realität unterscheiden",
+        "traum und realität verwechseln",
+        "zwischen traum und realität",
+        "probleme traum und realität nicht auseinanderhalten",
+        "unterschied traum und realität",
+        "traum realität vermischt"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "traum aufgeben oder weitermachen",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "traum und realität",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "leidenschaft zum beruf machen oder realistisch sein",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "angst dem traum zu folgen",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "traum und realität nicht unterscheiden können",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "traum und realität verschwimmt",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "traum und realität vermischen sich",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "traum und realität unterscheiden",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "traum und realität verwechseln",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "zwischen traum und realität",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "probleme traum und realität nicht auseinanderhalten",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "unterschied traum und realität",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "traum realität vermischt",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "traum aufgeben oder weitermachen",
+        "traum und realität",
+        "leidenschaft zum beruf machen oder realistisch sein",
+        "angst dem traum zu folgen",
+        "traum und realität nicht unterscheiden können",
+        "traum und realität verschwimmt",
+        "traum und realität vermischen sich",
+        "traum und realität unterscheiden",
+        "traum und realität verwechseln",
+        "zwischen traum und realität",
+        "probleme traum und realität nicht auseinanderhalten",
+        "unterschied traum und realität",
+        "traum realität vermischt"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "de-DE",
+      "route": "/career/regret-free-choice",
+      "slot": "career/regret-free-choice",
+      "axis": "worry",
+      "sourceQueries": [
+        "entscheidung ohne reue treffen",
+        "angst falsch zu entscheiden",
+        "ich werde jede wahl bereuen",
+        "wichtige entscheidung blockiert"
+      ],
+      "baseQueries": [
+        "entscheidung ohne reue treffen",
+        "angst falsch zu entscheiden",
+        "ich werde jede wahl bereuen",
+        "wichtige entscheidung blockiert"
+      ],
+      "googleSuggestions": [
+        "angst sich falsch zu entscheiden"
+      ],
+      "candidatePhrases": [
+        "entscheidung ohne reue treffen",
+        "angst falsch zu entscheiden",
+        "ich werde jede wahl bereuen",
+        "wichtige entscheidung blockiert",
+        "angst sich falsch zu entscheiden"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "entscheidung ohne reue treffen",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "angst falsch zu entscheiden",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ich werde jede wahl bereuen",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "wichtige entscheidung blockiert",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "angst sich falsch zu entscheiden",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "entscheidung ohne reue treffen",
+        "angst falsch zu entscheiden",
+        "ich werde jede wahl bereuen",
+        "wichtige entscheidung blockiert",
+        "angst sich falsch zu entscheiden"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "de-DE",
+      "route": "/debate/euthanasia",
+      "slot": "debate/euthanasia",
+      "axis": "debate",
+      "sourceQueries": [
+        "euthanasie debatte",
+        "sterbehilfe pro contra",
+        "recht auf würdiges sterben",
+        "sollte sterbehilfe erlaubt sein"
+      ],
+      "baseQueries": [
+        "euthanasie debatte",
+        "sterbehilfe pro contra",
+        "recht auf würdiges sterben",
+        "sollte sterbehilfe erlaubt sein"
+      ],
+      "googleSuggestions": [
+        "euthanasie debatte",
+        "sterbehilfe pro contra",
+        "sterbehilfe pro contra unterricht",
+        "sterbehilfe pro contra argumente",
+        "sterbehilfe pro und contra tabelle",
+        "aktive sterbehilfe pro contra",
+        "sterbehilfe pro und contra ethisch",
+        "aktive sterbehilfe pro und contra tabelle",
+        "passive sterbehilfe pro und contra",
+        "sterbehilfe deutschland pro und contra",
+        "indirekte sterbehilfe pro und contra",
+        "sollte sterbehilfe erlaubt sein",
+        "sollte aktive sterbehilfe erlaubt sein",
+        "sollte aktive sterbehilfe in deutschland erlaubt sein"
+      ],
+      "candidatePhrases": [
+        "euthanasie debatte",
+        "sterbehilfe pro contra",
+        "recht auf würdiges sterben",
+        "sollte sterbehilfe erlaubt sein",
+        "sterbehilfe pro contra unterricht",
+        "sterbehilfe pro contra argumente",
+        "sterbehilfe pro und contra tabelle",
+        "aktive sterbehilfe pro contra",
+        "sterbehilfe pro und contra ethisch",
+        "aktive sterbehilfe pro und contra tabelle",
+        "passive sterbehilfe pro und contra",
+        "sterbehilfe deutschland pro und contra",
+        "indirekte sterbehilfe pro und contra",
+        "sollte aktive sterbehilfe erlaubt sein",
+        "sollte aktive sterbehilfe in deutschland erlaubt sein"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "euthanasie debatte",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "sterbehilfe pro contra",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "recht auf würdiges sterben",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "sollte sterbehilfe erlaubt sein",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "sterbehilfe pro contra unterricht",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "sterbehilfe pro contra argumente",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "sterbehilfe pro und contra tabelle",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "aktive sterbehilfe pro contra",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "sterbehilfe pro und contra ethisch",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "aktive sterbehilfe pro und contra tabelle",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "passive sterbehilfe pro und contra",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "sterbehilfe deutschland pro und contra",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "indirekte sterbehilfe pro und contra",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "sollte aktive sterbehilfe erlaubt sein",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "sollte aktive sterbehilfe in deutschland erlaubt sein",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "euthanasie debatte",
+        "sterbehilfe pro contra",
+        "recht auf würdiges sterben",
+        "sollte sterbehilfe erlaubt sein",
+        "sterbehilfe pro contra unterricht",
+        "sterbehilfe pro contra argumente",
+        "sterbehilfe pro und contra tabelle",
+        "aktive sterbehilfe pro contra",
+        "sterbehilfe pro und contra ethisch",
+        "aktive sterbehilfe pro und contra tabelle",
+        "passive sterbehilfe pro und contra",
+        "sterbehilfe deutschland pro und contra",
+        "indirekte sterbehilfe pro und contra",
+        "sollte aktive sterbehilfe erlaubt sein",
+        "sollte aktive sterbehilfe in deutschland erlaubt sein"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "de-DE",
+      "route": "/debate/death-penalty",
+      "slot": "debate/death-penalty",
+      "axis": "debate",
+      "sourceQueries": [
+        "todesstrafe debatte",
+        "todesstrafe pro contra",
+        "todesstrafe abschaffen",
+        "justizirrtum todesstrafe"
+      ],
+      "baseQueries": [
+        "todesstrafe debatte",
+        "todesstrafe pro contra",
+        "todesstrafe abschaffen",
+        "justizirrtum todesstrafe"
+      ],
+      "googleSuggestions": [
+        "todesstrafe debatte",
+        "todesstrafe pro contra",
+        "todesstrafe pro contra argumente",
+        "todesstrafe pro contra philosophie",
+        "todesstrafe pro und contra argumente erörterung",
+        "todesstrafe deutschland pro und contra",
+        "justizirrtum todesstrafe"
+      ],
+      "candidatePhrases": [
+        "todesstrafe debatte",
+        "todesstrafe pro contra",
+        "todesstrafe abschaffen",
+        "justizirrtum todesstrafe",
+        "todesstrafe pro contra argumente",
+        "todesstrafe pro contra philosophie",
+        "todesstrafe pro und contra argumente erörterung",
+        "todesstrafe deutschland pro und contra"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "todesstrafe debatte",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "todesstrafe pro contra",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "todesstrafe abschaffen",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "justizirrtum todesstrafe",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "todesstrafe pro contra argumente",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "todesstrafe pro contra philosophie",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "todesstrafe pro und contra argumente erörterung",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "todesstrafe deutschland pro und contra",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "todesstrafe debatte",
+        "todesstrafe pro contra",
+        "todesstrafe abschaffen",
+        "justizirrtum todesstrafe",
+        "todesstrafe pro contra argumente",
+        "todesstrafe pro contra philosophie",
+        "todesstrafe pro und contra argumente erörterung",
+        "todesstrafe deutschland pro und contra"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "de-DE",
+      "route": "/debate/abortion",
+      "slot": "debate/abortion",
+      "axis": "debate",
+      "sourceQueries": [
+        "abtreibung debatte",
+        "abtreibung pro contra",
+        "recht auf abtreibung",
+        "ungeborenes leben selbstbestimmung"
+      ],
+      "baseQueries": [
+        "abtreibung debatte",
+        "abtreibung pro contra",
+        "recht auf abtreibung",
+        "ungeborenes leben selbstbestimmung"
+      ],
+      "googleSuggestions": [
+        "abtreibung debatte",
+        "abtreibung debatte bundestag",
+        "debatte abtreibung deutschland",
+        "debatte abtreibung argumente",
+        "abtreibung aktuelle debatte",
+        "trump abtreibung debatte",
+        "abtreibung deutschland aktuelle debatte",
+        "gesellschaftliche debatte abtreibung",
+        "abtreibung pro contra",
+        "abtreibung pro contra unterricht",
+        "abtreibung pro contra argumente",
+        "abtreibung pro und contra tabelle",
+        "abtreibung pro und contra ethik",
+        "abtreibung pro und contra liste",
+        "abtreibung diskussion pro contra",
+        "abtreibung verbieten pro contra",
+        "abtreibung ethische pro/contra argumente",
+        "abtreibung legalisieren pro und contra",
+        "recht auf abtreibung",
+        "recht auf abtreibung deutschland",
+        "recht auf abtreibung usa",
+        "recht auf abtreibung frankreich",
+        "recht auf abtreibung eu",
+        "recht auf abtreibung europa",
+        "recht auf abtreibung luxemburg",
+        "recht auf abtreibung österreich",
+        "recht auf abtreibung schweiz",
+        "recht auf abtreibung zurawskis kampf gegen texas"
+      ],
+      "candidatePhrases": [
+        "abtreibung debatte",
+        "abtreibung pro contra",
+        "recht auf abtreibung",
+        "ungeborenes leben selbstbestimmung",
+        "abtreibung debatte bundestag",
+        "debatte abtreibung deutschland",
+        "debatte abtreibung argumente",
+        "abtreibung aktuelle debatte",
+        "trump abtreibung debatte",
+        "abtreibung deutschland aktuelle debatte",
+        "gesellschaftliche debatte abtreibung",
+        "abtreibung pro contra unterricht",
+        "abtreibung pro contra argumente",
+        "abtreibung pro und contra tabelle",
+        "abtreibung pro und contra ethik",
+        "abtreibung pro und contra liste",
+        "abtreibung diskussion pro contra",
+        "abtreibung verbieten pro contra",
+        "abtreibung ethische pro/contra argumente",
+        "abtreibung legalisieren pro und contra",
+        "recht auf abtreibung deutschland",
+        "recht auf abtreibung usa",
+        "recht auf abtreibung frankreich",
+        "recht auf abtreibung eu",
+        "recht auf abtreibung europa",
+        "recht auf abtreibung luxemburg",
+        "recht auf abtreibung österreich",
+        "recht auf abtreibung schweiz",
+        "recht auf abtreibung zurawskis kampf gegen texas"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "abtreibung debatte",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "abtreibung pro contra",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "recht auf abtreibung",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ungeborenes leben selbstbestimmung",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "abtreibung debatte bundestag",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "debatte abtreibung deutschland",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "debatte abtreibung argumente",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "abtreibung aktuelle debatte",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "trump abtreibung debatte",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "abtreibung deutschland aktuelle debatte",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "gesellschaftliche debatte abtreibung",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "abtreibung pro contra unterricht",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "abtreibung pro contra argumente",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "abtreibung pro und contra tabelle",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "abtreibung pro und contra ethik",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "abtreibung pro und contra liste",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "abtreibung diskussion pro contra",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "abtreibung verbieten pro contra",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "abtreibung ethische pro/contra argumente",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "abtreibung legalisieren pro und contra",
+          "status": "review",
+          "reasons": [
+            "legal/institutional review needed"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "recht auf abtreibung deutschland",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "recht auf abtreibung usa",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "recht auf abtreibung frankreich",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "recht auf abtreibung eu",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "recht auf abtreibung europa",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "recht auf abtreibung luxemburg",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "recht auf abtreibung österreich",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "recht auf abtreibung schweiz",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "recht auf abtreibung zurawskis kampf gegen texas",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "abtreibung debatte",
+        "abtreibung pro contra",
+        "recht auf abtreibung",
+        "ungeborenes leben selbstbestimmung",
+        "abtreibung debatte bundestag",
+        "debatte abtreibung deutschland",
+        "debatte abtreibung argumente",
+        "abtreibung aktuelle debatte",
+        "trump abtreibung debatte",
+        "abtreibung deutschland aktuelle debatte",
+        "gesellschaftliche debatte abtreibung",
+        "abtreibung pro contra unterricht",
+        "abtreibung pro contra argumente",
+        "abtreibung pro und contra tabelle",
+        "abtreibung pro und contra ethik",
+        "abtreibung pro und contra liste",
+        "abtreibung diskussion pro contra",
+        "abtreibung verbieten pro contra",
+        "abtreibung ethische pro/contra argumente",
+        "recht auf abtreibung deutschland",
+        "recht auf abtreibung usa",
+        "recht auf abtreibung frankreich",
+        "recht auf abtreibung eu",
+        "recht auf abtreibung europa",
+        "recht auf abtreibung luxemburg",
+        "recht auf abtreibung österreich",
+        "recht auf abtreibung schweiz",
+        "recht auf abtreibung zurawskis kampf gegen texas"
+      ],
+      "reviewCandidatePhrases": [
+        "abtreibung legalisieren pro und contra"
+      ],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "de-DE",
+      "route": "/debate/animal-testing",
+      "slot": "debate/animal-testing",
+      "axis": "debate",
+      "sourceQueries": [
+        "tierversuche debatte",
+        "tierversuche pro contra",
+        "ethik tierversuche",
+        "tierversuche kosmetik"
+      ],
+      "baseQueries": [
+        "tierversuche debatte",
+        "tierversuche pro contra",
+        "ethik tierversuche",
+        "tierversuche kosmetik"
+      ],
+      "googleSuggestions": [
+        "tierversuche debatte",
+        "tierversuche pro contra",
+        "tierversuche pro contra argumente tabelle",
+        "tierversuche pro contra argumente",
+        "tierversuche ethik pro contra",
+        "tierversuche medikamente pro contra",
+        "tierversuche verstehen pro contra",
+        "tierversuche medizin pro contra",
+        "ärzte gegen tierversuche pro contra",
+        "tierversuche kosmetik pro und contra",
+        "tierversuche in der wissenschaft pro contra",
+        "ethik tierversuche",
+        "tierversuche ethik unterricht",
+        "tierversuche ethik referat",
+        "tierversuche kosmetik",
+        "tierversuche kosmetik liste",
+        "tierversuche kosmetik deutschland",
+        "tierversuche kosmetik marken",
+        "tierversuche kosmetik peta",
+        "tierversuche kosmetik statistik",
+        "tierversuche kosmetik beispiele",
+        "tierversuche kosmetik negativliste",
+        "tierversuche kosmetik österreich"
+      ],
+      "candidatePhrases": [
+        "tierversuche debatte",
+        "tierversuche pro contra",
+        "ethik tierversuche",
+        "tierversuche kosmetik",
+        "tierversuche pro contra argumente tabelle",
+        "tierversuche pro contra argumente",
+        "tierversuche ethik pro contra",
+        "tierversuche medikamente pro contra",
+        "tierversuche verstehen pro contra",
+        "tierversuche medizin pro contra",
+        "ärzte gegen tierversuche pro contra",
+        "tierversuche kosmetik pro und contra",
+        "tierversuche in der wissenschaft pro contra",
+        "tierversuche ethik unterricht",
+        "tierversuche ethik referat",
+        "tierversuche kosmetik liste",
+        "tierversuche kosmetik deutschland",
+        "tierversuche kosmetik marken",
+        "tierversuche kosmetik peta",
+        "tierversuche kosmetik statistik",
+        "tierversuche kosmetik beispiele",
+        "tierversuche kosmetik negativliste",
+        "tierversuche kosmetik österreich"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "tierversuche debatte",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "tierversuche pro contra",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ethik tierversuche",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "tierversuche kosmetik",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "tierversuche pro contra argumente tabelle",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "tierversuche pro contra argumente",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "tierversuche ethik pro contra",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "tierversuche medikamente pro contra",
+          "status": "review",
+          "reasons": [
+            "medical review needed"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "tierversuche verstehen pro contra",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "tierversuche medizin pro contra",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ärzte gegen tierversuche pro contra",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "tierversuche kosmetik pro und contra",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "tierversuche in der wissenschaft pro contra",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "tierversuche ethik unterricht",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "tierversuche ethik referat",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "tierversuche kosmetik liste",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "tierversuche kosmetik deutschland",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "tierversuche kosmetik marken",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "tierversuche kosmetik peta",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "tierversuche kosmetik statistik",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "tierversuche kosmetik beispiele",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "tierversuche kosmetik negativliste",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "tierversuche kosmetik österreich",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "tierversuche debatte",
+        "tierversuche pro contra",
+        "ethik tierversuche",
+        "tierversuche kosmetik",
+        "tierversuche pro contra argumente tabelle",
+        "tierversuche pro contra argumente",
+        "tierversuche ethik pro contra",
+        "tierversuche verstehen pro contra",
+        "tierversuche medizin pro contra",
+        "ärzte gegen tierversuche pro contra",
+        "tierversuche kosmetik pro und contra",
+        "tierversuche in der wissenschaft pro contra",
+        "tierversuche ethik unterricht",
+        "tierversuche ethik referat",
+        "tierversuche kosmetik liste",
+        "tierversuche kosmetik deutschland",
+        "tierversuche kosmetik marken",
+        "tierversuche kosmetik peta",
+        "tierversuche kosmetik statistik",
+        "tierversuche kosmetik beispiele",
+        "tierversuche kosmetik negativliste",
+        "tierversuche kosmetik österreich"
+      ],
+      "reviewCandidatePhrases": [
+        "tierversuche medikamente pro contra"
+      ],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "de-DE",
+      "route": "/debate/juvenile-offenders",
+      "slot": "debate/juvenile-offenders",
+      "axis": "debate",
+      "sourceQueries": [
+        "jugendstrafrecht debatte",
+        "strafmündigkeit senken",
+        "jugendliche straftäter bestrafen oder resozialisieren",
+        "minderjährige kriminelle verantwortung"
+      ],
+      "baseQueries": [
+        "jugendstrafrecht debatte",
+        "strafmündigkeit senken",
+        "jugendliche straftäter bestrafen oder resozialisieren",
+        "minderjährige kriminelle verantwortung"
+      ],
+      "googleSuggestions": [
+        "jugendstrafrecht debatte",
+        "strafmündigkeit senken",
+        "strafmündigkeit senken pro und contra",
+        "strafmündigkeit senken österreich",
+        "strafmündigkeit alter senken",
+        "strafmündigkeit deutschland senken",
+        "volksbegehren strafmündigkeit senken",
+        "strafmündigkeit auf 12 senken"
+      ],
+      "candidatePhrases": [
+        "jugendstrafrecht debatte",
+        "strafmündigkeit senken",
+        "jugendliche straftäter bestrafen oder resozialisieren",
+        "minderjährige kriminelle verantwortung",
+        "strafmündigkeit senken pro und contra",
+        "strafmündigkeit senken österreich",
+        "strafmündigkeit alter senken",
+        "strafmündigkeit deutschland senken",
+        "volksbegehren strafmündigkeit senken",
+        "strafmündigkeit auf 12 senken"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "jugendstrafrecht debatte",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "strafmündigkeit senken",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "jugendliche straftäter bestrafen oder resozialisieren",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "minderjährige kriminelle verantwortung",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "strafmündigkeit senken pro und contra",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "strafmündigkeit senken österreich",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "strafmündigkeit alter senken",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "strafmündigkeit deutschland senken",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "volksbegehren strafmündigkeit senken",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "strafmündigkeit auf 12 senken",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "jugendstrafrecht debatte",
+        "strafmündigkeit senken",
+        "jugendliche straftäter bestrafen oder resozialisieren",
+        "minderjährige kriminelle verantwortung",
+        "strafmündigkeit senken pro und contra",
+        "strafmündigkeit senken österreich",
+        "strafmündigkeit alter senken",
+        "strafmündigkeit deutschland senken",
+        "volksbegehren strafmündigkeit senken",
+        "strafmündigkeit auf 12 senken"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "de-DE",
+      "route": "/debate/meritocracy",
+      "slot": "debate/meritocracy",
+      "axis": "debate",
+      "sourceQueries": [
+        "meritokratie gerecht",
+        "kritik der meritokratie",
+        "lohnt sich leistung immer",
+        "ungleichheit und leistung"
+      ],
+      "baseQueries": [
+        "meritokratie gerecht",
+        "kritik der meritokratie",
+        "lohnt sich leistung immer",
+        "ungleichheit und leistung"
+      ],
+      "googleSuggestions": [
+        "kritik meritokratie"
+      ],
+      "candidatePhrases": [
+        "meritokratie gerecht",
+        "kritik der meritokratie",
+        "lohnt sich leistung immer",
+        "ungleichheit und leistung",
+        "kritik meritokratie"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "meritokratie gerecht",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "kritik der meritokratie",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "lohnt sich leistung immer",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ungleichheit und leistung",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "kritik meritokratie",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "meritokratie gerecht",
+        "kritik der meritokratie",
+        "lohnt sich leistung immer",
+        "ungleichheit und leistung",
+        "kritik meritokratie"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "de-DE",
+      "route": "/debate/basic-income",
+      "slot": "debate/basic-income",
+      "axis": "debate",
+      "sourceQueries": [
+        "bedingungsloses grundeinkommen debatte",
+        "grundeinkommen pro contra",
+        "finanzierung grundeinkommen",
+        "grundeinkommen arbeiten"
+      ],
+      "baseQueries": [
+        "bedingungsloses grundeinkommen debatte",
+        "grundeinkommen pro contra",
+        "finanzierung grundeinkommen",
+        "grundeinkommen arbeiten"
+      ],
+      "googleSuggestions": [
+        "bedingungsloses grundeinkommen debatte",
+        "grundeinkommen pro contra",
+        "bedingungsloses grundeinkommen pro contra",
+        "bedingungsloses grundeinkommen pro & contra tabelle",
+        "grundeinkommen hamburg pro contra",
+        "bedingungsloses grundeinkommen pro contra unterricht",
+        "hamburg volksentscheid grundeinkommen pro contra",
+        "bedingungsloses grundeinkommen hamburg pro contra",
+        "finanzierung grundeinkommen",
+        "finanzierung bedingungsloses grundeinkommen",
+        "finanzierung mein grundeinkommen",
+        "bedingungsloses grundeinkommen finanzierung deutschland",
+        "diw grundeinkommen finanzierung"
+      ],
+      "candidatePhrases": [
+        "bedingungsloses grundeinkommen debatte",
+        "grundeinkommen pro contra",
+        "finanzierung grundeinkommen",
+        "grundeinkommen arbeiten",
+        "bedingungsloses grundeinkommen pro contra",
+        "bedingungsloses grundeinkommen pro & contra tabelle",
+        "grundeinkommen hamburg pro contra",
+        "bedingungsloses grundeinkommen pro contra unterricht",
+        "hamburg volksentscheid grundeinkommen pro contra",
+        "bedingungsloses grundeinkommen hamburg pro contra",
+        "finanzierung bedingungsloses grundeinkommen",
+        "finanzierung mein grundeinkommen",
+        "bedingungsloses grundeinkommen finanzierung deutschland",
+        "diw grundeinkommen finanzierung"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "bedingungsloses grundeinkommen debatte",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "grundeinkommen pro contra",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "finanzierung grundeinkommen",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "grundeinkommen arbeiten",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "bedingungsloses grundeinkommen pro contra",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "bedingungsloses grundeinkommen pro & contra tabelle",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "grundeinkommen hamburg pro contra",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "bedingungsloses grundeinkommen pro contra unterricht",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "hamburg volksentscheid grundeinkommen pro contra",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "bedingungsloses grundeinkommen hamburg pro contra",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "finanzierung bedingungsloses grundeinkommen",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "finanzierung mein grundeinkommen",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "bedingungsloses grundeinkommen finanzierung deutschland",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "diw grundeinkommen finanzierung",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "bedingungsloses grundeinkommen debatte",
+        "grundeinkommen pro contra",
+        "finanzierung grundeinkommen",
+        "grundeinkommen arbeiten",
+        "bedingungsloses grundeinkommen pro contra",
+        "bedingungsloses grundeinkommen pro & contra tabelle",
+        "grundeinkommen hamburg pro contra",
+        "bedingungsloses grundeinkommen pro contra unterricht",
+        "hamburg volksentscheid grundeinkommen pro contra",
+        "bedingungsloses grundeinkommen hamburg pro contra",
+        "finanzierung bedingungsloses grundeinkommen",
+        "finanzierung mein grundeinkommen",
+        "bedingungsloses grundeinkommen finanzierung deutschland",
+        "diw grundeinkommen finanzierung"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "de-DE",
+      "route": "/debate/ai-art",
+      "slot": "debate/ai-art",
+      "axis": "debate",
+      "sourceQueries": [
+        "KI kunst debatte",
+        "kann KI kunst schaffen",
+        "urheberrecht KI kunst",
+        "künstler und künstliche intelligenz"
+      ],
+      "baseQueries": [
+        "KI kunst debatte",
+        "kann KI kunst schaffen",
+        "urheberrecht KI kunst",
+        "künstler und künstliche intelligenz"
+      ],
+      "googleSuggestions": [
+        "kann ki kunst schaffen",
+        "kann ki kunst oder musik schaffen wie",
+        "urheberrecht ki kunst",
+        "künstler künstliche intelligenz"
+      ],
+      "candidatePhrases": [
+        "KI kunst debatte",
+        "kann KI kunst schaffen",
+        "urheberrecht KI kunst",
+        "künstler und künstliche intelligenz",
+        "kann ki kunst oder musik schaffen wie",
+        "künstler künstliche intelligenz"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "KI kunst debatte",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "kann KI kunst schaffen",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "urheberrecht KI kunst",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "künstler und künstliche intelligenz",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "kann ki kunst oder musik schaffen wie",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "künstler künstliche intelligenz",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "KI kunst debatte",
+        "kann KI kunst schaffen",
+        "urheberrecht KI kunst",
+        "künstler und künstliche intelligenz",
+        "kann ki kunst oder musik schaffen wie",
+        "künstler künstliche intelligenz"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "de-DE",
+      "route": "/debate/cohabitation",
+      "slot": "debate/cohabitation",
+      "axis": "debate",
+      "sourceQueries": [
+        "zusammenziehen vor der ehe",
+        "zusammenleben vor heirat pro contra",
+        "unverheiratet zusammenleben verantwortung",
+        "ehe oder zusammenleben"
+      ],
+      "baseQueries": [
+        "zusammenziehen vor der ehe",
+        "zusammenleben vor heirat pro contra",
+        "unverheiratet zusammenleben verantwortung",
+        "ehe oder zusammenleben"
+      ],
+      "googleSuggestions": [
+        "zusammenziehen vor der ehe bibel",
+        "zusammenziehen vor der ehe",
+        "was sagt die bibel zum zusammenziehen vor der ehe",
+        "als christen vor der ehe zusammenziehen",
+        "darf man vor der ehe zusammenziehen"
+      ],
+      "candidatePhrases": [
+        "zusammenziehen vor der ehe",
+        "zusammenleben vor heirat pro contra",
+        "unverheiratet zusammenleben verantwortung",
+        "ehe oder zusammenleben",
+        "zusammenziehen vor der ehe bibel",
+        "was sagt die bibel zum zusammenziehen vor der ehe",
+        "als christen vor der ehe zusammenziehen",
+        "darf man vor der ehe zusammenziehen"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "zusammenziehen vor der ehe",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "zusammenleben vor heirat pro contra",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "unverheiratet zusammenleben verantwortung",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ehe oder zusammenleben",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "zusammenziehen vor der ehe bibel",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "was sagt die bibel zum zusammenziehen vor der ehe",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "als christen vor der ehe zusammenziehen",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "darf man vor der ehe zusammenziehen",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "zusammenziehen vor der ehe",
+        "zusammenleben vor heirat pro contra",
+        "unverheiratet zusammenleben verantwortung",
+        "ehe oder zusammenleben",
+        "zusammenziehen vor der ehe bibel",
+        "was sagt die bibel zum zusammenziehen vor der ehe",
+        "als christen vor der ehe zusammenziehen",
+        "darf man vor der ehe zusammenziehen"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "de-DE",
+      "route": "/debate/vegetarianism",
+      "slot": "debate/vegetarianism",
+      "axis": "debate",
+      "sourceQueries": [
+        "veganismus ethik debatte",
+        "vegetarismus moralische pflicht",
+        "fleisch essen ethik",
+        "veganismus umwelt"
+      ],
+      "baseQueries": [
+        "veganismus ethik debatte",
+        "vegetarismus moralische pflicht",
+        "fleisch essen ethik",
+        "veganismus umwelt"
+      ],
+      "googleSuggestions": [
+        "fleisch essen ethik",
+        "fleisch essen pro contra ethik",
+        "veganismus umwelt",
+        "veganismus umweltfreundlich",
+        "veganismus umweltschutz",
+        "veganismus nachteile umwelt",
+        "veganismus auswirkungen umwelt",
+        "vorteile veganismus umwelt"
+      ],
+      "candidatePhrases": [
+        "veganismus ethik debatte",
+        "vegetarismus moralische pflicht",
+        "fleisch essen ethik",
+        "veganismus umwelt",
+        "fleisch essen pro contra ethik",
+        "veganismus umweltfreundlich",
+        "veganismus umweltschutz",
+        "veganismus nachteile umwelt",
+        "veganismus auswirkungen umwelt",
+        "vorteile veganismus umwelt"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "veganismus ethik debatte",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "vegetarismus moralische pflicht",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "fleisch essen ethik",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "veganismus umwelt",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "fleisch essen pro contra ethik",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "veganismus umweltfreundlich",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "veganismus umweltschutz",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "veganismus nachteile umwelt",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "veganismus auswirkungen umwelt",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "vorteile veganismus umwelt",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "veganismus ethik debatte",
+        "vegetarismus moralische pflicht",
+        "fleisch essen ethik",
+        "veganismus umwelt",
+        "fleisch essen pro contra ethik",
+        "veganismus umweltfreundlich",
+        "veganismus umweltschutz",
+        "veganismus nachteile umwelt",
+        "veganismus auswirkungen umwelt",
+        "vorteile veganismus umwelt"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "de-DE",
+      "route": "/debate/parent-support",
+      "slot": "debate/parent-support",
+      "axis": "debate",
+      "sourceQueries": [
+        "pflicht eltern zu unterstützen",
+        "pflege der eltern verantwortung kinder",
+        "wie weit eltern helfen",
+        "elternunterhalt debatte"
+      ],
+      "baseQueries": [
+        "pflicht eltern zu unterstützen",
+        "pflege der eltern verantwortung kinder",
+        "wie weit eltern helfen",
+        "elternunterhalt debatte"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "pflicht eltern zu unterstützen",
+        "pflege der eltern verantwortung kinder",
+        "wie weit eltern helfen",
+        "elternunterhalt debatte"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "pflicht eltern zu unterstützen",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "pflege der eltern verantwortung kinder",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "wie weit eltern helfen",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "elternunterhalt debatte",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "pflicht eltern zu unterstützen",
+        "pflege der eltern verantwortung kinder",
+        "wie weit eltern helfen",
+        "elternunterhalt debatte"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "de-DE",
+      "route": "/debate/pet-euthanasia",
+      "slot": "debate/pet-euthanasia",
+      "axis": "debate",
+      "sourceQueries": [
+        "haustier einschläfern entscheidung",
+        "hund einschläfern leid",
+        "tier euthanasie ethik",
+        "wann haustier einschläfern"
+      ],
+      "baseQueries": [
+        "haustier einschläfern entscheidung",
+        "hund einschläfern leid",
+        "tier euthanasie ethik",
+        "wann haustier einschläfern"
+      ],
+      "googleSuggestions": [
+        "hund leidet einschläfern",
+        "hund einschläfern bevor er leidet",
+        "wann haustier einschläfern lassen"
+      ],
+      "candidatePhrases": [
+        "haustier einschläfern entscheidung",
+        "hund einschläfern leid",
+        "tier euthanasie ethik",
+        "wann haustier einschläfern",
+        "hund leidet einschläfern",
+        "hund einschläfern bevor er leidet",
+        "wann haustier einschläfern lassen"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "haustier einschläfern entscheidung",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "hund einschläfern leid",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "tier euthanasie ethik",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "wann haustier einschläfern",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "hund leidet einschläfern",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "hund einschläfern bevor er leidet",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "wann haustier einschläfern lassen",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "haustier einschläfern entscheidung",
+        "hund einschläfern leid",
+        "tier euthanasie ethik",
+        "wann haustier einschläfern",
+        "hund leidet einschläfern",
+        "hund einschläfern bevor er leidet",
+        "wann haustier einschläfern lassen"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "de-DE",
+      "route": "/debate/cancel-culture",
+      "slot": "debate/cancel-culture",
+      "axis": "debate",
+      "sourceQueries": [
+        "cancel culture debatte",
+        "cancel culture meinungsfreiheit",
+        "verantwortung oder mobbing",
+        "online anprangerung debatte"
+      ],
+      "baseQueries": [
+        "cancel culture debatte",
+        "cancel culture meinungsfreiheit",
+        "verantwortung oder mobbing",
+        "online anprangerung debatte"
+      ],
+      "googleSuggestions": [
+        "cancel culture debatte",
+        "cancel culture meinungsfreiheit"
+      ],
+      "candidatePhrases": [
+        "cancel culture debatte",
+        "cancel culture meinungsfreiheit",
+        "verantwortung oder mobbing",
+        "online anprangerung debatte"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "cancel culture debatte",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "cancel culture meinungsfreiheit",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "verantwortung oder mobbing",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "online anprangerung debatte",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "cancel culture debatte",
+        "cancel culture meinungsfreiheit",
+        "verantwortung oder mobbing",
+        "online anprangerung debatte"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "de-DE",
+      "route": "/debate/nice-people-finish-last",
+      "slot": "debate/nice-people-finish-last",
+      "axis": "debate",
+      "sourceQueries": [
+        "nette menschen verlieren immer",
+        "zu gutmütig ausgenutzt",
+        "nett sein nachteil",
+        "güte oder schwäche"
+      ],
+      "baseQueries": [
+        "nette menschen verlieren immer",
+        "zu gutmütig ausgenutzt",
+        "nett sein nachteil",
+        "güte oder schwäche"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "nette menschen verlieren immer",
+        "zu gutmütig ausgenutzt",
+        "nett sein nachteil",
+        "güte oder schwäche"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "nette menschen verlieren immer",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "zu gutmütig ausgenutzt",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "nett sein nachteil",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "güte oder schwäche",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "nette menschen verlieren immer",
+        "zu gutmütig ausgenutzt",
+        "nett sein nachteil",
+        "güte oder schwäche"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
       "clusterHints": {},
       "errors": []
     }

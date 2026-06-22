@@ -8,17 +8,17 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 
 ## Summary
 
-- collectedAt: 2026-06-22T06:04:12.534Z
-- nodes scanned: 59
-- candidate phrases: 1093
-- usable: 978
-- review: 70
-- low-signal: 45
+- collectedAt: 2026-06-22T06:24:06.529Z
+- nodes scanned: 89
+- candidate phrases: 1583
+- usable: 1415
+- review: 108
+- low-signal: 60
 
 ## Potential New Cluster Hints
 
-- `family/family-of-origin`: 13
-- `meaning/existential-vacuum`: 12
+- `meaning/existential-vacuum`: 22
+- `family/family-of-origin`: 16
 - `work/remote-work-culture`: 12
 - `money/precarity`: 10
 - `study/exam-pressure`: 4
@@ -270,9 +270,9 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 - axis: worry
 - base queries: peur de l'abandon en couple, dépendance affective, anxiété relationnelle, besoin d'être rassuré couple
 - google suggestions: 32
-- usable candidates: 24
+- usable candidates: 23
 - review candidates: 7
-- low-signal candidates: 2
+- low-signal candidates: 3
 
 ### Usable candidates
 
@@ -290,7 +290,6 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 - dépendance affective en amour
 - dépendance affective cause
 - dépendance affective amitié
-- dépendance affective comment en sortir
 - anxiété relationnelle amoureuse
 - anxiété relationnelle couple
 - anxiété relationnelle travail
@@ -313,6 +312,7 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 
 ### Low-signal candidates
 
+- dépendance affective test
 - dépendance affective en anglais
 - anxiété relationnelle test
 
@@ -1910,4 +1910,881 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 ### Low-signal candidates
 
 - dois je changer de travail test
+
+## /work/unrecognized
+
+- axis: worry
+- base queries: pas reconnu au travail, mes efforts ne sont pas reconnus, je me sens invisible au travail, manque de reconnaissance professionnelle
+- google suggestions: 13
+- usable candidates: 15
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- pas reconnu au travail
+- mes efforts ne sont pas reconnus
+- je me sens invisible au travail
+- manque de reconnaissance professionnelle
+- pas de reconnaissance au travail
+- ne pas se sentir reconnu au travail
+- manque de considération professionnelle
+- manque de reconnaissance travail
+- manque de respect travail
+- manque de considération travail
+- manque de respect.professionnel
+- manque de soutien professionnel
+- manque de reconnaissance au travail que faire
+- manque de reconnaissance au travail burnout
+- manque de reconnaissance au travail synonyme
+
+## /work/work-depression
+
+- axis: worry
+- base queries: dépression au travail, je n'arrive plus à aller travailler, travail me déprime, épuisement professionnel symptômes
+- google suggestions: 26
+- usable candidates: 15
+- review candidates: 13
+- low-signal candidates: 0
+
+### Usable candidates
+
+- je n'arrive plus à aller travailler
+- travail me déprime
+- souffrance au travail
+- je n arrive plus à aller travailler
+- je n arrive plus à me lever pour aller travailler
+- je n arrive plus à travailler
+- je n arrive plus à travailler que faire
+- pourquoi je n arrive plus a aller travailler
+- je n'arrive plus a travailler comme avant
+- je n'arrive plus a travailler mes cours
+- je n'arrive plus a travailler de nuit
+- travailler me deprime
+- mon travail me déprime
+- le monde du travail me déprime
+- épuisement professionnel signes
+
+### Review candidates
+
+- dépression au travail
+- épuisement professionnel symptômes
+- dépression au travail symptômes
+- dépression au travail que faire
+- dépression au travail arrêt maladie
+- dépression au travail accident de travail
+- dépression au travail et licenciement
+- dépression au travail maladie professionnelle
+- dépression au travail salaire
+- depression au travail qui aller voir
+- depression je n'arrive plus à travailler
+- épuisement professionnel symptômes physiques
+- surmenage professionnel symptômes
+
+## /work/not-good-enough
+
+- axis: worry
+- base queries: je ne suis pas assez bon au travail, peur de ne pas être à la hauteur travail, syndrome de l'imposteur travail, je fais mal mon travail
+- google suggestions: 11
+- usable candidates: 12
+- review candidates: 1
+- low-signal candidates: 0
+
+### Usable candidates
+
+- je ne suis pas assez bon au travail
+- peur de ne pas être à la hauteur travail
+- syndrome de l'imposteur travail
+- je fais mal mon travail
+- je ne suis pas efficace au travail
+- peur de ne pas être à la hauteur au travail
+- peur de ne pas être à la hauteur nouveau travail
+- syndrome de l'imposteur nouveau travail
+- syndrome de l imposteur france travail
+- travailler son syndrome de l imposteur
+- travailler sur le syndrome de l imposteur
+- c est quoi le syndrome de l imposteur au travail
+
+### Review candidates
+
+- syndrome de l imposteur au travail definition
+
+## /work/work-skepticism
+
+- axis: worry
+- base queries: mon travail n'a pas de sens, pourquoi travailler, je ne trouve plus de sens au travail, perte de sens professionnel
+- google suggestions: 19
+- usable candidates: 21
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- mon travail n'a pas de sens
+- pourquoi travailler
+- je ne trouve plus de sens au travail
+- perte de sens professionnel
+- mon travail n a pas de sens
+- pourquoi travailler dans la fonction publique
+- pourquoi travailler avec les enfants
+- pourquoi travailler en rh
+- pourquoi travailler dans la fonction publique territoriale
+- pourquoi travailler les adducteurs
+- pourquoi travailler pour le service public
+- pourquoi travailler dans les assurances
+- pourquoi travailler chez leclerc
+- pourquoi travailler dans le social
+- je ne trouve plus de sens à mon travail
+- perte de sens travail
+- perte de sens travail social
+- perte de sens au travail souffrance
+- perte de sens au travail cairn
+- perte de sens au travail que faire
+- perte de sens au travail burn out
+
+## /meaning/dont-know-want
+
+- axis: worry
+- base queries: je ne sais pas ce que je veux, je ne sais pas quoi faire de ma vie, je n'ai envie de rien, comment savoir ce que je veux
+- google suggestions: 40
+- usable candidates: 36
+- review candidates: 2
+- low-signal candidates: 2
+
+### Usable candidates
+
+- je ne sais pas ce que je veux
+- je ne sais pas quoi faire de ma vie
+- je n'ai envie de rien
+- comment savoir ce que je veux
+- je ne sais pas ce que je veux faire de ma vie
+- je ne sais pas ce que je veux dans la vie
+- je ne sais pas ce que je veux pour mon anniversaire
+- je ne sais pas ce que je veux mais je sais ce que je ne veux pas
+- je ne sais pas ce que je veux psychologie
+- je ne sais pas ce que je veux en amour
+- je ne sais pas ce que je veux faire comme métier
+- je ne sais pas ce que je veux pour noel
+- je ne sais pas si je veux être mère
+- je ne sais pas quoi faire de ma vie professionnelle
+- je ne sais pas quoi faire de la vie à 40 ans
+- je ne sais pas quoi faire de la vie à 50 ans
+- je ne sais pas quoi faire de ma vie à 30 ans
+- je ne sais pas quoi faire de ma vie 20 ans
+- je ne sais pas quoi faire de ma vie forum
+- je n'ai envie de rien faire
+- je n'ai envie de rien faire pourquoi
+- je n ai envie de rien pourquoi
+- je n'ai envie de rien manger
+- je n ai plus envie de rien
+
+### Review candidates
+
+- je ne sais pas quoi faire de ma vie reddit
+- je ne sais pas quoi faire de ma vie livre
+
+### Low-signal candidates
+
+- je ne sais pas quoi faire de ma vie test
+- je n ai envie de rien en anglais
+
+## /meaning/emptiness
+
+- axis: worry
+- base queries: je me sens vide, vide existentiel, rien ne me remplit, sentiment de vide intérieur
+- google suggestions: 26
+- usable candidates: 23
+- review candidates: 2
+- low-signal candidates: 2
+- cluster hints: meaning/existential-vacuum 10
+
+### Usable candidates
+
+- je me sens vide
+- vide existentiel
+- rien ne me remplit
+- sentiment de vide intérieur
+- je me sens vide dans mon couple
+- je me sens vide et inutile
+- je me sens vide que faire
+- je me sens vide à l'intérieur
+- je me sens vide et triste
+- je me sens vide envie de rien
+- je me sens vidée
+- je me sens vide pourquoi
+- vide existentiel def
+- vide existentiel psychologie
+- vide existentiel synonyme
+- vide existentiel solution
+- vide existentiel philosophie
+- vide existentiel frankl
+- sentiment de vide intérieur borderline
+- sentiment de vide intérieur psychologie
+- sentiment de vide intérieur comment s en débarrasser
+- sentiment de vide intérieur islam
+- sentiment de vide interior
+
+### Review candidates
+
+- vide existentiel livre
+- vide existentiel citation
+
+### Low-signal candidates
+
+- je me sens vide en anglais
+- vide existentiel test
+
+## /meaning/no-goal
+
+- axis: worry
+- base queries: je n'ai pas d'objectif dans la vie, comment trouver un but, je n'ai pas de rêve, je ne sais pas quoi viser
+- google suggestions: 19
+- usable candidates: 20
+- review candidates: 0
+- low-signal candidates: 1
+
+### Usable candidates
+
+- je n'ai pas d'objectif dans la vie
+- comment trouver un but
+- je n'ai pas de rêve
+- je ne sais pas quoi viser
+- je n ai pas d objectif dans la vie
+- pourquoi je n ai pas d objectif dans la vie
+- comment trouver un but dans la vie
+- comment obtenir un but
+- comment trouver un objectif
+- comment trouver un objectif de vie
+- comment trouver un objectif professionnel
+- comment trouver un stage en but
+- comment trouver un cc de but
+- comment trouver son but dans la vie
+- comment trouver une alternance pour un but
+- je n'ai pas de rêve dans la vie
+- pourquoi je n ai pas de rêve
+- je n'ai pas rêvé de toi
+- je n ai pas de rêves j ai des objectifs
+- pourquoi je n'ai pas de reve dans la vie
+
+### Low-signal candidates
+
+- je n ai pas rêvé en anglais
+
+## /meaning/wandering
+
+- axis: worry
+- base queries: je suis perdu dans ma vie, je ne sais pas où je vais, je me sens à la dérive, je cherche ma direction
+- google suggestions: 11
+- usable candidates: 12
+- review candidates: 1
+- low-signal candidates: 0
+
+### Usable candidates
+
+- je suis perdu dans ma vie
+- je ne sais pas où je vais
+- je me sens à la dérive
+- je cherche ma direction
+- je suis perdu dans ma vie que faire
+- je suis perdu dans ma vie islam
+- je suis perdu dans ma vie professionnelle
+- je suis perdu dans ma vie sentimentale
+- je suis perdu dans ma vie de couple
+- je suis perdue dans ma vie 40 ans
+- je suis paumée dans ma vie
+- je suis perdue dans ma vie 50 ans
+
+### Review candidates
+
+- je suis perdu dans ma vie citation
+
+## /family/holiday-stress
+
+- axis: worry
+- base queries: stress repas de famille, fêtes de famille angoisse, questions intrusives famille, rentrer dans sa famille stress
+- google suggestions: 1
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- stress repas de famille
+- fêtes de famille angoisse
+- questions intrusives famille
+- rentrer dans sa famille stress
+
+## /family/family-cutoff
+
+- axis: worry
+- base queries: couper les ponts avec sa famille, s'éloigner d'une famille toxique, ne plus parler à ses parents, culpabilité de couper avec sa famille
+- google suggestions: 16
+- usable candidates: 12
+- review candidates: 6
+- low-signal candidates: 0
+- cluster hints: family/family-of-origin 3
+
+### Usable candidates
+
+- couper les ponts avec sa famille
+- ne plus parler à ses parents
+- culpabilité de couper avec sa famille
+- couper les ponts avec sa famille toxique
+- couper les ponts avec sa famille pour se protéger
+- couper les ponts avec sa famille forum
+- couper les ponts avec sa famille islam
+- couper les ponts avec sa famille psychologie
+- couper les ponts avec sa famille bible
+- ne plus parler à ses parents islam
+- pourquoi brooklyn beckham ne parlé plus à ses parents
+- comment ne plus parler a ses parents
+
+### Review candidates
+
+- s'éloigner d'une famille toxique
+- couper les ponts avec sa famille citation
+- couper les ponts avec sa famille livre
+- couper les ponts avec sa famille reddit
+- s éloigner d une famille toxique
+- ne plus vouloir parler a ses parents
+
+## /family/mother-conflict
+
+- axis: worry
+- base queries: je ne m'entends pas avec ma mère, ma mère m'épuise, je me dispute avec ma mère, mettre des limites à ma mère
+- google suggestions: 11
+- usable candidates: 14
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- je ne m'entends pas avec ma mère
+- ma mère m'épuise
+- je me dispute avec ma mère
+- mettre des limites à ma mère
+- je ne m entends pas avec ma mère islam
+- pourquoi je ne m'entends pas avec ma mère
+- je ne m entend pas avec ma belle mère
+- je m'entends pas avec ma mere
+- ma mere m'épuise
+- je me suis disputé avec ma mère
+- je me dispute souvent avec ma mere
+- rever que je me dispute avec ma mere
+- pourquoi je rêve que je me dispute avec ma mère
+- pourquoi je me dispute tout le temps avec ma mère
+
+## /body/body-anxiety
+
+- axis: worry
+- base queries: je déteste mon corps, complexe physique, anxiété liée à l'apparence, je n'aime pas mon apparence
+- google suggestions: 30
+- usable candidates: 30
+- review candidates: 1
+- low-signal candidates: 1
+
+### Usable candidates
+
+- je déteste mon corps
+- complexe physique
+- anxiété liée à l'apparence
+- je n'aime pas mon apparence
+- je déteste mon corps après accouchement
+- je déteste mon corps enceinte
+- je déteste mon corps in english
+- je déteste mon corps meaning
+- je n aime pas mon corps
+- je hais mon corps
+- je n aime pas mon corps enceinte
+- je n aime pas mon corps que faire
+- je n aime pas mon corps femme
+- complexe physique islam
+- complexe physique liste
+- complexe physique homme
+- complexe physique def
+- complexe physique bible
+- complexe physique synonyme
+- complexe physique femme
+- je n aime pas mon apparence
+- je n aime pas mon visage
+- je n aime pas mon visage homme
+- je n aime pas mon physique
+
+### Review candidates
+
+- complexe physique et depression
+
+### Low-signal candidates
+
+- complexe physique en anglais
+
+## /body/aging-anxiety
+
+- axis: worry
+- base queries: peur de vieillir, anxiété liée à l'âge, peur de perdre sa jeunesse, crise de l'âge
+- google suggestions: 15
+- usable candidates: 17
+- review candidates: 1
+- low-signal candidates: 0
+
+### Usable candidates
+
+- peur de vieillir
+- anxiété liée à l'âge
+- peur de perdre sa jeunesse
+- crise de l'âge
+- peur de vieillir et de mourir
+- peur de vieillir seule
+- peur de vieillir phobie
+- peur de vieillir 30 ans
+- peur de vieillir forum
+- peur de vieillir à 60 ans
+- peur de vieillir à 50 ans
+- peur de vieillir 40 ans
+- crise de l'âge adulte
+- crise de l âge
+- crise de l'âge du bronze
+- crise de goutte âge
+- crise de l'appendicite age
+
+### Review candidates
+
+- peur de vieillir citation
+
+## /body/hair-loss-stress
+
+- axis: worry
+- base queries: anxiété perte de cheveux, peur de devenir chauve, perte de cheveux estime de soi, stress alopécie
+- google suggestions: 17
+- usable candidates: 17
+- review candidates: 1
+- low-signal candidates: 0
+
+### Usable candidates
+
+- anxiété perte de cheveux
+- peur de devenir chauve
+- perte de cheveux estime de soi
+- stress alopécie
+- stress perte de cheveux
+- stress perte de cheveux homme
+- stress perte de cheveux solution
+- stress perte de cheveux femme
+- stress perte de cheveux repousse
+- stress perte de cheveux que faire
+- angoisse perte de cheveux
+- stress chronique perte de cheveux
+- maladie stress perte de cheveux
+- perte de cheveux et confiance en soi
+- alopécie stress repousse
+- alopécie stress femme
+- stress et alopécie androgénétique
+
+### Review candidates
+
+- alopécie stress traitement
+
+## /career/dream-reality
+
+- axis: worry
+- base queries: abandonner son rêve ou continuer, rêve et réalité, vivre de sa passion ou être réaliste, peur de poursuivre son rêve
+- google suggestions: 10
+- usable candidates: 11
+- review candidates: 2
+- low-signal candidates: 0
+
+### Usable candidates
+
+- abandonner son rêve ou continuer
+- rêve et réalité
+- vivre de sa passion ou être réaliste
+- peur de poursuivre son rêve
+- rêve et réalité comines
+- rêve et réalité champeaux
+- rêve et réalité photos
+- rêve et réalité philosophie
+- rêve et réalité avis
+- reve et realite comines belgique
+- reve et realite namur
+
+### Review candidates
+
+- rêve et réalité citation philosophique
+- rêve et réalité citation
+
+## /career/regret-free-choice
+
+- axis: worry
+- base queries: comment choisir sans regret, peur de faire le mauvais choix, je vais regretter quoi que je choisisse, bloqué devant une décision
+- google suggestions: 2
+- usable candidates: 5
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- comment choisir sans regret
+- peur de faire le mauvais choix
+- je vais regretter quoi que je choisisse
+- bloqué devant une décision
+- j'ai.peur de faire le.mauvais choix
+
+## /debate/euthanasia
+
+- axis: debate
+- base queries: euthanasie débat, euthanasie pour ou contre, droit de mourir dans la dignité, légalisation de l'euthanasie
+- google suggestions: 30
+- usable candidates: 24
+- review candidates: 6
+- low-signal candidates: 0
+
+### Usable candidates
+
+- euthanasie débat
+- euthanasie pour ou contre
+- droit de mourir dans la dignité
+- légalisation de l'euthanasie
+- débat euthanasie assemblée nationale
+- débat euthanasie pour ou contre
+- débat euthanasie france
+- euthanasie pour ou contre arguments
+- euthanasie animale pour ou contre
+- euthanasie humaine pour ou contre
+- euthanasie en france pour ou contre
+- dissertation sur l'euthanasie pour ou contre
+- sondage pour ou contre l euthanasie en france
+- sondage pour ou contre l'euthanasie
+- droit de mourir dans la dignité belgique
+- droit de mourir dans la dignité suisse
+- droit de mourir dans la dignité senat
+- droit de mourir dans la dignité france
+- droit de mourir dans la dignité formulaire
+- droit de mourir dans la dignité europe
+- droit de mourir dans la dignité vote
+- légalisation de l'euthanasie en france
+- la légalisation de l'euthanasie
+- légalisation de l euthanasie en belgique
+
+### Review candidates
+
+- pour ou contre l euthanasie arguments pdf
+- droit de mourir dans la dignité loi
+- droit de mourir dans la dignité livre
+- loi de l euthanasie en france
+- loi de l'euthanasie
+- loi de l euthanasie en belgique
+
+## /debate/death-penalty
+
+- axis: debate
+- base queries: peine de mort débat, peine de mort pour ou contre, abolition peine de mort, erreur judiciaire peine de mort
+- google suggestions: 39
+- usable candidates: 38
+- review candidates: 0
+- low-signal candidates: 1
+
+### Usable candidates
+
+- peine de mort débat
+- peine de mort pour ou contre
+- abolition peine de mort
+- erreur judiciaire peine de mort
+- peine de mort debat pour ou contre
+- peine de mort debat pour
+- peine de mort argument contre
+- peine de mort argument pour
+- peine de mort argument
+- peine de mort argument pour et contre
+- peine de mort argument economique
+- debat peine de mort france
+- abolition peine de mort arguments
+- peine de mort pour ou contre arguments
+- débat peine de mort pour ou contre
+- peine de mort france pour ou contre
+- la peine de mort pour ou contre texte argumentatif
+- peine de mort au canada pour ou contre
+- sujet sur la peine de mort pour ou contre
+- introduction sur la peine de mort pour ou contre
+- abolition de la peine de mort pour ou contre
+- la peine de mort en belgique pour ou contre
+- abolition peine de mort france
+- abolition peine de mort belgique
+
+### Low-signal candidates
+
+- film peine de mort erreur judiciaire
+
+## /debate/abortion
+
+- axis: debate
+- base queries: avortement débat, avortement pour ou contre, droit à l'avortement, vie du fœtus autonomie
+- google suggestions: 24
+- usable candidates: 24
+- review candidates: 1
+- low-signal candidates: 0
+
+### Usable candidates
+
+- avortement débat
+- avortement pour ou contre
+- droit à l'avortement
+- vie du fœtus autonomie
+- avortement debat pour contre
+- débat avortement arguments contre
+- débat avortement arguments pour
+- avortement pour ou contre arguments
+- ivg pour ou contre
+- bardella avortement pour ou contre
+- dissertation avortement pour ou contre
+- débat sur l'avortement pour ou contre
+- pour ou contre l'avortement texte argumentatif
+- rn pour ou contre avortement
+- poilievre pour ou contre avortement
+- droit à l'avortement en france
+- droit à l'avortement constitution
+- droit à l'avortement etats unis
+- droit à l'avortement québec
+- droit à l'avortement date
+- droit à l'avortement en europe
+- droit à l'avortement dans le monde
+- droit à l'avortement belgique
+- droit à l'avortement suisse
+
+### Review candidates
+
+- l'avortement pour ou contre pdf
+
+## /debate/animal-testing
+
+- axis: debate
+- base queries: expérimentation animale débat, tests sur animaux pour ou contre, éthique expérimentation animale, cosmétiques tests animaux
+- google suggestions: 13
+- usable candidates: 8
+- review candidates: 0
+- low-signal candidates: 7
+
+### Usable candidates
+
+- expérimentation animale débat
+- tests sur animaux pour ou contre
+- éthique expérimentation animale
+- cosmétiques tests animaux
+- expérimentation animale arguments contre
+- animal experimentation arguments
+- comité éthique expérimentation animale
+- composition comité d éthique expérimentation animale
+
+### Low-signal candidates
+
+- test sur les animaux pour ou contre
+- cosmétiques test animaux
+- cosmetique test animaux europe
+- test cosmétique animaux interdit
+- test cosmetique animaux france
+- marques cosmétiques test animaux
+- cosmétiques sans test animaux
+
+## /debate/juvenile-offenders
+
+- axis: debate
+- base queries: délinquance juvénile débat, responsabilité pénale des mineurs, punir ou réhabiliter les mineurs, justice des mineurs
+- google suggestions: 21
+- usable candidates: 22
+- review candidates: 1
+- low-signal candidates: 0
+
+### Usable candidates
+
+- délinquance juvénile débat
+- responsabilité pénale des mineurs
+- punir ou réhabiliter les mineurs
+- justice des mineurs
+- juvenile crime debate
+- responsabilité pénale des mineurs en france
+- responsabilité pénale des mineurs belgique
+- responsabilité pénale des mineurs age
+- la responsabilité pénale des mineurs en droit congolais
+- la responsabilité pénale des mineurs au cameroun
+- la responsabilité pénale des mineurs en république du congo
+- responsabilité pénale des enfants
+- responsabilité pénale des parents de mineurs délinquants
+- justice des mineurs en france
+- justice des mineurs emc 4e
+- justice des mineurs lumni
+- justice des mineurs 4ème
+- justice des mineurs documentaire
+- justice des mineurs avant 1945
+- justice des mineurs histoire
+- justice des mineurs en europe
+- justice des mineurs suisse
+
+### Review candidates
+
+- responsabilité pénale des mineurs pdf
+
+## /debate/meritocracy
+
+- axis: debate
+- base queries: méritocratie est-elle juste, critique de la méritocratie, l'effort est-il toujours récompensé, inégalités et mérite
+- google suggestions: 1
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- méritocratie est-elle juste
+- critique de la méritocratie
+- l'effort est-il toujours récompensé
+- inégalités et mérite
+
+## /debate/basic-income
+
+- axis: debate
+- base queries: revenu universel débat, revenu de base pour ou contre, financement revenu universel, revenu universel travail
+- google suggestions: 3
+- usable candidates: 5
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- revenu universel débat
+- revenu de base pour ou contre
+- financement revenu universel
+- revenu universel travail
+- revenu universel argument pour
+
+## /debate/ai-art
+
+- axis: debate
+- base queries: art généré par IA débat, l'IA peut-elle créer de l'art, droit d'auteur art IA, artistes et intelligence artificielle
+- google suggestions: 1
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- art généré par IA débat
+- l'IA peut-elle créer de l'art
+- droit d'auteur art IA
+- artistes et intelligence artificielle
+
+## /debate/cohabitation
+
+- axis: debate
+- base queries: vivre ensemble avant le mariage, cohabitation avant mariage pour ou contre, concubinage responsabilité couple, vivre en couple sans se marier
+- google suggestions: 8
+- usable candidates: 10
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- vivre ensemble avant le mariage
+- cohabitation avant mariage pour ou contre
+- concubinage responsabilité couple
+- vivre en couple sans se marier
+- vivre ensemble avant le mariage catholique
+- vivre ensemble avant le mariage islam
+- vivre ensemble avant le mariage bible
+- ne pas vivre ensemble avant le mariage
+- pourquoi ne pas vivre ensemble avant le mariage
+- vivre en couple sans mariage islam
+
+## /debate/vegetarianism
+
+- axis: debate
+- base queries: véganisme débat éthique, végétarisme obligation morale, manger de la viande éthique, véganisme environnement
+- google suggestions: 4
+- usable candidates: 8
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- véganisme débat éthique
+- végétarisme obligation morale
+- manger de la viande éthique
+- véganisme environnement
+- manger de la viande ethique
+- manger de la viande animale est il contraire à l éthique
+- vegan environnement
+- véganisme impact environnemental
+
+## /debate/parent-support
+
+- axis: debate
+- base queries: obligation d'aider ses parents, s'occuper de parents âgés responsabilité enfants, jusqu'où soutenir ses parents, devoir filial débat
+- google suggestions: 1
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- obligation d'aider ses parents
+- s'occuper de parents âgés responsabilité enfants
+- jusqu'où soutenir ses parents
+- devoir filial débat
+
+## /debate/pet-euthanasia
+
+- axis: debate
+- base queries: euthanasie animal de compagnie décision, faire euthanasier son chien souffrance, euthanasie animale éthique, quand endormir un animal
+- google suggestions: 0
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- euthanasie animal de compagnie décision
+- faire euthanasier son chien souffrance
+- euthanasie animale éthique
+- quand endormir un animal
+
+## /debate/cancel-culture
+
+- axis: debate
+- base queries: cancel culture débat, culture de l'annulation liberté d'expression, responsabilité ou lynchage, boycott réseaux sociaux
+- google suggestions: 9
+- usable candidates: 13
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- cancel culture débat
+- culture de l'annulation liberté d'expression
+- responsabilité ou lynchage
+- boycott réseaux sociaux
+- cancel culture debat
+- cancel culture argument
+- cancel culture arguments for and against
+- cancel culture discussion questions
+- cancel culture debate topics
+- cancel culture discussion
+- cancel culture debate points
+- cancel culture debate questions
+- boycott reseaux sociaux
+
+## /debate/nice-people-finish-last
+
+- axis: debate
+- base queries: les gentils finissent-ils derniers, être trop gentil se faire avoir, bonté ou faiblesse, les bonnes personnes perdent-elles
+- google suggestions: 2
+- usable candidates: 6
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- les gentils finissent-ils derniers
+- être trop gentil se faire avoir
+- bonté ou faiblesse
+- les bonnes personnes perdent-elles
+- les gentils finissent derniers
+- être trop gentil et se faire avoir
 

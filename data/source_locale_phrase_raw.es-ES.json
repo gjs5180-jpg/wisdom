@@ -1,16 +1,16 @@
 {
-  "collectedAt": "2026-06-22T06:02:50.584Z",
+  "collectedAt": "2026-06-22T06:22:12.833Z",
   "locale": "es-ES",
   "sourceStatus": "active-source",
-  "nodesScanned": 59,
-  "totalCandidatePhrases": 996,
-  "totalUsableCandidatePhrases": 923,
-  "totalReviewCandidatePhrases": 53,
-  "totalLowSignalCandidatePhrases": 20,
+  "nodesScanned": 89,
+  "totalCandidatePhrases": 1400,
+  "totalUsableCandidatePhrases": 1273,
+  "totalReviewCandidatePhrases": 96,
+  "totalLowSignalCandidatePhrases": 31,
   "clusterHints": {
     "relationships/ghosting": 15,
-    "meaning/existential-vacuum": 1,
-    "family/family-of-origin": 1,
+    "meaning/existential-vacuum": 11,
+    "family/family-of-origin": 2,
     "family/late-independence": 10,
     "money/precarity": 2,
     "study/exam-pressure": 2,
@@ -12845,6 +12845,5366 @@
         "quiero dejar mi trabajo pero tengo miedo",
         "debería cambiar de trabajo",
         "deberia cambiar de trabajo"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "es-ES",
+      "route": "/work/unrecognized",
+      "slot": "work/unrecognized",
+      "axis": "worry",
+      "sourceQueries": [
+        "no me valoran en el trabajo",
+        "trabajo y no me reconocen",
+        "esfuerzo no reconocido",
+        "me siento invisible en el trabajo"
+      ],
+      "baseQueries": [
+        "no me valoran en el trabajo",
+        "trabajo y no me reconocen",
+        "esfuerzo no reconocido",
+        "me siento invisible en el trabajo"
+      ],
+      "googleSuggestions": [
+        "no me valoran en el trabajo",
+        "no me valoran en el trabajo frases",
+        "no me valoran en el trabajo forocoches",
+        "siento que no me valoran en el trabajo",
+        "que hacer si no me valoran en el trabajo",
+        "porque no me valoran en mi trabajo",
+        "esfuerzo no reconocido",
+        "frases de esfuerzo no reconocido",
+        "me siento invisible en el trabajo"
+      ],
+      "candidatePhrases": [
+        "no me valoran en el trabajo",
+        "trabajo y no me reconocen",
+        "esfuerzo no reconocido",
+        "me siento invisible en el trabajo",
+        "no me valoran en el trabajo frases",
+        "no me valoran en el trabajo forocoches",
+        "siento que no me valoran en el trabajo",
+        "que hacer si no me valoran en el trabajo",
+        "porque no me valoran en mi trabajo",
+        "frases de esfuerzo no reconocido"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "no me valoran en el trabajo",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "trabajo y no me reconocen",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "esfuerzo no reconocido",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "me siento invisible en el trabajo",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no me valoran en el trabajo frases",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no me valoran en el trabajo forocoches",
+          "status": "review",
+          "reasons": [
+            "platform-specific query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "siento que no me valoran en el trabajo",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "que hacer si no me valoran en el trabajo",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "porque no me valoran en mi trabajo",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "frases de esfuerzo no reconocido",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "no me valoran en el trabajo",
+        "trabajo y no me reconocen",
+        "esfuerzo no reconocido",
+        "me siento invisible en el trabajo",
+        "siento que no me valoran en el trabajo",
+        "que hacer si no me valoran en el trabajo",
+        "porque no me valoran en mi trabajo"
+      ],
+      "reviewCandidatePhrases": [
+        "no me valoran en el trabajo frases",
+        "no me valoran en el trabajo forocoches",
+        "frases de esfuerzo no reconocido"
+      ],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "es-ES",
+      "route": "/work/work-depression",
+      "slot": "work/work-depression",
+      "axis": "worry",
+      "sourceQueries": [
+        "depresión por trabajo",
+        "no puedo ir al trabajo ansiedad",
+        "trabajo me está deprimiendo",
+        "estrés laboral no puedo más"
+      ],
+      "baseQueries": [
+        "depresión por trabajo",
+        "no puedo ir al trabajo ansiedad",
+        "trabajo me está deprimiendo",
+        "estrés laboral no puedo más"
+      ],
+      "googleSuggestions": [
+        "depresión por trabajo",
+        "depresión por trabajo como se llama",
+        "depresion por trabajo sintomas",
+        "baja por depresion trabajo",
+        "depresion por no tener trabajo",
+        "depresion por no encontrar trabajo",
+        "depresion por perdida de trabajo",
+        "depresion por exceso de trabajo",
+        "depresión por cambio de trabajo",
+        "depresion por volver al trabajo"
+      ],
+      "candidatePhrases": [
+        "depresión por trabajo",
+        "no puedo ir al trabajo ansiedad",
+        "trabajo me está deprimiendo",
+        "estrés laboral no puedo más",
+        "depresión por trabajo como se llama",
+        "depresion por trabajo sintomas",
+        "baja por depresion trabajo",
+        "depresion por no tener trabajo",
+        "depresion por no encontrar trabajo",
+        "depresion por perdida de trabajo",
+        "depresion por exceso de trabajo",
+        "depresión por cambio de trabajo",
+        "depresion por volver al trabajo"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "depresión por trabajo",
+          "status": "review",
+          "reasons": [
+            "medical review needed"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no puedo ir al trabajo ansiedad",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "trabajo me está deprimiendo",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "estrés laboral no puedo más",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "depresión por trabajo como se llama",
+          "status": "review",
+          "reasons": [
+            "medical review needed"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "depresion por trabajo sintomas",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "baja por depresion trabajo",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "depresion por no tener trabajo",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "depresion por no encontrar trabajo",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "depresion por perdida de trabajo",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "depresion por exceso de trabajo",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "depresión por cambio de trabajo",
+          "status": "review",
+          "reasons": [
+            "medical review needed"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "depresion por volver al trabajo",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "no puedo ir al trabajo ansiedad",
+        "trabajo me está deprimiendo",
+        "estrés laboral no puedo más",
+        "depresion por trabajo sintomas",
+        "baja por depresion trabajo",
+        "depresion por no tener trabajo",
+        "depresion por no encontrar trabajo",
+        "depresion por perdida de trabajo",
+        "depresion por exceso de trabajo",
+        "depresion por volver al trabajo"
+      ],
+      "reviewCandidatePhrases": [
+        "depresión por trabajo",
+        "depresión por trabajo como se llama",
+        "depresión por cambio de trabajo"
+      ],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "es-ES",
+      "route": "/work/not-good-enough",
+      "slot": "work/not-good-enough",
+      "axis": "worry",
+      "sourceQueries": [
+        "siento que no soy bueno en mi trabajo",
+        "miedo a no estar a la altura trabajo",
+        "síndrome del impostor trabajo",
+        "hago mal mi trabajo ansiedad"
+      ],
+      "baseQueries": [
+        "siento que no soy bueno en mi trabajo",
+        "miedo a no estar a la altura trabajo",
+        "síndrome del impostor trabajo",
+        "hago mal mi trabajo ansiedad"
+      ],
+      "googleSuggestions": [
+        "siento que no soy bueno en mi trabajo",
+        "sindrome del impostor trabajo",
+        "sindrome del impostor nuevo trabajo"
+      ],
+      "candidatePhrases": [
+        "siento que no soy bueno en mi trabajo",
+        "miedo a no estar a la altura trabajo",
+        "síndrome del impostor trabajo",
+        "hago mal mi trabajo ansiedad",
+        "sindrome del impostor trabajo",
+        "sindrome del impostor nuevo trabajo"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "siento que no soy bueno en mi trabajo",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "miedo a no estar a la altura trabajo",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "síndrome del impostor trabajo",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "hago mal mi trabajo ansiedad",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "sindrome del impostor trabajo",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "sindrome del impostor nuevo trabajo",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "siento que no soy bueno en mi trabajo",
+        "miedo a no estar a la altura trabajo",
+        "síndrome del impostor trabajo",
+        "hago mal mi trabajo ansiedad",
+        "sindrome del impostor trabajo",
+        "sindrome del impostor nuevo trabajo"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "es-ES",
+      "route": "/work/work-skepticism",
+      "slot": "work/work-skepticism",
+      "axis": "worry",
+      "sourceQueries": [
+        "mi trabajo no tiene sentido",
+        "para qué trabajar",
+        "no encuentro sentido en mi trabajo",
+        "falta de propósito laboral"
+      ],
+      "baseQueries": [
+        "mi trabajo no tiene sentido",
+        "para qué trabajar",
+        "no encuentro sentido en mi trabajo",
+        "falta de propósito laboral"
+      ],
+      "googleSuggestions": [
+        "mi trabajo no tiene sentido",
+        "mi trabajo tiene sentido cuando",
+        "para qué trabajar un proyecto de vida",
+        "para qué trabajar un seminario",
+        "para qué trabajar un proyecto de nación",
+        "para que trabajar",
+        "para que trabajar tanto",
+        "para trabajar que se necesita",
+        "para trabajar que te piden",
+        "para que sirve trabajar",
+        "para que sirve trabajar aductores",
+        "para que sirve trabajar en equipo",
+        "no le encuentro sentido a mi trabajo"
+      ],
+      "candidatePhrases": [
+        "mi trabajo no tiene sentido",
+        "para qué trabajar",
+        "no encuentro sentido en mi trabajo",
+        "falta de propósito laboral",
+        "mi trabajo tiene sentido cuando",
+        "para qué trabajar un proyecto de vida",
+        "para qué trabajar un seminario",
+        "para qué trabajar un proyecto de nación",
+        "para que trabajar",
+        "para que trabajar tanto",
+        "para trabajar que se necesita",
+        "para trabajar que te piden",
+        "para que sirve trabajar",
+        "para que sirve trabajar aductores",
+        "para que sirve trabajar en equipo",
+        "no le encuentro sentido a mi trabajo"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "mi trabajo no tiene sentido",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "para qué trabajar",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no encuentro sentido en mi trabajo",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "falta de propósito laboral",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "mi trabajo tiene sentido cuando",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "para qué trabajar un proyecto de vida",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "para qué trabajar un seminario",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "para qué trabajar un proyecto de nación",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "para que trabajar",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "para que trabajar tanto",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "para trabajar que se necesita",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "para trabajar que te piden",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "para que sirve trabajar",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "para que sirve trabajar aductores",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "para que sirve trabajar en equipo",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no le encuentro sentido a mi trabajo",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "mi trabajo no tiene sentido",
+        "para qué trabajar",
+        "no encuentro sentido en mi trabajo",
+        "falta de propósito laboral",
+        "mi trabajo tiene sentido cuando",
+        "para qué trabajar un proyecto de vida",
+        "para qué trabajar un seminario",
+        "para qué trabajar un proyecto de nación",
+        "para que trabajar",
+        "para que trabajar tanto",
+        "para trabajar que se necesita",
+        "para trabajar que te piden",
+        "para que sirve trabajar",
+        "para que sirve trabajar aductores",
+        "para que sirve trabajar en equipo",
+        "no le encuentro sentido a mi trabajo"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "es-ES",
+      "route": "/meaning/dont-know-want",
+      "slot": "meaning/dont-know-want",
+      "axis": "worry",
+      "sourceQueries": [
+        "no sé qué quiero en la vida",
+        "no sé qué hacer con mi vida",
+        "no tengo ganas de nada",
+        "cómo saber lo que quiero"
+      ],
+      "baseQueries": [
+        "no sé qué quiero en la vida",
+        "no sé qué hacer con mi vida",
+        "no tengo ganas de nada",
+        "cómo saber lo que quiero"
+      ],
+      "googleSuggestions": [
+        "no sé que quiero en la vida",
+        "no sé que quiero hacer con mi vida",
+        "no sé qué hacer con mi vida",
+        "no sé que hacer con mi vida profesional",
+        "no sé que hacer con mi vida reddit",
+        "no sé qué hacer con mi vida amaral",
+        "no sé qué hacer con mi vida en inglés",
+        "yo no sé qué hacer con mi vida",
+        "no sé qué voy a hacer con mi vida",
+        "por qué no sé qué hacer con mi vida",
+        "soy joven y no sé que hacer con mi vida",
+        "no tengo ganas de nada",
+        "no tengo ganas de nada solo de dormir",
+        "no tengo ganas de nada que me pasa",
+        "no tengo ganas de nada frases",
+        "no tengo ganas de nada en ingles",
+        "no tengo ganas de nada que hago",
+        "no tengo ganas de nada me siento cansada",
+        "no tengo ganas de nada solo quiero dormir",
+        "no tengo ganas de nada solo de llorar",
+        "no tengo ganas de nada reddit",
+        "cómo saber lo que quiero",
+        "cómo saber lo que quiero en la vida",
+        "como saber lo que quiero estudiar test",
+        "como saber lo que quiero estudiar",
+        "como saber lo que quiero hacer con mi vida",
+        "como saber lo que quiero en el amor",
+        "como saber lo que quiero realmente",
+        "como saber que quiero estudiar en la universidad",
+        "como saber que quiero en la vida test",
+        "como saber que quiero estudiar realmente"
+      ],
+      "candidatePhrases": [
+        "no sé qué quiero en la vida",
+        "no sé qué hacer con mi vida",
+        "no tengo ganas de nada",
+        "cómo saber lo que quiero",
+        "no sé que quiero en la vida",
+        "no sé que quiero hacer con mi vida",
+        "no sé que hacer con mi vida profesional",
+        "no sé que hacer con mi vida reddit",
+        "no sé qué hacer con mi vida amaral",
+        "no sé qué hacer con mi vida en inglés",
+        "yo no sé qué hacer con mi vida",
+        "no sé qué voy a hacer con mi vida",
+        "por qué no sé qué hacer con mi vida",
+        "soy joven y no sé que hacer con mi vida",
+        "no tengo ganas de nada solo de dormir",
+        "no tengo ganas de nada que me pasa",
+        "no tengo ganas de nada frases",
+        "no tengo ganas de nada en ingles",
+        "no tengo ganas de nada que hago",
+        "no tengo ganas de nada me siento cansada",
+        "no tengo ganas de nada solo quiero dormir",
+        "no tengo ganas de nada solo de llorar",
+        "no tengo ganas de nada reddit",
+        "cómo saber lo que quiero en la vida",
+        "como saber lo que quiero estudiar test",
+        "como saber lo que quiero estudiar",
+        "como saber lo que quiero hacer con mi vida",
+        "como saber lo que quiero en el amor",
+        "como saber lo que quiero realmente",
+        "como saber que quiero estudiar en la universidad",
+        "como saber que quiero en la vida test",
+        "como saber que quiero estudiar realmente"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "no sé qué quiero en la vida",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no sé qué hacer con mi vida",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no tengo ganas de nada",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "cómo saber lo que quiero",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no sé que quiero en la vida",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no sé que quiero hacer con mi vida",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no sé que hacer con mi vida profesional",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no sé que hacer con mi vida reddit",
+          "status": "review",
+          "reasons": [
+            "platform-specific query",
+            "platform-specific query",
+            "platform-specific query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no sé qué hacer con mi vida amaral",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no sé qué hacer con mi vida en inglés",
+          "status": "low-signal",
+          "reasons": [
+            "translation or language lookup"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "yo no sé qué hacer con mi vida",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no sé qué voy a hacer con mi vida",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "por qué no sé qué hacer con mi vida",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "soy joven y no sé que hacer con mi vida",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no tengo ganas de nada solo de dormir",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no tengo ganas de nada que me pasa",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no tengo ganas de nada frases",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no tengo ganas de nada en ingles",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no tengo ganas de nada que hago",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no tengo ganas de nada me siento cansada",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no tengo ganas de nada solo quiero dormir",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no tengo ganas de nada solo de llorar",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no tengo ganas de nada reddit",
+          "status": "review",
+          "reasons": [
+            "platform-specific query",
+            "platform-specific query",
+            "platform-specific query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "cómo saber lo que quiero en la vida",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "como saber lo que quiero estudiar test",
+          "status": "low-signal",
+          "reasons": [
+            "fortune-telling / diagnosis drift",
+            "fortune-telling / diagnosis drift",
+            "fortune-telling / diagnosis drift"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "como saber lo que quiero estudiar",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "como saber lo que quiero hacer con mi vida",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "como saber lo que quiero en el amor",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "como saber lo que quiero realmente",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "como saber que quiero estudiar en la universidad",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "como saber que quiero en la vida test",
+          "status": "low-signal",
+          "reasons": [
+            "fortune-telling / diagnosis drift",
+            "fortune-telling / diagnosis drift",
+            "fortune-telling / diagnosis drift"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "como saber que quiero estudiar realmente",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "no sé qué quiero en la vida",
+        "no sé qué hacer con mi vida",
+        "no tengo ganas de nada",
+        "cómo saber lo que quiero",
+        "no sé que quiero en la vida",
+        "no sé que quiero hacer con mi vida",
+        "no sé que hacer con mi vida profesional",
+        "no sé qué hacer con mi vida amaral",
+        "yo no sé qué hacer con mi vida",
+        "no sé qué voy a hacer con mi vida",
+        "por qué no sé qué hacer con mi vida",
+        "soy joven y no sé que hacer con mi vida",
+        "no tengo ganas de nada solo de dormir",
+        "no tengo ganas de nada que me pasa",
+        "no tengo ganas de nada en ingles",
+        "no tengo ganas de nada que hago",
+        "no tengo ganas de nada me siento cansada",
+        "no tengo ganas de nada solo quiero dormir",
+        "no tengo ganas de nada solo de llorar",
+        "cómo saber lo que quiero en la vida",
+        "como saber lo que quiero estudiar",
+        "como saber lo que quiero hacer con mi vida",
+        "como saber lo que quiero en el amor",
+        "como saber lo que quiero realmente",
+        "como saber que quiero estudiar en la universidad",
+        "como saber que quiero estudiar realmente"
+      ],
+      "reviewCandidatePhrases": [
+        "no sé que hacer con mi vida reddit",
+        "no tengo ganas de nada frases",
+        "no tengo ganas de nada reddit"
+      ],
+      "lowSignalCandidatePhrases": [
+        "no sé qué hacer con mi vida en inglés",
+        "como saber lo que quiero estudiar test",
+        "como saber que quiero en la vida test"
+      ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "es-ES",
+      "route": "/meaning/emptiness",
+      "slot": "meaning/emptiness",
+      "axis": "worry",
+      "sourceQueries": [
+        "siento vacío por dentro",
+        "vacío existencial",
+        "nada me llena",
+        "me siento vacío sin razón"
+      ],
+      "baseQueries": [
+        "siento vacío por dentro",
+        "vacío existencial",
+        "nada me llena",
+        "me siento vacío sin razón"
+      ],
+      "googleSuggestions": [
+        "siento vacío por dentro mi amor",
+        "siento un vacio por dentro mi amor letra",
+        "me siento vacio por dentro",
+        "siento un vacio por dentro que me esta consumiendo",
+        "siento un vacio por dentro mi amor oscar maydon",
+        "siento un vacio por dentro cancion",
+        "me siento vacio por dentro frases",
+        "siento un vacio por dentro letra",
+        "me siento vacio por dentro en ingles",
+        "siento un vacio por dentro que me esta consumiendo letra",
+        "vacío existencial",
+        "vacío existencial síntomas",
+        "vacío existencial según la biblia",
+        "vacío existencial como se cura",
+        "vacío existencial viktor frankl",
+        "vacío existencial filosofía",
+        "vacío existencial viktor frankl pdf",
+        "vacío existencial frases",
+        "vacío existencial psicología",
+        "vacío existencial aa",
+        "nada me llena",
+        "nada me llena ni me hace feliz",
+        "nada me llena jey long",
+        "nada me llena como tu me llenas",
+        "nada me llena joylong letra",
+        "nada me llena como tu me llenas alex zurdo",
+        "nada me llena alex zurdo",
+        "nada me llena emocionalmente",
+        "nada me llena mas que tu presencia",
+        "nada me llena los ojos"
+      ],
+      "candidatePhrases": [
+        "siento vacío por dentro",
+        "vacío existencial",
+        "nada me llena",
+        "me siento vacío sin razón",
+        "siento vacío por dentro mi amor",
+        "siento un vacio por dentro mi amor letra",
+        "me siento vacio por dentro",
+        "siento un vacio por dentro que me esta consumiendo",
+        "siento un vacio por dentro mi amor oscar maydon",
+        "siento un vacio por dentro cancion",
+        "me siento vacio por dentro frases",
+        "siento un vacio por dentro letra",
+        "me siento vacio por dentro en ingles",
+        "siento un vacio por dentro que me esta consumiendo letra",
+        "vacío existencial síntomas",
+        "vacío existencial según la biblia",
+        "vacío existencial como se cura",
+        "vacío existencial viktor frankl",
+        "vacío existencial filosofía",
+        "vacío existencial viktor frankl pdf",
+        "vacío existencial frases",
+        "vacío existencial psicología",
+        "vacío existencial aa",
+        "nada me llena ni me hace feliz",
+        "nada me llena jey long",
+        "nada me llena como tu me llenas",
+        "nada me llena joylong letra",
+        "nada me llena como tu me llenas alex zurdo",
+        "nada me llena alex zurdo",
+        "nada me llena emocionalmente",
+        "nada me llena mas que tu presencia",
+        "nada me llena los ojos"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "siento vacío por dentro",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "vacío existencial",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": [
+            "meaning/existential-vacuum"
+          ]
+        },
+        {
+          "phrase": "nada me llena",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "me siento vacío sin razón",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "siento vacío por dentro mi amor",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "siento un vacio por dentro mi amor letra",
+          "status": "low-signal",
+          "reasons": [
+            "entertainment lookup"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "me siento vacio por dentro",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "siento un vacio por dentro que me esta consumiendo",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "siento un vacio por dentro mi amor oscar maydon",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "siento un vacio por dentro cancion",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "me siento vacio por dentro frases",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "siento un vacio por dentro letra",
+          "status": "low-signal",
+          "reasons": [
+            "entertainment lookup"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "me siento vacio por dentro en ingles",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "siento un vacio por dentro que me esta consumiendo letra",
+          "status": "low-signal",
+          "reasons": [
+            "entertainment lookup"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "vacío existencial síntomas",
+          "status": "review",
+          "reasons": [
+            "medical review needed"
+          ],
+          "clusterHints": [
+            "meaning/existential-vacuum"
+          ]
+        },
+        {
+          "phrase": "vacío existencial según la biblia",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": [
+            "meaning/existential-vacuum"
+          ]
+        },
+        {
+          "phrase": "vacío existencial como se cura",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": [
+            "meaning/existential-vacuum"
+          ]
+        },
+        {
+          "phrase": "vacío existencial viktor frankl",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": [
+            "meaning/existential-vacuum"
+          ]
+        },
+        {
+          "phrase": "vacío existencial filosofía",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": [
+            "meaning/existential-vacuum"
+          ]
+        },
+        {
+          "phrase": "vacío existencial viktor frankl pdf",
+          "status": "review",
+          "reasons": [
+            "reference or concept query",
+            "reference or concept query",
+            "reference or concept query",
+            "reference or concept query",
+            "reference or concept query"
+          ],
+          "clusterHints": [
+            "meaning/existential-vacuum"
+          ]
+        },
+        {
+          "phrase": "vacío existencial frases",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": [
+            "meaning/existential-vacuum"
+          ]
+        },
+        {
+          "phrase": "vacío existencial psicología",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": [
+            "meaning/existential-vacuum"
+          ]
+        },
+        {
+          "phrase": "vacío existencial aa",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": [
+            "meaning/existential-vacuum"
+          ]
+        },
+        {
+          "phrase": "nada me llena ni me hace feliz",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "nada me llena jey long",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "nada me llena como tu me llenas",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "nada me llena joylong letra",
+          "status": "low-signal",
+          "reasons": [
+            "entertainment lookup"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "nada me llena como tu me llenas alex zurdo",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "nada me llena alex zurdo",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "nada me llena emocionalmente",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "nada me llena mas que tu presencia",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "nada me llena los ojos",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "siento vacío por dentro",
+        "vacío existencial",
+        "nada me llena",
+        "me siento vacío sin razón",
+        "siento vacío por dentro mi amor",
+        "me siento vacio por dentro",
+        "siento un vacio por dentro que me esta consumiendo",
+        "siento un vacio por dentro mi amor oscar maydon",
+        "siento un vacio por dentro cancion",
+        "me siento vacio por dentro en ingles",
+        "vacío existencial según la biblia",
+        "vacío existencial como se cura",
+        "vacío existencial viktor frankl",
+        "vacío existencial filosofía",
+        "vacío existencial psicología",
+        "vacío existencial aa",
+        "nada me llena ni me hace feliz",
+        "nada me llena jey long",
+        "nada me llena como tu me llenas",
+        "nada me llena como tu me llenas alex zurdo",
+        "nada me llena alex zurdo",
+        "nada me llena emocionalmente",
+        "nada me llena mas que tu presencia",
+        "nada me llena los ojos"
+      ],
+      "reviewCandidatePhrases": [
+        "me siento vacio por dentro frases",
+        "vacío existencial síntomas",
+        "vacío existencial viktor frankl pdf",
+        "vacío existencial frases"
+      ],
+      "lowSignalCandidatePhrases": [
+        "siento un vacio por dentro mi amor letra",
+        "siento un vacio por dentro letra",
+        "siento un vacio por dentro que me esta consumiendo letra",
+        "nada me llena joylong letra"
+      ],
+      "clusterHints": {
+        "meaning/existential-vacuum": 10
+      },
+      "errors": []
+    },
+    {
+      "locale": "es-ES",
+      "route": "/meaning/no-goal",
+      "slot": "meaning/no-goal",
+      "axis": "worry",
+      "sourceQueries": [
+        "no tengo metas en la vida",
+        "no sé cuál es mi objetivo",
+        "no tengo sueños",
+        "cómo encontrar una meta"
+      ],
+      "baseQueries": [
+        "no tengo metas en la vida",
+        "no sé cuál es mi objetivo",
+        "no tengo sueños",
+        "cómo encontrar una meta"
+      ],
+      "googleSuggestions": [
+        "no tengo metas en la vida",
+        "porque no tengo metas en la vida",
+        "que pasa si no tengo metas en la vida",
+        "que hacer si no tengo metas en la vida",
+        "no te preocupes por mi soy inteligente tengo metas en la vida",
+        "no tengo sueños tengo metas",
+        "no tengo sueños ni metas",
+        "no tengo sueños",
+        "no tengo sueños cuando duermo",
+        "no tengo sueños tengo metas y voy por la siguiente",
+        "no tengo sueños en la vida",
+        "no tengo sueños humedos",
+        "no tengo sueños ni aspiraciones",
+        "no tengo sueños vivo al dia",
+        "no tengo sueños ni metas que hago",
+        "como encontrar una meta en la vida",
+        "como encontrar una metafora en un poema",
+        "como encontrar una metafora",
+        "como encontrar una meta",
+        "como encontrar una metafora en un texto",
+        "como encontrar meta ai en whatsapp",
+        "como encontrar metal en minecraft",
+        "como encontrar meta business suite en facebook",
+        "como encontrar meta en whatsapp",
+        "como encontrar metal en lego fortnite"
+      ],
+      "candidatePhrases": [
+        "no tengo metas en la vida",
+        "no sé cuál es mi objetivo",
+        "no tengo sueños",
+        "cómo encontrar una meta",
+        "porque no tengo metas en la vida",
+        "que pasa si no tengo metas en la vida",
+        "que hacer si no tengo metas en la vida",
+        "no te preocupes por mi soy inteligente tengo metas en la vida",
+        "no tengo sueños tengo metas",
+        "no tengo sueños ni metas",
+        "no tengo sueños cuando duermo",
+        "no tengo sueños tengo metas y voy por la siguiente",
+        "no tengo sueños en la vida",
+        "no tengo sueños humedos",
+        "no tengo sueños ni aspiraciones",
+        "no tengo sueños vivo al dia",
+        "no tengo sueños ni metas que hago",
+        "como encontrar una meta en la vida",
+        "como encontrar una metafora en un poema",
+        "como encontrar una metafora",
+        "como encontrar una meta",
+        "como encontrar una metafora en un texto",
+        "como encontrar meta ai en whatsapp",
+        "como encontrar metal en minecraft",
+        "como encontrar meta business suite en facebook",
+        "como encontrar meta en whatsapp",
+        "como encontrar metal en lego fortnite"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "no tengo metas en la vida",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no sé cuál es mi objetivo",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no tengo sueños",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "cómo encontrar una meta",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "porque no tengo metas en la vida",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "que pasa si no tengo metas en la vida",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "que hacer si no tengo metas en la vida",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no te preocupes por mi soy inteligente tengo metas en la vida",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no tengo sueños tengo metas",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no tengo sueños ni metas",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no tengo sueños cuando duermo",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no tengo sueños tengo metas y voy por la siguiente",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no tengo sueños en la vida",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no tengo sueños humedos",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no tengo sueños ni aspiraciones",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no tengo sueños vivo al dia",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no tengo sueños ni metas que hago",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "como encontrar una meta en la vida",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "como encontrar una metafora en un poema",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "como encontrar una metafora",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "como encontrar una meta",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "como encontrar una metafora en un texto",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "como encontrar meta ai en whatsapp",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "como encontrar metal en minecraft",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "como encontrar meta business suite en facebook",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "como encontrar meta en whatsapp",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "como encontrar metal en lego fortnite",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "no tengo metas en la vida",
+        "no sé cuál es mi objetivo",
+        "no tengo sueños",
+        "cómo encontrar una meta",
+        "porque no tengo metas en la vida",
+        "que pasa si no tengo metas en la vida",
+        "que hacer si no tengo metas en la vida",
+        "no te preocupes por mi soy inteligente tengo metas en la vida",
+        "no tengo sueños tengo metas",
+        "no tengo sueños ni metas",
+        "no tengo sueños cuando duermo",
+        "no tengo sueños tengo metas y voy por la siguiente",
+        "no tengo sueños en la vida",
+        "no tengo sueños humedos",
+        "no tengo sueños ni aspiraciones",
+        "no tengo sueños vivo al dia",
+        "no tengo sueños ni metas que hago",
+        "como encontrar una meta en la vida",
+        "como encontrar una metafora en un poema",
+        "como encontrar una metafora",
+        "como encontrar una meta",
+        "como encontrar una metafora en un texto",
+        "como encontrar meta ai en whatsapp",
+        "como encontrar metal en minecraft",
+        "como encontrar meta business suite en facebook",
+        "como encontrar meta en whatsapp",
+        "como encontrar metal en lego fortnite"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "es-ES",
+      "route": "/meaning/wandering",
+      "slot": "meaning/wandering",
+      "axis": "worry",
+      "sourceQueries": [
+        "estoy perdido en la vida",
+        "no sé hacia dónde voy",
+        "me siento perdido",
+        "estoy a la deriva"
+      ],
+      "baseQueries": [
+        "estoy perdido en la vida",
+        "no sé hacia dónde voy",
+        "me siento perdido",
+        "estoy a la deriva"
+      ],
+      "googleSuggestions": [
+        "estoy perdido en la vida",
+        "estoy perdido en la vida y no se que hacer",
+        "estoy perdido en la vida que hago",
+        "estoy perdido en la vida reddit",
+        "estoy perdido en la vida forocoches",
+        "estoy muy perdido en la vida",
+        "siento que estoy perdido en la vida",
+        "como saber si estoy perdido en la vida",
+        "estoy perdido casos de la vida real",
+        "no sé hacia donde voy",
+        "yo no sé hacia dónde voy",
+        "yo no sé hacia donde voy puede ser donde estas tu",
+        "ya no sé quien soy ni hacia donde voy",
+        "me siento perdido",
+        "me siento perdido letra",
+        "me siento perdido en la vida",
+        "me siento perdido acordes",
+        "me siento perdido eslabon armado",
+        "me siento perdido mentalmente",
+        "me siento perdido no se que hacer con mi vida",
+        "me siento perdido tabs",
+        "me siento perdido en inglés",
+        "me siento perdido en este mundo y mi ultimo fracaso",
+        "estoy a la deriva",
+        "estoy a la deriva significado",
+        "estoy a la deriva en ingles"
+      ],
+      "candidatePhrases": [
+        "estoy perdido en la vida",
+        "no sé hacia dónde voy",
+        "me siento perdido",
+        "estoy a la deriva",
+        "estoy perdido en la vida y no se que hacer",
+        "estoy perdido en la vida que hago",
+        "estoy perdido en la vida reddit",
+        "estoy perdido en la vida forocoches",
+        "estoy muy perdido en la vida",
+        "siento que estoy perdido en la vida",
+        "como saber si estoy perdido en la vida",
+        "estoy perdido casos de la vida real",
+        "no sé hacia donde voy",
+        "yo no sé hacia dónde voy",
+        "yo no sé hacia donde voy puede ser donde estas tu",
+        "ya no sé quien soy ni hacia donde voy",
+        "me siento perdido letra",
+        "me siento perdido en la vida",
+        "me siento perdido acordes",
+        "me siento perdido eslabon armado",
+        "me siento perdido mentalmente",
+        "me siento perdido no se que hacer con mi vida",
+        "me siento perdido tabs",
+        "me siento perdido en inglés",
+        "me siento perdido en este mundo y mi ultimo fracaso",
+        "estoy a la deriva significado",
+        "estoy a la deriva en ingles"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "estoy perdido en la vida",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no sé hacia dónde voy",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "me siento perdido",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "estoy a la deriva",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "estoy perdido en la vida y no se que hacer",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "estoy perdido en la vida que hago",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "estoy perdido en la vida reddit",
+          "status": "review",
+          "reasons": [
+            "platform-specific query",
+            "platform-specific query",
+            "platform-specific query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "estoy perdido en la vida forocoches",
+          "status": "review",
+          "reasons": [
+            "platform-specific query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "estoy muy perdido en la vida",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "siento que estoy perdido en la vida",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "como saber si estoy perdido en la vida",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "estoy perdido casos de la vida real",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "no sé hacia donde voy",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "yo no sé hacia dónde voy",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "yo no sé hacia donde voy puede ser donde estas tu",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ya no sé quien soy ni hacia donde voy",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "me siento perdido letra",
+          "status": "low-signal",
+          "reasons": [
+            "entertainment lookup"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "me siento perdido en la vida",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "me siento perdido acordes",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "me siento perdido eslabon armado",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "me siento perdido mentalmente",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "me siento perdido no se que hacer con mi vida",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "me siento perdido tabs",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "me siento perdido en inglés",
+          "status": "low-signal",
+          "reasons": [
+            "translation or language lookup"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "me siento perdido en este mundo y mi ultimo fracaso",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "estoy a la deriva significado",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "estoy a la deriva en ingles",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "estoy perdido en la vida",
+        "no sé hacia dónde voy",
+        "me siento perdido",
+        "estoy a la deriva",
+        "estoy perdido en la vida y no se que hacer",
+        "estoy perdido en la vida que hago",
+        "estoy muy perdido en la vida",
+        "siento que estoy perdido en la vida",
+        "como saber si estoy perdido en la vida",
+        "estoy perdido casos de la vida real",
+        "no sé hacia donde voy",
+        "yo no sé hacia dónde voy",
+        "yo no sé hacia donde voy puede ser donde estas tu",
+        "ya no sé quien soy ni hacia donde voy",
+        "me siento perdido en la vida",
+        "me siento perdido acordes",
+        "me siento perdido eslabon armado",
+        "me siento perdido mentalmente",
+        "me siento perdido no se que hacer con mi vida",
+        "me siento perdido tabs",
+        "me siento perdido en este mundo y mi ultimo fracaso",
+        "estoy a la deriva en ingles"
+      ],
+      "reviewCandidatePhrases": [
+        "estoy perdido en la vida reddit",
+        "estoy perdido en la vida forocoches",
+        "estoy a la deriva significado"
+      ],
+      "lowSignalCandidatePhrases": [
+        "me siento perdido letra",
+        "me siento perdido en inglés"
+      ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "es-ES",
+      "route": "/family/holiday-stress",
+      "slot": "family/holiday-stress",
+      "axis": "worry",
+      "sourceQueries": [
+        "estrés familiar en navidad",
+        "reuniones familiares estrés",
+        "preguntas incómodas de la familia",
+        "ansiedad por visitar a la familia"
+      ],
+      "baseQueries": [
+        "estrés familiar en navidad",
+        "reuniones familiares estrés",
+        "preguntas incómodas de la familia",
+        "ansiedad por visitar a la familia"
+      ],
+      "googleSuggestions": [
+        "preguntas incomodas de familia",
+        "preguntas incomodas para la familia"
+      ],
+      "candidatePhrases": [
+        "estrés familiar en navidad",
+        "reuniones familiares estrés",
+        "preguntas incómodas de la familia",
+        "ansiedad por visitar a la familia",
+        "preguntas incomodas de familia",
+        "preguntas incomodas para la familia"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "estrés familiar en navidad",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "reuniones familiares estrés",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "preguntas incómodas de la familia",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ansiedad por visitar a la familia",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "preguntas incomodas de familia",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "preguntas incomodas para la familia",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "estrés familiar en navidad",
+        "reuniones familiares estrés",
+        "preguntas incómodas de la familia",
+        "ansiedad por visitar a la familia",
+        "preguntas incomodas de familia",
+        "preguntas incomodas para la familia"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "es-ES",
+      "route": "/family/family-cutoff",
+      "slot": "family/family-cutoff",
+      "axis": "worry",
+      "sourceQueries": [
+        "cortar contacto con la familia",
+        "alejarme de mi familia tóxica",
+        "dejar de hablar con mis padres",
+        "culpa por alejarme de la familia"
+      ],
+      "baseQueries": [
+        "cortar contacto con la familia",
+        "alejarme de mi familia tóxica",
+        "dejar de hablar con mis padres",
+        "culpa por alejarme de la familia"
+      ],
+      "googleSuggestions": [
+        "alejarme de mi familia toxica",
+        "alejarme de mi familia porque es toxica",
+        "dejar de hablar con mis padres"
+      ],
+      "candidatePhrases": [
+        "cortar contacto con la familia",
+        "alejarme de mi familia tóxica",
+        "dejar de hablar con mis padres",
+        "culpa por alejarme de la familia",
+        "alejarme de mi familia toxica",
+        "alejarme de mi familia porque es toxica"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "cortar contacto con la familia",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "alejarme de mi familia tóxica",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": [
+            "family/family-of-origin"
+          ]
+        },
+        {
+          "phrase": "dejar de hablar con mis padres",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "culpa por alejarme de la familia",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "alejarme de mi familia toxica",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "alejarme de mi familia porque es toxica",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "cortar contacto con la familia",
+        "alejarme de mi familia tóxica",
+        "dejar de hablar con mis padres",
+        "culpa por alejarme de la familia",
+        "alejarme de mi familia toxica",
+        "alejarme de mi familia porque es toxica"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {
+        "family/family-of-origin": 1
+      },
+      "errors": []
+    },
+    {
+      "locale": "es-ES",
+      "route": "/family/mother-conflict",
+      "slot": "family/mother-conflict",
+      "axis": "worry",
+      "sourceQueries": [
+        "no me llevo bien con mi madre",
+        "mi madre me agota",
+        "peleo mucho con mi mamá",
+        "poner límites a mi madre"
+      ],
+      "baseQueries": [
+        "no me llevo bien con mi madre",
+        "mi madre me agota",
+        "peleo mucho con mi mamá",
+        "poner límites a mi madre"
+      ],
+      "googleSuggestions": [
+        "no me llevo bien con mi madre",
+        "porque no me llevo bien con mi madre",
+        "mi madre me agota psicológicamente",
+        "peleo mucho con mi mamá",
+        "porque peleo mucho con mi mamá",
+        "que hacer si peleo mucho con mi mamá",
+        "poner límites a mi madre"
+      ],
+      "candidatePhrases": [
+        "no me llevo bien con mi madre",
+        "mi madre me agota",
+        "peleo mucho con mi mamá",
+        "poner límites a mi madre",
+        "porque no me llevo bien con mi madre",
+        "mi madre me agota psicológicamente",
+        "porque peleo mucho con mi mamá",
+        "que hacer si peleo mucho con mi mamá"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "no me llevo bien con mi madre",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "mi madre me agota",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "peleo mucho con mi mamá",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "poner límites a mi madre",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "porque no me llevo bien con mi madre",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "mi madre me agota psicológicamente",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "porque peleo mucho con mi mamá",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "que hacer si peleo mucho con mi mamá",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "no me llevo bien con mi madre",
+        "mi madre me agota",
+        "peleo mucho con mi mamá",
+        "poner límites a mi madre",
+        "porque no me llevo bien con mi madre",
+        "mi madre me agota psicológicamente",
+        "porque peleo mucho con mi mamá",
+        "que hacer si peleo mucho con mi mamá"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "es-ES",
+      "route": "/body/body-anxiety",
+      "slot": "body/body-anxiety",
+      "axis": "worry",
+      "sourceQueries": [
+        "odio mi cuerpo",
+        "inseguridad con mi cuerpo",
+        "complejo físico",
+        "ansiedad por mi apariencia"
+      ],
+      "baseQueries": [
+        "odio mi cuerpo",
+        "inseguridad con mi cuerpo",
+        "complejo físico",
+        "ansiedad por mi apariencia"
+      ],
+      "googleSuggestions": [
+        "odio mi cuerpo",
+        "odio mi cuerpo 1974",
+        "odio mi cuerpo reparto",
+        "odio mi cuerpo película",
+        "odio mi cuerpo cancion",
+        "odio mi cuerpo en ingles",
+        "odio mi cuerpo frases",
+        "odio mi cuerpo gordo",
+        "odio mi cuerpo después del embarazo",
+        "odio mi cuerpo 1974 ok ru",
+        "inseguridad con mi cuerpo",
+        "tengo inseguridad con mi cuerpo",
+        "inseguridad de mi cuerpo frases",
+        "inseguridad por mi cuerpo",
+        "complejo físico",
+        "complejo físico en inglés",
+        "complejo fisico aitana",
+        "complejo fisico significado",
+        "complejo fisico sinonimo",
+        "espacio físico complejo cientifico y tecnologico simon bolivar *"
+      ],
+      "candidatePhrases": [
+        "odio mi cuerpo",
+        "inseguridad con mi cuerpo",
+        "complejo físico",
+        "ansiedad por mi apariencia",
+        "odio mi cuerpo 1974",
+        "odio mi cuerpo reparto",
+        "odio mi cuerpo película",
+        "odio mi cuerpo cancion",
+        "odio mi cuerpo en ingles",
+        "odio mi cuerpo frases",
+        "odio mi cuerpo gordo",
+        "odio mi cuerpo después del embarazo",
+        "odio mi cuerpo 1974 ok ru",
+        "tengo inseguridad con mi cuerpo",
+        "inseguridad de mi cuerpo frases",
+        "inseguridad por mi cuerpo",
+        "complejo físico en inglés",
+        "complejo fisico aitana",
+        "complejo fisico significado",
+        "complejo fisico sinonimo",
+        "espacio físico complejo cientifico y tecnologico simon bolivar *"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "odio mi cuerpo",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "inseguridad con mi cuerpo",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "complejo físico",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ansiedad por mi apariencia",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "odio mi cuerpo 1974",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "odio mi cuerpo reparto",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "odio mi cuerpo película",
+          "status": "low-signal",
+          "reasons": [
+            "entertainment lookup"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "odio mi cuerpo cancion",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "odio mi cuerpo en ingles",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "odio mi cuerpo frases",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "odio mi cuerpo gordo",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "odio mi cuerpo después del embarazo",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "odio mi cuerpo 1974 ok ru",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "tengo inseguridad con mi cuerpo",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "inseguridad de mi cuerpo frases",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "inseguridad por mi cuerpo",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "complejo físico en inglés",
+          "status": "low-signal",
+          "reasons": [
+            "translation or language lookup"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "complejo fisico aitana",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "complejo fisico significado",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "complejo fisico sinonimo",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "espacio físico complejo cientifico y tecnologico simon bolivar *",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "odio mi cuerpo",
+        "inseguridad con mi cuerpo",
+        "complejo físico",
+        "ansiedad por mi apariencia",
+        "odio mi cuerpo 1974",
+        "odio mi cuerpo reparto",
+        "odio mi cuerpo cancion",
+        "odio mi cuerpo en ingles",
+        "odio mi cuerpo gordo",
+        "odio mi cuerpo después del embarazo",
+        "odio mi cuerpo 1974 ok ru",
+        "tengo inseguridad con mi cuerpo",
+        "inseguridad por mi cuerpo",
+        "complejo fisico aitana",
+        "complejo fisico sinonimo",
+        "espacio físico complejo cientifico y tecnologico simon bolivar *"
+      ],
+      "reviewCandidatePhrases": [
+        "odio mi cuerpo frases",
+        "inseguridad de mi cuerpo frases",
+        "complejo fisico significado"
+      ],
+      "lowSignalCandidatePhrases": [
+        "odio mi cuerpo película",
+        "complejo físico en inglés"
+      ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "es-ES",
+      "route": "/body/aging-anxiety",
+      "slot": "body/aging-anxiety",
+      "axis": "worry",
+      "sourceQueries": [
+        "miedo a envejecer",
+        "ansiedad por la edad",
+        "me da miedo perder la juventud",
+        "crisis por hacerse mayor"
+      ],
+      "baseQueries": [
+        "miedo a envejecer",
+        "ansiedad por la edad",
+        "me da miedo perder la juventud",
+        "crisis por hacerse mayor"
+      ],
+      "googleSuggestions": [
+        "miedo a envejecer",
+        "miedo a envejecer mujeres",
+        "miedo a envejecer y morir",
+        "miedo a envejecer frases",
+        "miedo a envejecer psicologia",
+        "miedo a envejecer como se llama",
+        "miedo a envejecer solo",
+        "miedo a envejecer reddit",
+        "miedo a envejecer fobia",
+        "miedo a envejecer cancion",
+        "ansiedad por la edad",
+        "ansiedad por separacion edad"
+      ],
+      "candidatePhrases": [
+        "miedo a envejecer",
+        "ansiedad por la edad",
+        "me da miedo perder la juventud",
+        "crisis por hacerse mayor",
+        "miedo a envejecer mujeres",
+        "miedo a envejecer y morir",
+        "miedo a envejecer frases",
+        "miedo a envejecer psicologia",
+        "miedo a envejecer como se llama",
+        "miedo a envejecer solo",
+        "miedo a envejecer reddit",
+        "miedo a envejecer fobia",
+        "miedo a envejecer cancion",
+        "ansiedad por separacion edad"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "miedo a envejecer",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ansiedad por la edad",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "me da miedo perder la juventud",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "crisis por hacerse mayor",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "miedo a envejecer mujeres",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "miedo a envejecer y morir",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "miedo a envejecer frases",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "miedo a envejecer psicologia",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "miedo a envejecer como se llama",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "miedo a envejecer solo",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "miedo a envejecer reddit",
+          "status": "review",
+          "reasons": [
+            "platform-specific query",
+            "platform-specific query",
+            "platform-specific query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "miedo a envejecer fobia",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "miedo a envejecer cancion",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ansiedad por separacion edad",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "miedo a envejecer",
+        "ansiedad por la edad",
+        "me da miedo perder la juventud",
+        "crisis por hacerse mayor",
+        "miedo a envejecer mujeres",
+        "miedo a envejecer y morir",
+        "miedo a envejecer psicologia",
+        "miedo a envejecer como se llama",
+        "miedo a envejecer solo",
+        "miedo a envejecer fobia",
+        "miedo a envejecer cancion",
+        "ansiedad por separacion edad"
+      ],
+      "reviewCandidatePhrases": [
+        "miedo a envejecer frases",
+        "miedo a envejecer reddit"
+      ],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "es-ES",
+      "route": "/body/hair-loss-stress",
+      "slot": "body/hair-loss-stress",
+      "axis": "worry",
+      "sourceQueries": [
+        "ansiedad por caída del pelo",
+        "miedo a quedarme calvo",
+        "pérdida de cabello autoestima",
+        "estrés por alopecia"
+      ],
+      "baseQueries": [
+        "ansiedad por caída del pelo",
+        "miedo a quedarme calvo",
+        "pérdida de cabello autoestima",
+        "estrés por alopecia"
+      ],
+      "googleSuggestions": [
+        "ansiedad caida del pelo",
+        "tengo miedo a quedarse calvo"
+      ],
+      "candidatePhrases": [
+        "ansiedad por caída del pelo",
+        "miedo a quedarme calvo",
+        "pérdida de cabello autoestima",
+        "estrés por alopecia",
+        "ansiedad caida del pelo",
+        "tengo miedo a quedarse calvo"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "ansiedad por caída del pelo",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "miedo a quedarme calvo",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "pérdida de cabello autoestima",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "estrés por alopecia",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ansiedad caida del pelo",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "tengo miedo a quedarse calvo",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "ansiedad por caída del pelo",
+        "miedo a quedarme calvo",
+        "pérdida de cabello autoestima",
+        "estrés por alopecia",
+        "ansiedad caida del pelo",
+        "tengo miedo a quedarse calvo"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "es-ES",
+      "route": "/career/dream-reality",
+      "slot": "career/dream-reality",
+      "axis": "worry",
+      "sourceQueries": [
+        "renunciar a mi sueño o seguir",
+        "sueño versus realidad",
+        "trabajar en lo que amo o ser realista",
+        "miedo a perseguir mi sueño"
+      ],
+      "baseQueries": [
+        "renunciar a mi sueño o seguir",
+        "sueño versus realidad",
+        "trabajar en lo que amo o ser realista",
+        "miedo a perseguir mi sueño"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "renunciar a mi sueño o seguir",
+        "sueño versus realidad",
+        "trabajar en lo que amo o ser realista",
+        "miedo a perseguir mi sueño"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "renunciar a mi sueño o seguir",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "sueño versus realidad",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "trabajar en lo que amo o ser realista",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "miedo a perseguir mi sueño",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "renunciar a mi sueño o seguir",
+        "sueño versus realidad",
+        "trabajar en lo que amo o ser realista",
+        "miedo a perseguir mi sueño"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "es-ES",
+      "route": "/career/regret-free-choice",
+      "slot": "career/regret-free-choice",
+      "axis": "worry",
+      "sourceQueries": [
+        "cómo tomar una decisión sin arrepentirme",
+        "miedo a elegir mal",
+        "cualquier opción me hará arrepentirme",
+        "decisión importante bloqueado"
+      ],
+      "baseQueries": [
+        "cómo tomar una decisión sin arrepentirme",
+        "miedo a elegir mal",
+        "cualquier opción me hará arrepentirme",
+        "decisión importante bloqueado"
+      ],
+      "googleSuggestions": [
+        "miedo a elegir mal"
+      ],
+      "candidatePhrases": [
+        "cómo tomar una decisión sin arrepentirme",
+        "miedo a elegir mal",
+        "cualquier opción me hará arrepentirme",
+        "decisión importante bloqueado"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "cómo tomar una decisión sin arrepentirme",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "miedo a elegir mal",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "cualquier opción me hará arrepentirme",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "decisión importante bloqueado",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "cómo tomar una decisión sin arrepentirme",
+        "miedo a elegir mal",
+        "cualquier opción me hará arrepentirme",
+        "decisión importante bloqueado"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "es-ES",
+      "route": "/debate/euthanasia",
+      "slot": "debate/euthanasia",
+      "axis": "debate",
+      "sourceQueries": [
+        "eutanasia debate",
+        "eutanasia a favor y en contra",
+        "derecho a morir dignamente",
+        "legalizar la eutanasia"
+      ],
+      "baseQueries": [
+        "eutanasia debate",
+        "eutanasia a favor y en contra",
+        "derecho a morir dignamente",
+        "legalizar la eutanasia"
+      ],
+      "googleSuggestions": [
+        "eutanasia debate",
+        "eutanasia debate a favor",
+        "eutanasia debate en contra",
+        "eutanasia debate etico",
+        "eutanasia debate a favor y en contra",
+        "eutanasia debate argumentos a favor",
+        "eutanasia debate preguntas",
+        "eutanasia debate pdf",
+        "eutanasia debate moral",
+        "debate eutanasia uruguay",
+        "eutanasia a favor y en contra",
+        "eutanasia a favor y en contra argumentos",
+        "eutanasia a favor y en contra pdf",
+        "eutanasia argumentos a favor y en contra pdf",
+        "eutanasia en el perú a favor y en contra",
+        "opiniones sobre la eutanasia a favor y en contra",
+        "ensayo argumentativo sobre la eutanasia argumentos a favor y en contra",
+        "preguntas a favor y en contra de la eutanasia",
+        "derecho a morir dignamente",
+        "derecho a morir dignamente colombia",
+        "derecho a morir dignamente españa",
+        "derecho a morir dignamente madrid",
+        "derecho a morir dignamente teléfono",
+        "derecho a morir dignamente barcelona",
+        "derecho a morir dignamente bogota",
+        "derecho a morir dignamente requisitos",
+        "derecho a morir dignamente constitución política de colombia",
+        "derecho a morir dignamente navarra",
+        "legalizar la eutanasia",
+        "legalizar la eutanasia en mexico",
+        "legalizar la eutanasia en el peru",
+        "legalizar la eutanasia en chile",
+        "porque legalizar la eutanasia",
+        "se debe legalizar la eutanasia",
+        "argumentos para legalizar la eutanasia",
+        "se debería legalizar la eutanasia",
+        "se debe legalizar la eutanasia en chile",
+        "se debe legalizar la eutanasia en mexico"
+      ],
+      "candidatePhrases": [
+        "eutanasia debate",
+        "eutanasia a favor y en contra",
+        "derecho a morir dignamente",
+        "legalizar la eutanasia",
+        "eutanasia debate a favor",
+        "eutanasia debate en contra",
+        "eutanasia debate etico",
+        "eutanasia debate a favor y en contra",
+        "eutanasia debate argumentos a favor",
+        "eutanasia debate preguntas",
+        "eutanasia debate pdf",
+        "eutanasia debate moral",
+        "debate eutanasia uruguay",
+        "eutanasia a favor y en contra argumentos",
+        "eutanasia a favor y en contra pdf",
+        "eutanasia argumentos a favor y en contra pdf",
+        "eutanasia en el perú a favor y en contra",
+        "opiniones sobre la eutanasia a favor y en contra",
+        "ensayo argumentativo sobre la eutanasia argumentos a favor y en contra",
+        "preguntas a favor y en contra de la eutanasia",
+        "derecho a morir dignamente colombia",
+        "derecho a morir dignamente españa",
+        "derecho a morir dignamente madrid",
+        "derecho a morir dignamente teléfono",
+        "derecho a morir dignamente barcelona",
+        "derecho a morir dignamente bogota",
+        "derecho a morir dignamente requisitos",
+        "derecho a morir dignamente constitución política de colombia",
+        "derecho a morir dignamente navarra",
+        "legalizar la eutanasia en mexico",
+        "legalizar la eutanasia en el peru",
+        "legalizar la eutanasia en chile",
+        "porque legalizar la eutanasia",
+        "se debe legalizar la eutanasia",
+        "argumentos para legalizar la eutanasia",
+        "se debería legalizar la eutanasia",
+        "se debe legalizar la eutanasia en chile",
+        "se debe legalizar la eutanasia en mexico"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "eutanasia debate",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "eutanasia a favor y en contra",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "derecho a morir dignamente",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "legalizar la eutanasia",
+          "status": "review",
+          "reasons": [
+            "legal/institutional review needed"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "eutanasia debate a favor",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "eutanasia debate en contra",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "eutanasia debate etico",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "eutanasia debate a favor y en contra",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "eutanasia debate argumentos a favor",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "eutanasia debate preguntas",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "eutanasia debate pdf",
+          "status": "review",
+          "reasons": [
+            "reference or concept query",
+            "reference or concept query",
+            "reference or concept query",
+            "reference or concept query",
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "eutanasia debate moral",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "debate eutanasia uruguay",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "eutanasia a favor y en contra argumentos",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "eutanasia a favor y en contra pdf",
+          "status": "review",
+          "reasons": [
+            "reference or concept query",
+            "reference or concept query",
+            "reference or concept query",
+            "reference or concept query",
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "eutanasia argumentos a favor y en contra pdf",
+          "status": "review",
+          "reasons": [
+            "reference or concept query",
+            "reference or concept query",
+            "reference or concept query",
+            "reference or concept query",
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "eutanasia en el perú a favor y en contra",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "opiniones sobre la eutanasia a favor y en contra",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ensayo argumentativo sobre la eutanasia argumentos a favor y en contra",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "preguntas a favor y en contra de la eutanasia",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "derecho a morir dignamente colombia",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "derecho a morir dignamente españa",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "derecho a morir dignamente madrid",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "derecho a morir dignamente teléfono",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "derecho a morir dignamente barcelona",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "derecho a morir dignamente bogota",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "derecho a morir dignamente requisitos",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "derecho a morir dignamente constitución política de colombia",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "derecho a morir dignamente navarra",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "legalizar la eutanasia en mexico",
+          "status": "review",
+          "reasons": [
+            "legal/institutional review needed"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "legalizar la eutanasia en el peru",
+          "status": "review",
+          "reasons": [
+            "legal/institutional review needed"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "legalizar la eutanasia en chile",
+          "status": "review",
+          "reasons": [
+            "legal/institutional review needed"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "porque legalizar la eutanasia",
+          "status": "review",
+          "reasons": [
+            "legal/institutional review needed"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "se debe legalizar la eutanasia",
+          "status": "review",
+          "reasons": [
+            "legal/institutional review needed"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "argumentos para legalizar la eutanasia",
+          "status": "review",
+          "reasons": [
+            "legal/institutional review needed"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "se debería legalizar la eutanasia",
+          "status": "review",
+          "reasons": [
+            "legal/institutional review needed"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "se debe legalizar la eutanasia en chile",
+          "status": "review",
+          "reasons": [
+            "legal/institutional review needed"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "se debe legalizar la eutanasia en mexico",
+          "status": "review",
+          "reasons": [
+            "legal/institutional review needed"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "eutanasia debate",
+        "eutanasia a favor y en contra",
+        "derecho a morir dignamente",
+        "eutanasia debate a favor",
+        "eutanasia debate en contra",
+        "eutanasia debate etico",
+        "eutanasia debate a favor y en contra",
+        "eutanasia debate argumentos a favor",
+        "eutanasia debate preguntas",
+        "eutanasia debate moral",
+        "debate eutanasia uruguay",
+        "eutanasia a favor y en contra argumentos",
+        "eutanasia en el perú a favor y en contra",
+        "opiniones sobre la eutanasia a favor y en contra",
+        "ensayo argumentativo sobre la eutanasia argumentos a favor y en contra",
+        "preguntas a favor y en contra de la eutanasia",
+        "derecho a morir dignamente colombia",
+        "derecho a morir dignamente españa",
+        "derecho a morir dignamente madrid",
+        "derecho a morir dignamente teléfono",
+        "derecho a morir dignamente barcelona",
+        "derecho a morir dignamente bogota",
+        "derecho a morir dignamente requisitos",
+        "derecho a morir dignamente constitución política de colombia",
+        "derecho a morir dignamente navarra"
+      ],
+      "reviewCandidatePhrases": [
+        "legalizar la eutanasia",
+        "eutanasia debate pdf",
+        "eutanasia a favor y en contra pdf",
+        "eutanasia argumentos a favor y en contra pdf",
+        "legalizar la eutanasia en mexico",
+        "legalizar la eutanasia en el peru",
+        "legalizar la eutanasia en chile",
+        "porque legalizar la eutanasia",
+        "se debe legalizar la eutanasia",
+        "argumentos para legalizar la eutanasia",
+        "se debería legalizar la eutanasia",
+        "se debe legalizar la eutanasia en chile",
+        "se debe legalizar la eutanasia en mexico"
+      ],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "es-ES",
+      "route": "/debate/death-penalty",
+      "slot": "debate/death-penalty",
+      "axis": "debate",
+      "sourceQueries": [
+        "pena de muerte debate",
+        "pena de muerte a favor y en contra",
+        "abolir la pena de muerte",
+        "pena de muerte errores judiciales"
+      ],
+      "baseQueries": [
+        "pena de muerte debate",
+        "pena de muerte a favor y en contra",
+        "abolir la pena de muerte",
+        "pena de muerte errores judiciales"
+      ],
+      "googleSuggestions": [
+        "pena de muerte debate",
+        "pena de muerte debate a favor",
+        "pena de muerte debate en contra",
+        "pena de muerte debate en contra argumentos",
+        "pena de muerte debate a favor argumentos",
+        "pena de muerte debate a favor y en contra",
+        "pena de muerte debate pdf",
+        "pena de muerte debate preguntas",
+        "pena de muerte debate argumentos",
+        "pena de muerte para debate",
+        "pena de muerte a favor y en contra",
+        "pena de muerte a favor y en contra pdf",
+        "pena de muerte argumentos a favor y en contra",
+        "pena de muerte puntos a favor y en contra",
+        "pena de muerte en el perú a favor y en contra",
+        "la pena de muerte reflexiones a favor y en contra",
+        "3 argumentos a favor y en contra de la pena de muerte",
+        "argumentos a favor y en contra de la pena de muerte en colombia",
+        "abolir la pena de muerte",
+        "abolir la pena de muerte significado",
+        "porque abolir la pena de muerte",
+        "se puede abolir la pena de muerte en chile",
+        "protocolo para abolir la pena de muerte",
+        "razones para abolir la pena de muerte",
+        "se debe abolir la pena de muerte",
+        "primer pais en abolir la pena de muerte",
+        "primeros paises en abolir la pena de muerte",
+        "ultimo pais en abolir la pena de muerte"
+      ],
+      "candidatePhrases": [
+        "pena de muerte debate",
+        "pena de muerte a favor y en contra",
+        "abolir la pena de muerte",
+        "pena de muerte errores judiciales",
+        "pena de muerte debate a favor",
+        "pena de muerte debate en contra",
+        "pena de muerte debate en contra argumentos",
+        "pena de muerte debate a favor argumentos",
+        "pena de muerte debate a favor y en contra",
+        "pena de muerte debate pdf",
+        "pena de muerte debate preguntas",
+        "pena de muerte debate argumentos",
+        "pena de muerte para debate",
+        "pena de muerte a favor y en contra pdf",
+        "pena de muerte argumentos a favor y en contra",
+        "pena de muerte puntos a favor y en contra",
+        "pena de muerte en el perú a favor y en contra",
+        "la pena de muerte reflexiones a favor y en contra",
+        "3 argumentos a favor y en contra de la pena de muerte",
+        "argumentos a favor y en contra de la pena de muerte en colombia",
+        "abolir la pena de muerte significado",
+        "porque abolir la pena de muerte",
+        "se puede abolir la pena de muerte en chile",
+        "protocolo para abolir la pena de muerte",
+        "razones para abolir la pena de muerte",
+        "se debe abolir la pena de muerte",
+        "primer pais en abolir la pena de muerte",
+        "primeros paises en abolir la pena de muerte",
+        "ultimo pais en abolir la pena de muerte"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "pena de muerte debate",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "pena de muerte a favor y en contra",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "abolir la pena de muerte",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "pena de muerte errores judiciales",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "pena de muerte debate a favor",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "pena de muerte debate en contra",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "pena de muerte debate en contra argumentos",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "pena de muerte debate a favor argumentos",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "pena de muerte debate a favor y en contra",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "pena de muerte debate pdf",
+          "status": "review",
+          "reasons": [
+            "reference or concept query",
+            "reference or concept query",
+            "reference or concept query",
+            "reference or concept query",
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "pena de muerte debate preguntas",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "pena de muerte debate argumentos",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "pena de muerte para debate",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "pena de muerte a favor y en contra pdf",
+          "status": "review",
+          "reasons": [
+            "reference or concept query",
+            "reference or concept query",
+            "reference or concept query",
+            "reference or concept query",
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "pena de muerte argumentos a favor y en contra",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "pena de muerte puntos a favor y en contra",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "pena de muerte en el perú a favor y en contra",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "la pena de muerte reflexiones a favor y en contra",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "3 argumentos a favor y en contra de la pena de muerte",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "argumentos a favor y en contra de la pena de muerte en colombia",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "abolir la pena de muerte significado",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "porque abolir la pena de muerte",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "se puede abolir la pena de muerte en chile",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "protocolo para abolir la pena de muerte",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "razones para abolir la pena de muerte",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "se debe abolir la pena de muerte",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "primer pais en abolir la pena de muerte",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "primeros paises en abolir la pena de muerte",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ultimo pais en abolir la pena de muerte",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "pena de muerte debate",
+        "pena de muerte a favor y en contra",
+        "abolir la pena de muerte",
+        "pena de muerte errores judiciales",
+        "pena de muerte debate a favor",
+        "pena de muerte debate en contra",
+        "pena de muerte debate en contra argumentos",
+        "pena de muerte debate a favor argumentos",
+        "pena de muerte debate a favor y en contra",
+        "pena de muerte debate preguntas",
+        "pena de muerte debate argumentos",
+        "pena de muerte para debate",
+        "pena de muerte argumentos a favor y en contra",
+        "pena de muerte puntos a favor y en contra",
+        "pena de muerte en el perú a favor y en contra",
+        "la pena de muerte reflexiones a favor y en contra",
+        "3 argumentos a favor y en contra de la pena de muerte",
+        "argumentos a favor y en contra de la pena de muerte en colombia",
+        "porque abolir la pena de muerte",
+        "se puede abolir la pena de muerte en chile",
+        "protocolo para abolir la pena de muerte",
+        "razones para abolir la pena de muerte",
+        "se debe abolir la pena de muerte",
+        "primer pais en abolir la pena de muerte",
+        "primeros paises en abolir la pena de muerte",
+        "ultimo pais en abolir la pena de muerte"
+      ],
+      "reviewCandidatePhrases": [
+        "pena de muerte debate pdf",
+        "pena de muerte a favor y en contra pdf",
+        "abolir la pena de muerte significado"
+      ],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": [
+        {
+          "source": "google-suggest",
+          "query": "pena de muerte errores judiciales",
+          "error": "500 Internal Server Error"
+        }
+      ]
+    },
+    {
+      "locale": "es-ES",
+      "route": "/debate/abortion",
+      "slot": "debate/abortion",
+      "axis": "debate",
+      "sourceQueries": [
+        "aborto debate",
+        "aborto a favor y en contra",
+        "derecho al aborto",
+        "vida fetal autonomía mujer"
+      ],
+      "baseQueries": [
+        "aborto debate",
+        "aborto a favor y en contra",
+        "derecho al aborto",
+        "vida fetal autonomía mujer"
+      ],
+      "googleSuggestions": [
+        "aborto debate",
+        "aborto debate a favor",
+        "aborto debate en contra",
+        "aborto debate preguntas",
+        "aborto debate pdf",
+        "aborto debate etico",
+        "aborto debate a favor y en contra",
+        "debate aborto argentina",
+        "debate aborto chile",
+        "debate aborto españa",
+        "aborto a favor y en contra",
+        "aborto a favor y en contra pdf",
+        "aborto argumentos a favor y en contra",
+        "aborto puntos a favor y en contra",
+        "aborto opiniones a favor y en contra",
+        "debate aborto a favor y en contra",
+        "información del aborto a favor y en contra",
+        "legalización del aborto a favor y en contra",
+        "preguntas sobre el aborto a favor y en contra",
+        "derecho al aborto",
+        "derecho al aborto en españa",
+        "derecho al aborto en colombia",
+        "derecho al aborto constitucion",
+        "derecho al aborto en argentina",
+        "derecho al aborto en méxico",
+        "derecho al aborto onu",
+        "derecho al aborto en estados unidos",
+        "derecho al aborto en francia",
+        "derecho al aborto en chile"
+      ],
+      "candidatePhrases": [
+        "aborto debate",
+        "aborto a favor y en contra",
+        "derecho al aborto",
+        "vida fetal autonomía mujer",
+        "aborto debate a favor",
+        "aborto debate en contra",
+        "aborto debate preguntas",
+        "aborto debate pdf",
+        "aborto debate etico",
+        "aborto debate a favor y en contra",
+        "debate aborto argentina",
+        "debate aborto chile",
+        "debate aborto españa",
+        "aborto a favor y en contra pdf",
+        "aborto argumentos a favor y en contra",
+        "aborto puntos a favor y en contra",
+        "aborto opiniones a favor y en contra",
+        "debate aborto a favor y en contra",
+        "información del aborto a favor y en contra",
+        "legalización del aborto a favor y en contra",
+        "preguntas sobre el aborto a favor y en contra",
+        "derecho al aborto en españa",
+        "derecho al aborto en colombia",
+        "derecho al aborto constitucion",
+        "derecho al aborto en argentina",
+        "derecho al aborto en méxico",
+        "derecho al aborto onu",
+        "derecho al aborto en estados unidos",
+        "derecho al aborto en francia",
+        "derecho al aborto en chile"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "aborto debate",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "aborto a favor y en contra",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "derecho al aborto",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "vida fetal autonomía mujer",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "aborto debate a favor",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "aborto debate en contra",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "aborto debate preguntas",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "aborto debate pdf",
+          "status": "review",
+          "reasons": [
+            "reference or concept query",
+            "reference or concept query",
+            "reference or concept query",
+            "reference or concept query",
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "aborto debate etico",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "aborto debate a favor y en contra",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "debate aborto argentina",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "debate aborto chile",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "debate aborto españa",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "aborto a favor y en contra pdf",
+          "status": "review",
+          "reasons": [
+            "reference or concept query",
+            "reference or concept query",
+            "reference or concept query",
+            "reference or concept query",
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "aborto argumentos a favor y en contra",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "aborto puntos a favor y en contra",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "aborto opiniones a favor y en contra",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "debate aborto a favor y en contra",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "información del aborto a favor y en contra",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "legalización del aborto a favor y en contra",
+          "status": "review",
+          "reasons": [
+            "legal/institutional review needed"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "preguntas sobre el aborto a favor y en contra",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "derecho al aborto en españa",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "derecho al aborto en colombia",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "derecho al aborto constitucion",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "derecho al aborto en argentina",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "derecho al aborto en méxico",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "derecho al aborto onu",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "derecho al aborto en estados unidos",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "derecho al aborto en francia",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "derecho al aborto en chile",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "aborto debate",
+        "aborto a favor y en contra",
+        "derecho al aborto",
+        "vida fetal autonomía mujer",
+        "aborto debate a favor",
+        "aborto debate en contra",
+        "aborto debate preguntas",
+        "aborto debate etico",
+        "aborto debate a favor y en contra",
+        "debate aborto argentina",
+        "debate aborto chile",
+        "debate aborto españa",
+        "aborto argumentos a favor y en contra",
+        "aborto puntos a favor y en contra",
+        "aborto opiniones a favor y en contra",
+        "debate aborto a favor y en contra",
+        "información del aborto a favor y en contra",
+        "preguntas sobre el aborto a favor y en contra",
+        "derecho al aborto en españa",
+        "derecho al aborto en colombia",
+        "derecho al aborto constitucion",
+        "derecho al aborto en argentina",
+        "derecho al aborto en méxico",
+        "derecho al aborto onu",
+        "derecho al aborto en estados unidos",
+        "derecho al aborto en francia",
+        "derecho al aborto en chile"
+      ],
+      "reviewCandidatePhrases": [
+        "aborto debate pdf",
+        "aborto a favor y en contra pdf",
+        "legalización del aborto a favor y en contra"
+      ],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "es-ES",
+      "route": "/debate/animal-testing",
+      "slot": "debate/animal-testing",
+      "axis": "debate",
+      "sourceQueries": [
+        "experimentación animal debate",
+        "experimentos con animales pros y contras",
+        "ética de la experimentación animal",
+        "pruebas en animales cosméticos"
+      ],
+      "baseQueries": [
+        "experimentación animal debate",
+        "experimentos con animales pros y contras",
+        "ética de la experimentación animal",
+        "pruebas en animales cosméticos"
+      ],
+      "googleSuggestions": [
+        "experimentación animal debate",
+        "experimentación animal debate en contra",
+        "experimentación animal debate a favor",
+        "experimentos en animales pros y contras",
+        "etica de la experimentacion animal",
+        "paradojas de la experimentación en animales ética salud y crisis ecológica",
+        "pruebas en animales cosmeticos",
+        "pruebas de cosméticos en animales pdf",
+        "pruebas de cosméticos en animales en méxico"
+      ],
+      "candidatePhrases": [
+        "experimentación animal debate",
+        "experimentos con animales pros y contras",
+        "ética de la experimentación animal",
+        "pruebas en animales cosméticos",
+        "experimentación animal debate en contra",
+        "experimentación animal debate a favor",
+        "experimentos en animales pros y contras",
+        "etica de la experimentacion animal",
+        "paradojas de la experimentación en animales ética salud y crisis ecológica",
+        "pruebas en animales cosmeticos",
+        "pruebas de cosméticos en animales pdf",
+        "pruebas de cosméticos en animales en méxico"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "experimentación animal debate",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "experimentos con animales pros y contras",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ética de la experimentación animal",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "pruebas en animales cosméticos",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "experimentación animal debate en contra",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "experimentación animal debate a favor",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "experimentos en animales pros y contras",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "etica de la experimentacion animal",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "paradojas de la experimentación en animales ética salud y crisis ecológica",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "pruebas en animales cosmeticos",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "pruebas de cosméticos en animales pdf",
+          "status": "review",
+          "reasons": [
+            "reference or concept query",
+            "reference or concept query",
+            "reference or concept query",
+            "reference or concept query",
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "pruebas de cosméticos en animales en méxico",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "experimentación animal debate",
+        "experimentos con animales pros y contras",
+        "ética de la experimentación animal",
+        "pruebas en animales cosméticos",
+        "experimentación animal debate en contra",
+        "experimentación animal debate a favor",
+        "experimentos en animales pros y contras",
+        "etica de la experimentacion animal",
+        "paradojas de la experimentación en animales ética salud y crisis ecológica",
+        "pruebas en animales cosmeticos",
+        "pruebas de cosméticos en animales en méxico"
+      ],
+      "reviewCandidatePhrases": [
+        "pruebas de cosméticos en animales pdf"
+      ],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "es-ES",
+      "route": "/debate/juvenile-offenders",
+      "slot": "debate/juvenile-offenders",
+      "axis": "debate",
+      "sourceQueries": [
+        "menores infractores debate",
+        "bajar edad penal menores",
+        "justicia juvenil castigo o rehabilitación",
+        "delitos de menores responsabilidad"
+      ],
+      "baseQueries": [
+        "menores infractores debate",
+        "bajar edad penal menores",
+        "justicia juvenil castigo o rehabilitación",
+        "delitos de menores responsabilidad"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "menores infractores debate",
+        "bajar edad penal menores",
+        "justicia juvenil castigo o rehabilitación",
+        "delitos de menores responsabilidad"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "menores infractores debate",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "bajar edad penal menores",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "justicia juvenil castigo o rehabilitación",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "delitos de menores responsabilidad",
+          "status": "review",
+          "reasons": [
+            "legal/institutional review needed"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "menores infractores debate",
+        "bajar edad penal menores",
+        "justicia juvenil castigo o rehabilitación"
+      ],
+      "reviewCandidatePhrases": [
+        "delitos de menores responsabilidad"
+      ],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "es-ES",
+      "route": "/debate/meritocracy",
+      "slot": "debate/meritocracy",
+      "axis": "debate",
+      "sourceQueries": [
+        "meritocracia es justa",
+        "crítica a la meritocracia",
+        "el esfuerzo siempre se recompensa",
+        "desigualdad y meritocracia"
+      ],
+      "baseQueries": [
+        "meritocracia es justa",
+        "crítica a la meritocracia",
+        "el esfuerzo siempre se recompensa",
+        "desigualdad y meritocracia"
+      ],
+      "googleSuggestions": [
+        "meritocracia es justa",
+        "critica a la meritocracia",
+        "el esfuerzo siempre recompensa",
+        "desigualdad y meritocracia"
+      ],
+      "candidatePhrases": [
+        "meritocracia es justa",
+        "crítica a la meritocracia",
+        "el esfuerzo siempre se recompensa",
+        "desigualdad y meritocracia",
+        "critica a la meritocracia",
+        "el esfuerzo siempre recompensa"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "meritocracia es justa",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "crítica a la meritocracia",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "el esfuerzo siempre se recompensa",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "desigualdad y meritocracia",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "critica a la meritocracia",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "el esfuerzo siempre recompensa",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "meritocracia es justa",
+        "crítica a la meritocracia",
+        "el esfuerzo siempre se recompensa",
+        "desigualdad y meritocracia",
+        "critica a la meritocracia",
+        "el esfuerzo siempre recompensa"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "es-ES",
+      "route": "/debate/basic-income",
+      "slot": "debate/basic-income",
+      "axis": "debate",
+      "sourceQueries": [
+        "renta básica universal debate",
+        "renta básica pros y contras",
+        "ingreso básico universal financiación",
+        "la renta básica desincentiva trabajar"
+      ],
+      "baseQueries": [
+        "renta básica universal debate",
+        "renta básica pros y contras",
+        "ingreso básico universal financiación",
+        "la renta básica desincentiva trabajar"
+      ],
+      "googleSuggestions": [
+        "la renta básica universal fundamentos debates y posibilidades",
+        "debate sobre la renta básica universal",
+        "renta básica universal pros y contras"
+      ],
+      "candidatePhrases": [
+        "renta básica universal debate",
+        "renta básica pros y contras",
+        "ingreso básico universal financiación",
+        "la renta básica desincentiva trabajar",
+        "la renta básica universal fundamentos debates y posibilidades",
+        "debate sobre la renta básica universal",
+        "renta básica universal pros y contras"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "renta básica universal debate",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "renta básica pros y contras",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ingreso básico universal financiación",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "la renta básica desincentiva trabajar",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "la renta básica universal fundamentos debates y posibilidades",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "debate sobre la renta básica universal",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "renta básica universal pros y contras",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "renta básica universal debate",
+        "renta básica pros y contras",
+        "ingreso básico universal financiación",
+        "la renta básica desincentiva trabajar",
+        "la renta básica universal fundamentos debates y posibilidades",
+        "debate sobre la renta básica universal",
+        "renta básica universal pros y contras"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "es-ES",
+      "route": "/debate/ai-art",
+      "slot": "debate/ai-art",
+      "axis": "debate",
+      "sourceQueries": [
+        "arte generado por IA debate",
+        "la IA puede hacer arte",
+        "derechos de autor arte IA",
+        "artistas y inteligencia artificial"
+      ],
+      "baseQueries": [
+        "arte generado por IA debate",
+        "la IA puede hacer arte",
+        "derechos de autor arte IA",
+        "artistas y inteligencia artificial"
+      ],
+      "googleSuggestions": [
+        "la ia puede hacer arte",
+        "porque la ia no puede hacer arte",
+        "artistas inteligencia artificial",
+        "artistas contra inteligencia artificial",
+        "artistas de inteligencia artificial",
+        "artistas processam inteligencia artificial"
+      ],
+      "candidatePhrases": [
+        "arte generado por IA debate",
+        "la IA puede hacer arte",
+        "derechos de autor arte IA",
+        "artistas y inteligencia artificial",
+        "porque la ia no puede hacer arte",
+        "artistas inteligencia artificial",
+        "artistas contra inteligencia artificial",
+        "artistas de inteligencia artificial",
+        "artistas processam inteligencia artificial"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "arte generado por IA debate",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "la IA puede hacer arte",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "derechos de autor arte IA",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "artistas y inteligencia artificial",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "porque la ia no puede hacer arte",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "artistas inteligencia artificial",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "artistas contra inteligencia artificial",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "artistas de inteligencia artificial",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "artistas processam inteligencia artificial",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "arte generado por IA debate",
+        "la IA puede hacer arte",
+        "derechos de autor arte IA",
+        "artistas y inteligencia artificial",
+        "porque la ia no puede hacer arte",
+        "artistas inteligencia artificial",
+        "artistas contra inteligencia artificial",
+        "artistas de inteligencia artificial",
+        "artistas processam inteligencia artificial"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "es-ES",
+      "route": "/debate/cohabitation",
+      "slot": "debate/cohabitation",
+      "axis": "debate",
+      "sourceQueries": [
+        "convivencia antes del matrimonio",
+        "vivir juntos antes de casarse pros y contras",
+        "convivencia responsabilidad pareja",
+        "unión libre debate"
+      ],
+      "baseQueries": [
+        "convivencia antes del matrimonio",
+        "vivir juntos antes de casarse pros y contras",
+        "convivencia responsabilidad pareja",
+        "unión libre debate"
+      ],
+      "googleSuggestions": [
+        "convivencia antes del matrimonio",
+        "convivencia antes del matrimonio biblia"
+      ],
+      "candidatePhrases": [
+        "convivencia antes del matrimonio",
+        "vivir juntos antes de casarse pros y contras",
+        "convivencia responsabilidad pareja",
+        "unión libre debate",
+        "convivencia antes del matrimonio biblia"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "convivencia antes del matrimonio",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "vivir juntos antes de casarse pros y contras",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "convivencia responsabilidad pareja",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "unión libre debate",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "convivencia antes del matrimonio biblia",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "convivencia antes del matrimonio",
+        "vivir juntos antes de casarse pros y contras",
+        "convivencia responsabilidad pareja",
+        "unión libre debate",
+        "convivencia antes del matrimonio biblia"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "es-ES",
+      "route": "/debate/vegetarianism",
+      "slot": "debate/vegetarianism",
+      "axis": "debate",
+      "sourceQueries": [
+        "veganismo debate ético",
+        "vegetarianismo obligación moral",
+        "comer carne ética",
+        "veganismo medio ambiente"
+      ],
+      "baseQueries": [
+        "veganismo debate ético",
+        "vegetarianismo obligación moral",
+        "comer carne ética",
+        "veganismo medio ambiente"
+      ],
+      "googleSuggestions": [
+        "veganismo medio ambiente"
+      ],
+      "candidatePhrases": [
+        "veganismo debate ético",
+        "vegetarianismo obligación moral",
+        "comer carne ética",
+        "veganismo medio ambiente"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "veganismo debate ético",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "vegetarianismo obligación moral",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "comer carne ética",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "veganismo medio ambiente",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "veganismo debate ético",
+        "vegetarianismo obligación moral",
+        "comer carne ética",
+        "veganismo medio ambiente"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "es-ES",
+      "route": "/debate/parent-support",
+      "slot": "debate/parent-support",
+      "axis": "debate",
+      "sourceQueries": [
+        "obligación de mantener a los padres",
+        "cuidar padres ancianos responsabilidad hijos",
+        "hasta dónde ayudar a los padres",
+        "deber filial debate"
+      ],
+      "baseQueries": [
+        "obligación de mantener a los padres",
+        "cuidar padres ancianos responsabilidad hijos",
+        "hasta dónde ayudar a los padres",
+        "deber filial debate"
+      ],
+      "googleSuggestions": [
+        "obligacion de mantener a los padres",
+        "obligacion legal de mantener a los padres",
+        "los hijos tienen obligación de mantener a los padres",
+        "obligacion de los hijos de mantener a los padres en mexico",
+        "obligacion de los.hijos de mantener a los padres",
+        "es obligación mantener a los padres en la vejez",
+        "es obligación de los hijos mantener a los padres en su vejez",
+        "es mi obligacion mantener a los padres",
+        "obligación de los padres de mantener a sus hijos"
+      ],
+      "candidatePhrases": [
+        "obligación de mantener a los padres",
+        "cuidar padres ancianos responsabilidad hijos",
+        "hasta dónde ayudar a los padres",
+        "deber filial debate",
+        "obligacion de mantener a los padres",
+        "obligacion legal de mantener a los padres",
+        "los hijos tienen obligación de mantener a los padres",
+        "obligacion de los hijos de mantener a los padres en mexico",
+        "obligacion de los.hijos de mantener a los padres",
+        "es obligación mantener a los padres en la vejez",
+        "es obligación de los hijos mantener a los padres en su vejez",
+        "es mi obligacion mantener a los padres",
+        "obligación de los padres de mantener a sus hijos"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "obligación de mantener a los padres",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "cuidar padres ancianos responsabilidad hijos",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "hasta dónde ayudar a los padres",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "deber filial debate",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "obligacion de mantener a los padres",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "obligacion legal de mantener a los padres",
+          "status": "review",
+          "reasons": [
+            "legal/institutional review needed"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "los hijos tienen obligación de mantener a los padres",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "obligacion de los hijos de mantener a los padres en mexico",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "obligacion de los.hijos de mantener a los padres",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "es obligación mantener a los padres en la vejez",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "es obligación de los hijos mantener a los padres en su vejez",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "es mi obligacion mantener a los padres",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "obligación de los padres de mantener a sus hijos",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "obligación de mantener a los padres",
+        "cuidar padres ancianos responsabilidad hijos",
+        "hasta dónde ayudar a los padres",
+        "deber filial debate",
+        "obligacion de mantener a los padres",
+        "los hijos tienen obligación de mantener a los padres",
+        "obligacion de los hijos de mantener a los padres en mexico",
+        "obligacion de los.hijos de mantener a los padres",
+        "es obligación mantener a los padres en la vejez",
+        "es obligación de los hijos mantener a los padres en su vejez",
+        "es mi obligacion mantener a los padres",
+        "obligación de los padres de mantener a sus hijos"
+      ],
+      "reviewCandidatePhrases": [
+        "obligacion legal de mantener a los padres"
+      ],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "es-ES",
+      "route": "/debate/pet-euthanasia",
+      "slot": "debate/pet-euthanasia",
+      "axis": "debate",
+      "sourceQueries": [
+        "eutanasia mascota decisión",
+        "sacrificar perro por sufrimiento",
+        "eutanasia animal ética",
+        "cuándo dormir a una mascota"
+      ],
+      "baseQueries": [
+        "eutanasia mascota decisión",
+        "sacrificar perro por sufrimiento",
+        "eutanasia animal ética",
+        "cuándo dormir a una mascota"
+      ],
+      "googleSuggestions": [
+        "cuando dormir a una mascota",
+        "como saber cuando dormir a una mascota"
+      ],
+      "candidatePhrases": [
+        "eutanasia mascota decisión",
+        "sacrificar perro por sufrimiento",
+        "eutanasia animal ética",
+        "cuándo dormir a una mascota",
+        "cuando dormir a una mascota",
+        "como saber cuando dormir a una mascota"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "eutanasia mascota decisión",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "sacrificar perro por sufrimiento",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "eutanasia animal ética",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "cuándo dormir a una mascota",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "cuando dormir a una mascota",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "como saber cuando dormir a una mascota",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "eutanasia mascota decisión",
+        "sacrificar perro por sufrimiento",
+        "eutanasia animal ética",
+        "cuándo dormir a una mascota",
+        "cuando dormir a una mascota",
+        "como saber cuando dormir a una mascota"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "es-ES",
+      "route": "/debate/cancel-culture",
+      "slot": "debate/cancel-culture",
+      "axis": "debate",
+      "sourceQueries": [
+        "cultura de la cancelación debate",
+        "cancel culture libertad de expresión",
+        "responsabilidad o linchamiento",
+        "funa en redes debate"
+      ],
+      "baseQueries": [
+        "cultura de la cancelación debate",
+        "cancel culture libertad de expresión",
+        "responsabilidad o linchamiento",
+        "funa en redes debate"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "cultura de la cancelación debate",
+        "cancel culture libertad de expresión",
+        "responsabilidad o linchamiento",
+        "funa en redes debate"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "cultura de la cancelación debate",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "cancel culture libertad de expresión",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "responsabilidad o linchamiento",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "funa en redes debate",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "cultura de la cancelación debate",
+        "cancel culture libertad de expresión",
+        "responsabilidad o linchamiento",
+        "funa en redes debate"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "es-ES",
+      "route": "/debate/nice-people-finish-last",
+      "slot": "debate/nice-people-finish-last",
+      "axis": "debate",
+      "sourceQueries": [
+        "ser buena persona es una desventaja",
+        "la gente buena termina última",
+        "ser demasiado bueno se aprovechan",
+        "bondad o debilidad"
+      ],
+      "baseQueries": [
+        "ser buena persona es una desventaja",
+        "la gente buena termina última",
+        "ser demasiado bueno se aprovechan",
+        "bondad o debilidad"
+      ],
+      "googleSuggestions": [
+        "bondad debilidad"
+      ],
+      "candidatePhrases": [
+        "ser buena persona es una desventaja",
+        "la gente buena termina última",
+        "ser demasiado bueno se aprovechan",
+        "bondad o debilidad",
+        "bondad debilidad"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "ser buena persona es una desventaja",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "la gente buena termina última",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ser demasiado bueno se aprovechan",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "bondad o debilidad",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "bondad debilidad",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "ser buena persona es una desventaja",
+        "la gente buena termina última",
+        "ser demasiado bueno se aprovechan",
+        "bondad o debilidad",
+        "bondad debilidad"
       ],
       "reviewCandidatePhrases": [],
       "lowSignalCandidatePhrases": [],

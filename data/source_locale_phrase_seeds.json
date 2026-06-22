@@ -366,6 +366,186 @@
           "slot": "work/quit-or-stay",
           "axis": "worry",
           "sourceQueries": ["仕事 辞めるか続けるか", "退職 迷う", "仕事 辞めたい でも不安", "会社 続けるべきか"]
+        },
+        {
+          "route": "/work/unrecognized",
+          "slot": "work/unrecognized",
+          "axis": "worry",
+          "sourceQueries": ["仕事 認められない", "頑張っても評価されない", "職場 評価されない", "仕事 報われない"]
+        },
+        {
+          "route": "/work/work-depression",
+          "slot": "work/work-depression",
+          "axis": "worry",
+          "sourceQueries": ["仕事 うつっぽい", "会社 行くのがつらい", "仕事で心が限界", "職場 ストレス 眠れない"]
+        },
+        {
+          "route": "/work/not-good-enough",
+          "slot": "work/not-good-enough",
+          "axis": "worry",
+          "sourceQueries": ["仕事 できない 自分", "仕事が遅い つらい", "自分だけ仕事できない", "無能感 職場"]
+        },
+        {
+          "route": "/work/work-skepticism",
+          "slot": "work/work-skepticism",
+          "axis": "worry",
+          "sourceQueries": ["仕事 意味ない", "働く意味 わからない", "仕事にやりがいがない", "何のために働く"]
+        },
+        {
+          "route": "/meaning/dont-know-want",
+          "slot": "meaning/dont-know-want",
+          "axis": "worry",
+          "sourceQueries": ["自分が何をしたいかわからない", "何がしたいかわからない 人生", "やりたいことがない", "自分の本音がわからない"]
+        },
+        {
+          "route": "/meaning/emptiness",
+          "slot": "meaning/emptiness",
+          "axis": "worry",
+          "sourceQueries": ["心が空っぽ", "空虚感 つらい", "何をしても満たされない", "虚しい 気持ち"]
+        },
+        {
+          "route": "/meaning/no-goal",
+          "slot": "meaning/no-goal",
+          "axis": "worry",
+          "sourceQueries": ["目標がない", "人生 目標 見つからない", "夢がない 不安", "何を目指せばいい"]
+        },
+        {
+          "route": "/meaning/wandering",
+          "slot": "meaning/wandering",
+          "axis": "worry",
+          "sourceQueries": ["人生 迷子", "何をしているかわからない", "将来 迷っている", "生き方に迷う"]
+        },
+        {
+          "route": "/family/holiday-stress",
+          "slot": "family/holiday-stress",
+          "axis": "worry",
+          "sourceQueries": ["年末年始 家族 ストレス", "帰省 ストレス", "親戚付き合い 疲れる", "実家に帰るのがつらい"]
+        },
+        {
+          "route": "/family/family-cutoff",
+          "slot": "family/family-cutoff",
+          "axis": "worry",
+          "sourceQueries": ["家族と縁を切りたい", "毒親 距離を置く", "家族 連絡 断つべきか", "親と関わりたくない"]
+        },
+        {
+          "route": "/family/mother-conflict",
+          "slot": "family/mother-conflict",
+          "axis": "worry",
+          "sourceQueries": ["母親と合わない", "母親がしんどい", "母親と喧嘩ばかり", "母親 距離を置きたい"]
+        },
+        {
+          "route": "/body/body-anxiety",
+          "slot": "body/body-anxiety",
+          "axis": "worry",
+          "sourceQueries": ["自分の見た目が嫌い", "外見コンプレックス", "体型 気になる つらい", "自分の体が嫌い"]
+        },
+        {
+          "route": "/body/aging-anxiety",
+          "slot": "body/aging-anxiety",
+          "axis": "worry",
+          "sourceQueries": ["老いるのが怖い", "年を取るのが不安", "老化 不安", "若さを失うのが怖い"]
+        },
+        {
+          "route": "/body/hair-loss-stress",
+          "slot": "body/hair-loss-stress",
+          "axis": "worry",
+          "sourceQueries": ["薄毛 ストレス", "抜け毛 不安", "ハゲるのが怖い", "髪が薄くなってつらい"]
+        },
+        {
+          "route": "/career/dream-reality",
+          "slot": "career/dream-reality",
+          "axis": "worry",
+          "sourceQueries": ["夢を諦めるべきか", "夢と現実 迷う", "好きなこと 仕事 不安", "年齢 夢 諦める"]
+        },
+        {
+          "route": "/career/regret-free-choice",
+          "slot": "career/regret-free-choice",
+          "axis": "worry",
+          "sourceQueries": ["後悔しない選択", "選択 後悔 怖い", "どっちを選んでも後悔しそう", "人生 選択 迷う"]
+        },
+        {
+          "route": "/debate/euthanasia",
+          "slot": "debate/euthanasia",
+          "axis": "debate",
+          "sourceQueries": ["安楽死 賛成 反対", "安楽死 認めるべきか", "尊厳死 議論", "終末期 自己決定"]
+        },
+        {
+          "route": "/debate/death-penalty",
+          "slot": "debate/death-penalty",
+          "axis": "debate",
+          "sourceQueries": ["死刑制度 賛成 反対", "死刑 廃止すべきか", "死刑 冤罪", "応報刑 議論"]
+        },
+        {
+          "route": "/debate/abortion",
+          "slot": "debate/abortion",
+          "axis": "debate",
+          "sourceQueries": ["中絶 賛成 反対", "人工妊娠中絶 議論", "中絶 権利", "胎児 生命 自己決定"]
+        },
+        {
+          "route": "/debate/animal-testing",
+          "slot": "debate/animal-testing",
+          "axis": "debate",
+          "sourceQueries": ["動物実験 賛成 反対", "動物実験 必要か", "動物実験 倫理", "化粧品 動物実験"]
+        },
+        {
+          "route": "/debate/juvenile-offenders",
+          "slot": "debate/juvenile-offenders",
+          "axis": "debate",
+          "sourceQueries": ["少年犯罪 厳罰化", "触法少年 処罰", "少年法 引き下げ", "未成年 犯罪 責任"]
+        },
+        {
+          "route": "/debate/meritocracy",
+          "slot": "debate/meritocracy",
+          "axis": "debate",
+          "sourceQueries": ["能力主義 公平か", "メリトクラシー 批判", "努力は報われるか", "格差と能力主義"]
+        },
+        {
+          "route": "/debate/basic-income",
+          "slot": "debate/basic-income",
+          "axis": "debate",
+          "sourceQueries": ["ベーシックインカム 賛成 反対", "基本所得 必要か", "ベーシックインカム 財源", "働かなくなる 議論"]
+        },
+        {
+          "route": "/debate/ai-art",
+          "slot": "debate/ai-art",
+          "axis": "debate",
+          "sourceQueries": ["AIイラストは芸術か", "AIアート 著作権", "AI絵師 議論", "生成AI 創作 倫理"]
+        },
+        {
+          "route": "/debate/cohabitation",
+          "slot": "debate/cohabitation",
+          "axis": "debate",
+          "sourceQueries": ["同棲 結婚前 ありか", "結婚前 同棲 メリット デメリット", "同棲 責任", "事実婚 同棲 違い"]
+        },
+        {
+          "route": "/debate/vegetarianism",
+          "slot": "debate/vegetarianism",
+          "axis": "debate",
+          "sourceQueries": ["ヴィーガン 倫理", "菜食主義 賛成 反対", "肉を食べる 倫理", "環境と菜食"]
+        },
+        {
+          "route": "/debate/parent-support",
+          "slot": "debate/parent-support",
+          "axis": "debate",
+          "sourceQueries": ["親の扶養 義務", "親の介護 子供 責任", "老親 扶養 どこまで", "親を支えるべきか"]
+        },
+        {
+          "route": "/debate/pet-euthanasia",
+          "slot": "debate/pet-euthanasia",
+          "axis": "debate",
+          "sourceQueries": ["ペット 安楽死 迷う", "犬 安楽死 すべきか", "ペット 苦痛 延命", "動物 安楽死 倫理"]
+        },
+        {
+          "route": "/debate/cancel-culture",
+          "slot": "debate/cancel-culture",
+          "axis": "debate",
+          "sourceQueries": ["キャンセルカルチャー 賛成 反対", "炎上 罰しすぎ", "表現の自由 キャンセル", "責任追及と集団リンチ"]
+        },
+        {
+          "route": "/debate/nice-people-finish-last",
+          "slot": "debate/nice-people-finish-last",
+          "axis": "debate",
+          "sourceQueries": ["優しい人 損をする", "いい人は利用される", "優しすぎる つらい", "善人 損 議論"]
         }
       ]
     },
@@ -732,6 +912,186 @@
           "slot": "work/quit-or-stay",
           "axis": "worry",
           "sourceQueries": ["要不要辞职", "辞职还是坚持", "想辞职但害怕", "工作该不该继续"]
+        },
+        {
+          "route": "/work/unrecognized",
+          "slot": "work/unrecognized",
+          "axis": "worry",
+          "sourceQueries": ["工作不被认可", "努力不被看见", "职场不被肯定", "付出没有回报"]
+        },
+        {
+          "route": "/work/work-depression",
+          "slot": "work/work-depression",
+          "axis": "worry",
+          "sourceQueries": ["工作抑郁怎么办", "上班很痛苦", "工作压力让我崩溃", "不想去公司"]
+        },
+        {
+          "route": "/work/not-good-enough",
+          "slot": "work/not-good-enough",
+          "axis": "worry",
+          "sourceQueries": ["觉得自己工作能力差", "工作做不好怎么办", "感觉自己很无能", "职场能力不足焦虑"]
+        },
+        {
+          "route": "/work/work-skepticism",
+          "slot": "work/work-skepticism",
+          "axis": "worry",
+          "sourceQueries": ["工作没有意义", "不知道为什么工作", "工作没有成就感", "上班的意义是什么"]
+        },
+        {
+          "route": "/meaning/dont-know-want",
+          "slot": "meaning/dont-know-want",
+          "axis": "worry",
+          "sourceQueries": ["不知道自己想要什么", "不知道自己想做什么", "没有想做的事", "找不到自己的真实想法"]
+        },
+        {
+          "route": "/meaning/emptiness",
+          "slot": "meaning/emptiness",
+          "axis": "worry",
+          "sourceQueries": ["内心空虚怎么办", "感觉很空", "什么都提不起兴趣", "做什么都不满足"]
+        },
+        {
+          "route": "/meaning/no-goal",
+          "slot": "meaning/no-goal",
+          "axis": "worry",
+          "sourceQueries": ["没有人生目标", "找不到目标怎么办", "没有梦想很焦虑", "不知道该追求什么"]
+        },
+        {
+          "route": "/meaning/wandering",
+          "slot": "meaning/wandering",
+          "axis": "worry",
+          "sourceQueries": ["人生迷茫怎么办", "不知道方向", "对未来很迷茫", "感觉自己在漂泊"]
+        },
+        {
+          "route": "/family/holiday-stress",
+          "slot": "family/holiday-stress",
+          "axis": "worry",
+          "sourceQueries": ["过年回家压力", "春节家庭压力", "亲戚问问题很烦", "回家过年焦虑"]
+        },
+        {
+          "route": "/family/family-cutoff",
+          "slot": "family/family-cutoff",
+          "axis": "worry",
+          "sourceQueries": ["想和家人断绝关系", "和父母断联", "原生家庭想远离", "要不要和家人断联"]
+        },
+        {
+          "route": "/family/mother-conflict",
+          "slot": "family/mother-conflict",
+          "axis": "worry",
+          "sourceQueries": ["和妈妈合不来", "妈妈让我很累", "总和妈妈吵架", "想和妈妈保持距离"]
+        },
+        {
+          "route": "/body/body-anxiety",
+          "slot": "body/body-anxiety",
+          "axis": "worry",
+          "sourceQueries": ["讨厌自己的外貌", "身材焦虑怎么办", "外貌焦虑", "不喜欢自己的身体"]
+        },
+        {
+          "route": "/body/aging-anxiety",
+          "slot": "body/aging-anxiety",
+          "axis": "worry",
+          "sourceQueries": ["害怕变老", "年龄焦虑", "衰老焦虑", "害怕失去年轻"]
+        },
+        {
+          "route": "/body/hair-loss-stress",
+          "slot": "body/hair-loss-stress",
+          "axis": "worry",
+          "sourceQueries": ["脱发焦虑", "掉头发很焦虑", "害怕秃头", "头发变少压力大"]
+        },
+        {
+          "route": "/career/dream-reality",
+          "slot": "career/dream-reality",
+          "axis": "worry",
+          "sourceQueries": ["要不要放弃梦想", "梦想和现实冲突", "喜欢的事能不能当工作", "年龄大了还追梦吗"]
+        },
+        {
+          "route": "/career/regret-free-choice",
+          "slot": "career/regret-free-choice",
+          "axis": "worry",
+          "sourceQueries": ["怎么做不后悔的选择", "害怕选错", "无论选哪个都会后悔", "人生选择困难"]
+        },
+        {
+          "route": "/debate/euthanasia",
+          "slot": "debate/euthanasia",
+          "axis": "debate",
+          "sourceQueries": ["安乐死 应不应该合法", "安乐死 争议", "尊严死 讨论", "生命自主权 安乐死"]
+        },
+        {
+          "route": "/debate/death-penalty",
+          "slot": "debate/death-penalty",
+          "axis": "debate",
+          "sourceQueries": ["死刑 应不应该保留", "死刑废除争议", "死刑和冤案", "死刑正义吗"]
+        },
+        {
+          "route": "/debate/abortion",
+          "slot": "debate/abortion",
+          "axis": "debate",
+          "sourceQueries": ["堕胎 应该允许吗", "人工流产 争议", "堕胎权", "胎儿生命和女性自主"]
+        },
+        {
+          "route": "/debate/animal-testing",
+          "slot": "debate/animal-testing",
+          "axis": "debate",
+          "sourceQueries": ["动物实验 应不应该", "动物实验 争议", "动物实验伦理", "化妆品动物实验"]
+        },
+        {
+          "route": "/debate/juvenile-offenders",
+          "slot": "debate/juvenile-offenders",
+          "axis": "debate",
+          "sourceQueries": ["未成年人犯罪该不该严惩", "少年犯刑责年龄", "未成年犯罪责任", "少年法争议"]
+        },
+        {
+          "route": "/debate/meritocracy",
+          "slot": "debate/meritocracy",
+          "axis": "debate",
+          "sourceQueries": ["能力主义公平吗", "努力一定有回报吗", "能力主义批判", "起点差异与公平"]
+        },
+        {
+          "route": "/debate/basic-income",
+          "slot": "debate/basic-income",
+          "axis": "debate",
+          "sourceQueries": ["基本收入 应不应该", "全民基本收入 争议", "基本收入资金来源", "基本收入会不会让人不工作"]
+        },
+        {
+          "route": "/debate/ai-art",
+          "slot": "debate/ai-art",
+          "axis": "debate",
+          "sourceQueries": ["AI绘画算艺术吗", "AI艺术版权争议", "生成式AI创作伦理", "AI画师争议"]
+        },
+        {
+          "route": "/debate/cohabitation",
+          "slot": "debate/cohabitation",
+          "axis": "debate",
+          "sourceQueries": ["婚前同居可以吗", "婚前同居利弊", "同居和婚姻责任", "同居会影响关系吗"]
+        },
+        {
+          "route": "/debate/vegetarianism",
+          "slot": "debate/vegetarianism",
+          "axis": "debate",
+          "sourceQueries": ["素食是不是道德义务", "吃肉伦理", "纯素主义争议", "素食环保"]
+        },
+        {
+          "route": "/debate/parent-support",
+          "slot": "debate/parent-support",
+          "axis": "debate",
+          "sourceQueries": ["子女有赡养父母义务吗", "赡养父母责任", "父母养老谁负责", "不想赡养父母"]
+        },
+        {
+          "route": "/debate/pet-euthanasia",
+          "slot": "debate/pet-euthanasia",
+          "axis": "debate",
+          "sourceQueries": ["宠物安乐死该不该", "狗狗安乐死怎么决定", "宠物痛苦要不要安乐死", "动物安乐死伦理"]
+        },
+        {
+          "route": "/debate/cancel-culture",
+          "slot": "debate/cancel-culture",
+          "axis": "debate",
+          "sourceQueries": ["取消文化 争议", "网络抵制算不算审判", "取消文化和言论自由", "追责还是网暴"]
+        },
+        {
+          "route": "/debate/nice-people-finish-last",
+          "slot": "debate/nice-people-finish-last",
+          "axis": "debate",
+          "sourceQueries": ["好人是不是吃亏", "太善良会被利用", "做好人有用吗", "善良和软弱区别"]
         }
       ]
     },
@@ -1098,6 +1458,186 @@
           "slot": "work/quit-or-stay",
           "axis": "worry",
           "sourceQueries": ["dejar el trabajo o aguantar", "renunciar o seguir", "quiero dejar mi trabajo pero tengo miedo", "debería cambiar de trabajo"]
+        },
+        {
+          "route": "/work/unrecognized",
+          "slot": "work/unrecognized",
+          "axis": "worry",
+          "sourceQueries": ["no me valoran en el trabajo", "trabajo y no me reconocen", "esfuerzo no reconocido", "me siento invisible en el trabajo"]
+        },
+        {
+          "route": "/work/work-depression",
+          "slot": "work/work-depression",
+          "axis": "worry",
+          "sourceQueries": ["depresión por trabajo", "no puedo ir al trabajo ansiedad", "trabajo me está deprimiendo", "estrés laboral no puedo más"]
+        },
+        {
+          "route": "/work/not-good-enough",
+          "slot": "work/not-good-enough",
+          "axis": "worry",
+          "sourceQueries": ["siento que no soy bueno en mi trabajo", "miedo a no estar a la altura trabajo", "síndrome del impostor trabajo", "hago mal mi trabajo ansiedad"]
+        },
+        {
+          "route": "/work/work-skepticism",
+          "slot": "work/work-skepticism",
+          "axis": "worry",
+          "sourceQueries": ["mi trabajo no tiene sentido", "para qué trabajar", "no encuentro sentido en mi trabajo", "falta de propósito laboral"]
+        },
+        {
+          "route": "/meaning/dont-know-want",
+          "slot": "meaning/dont-know-want",
+          "axis": "worry",
+          "sourceQueries": ["no sé qué quiero en la vida", "no sé qué hacer con mi vida", "no tengo ganas de nada", "cómo saber lo que quiero"]
+        },
+        {
+          "route": "/meaning/emptiness",
+          "slot": "meaning/emptiness",
+          "axis": "worry",
+          "sourceQueries": ["siento vacío por dentro", "vacío existencial", "nada me llena", "me siento vacío sin razón"]
+        },
+        {
+          "route": "/meaning/no-goal",
+          "slot": "meaning/no-goal",
+          "axis": "worry",
+          "sourceQueries": ["no tengo metas en la vida", "no sé cuál es mi objetivo", "no tengo sueños", "cómo encontrar una meta"]
+        },
+        {
+          "route": "/meaning/wandering",
+          "slot": "meaning/wandering",
+          "axis": "worry",
+          "sourceQueries": ["estoy perdido en la vida", "no sé hacia dónde voy", "me siento perdido", "estoy a la deriva"]
+        },
+        {
+          "route": "/family/holiday-stress",
+          "slot": "family/holiday-stress",
+          "axis": "worry",
+          "sourceQueries": ["estrés familiar en navidad", "reuniones familiares estrés", "preguntas incómodas de la familia", "ansiedad por visitar a la familia"]
+        },
+        {
+          "route": "/family/family-cutoff",
+          "slot": "family/family-cutoff",
+          "axis": "worry",
+          "sourceQueries": ["cortar contacto con la familia", "alejarme de mi familia tóxica", "dejar de hablar con mis padres", "culpa por alejarme de la familia"]
+        },
+        {
+          "route": "/family/mother-conflict",
+          "slot": "family/mother-conflict",
+          "axis": "worry",
+          "sourceQueries": ["no me llevo bien con mi madre", "mi madre me agota", "peleo mucho con mi mamá", "poner límites a mi madre"]
+        },
+        {
+          "route": "/body/body-anxiety",
+          "slot": "body/body-anxiety",
+          "axis": "worry",
+          "sourceQueries": ["odio mi cuerpo", "inseguridad con mi cuerpo", "complejo físico", "ansiedad por mi apariencia"]
+        },
+        {
+          "route": "/body/aging-anxiety",
+          "slot": "body/aging-anxiety",
+          "axis": "worry",
+          "sourceQueries": ["miedo a envejecer", "ansiedad por la edad", "me da miedo perder la juventud", "crisis por hacerse mayor"]
+        },
+        {
+          "route": "/body/hair-loss-stress",
+          "slot": "body/hair-loss-stress",
+          "axis": "worry",
+          "sourceQueries": ["ansiedad por caída del pelo", "miedo a quedarme calvo", "pérdida de cabello autoestima", "estrés por alopecia"]
+        },
+        {
+          "route": "/career/dream-reality",
+          "slot": "career/dream-reality",
+          "axis": "worry",
+          "sourceQueries": ["renunciar a mi sueño o seguir", "sueño versus realidad", "trabajar en lo que amo o ser realista", "miedo a perseguir mi sueño"]
+        },
+        {
+          "route": "/career/regret-free-choice",
+          "slot": "career/regret-free-choice",
+          "axis": "worry",
+          "sourceQueries": ["cómo tomar una decisión sin arrepentirme", "miedo a elegir mal", "cualquier opción me hará arrepentirme", "decisión importante bloqueado"]
+        },
+        {
+          "route": "/debate/euthanasia",
+          "slot": "debate/euthanasia",
+          "axis": "debate",
+          "sourceQueries": ["eutanasia debate", "eutanasia a favor y en contra", "derecho a morir dignamente", "legalizar la eutanasia"]
+        },
+        {
+          "route": "/debate/death-penalty",
+          "slot": "debate/death-penalty",
+          "axis": "debate",
+          "sourceQueries": ["pena de muerte debate", "pena de muerte a favor y en contra", "abolir la pena de muerte", "pena de muerte errores judiciales"]
+        },
+        {
+          "route": "/debate/abortion",
+          "slot": "debate/abortion",
+          "axis": "debate",
+          "sourceQueries": ["aborto debate", "aborto a favor y en contra", "derecho al aborto", "vida fetal autonomía mujer"]
+        },
+        {
+          "route": "/debate/animal-testing",
+          "slot": "debate/animal-testing",
+          "axis": "debate",
+          "sourceQueries": ["experimentación animal debate", "experimentos con animales pros y contras", "ética de la experimentación animal", "pruebas en animales cosméticos"]
+        },
+        {
+          "route": "/debate/juvenile-offenders",
+          "slot": "debate/juvenile-offenders",
+          "axis": "debate",
+          "sourceQueries": ["menores infractores debate", "bajar edad penal menores", "justicia juvenil castigo o rehabilitación", "delitos de menores responsabilidad"]
+        },
+        {
+          "route": "/debate/meritocracy",
+          "slot": "debate/meritocracy",
+          "axis": "debate",
+          "sourceQueries": ["meritocracia es justa", "crítica a la meritocracia", "el esfuerzo siempre se recompensa", "desigualdad y meritocracia"]
+        },
+        {
+          "route": "/debate/basic-income",
+          "slot": "debate/basic-income",
+          "axis": "debate",
+          "sourceQueries": ["renta básica universal debate", "renta básica pros y contras", "ingreso básico universal financiación", "la renta básica desincentiva trabajar"]
+        },
+        {
+          "route": "/debate/ai-art",
+          "slot": "debate/ai-art",
+          "axis": "debate",
+          "sourceQueries": ["arte generado por IA debate", "la IA puede hacer arte", "derechos de autor arte IA", "artistas y inteligencia artificial"]
+        },
+        {
+          "route": "/debate/cohabitation",
+          "slot": "debate/cohabitation",
+          "axis": "debate",
+          "sourceQueries": ["convivencia antes del matrimonio", "vivir juntos antes de casarse pros y contras", "convivencia responsabilidad pareja", "unión libre debate"]
+        },
+        {
+          "route": "/debate/vegetarianism",
+          "slot": "debate/vegetarianism",
+          "axis": "debate",
+          "sourceQueries": ["veganismo debate ético", "vegetarianismo obligación moral", "comer carne ética", "veganismo medio ambiente"]
+        },
+        {
+          "route": "/debate/parent-support",
+          "slot": "debate/parent-support",
+          "axis": "debate",
+          "sourceQueries": ["obligación de mantener a los padres", "cuidar padres ancianos responsabilidad hijos", "hasta dónde ayudar a los padres", "deber filial debate"]
+        },
+        {
+          "route": "/debate/pet-euthanasia",
+          "slot": "debate/pet-euthanasia",
+          "axis": "debate",
+          "sourceQueries": ["eutanasia mascota decisión", "sacrificar perro por sufrimiento", "eutanasia animal ética", "cuándo dormir a una mascota"]
+        },
+        {
+          "route": "/debate/cancel-culture",
+          "slot": "debate/cancel-culture",
+          "axis": "debate",
+          "sourceQueries": ["cultura de la cancelación debate", "cancel culture libertad de expresión", "responsabilidad o linchamiento", "funa en redes debate"]
+        },
+        {
+          "route": "/debate/nice-people-finish-last",
+          "slot": "debate/nice-people-finish-last",
+          "axis": "debate",
+          "sourceQueries": ["ser buena persona es una desventaja", "la gente buena termina última", "ser demasiado bueno se aprovechan", "bondad o debilidad"]
         }
       ]
     },
@@ -1464,6 +2004,186 @@
           "slot": "work/quit-or-stay",
           "axis": "worry",
           "sourceQueries": ["quitter son travail ou rester", "démissionner ou tenir", "je veux quitter mon travail mais j'ai peur", "dois-je changer de travail"]
+        },
+        {
+          "route": "/work/unrecognized",
+          "slot": "work/unrecognized",
+          "axis": "worry",
+          "sourceQueries": ["pas reconnu au travail", "mes efforts ne sont pas reconnus", "je me sens invisible au travail", "manque de reconnaissance professionnelle"]
+        },
+        {
+          "route": "/work/work-depression",
+          "slot": "work/work-depression",
+          "axis": "worry",
+          "sourceQueries": ["dépression au travail", "je n'arrive plus à aller travailler", "travail me déprime", "épuisement professionnel symptômes"]
+        },
+        {
+          "route": "/work/not-good-enough",
+          "slot": "work/not-good-enough",
+          "axis": "worry",
+          "sourceQueries": ["je ne suis pas assez bon au travail", "peur de ne pas être à la hauteur travail", "syndrome de l'imposteur travail", "je fais mal mon travail"]
+        },
+        {
+          "route": "/work/work-skepticism",
+          "slot": "work/work-skepticism",
+          "axis": "worry",
+          "sourceQueries": ["mon travail n'a pas de sens", "pourquoi travailler", "je ne trouve plus de sens au travail", "perte de sens professionnel"]
+        },
+        {
+          "route": "/meaning/dont-know-want",
+          "slot": "meaning/dont-know-want",
+          "axis": "worry",
+          "sourceQueries": ["je ne sais pas ce que je veux", "je ne sais pas quoi faire de ma vie", "je n'ai envie de rien", "comment savoir ce que je veux"]
+        },
+        {
+          "route": "/meaning/emptiness",
+          "slot": "meaning/emptiness",
+          "axis": "worry",
+          "sourceQueries": ["je me sens vide", "vide existentiel", "rien ne me remplit", "sentiment de vide intérieur"]
+        },
+        {
+          "route": "/meaning/no-goal",
+          "slot": "meaning/no-goal",
+          "axis": "worry",
+          "sourceQueries": ["je n'ai pas d'objectif dans la vie", "comment trouver un but", "je n'ai pas de rêve", "je ne sais pas quoi viser"]
+        },
+        {
+          "route": "/meaning/wandering",
+          "slot": "meaning/wandering",
+          "axis": "worry",
+          "sourceQueries": ["je suis perdu dans ma vie", "je ne sais pas où je vais", "je me sens à la dérive", "je cherche ma direction"]
+        },
+        {
+          "route": "/family/holiday-stress",
+          "slot": "family/holiday-stress",
+          "axis": "worry",
+          "sourceQueries": ["stress repas de famille", "fêtes de famille angoisse", "questions intrusives famille", "rentrer dans sa famille stress"]
+        },
+        {
+          "route": "/family/family-cutoff",
+          "slot": "family/family-cutoff",
+          "axis": "worry",
+          "sourceQueries": ["couper les ponts avec sa famille", "s'éloigner d'une famille toxique", "ne plus parler à ses parents", "culpabilité de couper avec sa famille"]
+        },
+        {
+          "route": "/family/mother-conflict",
+          "slot": "family/mother-conflict",
+          "axis": "worry",
+          "sourceQueries": ["je ne m'entends pas avec ma mère", "ma mère m'épuise", "je me dispute avec ma mère", "mettre des limites à ma mère"]
+        },
+        {
+          "route": "/body/body-anxiety",
+          "slot": "body/body-anxiety",
+          "axis": "worry",
+          "sourceQueries": ["je déteste mon corps", "complexe physique", "anxiété liée à l'apparence", "je n'aime pas mon apparence"]
+        },
+        {
+          "route": "/body/aging-anxiety",
+          "slot": "body/aging-anxiety",
+          "axis": "worry",
+          "sourceQueries": ["peur de vieillir", "anxiété liée à l'âge", "peur de perdre sa jeunesse", "crise de l'âge"]
+        },
+        {
+          "route": "/body/hair-loss-stress",
+          "slot": "body/hair-loss-stress",
+          "axis": "worry",
+          "sourceQueries": ["anxiété perte de cheveux", "peur de devenir chauve", "perte de cheveux estime de soi", "stress alopécie"]
+        },
+        {
+          "route": "/career/dream-reality",
+          "slot": "career/dream-reality",
+          "axis": "worry",
+          "sourceQueries": ["abandonner son rêve ou continuer", "rêve et réalité", "vivre de sa passion ou être réaliste", "peur de poursuivre son rêve"]
+        },
+        {
+          "route": "/career/regret-free-choice",
+          "slot": "career/regret-free-choice",
+          "axis": "worry",
+          "sourceQueries": ["comment choisir sans regret", "peur de faire le mauvais choix", "je vais regretter quoi que je choisisse", "bloqué devant une décision"]
+        },
+        {
+          "route": "/debate/euthanasia",
+          "slot": "debate/euthanasia",
+          "axis": "debate",
+          "sourceQueries": ["euthanasie débat", "euthanasie pour ou contre", "droit de mourir dans la dignité", "légalisation de l'euthanasie"]
+        },
+        {
+          "route": "/debate/death-penalty",
+          "slot": "debate/death-penalty",
+          "axis": "debate",
+          "sourceQueries": ["peine de mort débat", "peine de mort pour ou contre", "abolition peine de mort", "erreur judiciaire peine de mort"]
+        },
+        {
+          "route": "/debate/abortion",
+          "slot": "debate/abortion",
+          "axis": "debate",
+          "sourceQueries": ["avortement débat", "avortement pour ou contre", "droit à l'avortement", "vie du fœtus autonomie"]
+        },
+        {
+          "route": "/debate/animal-testing",
+          "slot": "debate/animal-testing",
+          "axis": "debate",
+          "sourceQueries": ["expérimentation animale débat", "tests sur animaux pour ou contre", "éthique expérimentation animale", "cosmétiques tests animaux"]
+        },
+        {
+          "route": "/debate/juvenile-offenders",
+          "slot": "debate/juvenile-offenders",
+          "axis": "debate",
+          "sourceQueries": ["délinquance juvénile débat", "responsabilité pénale des mineurs", "punir ou réhabiliter les mineurs", "justice des mineurs"]
+        },
+        {
+          "route": "/debate/meritocracy",
+          "slot": "debate/meritocracy",
+          "axis": "debate",
+          "sourceQueries": ["méritocratie est-elle juste", "critique de la méritocratie", "l'effort est-il toujours récompensé", "inégalités et mérite"]
+        },
+        {
+          "route": "/debate/basic-income",
+          "slot": "debate/basic-income",
+          "axis": "debate",
+          "sourceQueries": ["revenu universel débat", "revenu de base pour ou contre", "financement revenu universel", "revenu universel travail"]
+        },
+        {
+          "route": "/debate/ai-art",
+          "slot": "debate/ai-art",
+          "axis": "debate",
+          "sourceQueries": ["art généré par IA débat", "l'IA peut-elle créer de l'art", "droit d'auteur art IA", "artistes et intelligence artificielle"]
+        },
+        {
+          "route": "/debate/cohabitation",
+          "slot": "debate/cohabitation",
+          "axis": "debate",
+          "sourceQueries": ["vivre ensemble avant le mariage", "cohabitation avant mariage pour ou contre", "concubinage responsabilité couple", "vivre en couple sans se marier"]
+        },
+        {
+          "route": "/debate/vegetarianism",
+          "slot": "debate/vegetarianism",
+          "axis": "debate",
+          "sourceQueries": ["véganisme débat éthique", "végétarisme obligation morale", "manger de la viande éthique", "véganisme environnement"]
+        },
+        {
+          "route": "/debate/parent-support",
+          "slot": "debate/parent-support",
+          "axis": "debate",
+          "sourceQueries": ["obligation d'aider ses parents", "s'occuper de parents âgés responsabilité enfants", "jusqu'où soutenir ses parents", "devoir filial débat"]
+        },
+        {
+          "route": "/debate/pet-euthanasia",
+          "slot": "debate/pet-euthanasia",
+          "axis": "debate",
+          "sourceQueries": ["euthanasie animal de compagnie décision", "faire euthanasier son chien souffrance", "euthanasie animale éthique", "quand endormir un animal"]
+        },
+        {
+          "route": "/debate/cancel-culture",
+          "slot": "debate/cancel-culture",
+          "axis": "debate",
+          "sourceQueries": ["cancel culture débat", "culture de l'annulation liberté d'expression", "responsabilité ou lynchage", "boycott réseaux sociaux"]
+        },
+        {
+          "route": "/debate/nice-people-finish-last",
+          "slot": "debate/nice-people-finish-last",
+          "axis": "debate",
+          "sourceQueries": ["les gentils finissent-ils derniers", "être trop gentil se faire avoir", "bonté ou faiblesse", "les bonnes personnes perdent-elles"]
         }
       ]
     },
@@ -1830,6 +2550,186 @@
           "slot": "work/quit-or-stay",
           "axis": "worry",
           "sourceQueries": ["kündigen oder bleiben", "job kündigen oder durchhalten", "ich will kündigen aber habe angst", "soll ich den job wechseln"]
+        },
+        {
+          "route": "/work/unrecognized",
+          "slot": "work/unrecognized",
+          "axis": "worry",
+          "sourceQueries": ["nicht anerkannt bei der arbeit", "meine leistung wird nicht gesehen", "fühle mich unsichtbar im job", "keine wertschätzung arbeit"]
+        },
+        {
+          "route": "/work/work-depression",
+          "slot": "work/work-depression",
+          "axis": "worry",
+          "sourceQueries": ["depression durch arbeit", "ich kann nicht mehr zur arbeit", "arbeit macht mich depressiv", "job belastet psychisch"]
+        },
+        {
+          "route": "/work/not-good-enough",
+          "slot": "work/not-good-enough",
+          "axis": "worry",
+          "sourceQueries": ["ich bin nicht gut genug im job", "angst nicht gut genug zu sein arbeit", "impostor syndrom arbeit", "ich mache alles falsch im job"]
+        },
+        {
+          "route": "/work/work-skepticism",
+          "slot": "work/work-skepticism",
+          "axis": "worry",
+          "sourceQueries": ["arbeit hat keinen sinn", "warum arbeiten", "kein sinn mehr im job", "sinnkrise arbeit"]
+        },
+        {
+          "route": "/meaning/dont-know-want",
+          "slot": "meaning/dont-know-want",
+          "axis": "worry",
+          "sourceQueries": ["ich weiß nicht was ich will", "ich weiß nicht was ich mit meinem leben machen soll", "ich habe keine ziele", "herausfinden was ich will"]
+        },
+        {
+          "route": "/meaning/emptiness",
+          "slot": "meaning/emptiness",
+          "axis": "worry",
+          "sourceQueries": ["ich fühle mich leer", "innere leere", "nichts erfüllt mich", "existenzielle leere"]
+        },
+        {
+          "route": "/meaning/no-goal",
+          "slot": "meaning/no-goal",
+          "axis": "worry",
+          "sourceQueries": ["ich habe keine ziele im leben", "wie finde ich ein ziel", "ich habe keinen traum", "ich weiß nicht worauf ich hinarbeiten soll"]
+        },
+        {
+          "route": "/meaning/wandering",
+          "slot": "meaning/wandering",
+          "axis": "worry",
+          "sourceQueries": ["ich bin im leben verloren", "ich weiß nicht wohin", "ich fühle mich orientierungslos", "keine richtung im leben"]
+        },
+        {
+          "route": "/family/holiday-stress",
+          "slot": "family/holiday-stress",
+          "axis": "worry",
+          "sourceQueries": ["familienfeier stress", "weihnachten familie stress", "unangenehme fragen familie", "heimfahren zur familie angst"]
+        },
+        {
+          "route": "/family/family-cutoff",
+          "slot": "family/family-cutoff",
+          "axis": "worry",
+          "sourceQueries": ["kontakt zur familie abbrechen", "toxische familie abstand nehmen", "mit eltern keinen kontakt mehr", "schuldgefühle kontaktabbruch familie"]
+        },
+        {
+          "route": "/family/mother-conflict",
+          "slot": "family/mother-conflict",
+          "axis": "worry",
+          "sourceQueries": ["ich komme mit meiner mutter nicht klar", "meine mutter belastet mich", "ständig streit mit mutter", "grenzen setzen mutter"]
+        },
+        {
+          "route": "/body/body-anxiety",
+          "slot": "body/body-anxiety",
+          "axis": "worry",
+          "sourceQueries": ["ich hasse meinen körper", "körperbild angst", "komplexe wegen aussehen", "ich mag mein aussehen nicht"]
+        },
+        {
+          "route": "/body/aging-anxiety",
+          "slot": "body/aging-anxiety",
+          "axis": "worry",
+          "sourceQueries": ["angst vor dem älterwerden", "altersangst", "angst jung zu verlieren", "krise wegen alter"]
+        },
+        {
+          "route": "/body/hair-loss-stress",
+          "slot": "body/hair-loss-stress",
+          "axis": "worry",
+          "sourceQueries": ["haarausfall angst", "angst kahl zu werden", "haarausfall selbstwert", "stress wegen haarausfall"]
+        },
+        {
+          "route": "/career/dream-reality",
+          "slot": "career/dream-reality",
+          "axis": "worry",
+          "sourceQueries": ["traum aufgeben oder weitermachen", "traum und realität", "leidenschaft zum beruf machen oder realistisch sein", "angst dem traum zu folgen"]
+        },
+        {
+          "route": "/career/regret-free-choice",
+          "slot": "career/regret-free-choice",
+          "axis": "worry",
+          "sourceQueries": ["entscheidung ohne reue treffen", "angst falsch zu entscheiden", "ich werde jede wahl bereuen", "wichtige entscheidung blockiert"]
+        },
+        {
+          "route": "/debate/euthanasia",
+          "slot": "debate/euthanasia",
+          "axis": "debate",
+          "sourceQueries": ["euthanasie debatte", "sterbehilfe pro contra", "recht auf würdiges sterben", "sollte sterbehilfe erlaubt sein"]
+        },
+        {
+          "route": "/debate/death-penalty",
+          "slot": "debate/death-penalty",
+          "axis": "debate",
+          "sourceQueries": ["todesstrafe debatte", "todesstrafe pro contra", "todesstrafe abschaffen", "justizirrtum todesstrafe"]
+        },
+        {
+          "route": "/debate/abortion",
+          "slot": "debate/abortion",
+          "axis": "debate",
+          "sourceQueries": ["abtreibung debatte", "abtreibung pro contra", "recht auf abtreibung", "ungeborenes leben selbstbestimmung"]
+        },
+        {
+          "route": "/debate/animal-testing",
+          "slot": "debate/animal-testing",
+          "axis": "debate",
+          "sourceQueries": ["tierversuche debatte", "tierversuche pro contra", "ethik tierversuche", "tierversuche kosmetik"]
+        },
+        {
+          "route": "/debate/juvenile-offenders",
+          "slot": "debate/juvenile-offenders",
+          "axis": "debate",
+          "sourceQueries": ["jugendstrafrecht debatte", "strafmündigkeit senken", "jugendliche straftäter bestrafen oder resozialisieren", "minderjährige kriminelle verantwortung"]
+        },
+        {
+          "route": "/debate/meritocracy",
+          "slot": "debate/meritocracy",
+          "axis": "debate",
+          "sourceQueries": ["meritokratie gerecht", "kritik der meritokratie", "lohnt sich leistung immer", "ungleichheit und leistung"]
+        },
+        {
+          "route": "/debate/basic-income",
+          "slot": "debate/basic-income",
+          "axis": "debate",
+          "sourceQueries": ["bedingungsloses grundeinkommen debatte", "grundeinkommen pro contra", "finanzierung grundeinkommen", "grundeinkommen arbeiten"]
+        },
+        {
+          "route": "/debate/ai-art",
+          "slot": "debate/ai-art",
+          "axis": "debate",
+          "sourceQueries": ["KI kunst debatte", "kann KI kunst schaffen", "urheberrecht KI kunst", "künstler und künstliche intelligenz"]
+        },
+        {
+          "route": "/debate/cohabitation",
+          "slot": "debate/cohabitation",
+          "axis": "debate",
+          "sourceQueries": ["zusammenziehen vor der ehe", "zusammenleben vor heirat pro contra", "unverheiratet zusammenleben verantwortung", "ehe oder zusammenleben"]
+        },
+        {
+          "route": "/debate/vegetarianism",
+          "slot": "debate/vegetarianism",
+          "axis": "debate",
+          "sourceQueries": ["veganismus ethik debatte", "vegetarismus moralische pflicht", "fleisch essen ethik", "veganismus umwelt"]
+        },
+        {
+          "route": "/debate/parent-support",
+          "slot": "debate/parent-support",
+          "axis": "debate",
+          "sourceQueries": ["pflicht eltern zu unterstützen", "pflege der eltern verantwortung kinder", "wie weit eltern helfen", "elternunterhalt debatte"]
+        },
+        {
+          "route": "/debate/pet-euthanasia",
+          "slot": "debate/pet-euthanasia",
+          "axis": "debate",
+          "sourceQueries": ["haustier einschläfern entscheidung", "hund einschläfern leid", "tier euthanasie ethik", "wann haustier einschläfern"]
+        },
+        {
+          "route": "/debate/cancel-culture",
+          "slot": "debate/cancel-culture",
+          "axis": "debate",
+          "sourceQueries": ["cancel culture debatte", "cancel culture meinungsfreiheit", "verantwortung oder mobbing", "online anprangerung debatte"]
+        },
+        {
+          "route": "/debate/nice-people-finish-last",
+          "slot": "debate/nice-people-finish-last",
+          "axis": "debate",
+          "sourceQueries": ["nette menschen verlieren immer", "zu gutmütig ausgenutzt", "nett sein nachteil", "güte oder schwäche"]
         }
       ]
     }
