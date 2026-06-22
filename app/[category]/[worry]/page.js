@@ -15,6 +15,7 @@ import TagChips from "@/components/TagChips";
 import RelatedExplore from "@/components/RelatedExplore";
 import CollectedContent from "@/components/CollectedContent";
 import ContentStatusNotice from "@/components/ContentStatusNotice";
+import ContentBrief from "@/components/ContentBrief";
 import PerspectiveSummary from "@/components/PerspectiveSummary";
 import SourceLocaleSignalSummary from "@/components/SourceLocaleSignalSummary";
 import SourceLocaleInsights from "@/components/SourceLocaleInsights";
@@ -112,6 +113,15 @@ export default async function WorryPage({ params }) {
         <PlaceholderBody />
       ) : (
         <>
+          <ContentBrief
+            axis="worry"
+            summary={content.emotion}
+            cards={content.cards}
+            sourceLocaleInsights={content.sourceLocaleInsights}
+            sourceLocaleSignal={content.sourceLocaleSignal}
+            actions={content.actions}
+          />
+
           {/* ① 감정 한 줄 정의 */}
           <section className="mb-8 rounded-2xl bg-clay-soft/60 px-5 py-5">
             <p className="text-[11px] font-medium tracking-wider text-clay uppercase mb-1.5">

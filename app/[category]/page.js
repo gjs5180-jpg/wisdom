@@ -8,6 +8,11 @@ import {
   isPublishableContent,
   verifiedCardCount,
 } from "@/lib/content";
+import { allSourceLocales } from "@/lib/source-locales";
+
+const sourceLocaleByCode = new Map(
+  allSourceLocales().map((locale) => [locale.locale, locale])
+);
 
 export function generateStaticParams() {
   return categories.map((category) => ({ category: category.slug }));
@@ -69,6 +74,58 @@ function firstDoors(entries) {
     .slice(0, 8);
 }
 
+function localeLabel(code) {
+  const locale = sourceLocaleByCode.get(code);
+  if (!locale) return code;
+  return `${locale.nativeLabel} · ${locale.region}`;
+}
+
+function addUnique(list, value, limit) {
+  if (!value || list.includes(value) || list.length >= limit) return;
+  list.push(value);
+}
+
+function sourceLocaleHighlights(entries, limit = 4) {
+  const highlights = new Map();
+
+  for (const entry of entries) {
+    for (const insight of entry.content.sourceLocaleInsights || []) {
+      const current = highlights.get(insight.locale) || {
+        locale: insight.locale,
+        topics: 0,
+        phrases: [],
+        doors: [],
+        examples: [],
+      };
+
+      current.topics += 1;
+      for (const phrase of insight.sourcePhrases || []) {
+        addUnique(current.phrases, phrase, 5);
+      }
+      addUnique(current.doors, insight.userDoors?.[0], 2);
+
+      if (current.examples.length < 2) {
+        current.examples.push({
+          title: entry.title,
+          href: entry.href,
+        });
+      }
+
+      highlights.set(insight.locale, current);
+    }
+  }
+
+  return [...highlights.values()]
+    .sort((a, b) => {
+      const topicDiff = b.topics - a.topics;
+      if (topicDiff !== 0) return topicDiff;
+      const aPriority = sourceLocaleByCode.get(a.locale)?.priority || 99;
+      const bPriority = sourceLocaleByCode.get(b.locale)?.priority || 99;
+      return aPriority - bPriority;
+    })
+    .slice(0, limit);
+}
+
 export default async function CategoryPage({ params }) {
   const { category } = await params;
   const cat = getCategory(category);
@@ -103,6 +160,7 @@ export default async function CategoryPage({ params }) {
   const emotionTags = topTags(entries, "emotion", 7);
   const situationTags = topTags(entries, "situation", 7);
   const doors = firstDoors(readyEntries);
+  const localeHighlights = sourceLocaleHighlights(readyEntries);
 
   return (
     <div className="fade-rise">
@@ -232,6 +290,83 @@ export default async function CategoryPage({ params }) {
               >
                 {door}
               </span>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {localeHighlights.length > 0 && (
+        <section className="mb-8">
+          <div className="mb-3">
+            <p className="text-[11px] font-medium uppercase tracking-wider text-ink-faint">
+              글로벌 소스
+            </p>
+            <h2 className="mt-1 font-serif text-xl font-bold">
+              이 카테고리의 언어권 표현
+            </h2>
+            <p className="mt-1 text-sm leading-relaxed text-ink-soft">
+              같은 고민이 다른 언어권에서는 어떤 검색어와 상황 표현으로 반복되는지
+              묶어 보여줍니다.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+            {localeHighlights.map((highlight) => (
+              <div
+                key={highlight.locale}
+                className="rounded-lg border border-line bg-paper px-4 py-4"
+              >
+                <div className="flex items-start justify-between gap-3">
+                  <div>
+                    <h3 className="font-serif text-base font-bold">
+                      {localeLabel(highlight.locale)}
+                    </h3>
+                    <p className="mt-0.5 text-xs text-ink-faint">
+                      관련 카드 {highlight.topics}개
+                    </p>
+                  </div>
+                  <Link
+                    href={`/source-locales/${highlight.locale}`}
+                    className="shrink-0 text-xs font-medium text-clay"
+                  >
+                    보기
+                  </Link>
+                </div>
+
+                {highlight.phrases.length > 0 && (
+                  <div className="mt-3 flex flex-wrap gap-1.5">
+                    {highlight.phrases.map((phrase) => (
+                      <span
+                        key={phrase}
+                        lang={highlight.locale}
+                        className="rounded-full border border-line bg-cream px-2.5 py-1 text-xs text-ink-soft"
+                      >
+                        {phrase}
+                      </span>
+                    ))}
+                  </div>
+                )}
+
+                {highlight.doors.length > 0 && (
+                  <p className="mt-3 text-sm leading-relaxed text-ink-soft">
+                    {highlight.doors[0]}
+                  </p>
+                )}
+
+                {highlight.examples.length > 0 && (
+                  <div className="mt-3 flex flex-wrap gap-2 text-xs">
+                    {highlight.examples.map((example) => (
+                      <Link
+                        key={example.href}
+                        href={example.href}
+                        className="rounded-full border border-line px-2.5 py-1 text-ink-soft transition-colors hover:border-clay/40 hover:text-clay"
+                      >
+                        {example.title}
+                      </Link>
+                    ))}
+                  </div>
+                )}
+              </div>
             ))}
           </div>
         </section>

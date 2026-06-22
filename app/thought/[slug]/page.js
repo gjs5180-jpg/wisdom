@@ -14,6 +14,7 @@ import TagChips from "@/components/TagChips";
 import RelatedExplore from "@/components/RelatedExplore";
 import CollectedContent from "@/components/CollectedContent";
 import ContentStatusNotice from "@/components/ContentStatusNotice";
+import ContentBrief from "@/components/ContentBrief";
 import PerspectiveSummary from "@/components/PerspectiveSummary";
 import SourceLocaleSignalSummary from "@/components/SourceLocaleSignalSummary";
 import SourceLocaleInsights from "@/components/SourceLocaleInsights";
@@ -114,6 +115,15 @@ export default async function ThoughtPage({ params }) {
         </div>
       ) : (
         <>
+          <ContentBrief
+            axis="thought"
+            summary={thought.blurb}
+            cards={content.cards}
+            sourceLocaleInsights={content.sourceLocaleInsights}
+            sourceLocaleSignal={content.sourceLocaleSignal}
+            reflect={content.reflect}
+          />
+
           <PerspectiveSummary
             cards={content.cards}
             title={content.cards.length > 3 ? "이 질문의 기준들" : "이 질문의 세 기준"}

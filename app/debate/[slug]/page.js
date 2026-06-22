@@ -15,6 +15,7 @@ import TagChips from "@/components/TagChips";
 import RelatedExplore from "@/components/RelatedExplore";
 import CollectedContent from "@/components/CollectedContent";
 import ContentStatusNotice from "@/components/ContentStatusNotice";
+import ContentBrief from "@/components/ContentBrief";
 import SourceLocaleSignalSummary from "@/components/SourceLocaleSignalSummary";
 import SourceLocaleInsights from "@/components/SourceLocaleInsights";
 import { collectedContentForKey, seoDescriptionForCollection } from "@/lib/collected";
@@ -112,6 +113,16 @@ export default async function DebatePage({ params }) {
         </div>
       ) : (
         <>
+          <ContentBrief
+            axis="debate"
+            summary={d.blurb}
+            cards={content.cards}
+            sourceLocaleInsights={content.sourceLocaleInsights}
+            sourceLocaleSignal={content.sourceLocaleSignal}
+            reflect={content.reflect}
+            positionRows={positionRows}
+          />
+
           {positionRows.length > 0 && (
             <section className="mb-6 rounded-xl border border-line bg-paper px-4 py-4">
               <div className="mb-3 flex items-end justify-between gap-3">
