@@ -1,11 +1,11 @@
 {
-  "collectedAt": "2026-06-21T16:24:23.047Z",
+  "collectedAt": "2026-06-22T05:43:35.534Z",
   "locale": "fr-FR",
   "sourceStatus": "active-source",
-  "nodesScanned": 38,
-  "totalCandidatePhrases": 850,
-  "totalUsableCandidatePhrases": 750,
-  "totalReviewCandidatePhrases": 63,
+  "nodesScanned": 44,
+  "totalCandidatePhrases": 903,
+  "totalUsableCandidatePhrases": 800,
+  "totalReviewCandidatePhrases": 66,
   "totalLowSignalCandidatePhrases": 37,
   "clusterHints": {
     "relationships/ghosting": 1,
@@ -1656,6 +1656,98 @@
     },
     {
       "locale": "fr-FR",
+      "route": "/love/impatient",
+      "slot": "love/impatient",
+      "axis": "worry",
+      "sourceQueries": [
+        "impatient en amour",
+        "attendre une réponse anxiété",
+        "message sans réponse angoisse",
+        "déclarer son amour ou attendre"
+      ],
+      "baseQueries": [
+        "impatient en amour",
+        "attendre une réponse anxiété",
+        "message sans réponse angoisse",
+        "déclarer son amour ou attendre"
+      ],
+      "googleSuggestions": [
+        "impatience en amour",
+        "homme impatient en amour"
+      ],
+      "candidatePhrases": [
+        "impatient en amour",
+        "attendre une réponse anxiété",
+        "message sans réponse angoisse",
+        "déclarer son amour ou attendre",
+        "impatience en amour",
+        "homme impatient en amour"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "impatient en amour",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "attendre une réponse anxiété",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "message sans réponse angoisse",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "déclarer son amour ou attendre",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "impatience en amour",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "homme impatient en amour",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "impatient en amour",
+        "attendre une réponse anxiété",
+        "message sans réponse angoisse",
+        "déclarer son amour ou attendre",
+        "impatience en amour",
+        "homme impatient en amour"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "fr-FR",
       "route": "/love/cant-confess",
       "slot": "love/cant-confess",
       "axis": "worry",
@@ -2468,6 +2560,75 @@
         "valeurs differentes couple",
         "conflit valeur couple",
         "on s aime mais on est incompatible"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "fr-FR",
+      "route": "/love/should-give-up",
+      "slot": "love/should-give-up",
+      "axis": "worry",
+      "sourceQueries": [
+        "dois-je abandonner cette relation",
+        "continuer ou laisser partir",
+        "quand arrêter d'essayer en amour",
+        "peur de regretter d'abandonner"
+      ],
+      "baseQueries": [
+        "dois-je abandonner cette relation",
+        "continuer ou laisser partir",
+        "quand arrêter d'essayer en amour",
+        "peur de regretter d'abandonner"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "dois-je abandonner cette relation",
+        "continuer ou laisser partir",
+        "quand arrêter d'essayer en amour",
+        "peur de regretter d'abandonner"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "dois-je abandonner cette relation",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "continuer ou laisser partir",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "quand arrêter d'essayer en amour",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "peur de regretter d'abandonner",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "dois-je abandonner cette relation",
+        "continuer ou laisser partir",
+        "quand arrêter d'essayer en amour",
+        "peur de regretter d'abandonner"
       ],
       "reviewCandidatePhrases": [],
       "lowSignalCandidatePhrases": [],
@@ -9665,6 +9826,112 @@
     },
     {
       "locale": "fr-FR",
+      "route": "/debate/white-lie",
+      "slot": "debate/white-lie",
+      "axis": "debate",
+      "sourceQueries": [
+        "mensonge blanc est-il acceptable",
+        "mensonge par gentillesse",
+        "mentir pour ne pas blesser",
+        "mensonge moral débat"
+      ],
+      "baseQueries": [
+        "mensonge blanc est-il acceptable",
+        "mensonge par gentillesse",
+        "mentir pour ne pas blesser",
+        "mensonge moral débat"
+      ],
+      "googleSuggestions": [
+        "mentir pour ne pas blesser",
+        "mentir pour ne pas blesser citation",
+        "mensonge pour ne pas blesser",
+        "mentir pour ne pas reveler une verite qui pourrait blesser"
+      ],
+      "candidatePhrases": [
+        "mensonge blanc est-il acceptable",
+        "mensonge par gentillesse",
+        "mentir pour ne pas blesser",
+        "mensonge moral débat",
+        "mentir pour ne pas blesser citation",
+        "mensonge pour ne pas blesser",
+        "mentir pour ne pas reveler une verite qui pourrait blesser"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "mensonge blanc est-il acceptable",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "mensonge par gentillesse",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "mentir pour ne pas blesser",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "mensonge moral débat",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "mentir pour ne pas blesser citation",
+          "status": "review",
+          "reasons": [
+            "reference or concept query",
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "mensonge pour ne pas blesser",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "mentir pour ne pas reveler une verite qui pourrait blesser",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "mensonge blanc est-il acceptable",
+        "mensonge par gentillesse",
+        "mentir pour ne pas blesser",
+        "mensonge moral débat",
+        "mensonge pour ne pas blesser",
+        "mentir pour ne pas reveler une verite qui pourrait blesser"
+      ],
+      "reviewCandidatePhrases": [
+        "mentir pour ne pas blesser citation"
+      ],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "fr-FR",
       "route": "/debate/ai-replacement",
       "slot": "debate/ai-replacement",
       "axis": "debate",
@@ -10667,6 +10934,483 @@
       "clusterHints": {
         "work/remote-work-culture": 12
       },
+      "errors": []
+    },
+    {
+      "locale": "fr-FR",
+      "route": "/debate/retirement-age",
+      "slot": "debate/retirement-age",
+      "axis": "debate",
+      "sourceQueries": [
+        "reculer l'âge de la retraite",
+        "âge légal de départ à la retraite débat",
+        "travailler plus longtemps retraite",
+        "réforme des retraites pour ou contre"
+      ],
+      "baseQueries": [
+        "reculer l'âge de la retraite",
+        "âge légal de départ à la retraite débat",
+        "travailler plus longtemps retraite",
+        "réforme des retraites pour ou contre"
+      ],
+      "googleSuggestions": [
+        "reculer l âge de la retraite",
+        "pourquoi reculer l'âge de la retraite",
+        "repousser l âge de la retraite",
+        "repousser l âge de la retraite avantages et inconvénients",
+        "faut il repousser l âge de la retraite",
+        "recul âge légal de la retraite",
+        "travailler plus longtemps pour la retraite"
+      ],
+      "candidatePhrases": [
+        "reculer l'âge de la retraite",
+        "âge légal de départ à la retraite débat",
+        "travailler plus longtemps retraite",
+        "réforme des retraites pour ou contre",
+        "reculer l âge de la retraite",
+        "pourquoi reculer l'âge de la retraite",
+        "repousser l âge de la retraite",
+        "repousser l âge de la retraite avantages et inconvénients",
+        "faut il repousser l âge de la retraite",
+        "recul âge légal de la retraite",
+        "travailler plus longtemps pour la retraite"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "reculer l'âge de la retraite",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "âge légal de départ à la retraite débat",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "travailler plus longtemps retraite",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "réforme des retraites pour ou contre",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "reculer l âge de la retraite",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "pourquoi reculer l'âge de la retraite",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "repousser l âge de la retraite",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "repousser l âge de la retraite avantages et inconvénients",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "faut il repousser l âge de la retraite",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "recul âge légal de la retraite",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "travailler plus longtemps pour la retraite",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "reculer l'âge de la retraite",
+        "âge légal de départ à la retraite débat",
+        "travailler plus longtemps retraite",
+        "réforme des retraites pour ou contre",
+        "reculer l âge de la retraite",
+        "pourquoi reculer l'âge de la retraite",
+        "repousser l âge de la retraite",
+        "repousser l âge de la retraite avantages et inconvénients",
+        "faut il repousser l âge de la retraite",
+        "recul âge légal de la retraite",
+        "travailler plus longtemps pour la retraite"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "fr-FR",
+      "route": "/debate/employment-contract",
+      "slot": "debate/employment-contract",
+      "axis": "debate",
+      "sourceQueries": [
+        "contrat temporaire ou CDI",
+        "travail précaire contrat court",
+        "CDD CDI inégalités",
+        "même travail même salaire"
+      ],
+      "baseQueries": [
+        "contrat temporaire ou CDI",
+        "travail précaire contrat court",
+        "CDD CDI inégalités",
+        "même travail même salaire"
+      ],
+      "googleSuggestions": [
+        "contrat interim cdi",
+        "contrat occasionnel cdi",
+        "emploi interim cdi",
+        "contrat intérimaire cdi",
+        "même travail même salaire",
+        "loi meme travail meme salaire",
+        "meme travail mais pas meme salaire"
+      ],
+      "candidatePhrases": [
+        "contrat temporaire ou CDI",
+        "travail précaire contrat court",
+        "CDD CDI inégalités",
+        "même travail même salaire",
+        "contrat interim cdi",
+        "contrat occasionnel cdi",
+        "emploi interim cdi",
+        "contrat intérimaire cdi",
+        "loi meme travail meme salaire",
+        "meme travail mais pas meme salaire"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "contrat temporaire ou CDI",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "travail précaire contrat court",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "CDD CDI inégalités",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "même travail même salaire",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "contrat interim cdi",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "contrat occasionnel cdi",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "emploi interim cdi",
+          "status": "review",
+          "reasons": [
+            "legal/institutional review needed"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "contrat intérimaire cdi",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "loi meme travail meme salaire",
+          "status": "review",
+          "reasons": [
+            "legal/institutional review needed"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "meme travail mais pas meme salaire",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "contrat temporaire ou CDI",
+        "travail précaire contrat court",
+        "CDD CDI inégalités",
+        "même travail même salaire",
+        "contrat interim cdi",
+        "contrat occasionnel cdi",
+        "contrat intérimaire cdi",
+        "meme travail mais pas meme salaire"
+      ],
+      "reviewCandidatePhrases": [
+        "emploi interim cdi",
+        "loi meme travail meme salaire"
+      ],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "fr-FR",
+      "route": "/debate/school-corporal-punishment",
+      "slot": "debate/school-corporal-punishment",
+      "axis": "debate",
+      "sourceQueries": [
+        "châtiment corporel école débat",
+        "punition corporelle à l'école",
+        "discipline scolaire sans violence",
+        "violence éducative école"
+      ],
+      "baseQueries": [
+        "châtiment corporel école débat",
+        "punition corporelle à l'école",
+        "discipline scolaire sans violence",
+        "violence éducative école"
+      ],
+      "googleSuggestions": [
+        "chatiment corporel à l école",
+        "chatiment corporel à l école en france",
+        "chatiment corporel à l école au senegal",
+        "chatiment corporel à l école benin",
+        "la punition corporelle à l'école",
+        "le chatiment corporel à l école pour ou contre",
+        "interdiction chatiment corporel à l'école en france",
+        "date interdiction chatiment corporel à l école",
+        "interdiction du chatiment corporel à l école",
+        "la punition corporelle est à supprimer à l école",
+        "violence éducative école",
+        "violence éducative ordinaire école"
+      ],
+      "candidatePhrases": [
+        "châtiment corporel école débat",
+        "punition corporelle à l'école",
+        "discipline scolaire sans violence",
+        "violence éducative école",
+        "chatiment corporel à l école",
+        "chatiment corporel à l école en france",
+        "chatiment corporel à l école au senegal",
+        "chatiment corporel à l école benin",
+        "la punition corporelle à l'école",
+        "le chatiment corporel à l école pour ou contre",
+        "interdiction chatiment corporel à l'école en france",
+        "date interdiction chatiment corporel à l école",
+        "interdiction du chatiment corporel à l école",
+        "la punition corporelle est à supprimer à l école",
+        "violence éducative ordinaire école"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "châtiment corporel école débat",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "punition corporelle à l'école",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "discipline scolaire sans violence",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "violence éducative école",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "chatiment corporel à l école",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "chatiment corporel à l école en france",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "chatiment corporel à l école au senegal",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "chatiment corporel à l école benin",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "la punition corporelle à l'école",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "le chatiment corporel à l école pour ou contre",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "interdiction chatiment corporel à l'école en france",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "date interdiction chatiment corporel à l école",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "interdiction du chatiment corporel à l école",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "la punition corporelle est à supprimer à l école",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "violence éducative ordinaire école",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "châtiment corporel école débat",
+        "punition corporelle à l'école",
+        "discipline scolaire sans violence",
+        "violence éducative école",
+        "chatiment corporel à l école",
+        "chatiment corporel à l école en france",
+        "chatiment corporel à l école au senegal",
+        "chatiment corporel à l école benin",
+        "la punition corporelle à l'école",
+        "le chatiment corporel à l école pour ou contre",
+        "interdiction chatiment corporel à l'école en france",
+        "date interdiction chatiment corporel à l école",
+        "interdiction du chatiment corporel à l école",
+        "la punition corporelle est à supprimer à l école",
+        "violence éducative ordinaire école"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
       "errors": []
     }
   ]

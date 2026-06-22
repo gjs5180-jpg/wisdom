@@ -1,14 +1,14 @@
 {
-  "collectedAt": "2026-06-21T13:04:33.414Z",
+  "collectedAt": "2026-06-22T03:44:29.417Z",
   "locale": "ja-JP",
   "sourceStatus": "active-source",
-  "nodesScanned": 38,
-  "totalCandidatePhrases": 782,
-  "totalUsableCandidatePhrases": 643,
-  "totalReviewCandidatePhrases": 104,
-  "totalLowSignalCandidatePhrases": 35,
+  "nodesScanned": 44,
+  "totalCandidatePhrases": 850,
+  "totalUsableCandidatePhrases": 704,
+  "totalReviewCandidatePhrases": 108,
+  "totalLowSignalCandidatePhrases": 38,
   "clusterHints": {
-    "meaning/ikigai": 6,
+    "meaning/ikigai": 7,
     "study/school-refusal": 1
   },
   "rows": [
@@ -43,7 +43,6 @@
         "人生 どう生きるべきか",
         "われわれはいかに働き どう生きるべきか",
         "50代 どう生きるべきか",
-        "生きがいとは",
         "生き甲斐とは",
         "生きがいとは 例",
         "生きがいとは何か",
@@ -52,6 +51,7 @@
         "生き甲斐とは何か",
         "生きがいとはなにか",
         "生きがいとは 本",
+        "生きがいとは何",
         "生甲斐とは"
       ],
       "candidatePhrases": [
@@ -78,6 +78,7 @@
         "生き甲斐とは何か",
         "生きがいとはなにか",
         "生きがいとは 本",
+        "生きがいとは何",
         "生甲斐とは"
       ],
       "candidateReview": [
@@ -278,6 +279,16 @@
           ]
         },
         {
+          "phrase": "生きがいとは何",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": [
+            "meaning/ikigai"
+          ]
+        },
+        {
           "phrase": "生甲斐とは",
           "status": "review",
           "reasons": [
@@ -310,6 +321,7 @@
         "生き甲斐とは何か",
         "生きがいとはなにか",
         "生きがいとは 本",
+        "生きがいとは何",
         "生甲斐とは"
       ],
       "lowSignalCandidatePhrases": [
@@ -317,7 +329,7 @@
         "どう生きるべきか 英語"
       ],
       "clusterHints": {
-        "meaning/ikigai": 6
+        "meaning/ikigai": 7
       },
       "errors": []
     },
@@ -601,6 +613,7 @@
           "phrase": "お金 幸せ 名言",
           "status": "review",
           "reasons": [
+            "reference or concept query",
             "reference or concept query"
           ],
           "clusterHints": []
@@ -829,6 +842,7 @@
           "phrase": "成功とは何か 名言",
           "status": "review",
           "reasons": [
+            "reference or concept query",
             "reference or concept query"
           ],
           "clusterHints": []
@@ -853,6 +867,7 @@
           "phrase": "成功とは 名言",
           "status": "review",
           "reasons": [
+            "reference or concept query",
             "reference or concept query"
           ],
           "clusterHints": []
@@ -1062,6 +1077,7 @@
           "phrase": "自由とは 名言",
           "status": "review",
           "reasons": [
+            "reference or concept query",
             "reference or concept query"
           ],
           "clusterHints": []
@@ -1227,6 +1243,190 @@
         "自由に生きたい 英語",
         "自分らしく生きたい 英語"
       ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "route": "/love/impatient",
+      "slot": "love/impatient",
+      "axis": "worry",
+      "sourceQueries": [
+        "恋愛 焦る",
+        "LINE 返信 待てない",
+        "好きな人 返信 遅い 不安",
+        "告白 するべきか 待つべきか"
+      ],
+      "baseQueries": [
+        "恋愛 焦る",
+        "LINE 返信 待てない",
+        "好きな人 返信 遅い 不安",
+        "告白 するべきか 待つべきか"
+      ],
+      "googleSuggestions": [
+        "恋愛 焦る",
+        "恋愛 焦る 男",
+        "恋愛 焦るな",
+        "恋愛 焦ると失敗",
+        "恋愛 焦る 心理",
+        "恋愛 焦る 女",
+        "恋愛 焦る必要はない",
+        "恋愛 焦る と は",
+        "恋愛 焦る 年齢",
+        "恋愛 焦る 知恵袋",
+        "line 返信 待てない",
+        "line 返信 待てない人",
+        "好きな人 返信 遅い 不安"
+      ],
+      "candidatePhrases": [
+        "恋愛 焦る",
+        "LINE 返信 待てない",
+        "好きな人 返信 遅い 不安",
+        "告白 するべきか 待つべきか",
+        "恋愛 焦る 男",
+        "恋愛 焦るな",
+        "恋愛 焦ると失敗",
+        "恋愛 焦る 心理",
+        "恋愛 焦る 女",
+        "恋愛 焦る必要はない",
+        "恋愛 焦る と は",
+        "恋愛 焦る 年齢",
+        "恋愛 焦る 知恵袋",
+        "line 返信 待てない人"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "恋愛 焦る",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "LINE 返信 待てない",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "好きな人 返信 遅い 不安",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "告白 するべきか 待つべきか",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "恋愛 焦る 男",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "恋愛 焦るな",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "恋愛 焦ると失敗",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "恋愛 焦る 心理",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "恋愛 焦る 女",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "恋愛 焦る必要はない",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "恋愛 焦る と は",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "恋愛 焦る 年齢",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "恋愛 焦る 知恵袋",
+          "status": "review",
+          "reasons": [
+            "platform-specific query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "line 返信 待てない人",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "恋愛 焦る",
+        "LINE 返信 待てない",
+        "好きな人 返信 遅い 不安",
+        "告白 するべきか 待つべきか",
+        "恋愛 焦る 男",
+        "恋愛 焦るな",
+        "恋愛 焦ると失敗",
+        "恋愛 焦る 心理",
+        "恋愛 焦る 女",
+        "恋愛 焦る必要はない",
+        "恋愛 焦る と は",
+        "恋愛 焦る 年齢",
+        "line 返信 待てない人"
+      ],
+      "reviewCandidatePhrases": [
+        "恋愛 焦る 知恵袋"
+      ],
+      "lowSignalCandidatePhrases": [],
       "clusterHints": {},
       "errors": []
     },
@@ -2075,6 +2275,235 @@
       ],
       "reviewCandidatePhrases": [],
       "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "route": "/love/should-give-up",
+      "slot": "love/should-give-up",
+      "axis": "worry",
+      "sourceQueries": [
+        "好きな人 諦めるべきか",
+        "恋愛 諦める タイミング",
+        "諦めるべきか待つべきか",
+        "片思い 諦められない"
+      ],
+      "baseQueries": [
+        "好きな人 諦めるべきか",
+        "恋愛 諦める タイミング",
+        "諦めるべきか待つべきか",
+        "片思い 諦められない"
+      ],
+      "googleSuggestions": [
+        "好きな人 諦めるべきか",
+        "好きな人 諦めるべきか診断",
+        "好きな人 諦めるべきか タロット",
+        "好きな人 諦めるべきか 占い",
+        "好きな人 諦めるべきか 知恵袋",
+        "恋愛 諦める タイミング",
+        "恋愛 諦める べき タイミング",
+        "職場 恋愛 諦める タイミング",
+        "片思い 諦められない",
+        "片思い 諦められない 曲",
+        "片思い 諦められない男",
+        "片思い 諦められない 女",
+        "片思い 諦められない 歌",
+        "片思い 諦められない 占い",
+        "片思い 振 られた 諦められない",
+        "片思い 失恋 諦められない",
+        "片思い 脈なし 諦められない"
+      ],
+      "candidatePhrases": [
+        "好きな人 諦めるべきか",
+        "恋愛 諦める タイミング",
+        "諦めるべきか待つべきか",
+        "片思い 諦められない",
+        "好きな人 諦めるべきか診断",
+        "好きな人 諦めるべきか タロット",
+        "好きな人 諦めるべきか 占い",
+        "好きな人 諦めるべきか 知恵袋",
+        "恋愛 諦める べき タイミング",
+        "職場 恋愛 諦める タイミング",
+        "片思い 諦められない 曲",
+        "片思い 諦められない男",
+        "片思い 諦められない 女",
+        "片思い 諦められない 歌",
+        "片思い 諦められない 占い",
+        "片思い 振 られた 諦められない",
+        "片思い 失恋 諦められない",
+        "片思い 脈なし 諦められない"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "好きな人 諦めるべきか",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "恋愛 諦める タイミング",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "諦めるべきか待つべきか",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "片思い 諦められない",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "好きな人 諦めるべきか診断",
+          "status": "low-signal",
+          "reasons": [
+            "fortune-telling / diagnosis drift"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "好きな人 諦めるべきか タロット",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "好きな人 諦めるべきか 占い",
+          "status": "low-signal",
+          "reasons": [
+            "fortune-telling / diagnosis drift"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "好きな人 諦めるべきか 知恵袋",
+          "status": "review",
+          "reasons": [
+            "platform-specific query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "恋愛 諦める べき タイミング",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "職場 恋愛 諦める タイミング",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "片思い 諦められない 曲",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "片思い 諦められない男",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "片思い 諦められない 女",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "片思い 諦められない 歌",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "片思い 諦められない 占い",
+          "status": "low-signal",
+          "reasons": [
+            "fortune-telling / diagnosis drift"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "片思い 振 られた 諦められない",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "片思い 失恋 諦められない",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "片思い 脈なし 諦められない",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "好きな人 諦めるべきか",
+        "恋愛 諦める タイミング",
+        "諦めるべきか待つべきか",
+        "片思い 諦められない",
+        "好きな人 諦めるべきか タロット",
+        "恋愛 諦める べき タイミング",
+        "職場 恋愛 諦める タイミング",
+        "片思い 諦められない 曲",
+        "片思い 諦められない男",
+        "片思い 諦められない 女",
+        "片思い 諦められない 歌",
+        "片思い 振 られた 諦められない",
+        "片思い 失恋 諦められない",
+        "片思い 脈なし 諦められない"
+      ],
+      "reviewCandidatePhrases": [
+        "好きな人 諦めるべきか 知恵袋"
+      ],
+      "lowSignalCandidatePhrases": [
+        "好きな人 諦めるべきか診断",
+        "好きな人 諦めるべきか 占い",
+        "片思い 諦められない 占い"
+      ],
       "clusterHints": {},
       "errors": []
     },
@@ -7498,6 +7927,7 @@
           "phrase": "受験 不安 名言",
           "status": "review",
           "reasons": [
+            "reference or concept query",
             "reference or concept query"
           ],
           "clusterHints": []
@@ -8083,6 +8513,7 @@
           "phrase": "病気 不安 名言",
           "status": "review",
           "reasons": [
+            "reference or concept query",
             "reference or concept query"
           ],
           "clusterHints": []
@@ -8828,6 +9259,75 @@
       "lowSignalCandidatePhrases": [
         "進路 に 迷う 英語"
       ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "route": "/debate/white-lie",
+      "slot": "debate/white-lie",
+      "axis": "debate",
+      "sourceQueries": [
+        "優しい嘘 許される",
+        "嘘 ついてもいい時",
+        "相手を傷つけない 嘘",
+        "白い嘘 倫理"
+      ],
+      "baseQueries": [
+        "優しい嘘 許される",
+        "嘘 ついてもいい時",
+        "相手を傷つけない 嘘",
+        "白い嘘 倫理"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "優しい嘘 許される",
+        "嘘 ついてもいい時",
+        "相手を傷つけない 嘘",
+        "白い嘘 倫理"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "優しい嘘 許される",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "嘘 ついてもいい時",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "相手を傷つけない 嘘",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "白い嘘 倫理",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "優しい嘘 許される",
+        "嘘 ついてもいい時",
+        "相手を傷つけない 嘘",
+        "白い嘘 倫理"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
       "clusterHints": {},
       "errors": []
     },
@@ -9794,6 +10294,431 @@
       "reviewCandidatePhrases": [
         "リモートワーク 生産性 論文"
       ],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "route": "/debate/retirement-age",
+      "slot": "debate/retirement-age",
+      "axis": "debate",
+      "sourceQueries": [
+        "定年延長 賛成 反対",
+        "定年延長 メリット デメリット",
+        "高齢者 雇用 若者 仕事",
+        "年金 定年延長 必要"
+      ],
+      "baseQueries": [
+        "定年延長 賛成 反対",
+        "定年延長 メリット デメリット",
+        "高齢者 雇用 若者 仕事",
+        "年金 定年延長 必要"
+      ],
+      "googleSuggestions": [
+        "定年延長 賛成 反対",
+        "定年延長 メリット デメリット",
+        "定年延長 再雇用 メリット デメリット",
+        "定年延長 社員 メリット デメリット",
+        "公務員 定年延長 メリット デメリット"
+      ],
+      "candidatePhrases": [
+        "定年延長 賛成 反対",
+        "定年延長 メリット デメリット",
+        "高齢者 雇用 若者 仕事",
+        "年金 定年延長 必要",
+        "定年延長 再雇用 メリット デメリット",
+        "定年延長 社員 メリット デメリット",
+        "公務員 定年延長 メリット デメリット"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "定年延長 賛成 反対",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "定年延長 メリット デメリット",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "高齢者 雇用 若者 仕事",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "年金 定年延長 必要",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "定年延長 再雇用 メリット デメリット",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "定年延長 社員 メリット デメリット",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "公務員 定年延長 メリット デメリット",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "定年延長 賛成 反対",
+        "定年延長 メリット デメリット",
+        "高齢者 雇用 若者 仕事",
+        "年金 定年延長 必要",
+        "定年延長 再雇用 メリット デメリット",
+        "定年延長 社員 メリット デメリット",
+        "公務員 定年延長 メリット デメリット"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "route": "/debate/employment-contract",
+      "slot": "debate/employment-contract",
+      "axis": "debate",
+      "sourceQueries": [
+        "正社員 契約社員 格差",
+        "契約社員 不公平",
+        "同一労働同一賃金 契約社員",
+        "非正規雇用 問題"
+      ],
+      "baseQueries": [
+        "正社員 契約社員 格差",
+        "契約社員 不公平",
+        "同一労働同一賃金 契約社員",
+        "非正規雇用 問題"
+      ],
+      "googleSuggestions": [
+        "正社員 契約社員 格差",
+        "同一労働同一賃金 契約社員",
+        "同一労働同一賃金 契約社員 賞与",
+        "同一労働同一賃金 契約社員同士",
+        "同一労働同一賃金 契約社員 正社員",
+        "契約社員 ボーナス 同一労働同一賃金",
+        "契約社員 退職金 同一労働同一賃金",
+        "非正規雇用 問題点",
+        "非正規雇用 問題",
+        "非正規雇用 問題点 解決策",
+        "非正規雇用 問題 解決策",
+        "非正規雇用 問題点 厚生労働省",
+        "非正規雇用 問題 原因",
+        "日本 非正規雇用 問題",
+        "女性 非正規雇用 問題",
+        "正規雇用 非正規雇用 問題",
+        "正規雇用 非正規雇用 問題点"
+      ],
+      "candidatePhrases": [
+        "正社員 契約社員 格差",
+        "契約社員 不公平",
+        "同一労働同一賃金 契約社員",
+        "非正規雇用 問題",
+        "同一労働同一賃金 契約社員 賞与",
+        "同一労働同一賃金 契約社員同士",
+        "同一労働同一賃金 契約社員 正社員",
+        "契約社員 ボーナス 同一労働同一賃金",
+        "契約社員 退職金 同一労働同一賃金",
+        "非正規雇用 問題点",
+        "非正規雇用 問題点 解決策",
+        "非正規雇用 問題 解決策",
+        "非正規雇用 問題点 厚生労働省",
+        "非正規雇用 問題 原因",
+        "日本 非正規雇用 問題",
+        "女性 非正規雇用 問題",
+        "正規雇用 非正規雇用 問題",
+        "正規雇用 非正規雇用 問題点"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "正社員 契約社員 格差",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "契約社員 不公平",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "同一労働同一賃金 契約社員",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "非正規雇用 問題",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "同一労働同一賃金 契約社員 賞与",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "同一労働同一賃金 契約社員同士",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "同一労働同一賃金 契約社員 正社員",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "契約社員 ボーナス 同一労働同一賃金",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "契約社員 退職金 同一労働同一賃金",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "非正規雇用 問題点",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "非正規雇用 問題点 解決策",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "非正規雇用 問題 解決策",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "非正規雇用 問題点 厚生労働省",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "非正規雇用 問題 原因",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "日本 非正規雇用 問題",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "女性 非正規雇用 問題",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "正規雇用 非正規雇用 問題",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "正規雇用 非正規雇用 問題点",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "正社員 契約社員 格差",
+        "契約社員 不公平",
+        "同一労働同一賃金 契約社員",
+        "非正規雇用 問題",
+        "同一労働同一賃金 契約社員 賞与",
+        "同一労働同一賃金 契約社員同士",
+        "同一労働同一賃金 契約社員 正社員",
+        "契約社員 ボーナス 同一労働同一賃金",
+        "契約社員 退職金 同一労働同一賃金",
+        "非正規雇用 問題点",
+        "非正規雇用 問題点 解決策",
+        "非正規雇用 問題 解決策",
+        "非正規雇用 問題点 厚生労働省",
+        "非正規雇用 問題 原因",
+        "女性 非正規雇用 問題",
+        "正規雇用 非正規雇用 問題",
+        "正規雇用 非正規雇用 問題点"
+      ],
+      "reviewCandidatePhrases": [
+        "日本 非正規雇用 問題"
+      ],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "route": "/debate/school-corporal-punishment",
+      "slot": "debate/school-corporal-punishment",
+      "axis": "debate",
+      "sourceQueries": [
+        "学校 体罰 賛成 反対",
+        "体罰 教育 効果",
+        "教師 懲戒 体罰 違い",
+        "体罰 禁止 教育"
+      ],
+      "baseQueries": [
+        "学校 体罰 賛成 反対",
+        "体罰 教育 効果",
+        "教師 懲戒 体罰 違い",
+        "体罰 禁止 教育"
+      ],
+      "googleSuggestions": [
+        "体罰 の 禁止 学校 教育 法",
+        "教育 令 体罰 禁止"
+      ],
+      "candidatePhrases": [
+        "学校 体罰 賛成 反対",
+        "体罰 教育 効果",
+        "教師 懲戒 体罰 違い",
+        "体罰 禁止 教育",
+        "体罰 の 禁止 学校 教育 法",
+        "教育 令 体罰 禁止"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "学校 体罰 賛成 反対",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "体罰 教育 効果",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "教師 懲戒 体罰 違い",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "体罰 禁止 教育",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "体罰 の 禁止 学校 教育 法",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "教育 令 体罰 禁止",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "学校 体罰 賛成 反対",
+        "体罰 教育 効果",
+        "教師 懲戒 体罰 違い",
+        "体罰 禁止 教育",
+        "体罰 の 禁止 学校 教育 法",
+        "教育 令 体罰 禁止"
+      ],
+      "reviewCandidatePhrases": [],
       "lowSignalCandidatePhrases": [],
       "clusterHints": {},
       "errors": []

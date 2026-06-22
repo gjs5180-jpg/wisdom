@@ -8,23 +8,23 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 
 ## Summary
 
-- collectedAt: 2026-06-21T13:20:41.727Z
-- nodes scanned: 38
-- candidate phrases: 746
-- usable: 691
-- review: 41
-- low-signal: 14
+- collectedAt: 2026-06-22T05:42:37.480Z
+- nodes scanned: 44
+- candidate phrases: 790
+- usable: 732
+- review: 43
+- low-signal: 15
 
 ## Potential New Cluster Hints
 
 - `relationships/ghosting`: 15
 - `work/remote-work-culture`: 12
 - `family/late-independence`: 10
-- `debate/childfree-identity`: 2
+- `debate/childfree-identity`: 4
+- `money/precarity`: 2
 - `study/exam-pressure`: 2
 - `family/family-of-origin`: 1
 - `meaning/existential-vacuum`: 1
-- `money/precarity`: 1
 
 ## /thought/good-life
 
@@ -43,13 +43,13 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 - sentido de la vida
 - que es una buena vida saludable
 - que es una buena vida segun aristoteles
+- que es una buena vida sexual
 - que es una buena vida para socrates
 - que es para ti una buena vida
 - que es una vida buena y feliz
 - que es tener una buena vida
 - que es vivir una buena vida
 - que es una persona buena vida
-- que es buena vida segun la filosofia
 - cómo debe vivir un cristiano
 - cómo debe vivir un buen cristiano
 - cómo debe vivir un verdadero cristiano
@@ -175,6 +175,22 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 - yo quiero vivir libre y morir ciudadano significado
 - como ser yo mismo libro
 
+## /love/impatient
+
+- axis: worry
+- base queries: impaciente en el amor, ansiedad esperando respuesta, por qué soy tan impaciente en una relación, confesarme o esperar
+- google suggestions: 0
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- impaciente en el amor
+- ansiedad esperando respuesta
+- por qué soy tan impaciente en una relación
+- confesarme o esperar
+
 ## /love/cant-confess
 
 - axis: worry
@@ -280,6 +296,24 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 - lo quiero pero somos muy distintos
 - valores para casarse
 - valores para casarse por el civil
+
+## /love/should-give-up
+
+- axis: worry
+- base queries: seguir intentando o dejar ir, cuándo dejar de luchar por una relación, debería rendirme con alguien, miedo a arrepentirme de dejarlo
+- google suggestions: 2
+- usable candidates: 6
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- seguir intentando o dejar ir
+- cuándo dejar de luchar por una relación
+- debería rendirme con alguien
+- miedo a arrepentirme de dejarlo
+- dejar ir o seguir intentando
+- cuando dejar de luchar por una relación
 
 ## /breakup/lingering
 
@@ -1114,6 +1148,37 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 
 - no sé qué hacer con mi vida en inglés
 
+## /debate/white-lie
+
+- axis: debate
+- base queries: mentiras piadosas, mentiras piadosas en pareja, mentir para no hacer daño, mentiras buenas debate
+- google suggestions: 12
+- usable candidates: 10
+- review candidates: 2
+- low-signal candidates: 1
+
+### Usable candidates
+
+- mentiras piadosas
+- mentiras piadosas en pareja
+- mentir para no hacer daño
+- mentiras buenas debate
+- mentiras piadosas dillom
+- mentiras piadosas ejemplos
+- mentiras piadosas pelicula
+- mentiras piadosas sabina
+- mentiras piadosas acordes
+- mentiras piadosas tito
+
+### Review candidates
+
+- mentiras piadosas significado
+- mentiras piadosas dillom significado
+
+### Low-signal candidates
+
+- mentiras piadosas letra
+
 ## /debate/ai-replacement
 
 - axis: debate
@@ -1178,7 +1243,7 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 - usable candidates: 15
 - review candidates: 1
 - low-signal candidates: 0
-- cluster hints: debate/childfree-identity 2
+- cluster hints: debate/childfree-identity 4
 
 ### Usable candidates
 
@@ -1251,4 +1316,62 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 ### Review candidates
 
 - ventajas y desventajas del teletrabajo pdf
+
+## /debate/retirement-age
+
+- axis: debate
+- base queries: subir la edad de jubilación debate, edad de jubilación pros y contras, trabajar más años pensión, retrasar jubilación jóvenes
+- google suggestions: 0
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- subir la edad de jubilación debate
+- edad de jubilación pros y contras
+- trabajar más años pensión
+- retrasar jubilación jóvenes
+
+## /debate/employment-contract
+
+- axis: debate
+- base queries: contrato temporal o indefinido, trabajador temporal derechos, precariedad laboral contrato temporal, contrato fijo o temporal debate
+- google suggestions: 10
+- usable candidates: 13
+- review candidates: 0
+- low-signal candidates: 0
+- cluster hints: money/precarity 1
+
+### Usable candidates
+
+- contrato temporal o indefinido
+- trabajador temporal derechos
+- precariedad laboral contrato temporal
+- contrato fijo o temporal debate
+- contrato de relevo temporal o indefinido
+- diferencia entre contrato temporal o indefinido
+- contrato temporal e indefinido
+- contrato temporal a indefinido antiguedad
+- contrato temporal a indefinido finiquito
+- empleada de hogar contrato temporal o indefinido
+- que es mejor contrato temporal o indefinido
+- contrato fijo discontinuo es temporal o indefinido
+- contrato indefinido es temporal o fijo
+
+## /debate/school-corporal-punishment
+
+- axis: debate
+- base queries: castigo corporal en la escuela debate, castigo físico escolar pros y contras, disciplina escolar sin violencia, es efectivo el castigo corporal
+- google suggestions: 0
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- castigo corporal en la escuela debate
+- castigo físico escolar pros y contras
+- disciplina escolar sin violencia
+- es efectivo el castigo corporal
 

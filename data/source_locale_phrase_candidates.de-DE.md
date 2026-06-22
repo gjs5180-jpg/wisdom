@@ -8,11 +8,11 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 
 ## Summary
 
-- collectedAt: 2026-06-21T16:24:23.626Z
-- nodes scanned: 38
-- candidate phrases: 761
-- usable: 690
-- review: 45
+- collectedAt: 2026-06-22T05:44:44.976Z
+- nodes scanned: 44
+- candidate phrases: 817
+- usable: 745
+- review: 46
 - low-signal: 26
 
 ## Potential New Cluster Hints
@@ -190,6 +190,22 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 
 - ich selbst sein englisch
 
+## /love/impatient
+
+- axis: worry
+- base queries: ungeduldig in der liebe, warten auf antwort angst, warum bin ich so ungeduldig beziehung, soll ich gestehen oder warten
+- google suggestions: 0
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- ungeduldig in der liebe
+- warten auf antwort angst
+- warum bin ich so ungeduldig beziehung
+- soll ich gestehen oder warten
+
 ## /love/cant-confess
 
 - axis: worry
@@ -282,6 +298,23 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 - werte passen nicht zusammen
 - liebe aber unterschiedliche lebensziele
 - werte vor ehe
+
+## /love/should-give-up
+
+- axis: worry
+- base queries: soll ich ihn aufgeben, weiterkämpfen oder loslassen, wann sollte man eine beziehung aufgeben, angst es zu bereuen loszulassen
+- google suggestions: 3
+- usable candidates: 5
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- soll ich ihn aufgeben
+- weiterkämpfen oder loslassen
+- wann sollte man eine beziehung aufgeben
+- angst es zu bereuen loszulassen
+- teste dich soll ich ihn aufgeben
 
 ## /breakup/lingering
 
@@ -564,7 +597,7 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 - axis: worry
 - base queries: ich will nicht arbeiten, keine lust auf arbeit, ich hasse meinen job, arbeiten müssen aber nicht wollen
 - google suggestions: 30
-- usable candidates: 28
+- usable candidates: 29
 - review candidates: 3
 - low-signal candidates: 0
 
@@ -584,6 +617,7 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 - keine lust auf arbeit was tun
 - keine lust auf arbeit sprüche
 - keine lust auf arbeit lustig
+- keine lust auf arbeiten
 - keine lust auf arbeit lied
 - keine lust auf arbeit werde lehrer
 - keine lust auf arbeit bilder
@@ -593,7 +627,6 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 - ich hasse meinen job kann aber nicht kündigen
 - ich hasse meinen job öffentlicher dienst
 - ich hasse meinen job als erzieherin
-- ich hasse meinen job was tun
 
 ### Review candidates
 
@@ -1166,6 +1199,23 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 - keine ahnung beruf
 - keine ahnung was beruflich machen
 
+## /debate/white-lie
+
+- axis: debate
+- base queries: notlüge erlaubt, notlüge beziehung, lügen um jemanden zu schützen, notlüge moralisch
+- google suggestions: 4
+- usable candidates: 5
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- notlüge erlaubt
+- notlüge beziehung
+- lügen um jemanden zu schützen
+- notlüge moralisch
+- darf man lügen um jemanden zu schützen
+
 ## /debate/ai-replacement
 
 - axis: debate
@@ -1319,4 +1369,84 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 - homeoffice oder büroarbeit
 - homeoffice oder büro was ist für beschäftigte günstiger
 - steuererklärung homeoffice oder büro
+
+## /debate/retirement-age
+
+- axis: debate
+- base queries: renteneintrittsalter erhöhen, rente mit 67 debatte, länger arbeiten rente, renteneintrittsalter pro contra
+- google suggestions: 20
+- usable candidates: 21
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- renteneintrittsalter erhöhen
+- rente mit 67 debatte
+- länger arbeiten rente
+- renteneintrittsalter pro contra
+- renteneintrittsalter erhöhen deutschland
+- renteneintrittsalter erhöhen pro contra
+- renteneintrittsalter erhöhen cdu
+- renteneintrittsalter erhöhen ab wann
+- renteneintrittsalter erhöhen merz
+- afd renteneintrittsalter erhöhen
+- cdu will renteneintrittsalter erhöhen
+- länger arbeiten rente erhöhen
+- länger arbeiten rentenpunkte
+- länger arbeiten rente prämie
+- länger arbeiten rentenerhöhung
+- freiwillig länger arbeiten rente
+- länger arbeiten mehr rente
+- länger arbeiten statt rente
+- länger arbeiten nach renteneintrittsalter
+- länger arbeiten als renteneintrittsalter
+- späteres renteneintrittsalter pro contra
+
+## /debate/employment-contract
+
+- axis: debate
+- base queries: befristeter arbeitsvertrag nachteile, befristung oder festanstellung, gleicher lohn für gleiche arbeit, leiharbeit werkvertrag unterschied
+- google suggestions: 15
+- usable candidates: 15
+- review candidates: 1
+- low-signal candidates: 0
+
+### Usable candidates
+
+- befristeter arbeitsvertrag nachteile
+- befristung oder festanstellung
+- gleicher lohn für gleiche arbeit
+- leiharbeit werkvertrag unterschied
+- befristeter arbeitsvertrag nachteile arbeitnehmer
+- befristeter arbeitsvertrag vorteile nachteile
+- nachteile befristeter arbeitsvertrag arbeitgeber
+- gleicher lohn für gleiche arbeit schweiz
+- gleicher lohn für gleiche arbeit gleiches geschlecht
+- gleicher lohn für gleiche arbeit männer
+- gleicher lohn für gleiche arbeit tarifvertrag
+- gleicher lohn für gleiche arbeit aspekte b2
+- gleicher lohn für gleiche arbeit österreich
+- gleicher lohn für gleiche arbeit minijob
+- gleicher lohn für gleiche arbeit am gleichen ort
+
+### Review candidates
+
+- gleicher lohn für gleiche arbeit gesetz
+
+## /debate/school-corporal-punishment
+
+- axis: debate
+- base queries: körperliche bestrafung schule debatte, körperstrafe in der schule pro contra, ist körperliche bestrafung wirksam, disziplin ohne strafe schule
+- google suggestions: 0
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- körperliche bestrafung schule debatte
+- körperstrafe in der schule pro contra
+- ist körperliche bestrafung wirksam
+- disziplin ohne strafe schule
 

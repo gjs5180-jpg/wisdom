@@ -1,11 +1,11 @@
 {
-  "collectedAt": "2026-06-21T16:24:23.626Z",
+  "collectedAt": "2026-06-22T05:44:44.976Z",
   "locale": "de-DE",
   "sourceStatus": "active-source",
-  "nodesScanned": 38,
-  "totalCandidatePhrases": 761,
-  "totalUsableCandidatePhrases": 690,
-  "totalReviewCandidatePhrases": 45,
+  "nodesScanned": 44,
+  "totalCandidatePhrases": 817,
+  "totalUsableCandidatePhrases": 745,
+  "totalReviewCandidatePhrases": 46,
   "totalLowSignalCandidatePhrases": 26,
   "clusterHints": {
     "relationships/ghosting": 9,
@@ -1523,6 +1523,75 @@
     },
     {
       "locale": "de-DE",
+      "route": "/love/impatient",
+      "slot": "love/impatient",
+      "axis": "worry",
+      "sourceQueries": [
+        "ungeduldig in der liebe",
+        "warten auf antwort angst",
+        "warum bin ich so ungeduldig beziehung",
+        "soll ich gestehen oder warten"
+      ],
+      "baseQueries": [
+        "ungeduldig in der liebe",
+        "warten auf antwort angst",
+        "warum bin ich so ungeduldig beziehung",
+        "soll ich gestehen oder warten"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "ungeduldig in der liebe",
+        "warten auf antwort angst",
+        "warum bin ich so ungeduldig beziehung",
+        "soll ich gestehen oder warten"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "ungeduldig in der liebe",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "warten auf antwort angst",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "warum bin ich so ungeduldig beziehung",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "soll ich gestehen oder warten",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "ungeduldig in der liebe",
+        "warten auf antwort angst",
+        "warum bin ich so ungeduldig beziehung",
+        "soll ich gestehen oder warten"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "de-DE",
       "route": "/love/cant-confess",
       "slot": "love/cant-confess",
       "axis": "worry",
@@ -2061,6 +2130,89 @@
         "werte passen nicht zusammen",
         "liebe aber unterschiedliche lebensziele",
         "werte vor ehe"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "de-DE",
+      "route": "/love/should-give-up",
+      "slot": "love/should-give-up",
+      "axis": "worry",
+      "sourceQueries": [
+        "soll ich ihn aufgeben",
+        "weiterkämpfen oder loslassen",
+        "wann sollte man eine beziehung aufgeben",
+        "angst es zu bereuen loszulassen"
+      ],
+      "baseQueries": [
+        "soll ich ihn aufgeben",
+        "weiterkämpfen oder loslassen",
+        "wann sollte man eine beziehung aufgeben",
+        "angst es zu bereuen loszulassen"
+      ],
+      "googleSuggestions": [
+        "soll ich ihn aufgeben",
+        "teste dich soll ich ihn aufgeben",
+        "wann sollte man eine beziehung aufgeben"
+      ],
+      "candidatePhrases": [
+        "soll ich ihn aufgeben",
+        "weiterkämpfen oder loslassen",
+        "wann sollte man eine beziehung aufgeben",
+        "angst es zu bereuen loszulassen",
+        "teste dich soll ich ihn aufgeben"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "soll ich ihn aufgeben",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "weiterkämpfen oder loslassen",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "wann sollte man eine beziehung aufgeben",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "angst es zu bereuen loszulassen",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "teste dich soll ich ihn aufgeben",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "soll ich ihn aufgeben",
+        "weiterkämpfen oder loslassen",
+        "wann sollte man eine beziehung aufgeben",
+        "angst es zu bereuen loszulassen",
+        "teste dich soll ich ihn aufgeben"
       ],
       "reviewCandidatePhrases": [],
       "lowSignalCandidatePhrases": [],
@@ -4117,10 +4269,10 @@
         "ich will nicht arbeiten gehen",
         "ich will nicht arbeiten lustig",
         "ich will nicht arbeiten reddit",
-        "keine lust auf arbeit",
         "keine lust auf arbeit was tun",
         "keine lust auf arbeit sprüche",
         "keine lust auf arbeit lustig",
+        "keine lust auf arbeiten",
         "keine lust auf arbeit lied",
         "keine lust auf arbeit werde lehrer",
         "keine lust auf arbeit bilder",
@@ -4155,6 +4307,7 @@
         "keine lust auf arbeit was tun",
         "keine lust auf arbeit sprüche",
         "keine lust auf arbeit lustig",
+        "keine lust auf arbeiten",
         "keine lust auf arbeit lied",
         "keine lust auf arbeit werde lehrer",
         "keine lust auf arbeit bilder",
@@ -4303,6 +4456,14 @@
           "clusterHints": []
         },
         {
+          "phrase": "keine lust auf arbeiten",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
           "phrase": "keine lust auf arbeit lied",
           "status": "usable",
           "reasons": [
@@ -4438,6 +4599,7 @@
         "keine lust auf arbeit was tun",
         "keine lust auf arbeit sprüche",
         "keine lust auf arbeit lustig",
+        "keine lust auf arbeiten",
         "keine lust auf arbeit lied",
         "keine lust auf arbeit werde lehrer",
         "keine lust auf arbeit bilder",
@@ -8494,6 +8656,90 @@
     },
     {
       "locale": "de-DE",
+      "route": "/debate/white-lie",
+      "slot": "debate/white-lie",
+      "axis": "debate",
+      "sourceQueries": [
+        "notlüge erlaubt",
+        "notlüge beziehung",
+        "lügen um jemanden zu schützen",
+        "notlüge moralisch"
+      ],
+      "baseQueries": [
+        "notlüge erlaubt",
+        "notlüge beziehung",
+        "lügen um jemanden zu schützen",
+        "notlüge moralisch"
+      ],
+      "googleSuggestions": [
+        "notlüge erlaubt",
+        "notlüge beziehung",
+        "lügen um jemanden zu schützen",
+        "darf man lügen um jemanden zu schützen"
+      ],
+      "candidatePhrases": [
+        "notlüge erlaubt",
+        "notlüge beziehung",
+        "lügen um jemanden zu schützen",
+        "notlüge moralisch",
+        "darf man lügen um jemanden zu schützen"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "notlüge erlaubt",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "notlüge beziehung",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "lügen um jemanden zu schützen",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "notlüge moralisch",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "darf man lügen um jemanden zu schützen",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "notlüge erlaubt",
+        "notlüge beziehung",
+        "lügen um jemanden zu schützen",
+        "notlüge moralisch",
+        "darf man lügen um jemanden zu schützen"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "de-DE",
       "route": "/debate/ai-replacement",
       "slot": "debate/ai-replacement",
       "axis": "debate",
@@ -9715,6 +9961,541 @@
       "clusterHints": {
         "work/remote-work-culture": 28
       },
+      "errors": []
+    },
+    {
+      "locale": "de-DE",
+      "route": "/debate/retirement-age",
+      "slot": "debate/retirement-age",
+      "axis": "debate",
+      "sourceQueries": [
+        "renteneintrittsalter erhöhen",
+        "rente mit 67 debatte",
+        "länger arbeiten rente",
+        "renteneintrittsalter pro contra"
+      ],
+      "baseQueries": [
+        "renteneintrittsalter erhöhen",
+        "rente mit 67 debatte",
+        "länger arbeiten rente",
+        "renteneintrittsalter pro contra"
+      ],
+      "googleSuggestions": [
+        "renteneintrittsalter erhöhen",
+        "renteneintrittsalter erhöhen deutschland",
+        "renteneintrittsalter erhöhen pro contra",
+        "renteneintrittsalter erhöhen cdu",
+        "renteneintrittsalter erhöhen ab wann",
+        "renteneintrittsalter erhöhen merz",
+        "afd renteneintrittsalter erhöhen",
+        "cdu will renteneintrittsalter erhöhen",
+        "länger arbeiten rente",
+        "länger arbeiten rente erhöhen",
+        "länger arbeiten rentenpunkte",
+        "länger arbeiten rente prämie",
+        "länger arbeiten rentenerhöhung",
+        "freiwillig länger arbeiten rente",
+        "länger arbeiten mehr rente",
+        "länger arbeiten statt rente",
+        "länger arbeiten nach renteneintrittsalter",
+        "länger arbeiten als renteneintrittsalter",
+        "renteneintrittsalter pro contra",
+        "späteres renteneintrittsalter pro contra"
+      ],
+      "candidatePhrases": [
+        "renteneintrittsalter erhöhen",
+        "rente mit 67 debatte",
+        "länger arbeiten rente",
+        "renteneintrittsalter pro contra",
+        "renteneintrittsalter erhöhen deutschland",
+        "renteneintrittsalter erhöhen pro contra",
+        "renteneintrittsalter erhöhen cdu",
+        "renteneintrittsalter erhöhen ab wann",
+        "renteneintrittsalter erhöhen merz",
+        "afd renteneintrittsalter erhöhen",
+        "cdu will renteneintrittsalter erhöhen",
+        "länger arbeiten rente erhöhen",
+        "länger arbeiten rentenpunkte",
+        "länger arbeiten rente prämie",
+        "länger arbeiten rentenerhöhung",
+        "freiwillig länger arbeiten rente",
+        "länger arbeiten mehr rente",
+        "länger arbeiten statt rente",
+        "länger arbeiten nach renteneintrittsalter",
+        "länger arbeiten als renteneintrittsalter",
+        "späteres renteneintrittsalter pro contra"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "renteneintrittsalter erhöhen",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "rente mit 67 debatte",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "länger arbeiten rente",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "renteneintrittsalter pro contra",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "renteneintrittsalter erhöhen deutschland",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "renteneintrittsalter erhöhen pro contra",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "renteneintrittsalter erhöhen cdu",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "renteneintrittsalter erhöhen ab wann",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "renteneintrittsalter erhöhen merz",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "afd renteneintrittsalter erhöhen",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "cdu will renteneintrittsalter erhöhen",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "länger arbeiten rente erhöhen",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "länger arbeiten rentenpunkte",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "länger arbeiten rente prämie",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "länger arbeiten rentenerhöhung",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "freiwillig länger arbeiten rente",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "länger arbeiten mehr rente",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "länger arbeiten statt rente",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "länger arbeiten nach renteneintrittsalter",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "länger arbeiten als renteneintrittsalter",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "späteres renteneintrittsalter pro contra",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "renteneintrittsalter erhöhen",
+        "rente mit 67 debatte",
+        "länger arbeiten rente",
+        "renteneintrittsalter pro contra",
+        "renteneintrittsalter erhöhen deutschland",
+        "renteneintrittsalter erhöhen pro contra",
+        "renteneintrittsalter erhöhen cdu",
+        "renteneintrittsalter erhöhen ab wann",
+        "renteneintrittsalter erhöhen merz",
+        "afd renteneintrittsalter erhöhen",
+        "cdu will renteneintrittsalter erhöhen",
+        "länger arbeiten rente erhöhen",
+        "länger arbeiten rentenpunkte",
+        "länger arbeiten rente prämie",
+        "länger arbeiten rentenerhöhung",
+        "freiwillig länger arbeiten rente",
+        "länger arbeiten mehr rente",
+        "länger arbeiten statt rente",
+        "länger arbeiten nach renteneintrittsalter",
+        "länger arbeiten als renteneintrittsalter",
+        "späteres renteneintrittsalter pro contra"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "de-DE",
+      "route": "/debate/employment-contract",
+      "slot": "debate/employment-contract",
+      "axis": "debate",
+      "sourceQueries": [
+        "befristeter arbeitsvertrag nachteile",
+        "befristung oder festanstellung",
+        "gleicher lohn für gleiche arbeit",
+        "leiharbeit werkvertrag unterschied"
+      ],
+      "baseQueries": [
+        "befristeter arbeitsvertrag nachteile",
+        "befristung oder festanstellung",
+        "gleicher lohn für gleiche arbeit",
+        "leiharbeit werkvertrag unterschied"
+      ],
+      "googleSuggestions": [
+        "befristeter arbeitsvertrag nachteile",
+        "befristeter arbeitsvertrag nachteile arbeitnehmer",
+        "befristeter arbeitsvertrag vorteile nachteile",
+        "nachteile befristeter arbeitsvertrag arbeitgeber",
+        "gleicher lohn für gleiche arbeit",
+        "gleicher lohn für gleiche arbeit schweiz",
+        "gleicher lohn für gleiche arbeit gleiches geschlecht",
+        "gleicher lohn für gleiche arbeit gesetz",
+        "gleicher lohn für gleiche arbeit männer",
+        "gleicher lohn für gleiche arbeit tarifvertrag",
+        "gleicher lohn für gleiche arbeit aspekte b2",
+        "gleicher lohn für gleiche arbeit österreich",
+        "gleicher lohn für gleiche arbeit minijob",
+        "gleicher lohn für gleiche arbeit am gleichen ort",
+        "leiharbeit werkvertrag unterschied"
+      ],
+      "candidatePhrases": [
+        "befristeter arbeitsvertrag nachteile",
+        "befristung oder festanstellung",
+        "gleicher lohn für gleiche arbeit",
+        "leiharbeit werkvertrag unterschied",
+        "befristeter arbeitsvertrag nachteile arbeitnehmer",
+        "befristeter arbeitsvertrag vorteile nachteile",
+        "nachteile befristeter arbeitsvertrag arbeitgeber",
+        "gleicher lohn für gleiche arbeit schweiz",
+        "gleicher lohn für gleiche arbeit gleiches geschlecht",
+        "gleicher lohn für gleiche arbeit gesetz",
+        "gleicher lohn für gleiche arbeit männer",
+        "gleicher lohn für gleiche arbeit tarifvertrag",
+        "gleicher lohn für gleiche arbeit aspekte b2",
+        "gleicher lohn für gleiche arbeit österreich",
+        "gleicher lohn für gleiche arbeit minijob",
+        "gleicher lohn für gleiche arbeit am gleichen ort"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "befristeter arbeitsvertrag nachteile",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "befristung oder festanstellung",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "gleicher lohn für gleiche arbeit",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "leiharbeit werkvertrag unterschied",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "befristeter arbeitsvertrag nachteile arbeitnehmer",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "befristeter arbeitsvertrag vorteile nachteile",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "nachteile befristeter arbeitsvertrag arbeitgeber",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "gleicher lohn für gleiche arbeit schweiz",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "gleicher lohn für gleiche arbeit gleiches geschlecht",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "gleicher lohn für gleiche arbeit gesetz",
+          "status": "review",
+          "reasons": [
+            "legal/institutional review needed"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "gleicher lohn für gleiche arbeit männer",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "gleicher lohn für gleiche arbeit tarifvertrag",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "gleicher lohn für gleiche arbeit aspekte b2",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "gleicher lohn für gleiche arbeit österreich",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "gleicher lohn für gleiche arbeit minijob",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "gleicher lohn für gleiche arbeit am gleichen ort",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "befristeter arbeitsvertrag nachteile",
+        "befristung oder festanstellung",
+        "gleicher lohn für gleiche arbeit",
+        "leiharbeit werkvertrag unterschied",
+        "befristeter arbeitsvertrag nachteile arbeitnehmer",
+        "befristeter arbeitsvertrag vorteile nachteile",
+        "nachteile befristeter arbeitsvertrag arbeitgeber",
+        "gleicher lohn für gleiche arbeit schweiz",
+        "gleicher lohn für gleiche arbeit gleiches geschlecht",
+        "gleicher lohn für gleiche arbeit männer",
+        "gleicher lohn für gleiche arbeit tarifvertrag",
+        "gleicher lohn für gleiche arbeit aspekte b2",
+        "gleicher lohn für gleiche arbeit österreich",
+        "gleicher lohn für gleiche arbeit minijob",
+        "gleicher lohn für gleiche arbeit am gleichen ort"
+      ],
+      "reviewCandidatePhrases": [
+        "gleicher lohn für gleiche arbeit gesetz"
+      ],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "de-DE",
+      "route": "/debate/school-corporal-punishment",
+      "slot": "debate/school-corporal-punishment",
+      "axis": "debate",
+      "sourceQueries": [
+        "körperliche bestrafung schule debatte",
+        "körperstrafe in der schule pro contra",
+        "ist körperliche bestrafung wirksam",
+        "disziplin ohne strafe schule"
+      ],
+      "baseQueries": [
+        "körperliche bestrafung schule debatte",
+        "körperstrafe in der schule pro contra",
+        "ist körperliche bestrafung wirksam",
+        "disziplin ohne strafe schule"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "körperliche bestrafung schule debatte",
+        "körperstrafe in der schule pro contra",
+        "ist körperliche bestrafung wirksam",
+        "disziplin ohne strafe schule"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "körperliche bestrafung schule debatte",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "körperstrafe in der schule pro contra",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ist körperliche bestrafung wirksam",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "disziplin ohne strafe schule",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "körperliche bestrafung schule debatte",
+        "körperstrafe in der schule pro contra",
+        "ist körperliche bestrafung wirksam",
+        "disziplin ohne strafe schule"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
       "errors": []
     }
   ]

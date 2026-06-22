@@ -1,20 +1,20 @@
 {
-  "collectedAt": "2026-06-21T13:20:41.727Z",
+  "collectedAt": "2026-06-22T05:42:37.480Z",
   "locale": "es-ES",
   "sourceStatus": "active-source",
-  "nodesScanned": 38,
-  "totalCandidatePhrases": 746,
-  "totalUsableCandidatePhrases": 691,
-  "totalReviewCandidatePhrases": 41,
-  "totalLowSignalCandidatePhrases": 14,
+  "nodesScanned": 44,
+  "totalCandidatePhrases": 790,
+  "totalUsableCandidatePhrases": 732,
+  "totalReviewCandidatePhrases": 43,
+  "totalLowSignalCandidatePhrases": 15,
   "clusterHints": {
     "relationships/ghosting": 15,
     "meaning/existential-vacuum": 1,
     "family/family-of-origin": 1,
     "family/late-independence": 10,
-    "money/precarity": 1,
+    "money/precarity": 2,
     "study/exam-pressure": 2,
-    "debate/childfree-identity": 2,
+    "debate/childfree-identity": 4,
     "work/remote-work-culture": 12
   },
   "rows": [
@@ -39,13 +39,13 @@
         "qué es una buena vida",
         "que es una buena vida saludable",
         "que es una buena vida segun aristoteles",
+        "que es una buena vida sexual",
         "que es una buena vida para socrates",
         "que es para ti una buena vida",
         "que es una vida buena y feliz",
         "que es tener una buena vida",
         "que es vivir una buena vida",
         "que es una persona buena vida",
-        "que es buena vida segun la filosofia",
         "cómo debe vivir un cristiano",
         "cómo debe vivir un buen cristiano",
         "cómo debe vivir un verdadero cristiano",
@@ -84,13 +84,13 @@
         "sentido de la vida",
         "que es una buena vida saludable",
         "que es una buena vida segun aristoteles",
+        "que es una buena vida sexual",
         "que es una buena vida para socrates",
         "que es para ti una buena vida",
         "que es una vida buena y feliz",
         "que es tener una buena vida",
         "que es vivir una buena vida",
         "que es una persona buena vida",
-        "que es buena vida segun la filosofia",
         "cómo debe vivir un cristiano",
         "cómo debe vivir un buen cristiano",
         "cómo debe vivir un verdadero cristiano",
@@ -170,6 +170,14 @@
           "clusterHints": []
         },
         {
+          "phrase": "que es una buena vida sexual",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
           "phrase": "que es una buena vida para socrates",
           "status": "usable",
           "reasons": [
@@ -211,14 +219,6 @@
         },
         {
           "phrase": "que es una persona buena vida",
-          "status": "usable",
-          "reasons": [
-            "general source-locale topic phrasing"
-          ],
-          "clusterHints": []
-        },
-        {
-          "phrase": "que es buena vida segun la filosofia",
           "status": "usable",
           "reasons": [
             "general source-locale topic phrasing"
@@ -457,13 +457,13 @@
         "sentido de la vida",
         "que es una buena vida saludable",
         "que es una buena vida segun aristoteles",
+        "que es una buena vida sexual",
         "que es una buena vida para socrates",
         "que es para ti una buena vida",
         "que es una vida buena y feliz",
         "que es tener una buena vida",
         "que es vivir una buena vida",
         "que es una persona buena vida",
-        "que es buena vida segun la filosofia",
         "cómo debe vivir un cristiano",
         "cómo debe vivir un buen cristiano",
         "cómo debe vivir un verdadero cristiano",
@@ -813,6 +813,8 @@
           "phrase": "el dinero da la felicidad pdf",
           "status": "review",
           "reasons": [
+            "reference or concept query",
+            "reference or concept query",
             "reference or concept query",
             "reference or concept query",
             "reference or concept query"
@@ -1614,6 +1616,75 @@
     },
     {
       "locale": "es-ES",
+      "route": "/love/impatient",
+      "slot": "love/impatient",
+      "axis": "worry",
+      "sourceQueries": [
+        "impaciente en el amor",
+        "ansiedad esperando respuesta",
+        "por qué soy tan impaciente en una relación",
+        "confesarme o esperar"
+      ],
+      "baseQueries": [
+        "impaciente en el amor",
+        "ansiedad esperando respuesta",
+        "por qué soy tan impaciente en una relación",
+        "confesarme o esperar"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "impaciente en el amor",
+        "ansiedad esperando respuesta",
+        "por qué soy tan impaciente en una relación",
+        "confesarme o esperar"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "impaciente en el amor",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "ansiedad esperando respuesta",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "por qué soy tan impaciente en una relación",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "confesarme o esperar",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "impaciente en el amor",
+        "ansiedad esperando respuesta",
+        "por qué soy tan impaciente en una relación",
+        "confesarme o esperar"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "es-ES",
       "route": "/love/cant-confess",
       "slot": "love/cant-confess",
       "axis": "worry",
@@ -2117,6 +2188,8 @@
           "reasons": [
             "reference or concept query",
             "reference or concept query",
+            "reference or concept query",
+            "reference or concept query",
             "reference or concept query"
           ],
           "clusterHints": []
@@ -2127,6 +2200,8 @@
           "reasons": [
             "reference or concept query",
             "reference or concept query",
+            "reference or concept query",
+            "reference or concept query",
             "reference or concept query"
           ],
           "clusterHints": []
@@ -2135,6 +2210,8 @@
           "phrase": "ansiedad en la relación pdf gratis",
           "status": "review",
           "reasons": [
+            "reference or concept query",
+            "reference or concept query",
             "reference or concept query",
             "reference or concept query",
             "reference or concept query"
@@ -2155,6 +2232,8 @@
           "reasons": [
             "reference or concept query",
             "reference or concept query",
+            "reference or concept query",
+            "reference or concept query",
             "reference or concept query"
           ],
           "clusterHints": []
@@ -2163,6 +2242,8 @@
           "phrase": "ansiedad en la relación richard hawkins pdf",
           "status": "review",
           "reasons": [
+            "reference or concept query",
+            "reference or concept query",
             "reference or concept query",
             "reference or concept query",
             "reference or concept query"
@@ -2175,6 +2256,8 @@
           "reasons": [
             "reference or concept query",
             "reference or concept query",
+            "reference or concept query",
+            "reference or concept query",
             "reference or concept query"
           ],
           "clusterHints": []
@@ -2183,6 +2266,8 @@
           "phrase": "ansiedad en la relación richard hawkins pdf gratis",
           "status": "review",
           "reasons": [
+            "reference or concept query",
+            "reference or concept query",
             "reference or concept query",
             "reference or concept query",
             "reference or concept query"
@@ -2306,6 +2391,98 @@
         "lo quiero pero somos muy distintos",
         "valores para casarse",
         "valores para casarse por el civil"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "es-ES",
+      "route": "/love/should-give-up",
+      "slot": "love/should-give-up",
+      "axis": "worry",
+      "sourceQueries": [
+        "seguir intentando o dejar ir",
+        "cuándo dejar de luchar por una relación",
+        "debería rendirme con alguien",
+        "miedo a arrepentirme de dejarlo"
+      ],
+      "baseQueries": [
+        "seguir intentando o dejar ir",
+        "cuándo dejar de luchar por una relación",
+        "debería rendirme con alguien",
+        "miedo a arrepentirme de dejarlo"
+      ],
+      "googleSuggestions": [
+        "dejar ir o seguir intentando",
+        "cuando dejar de luchar por una relación"
+      ],
+      "candidatePhrases": [
+        "seguir intentando o dejar ir",
+        "cuándo dejar de luchar por una relación",
+        "debería rendirme con alguien",
+        "miedo a arrepentirme de dejarlo",
+        "dejar ir o seguir intentando",
+        "cuando dejar de luchar por una relación"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "seguir intentando o dejar ir",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "cuándo dejar de luchar por una relación",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "debería rendirme con alguien",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "miedo a arrepentirme de dejarlo",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "dejar ir o seguir intentando",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "cuando dejar de luchar por una relación",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "seguir intentando o dejar ir",
+        "cuándo dejar de luchar por una relación",
+        "debería rendirme con alguien",
+        "miedo a arrepentirme de dejarlo",
+        "dejar ir o seguir intentando",
+        "cuando dejar de luchar por una relación"
       ],
       "reviewCandidatePhrases": [],
       "lowSignalCandidatePhrases": [],
@@ -2542,6 +2719,8 @@
           "phrase": "cómo superar una ruptura cura tu corazón roto en 99 días pdf",
           "status": "review",
           "reasons": [
+            "reference or concept query",
+            "reference or concept query",
             "reference or concept query",
             "reference or concept query",
             "reference or concept query"
@@ -3552,6 +3731,8 @@
           "phrase": "tengo baja autoestima test",
           "status": "low-signal",
           "reasons": [
+            "fortune-telling / diagnosis drift",
+            "fortune-telling / diagnosis drift",
             "fortune-telling / diagnosis drift"
           ],
           "clusterHints": []
@@ -4685,6 +4866,8 @@
           "reasons": [
             "reference or concept query",
             "reference or concept query",
+            "reference or concept query",
+            "reference or concept query",
             "reference or concept query"
           ],
           "clusterHints": []
@@ -5179,6 +5362,8 @@
           "phrase": "ambiente laboral toxico pdf",
           "status": "review",
           "reasons": [
+            "reference or concept query",
+            "reference or concept query",
             "reference or concept query",
             "reference or concept query",
             "reference or concept query"
@@ -7100,6 +7285,8 @@
           "reasons": [
             "reference or concept query",
             "reference or concept query",
+            "reference or concept query",
+            "reference or concept query",
             "reference or concept query"
           ],
           "clusterHints": []
@@ -7465,6 +7652,8 @@
           "phrase": "dopamina y redes sociales pdf",
           "status": "review",
           "reasons": [
+            "reference or concept query",
+            "reference or concept query",
             "reference or concept query",
             "reference or concept query",
             "reference or concept query"
@@ -8568,6 +8757,180 @@
     },
     {
       "locale": "es-ES",
+      "route": "/debate/white-lie",
+      "slot": "debate/white-lie",
+      "axis": "debate",
+      "sourceQueries": [
+        "mentiras piadosas",
+        "mentiras piadosas en pareja",
+        "mentir para no hacer daño",
+        "mentiras buenas debate"
+      ],
+      "baseQueries": [
+        "mentiras piadosas",
+        "mentiras piadosas en pareja",
+        "mentir para no hacer daño",
+        "mentiras buenas debate"
+      ],
+      "googleSuggestions": [
+        "mentiras piadosas",
+        "mentiras piadosas letra",
+        "mentiras piadosas dillom",
+        "mentiras piadosas significado",
+        "mentiras piadosas ejemplos",
+        "mentiras piadosas pelicula",
+        "mentiras piadosas sabina",
+        "mentiras piadosas acordes",
+        "mentiras piadosas tito",
+        "mentiras piadosas dillom significado",
+        "mentiras piadosas en pareja",
+        "mentir para no hacer daño"
+      ],
+      "candidatePhrases": [
+        "mentiras piadosas",
+        "mentiras piadosas en pareja",
+        "mentir para no hacer daño",
+        "mentiras buenas debate",
+        "mentiras piadosas letra",
+        "mentiras piadosas dillom",
+        "mentiras piadosas significado",
+        "mentiras piadosas ejemplos",
+        "mentiras piadosas pelicula",
+        "mentiras piadosas sabina",
+        "mentiras piadosas acordes",
+        "mentiras piadosas tito",
+        "mentiras piadosas dillom significado"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "mentiras piadosas",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "mentiras piadosas en pareja",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "mentir para no hacer daño",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "mentiras buenas debate",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "mentiras piadosas letra",
+          "status": "low-signal",
+          "reasons": [
+            "entertainment lookup"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "mentiras piadosas dillom",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "mentiras piadosas significado",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "mentiras piadosas ejemplos",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "mentiras piadosas pelicula",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "mentiras piadosas sabina",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "mentiras piadosas acordes",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "mentiras piadosas tito",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "mentiras piadosas dillom significado",
+          "status": "review",
+          "reasons": [
+            "reference or concept query"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "mentiras piadosas",
+        "mentiras piadosas en pareja",
+        "mentir para no hacer daño",
+        "mentiras buenas debate",
+        "mentiras piadosas dillom",
+        "mentiras piadosas ejemplos",
+        "mentiras piadosas pelicula",
+        "mentiras piadosas sabina",
+        "mentiras piadosas acordes",
+        "mentiras piadosas tito"
+      ],
+      "reviewCandidatePhrases": [
+        "mentiras piadosas significado",
+        "mentiras piadosas dillom significado"
+      ],
+      "lowSignalCandidatePhrases": [
+        "mentiras piadosas letra"
+      ],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "es-ES",
       "route": "/debate/ai-replacement",
       "slot": "debate/ai-replacement",
       "axis": "debate",
@@ -9017,6 +9380,7 @@
             "general source-locale topic phrasing"
           ],
           "clusterHints": [
+            "debate/childfree-identity",
             "debate/childfree-identity"
           ]
         },
@@ -9115,6 +9479,7 @@
             "general source-locale topic phrasing"
           ],
           "clusterHints": [
+            "debate/childfree-identity",
             "debate/childfree-identity"
           ]
         },
@@ -9149,7 +9514,7 @@
       ],
       "lowSignalCandidatePhrases": [],
       "clusterHints": {
-        "debate/childfree-identity": 2
+        "debate/childfree-identity": 4
       },
       "errors": []
     },
@@ -9379,6 +9744,8 @@
           "reasons": [
             "reference or concept query",
             "reference or concept query",
+            "reference or concept query",
+            "reference or concept query",
             "reference or concept query"
           ],
           "clusterHints": [
@@ -9478,6 +9845,318 @@
       "clusterHints": {
         "work/remote-work-culture": 12
       },
+      "errors": []
+    },
+    {
+      "locale": "es-ES",
+      "route": "/debate/retirement-age",
+      "slot": "debate/retirement-age",
+      "axis": "debate",
+      "sourceQueries": [
+        "subir la edad de jubilación debate",
+        "edad de jubilación pros y contras",
+        "trabajar más años pensión",
+        "retrasar jubilación jóvenes"
+      ],
+      "baseQueries": [
+        "subir la edad de jubilación debate",
+        "edad de jubilación pros y contras",
+        "trabajar más años pensión",
+        "retrasar jubilación jóvenes"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "subir la edad de jubilación debate",
+        "edad de jubilación pros y contras",
+        "trabajar más años pensión",
+        "retrasar jubilación jóvenes"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "subir la edad de jubilación debate",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "edad de jubilación pros y contras",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "trabajar más años pensión",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "retrasar jubilación jóvenes",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "subir la edad de jubilación debate",
+        "edad de jubilación pros y contras",
+        "trabajar más años pensión",
+        "retrasar jubilación jóvenes"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "es-ES",
+      "route": "/debate/employment-contract",
+      "slot": "debate/employment-contract",
+      "axis": "debate",
+      "sourceQueries": [
+        "contrato temporal o indefinido",
+        "trabajador temporal derechos",
+        "precariedad laboral contrato temporal",
+        "contrato fijo o temporal debate"
+      ],
+      "baseQueries": [
+        "contrato temporal o indefinido",
+        "trabajador temporal derechos",
+        "precariedad laboral contrato temporal",
+        "contrato fijo o temporal debate"
+      ],
+      "googleSuggestions": [
+        "contrato temporal o indefinido",
+        "contrato de relevo temporal o indefinido",
+        "diferencia entre contrato temporal o indefinido",
+        "contrato temporal e indefinido",
+        "contrato temporal a indefinido antiguedad",
+        "contrato temporal a indefinido finiquito",
+        "empleada de hogar contrato temporal o indefinido",
+        "que es mejor contrato temporal o indefinido",
+        "contrato fijo discontinuo es temporal o indefinido",
+        "contrato indefinido es temporal o fijo"
+      ],
+      "candidatePhrases": [
+        "contrato temporal o indefinido",
+        "trabajador temporal derechos",
+        "precariedad laboral contrato temporal",
+        "contrato fijo o temporal debate",
+        "contrato de relevo temporal o indefinido",
+        "diferencia entre contrato temporal o indefinido",
+        "contrato temporal e indefinido",
+        "contrato temporal a indefinido antiguedad",
+        "contrato temporal a indefinido finiquito",
+        "empleada de hogar contrato temporal o indefinido",
+        "que es mejor contrato temporal o indefinido",
+        "contrato fijo discontinuo es temporal o indefinido",
+        "contrato indefinido es temporal o fijo"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "contrato temporal o indefinido",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "trabajador temporal derechos",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "precariedad laboral contrato temporal",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": [
+            "money/precarity"
+          ]
+        },
+        {
+          "phrase": "contrato fijo o temporal debate",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "contrato de relevo temporal o indefinido",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "diferencia entre contrato temporal o indefinido",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "contrato temporal e indefinido",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "contrato temporal a indefinido antiguedad",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "contrato temporal a indefinido finiquito",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "empleada de hogar contrato temporal o indefinido",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "que es mejor contrato temporal o indefinido",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "contrato fijo discontinuo es temporal o indefinido",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "contrato indefinido es temporal o fijo",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "contrato temporal o indefinido",
+        "trabajador temporal derechos",
+        "precariedad laboral contrato temporal",
+        "contrato fijo o temporal debate",
+        "contrato de relevo temporal o indefinido",
+        "diferencia entre contrato temporal o indefinido",
+        "contrato temporal e indefinido",
+        "contrato temporal a indefinido antiguedad",
+        "contrato temporal a indefinido finiquito",
+        "empleada de hogar contrato temporal o indefinido",
+        "que es mejor contrato temporal o indefinido",
+        "contrato fijo discontinuo es temporal o indefinido",
+        "contrato indefinido es temporal o fijo"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {
+        "money/precarity": 1
+      },
+      "errors": []
+    },
+    {
+      "locale": "es-ES",
+      "route": "/debate/school-corporal-punishment",
+      "slot": "debate/school-corporal-punishment",
+      "axis": "debate",
+      "sourceQueries": [
+        "castigo corporal en la escuela debate",
+        "castigo físico escolar pros y contras",
+        "disciplina escolar sin violencia",
+        "es efectivo el castigo corporal"
+      ],
+      "baseQueries": [
+        "castigo corporal en la escuela debate",
+        "castigo físico escolar pros y contras",
+        "disciplina escolar sin violencia",
+        "es efectivo el castigo corporal"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "castigo corporal en la escuela debate",
+        "castigo físico escolar pros y contras",
+        "disciplina escolar sin violencia",
+        "es efectivo el castigo corporal"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "castigo corporal en la escuela debate",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "castigo físico escolar pros y contras",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "disciplina escolar sin violencia",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "es efectivo el castigo corporal",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "castigo corporal en la escuela debate",
+        "castigo físico escolar pros y contras",
+        "disciplina escolar sin violencia",
+        "es efectivo el castigo corporal"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
       "errors": []
     }
   ]

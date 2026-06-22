@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-21",
+  "updatedAt": "2026-06-22",
   "principle": "Source-locale phrase seeds map local-language search expressions to existing Wisdom canonical routes. They are research inputs, not page copy.",
   "locales": {
     "ja-JP": {
@@ -38,6 +38,12 @@
           "sourceQueries": ["自由とは", "自由に生きたい", "自由 責任", "自分らしく生きたい"]
         },
         {
+          "route": "/love/impatient",
+          "slot": "love/impatient",
+          "axis": "worry",
+          "sourceQueries": ["恋愛 焦る", "LINE 返信 待てない", "好きな人 返信 遅い 不安", "告白 するべきか 待つべきか"]
+        },
+        {
           "route": "/love/cant-confess",
           "slot": "love/cant-confess",
           "axis": "worry",
@@ -60,6 +66,12 @@
           "slot": "love/relationship-values",
           "axis": "worry",
           "sourceQueries": ["恋愛 価値観 合わない", "結婚 価値観 違い", "恋人 価値観 違う", "好きだけど価値観が合わない"]
+        },
+        {
+          "route": "/love/should-give-up",
+          "slot": "love/should-give-up",
+          "axis": "worry",
+          "sourceQueries": ["好きな人 諦めるべきか", "恋愛 諦める タイミング", "諦めるべきか待つべきか", "片思い 諦められない"]
         },
         {
           "route": "/breakup/lingering",
@@ -212,6 +224,12 @@
           "sourceQueries": ["進路 決められない", "将来 決められない", "選択できない つらい", "進路 迷う"]
         },
         {
+          "route": "/debate/white-lie",
+          "slot": "debate/white-lie",
+          "axis": "debate",
+          "sourceQueries": ["優しい嘘 許される", "嘘 ついてもいい時", "相手を傷つけない 嘘", "白い嘘 倫理"]
+        },
+        {
           "route": "/debate/ai-replacement",
           "slot": "debate/ai-replacement",
           "axis": "debate",
@@ -240,6 +258,24 @@
           "slot": "debate/remote-work",
           "axis": "debate",
           "sourceQueries": ["リモートワーク 賛成 反対", "在宅勤務 メリット デメリット", "出社 必要か", "リモートワーク 生産性"]
+        },
+        {
+          "route": "/debate/retirement-age",
+          "slot": "debate/retirement-age",
+          "axis": "debate",
+          "sourceQueries": ["定年延長 賛成 反対", "定年延長 メリット デメリット", "高齢者 雇用 若者 仕事", "年金 定年延長 必要"]
+        },
+        {
+          "route": "/debate/employment-contract",
+          "slot": "debate/employment-contract",
+          "axis": "debate",
+          "sourceQueries": ["正社員 契約社員 格差", "契約社員 不公平", "同一労働同一賃金 契約社員", "非正規雇用 問題"]
+        },
+        {
+          "route": "/debate/school-corporal-punishment",
+          "slot": "debate/school-corporal-punishment",
+          "axis": "debate",
+          "sourceQueries": ["学校 体罰 賛成 反対", "体罰 教育 効果", "教師 懲戒 体罰 違い", "体罰 禁止 教育"]
         }
       ]
     },
@@ -278,6 +314,12 @@
           "sourceQueries": ["自由是什么", "想自由地生活", "自由和责任", "怎样做自己"]
         },
         {
+          "route": "/love/impatient",
+          "slot": "love/impatient",
+          "axis": "worry",
+          "sourceQueries": ["恋爱太着急怎么办", "等消息很焦虑", "喜欢的人不回消息很急", "该不该表白还是等"]
+        },
+        {
           "route": "/love/cant-confess",
           "slot": "love/cant-confess",
           "axis": "worry",
@@ -300,6 +342,12 @@
           "slot": "love/relationship-values",
           "axis": "worry",
           "sourceQueries": ["恋爱价值观不合", "结婚价值观不同", "和对象三观不合", "很喜欢但价值观不合"]
+        },
+        {
+          "route": "/love/should-give-up",
+          "slot": "love/should-give-up",
+          "axis": "worry",
+          "sourceQueries": ["该不该放弃一个人", "什么时候该放弃感情", "继续坚持还是放手", "放弃会后悔怎么办"]
         },
         {
           "route": "/breakup/lingering",
@@ -452,6 +500,12 @@
           "sourceQueries": ["不知道未来做什么", "人生选择困难", "职业规划迷茫", "不知道该选哪条路"]
         },
         {
+          "route": "/debate/white-lie",
+          "slot": "debate/white-lie",
+          "axis": "debate",
+          "sourceQueries": ["善意的谎言可以接受吗", "善意的谎言 辩论", "为了不伤害别人撒谎", "白色谎言 道德"]
+        },
+        {
           "route": "/debate/ai-replacement",
           "slot": "debate/ai-replacement",
           "axis": "debate",
@@ -480,6 +534,24 @@
           "slot": "debate/remote-work",
           "axis": "debate",
           "sourceQueries": ["远程办公好不好", "居家办公效率", "是否应该回办公室", "远程办公优缺点"]
+        },
+        {
+          "route": "/debate/retirement-age",
+          "slot": "debate/retirement-age",
+          "axis": "debate",
+          "sourceQueries": ["延迟退休 利弊", "延迟退休 争议", "退休年龄 应该提高吗", "延迟退休 对年轻人影响"]
+        },
+        {
+          "route": "/debate/employment-contract",
+          "slot": "debate/employment-contract",
+          "axis": "debate",
+          "sourceQueries": ["正式工 合同工 差别", "合同工 不公平", "同工同酬 合同工", "临时工 正式工 待遇差距"]
+        },
+        {
+          "route": "/debate/school-corporal-punishment",
+          "slot": "debate/school-corporal-punishment",
+          "axis": "debate",
+          "sourceQueries": ["体罚学生 争议", "学校体罚 是否应该", "教师惩戒权 体罚", "学生纪律 不体罚"]
         }
       ]
     },
@@ -518,6 +590,12 @@
           "sourceQueries": ["qué es la libertad", "quiero vivir libre", "libertad y responsabilidad", "cómo ser yo mismo"]
         },
         {
+          "route": "/love/impatient",
+          "slot": "love/impatient",
+          "axis": "worry",
+          "sourceQueries": ["impaciente en el amor", "ansiedad esperando respuesta", "por qué soy tan impaciente en una relación", "confesarme o esperar"]
+        },
+        {
           "route": "/love/cant-confess",
           "slot": "love/cant-confess",
           "axis": "worry",
@@ -540,6 +618,12 @@
           "slot": "love/relationship-values",
           "axis": "worry",
           "sourceQueries": ["diferencias de valores en pareja", "no compartimos valores", "lo quiero pero somos muy distintos", "valores para casarse"]
+        },
+        {
+          "route": "/love/should-give-up",
+          "slot": "love/should-give-up",
+          "axis": "worry",
+          "sourceQueries": ["seguir intentando o dejar ir", "cuándo dejar de luchar por una relación", "debería rendirme con alguien", "miedo a arrepentirme de dejarlo"]
         },
         {
           "route": "/breakup/lingering",
@@ -692,6 +776,12 @@
           "sourceQueries": ["no sé qué hacer con mi vida", "no sé qué carrera elegir", "miedo a tomar decisiones", "bloqueo al decidir mi futuro"]
         },
         {
+          "route": "/debate/white-lie",
+          "slot": "debate/white-lie",
+          "axis": "debate",
+          "sourceQueries": ["mentiras piadosas", "mentiras piadosas en pareja", "mentir para no hacer daño", "mentiras buenas debate"]
+        },
+        {
           "route": "/debate/ai-replacement",
           "slot": "debate/ai-replacement",
           "axis": "debate",
@@ -720,6 +810,24 @@
           "slot": "debate/remote-work",
           "axis": "debate",
           "sourceQueries": ["teletrabajo ventajas y desventajas", "trabajo remoto productividad", "volver a la oficina debate", "teletrabajo o presencial"]
+        },
+        {
+          "route": "/debate/retirement-age",
+          "slot": "debate/retirement-age",
+          "axis": "debate",
+          "sourceQueries": ["subir la edad de jubilación debate", "edad de jubilación pros y contras", "trabajar más años pensión", "retrasar jubilación jóvenes"]
+        },
+        {
+          "route": "/debate/employment-contract",
+          "slot": "debate/employment-contract",
+          "axis": "debate",
+          "sourceQueries": ["contrato temporal o indefinido", "trabajador temporal derechos", "precariedad laboral contrato temporal", "contrato fijo o temporal debate"]
+        },
+        {
+          "route": "/debate/school-corporal-punishment",
+          "slot": "debate/school-corporal-punishment",
+          "axis": "debate",
+          "sourceQueries": ["castigo corporal en la escuela debate", "castigo físico escolar pros y contras", "disciplina escolar sin violencia", "es efectivo el castigo corporal"]
         }
       ]
     },
@@ -758,6 +866,12 @@
           "sourceQueries": ["qu'est-ce que la liberté", "vivre librement", "liberté et responsabilité", "être soi-même"]
         },
         {
+          "route": "/love/impatient",
+          "slot": "love/impatient",
+          "axis": "worry",
+          "sourceQueries": ["impatient en amour", "attendre une réponse anxiété", "message sans réponse angoisse", "déclarer son amour ou attendre"]
+        },
+        {
           "route": "/love/cant-confess",
           "slot": "love/cant-confess",
           "axis": "worry",
@@ -780,6 +894,12 @@
           "slot": "love/relationship-values",
           "axis": "worry",
           "sourceQueries": ["valeurs différentes couple", "désaccord valeurs couple", "on s'aime mais incompatibles", "différences avant mariage"]
+        },
+        {
+          "route": "/love/should-give-up",
+          "slot": "love/should-give-up",
+          "axis": "worry",
+          "sourceQueries": ["dois-je abandonner cette relation", "continuer ou laisser partir", "quand arrêter d'essayer en amour", "peur de regretter d'abandonner"]
         },
         {
           "route": "/breakup/lingering",
@@ -932,6 +1052,12 @@
           "sourceQueries": ["je ne sais pas quoi faire de ma vie", "choisir sa voie professionnelle", "peur de prendre une décision", "orientation avenir perdu"]
         },
         {
+          "route": "/debate/white-lie",
+          "slot": "debate/white-lie",
+          "axis": "debate",
+          "sourceQueries": ["mensonge blanc est-il acceptable", "mensonge par gentillesse", "mentir pour ne pas blesser", "mensonge moral débat"]
+        },
+        {
           "route": "/debate/ai-replacement",
           "slot": "debate/ai-replacement",
           "axis": "debate",
@@ -960,6 +1086,24 @@
           "slot": "debate/remote-work",
           "axis": "debate",
           "sourceQueries": ["télétravail avantages inconvénients", "télétravail productivité", "retour au bureau débat", "télétravail ou présentiel"]
+        },
+        {
+          "route": "/debate/retirement-age",
+          "slot": "debate/retirement-age",
+          "axis": "debate",
+          "sourceQueries": ["reculer l'âge de la retraite", "âge légal de départ à la retraite débat", "travailler plus longtemps retraite", "réforme des retraites pour ou contre"]
+        },
+        {
+          "route": "/debate/employment-contract",
+          "slot": "debate/employment-contract",
+          "axis": "debate",
+          "sourceQueries": ["contrat temporaire ou CDI", "travail précaire contrat court", "CDD CDI inégalités", "même travail même salaire"]
+        },
+        {
+          "route": "/debate/school-corporal-punishment",
+          "slot": "debate/school-corporal-punishment",
+          "axis": "debate",
+          "sourceQueries": ["châtiment corporel école débat", "punition corporelle à l'école", "discipline scolaire sans violence", "violence éducative école"]
         }
       ]
     },
@@ -998,6 +1142,12 @@
           "sourceQueries": ["was ist freiheit", "frei leben wollen", "freiheit und verantwortung", "ich selbst sein"]
         },
         {
+          "route": "/love/impatient",
+          "slot": "love/impatient",
+          "axis": "worry",
+          "sourceQueries": ["ungeduldig in der liebe", "warten auf antwort angst", "warum bin ich so ungeduldig beziehung", "soll ich gestehen oder warten"]
+        },
+        {
           "route": "/love/cant-confess",
           "slot": "love/cant-confess",
           "axis": "worry",
@@ -1020,6 +1170,12 @@
           "slot": "love/relationship-values",
           "axis": "worry",
           "sourceQueries": ["unterschiedliche werte beziehung", "werte passen nicht zusammen", "liebe aber unterschiedliche lebensziele", "werte vor ehe"]
+        },
+        {
+          "route": "/love/should-give-up",
+          "slot": "love/should-give-up",
+          "axis": "worry",
+          "sourceQueries": ["soll ich ihn aufgeben", "weiterkämpfen oder loslassen", "wann sollte man eine beziehung aufgeben", "angst es zu bereuen loszulassen"]
         },
         {
           "route": "/breakup/lingering",
@@ -1172,6 +1328,12 @@
           "sourceQueries": ["ich weiß nicht was ich mit meinem leben anfangen soll", "berufswahl überfordert", "entscheidungsangst zukunft", "keine ahnung welcher beruf"]
         },
         {
+          "route": "/debate/white-lie",
+          "slot": "debate/white-lie",
+          "axis": "debate",
+          "sourceQueries": ["notlüge erlaubt", "notlüge beziehung", "lügen um jemanden zu schützen", "notlüge moralisch"]
+        },
+        {
           "route": "/debate/ai-replacement",
           "slot": "debate/ai-replacement",
           "axis": "debate",
@@ -1200,6 +1362,24 @@
           "slot": "debate/remote-work",
           "axis": "debate",
           "sourceQueries": ["homeoffice vor und nachteile", "homeoffice produktivität", "zurück ins büro debatte", "homeoffice oder büro"]
+        },
+        {
+          "route": "/debate/retirement-age",
+          "slot": "debate/retirement-age",
+          "axis": "debate",
+          "sourceQueries": ["renteneintrittsalter erhöhen", "rente mit 67 debatte", "länger arbeiten rente", "renteneintrittsalter pro contra"]
+        },
+        {
+          "route": "/debate/employment-contract",
+          "slot": "debate/employment-contract",
+          "axis": "debate",
+          "sourceQueries": ["befristeter arbeitsvertrag nachteile", "befristung oder festanstellung", "gleicher lohn für gleiche arbeit", "leiharbeit werkvertrag unterschied"]
+        },
+        {
+          "route": "/debate/school-corporal-punishment",
+          "slot": "debate/school-corporal-punishment",
+          "axis": "debate",
+          "sourceQueries": ["körperliche bestrafung schule debatte", "körperstrafe in der schule pro contra", "ist körperliche bestrafung wirksam", "disziplin ohne strafe schule"]
         }
       ]
     }

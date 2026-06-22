@@ -8,11 +8,11 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 
 ## Summary
 
-- collectedAt: 2026-06-21T16:24:23.047Z
-- nodes scanned: 38
-- candidate phrases: 850
-- usable: 750
-- review: 63
+- collectedAt: 2026-06-22T05:43:35.534Z
+- nodes scanned: 44
+- candidate phrases: 903
+- usable: 800
+- review: 66
 - low-signal: 37
 
 ## Potential New Cluster Hints
@@ -196,6 +196,24 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 - vivre librement en anglais
 - être soi même en anglais
 
+## /love/impatient
+
+- axis: worry
+- base queries: impatient en amour, attendre une réponse anxiété, message sans réponse angoisse, déclarer son amour ou attendre
+- google suggestions: 2
+- usable candidates: 6
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- impatient en amour
+- attendre une réponse anxiété
+- message sans réponse angoisse
+- déclarer son amour ou attendre
+- impatience en amour
+- homme impatient en amour
+
 ## /love/cant-confess
 
 - axis: worry
@@ -316,6 +334,22 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 - valeurs differentes couple
 - conflit valeur couple
 - on s aime mais on est incompatible
+
+## /love/should-give-up
+
+- axis: worry
+- base queries: dois-je abandonner cette relation, continuer ou laisser partir, quand arrêter d'essayer en amour, peur de regretter d'abandonner
+- google suggestions: 0
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- dois-je abandonner cette relation
+- continuer ou laisser partir
+- quand arrêter d'essayer en amour
+- peur de regretter d'abandonner
 
 ## /breakup/lingering
 
@@ -1232,6 +1266,28 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 - choisir sa voie professionnelle test
 - trouver sa voie professionnelle test gratuit
 
+## /debate/white-lie
+
+- axis: debate
+- base queries: mensonge blanc est-il acceptable, mensonge par gentillesse, mentir pour ne pas blesser, mensonge moral débat
+- google suggestions: 4
+- usable candidates: 6
+- review candidates: 1
+- low-signal candidates: 0
+
+### Usable candidates
+
+- mensonge blanc est-il acceptable
+- mensonge par gentillesse
+- mentir pour ne pas blesser
+- mensonge moral débat
+- mensonge pour ne pas blesser
+- mentir pour ne pas reveler une verite qui pourrait blesser
+
+### Review candidates
+
+- mentir pour ne pas blesser citation
+
 ## /debate/ai-replacement
 
 - axis: debate
@@ -1380,4 +1436,79 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 ### Review candidates
 
 - télétravail avantages et inconvénients pdf
+
+## /debate/retirement-age
+
+- axis: debate
+- base queries: reculer l'âge de la retraite, âge légal de départ à la retraite débat, travailler plus longtemps retraite, réforme des retraites pour ou contre
+- google suggestions: 7
+- usable candidates: 11
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- reculer l'âge de la retraite
+- âge légal de départ à la retraite débat
+- travailler plus longtemps retraite
+- réforme des retraites pour ou contre
+- reculer l âge de la retraite
+- pourquoi reculer l'âge de la retraite
+- repousser l âge de la retraite
+- repousser l âge de la retraite avantages et inconvénients
+- faut il repousser l âge de la retraite
+- recul âge légal de la retraite
+- travailler plus longtemps pour la retraite
+
+## /debate/employment-contract
+
+- axis: debate
+- base queries: contrat temporaire ou CDI, travail précaire contrat court, CDD CDI inégalités, même travail même salaire
+- google suggestions: 7
+- usable candidates: 8
+- review candidates: 2
+- low-signal candidates: 0
+
+### Usable candidates
+
+- contrat temporaire ou CDI
+- travail précaire contrat court
+- CDD CDI inégalités
+- même travail même salaire
+- contrat interim cdi
+- contrat occasionnel cdi
+- contrat intérimaire cdi
+- meme travail mais pas meme salaire
+
+### Review candidates
+
+- emploi interim cdi
+- loi meme travail meme salaire
+
+## /debate/school-corporal-punishment
+
+- axis: debate
+- base queries: châtiment corporel école débat, punition corporelle à l'école, discipline scolaire sans violence, violence éducative école
+- google suggestions: 12
+- usable candidates: 15
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- châtiment corporel école débat
+- punition corporelle à l'école
+- discipline scolaire sans violence
+- violence éducative école
+- chatiment corporel à l école
+- chatiment corporel à l école en france
+- chatiment corporel à l école au senegal
+- chatiment corporel à l école benin
+- la punition corporelle à l'école
+- le chatiment corporel à l école pour ou contre
+- interdiction chatiment corporel à l'école en france
+- date interdiction chatiment corporel à l école
+- interdiction du chatiment corporel à l école
+- la punition corporelle est à supprimer à l école
+- violence éducative ordinaire école
 

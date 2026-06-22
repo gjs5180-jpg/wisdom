@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T02:36:07.863Z",
+  "generatedAt": "2026-06-22T05:49:21.986Z",
   "thresholds": {
     "grades": {
       "A": "90+",
@@ -11,14 +11,14 @@
   },
   "summary": {
     "total": 89,
-    "averageScore": 86,
+    "averageScore": 89,
     "grades": {
-      "B": 55,
-      "A": 34
+      "B": 45,
+      "A": 44
     },
     "coverage": {
-      "sourceSignal": 38,
-      "sourceInsights": 9,
+      "sourceSignal": 44,
+      "sourceInsights": 19,
       "related": 89,
       "verified": 89
     }
@@ -28,30 +28,29 @@
       "axis": "worry",
       "label": "고민",
       "count": 62,
-      "averageScore": 87,
+      "averageScore": 88,
       "grades": {
-        "B": 33,
-        "A": 29
+        "B": 31,
+        "A": 31
       }
     },
     {
       "axis": "debate",
       "label": "논쟁",
       "count": 23,
-      "averageScore": 83,
+      "averageScore": 89,
       "grades": {
-        "B": 19,
-        "A": 4
+        "B": 14,
+        "A": 9
       }
     },
     {
       "axis": "thought",
       "label": "생각",
       "count": 4,
-      "averageScore": 84,
+      "averageScore": 98,
       "grades": {
-        "B": 3,
-        "A": 1
+        "A": 4
       }
     }
   ],
@@ -66,9 +65,9 @@
     {
       "key": "summary",
       "label": "요약 문장",
-      "passed": 83,
+      "passed": 89,
       "total": 89,
-      "coverage": 93
+      "coverage": 100
     },
     {
       "key": "doors",
@@ -94,9 +93,9 @@
     {
       "key": "tags",
       "label": "태그 연결",
-      "passed": 86,
+      "passed": 89,
       "total": 89,
-      "coverage": 97
+      "coverage": 100
     },
     {
       "key": "actionOrReflect",
@@ -114,1034 +113,37 @@
     },
     {
       "key": "people",
-      "label": "인물 관점",
-      "passed": 88,
+      "label": "인물/논쟁 관점",
+      "passed": 89,
       "total": 89,
-      "coverage": 99
+      "coverage": 100
     },
     {
       "key": "sourceSignal",
       "label": "언어권 관심 신호",
-      "passed": 38,
+      "passed": 44,
       "total": 89,
-      "coverage": 43
+      "coverage": 49
     },
     {
       "key": "sourceInsights",
       "label": "언어권 표현 인사이트",
-      "passed": 9,
+      "passed": 19,
       "total": 89,
-      "coverage": 10
+      "coverage": 21
     }
   ],
   "topIssues": [
     {
       "issue": "언어권별 표현 차이와 공통점을 인사이트로 정리",
-      "count": 80
+      "count": 70
     },
     {
       "issue": "언어권별 수집 표현을 canonical node에 연결",
-      "count": 51
-    },
-    {
-      "issue": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강",
-      "count": 6
-    },
-    {
-      "issue": "논쟁 태그 2개 이상 연결",
-      "count": 3
-    },
-    {
-      "issue": "관련 인물 관점 2명 이상 확보",
-      "count": 1
+      "count": 45
     }
   ],
   "entries": [
-    {
-      "key": "love/impatient",
-      "href": "/love/impatient",
-      "axis": "worry",
-      "axisLabel": "고민",
-      "title": "조급할 때",
-      "summary": "조급함은 결과를 통제하려는 욕구에서 온다.",
-      "categoryTitle": "연애 / 짝사랑",
-      "groupTitle": "관계",
-      "score": 75,
-      "grade": "B",
-      "status": "공개 안정",
-      "issues": [
-        "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강",
-        "언어권별 수집 표현을 canonical node에 연결",
-        "언어권별 표현 차이와 공통점을 인사이트로 정리"
-      ],
-      "metrics": {
-        "cards": 3,
-        "verifiedCount": 3,
-        "tags": 4,
-        "doors": 4,
-        "actionOrReflect": 3,
-        "related": 6,
-        "people": 3,
-        "sourceSignal": false,
-        "sourceInsights": 0,
-        "summaryLength": 23,
-        "placeholder": false
-      },
-      "criteria": {
-        "published": {
-          "label": "공개 가능한 본문",
-          "passed": true,
-          "weight": 15,
-          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
-        },
-        "summary": {
-          "label": "요약 문장",
-          "passed": false,
-          "weight": 10,
-          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
-        },
-        "doors": {
-          "label": "사용자 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
-        },
-        "cards": {
-          "label": "관점 카드",
-          "passed": true,
-          "weight": 15,
-          "action": "서로 다른 관점 카드 3개 이상 유지"
-        },
-        "verified": {
-          "label": "검증 출처",
-          "passed": true,
-          "weight": 15,
-          "action": "검증된 출처 카드 3개 이상 확보"
-        },
-        "tags": {
-          "label": "태그 연결",
-          "passed": true,
-          "weight": 10,
-          "action": "고민/생각 태그 3개 이상 연결"
-        },
-        "actionOrReflect": {
-          "label": "행동/질문",
-          "passed": true,
-          "weight": 10,
-          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
-        },
-        "related": {
-          "label": "관련 흐름",
-          "passed": true,
-          "weight": 10,
-          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
-        },
-        "people": {
-          "label": "인물 관점",
-          "passed": true,
-          "weight": 5,
-          "action": "관련 인물 관점 2명 이상 확보"
-        },
-        "sourceSignal": {
-          "label": "언어권 관심 신호",
-          "passed": false,
-          "weight": 8,
-          "action": "언어권별 수집 표현을 canonical node에 연결"
-        },
-        "sourceInsights": {
-          "label": "언어권 표현 인사이트",
-          "passed": false,
-          "weight": 12,
-          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
-        }
-      }
-    },
-    {
-      "key": "debate/white-lie",
-      "href": "/debate/white-lie",
-      "axis": "debate",
-      "axisLabel": "논쟁",
-      "title": "선의의 거짓말, 해도 되나?",
-      "summary": "좋은 의도라면 거짓말은 정당한가.",
-      "categoryTitle": "논쟁",
-      "groupTitle": "일상 윤리",
-      "score": 75,
-      "grade": "B",
-      "status": "공개 안정",
-      "issues": [
-        "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강",
-        "언어권별 수집 표현을 canonical node에 연결",
-        "언어권별 표현 차이와 공통점을 인사이트로 정리"
-      ],
-      "metrics": {
-        "cards": 3,
-        "verifiedCount": 3,
-        "tags": 3,
-        "doors": 7,
-        "actionOrReflect": 3,
-        "related": 6,
-        "people": 3,
-        "sourceSignal": false,
-        "sourceInsights": 0,
-        "summaryLength": 18,
-        "placeholder": false
-      },
-      "criteria": {
-        "published": {
-          "label": "공개 가능한 본문",
-          "passed": true,
-          "weight": 15,
-          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
-        },
-        "summary": {
-          "label": "요약 문장",
-          "passed": false,
-          "weight": 10,
-          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
-        },
-        "doors": {
-          "label": "사용자 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
-        },
-        "cards": {
-          "label": "관점 카드",
-          "passed": true,
-          "weight": 15,
-          "action": "서로 다른 관점 카드 3개 이상 유지"
-        },
-        "verified": {
-          "label": "검증 출처",
-          "passed": true,
-          "weight": 15,
-          "action": "검증된 출처 카드 3개 이상 확보"
-        },
-        "tags": {
-          "label": "태그 연결",
-          "passed": true,
-          "weight": 10,
-          "action": "논쟁 태그 2개 이상 연결"
-        },
-        "actionOrReflect": {
-          "label": "행동/질문",
-          "passed": true,
-          "weight": 10,
-          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
-        },
-        "related": {
-          "label": "관련 흐름",
-          "passed": true,
-          "weight": 10,
-          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
-        },
-        "people": {
-          "label": "인물 관점",
-          "passed": true,
-          "weight": 5,
-          "action": "관련 인물 관점 2명 이상 확보"
-        },
-        "sourceSignal": {
-          "label": "언어권 관심 신호",
-          "passed": false,
-          "weight": 8,
-          "action": "언어권별 수집 표현을 canonical node에 연결"
-        },
-        "sourceInsights": {
-          "label": "언어권 표현 인사이트",
-          "passed": false,
-          "weight": 12,
-          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
-        }
-      }
-    },
-    {
-      "key": "debate/retirement-age",
-      "href": "/debate/retirement-age",
-      "axis": "debate",
-      "axisLabel": "논쟁",
-      "title": "정년연장, 해야 하나?",
-      "summary": "고령화 시대의 생계 안전과 세대 간 기회가 충돌하는 질문.",
-      "categoryTitle": "논쟁",
-      "groupTitle": "일 / 노동 제도",
-      "score": 75,
-      "grade": "B",
-      "status": "공개 안정",
-      "issues": [
-        "논쟁 태그 2개 이상 연결",
-        "언어권별 수집 표현을 canonical node에 연결",
-        "언어권별 표현 차이와 공통점을 인사이트로 정리"
-      ],
-      "metrics": {
-        "cards": 3,
-        "verifiedCount": 3,
-        "tags": 1,
-        "doors": 6,
-        "actionOrReflect": 4,
-        "related": 6,
-        "people": 2,
-        "sourceSignal": false,
-        "sourceInsights": 0,
-        "summaryLength": 32,
-        "placeholder": false
-      },
-      "criteria": {
-        "published": {
-          "label": "공개 가능한 본문",
-          "passed": true,
-          "weight": 15,
-          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
-        },
-        "summary": {
-          "label": "요약 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
-        },
-        "doors": {
-          "label": "사용자 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
-        },
-        "cards": {
-          "label": "관점 카드",
-          "passed": true,
-          "weight": 15,
-          "action": "서로 다른 관점 카드 3개 이상 유지"
-        },
-        "verified": {
-          "label": "검증 출처",
-          "passed": true,
-          "weight": 15,
-          "action": "검증된 출처 카드 3개 이상 확보"
-        },
-        "tags": {
-          "label": "태그 연결",
-          "passed": false,
-          "weight": 10,
-          "action": "논쟁 태그 2개 이상 연결"
-        },
-        "actionOrReflect": {
-          "label": "행동/질문",
-          "passed": true,
-          "weight": 10,
-          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
-        },
-        "related": {
-          "label": "관련 흐름",
-          "passed": true,
-          "weight": 10,
-          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
-        },
-        "people": {
-          "label": "인물 관점",
-          "passed": true,
-          "weight": 5,
-          "action": "관련 인물 관점 2명 이상 확보"
-        },
-        "sourceSignal": {
-          "label": "언어권 관심 신호",
-          "passed": false,
-          "weight": 8,
-          "action": "언어권별 수집 표현을 canonical node에 연결"
-        },
-        "sourceInsights": {
-          "label": "언어권 표현 인사이트",
-          "passed": false,
-          "weight": 12,
-          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
-        }
-      }
-    },
-    {
-      "key": "debate/employment-contract",
-      "href": "/debate/employment-contract",
-      "axis": "debate",
-      "axisLabel": "논쟁",
-      "title": "정규직과 계약직 차이, 어디까지 정당한가?",
-      "summary": "계약 자유, 고용 안정, 동일가치노동의 기준을 묻는 논쟁.",
-      "categoryTitle": "논쟁",
-      "groupTitle": "일 / 노동 제도",
-      "score": 75,
-      "grade": "B",
-      "status": "공개 안정",
-      "issues": [
-        "논쟁 태그 2개 이상 연결",
-        "언어권별 수집 표현을 canonical node에 연결",
-        "언어권별 표현 차이와 공통점을 인사이트로 정리"
-      ],
-      "metrics": {
-        "cards": 3,
-        "verifiedCount": 3,
-        "tags": 1,
-        "doors": 6,
-        "actionOrReflect": 4,
-        "related": 6,
-        "people": 2,
-        "sourceSignal": false,
-        "sourceInsights": 0,
-        "summaryLength": 32,
-        "placeholder": false
-      },
-      "criteria": {
-        "published": {
-          "label": "공개 가능한 본문",
-          "passed": true,
-          "weight": 15,
-          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
-        },
-        "summary": {
-          "label": "요약 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
-        },
-        "doors": {
-          "label": "사용자 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
-        },
-        "cards": {
-          "label": "관점 카드",
-          "passed": true,
-          "weight": 15,
-          "action": "서로 다른 관점 카드 3개 이상 유지"
-        },
-        "verified": {
-          "label": "검증 출처",
-          "passed": true,
-          "weight": 15,
-          "action": "검증된 출처 카드 3개 이상 확보"
-        },
-        "tags": {
-          "label": "태그 연결",
-          "passed": false,
-          "weight": 10,
-          "action": "논쟁 태그 2개 이상 연결"
-        },
-        "actionOrReflect": {
-          "label": "행동/질문",
-          "passed": true,
-          "weight": 10,
-          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
-        },
-        "related": {
-          "label": "관련 흐름",
-          "passed": true,
-          "weight": 10,
-          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
-        },
-        "people": {
-          "label": "인물 관점",
-          "passed": true,
-          "weight": 5,
-          "action": "관련 인물 관점 2명 이상 확보"
-        },
-        "sourceSignal": {
-          "label": "언어권 관심 신호",
-          "passed": false,
-          "weight": 8,
-          "action": "언어권별 수집 표현을 canonical node에 연결"
-        },
-        "sourceInsights": {
-          "label": "언어권 표현 인사이트",
-          "passed": false,
-          "weight": 12,
-          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
-        }
-      }
-    },
-    {
-      "key": "debate/school-corporal-punishment",
-      "href": "/debate/school-corporal-punishment",
-      "axis": "debate",
-      "axisLabel": "논쟁",
-      "title": "학교 체벌, 교육인가 폭력인가?",
-      "summary": "훈육의 필요와 아동의 존엄, 안전한 학교 질서가 충돌하는 질문.",
-      "categoryTitle": "논쟁",
-      "groupTitle": "법 / 생명 윤리",
-      "score": 79,
-      "grade": "B",
-      "status": "공개 안정",
-      "issues": [
-        "관련 인물 관점 2명 이상 확보",
-        "언어권별 수집 표현을 canonical node에 연결",
-        "언어권별 표현 차이와 공통점을 인사이트로 정리"
-      ],
-      "metrics": {
-        "cards": 4,
-        "verifiedCount": 4,
-        "tags": 3,
-        "doors": 6,
-        "actionOrReflect": 4,
-        "related": 6,
-        "people": 1,
-        "sourceSignal": false,
-        "sourceInsights": 0,
-        "summaryLength": 35,
-        "placeholder": false
-      },
-      "criteria": {
-        "published": {
-          "label": "공개 가능한 본문",
-          "passed": true,
-          "weight": 15,
-          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
-        },
-        "summary": {
-          "label": "요약 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
-        },
-        "doors": {
-          "label": "사용자 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
-        },
-        "cards": {
-          "label": "관점 카드",
-          "passed": true,
-          "weight": 15,
-          "action": "서로 다른 관점 카드 3개 이상 유지"
-        },
-        "verified": {
-          "label": "검증 출처",
-          "passed": true,
-          "weight": 15,
-          "action": "검증된 출처 카드 3개 이상 확보"
-        },
-        "tags": {
-          "label": "태그 연결",
-          "passed": true,
-          "weight": 10,
-          "action": "논쟁 태그 2개 이상 연결"
-        },
-        "actionOrReflect": {
-          "label": "행동/질문",
-          "passed": true,
-          "weight": 10,
-          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
-        },
-        "related": {
-          "label": "관련 흐름",
-          "passed": true,
-          "weight": 10,
-          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
-        },
-        "people": {
-          "label": "인물 관점",
-          "passed": false,
-          "weight": 5,
-          "action": "관련 인물 관점 2명 이상 확보"
-        },
-        "sourceSignal": {
-          "label": "언어권 관심 신호",
-          "passed": false,
-          "weight": 8,
-          "action": "언어권별 수집 표현을 canonical node에 연결"
-        },
-        "sourceInsights": {
-          "label": "언어권 표현 인사이트",
-          "passed": false,
-          "weight": 12,
-          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
-        }
-      }
-    },
-    {
-      "key": "thought/good-life",
-      "href": "/thought/good-life",
-      "axis": "thought",
-      "axisLabel": "생각",
-      "title": "좋은 삶이란 무엇인가?",
-      "summary": "행복, 의미, 덕, 평온이 어디서 갈라지는지 묻는 질문.",
-      "categoryTitle": "생각",
-      "groupTitle": "삶 / 행복",
-      "score": 82,
-      "grade": "B",
-      "status": "공개 안정",
-      "issues": [
-        "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강",
-        "언어권별 표현 차이와 공통점을 인사이트로 정리"
-      ],
-      "metrics": {
-        "cards": 3,
-        "verifiedCount": 3,
-        "tags": 4,
-        "doors": 6,
-        "actionOrReflect": 4,
-        "related": 6,
-        "people": 3,
-        "sourceSignal": true,
-        "sourceInsights": 0,
-        "summaryLength": 31,
-        "placeholder": false
-      },
-      "criteria": {
-        "published": {
-          "label": "공개 가능한 본문",
-          "passed": true,
-          "weight": 15,
-          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
-        },
-        "summary": {
-          "label": "요약 문장",
-          "passed": false,
-          "weight": 10,
-          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
-        },
-        "doors": {
-          "label": "사용자 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
-        },
-        "cards": {
-          "label": "관점 카드",
-          "passed": true,
-          "weight": 15,
-          "action": "서로 다른 관점 카드 3개 이상 유지"
-        },
-        "verified": {
-          "label": "검증 출처",
-          "passed": true,
-          "weight": 15,
-          "action": "검증된 출처 카드 3개 이상 확보"
-        },
-        "tags": {
-          "label": "태그 연결",
-          "passed": true,
-          "weight": 10,
-          "action": "고민/생각 태그 3개 이상 연결"
-        },
-        "actionOrReflect": {
-          "label": "행동/질문",
-          "passed": true,
-          "weight": 10,
-          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
-        },
-        "related": {
-          "label": "관련 흐름",
-          "passed": true,
-          "weight": 10,
-          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
-        },
-        "people": {
-          "label": "인물 관점",
-          "passed": true,
-          "weight": 5,
-          "action": "관련 인물 관점 2명 이상 확보"
-        },
-        "sourceSignal": {
-          "label": "언어권 관심 신호",
-          "passed": true,
-          "weight": 8,
-          "action": "언어권별 수집 표현을 canonical node에 연결"
-        },
-        "sourceInsights": {
-          "label": "언어권 표현 인사이트",
-          "passed": false,
-          "weight": 12,
-          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
-        }
-      }
-    },
-    {
-      "key": "thought/happiness",
-      "href": "/thought/happiness",
-      "axis": "thought",
-      "axisLabel": "생각",
-      "title": "행복이란 무엇인가?",
-      "summary": "쾌락, 만족, 의미, 탁월함이 서로 다른 답을 내는 질문.",
-      "categoryTitle": "생각",
-      "groupTitle": "삶 / 행복",
-      "score": 82,
-      "grade": "B",
-      "status": "공개 안정",
-      "issues": [
-        "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강",
-        "언어권별 표현 차이와 공통점을 인사이트로 정리"
-      ],
-      "metrics": {
-        "cards": 3,
-        "verifiedCount": 3,
-        "tags": 3,
-        "doors": 6,
-        "actionOrReflect": 4,
-        "related": 6,
-        "people": 3,
-        "sourceSignal": true,
-        "sourceInsights": 0,
-        "summaryLength": 32,
-        "placeholder": false
-      },
-      "criteria": {
-        "published": {
-          "label": "공개 가능한 본문",
-          "passed": true,
-          "weight": 15,
-          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
-        },
-        "summary": {
-          "label": "요약 문장",
-          "passed": false,
-          "weight": 10,
-          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
-        },
-        "doors": {
-          "label": "사용자 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
-        },
-        "cards": {
-          "label": "관점 카드",
-          "passed": true,
-          "weight": 15,
-          "action": "서로 다른 관점 카드 3개 이상 유지"
-        },
-        "verified": {
-          "label": "검증 출처",
-          "passed": true,
-          "weight": 15,
-          "action": "검증된 출처 카드 3개 이상 확보"
-        },
-        "tags": {
-          "label": "태그 연결",
-          "passed": true,
-          "weight": 10,
-          "action": "고민/생각 태그 3개 이상 연결"
-        },
-        "actionOrReflect": {
-          "label": "행동/질문",
-          "passed": true,
-          "weight": 10,
-          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
-        },
-        "related": {
-          "label": "관련 흐름",
-          "passed": true,
-          "weight": 10,
-          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
-        },
-        "people": {
-          "label": "인물 관점",
-          "passed": true,
-          "weight": 5,
-          "action": "관련 인물 관점 2명 이상 확보"
-        },
-        "sourceSignal": {
-          "label": "언어권 관심 신호",
-          "passed": true,
-          "weight": 8,
-          "action": "언어권별 수집 표현을 canonical node에 연결"
-        },
-        "sourceInsights": {
-          "label": "언어권 표현 인사이트",
-          "passed": false,
-          "weight": 12,
-          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
-        }
-      }
-    },
-    {
-      "key": "thought/success",
-      "href": "/thought/success",
-      "axis": "thought",
-      "axisLabel": "생각",
-      "title": "성공이란 무엇인가?",
-      "summary": "돈과 인정, 탁월함과 자기 기준 사이의 질문.",
-      "categoryTitle": "생각",
-      "groupTitle": "성공 / 인정",
-      "score": 82,
-      "grade": "B",
-      "status": "공개 안정",
-      "issues": [
-        "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강",
-        "언어권별 표현 차이와 공통점을 인사이트로 정리"
-      ],
-      "metrics": {
-        "cards": 3,
-        "verifiedCount": 3,
-        "tags": 3,
-        "doors": 6,
-        "actionOrReflect": 4,
-        "related": 6,
-        "people": 3,
-        "sourceSignal": true,
-        "sourceInsights": 0,
-        "summaryLength": 25,
-        "placeholder": false
-      },
-      "criteria": {
-        "published": {
-          "label": "공개 가능한 본문",
-          "passed": true,
-          "weight": 15,
-          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
-        },
-        "summary": {
-          "label": "요약 문장",
-          "passed": false,
-          "weight": 10,
-          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
-        },
-        "doors": {
-          "label": "사용자 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
-        },
-        "cards": {
-          "label": "관점 카드",
-          "passed": true,
-          "weight": 15,
-          "action": "서로 다른 관점 카드 3개 이상 유지"
-        },
-        "verified": {
-          "label": "검증 출처",
-          "passed": true,
-          "weight": 15,
-          "action": "검증된 출처 카드 3개 이상 확보"
-        },
-        "tags": {
-          "label": "태그 연결",
-          "passed": true,
-          "weight": 10,
-          "action": "고민/생각 태그 3개 이상 연결"
-        },
-        "actionOrReflect": {
-          "label": "행동/질문",
-          "passed": true,
-          "weight": 10,
-          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
-        },
-        "related": {
-          "label": "관련 흐름",
-          "passed": true,
-          "weight": 10,
-          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
-        },
-        "people": {
-          "label": "인물 관점",
-          "passed": true,
-          "weight": 5,
-          "action": "관련 인물 관점 2명 이상 확보"
-        },
-        "sourceSignal": {
-          "label": "언어권 관심 신호",
-          "passed": true,
-          "weight": 8,
-          "action": "언어권별 수집 표현을 canonical node에 연결"
-        },
-        "sourceInsights": {
-          "label": "언어권 표현 인사이트",
-          "passed": false,
-          "weight": 12,
-          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
-        }
-      }
-    },
-    {
-      "key": "debate/marriage",
-      "href": "/debate/marriage",
-      "axis": "debate",
-      "axisLabel": "논쟁",
-      "title": "결혼, 꼭 해야 하나?",
-      "summary": "비혼은 후회할까, 결혼은 행복의 조건일까.",
-      "categoryTitle": "논쟁",
-      "groupTitle": "가족 / 문화",
-      "score": 82,
-      "grade": "B",
-      "status": "공개 안정",
-      "issues": [
-        "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강",
-        "언어권별 표현 차이와 공통점을 인사이트로 정리"
-      ],
-      "metrics": {
-        "cards": 3,
-        "verifiedCount": 3,
-        "tags": 4,
-        "doors": 7,
-        "actionOrReflect": 3,
-        "related": 6,
-        "people": 3,
-        "sourceSignal": true,
-        "sourceInsights": 0,
-        "summaryLength": 23,
-        "placeholder": false
-      },
-      "criteria": {
-        "published": {
-          "label": "공개 가능한 본문",
-          "passed": true,
-          "weight": 15,
-          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
-        },
-        "summary": {
-          "label": "요약 문장",
-          "passed": false,
-          "weight": 10,
-          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
-        },
-        "doors": {
-          "label": "사용자 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
-        },
-        "cards": {
-          "label": "관점 카드",
-          "passed": true,
-          "weight": 15,
-          "action": "서로 다른 관점 카드 3개 이상 유지"
-        },
-        "verified": {
-          "label": "검증 출처",
-          "passed": true,
-          "weight": 15,
-          "action": "검증된 출처 카드 3개 이상 확보"
-        },
-        "tags": {
-          "label": "태그 연결",
-          "passed": true,
-          "weight": 10,
-          "action": "논쟁 태그 2개 이상 연결"
-        },
-        "actionOrReflect": {
-          "label": "행동/질문",
-          "passed": true,
-          "weight": 10,
-          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
-        },
-        "related": {
-          "label": "관련 흐름",
-          "passed": true,
-          "weight": 10,
-          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
-        },
-        "people": {
-          "label": "인물 관점",
-          "passed": true,
-          "weight": 5,
-          "action": "관련 인물 관점 2명 이상 확보"
-        },
-        "sourceSignal": {
-          "label": "언어권 관심 신호",
-          "passed": true,
-          "weight": 8,
-          "action": "언어권별 수집 표현을 canonical node에 연결"
-        },
-        "sourceInsights": {
-          "label": "언어권 표현 인사이트",
-          "passed": false,
-          "weight": 12,
-          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
-        }
-      }
-    },
-    {
-      "key": "love/should-give-up",
-      "href": "/love/should-give-up",
-      "axis": "worry",
-      "axisLabel": "고민",
-      "title": "포기해야 할지 모를 때",
-      "summary": "놓아야 할지 매달려야 할지 모르는 건, 내 마음의 크기와 통제 밖 현실 사이에서 답이 안 나와서다.",
-      "categoryTitle": "연애 / 짝사랑",
-      "groupTitle": "관계",
-      "score": 83,
-      "grade": "B",
-      "status": "공개 안정",
-      "issues": [
-        "언어권별 수집 표현을 canonical node에 연결",
-        "언어권별 표현 차이와 공통점을 인사이트로 정리"
-      ],
-      "metrics": {
-        "cards": 3,
-        "verifiedCount": 3,
-        "tags": 4,
-        "doors": 7,
-        "actionOrReflect": 4,
-        "related": 6,
-        "people": 3,
-        "sourceSignal": false,
-        "sourceInsights": 0,
-        "summaryLength": 55,
-        "placeholder": false
-      },
-      "criteria": {
-        "published": {
-          "label": "공개 가능한 본문",
-          "passed": true,
-          "weight": 15,
-          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
-        },
-        "summary": {
-          "label": "요약 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
-        },
-        "doors": {
-          "label": "사용자 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
-        },
-        "cards": {
-          "label": "관점 카드",
-          "passed": true,
-          "weight": 15,
-          "action": "서로 다른 관점 카드 3개 이상 유지"
-        },
-        "verified": {
-          "label": "검증 출처",
-          "passed": true,
-          "weight": 15,
-          "action": "검증된 출처 카드 3개 이상 확보"
-        },
-        "tags": {
-          "label": "태그 연결",
-          "passed": true,
-          "weight": 10,
-          "action": "고민/생각 태그 3개 이상 연결"
-        },
-        "actionOrReflect": {
-          "label": "행동/질문",
-          "passed": true,
-          "weight": 10,
-          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
-        },
-        "related": {
-          "label": "관련 흐름",
-          "passed": true,
-          "weight": 10,
-          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
-        },
-        "people": {
-          "label": "인물 관점",
-          "passed": true,
-          "weight": 5,
-          "action": "관련 인물 관점 2명 이상 확보"
-        },
-        "sourceSignal": {
-          "label": "언어권 관심 신호",
-          "passed": false,
-          "weight": 8,
-          "action": "언어권별 수집 표현을 canonical node에 연결"
-        },
-        "sourceInsights": {
-          "label": "언어권 표현 인사이트",
-          "passed": false,
-          "weight": 12,
-          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
-        }
-      }
-    },
     {
       "key": "love/cant-read-them",
       "href": "/love/cant-read-them",
@@ -1166,6 +168,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": false,
         "sourceInsights": 0,
         "summaryLength": 53,
@@ -1221,7 +224,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -1264,6 +267,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": false,
         "sourceInsights": 0,
         "summaryLength": 72,
@@ -1319,7 +323,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -1362,6 +366,7 @@
         "actionOrReflect": 3,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": false,
         "sourceInsights": 0,
         "summaryLength": 36,
@@ -1417,7 +422,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -1460,6 +465,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": false,
         "sourceInsights": 0,
         "summaryLength": 70,
@@ -1515,7 +521,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -1558,6 +564,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": false,
         "sourceInsights": 0,
         "summaryLength": 63,
@@ -1613,7 +620,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -1656,6 +663,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": false,
         "sourceInsights": 0,
         "summaryLength": 44,
@@ -1711,7 +719,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -1754,6 +762,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": false,
         "sourceInsights": 0,
         "summaryLength": 57,
@@ -1809,7 +818,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -1852,6 +861,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": false,
         "sourceInsights": 0,
         "summaryLength": 51,
@@ -1907,7 +917,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -1950,6 +960,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": false,
         "sourceInsights": 0,
         "summaryLength": 41,
@@ -2005,7 +1016,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -2048,6 +1059,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 4,
+        "perspectives": 4,
         "sourceSignal": false,
         "sourceInsights": 0,
         "summaryLength": 43,
@@ -2103,7 +1115,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -2146,6 +1158,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": false,
         "sourceInsights": 0,
         "summaryLength": 56,
@@ -2201,7 +1214,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -2244,6 +1257,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": false,
         "sourceInsights": 0,
         "summaryLength": 70,
@@ -2299,7 +1313,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -2342,6 +1356,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": false,
         "sourceInsights": 0,
         "summaryLength": 74,
@@ -2397,7 +1412,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -2440,6 +1455,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": false,
         "sourceInsights": 0,
         "summaryLength": 41,
@@ -2495,7 +1511,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -2538,6 +1554,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": false,
         "sourceInsights": 0,
         "summaryLength": 55,
@@ -2593,7 +1610,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -2636,6 +1653,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": false,
         "sourceInsights": 0,
         "summaryLength": 46,
@@ -2691,7 +1709,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -2734,6 +1752,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 2,
+        "perspectives": 2,
         "sourceSignal": false,
         "sourceInsights": 0,
         "summaryLength": 66,
@@ -2789,7 +1808,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -2832,6 +1851,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": false,
         "sourceInsights": 0,
         "summaryLength": 41,
@@ -2887,7 +1907,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -2930,6 +1950,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 4,
+        "perspectives": 4,
         "sourceSignal": false,
         "sourceInsights": 0,
         "summaryLength": 46,
@@ -2985,7 +2006,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -3028,6 +2049,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": false,
         "sourceInsights": 0,
         "summaryLength": 78,
@@ -3083,7 +2105,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -3126,6 +2148,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": false,
         "sourceInsights": 0,
         "summaryLength": 57,
@@ -3181,7 +2204,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -3224,6 +2247,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": false,
         "sourceInsights": 0,
         "summaryLength": 43,
@@ -3279,7 +2303,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -3322,6 +2346,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 4,
+        "perspectives": 4,
         "sourceSignal": false,
         "sourceInsights": 0,
         "summaryLength": 47,
@@ -3377,7 +2402,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -3420,6 +2445,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": false,
         "sourceInsights": 0,
         "summaryLength": 76,
@@ -3475,7 +2501,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -3518,6 +2544,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": false,
         "sourceInsights": 0,
         "summaryLength": 68,
@@ -3573,7 +2600,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -3616,6 +2643,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": false,
         "sourceInsights": 0,
         "summaryLength": 41,
@@ -3671,7 +2699,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -3714,6 +2742,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": false,
         "sourceInsights": 0,
         "summaryLength": 58,
@@ -3769,7 +2798,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -3812,6 +2841,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": false,
         "sourceInsights": 0,
         "summaryLength": 38,
@@ -3867,7 +2897,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -3910,6 +2940,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": false,
         "sourceInsights": 0,
         "summaryLength": 44,
@@ -3965,7 +2996,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -4008,6 +3039,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": false,
         "sourceInsights": 0,
         "summaryLength": 82,
@@ -4063,7 +3095,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -4106,6 +3138,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": false,
         "sourceInsights": 0,
         "summaryLength": 47,
@@ -4161,7 +3194,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -4204,6 +3237,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 2,
+        "perspectives": 3,
         "sourceSignal": false,
         "sourceInsights": 0,
         "summaryLength": 31,
@@ -4259,10 +3293,10 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
-          "action": "관련 인물 관점 2명 이상 확보"
+          "action": "논쟁 관점 3개 이상 확보"
         },
         "sourceSignal": {
           "label": "언어권 관심 신호",
@@ -4302,6 +3336,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": false,
         "sourceInsights": 0,
         "summaryLength": 25,
@@ -4357,10 +3392,10 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
-          "action": "관련 인물 관점 2명 이상 확보"
+          "action": "논쟁 관점 3개 이상 확보"
         },
         "sourceSignal": {
           "label": "언어권 관심 신호",
@@ -4400,6 +3435,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": false,
         "sourceInsights": 0,
         "summaryLength": 28,
@@ -4455,10 +3491,10 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
-          "action": "관련 인물 관점 2명 이상 확보"
+          "action": "논쟁 관점 3개 이상 확보"
         },
         "sourceSignal": {
           "label": "언어권 관심 신호",
@@ -4498,6 +3534,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": false,
         "sourceInsights": 0,
         "summaryLength": 29,
@@ -4553,10 +3590,10 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
-          "action": "관련 인물 관점 2명 이상 확보"
+          "action": "논쟁 관점 3개 이상 확보"
         },
         "sourceSignal": {
           "label": "언어권 관심 신호",
@@ -4596,6 +3633,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 2,
+        "perspectives": 4,
         "sourceSignal": false,
         "sourceInsights": 0,
         "summaryLength": 29,
@@ -4651,10 +3689,10 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
-          "action": "관련 인물 관점 2명 이상 확보"
+          "action": "논쟁 관점 3개 이상 확보"
         },
         "sourceSignal": {
           "label": "언어권 관심 신호",
@@ -4694,6 +3732,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": false,
         "sourceInsights": 0,
         "summaryLength": 27,
@@ -4749,10 +3788,10 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
-          "action": "관련 인물 관점 2명 이상 확보"
+          "action": "논쟁 관점 3개 이상 확보"
         },
         "sourceSignal": {
           "label": "언어권 관심 신호",
@@ -4792,6 +3831,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": false,
         "sourceInsights": 0,
         "summaryLength": 28,
@@ -4847,10 +3887,10 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
-          "action": "관련 인물 관점 2명 이상 확보"
+          "action": "논쟁 관점 3개 이상 확보"
         },
         "sourceSignal": {
           "label": "언어권 관심 신호",
@@ -4890,6 +3930,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 2,
+        "perspectives": 3,
         "sourceSignal": false,
         "sourceInsights": 0,
         "summaryLength": 26,
@@ -4945,10 +3986,10 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
-          "action": "관련 인물 관점 2명 이상 확보"
+          "action": "논쟁 관점 3개 이상 확보"
         },
         "sourceSignal": {
           "label": "언어권 관심 신호",
@@ -4988,6 +4029,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": false,
         "sourceInsights": 0,
         "summaryLength": 26,
@@ -5043,10 +4085,10 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
-          "action": "관련 인물 관점 2명 이상 확보"
+          "action": "논쟁 관점 3개 이상 확보"
         },
         "sourceSignal": {
           "label": "언어권 관심 신호",
@@ -5086,6 +4128,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": false,
         "sourceInsights": 0,
         "summaryLength": 27,
@@ -5141,10 +4184,10 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
-          "action": "관련 인물 관점 2명 이상 확보"
+          "action": "논쟁 관점 3개 이상 확보"
         },
         "sourceSignal": {
           "label": "언어권 관심 신호",
@@ -5184,6 +4227,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": false,
         "sourceInsights": 0,
         "summaryLength": 29,
@@ -5239,10 +4283,10 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
-          "action": "관련 인물 관점 2명 이상 확보"
+          "action": "논쟁 관점 3개 이상 확보"
         },
         "sourceSignal": {
           "label": "언어권 관심 신호",
@@ -5282,6 +4326,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 2,
+        "perspectives": 3,
         "sourceSignal": false,
         "sourceInsights": 0,
         "summaryLength": 30,
@@ -5337,10 +4382,10 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
-          "action": "관련 인물 관점 2명 이상 확보"
+          "action": "논쟁 관점 3개 이상 확보"
         },
         "sourceSignal": {
           "label": "언어권 관심 신호",
@@ -5380,6 +4425,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 4,
         "sourceSignal": false,
         "sourceInsights": 0,
         "summaryLength": 38,
@@ -5435,10 +4481,10 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
-          "action": "관련 인물 관점 2명 이상 확보"
+          "action": "논쟁 관점 3개 이상 확보"
         },
         "sourceSignal": {
           "label": "언어권 관심 신호",
@@ -5478,6 +4524,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 4,
+        "perspectives": 4,
         "sourceSignal": false,
         "sourceInsights": 0,
         "summaryLength": 31,
@@ -5533,10 +4580,10 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
-          "action": "관련 인물 관점 2명 이상 확보"
+          "action": "논쟁 관점 3개 이상 확보"
         },
         "sourceSignal": {
           "label": "언어권 관심 신호",
@@ -5575,6 +4622,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": true,
         "sourceInsights": 0,
         "summaryLength": 52,
@@ -5630,7 +4678,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -5672,6 +4720,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": true,
         "sourceInsights": 0,
         "summaryLength": 85,
@@ -5727,7 +4776,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -5769,6 +4818,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": true,
         "sourceInsights": 0,
         "summaryLength": 55,
@@ -5824,7 +4874,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -5866,6 +4916,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": true,
         "sourceInsights": 0,
         "summaryLength": 47,
@@ -5921,7 +4972,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -5963,6 +5014,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": true,
         "sourceInsights": 0,
         "summaryLength": 63,
@@ -6018,7 +5070,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -6060,6 +5112,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": true,
         "sourceInsights": 0,
         "summaryLength": 51,
@@ -6115,7 +5168,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -6157,6 +5210,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": true,
         "sourceInsights": 0,
         "summaryLength": 40,
@@ -6212,7 +5266,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -6254,6 +5308,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": true,
         "sourceInsights": 0,
         "summaryLength": 50,
@@ -6309,7 +5364,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -6351,6 +5406,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": true,
         "sourceInsights": 0,
         "summaryLength": 44,
@@ -6406,7 +5462,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -6448,6 +5504,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": true,
         "sourceInsights": 0,
         "summaryLength": 51,
@@ -6503,7 +5560,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -6545,6 +5602,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": true,
         "sourceInsights": 0,
         "summaryLength": 50,
@@ -6600,7 +5658,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -6642,6 +5700,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": true,
         "sourceInsights": 0,
         "summaryLength": 50,
@@ -6697,7 +5756,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -6739,6 +5798,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": true,
         "sourceInsights": 0,
         "summaryLength": 39,
@@ -6794,7 +5854,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -6836,6 +5896,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": true,
         "sourceInsights": 0,
         "summaryLength": 62,
@@ -6891,7 +5952,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -6933,6 +5994,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": true,
         "sourceInsights": 0,
         "summaryLength": 68,
@@ -6988,7 +6050,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -7030,6 +6092,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": true,
         "sourceInsights": 0,
         "summaryLength": 49,
@@ -7085,7 +6148,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -7127,6 +6190,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": true,
         "sourceInsights": 0,
         "summaryLength": 41,
@@ -7182,7 +6246,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -7224,6 +6288,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": true,
         "sourceInsights": 0,
         "summaryLength": 44,
@@ -7279,7 +6344,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -7321,6 +6386,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": true,
         "sourceInsights": 0,
         "summaryLength": 89,
@@ -7376,7 +6442,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -7418,6 +6484,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 2,
+        "perspectives": 2,
         "sourceSignal": true,
         "sourceInsights": 0,
         "summaryLength": 50,
@@ -7473,7 +6540,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -7515,6 +6582,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 2,
+        "perspectives": 2,
         "sourceSignal": true,
         "sourceInsights": 0,
         "summaryLength": 43,
@@ -7570,7 +6638,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -7612,6 +6680,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": true,
         "sourceInsights": 0,
         "summaryLength": 40,
@@ -7667,7 +6736,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -7709,6 +6778,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": true,
         "sourceInsights": 0,
         "summaryLength": 38,
@@ -7764,7 +6834,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -7806,6 +6876,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 2,
+        "perspectives": 3,
         "sourceSignal": true,
         "sourceInsights": 0,
         "summaryLength": 29,
@@ -7861,10 +6932,10 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
-          "action": "관련 인물 관점 2명 이상 확보"
+          "action": "논쟁 관점 3개 이상 확보"
         },
         "sourceSignal": {
           "label": "언어권 관심 신호",
@@ -7903,6 +6974,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 2,
+        "perspectives": 3,
         "sourceSignal": true,
         "sourceInsights": 0,
         "summaryLength": 28,
@@ -7958,10 +7030,10 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
-          "action": "관련 인물 관점 2명 이상 확보"
+          "action": "논쟁 관점 3개 이상 확보"
         },
         "sourceSignal": {
           "label": "언어권 관심 신호",
@@ -7978,300 +7050,13 @@
       }
     },
     {
-      "key": "debate/remote-work",
-      "href": "/debate/remote-work",
-      "axis": "debate",
-      "axisLabel": "논쟁",
-      "title": "재택근무, 계속 확대해도 괜찮은가?",
-      "summary": "자율과 생산성, 협업과 노동권이 함께 걸린 일의 방식 논쟁.",
-      "categoryTitle": "논쟁",
-      "groupTitle": "일 / 노동 제도",
-      "score": 92,
-      "grade": "A",
-      "status": "강함",
-      "issues": [
-        "논쟁 태그 2개 이상 연결"
-      ],
-      "metrics": {
-        "cards": 4,
-        "verifiedCount": 4,
-        "tags": 1,
-        "doors": 9,
-        "actionOrReflect": 4,
-        "related": 6,
-        "people": 2,
-        "sourceSignal": true,
-        "sourceInsights": 2,
-        "summaryLength": 33,
-        "placeholder": false
-      },
-      "criteria": {
-        "published": {
-          "label": "공개 가능한 본문",
-          "passed": true,
-          "weight": 15,
-          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
-        },
-        "summary": {
-          "label": "요약 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
-        },
-        "doors": {
-          "label": "사용자 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
-        },
-        "cards": {
-          "label": "관점 카드",
-          "passed": true,
-          "weight": 15,
-          "action": "서로 다른 관점 카드 3개 이상 유지"
-        },
-        "verified": {
-          "label": "검증 출처",
-          "passed": true,
-          "weight": 15,
-          "action": "검증된 출처 카드 3개 이상 확보"
-        },
-        "tags": {
-          "label": "태그 연결",
-          "passed": false,
-          "weight": 10,
-          "action": "논쟁 태그 2개 이상 연결"
-        },
-        "actionOrReflect": {
-          "label": "행동/질문",
-          "passed": true,
-          "weight": 10,
-          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
-        },
-        "related": {
-          "label": "관련 흐름",
-          "passed": true,
-          "weight": 10,
-          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
-        },
-        "people": {
-          "label": "인물 관점",
-          "passed": true,
-          "weight": 5,
-          "action": "관련 인물 관점 2명 이상 확보"
-        },
-        "sourceSignal": {
-          "label": "언어권 관심 신호",
-          "passed": true,
-          "weight": 8,
-          "action": "언어권별 수집 표현을 canonical node에 연결"
-        },
-        "sourceInsights": {
-          "label": "언어권 표현 인사이트",
-          "passed": true,
-          "weight": 12,
-          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
-        }
-      }
-    },
-    {
-      "key": "breakup/ghosting",
-      "href": "/breakup/ghosting",
+      "key": "love/impatient",
+      "href": "/love/impatient",
       "axis": "worry",
       "axisLabel": "고민",
-      "title": "잠수이별과 읽씹을 당했을 때",
-      "summary": "잠수이별과 읽씹은 상실보다 더 괴롭다. 끝났다는 말조차 받지 못하면 마음은 계속 이유를 상상하고, 내 가치가 무시당했다는 분노와 수치심이 같이 올라온다.",
-      "categoryTitle": "이별 / 실연",
-      "groupTitle": "관계",
-      "score": 100,
-      "grade": "A",
-      "status": "강함",
-      "issues": [],
-      "metrics": {
-        "cards": 3,
-        "verifiedCount": 3,
-        "tags": 5,
-        "doors": 10,
-        "actionOrReflect": 4,
-        "related": 6,
-        "people": 3,
-        "sourceSignal": true,
-        "sourceInsights": 2,
-        "summaryLength": 85,
-        "placeholder": false
-      },
-      "criteria": {
-        "published": {
-          "label": "공개 가능한 본문",
-          "passed": true,
-          "weight": 15,
-          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
-        },
-        "summary": {
-          "label": "요약 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
-        },
-        "doors": {
-          "label": "사용자 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
-        },
-        "cards": {
-          "label": "관점 카드",
-          "passed": true,
-          "weight": 15,
-          "action": "서로 다른 관점 카드 3개 이상 유지"
-        },
-        "verified": {
-          "label": "검증 출처",
-          "passed": true,
-          "weight": 15,
-          "action": "검증된 출처 카드 3개 이상 확보"
-        },
-        "tags": {
-          "label": "태그 연결",
-          "passed": true,
-          "weight": 10,
-          "action": "고민/생각 태그 3개 이상 연결"
-        },
-        "actionOrReflect": {
-          "label": "행동/질문",
-          "passed": true,
-          "weight": 10,
-          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
-        },
-        "related": {
-          "label": "관련 흐름",
-          "passed": true,
-          "weight": 10,
-          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
-        },
-        "people": {
-          "label": "인물 관점",
-          "passed": true,
-          "weight": 5,
-          "action": "관련 인물 관점 2명 이상 확보"
-        },
-        "sourceSignal": {
-          "label": "언어권 관심 신호",
-          "passed": true,
-          "weight": 8,
-          "action": "언어권별 수집 표현을 canonical node에 연결"
-        },
-        "sourceInsights": {
-          "label": "언어권 표현 인사이트",
-          "passed": true,
-          "weight": 12,
-          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
-        }
-      }
-    },
-    {
-      "key": "meaning/meaningless",
-      "href": "/meaning/meaningless",
-      "axis": "worry",
-      "axisLabel": "고민",
-      "title": "삶이 무의미하게 느껴질 때",
-      "summary": "삶이 무의미하게 느껴질 때 — 세상은 답을 주지 않는데 나는 의미를 요구하는, 그 어긋남 속에 서 있는 상태.",
-      "categoryTitle": "삶의 의미",
-      "groupTitle": "자아 / 마음",
-      "score": 100,
-      "grade": "A",
-      "status": "강함",
-      "issues": [],
-      "metrics": {
-        "cards": 3,
-        "verifiedCount": 3,
-        "tags": 4,
-        "doors": 10,
-        "actionOrReflect": 4,
-        "related": 6,
-        "people": 3,
-        "sourceSignal": true,
-        "sourceInsights": 2,
-        "summaryLength": 61,
-        "placeholder": false
-      },
-      "criteria": {
-        "published": {
-          "label": "공개 가능한 본문",
-          "passed": true,
-          "weight": 15,
-          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
-        },
-        "summary": {
-          "label": "요약 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
-        },
-        "doors": {
-          "label": "사용자 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
-        },
-        "cards": {
-          "label": "관점 카드",
-          "passed": true,
-          "weight": 15,
-          "action": "서로 다른 관점 카드 3개 이상 유지"
-        },
-        "verified": {
-          "label": "검증 출처",
-          "passed": true,
-          "weight": 15,
-          "action": "검증된 출처 카드 3개 이상 확보"
-        },
-        "tags": {
-          "label": "태그 연결",
-          "passed": true,
-          "weight": 10,
-          "action": "고민/생각 태그 3개 이상 연결"
-        },
-        "actionOrReflect": {
-          "label": "행동/질문",
-          "passed": true,
-          "weight": 10,
-          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
-        },
-        "related": {
-          "label": "관련 흐름",
-          "passed": true,
-          "weight": 10,
-          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
-        },
-        "people": {
-          "label": "인물 관점",
-          "passed": true,
-          "weight": 5,
-          "action": "관련 인물 관점 2명 이상 확보"
-        },
-        "sourceSignal": {
-          "label": "언어권 관심 신호",
-          "passed": true,
-          "weight": 8,
-          "action": "언어권별 수집 표현을 canonical node에 연결"
-        },
-        "sourceInsights": {
-          "label": "언어권 표현 인사이트",
-          "passed": true,
-          "weight": 12,
-          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
-        }
-      }
-    },
-    {
-      "key": "family/parent-conflict",
-      "href": "/family/parent-conflict",
-      "axis": "worry",
-      "axisLabel": "고민",
-      "title": "부모님과 갈등이 심할 때",
-      "summary": "부모님과의 갈등은 사랑이 없어서가 아니라, 가까운 관계 안에서 존중과 자율의 경계가 자주 흐려지기 때문에 생긴다.",
-      "categoryTitle": "가족 / 독립",
+      "title": "조급할 때",
+      "summary": "조급함은 원하는 결과를 빨리 확정하고 싶은 마음과 상대의 속도를 통제할 수 없다는 현실이 부딪힐 때 커진다.",
+      "categoryTitle": "연애 / 짝사랑",
       "groupTitle": "관계",
       "score": 100,
       "grade": "A",
@@ -8281,105 +7066,11 @@
         "cards": 3,
         "verifiedCount": 3,
         "tags": 4,
-        "doors": 9,
-        "actionOrReflect": 4,
+        "doors": 7,
+        "actionOrReflect": 3,
         "related": 6,
         "people": 3,
-        "sourceSignal": true,
-        "sourceInsights": 2,
-        "summaryLength": 63,
-        "placeholder": false
-      },
-      "criteria": {
-        "published": {
-          "label": "공개 가능한 본문",
-          "passed": true,
-          "weight": 15,
-          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
-        },
-        "summary": {
-          "label": "요약 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
-        },
-        "doors": {
-          "label": "사용자 문장",
-          "passed": true,
-          "weight": 10,
-          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
-        },
-        "cards": {
-          "label": "관점 카드",
-          "passed": true,
-          "weight": 15,
-          "action": "서로 다른 관점 카드 3개 이상 유지"
-        },
-        "verified": {
-          "label": "검증 출처",
-          "passed": true,
-          "weight": 15,
-          "action": "검증된 출처 카드 3개 이상 확보"
-        },
-        "tags": {
-          "label": "태그 연결",
-          "passed": true,
-          "weight": 10,
-          "action": "고민/생각 태그 3개 이상 연결"
-        },
-        "actionOrReflect": {
-          "label": "행동/질문",
-          "passed": true,
-          "weight": 10,
-          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
-        },
-        "related": {
-          "label": "관련 흐름",
-          "passed": true,
-          "weight": 10,
-          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
-        },
-        "people": {
-          "label": "인물 관점",
-          "passed": true,
-          "weight": 5,
-          "action": "관련 인물 관점 2명 이상 확보"
-        },
-        "sourceSignal": {
-          "label": "언어권 관심 신호",
-          "passed": true,
-          "weight": 8,
-          "action": "언어권별 수집 표현을 canonical node에 연결"
-        },
-        "sourceInsights": {
-          "label": "언어권 표현 인사이트",
-          "passed": true,
-          "weight": 12,
-          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
-        }
-      }
-    },
-    {
-      "key": "family/independence",
-      "href": "/family/independence",
-      "axis": "worry",
-      "axisLabel": "고민",
-      "title": "독립하고 싶은데 망설여질 때",
-      "summary": "독립하고 싶은데 망설이는 마음은, 자유를 원하면서도 가족의 기대와 현실 비용을 동시에 떠안기 때문에 생긴다.",
-      "categoryTitle": "가족 / 독립",
-      "groupTitle": "관계",
-      "score": 100,
-      "grade": "A",
-      "status": "강함",
-      "issues": [],
-      "metrics": {
-        "cards": 3,
-        "verifiedCount": 3,
-        "tags": 4,
-        "doors": 9,
-        "actionOrReflect": 4,
-        "related": 6,
-        "people": 3,
+        "perspectives": 3,
         "sourceSignal": true,
         "sourceInsights": 2,
         "summaryLength": 60,
@@ -8435,7 +7126,487 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
+          "passed": true,
+          "weight": 5,
+          "action": "관련 인물 관점 2명 이상 확보"
+        },
+        "sourceSignal": {
+          "label": "언어권 관심 신호",
+          "passed": true,
+          "weight": 8,
+          "action": "언어권별 수집 표현을 canonical node에 연결"
+        },
+        "sourceInsights": {
+          "label": "언어권 표현 인사이트",
+          "passed": true,
+          "weight": 12,
+          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
+        }
+      }
+    },
+    {
+      "key": "love/should-give-up",
+      "href": "/love/should-give-up",
+      "axis": "worry",
+      "axisLabel": "고민",
+      "title": "포기해야 할지 모를 때",
+      "summary": "놓아야 할지 매달려야 할지 모르는 건, 내 마음의 크기와 통제 밖 현실 사이에서 답이 안 나와서다.",
+      "categoryTitle": "연애 / 짝사랑",
+      "groupTitle": "관계",
+      "score": 100,
+      "grade": "A",
+      "status": "강함",
+      "issues": [],
+      "metrics": {
+        "cards": 3,
+        "verifiedCount": 3,
+        "tags": 4,
+        "doors": 10,
+        "actionOrReflect": 4,
+        "related": 6,
+        "people": 3,
+        "perspectives": 3,
+        "sourceSignal": true,
+        "sourceInsights": 2,
+        "summaryLength": 55,
+        "placeholder": false
+      },
+      "criteria": {
+        "published": {
+          "label": "공개 가능한 본문",
+          "passed": true,
+          "weight": 15,
+          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
+        },
+        "summary": {
+          "label": "요약 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
+        },
+        "doors": {
+          "label": "사용자 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
+        },
+        "cards": {
+          "label": "관점 카드",
+          "passed": true,
+          "weight": 15,
+          "action": "서로 다른 관점 카드 3개 이상 유지"
+        },
+        "verified": {
+          "label": "검증 출처",
+          "passed": true,
+          "weight": 15,
+          "action": "검증된 출처 카드 3개 이상 확보"
+        },
+        "tags": {
+          "label": "태그 연결",
+          "passed": true,
+          "weight": 10,
+          "action": "고민/생각 태그 3개 이상 연결"
+        },
+        "actionOrReflect": {
+          "label": "행동/질문",
+          "passed": true,
+          "weight": 10,
+          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
+        },
+        "related": {
+          "label": "관련 흐름",
+          "passed": true,
+          "weight": 10,
+          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
+        },
+        "people": {
+          "label": "인물/논쟁 관점",
+          "passed": true,
+          "weight": 5,
+          "action": "관련 인물 관점 2명 이상 확보"
+        },
+        "sourceSignal": {
+          "label": "언어권 관심 신호",
+          "passed": true,
+          "weight": 8,
+          "action": "언어권별 수집 표현을 canonical node에 연결"
+        },
+        "sourceInsights": {
+          "label": "언어권 표현 인사이트",
+          "passed": true,
+          "weight": 12,
+          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
+        }
+      }
+    },
+    {
+      "key": "breakup/ghosting",
+      "href": "/breakup/ghosting",
+      "axis": "worry",
+      "axisLabel": "고민",
+      "title": "잠수이별과 읽씹을 당했을 때",
+      "summary": "잠수이별과 읽씹은 상실보다 더 괴롭다. 끝났다는 말조차 받지 못하면 마음은 계속 이유를 상상하고, 내 가치가 무시당했다는 분노와 수치심이 같이 올라온다.",
+      "categoryTitle": "이별 / 실연",
+      "groupTitle": "관계",
+      "score": 100,
+      "grade": "A",
+      "status": "강함",
+      "issues": [],
+      "metrics": {
+        "cards": 3,
+        "verifiedCount": 3,
+        "tags": 5,
+        "doors": 10,
+        "actionOrReflect": 4,
+        "related": 6,
+        "people": 3,
+        "perspectives": 3,
+        "sourceSignal": true,
+        "sourceInsights": 2,
+        "summaryLength": 85,
+        "placeholder": false
+      },
+      "criteria": {
+        "published": {
+          "label": "공개 가능한 본문",
+          "passed": true,
+          "weight": 15,
+          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
+        },
+        "summary": {
+          "label": "요약 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
+        },
+        "doors": {
+          "label": "사용자 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
+        },
+        "cards": {
+          "label": "관점 카드",
+          "passed": true,
+          "weight": 15,
+          "action": "서로 다른 관점 카드 3개 이상 유지"
+        },
+        "verified": {
+          "label": "검증 출처",
+          "passed": true,
+          "weight": 15,
+          "action": "검증된 출처 카드 3개 이상 확보"
+        },
+        "tags": {
+          "label": "태그 연결",
+          "passed": true,
+          "weight": 10,
+          "action": "고민/생각 태그 3개 이상 연결"
+        },
+        "actionOrReflect": {
+          "label": "행동/질문",
+          "passed": true,
+          "weight": 10,
+          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
+        },
+        "related": {
+          "label": "관련 흐름",
+          "passed": true,
+          "weight": 10,
+          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
+        },
+        "people": {
+          "label": "인물/논쟁 관점",
+          "passed": true,
+          "weight": 5,
+          "action": "관련 인물 관점 2명 이상 확보"
+        },
+        "sourceSignal": {
+          "label": "언어권 관심 신호",
+          "passed": true,
+          "weight": 8,
+          "action": "언어권별 수집 표현을 canonical node에 연결"
+        },
+        "sourceInsights": {
+          "label": "언어권 표현 인사이트",
+          "passed": true,
+          "weight": 12,
+          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
+        }
+      }
+    },
+    {
+      "key": "meaning/meaningless",
+      "href": "/meaning/meaningless",
+      "axis": "worry",
+      "axisLabel": "고민",
+      "title": "삶이 무의미하게 느껴질 때",
+      "summary": "삶이 무의미하게 느껴질 때 — 세상은 답을 주지 않는데 나는 의미를 요구하는, 그 어긋남 속에 서 있는 상태.",
+      "categoryTitle": "삶의 의미",
+      "groupTitle": "자아 / 마음",
+      "score": 100,
+      "grade": "A",
+      "status": "강함",
+      "issues": [],
+      "metrics": {
+        "cards": 3,
+        "verifiedCount": 3,
+        "tags": 4,
+        "doors": 10,
+        "actionOrReflect": 4,
+        "related": 6,
+        "people": 3,
+        "perspectives": 3,
+        "sourceSignal": true,
+        "sourceInsights": 2,
+        "summaryLength": 61,
+        "placeholder": false
+      },
+      "criteria": {
+        "published": {
+          "label": "공개 가능한 본문",
+          "passed": true,
+          "weight": 15,
+          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
+        },
+        "summary": {
+          "label": "요약 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
+        },
+        "doors": {
+          "label": "사용자 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
+        },
+        "cards": {
+          "label": "관점 카드",
+          "passed": true,
+          "weight": 15,
+          "action": "서로 다른 관점 카드 3개 이상 유지"
+        },
+        "verified": {
+          "label": "검증 출처",
+          "passed": true,
+          "weight": 15,
+          "action": "검증된 출처 카드 3개 이상 확보"
+        },
+        "tags": {
+          "label": "태그 연결",
+          "passed": true,
+          "weight": 10,
+          "action": "고민/생각 태그 3개 이상 연결"
+        },
+        "actionOrReflect": {
+          "label": "행동/질문",
+          "passed": true,
+          "weight": 10,
+          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
+        },
+        "related": {
+          "label": "관련 흐름",
+          "passed": true,
+          "weight": 10,
+          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
+        },
+        "people": {
+          "label": "인물/논쟁 관점",
+          "passed": true,
+          "weight": 5,
+          "action": "관련 인물 관점 2명 이상 확보"
+        },
+        "sourceSignal": {
+          "label": "언어권 관심 신호",
+          "passed": true,
+          "weight": 8,
+          "action": "언어권별 수집 표현을 canonical node에 연결"
+        },
+        "sourceInsights": {
+          "label": "언어권 표현 인사이트",
+          "passed": true,
+          "weight": 12,
+          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
+        }
+      }
+    },
+    {
+      "key": "family/parent-conflict",
+      "href": "/family/parent-conflict",
+      "axis": "worry",
+      "axisLabel": "고민",
+      "title": "부모님과 갈등이 심할 때",
+      "summary": "부모님과의 갈등은 사랑이 없어서가 아니라, 가까운 관계 안에서 존중과 자율의 경계가 자주 흐려지기 때문에 생긴다.",
+      "categoryTitle": "가족 / 독립",
+      "groupTitle": "관계",
+      "score": 100,
+      "grade": "A",
+      "status": "강함",
+      "issues": [],
+      "metrics": {
+        "cards": 3,
+        "verifiedCount": 3,
+        "tags": 4,
+        "doors": 9,
+        "actionOrReflect": 4,
+        "related": 6,
+        "people": 3,
+        "perspectives": 3,
+        "sourceSignal": true,
+        "sourceInsights": 2,
+        "summaryLength": 63,
+        "placeholder": false
+      },
+      "criteria": {
+        "published": {
+          "label": "공개 가능한 본문",
+          "passed": true,
+          "weight": 15,
+          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
+        },
+        "summary": {
+          "label": "요약 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
+        },
+        "doors": {
+          "label": "사용자 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
+        },
+        "cards": {
+          "label": "관점 카드",
+          "passed": true,
+          "weight": 15,
+          "action": "서로 다른 관점 카드 3개 이상 유지"
+        },
+        "verified": {
+          "label": "검증 출처",
+          "passed": true,
+          "weight": 15,
+          "action": "검증된 출처 카드 3개 이상 확보"
+        },
+        "tags": {
+          "label": "태그 연결",
+          "passed": true,
+          "weight": 10,
+          "action": "고민/생각 태그 3개 이상 연결"
+        },
+        "actionOrReflect": {
+          "label": "행동/질문",
+          "passed": true,
+          "weight": 10,
+          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
+        },
+        "related": {
+          "label": "관련 흐름",
+          "passed": true,
+          "weight": 10,
+          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
+        },
+        "people": {
+          "label": "인물/논쟁 관점",
+          "passed": true,
+          "weight": 5,
+          "action": "관련 인물 관점 2명 이상 확보"
+        },
+        "sourceSignal": {
+          "label": "언어권 관심 신호",
+          "passed": true,
+          "weight": 8,
+          "action": "언어권별 수집 표현을 canonical node에 연결"
+        },
+        "sourceInsights": {
+          "label": "언어권 표현 인사이트",
+          "passed": true,
+          "weight": 12,
+          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
+        }
+      }
+    },
+    {
+      "key": "family/independence",
+      "href": "/family/independence",
+      "axis": "worry",
+      "axisLabel": "고민",
+      "title": "독립하고 싶은데 망설여질 때",
+      "summary": "독립하고 싶은데 망설이는 마음은, 자유를 원하면서도 가족의 기대와 현실 비용을 동시에 떠안기 때문에 생긴다.",
+      "categoryTitle": "가족 / 독립",
+      "groupTitle": "관계",
+      "score": 100,
+      "grade": "A",
+      "status": "강함",
+      "issues": [],
+      "metrics": {
+        "cards": 3,
+        "verifiedCount": 3,
+        "tags": 4,
+        "doors": 9,
+        "actionOrReflect": 4,
+        "related": 6,
+        "people": 3,
+        "perspectives": 3,
+        "sourceSignal": true,
+        "sourceInsights": 2,
+        "summaryLength": 60,
+        "placeholder": false
+      },
+      "criteria": {
+        "published": {
+          "label": "공개 가능한 본문",
+          "passed": true,
+          "weight": 15,
+          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
+        },
+        "summary": {
+          "label": "요약 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
+        },
+        "doors": {
+          "label": "사용자 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
+        },
+        "cards": {
+          "label": "관점 카드",
+          "passed": true,
+          "weight": 15,
+          "action": "서로 다른 관점 카드 3개 이상 유지"
+        },
+        "verified": {
+          "label": "검증 출처",
+          "passed": true,
+          "weight": 15,
+          "action": "검증된 출처 카드 3개 이상 확보"
+        },
+        "tags": {
+          "label": "태그 연결",
+          "passed": true,
+          "weight": 10,
+          "action": "고민/생각 태그 3개 이상 연결"
+        },
+        "actionOrReflect": {
+          "label": "행동/질문",
+          "passed": true,
+          "weight": 10,
+          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
+        },
+        "related": {
+          "label": "관련 흐름",
+          "passed": true,
+          "weight": 10,
+          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
+        },
+        "people": {
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -8475,6 +7646,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": true,
         "sourceInsights": 2,
         "summaryLength": 57,
@@ -8530,7 +7702,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -8570,6 +7742,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": true,
         "sourceInsights": 1,
         "summaryLength": 57,
@@ -8625,7 +7798,7 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
@@ -8665,6 +7838,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 3,
+        "perspectives": 3,
         "sourceSignal": true,
         "sourceInsights": 2,
         "summaryLength": 58,
@@ -8720,10 +7894,490 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
           "action": "관련 인물 관점 2명 이상 확보"
+        },
+        "sourceSignal": {
+          "label": "언어권 관심 신호",
+          "passed": true,
+          "weight": 8,
+          "action": "언어권별 수집 표현을 canonical node에 연결"
+        },
+        "sourceInsights": {
+          "label": "언어권 표현 인사이트",
+          "passed": true,
+          "weight": 12,
+          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
+        }
+      }
+    },
+    {
+      "key": "thought/good-life",
+      "href": "/thought/good-life",
+      "axis": "thought",
+      "axisLabel": "생각",
+      "title": "좋은 삶이란 무엇인가?",
+      "summary": "행복, 의미, 덕, 평온이 어디서 갈라지고 어떤 삶을 반복해 선택할지 묻는 질문.",
+      "categoryTitle": "생각",
+      "groupTitle": "삶 / 행복",
+      "score": 100,
+      "grade": "A",
+      "status": "강함",
+      "issues": [],
+      "metrics": {
+        "cards": 3,
+        "verifiedCount": 3,
+        "tags": 4,
+        "doors": 9,
+        "actionOrReflect": 4,
+        "related": 6,
+        "people": 3,
+        "perspectives": 3,
+        "sourceSignal": true,
+        "sourceInsights": 2,
+        "summaryLength": 45,
+        "placeholder": false
+      },
+      "criteria": {
+        "published": {
+          "label": "공개 가능한 본문",
+          "passed": true,
+          "weight": 15,
+          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
+        },
+        "summary": {
+          "label": "요약 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
+        },
+        "doors": {
+          "label": "사용자 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
+        },
+        "cards": {
+          "label": "관점 카드",
+          "passed": true,
+          "weight": 15,
+          "action": "서로 다른 관점 카드 3개 이상 유지"
+        },
+        "verified": {
+          "label": "검증 출처",
+          "passed": true,
+          "weight": 15,
+          "action": "검증된 출처 카드 3개 이상 확보"
+        },
+        "tags": {
+          "label": "태그 연결",
+          "passed": true,
+          "weight": 10,
+          "action": "고민/생각 태그 3개 이상 연결"
+        },
+        "actionOrReflect": {
+          "label": "행동/질문",
+          "passed": true,
+          "weight": 10,
+          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
+        },
+        "related": {
+          "label": "관련 흐름",
+          "passed": true,
+          "weight": 10,
+          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
+        },
+        "people": {
+          "label": "인물/논쟁 관점",
+          "passed": true,
+          "weight": 5,
+          "action": "관련 인물 관점 2명 이상 확보"
+        },
+        "sourceSignal": {
+          "label": "언어권 관심 신호",
+          "passed": true,
+          "weight": 8,
+          "action": "언어권별 수집 표현을 canonical node에 연결"
+        },
+        "sourceInsights": {
+          "label": "언어권 표현 인사이트",
+          "passed": true,
+          "weight": 12,
+          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
+        }
+      }
+    },
+    {
+      "key": "thought/happiness",
+      "href": "/thought/happiness",
+      "axis": "thought",
+      "axisLabel": "생각",
+      "title": "행복이란 무엇인가?",
+      "summary": "쾌락, 만족, 의미, 탁월함 중 무엇을 행복이라 부를지 묻고 삶의 기준을 다시 세우는 질문.",
+      "categoryTitle": "생각",
+      "groupTitle": "삶 / 행복",
+      "score": 100,
+      "grade": "A",
+      "status": "강함",
+      "issues": [],
+      "metrics": {
+        "cards": 3,
+        "verifiedCount": 3,
+        "tags": 3,
+        "doors": 9,
+        "actionOrReflect": 4,
+        "related": 6,
+        "people": 3,
+        "perspectives": 3,
+        "sourceSignal": true,
+        "sourceInsights": 2,
+        "summaryLength": 51,
+        "placeholder": false
+      },
+      "criteria": {
+        "published": {
+          "label": "공개 가능한 본문",
+          "passed": true,
+          "weight": 15,
+          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
+        },
+        "summary": {
+          "label": "요약 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
+        },
+        "doors": {
+          "label": "사용자 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
+        },
+        "cards": {
+          "label": "관점 카드",
+          "passed": true,
+          "weight": 15,
+          "action": "서로 다른 관점 카드 3개 이상 유지"
+        },
+        "verified": {
+          "label": "검증 출처",
+          "passed": true,
+          "weight": 15,
+          "action": "검증된 출처 카드 3개 이상 확보"
+        },
+        "tags": {
+          "label": "태그 연결",
+          "passed": true,
+          "weight": 10,
+          "action": "고민/생각 태그 3개 이상 연결"
+        },
+        "actionOrReflect": {
+          "label": "행동/질문",
+          "passed": true,
+          "weight": 10,
+          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
+        },
+        "related": {
+          "label": "관련 흐름",
+          "passed": true,
+          "weight": 10,
+          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
+        },
+        "people": {
+          "label": "인물/논쟁 관점",
+          "passed": true,
+          "weight": 5,
+          "action": "관련 인물 관점 2명 이상 확보"
+        },
+        "sourceSignal": {
+          "label": "언어권 관심 신호",
+          "passed": true,
+          "weight": 8,
+          "action": "언어권별 수집 표현을 canonical node에 연결"
+        },
+        "sourceInsights": {
+          "label": "언어권 표현 인사이트",
+          "passed": true,
+          "weight": 12,
+          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
+        }
+      }
+    },
+    {
+      "key": "thought/success",
+      "href": "/thought/success",
+      "axis": "thought",
+      "axisLabel": "생각",
+      "title": "성공이란 무엇인가?",
+      "summary": "돈과 인정, 탁월함과 자기 기준 사이에서 무엇을 성공이라 부를지 묻는 질문.",
+      "categoryTitle": "생각",
+      "groupTitle": "성공 / 인정",
+      "score": 100,
+      "grade": "A",
+      "status": "강함",
+      "issues": [],
+      "metrics": {
+        "cards": 3,
+        "verifiedCount": 3,
+        "tags": 3,
+        "doors": 9,
+        "actionOrReflect": 4,
+        "related": 6,
+        "people": 3,
+        "perspectives": 3,
+        "sourceSignal": true,
+        "sourceInsights": 2,
+        "summaryLength": 42,
+        "placeholder": false
+      },
+      "criteria": {
+        "published": {
+          "label": "공개 가능한 본문",
+          "passed": true,
+          "weight": 15,
+          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
+        },
+        "summary": {
+          "label": "요약 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
+        },
+        "doors": {
+          "label": "사용자 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
+        },
+        "cards": {
+          "label": "관점 카드",
+          "passed": true,
+          "weight": 15,
+          "action": "서로 다른 관점 카드 3개 이상 유지"
+        },
+        "verified": {
+          "label": "검증 출처",
+          "passed": true,
+          "weight": 15,
+          "action": "검증된 출처 카드 3개 이상 확보"
+        },
+        "tags": {
+          "label": "태그 연결",
+          "passed": true,
+          "weight": 10,
+          "action": "고민/생각 태그 3개 이상 연결"
+        },
+        "actionOrReflect": {
+          "label": "행동/질문",
+          "passed": true,
+          "weight": 10,
+          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
+        },
+        "related": {
+          "label": "관련 흐름",
+          "passed": true,
+          "weight": 10,
+          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
+        },
+        "people": {
+          "label": "인물/논쟁 관점",
+          "passed": true,
+          "weight": 5,
+          "action": "관련 인물 관점 2명 이상 확보"
+        },
+        "sourceSignal": {
+          "label": "언어권 관심 신호",
+          "passed": true,
+          "weight": 8,
+          "action": "언어권별 수집 표현을 canonical node에 연결"
+        },
+        "sourceInsights": {
+          "label": "언어권 표현 인사이트",
+          "passed": true,
+          "weight": 12,
+          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
+        }
+      }
+    },
+    {
+      "key": "debate/white-lie",
+      "href": "/debate/white-lie",
+      "axis": "debate",
+      "axisLabel": "논쟁",
+      "title": "선의의 거짓말, 해도 되나?",
+      "summary": "상대를 보호하려는 의도와 진실을 말해야 할 의무가 부딪칠 때, 거짓말은 어디까지 허용될 수 있는가.",
+      "categoryTitle": "논쟁",
+      "groupTitle": "일상 윤리",
+      "score": 100,
+      "grade": "A",
+      "status": "강함",
+      "issues": [],
+      "metrics": {
+        "cards": 3,
+        "verifiedCount": 3,
+        "tags": 3,
+        "doors": 10,
+        "actionOrReflect": 3,
+        "related": 6,
+        "people": 3,
+        "perspectives": 3,
+        "sourceSignal": true,
+        "sourceInsights": 2,
+        "summaryLength": 55,
+        "placeholder": false
+      },
+      "criteria": {
+        "published": {
+          "label": "공개 가능한 본문",
+          "passed": true,
+          "weight": 15,
+          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
+        },
+        "summary": {
+          "label": "요약 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
+        },
+        "doors": {
+          "label": "사용자 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
+        },
+        "cards": {
+          "label": "관점 카드",
+          "passed": true,
+          "weight": 15,
+          "action": "서로 다른 관점 카드 3개 이상 유지"
+        },
+        "verified": {
+          "label": "검증 출처",
+          "passed": true,
+          "weight": 15,
+          "action": "검증된 출처 카드 3개 이상 확보"
+        },
+        "tags": {
+          "label": "태그 연결",
+          "passed": true,
+          "weight": 10,
+          "action": "논쟁 태그 2개 이상 연결"
+        },
+        "actionOrReflect": {
+          "label": "행동/질문",
+          "passed": true,
+          "weight": 10,
+          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
+        },
+        "related": {
+          "label": "관련 흐름",
+          "passed": true,
+          "weight": 10,
+          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
+        },
+        "people": {
+          "label": "인물/논쟁 관점",
+          "passed": true,
+          "weight": 5,
+          "action": "논쟁 관점 3개 이상 확보"
+        },
+        "sourceSignal": {
+          "label": "언어권 관심 신호",
+          "passed": true,
+          "weight": 8,
+          "action": "언어권별 수집 표현을 canonical node에 연결"
+        },
+        "sourceInsights": {
+          "label": "언어권 표현 인사이트",
+          "passed": true,
+          "weight": 12,
+          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
+        }
+      }
+    },
+    {
+      "key": "debate/marriage",
+      "href": "/debate/marriage",
+      "axis": "debate",
+      "axisLabel": "논쟁",
+      "title": "결혼, 꼭 해야 하나?",
+      "summary": "비혼의 자유, 외로움의 두려움, 제도적 책임이 함께 걸릴 때 결혼은 선택인가 의무인가.",
+      "categoryTitle": "논쟁",
+      "groupTitle": "가족 / 문화",
+      "score": 100,
+      "grade": "A",
+      "status": "강함",
+      "issues": [],
+      "metrics": {
+        "cards": 3,
+        "verifiedCount": 3,
+        "tags": 4,
+        "doors": 10,
+        "actionOrReflect": 3,
+        "related": 6,
+        "people": 3,
+        "perspectives": 3,
+        "sourceSignal": true,
+        "sourceInsights": 2,
+        "summaryLength": 48,
+        "placeholder": false
+      },
+      "criteria": {
+        "published": {
+          "label": "공개 가능한 본문",
+          "passed": true,
+          "weight": 15,
+          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
+        },
+        "summary": {
+          "label": "요약 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
+        },
+        "doors": {
+          "label": "사용자 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
+        },
+        "cards": {
+          "label": "관점 카드",
+          "passed": true,
+          "weight": 15,
+          "action": "서로 다른 관점 카드 3개 이상 유지"
+        },
+        "verified": {
+          "label": "검증 출처",
+          "passed": true,
+          "weight": 15,
+          "action": "검증된 출처 카드 3개 이상 확보"
+        },
+        "tags": {
+          "label": "태그 연결",
+          "passed": true,
+          "weight": 10,
+          "action": "논쟁 태그 2개 이상 연결"
+        },
+        "actionOrReflect": {
+          "label": "행동/질문",
+          "passed": true,
+          "weight": 10,
+          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
+        },
+        "related": {
+          "label": "관련 흐름",
+          "passed": true,
+          "weight": 10,
+          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
+        },
+        "people": {
+          "label": "인물/논쟁 관점",
+          "passed": true,
+          "weight": 5,
+          "action": "논쟁 관점 3개 이상 확보"
         },
         "sourceSignal": {
           "label": "언어권 관심 신호",
@@ -8760,6 +8414,7 @@
         "actionOrReflect": 4,
         "related": 6,
         "people": 2,
+        "perspectives": 3,
         "sourceSignal": true,
         "sourceInsights": 2,
         "summaryLength": 29,
@@ -8815,10 +8470,394 @@
           "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
         },
         "people": {
-          "label": "인물 관점",
+          "label": "인물/논쟁 관점",
           "passed": true,
           "weight": 5,
-          "action": "관련 인물 관점 2명 이상 확보"
+          "action": "논쟁 관점 3개 이상 확보"
+        },
+        "sourceSignal": {
+          "label": "언어권 관심 신호",
+          "passed": true,
+          "weight": 8,
+          "action": "언어권별 수집 표현을 canonical node에 연결"
+        },
+        "sourceInsights": {
+          "label": "언어권 표현 인사이트",
+          "passed": true,
+          "weight": 12,
+          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
+        }
+      }
+    },
+    {
+      "key": "debate/remote-work",
+      "href": "/debate/remote-work",
+      "axis": "debate",
+      "axisLabel": "논쟁",
+      "title": "재택근무, 계속 확대해도 괜찮은가?",
+      "summary": "자율과 생산성, 협업과 노동권이 함께 걸린 일의 방식 논쟁.",
+      "categoryTitle": "논쟁",
+      "groupTitle": "일 / 노동 제도",
+      "score": 100,
+      "grade": "A",
+      "status": "강함",
+      "issues": [],
+      "metrics": {
+        "cards": 4,
+        "verifiedCount": 4,
+        "tags": 4,
+        "doors": 9,
+        "actionOrReflect": 4,
+        "related": 6,
+        "people": 2,
+        "perspectives": 4,
+        "sourceSignal": true,
+        "sourceInsights": 2,
+        "summaryLength": 33,
+        "placeholder": false
+      },
+      "criteria": {
+        "published": {
+          "label": "공개 가능한 본문",
+          "passed": true,
+          "weight": 15,
+          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
+        },
+        "summary": {
+          "label": "요약 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
+        },
+        "doors": {
+          "label": "사용자 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
+        },
+        "cards": {
+          "label": "관점 카드",
+          "passed": true,
+          "weight": 15,
+          "action": "서로 다른 관점 카드 3개 이상 유지"
+        },
+        "verified": {
+          "label": "검증 출처",
+          "passed": true,
+          "weight": 15,
+          "action": "검증된 출처 카드 3개 이상 확보"
+        },
+        "tags": {
+          "label": "태그 연결",
+          "passed": true,
+          "weight": 10,
+          "action": "논쟁 태그 2개 이상 연결"
+        },
+        "actionOrReflect": {
+          "label": "행동/질문",
+          "passed": true,
+          "weight": 10,
+          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
+        },
+        "related": {
+          "label": "관련 흐름",
+          "passed": true,
+          "weight": 10,
+          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
+        },
+        "people": {
+          "label": "인물/논쟁 관점",
+          "passed": true,
+          "weight": 5,
+          "action": "논쟁 관점 3개 이상 확보"
+        },
+        "sourceSignal": {
+          "label": "언어권 관심 신호",
+          "passed": true,
+          "weight": 8,
+          "action": "언어권별 수집 표현을 canonical node에 연결"
+        },
+        "sourceInsights": {
+          "label": "언어권 표현 인사이트",
+          "passed": true,
+          "weight": 12,
+          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
+        }
+      }
+    },
+    {
+      "key": "debate/retirement-age",
+      "href": "/debate/retirement-age",
+      "axis": "debate",
+      "axisLabel": "논쟁",
+      "title": "정년연장, 해야 하나?",
+      "summary": "고령화 시대의 생계 안전과 세대 간 기회가 충돌하는 질문.",
+      "categoryTitle": "논쟁",
+      "groupTitle": "일 / 노동 제도",
+      "score": 100,
+      "grade": "A",
+      "status": "강함",
+      "issues": [],
+      "metrics": {
+        "cards": 3,
+        "verifiedCount": 3,
+        "tags": 4,
+        "doors": 9,
+        "actionOrReflect": 4,
+        "related": 6,
+        "people": 2,
+        "perspectives": 3,
+        "sourceSignal": true,
+        "sourceInsights": 2,
+        "summaryLength": 32,
+        "placeholder": false
+      },
+      "criteria": {
+        "published": {
+          "label": "공개 가능한 본문",
+          "passed": true,
+          "weight": 15,
+          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
+        },
+        "summary": {
+          "label": "요약 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
+        },
+        "doors": {
+          "label": "사용자 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
+        },
+        "cards": {
+          "label": "관점 카드",
+          "passed": true,
+          "weight": 15,
+          "action": "서로 다른 관점 카드 3개 이상 유지"
+        },
+        "verified": {
+          "label": "검증 출처",
+          "passed": true,
+          "weight": 15,
+          "action": "검증된 출처 카드 3개 이상 확보"
+        },
+        "tags": {
+          "label": "태그 연결",
+          "passed": true,
+          "weight": 10,
+          "action": "논쟁 태그 2개 이상 연결"
+        },
+        "actionOrReflect": {
+          "label": "행동/질문",
+          "passed": true,
+          "weight": 10,
+          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
+        },
+        "related": {
+          "label": "관련 흐름",
+          "passed": true,
+          "weight": 10,
+          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
+        },
+        "people": {
+          "label": "인물/논쟁 관점",
+          "passed": true,
+          "weight": 5,
+          "action": "논쟁 관점 3개 이상 확보"
+        },
+        "sourceSignal": {
+          "label": "언어권 관심 신호",
+          "passed": true,
+          "weight": 8,
+          "action": "언어권별 수집 표현을 canonical node에 연결"
+        },
+        "sourceInsights": {
+          "label": "언어권 표현 인사이트",
+          "passed": true,
+          "weight": 12,
+          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
+        }
+      }
+    },
+    {
+      "key": "debate/employment-contract",
+      "href": "/debate/employment-contract",
+      "axis": "debate",
+      "axisLabel": "논쟁",
+      "title": "정규직과 계약직 차이, 어디까지 정당한가?",
+      "summary": "계약 자유, 고용 안정, 동일가치노동의 기준을 묻는 논쟁.",
+      "categoryTitle": "논쟁",
+      "groupTitle": "일 / 노동 제도",
+      "score": 100,
+      "grade": "A",
+      "status": "강함",
+      "issues": [],
+      "metrics": {
+        "cards": 3,
+        "verifiedCount": 3,
+        "tags": 4,
+        "doors": 9,
+        "actionOrReflect": 4,
+        "related": 6,
+        "people": 2,
+        "perspectives": 3,
+        "sourceSignal": true,
+        "sourceInsights": 2,
+        "summaryLength": 32,
+        "placeholder": false
+      },
+      "criteria": {
+        "published": {
+          "label": "공개 가능한 본문",
+          "passed": true,
+          "weight": 15,
+          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
+        },
+        "summary": {
+          "label": "요약 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
+        },
+        "doors": {
+          "label": "사용자 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
+        },
+        "cards": {
+          "label": "관점 카드",
+          "passed": true,
+          "weight": 15,
+          "action": "서로 다른 관점 카드 3개 이상 유지"
+        },
+        "verified": {
+          "label": "검증 출처",
+          "passed": true,
+          "weight": 15,
+          "action": "검증된 출처 카드 3개 이상 확보"
+        },
+        "tags": {
+          "label": "태그 연결",
+          "passed": true,
+          "weight": 10,
+          "action": "논쟁 태그 2개 이상 연결"
+        },
+        "actionOrReflect": {
+          "label": "행동/질문",
+          "passed": true,
+          "weight": 10,
+          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
+        },
+        "related": {
+          "label": "관련 흐름",
+          "passed": true,
+          "weight": 10,
+          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
+        },
+        "people": {
+          "label": "인물/논쟁 관점",
+          "passed": true,
+          "weight": 5,
+          "action": "논쟁 관점 3개 이상 확보"
+        },
+        "sourceSignal": {
+          "label": "언어권 관심 신호",
+          "passed": true,
+          "weight": 8,
+          "action": "언어권별 수집 표현을 canonical node에 연결"
+        },
+        "sourceInsights": {
+          "label": "언어권 표현 인사이트",
+          "passed": true,
+          "weight": 12,
+          "action": "언어권별 표현 차이와 공통점을 인사이트로 정리"
+        }
+      }
+    },
+    {
+      "key": "debate/school-corporal-punishment",
+      "href": "/debate/school-corporal-punishment",
+      "axis": "debate",
+      "axisLabel": "논쟁",
+      "title": "학교 체벌, 교육인가 폭력인가?",
+      "summary": "훈육의 필요와 아동의 존엄, 안전한 학교 질서가 충돌하는 질문.",
+      "categoryTitle": "논쟁",
+      "groupTitle": "법 / 생명 윤리",
+      "score": 100,
+      "grade": "A",
+      "status": "강함",
+      "issues": [],
+      "metrics": {
+        "cards": 4,
+        "verifiedCount": 4,
+        "tags": 3,
+        "doors": 9,
+        "actionOrReflect": 4,
+        "related": 6,
+        "people": 1,
+        "perspectives": 4,
+        "sourceSignal": true,
+        "sourceInsights": 2,
+        "summaryLength": 35,
+        "placeholder": false
+      },
+      "criteria": {
+        "published": {
+          "label": "공개 가능한 본문",
+          "passed": true,
+          "weight": 15,
+          "action": "placeholder 상태를 해소하고 공개 가능한 본문으로 정리"
+        },
+        "summary": {
+          "label": "요약 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "검색 결과와 카드 상단에서 바로 이해되는 요약 문장 보강"
+        },
+        "doors": {
+          "label": "사용자 문장",
+          "passed": true,
+          "weight": 10,
+          "action": "사용자가 실제로 검색할 만한 문장 4개 이상 보강"
+        },
+        "cards": {
+          "label": "관점 카드",
+          "passed": true,
+          "weight": 15,
+          "action": "서로 다른 관점 카드 3개 이상 유지"
+        },
+        "verified": {
+          "label": "검증 출처",
+          "passed": true,
+          "weight": 15,
+          "action": "검증된 출처 카드 3개 이상 확보"
+        },
+        "tags": {
+          "label": "태그 연결",
+          "passed": true,
+          "weight": 10,
+          "action": "논쟁 태그 2개 이상 연결"
+        },
+        "actionOrReflect": {
+          "label": "행동/질문",
+          "passed": true,
+          "weight": 10,
+          "action": "읽은 뒤 이어갈 행동 또는 성찰 질문 3개 이상 보강"
+        },
+        "related": {
+          "label": "관련 흐름",
+          "passed": true,
+          "weight": 10,
+          "action": "관련 카드 6개 이상 연결되도록 태그/인물/그룹 보강"
+        },
+        "people": {
+          "label": "인물/논쟁 관점",
+          "passed": true,
+          "weight": 5,
+          "action": "논쟁 관점 3개 이상 확보"
         },
         "sourceSignal": {
           "label": "언어권 관심 신호",

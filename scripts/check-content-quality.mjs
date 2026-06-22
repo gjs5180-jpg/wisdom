@@ -38,6 +38,15 @@ function minSummaryLengthFor(entry) {
   return entry.axis === "debate" ? 24 : 36;
 }
 
+function minPerspectiveCountFor(entry) {
+  return entry.axis === "debate" ? 3 : 2;
+}
+
+function perspectiveCountFor(entry, cards, peopleCount) {
+  if (entry.axis === "debate") return cards.filter((card) => card.name).length;
+  return peopleCount;
+}
+
 function actionOrReflectCount(entry) {
   const content = entry.content || {};
   return (content.actions?.length || 0) + (content.reflect?.length || 0);
@@ -75,6 +84,8 @@ function evaluateEntry(entry) {
   const sourceSignal = content.sourceLocaleSignal;
   const relatedCount = relatedEntriesForKey(entry.key, 6).length;
   const peopleCount = peopleForEntryKey(entry.key).length;
+  const perspectiveCount = perspectiveCountFor(entry, cards, peopleCount);
+  const minPerspectiveCount = minPerspectiveCountFor(entry);
   const actionCount = actionOrReflectCount(entry);
 
   const result = {
@@ -98,6 +109,7 @@ function evaluateEntry(entry) {
       actionOrReflect: actionCount,
       related: relatedCount,
       people: peopleCount,
+      perspectives: perspectiveCount,
       sourceSignal: Boolean(sourceSignal),
       sourceInsights: sourceInsights.length,
       summaryLength: String(entry.summary || "").length,
@@ -175,10 +187,12 @@ function evaluateEntry(entry) {
   addCriterion(
     result,
     "people",
-    "인물 관점",
-    peopleCount >= 2,
+    "인물/논쟁 관점",
+    perspectiveCount >= minPerspectiveCount,
     criterionWeights.people,
-    "관련 인물 관점 2명 이상 확보"
+    entry.axis === "debate"
+      ? `논쟁 관점 ${minPerspectiveCount}개 이상 확보`
+      : `관련 인물 관점 ${minPerspectiveCount}명 이상 확보`
   );
   addCriterion(
     result,

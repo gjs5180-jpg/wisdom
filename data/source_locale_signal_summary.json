@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T00:24:56.374Z",
+  "generatedAt": "2026-06-22T05:45:00.753Z",
   "sourceLocales": [
     "ja-JP",
     "zh-CN",
@@ -8,21 +8,21 @@
     "de-DE"
   ],
   "totals": {
-    "routes": 38,
-    "localeRows": 190,
-    "candidatePhrases": 3364,
-    "usableCandidatePhrases": 2981,
-    "reviewCandidatePhrases": 262,
-    "lowSignalCandidatePhrases": 121
+    "routes": 44,
+    "localeRows": 220,
+    "candidatePhrases": 3609,
+    "usableCandidatePhrases": 3212,
+    "reviewCandidatePhrases": 272,
+    "lowSignalCandidatePhrases": 125
   },
   "commonSignals": [
     "debate/remote-work",
     "family/parent-conflict",
     "breakup/ghosting",
-    "study/exam-anxiety",
     "debate/childfree",
-    "meaning/meaningless",
+    "study/exam-anxiety",
     "thought/good-life",
+    "meaning/meaningless",
     "money/future-anxiety",
     "thought/happiness",
     "family/independence",
@@ -33,10 +33,10 @@
     "debate/remote-work",
     "family/parent-conflict",
     "breakup/ghosting",
-    "study/exam-anxiety",
     "debate/childfree",
-    "meaning/meaningless",
+    "study/exam-anxiety",
     "thought/good-life",
+    "meaning/meaningless",
     "money/future-anxiety",
     "thought/happiness",
     "family/independence",
@@ -49,8 +49,8 @@
         "key": "thought/good-life",
         "route": "/thought/good-life",
         "usableCount": 6,
-        "candidateCount": 24,
-        "clusterHintCount": 6
+        "candidateCount": 25,
+        "clusterHintCount": 7
       },
       {
         "key": "study/exam-anxiety",
@@ -159,7 +159,7 @@
         "route": "/debate/childfree",
         "usableCount": 15,
         "candidateCount": 16,
-        "clusterHintCount": 2
+        "clusterHintCount": 4
       },
       {
         "key": "meaning/meaningless",
@@ -1109,7 +1109,7 @@
           "reviewCount": 1,
           "lowSignalCount": 0,
           "clusterHints": {
-            "debate/childfree-identity": 2
+            "debate/childfree-identity": 4
           },
           "topPhrases": [
             "no quiero tener hijos",
@@ -1163,9 +1163,9 @@
       "totalReview": 7,
       "totalLowSignal": 2,
       "clusterHints": {
-        "debate/childfree-identity": 17
+        "debate/childfree-identity": 19
       },
-      "totalClusterHints": 17,
+      "totalClusterHints": 19,
       "strongestLocales": [
         {
           "locale": "de-DE",
@@ -1184,7 +1184,123 @@
         }
       ],
       "strength": "strong",
-      "score": 326
+      "score": 338
+    },
+    {
+      "key": "debate/employment-contract",
+      "route": "/debate/employment-contract",
+      "slot": "debate/employment-contract",
+      "axis": "debate",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 18,
+          "usableCount": 17,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "正社員 契約社員 格差",
+            "契約社員 不公平",
+            "同一労働同一賃金 契約社員",
+            "非正規雇用 問題",
+            "同一労働同一賃金 契約社員 賞与",
+            "同一労働同一賃金 契約社員同士"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "正式工 合同工 差别",
+            "合同工 不公平",
+            "同工同酬 合同工",
+            "临时工 正式工 待遇差距"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 13,
+          "usableCount": 13,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {
+            "money/precarity": 1
+          },
+          "topPhrases": [
+            "contrato temporal o indefinido",
+            "trabajador temporal derechos",
+            "precariedad laboral contrato temporal",
+            "contrato fijo o temporal debate",
+            "contrato de relevo temporal o indefinido",
+            "diferencia entre contrato temporal o indefinido"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 10,
+          "usableCount": 8,
+          "reviewCount": 2,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "contrat temporaire ou CDI",
+            "travail précaire contrat court",
+            "CDD CDI inégalités",
+            "même travail même salaire",
+            "contrat interim cdi",
+            "contrat occasionnel cdi"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 16,
+          "usableCount": 15,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "befristeter arbeitsvertrag nachteile",
+            "befristung oder festanstellung",
+            "gleicher lohn für gleiche arbeit",
+            "leiharbeit werkvertrag unterschied",
+            "befristeter arbeitsvertrag nachteile arbeitnehmer",
+            "befristeter arbeitsvertrag vorteile nachteile"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 61,
+      "totalUsable": 57,
+      "totalReview": 4,
+      "totalLowSignal": 0,
+      "clusterHints": {
+        "money/precarity": 1
+      },
+      "totalClusterHints": 1,
+      "strongestLocales": [
+        {
+          "locale": "ja-JP",
+          "usableCount": 17,
+          "candidateCount": 18
+        },
+        {
+          "locale": "de-DE",
+          "usableCount": 15,
+          "candidateCount": 16
+        },
+        {
+          "locale": "es-ES",
+          "usableCount": 13,
+          "candidateCount": 13
+        }
+      ],
+      "strength": "moderate",
+      "score": 213
     },
     {
       "key": "debate/marriage",
@@ -1526,6 +1642,333 @@
       ],
       "strength": "moderate",
       "score": 531
+    },
+    {
+      "key": "debate/retirement-age",
+      "route": "/debate/retirement-age",
+      "slot": "debate/retirement-age",
+      "axis": "debate",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 7,
+          "usableCount": 7,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "定年延長 賛成 反対",
+            "定年延長 メリット デメリット",
+            "高齢者 雇用 若者 仕事",
+            "年金 定年延長 必要",
+            "定年延長 再雇用 メリット デメリット",
+            "定年延長 社員 メリット デメリット"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "延迟退休 利弊",
+            "延迟退休 争议",
+            "退休年龄 应该提高吗",
+            "延迟退休 对年轻人影响"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "subir la edad de jubilación debate",
+            "edad de jubilación pros y contras",
+            "trabajar más años pensión",
+            "retrasar jubilación jóvenes"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 11,
+          "usableCount": 11,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "reculer l'âge de la retraite",
+            "âge légal de départ à la retraite débat",
+            "travailler plus longtemps retraite",
+            "réforme des retraites pour ou contre",
+            "reculer l âge de la retraite",
+            "pourquoi reculer l'âge de la retraite"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 21,
+          "usableCount": 21,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "renteneintrittsalter erhöhen",
+            "rente mit 67 debatte",
+            "länger arbeiten rente",
+            "renteneintrittsalter pro contra",
+            "renteneintrittsalter erhöhen deutschland",
+            "renteneintrittsalter erhöhen pro contra"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 47,
+      "totalUsable": 47,
+      "totalReview": 0,
+      "totalLowSignal": 0,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "de-DE",
+          "usableCount": 21,
+          "candidateCount": 21
+        },
+        {
+          "locale": "fr-FR",
+          "usableCount": 11,
+          "candidateCount": 11
+        },
+        {
+          "locale": "ja-JP",
+          "usableCount": 7,
+          "candidateCount": 7
+        }
+      ],
+      "strength": "moderate",
+      "score": 197
+    },
+    {
+      "key": "debate/school-corporal-punishment",
+      "route": "/debate/school-corporal-punishment",
+      "slot": "debate/school-corporal-punishment",
+      "axis": "debate",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 6,
+          "usableCount": 6,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "学校 体罰 賛成 反対",
+            "体罰 教育 効果",
+            "教師 懲戒 体罰 違い",
+            "体罰 禁止 教育",
+            "体罰 の 禁止 学校 教育 法",
+            "教育 令 体罰 禁止"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "体罚学生 争议",
+            "学校体罚 是否应该",
+            "教师惩戒权 体罚",
+            "学生纪律 不体罚"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "castigo corporal en la escuela debate",
+            "castigo físico escolar pros y contras",
+            "disciplina escolar sin violencia",
+            "es efectivo el castigo corporal"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 15,
+          "usableCount": 15,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "châtiment corporel école débat",
+            "punition corporelle à l'école",
+            "discipline scolaire sans violence",
+            "violence éducative école",
+            "chatiment corporel à l école",
+            "chatiment corporel à l école en france"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "körperliche bestrafung schule debatte",
+            "körperstrafe in der schule pro contra",
+            "ist körperliche bestrafung wirksam",
+            "disziplin ohne strafe schule"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 33,
+      "totalUsable": 33,
+      "totalReview": 0,
+      "totalLowSignal": 0,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "fr-FR",
+          "usableCount": 15,
+          "candidateCount": 15
+        },
+        {
+          "locale": "ja-JP",
+          "usableCount": 6,
+          "candidateCount": 6
+        },
+        {
+          "locale": "zh-CN",
+          "usableCount": 4,
+          "candidateCount": 4
+        }
+      ],
+      "strength": "emerging",
+      "score": 183
+    },
+    {
+      "key": "debate/white-lie",
+      "route": "/debate/white-lie",
+      "slot": "debate/white-lie",
+      "axis": "debate",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "優しい嘘 許される",
+            "嘘 ついてもいい時",
+            "相手を傷つけない 嘘",
+            "白い嘘 倫理"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "善意的谎言可以接受吗",
+            "善意的谎言 辩论",
+            "为了不伤害别人撒谎",
+            "白色谎言 道德"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 13,
+          "usableCount": 10,
+          "reviewCount": 2,
+          "lowSignalCount": 1,
+          "clusterHints": {},
+          "topPhrases": [
+            "mentiras piadosas",
+            "mentiras piadosas en pareja",
+            "mentir para no hacer daño",
+            "mentiras buenas debate",
+            "mentiras piadosas dillom",
+            "mentiras piadosas ejemplos"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 7,
+          "usableCount": 6,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "mensonge blanc est-il acceptable",
+            "mensonge par gentillesse",
+            "mentir pour ne pas blesser",
+            "mensonge moral débat",
+            "mensonge pour ne pas blesser",
+            "mentir pour ne pas reveler une verite qui pourrait blesser"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 5,
+          "usableCount": 5,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "notlüge erlaubt",
+            "notlüge beziehung",
+            "lügen um jemanden zu schützen",
+            "notlüge moralisch",
+            "darf man lügen um jemanden zu schützen"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 33,
+      "totalUsable": 29,
+      "totalReview": 3,
+      "totalLowSignal": 1,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "es-ES",
+          "usableCount": 10,
+          "candidateCount": 13
+        },
+        {
+          "locale": "fr-FR",
+          "usableCount": 6,
+          "candidateCount": 7
+        },
+        {
+          "locale": "de-DE",
+          "usableCount": 5,
+          "candidateCount": 5
+        }
+      ],
+      "strength": "emerging",
+      "score": 179
     },
     {
       "key": "digital/dopamine-addiction",
@@ -2103,6 +2546,114 @@
       "score": 191
     },
     {
+      "key": "love/impatient",
+      "route": "/love/impatient",
+      "slot": "love/impatient",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 14,
+          "usableCount": 13,
+          "reviewCount": 1,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "恋愛 焦る",
+            "LINE 返信 待てない",
+            "好きな人 返信 遅い 不安",
+            "告白 するべきか 待つべきか",
+            "恋愛 焦る 男",
+            "恋愛 焦るな"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "恋爱太着急怎么办",
+            "等消息很焦虑",
+            "喜欢的人不回消息很急",
+            "该不该表白还是等"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "impaciente en el amor",
+            "ansiedad esperando respuesta",
+            "por qué soy tan impaciente en una relación",
+            "confesarme o esperar"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 6,
+          "usableCount": 6,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "impatient en amour",
+            "attendre une réponse anxiété",
+            "message sans réponse angoisse",
+            "déclarer son amour ou attendre",
+            "impatience en amour",
+            "homme impatient en amour"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "ungeduldig in der liebe",
+            "warten auf antwort angst",
+            "warum bin ich so ungeduldig beziehung",
+            "soll ich gestehen oder warten"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 32,
+      "totalUsable": 31,
+      "totalReview": 1,
+      "totalLowSignal": 0,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "ja-JP",
+          "usableCount": 13,
+          "candidateCount": 14
+        },
+        {
+          "locale": "fr-FR",
+          "usableCount": 6,
+          "candidateCount": 6
+        },
+        {
+          "locale": "zh-CN",
+          "usableCount": 4,
+          "candidateCount": 4
+        }
+      ],
+      "strength": "emerging",
+      "score": 181
+    },
+    {
       "key": "love/relationship-values",
       "route": "/love/relationship-values",
       "slot": "love/relationship-values",
@@ -2322,6 +2873,115 @@
       ],
       "strength": "moderate",
       "score": 214
+    },
+    {
+      "key": "love/should-give-up",
+      "route": "/love/should-give-up",
+      "slot": "love/should-give-up",
+      "axis": "worry",
+      "locales": [
+        {
+          "locale": "ja-JP",
+          "candidateCount": 18,
+          "usableCount": 14,
+          "reviewCount": 1,
+          "lowSignalCount": 3,
+          "clusterHints": {},
+          "topPhrases": [
+            "好きな人 諦めるべきか",
+            "恋愛 諦める タイミング",
+            "諦めるべきか待つべきか",
+            "片思い 諦められない",
+            "好きな人 諦めるべきか タロット",
+            "恋愛 諦める べき タイミング"
+          ]
+        },
+        {
+          "locale": "zh-CN",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "该不该放弃一个人",
+            "什么时候该放弃感情",
+            "继续坚持还是放手",
+            "放弃会后悔怎么办"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "candidateCount": 6,
+          "usableCount": 6,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "seguir intentando o dejar ir",
+            "cuándo dejar de luchar por una relación",
+            "debería rendirme con alguien",
+            "miedo a arrepentirme de dejarlo",
+            "dejar ir o seguir intentando",
+            "cuando dejar de luchar por una relación"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "candidateCount": 4,
+          "usableCount": 4,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "dois-je abandonner cette relation",
+            "continuer ou laisser partir",
+            "quand arrêter d'essayer en amour",
+            "peur de regretter d'abandonner"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "candidateCount": 5,
+          "usableCount": 5,
+          "reviewCount": 0,
+          "lowSignalCount": 0,
+          "clusterHints": {},
+          "topPhrases": [
+            "soll ich ihn aufgeben",
+            "weiterkämpfen oder loslassen",
+            "wann sollte man eine beziehung aufgeben",
+            "angst es zu bereuen loszulassen",
+            "teste dich soll ich ihn aufgeben"
+          ]
+        }
+      ],
+      "localeCoverage": 5,
+      "totalCandidate": 37,
+      "totalUsable": 33,
+      "totalReview": 1,
+      "totalLowSignal": 3,
+      "clusterHints": {},
+      "totalClusterHints": 0,
+      "strongestLocales": [
+        {
+          "locale": "ja-JP",
+          "usableCount": 14,
+          "candidateCount": 18
+        },
+        {
+          "locale": "es-ES",
+          "usableCount": 6,
+          "candidateCount": 6
+        },
+        {
+          "locale": "de-DE",
+          "usableCount": 5,
+          "candidateCount": 5
+        }
+      ],
+      "strength": "emerging",
+      "score": 183
     },
     {
       "key": "meaning/fear-death",
@@ -3716,12 +4376,12 @@
       "locales": [
         {
           "locale": "ja-JP",
-          "candidateCount": 24,
+          "candidateCount": 25,
           "usableCount": 6,
-          "reviewCount": 16,
+          "reviewCount": 17,
           "lowSignalCount": 2,
           "clusterHints": {
-            "meaning/ikigai": 6
+            "meaning/ikigai": 7
           },
           "topPhrases": [
             "どう生きるべきか",
@@ -3796,14 +4456,14 @@
         }
       ],
       "localeCoverage": 5,
-      "totalCandidate": 151,
+      "totalCandidate": 152,
       "totalUsable": 122,
-      "totalReview": 21,
+      "totalReview": 22,
       "totalLowSignal": 8,
       "clusterHints": {
-        "meaning/ikigai": 6
+        "meaning/ikigai": 7
       },
-      "totalClusterHints": 6,
+      "totalClusterHints": 7,
       "strongestLocales": [
         {
           "locale": "es-ES",
@@ -3822,7 +4482,7 @@
         }
       ],
       "strength": "very-strong",
-      "score": 308
+      "score": 314
     },
     {
       "key": "thought/happiness",
@@ -4342,8 +5002,8 @@
         },
         {
           "locale": "de-DE",
-          "candidateCount": 31,
-          "usableCount": 28,
+          "candidateCount": 32,
+          "usableCount": 29,
           "reviewCount": 3,
           "lowSignalCount": 0,
           "clusterHints": {},
@@ -4358,8 +5018,8 @@
         }
       ],
       "localeCoverage": 5,
-      "totalCandidate": 138,
-      "totalUsable": 124,
+      "totalCandidate": 139,
+      "totalUsable": 125,
       "totalReview": 6,
       "totalLowSignal": 8,
       "clusterHints": {},
@@ -4377,12 +5037,12 @@
         },
         {
           "locale": "de-DE",
-          "usableCount": 28,
-          "candidateCount": 31
+          "usableCount": 29,
+          "candidateCount": 32
         }
       ],
       "strength": "very-strong",
-      "score": 274
+      "score": 275
     },
     {
       "key": "work/job-change",

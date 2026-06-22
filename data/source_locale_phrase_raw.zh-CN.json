@@ -1,10 +1,10 @@
 {
-  "collectedAt": "2026-06-21T13:20:41.632Z",
+  "collectedAt": "2026-06-22T03:45:27.325Z",
   "locale": "zh-CN",
   "sourceStatus": "active-source",
-  "nodesScanned": 38,
-  "totalCandidatePhrases": 225,
-  "totalUsableCandidatePhrases": 207,
+  "nodesScanned": 44,
+  "totalCandidatePhrases": 249,
+  "totalUsableCandidatePhrases": 231,
   "totalReviewCandidatePhrases": 9,
   "totalLowSignalCandidatePhrases": 9,
   "clusterHints": {
@@ -485,6 +485,75 @@
     },
     {
       "locale": "zh-CN",
+      "route": "/love/impatient",
+      "slot": "love/impatient",
+      "axis": "worry",
+      "sourceQueries": [
+        "恋爱太着急怎么办",
+        "等消息很焦虑",
+        "喜欢的人不回消息很急",
+        "该不该表白还是等"
+      ],
+      "baseQueries": [
+        "恋爱太着急怎么办",
+        "等消息很焦虑",
+        "喜欢的人不回消息很急",
+        "该不该表白还是等"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "恋爱太着急怎么办",
+        "等消息很焦虑",
+        "喜欢的人不回消息很急",
+        "该不该表白还是等"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "恋爱太着急怎么办",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "等消息很焦虑",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "喜欢的人不回消息很急",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "该不该表白还是等",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "恋爱太着急怎么办",
+        "等消息很焦虑",
+        "喜欢的人不回消息很急",
+        "该不该表白还是等"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
       "route": "/love/cant-confess",
       "slot": "love/cant-confess",
       "axis": "worry",
@@ -768,6 +837,75 @@
         "结婚价值观不同",
         "和对象三观不合",
         "很喜欢但价值观不合"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/love/should-give-up",
+      "slot": "love/should-give-up",
+      "axis": "worry",
+      "sourceQueries": [
+        "该不该放弃一个人",
+        "什么时候该放弃感情",
+        "继续坚持还是放手",
+        "放弃会后悔怎么办"
+      ],
+      "baseQueries": [
+        "该不该放弃一个人",
+        "什么时候该放弃感情",
+        "继续坚持还是放手",
+        "放弃会后悔怎么办"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "该不该放弃一个人",
+        "什么时候该放弃感情",
+        "继续坚持还是放手",
+        "放弃会后悔怎么办"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "该不该放弃一个人",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "什么时候该放弃感情",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "继续坚持还是放手",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "放弃会后悔怎么办",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "该不该放弃一个人",
+        "什么时候该放弃感情",
+        "继续坚持还是放手",
+        "放弃会后悔怎么办"
       ],
       "reviewCandidatePhrases": [],
       "lowSignalCandidatePhrases": [],
@@ -1864,9 +2002,9 @@
         "什么都不想做韩剧",
         "什么都不想做怎么办",
         "什么都不想做只想躺着ptt",
-        "什么都不想做线上看",
         "什么都不想做 只想睡觉",
         "什么都不想做只想睡觉ptt",
+        "什么都不想做 日文",
         "没有动力怎么办",
         "对什么都提不起兴趣"
       ],
@@ -1881,9 +2019,9 @@
         "什么都不想做韩剧",
         "什么都不想做怎么办",
         "什么都不想做只想躺着ptt",
-        "什么都不想做线上看",
         "什么都不想做 只想睡觉",
-        "什么都不想做只想睡觉ptt"
+        "什么都不想做只想睡觉ptt",
+        "什么都不想做 日文"
       ],
       "candidateReview": [
         {
@@ -1967,14 +2105,6 @@
           "clusterHints": []
         },
         {
-          "phrase": "什么都不想做线上看",
-          "status": "usable",
-          "reasons": [
-            "source-locale worry/debate phrasing"
-          ],
-          "clusterHints": []
-        },
-        {
           "phrase": "什么都不想做 只想睡觉",
           "status": "usable",
           "reasons": [
@@ -1984,6 +2114,14 @@
         },
         {
           "phrase": "什么都不想做只想睡觉ptt",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "什么都不想做 日文",
           "status": "usable",
           "reasons": [
             "source-locale worry/debate phrasing"
@@ -2002,9 +2140,9 @@
         "什么都不想做韩剧",
         "什么都不想做怎么办",
         "什么都不想做只想躺着ptt",
-        "什么都不想做线上看",
         "什么都不想做 只想睡觉",
-        "什么都不想做只想睡觉ptt"
+        "什么都不想做只想睡觉ptt",
+        "什么都不想做 日文"
       ],
       "reviewCandidatePhrases": [],
       "lowSignalCandidatePhrases": [],
@@ -3027,6 +3165,77 @@
     },
     {
       "locale": "zh-CN",
+      "route": "/debate/white-lie",
+      "slot": "debate/white-lie",
+      "axis": "debate",
+      "sourceQueries": [
+        "善意的谎言可以接受吗",
+        "善意的谎言 辩论",
+        "为了不伤害别人撒谎",
+        "白色谎言 道德"
+      ],
+      "baseQueries": [
+        "善意的谎言可以接受吗",
+        "善意的谎言 辩论",
+        "为了不伤害别人撒谎",
+        "白色谎言 道德"
+      ],
+      "googleSuggestions": [
+        "善意的谎言 辩论"
+      ],
+      "candidatePhrases": [
+        "善意的谎言可以接受吗",
+        "善意的谎言 辩论",
+        "为了不伤害别人撒谎",
+        "白色谎言 道德"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "善意的谎言可以接受吗",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "善意的谎言 辩论",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "为了不伤害别人撒谎",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "白色谎言 道德",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "善意的谎言可以接受吗",
+        "善意的谎言 辩论",
+        "为了不伤害别人撒谎",
+        "白色谎言 道德"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
       "route": "/debate/ai-replacement",
       "slot": "debate/ai-replacement",
       "axis": "debate",
@@ -3530,6 +3739,213 @@
         "居家办公效率",
         "是否应该回办公室",
         "远程办公优缺点"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/debate/retirement-age",
+      "slot": "debate/retirement-age",
+      "axis": "debate",
+      "sourceQueries": [
+        "延迟退休 利弊",
+        "延迟退休 争议",
+        "退休年龄 应该提高吗",
+        "延迟退休 对年轻人影响"
+      ],
+      "baseQueries": [
+        "延迟退休 利弊",
+        "延迟退休 争议",
+        "退休年龄 应该提高吗",
+        "延迟退休 对年轻人影响"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "延迟退休 利弊",
+        "延迟退休 争议",
+        "退休年龄 应该提高吗",
+        "延迟退休 对年轻人影响"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "延迟退休 利弊",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "延迟退休 争议",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "退休年龄 应该提高吗",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "延迟退休 对年轻人影响",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "延迟退休 利弊",
+        "延迟退休 争议",
+        "退休年龄 应该提高吗",
+        "延迟退休 对年轻人影响"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/debate/employment-contract",
+      "slot": "debate/employment-contract",
+      "axis": "debate",
+      "sourceQueries": [
+        "正式工 合同工 差别",
+        "合同工 不公平",
+        "同工同酬 合同工",
+        "临时工 正式工 待遇差距"
+      ],
+      "baseQueries": [
+        "正式工 合同工 差别",
+        "合同工 不公平",
+        "同工同酬 合同工",
+        "临时工 正式工 待遇差距"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "正式工 合同工 差别",
+        "合同工 不公平",
+        "同工同酬 合同工",
+        "临时工 正式工 待遇差距"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "正式工 合同工 差别",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "合同工 不公平",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "同工同酬 合同工",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "临时工 正式工 待遇差距",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "正式工 合同工 差别",
+        "合同工 不公平",
+        "同工同酬 合同工",
+        "临时工 正式工 待遇差距"
+      ],
+      "reviewCandidatePhrases": [],
+      "lowSignalCandidatePhrases": [],
+      "clusterHints": {},
+      "errors": []
+    },
+    {
+      "locale": "zh-CN",
+      "route": "/debate/school-corporal-punishment",
+      "slot": "debate/school-corporal-punishment",
+      "axis": "debate",
+      "sourceQueries": [
+        "体罚学生 争议",
+        "学校体罚 是否应该",
+        "教师惩戒权 体罚",
+        "学生纪律 不体罚"
+      ],
+      "baseQueries": [
+        "体罚学生 争议",
+        "学校体罚 是否应该",
+        "教师惩戒权 体罚",
+        "学生纪律 不体罚"
+      ],
+      "googleSuggestions": [],
+      "candidatePhrases": [
+        "体罚学生 争议",
+        "学校体罚 是否应该",
+        "教师惩戒权 体罚",
+        "学生纪律 不体罚"
+      ],
+      "candidateReview": [
+        {
+          "phrase": "体罚学生 争议",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "学校体罚 是否应该",
+          "status": "usable",
+          "reasons": [
+            "source-locale worry/debate phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "教师惩戒权 体罚",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        },
+        {
+          "phrase": "学生纪律 不体罚",
+          "status": "usable",
+          "reasons": [
+            "general source-locale topic phrasing"
+          ],
+          "clusterHints": []
+        }
+      ],
+      "usableCandidatePhrases": [
+        "体罚学生 争议",
+        "学校体罚 是否应该",
+        "教师惩戒权 体罚",
+        "学生纪律 不体罚"
       ],
       "reviewCandidatePhrases": [],
       "lowSignalCandidatePhrases": [],

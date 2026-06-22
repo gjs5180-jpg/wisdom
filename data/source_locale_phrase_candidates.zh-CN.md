@@ -8,10 +8,10 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 
 ## Summary
 
-- collectedAt: 2026-06-21T13:20:41.632Z
-- nodes scanned: 38
-- candidate phrases: 225
-- usable: 207
+- collectedAt: 2026-06-22T03:45:27.325Z
+- nodes scanned: 44
+- candidate phrases: 249
+- usable: 231
 - review: 9
 - low-signal: 9
 
@@ -116,6 +116,22 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 
 - 自由是什么意思
 
+## /love/impatient
+
+- axis: worry
+- base queries: 恋爱太着急怎么办, 等消息很焦虑, 喜欢的人不回消息很急, 该不该表白还是等
+- google suggestions: 0
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 恋爱太着急怎么办
+- 等消息很焦虑
+- 喜欢的人不回消息很急
+- 该不该表白还是等
+
 ## /love/cant-confess
 
 - axis: worry
@@ -180,6 +196,22 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 - 结婚价值观不同
 - 和对象三观不合
 - 很喜欢但价值观不合
+
+## /love/should-give-up
+
+- axis: worry
+- base queries: 该不该放弃一个人, 什么时候该放弃感情, 继续坚持还是放手, 放弃会后悔怎么办
+- google suggestions: 0
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 该不该放弃一个人
+- 什么时候该放弃感情
+- 继续坚持还是放手
+- 放弃会后悔怎么办
 
 ## /breakup/lingering
 
@@ -435,9 +467,9 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 - 什么都不想做韩剧
 - 什么都不想做怎么办
 - 什么都不想做只想躺着ptt
-- 什么都不想做线上看
 - 什么都不想做 只想睡觉
 - 什么都不想做只想睡觉ptt
+- 什么都不想做 日文
 
 ## /meaning/meaningless
 
@@ -643,6 +675,22 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 - 职业规划迷茫
 - 不知道该选哪条路
 
+## /debate/white-lie
+
+- axis: debate
+- base queries: 善意的谎言可以接受吗, 善意的谎言 辩论, 为了不伤害别人撒谎, 白色谎言 道德
+- google suggestions: 1
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 善意的谎言可以接受吗
+- 善意的谎言 辩论
+- 为了不伤害别人撒谎
+- 白色谎言 道德
+
 ## /debate/ai-replacement
 
 - axis: debate
@@ -740,4 +788,52 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 - 居家办公效率
 - 是否应该回办公室
 - 远程办公优缺点
+
+## /debate/retirement-age
+
+- axis: debate
+- base queries: 延迟退休 利弊, 延迟退休 争议, 退休年龄 应该提高吗, 延迟退休 对年轻人影响
+- google suggestions: 0
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 延迟退休 利弊
+- 延迟退休 争议
+- 退休年龄 应该提高吗
+- 延迟退休 对年轻人影响
+
+## /debate/employment-contract
+
+- axis: debate
+- base queries: 正式工 合同工 差别, 合同工 不公平, 同工同酬 合同工, 临时工 正式工 待遇差距
+- google suggestions: 0
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 正式工 合同工 差别
+- 合同工 不公平
+- 同工同酬 合同工
+- 临时工 正式工 待遇差距
+
+## /debate/school-corporal-punishment
+
+- axis: debate
+- base queries: 体罚学生 争议, 学校体罚 是否应该, 教师惩戒权 体罚, 学生纪律 不体罚
+- google suggestions: 0
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 体罚学生 争议
+- 学校体罚 是否应该
+- 教师惩戒权 体罚
+- 学生纪律 不体罚
 

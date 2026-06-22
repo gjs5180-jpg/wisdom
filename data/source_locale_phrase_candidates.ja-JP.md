@@ -8,16 +8,16 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 
 ## Summary
 
-- collectedAt: 2026-06-21T13:04:33.414Z
-- nodes scanned: 38
-- candidate phrases: 782
-- usable: 643
-- review: 104
-- low-signal: 35
+- collectedAt: 2026-06-22T03:44:29.417Z
+- nodes scanned: 44
+- candidate phrases: 850
+- usable: 704
+- review: 108
+- low-signal: 38
 
 ## Potential New Cluster Hints
 
-- `meaning/ikigai`: 6
+- `meaning/ikigai`: 7
 - `study/school-refusal`: 1
 
 ## /thought/good-life
@@ -26,9 +26,9 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 - base queries: 良い人生とは, どう生きるべきか, 生きがいとは, 人生 何を大切にする
 - google suggestions: 23
 - usable candidates: 6
-- review candidates: 16
+- review candidates: 17
 - low-signal candidates: 2
-- cluster hints: meaning/ikigai 6
+- cluster hints: meaning/ikigai 7
 
 ### Usable candidates
 
@@ -56,7 +56,7 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 - 生き甲斐とは何か
 - 生きがいとはなにか
 - 生きがいとは 本
-- 生甲斐とは
+- 生きがいとは何
 
 ### Low-signal candidates
 
@@ -191,6 +191,35 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 - 自由に生きたい 英語
 - 自分らしく生きたい 英語
 
+## /love/impatient
+
+- axis: worry
+- base queries: 恋愛 焦る, LINE 返信 待てない, 好きな人 返信 遅い 不安, 告白 するべきか 待つべきか
+- google suggestions: 13
+- usable candidates: 13
+- review candidates: 1
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 恋愛 焦る
+- LINE 返信 待てない
+- 好きな人 返信 遅い 不安
+- 告白 するべきか 待つべきか
+- 恋愛 焦る 男
+- 恋愛 焦るな
+- 恋愛 焦ると失敗
+- 恋愛 焦る 心理
+- 恋愛 焦る 女
+- 恋愛 焦る必要はない
+- 恋愛 焦る と は
+- 恋愛 焦る 年齢
+- line 返信 待てない人
+
+### Review candidates
+
+- 恋愛 焦る 知恵袋
+
 ## /love/cant-confess
 
 - axis: worry
@@ -313,6 +342,42 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 - 好きだけど価値観が合わない 離婚
 - 彼氏 好きだけど価値観が合わない
 - 彼女 好きだけど価値観が合わない
+
+## /love/should-give-up
+
+- axis: worry
+- base queries: 好きな人 諦めるべきか, 恋愛 諦める タイミング, 諦めるべきか待つべきか, 片思い 諦められない
+- google suggestions: 17
+- usable candidates: 14
+- review candidates: 1
+- low-signal candidates: 3
+
+### Usable candidates
+
+- 好きな人 諦めるべきか
+- 恋愛 諦める タイミング
+- 諦めるべきか待つべきか
+- 片思い 諦められない
+- 好きな人 諦めるべきか タロット
+- 恋愛 諦める べき タイミング
+- 職場 恋愛 諦める タイミング
+- 片思い 諦められない 曲
+- 片思い 諦められない男
+- 片思い 諦められない 女
+- 片思い 諦められない 歌
+- 片思い 振 られた 諦められない
+- 片思い 失恋 諦められない
+- 片思い 脈なし 諦められない
+
+### Review candidates
+
+- 好きな人 諦めるべきか 知恵袋
+
+### Low-signal candidates
+
+- 好きな人 諦めるべきか診断
+- 好きな人 諦めるべきか 占い
+- 片思い 諦められない 占い
 
 ## /breakup/lingering
 
@@ -1215,6 +1280,22 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 
 - 進路 に 迷う 英語
 
+## /debate/white-lie
+
+- axis: debate
+- base queries: 優しい嘘 許される, 嘘 ついてもいい時, 相手を傷つけない 嘘, 白い嘘 倫理
+- google suggestions: 0
+- usable candidates: 4
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 優しい嘘 許される
+- 嘘 ついてもいい時
+- 相手を傷つけない 嘘
+- 白い嘘 倫理
+
 ## /debate/ai-replacement
 
 - axis: debate
@@ -1369,4 +1450,74 @@ These are source-language phrase signals mapped to existing Wisdom canonical nod
 ### Review candidates
 
 - リモートワーク 生産性 論文
+
+## /debate/retirement-age
+
+- axis: debate
+- base queries: 定年延長 賛成 反対, 定年延長 メリット デメリット, 高齢者 雇用 若者 仕事, 年金 定年延長 必要
+- google suggestions: 5
+- usable candidates: 7
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 定年延長 賛成 反対
+- 定年延長 メリット デメリット
+- 高齢者 雇用 若者 仕事
+- 年金 定年延長 必要
+- 定年延長 再雇用 メリット デメリット
+- 定年延長 社員 メリット デメリット
+- 公務員 定年延長 メリット デメリット
+
+## /debate/employment-contract
+
+- axis: debate
+- base queries: 正社員 契約社員 格差, 契約社員 不公平, 同一労働同一賃金 契約社員, 非正規雇用 問題
+- google suggestions: 17
+- usable candidates: 17
+- review candidates: 1
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 正社員 契約社員 格差
+- 契約社員 不公平
+- 同一労働同一賃金 契約社員
+- 非正規雇用 問題
+- 同一労働同一賃金 契約社員 賞与
+- 同一労働同一賃金 契約社員同士
+- 同一労働同一賃金 契約社員 正社員
+- 契約社員 ボーナス 同一労働同一賃金
+- 契約社員 退職金 同一労働同一賃金
+- 非正規雇用 問題点
+- 非正規雇用 問題点 解決策
+- 非正規雇用 問題 解決策
+- 非正規雇用 問題点 厚生労働省
+- 非正規雇用 問題 原因
+- 女性 非正規雇用 問題
+- 正規雇用 非正規雇用 問題
+- 正規雇用 非正規雇用 問題点
+
+### Review candidates
+
+- 日本 非正規雇用 問題
+
+## /debate/school-corporal-punishment
+
+- axis: debate
+- base queries: 学校 体罰 賛成 反対, 体罰 教育 効果, 教師 懲戒 体罰 違い, 体罰 禁止 教育
+- google suggestions: 2
+- usable candidates: 6
+- review candidates: 0
+- low-signal candidates: 0
+
+### Usable candidates
+
+- 学校 体罰 賛成 反対
+- 体罰 教育 効果
+- 教師 懲戒 体罰 違い
+- 体罰 禁止 教育
+- 体罰 の 禁止 学校 教育 法
+- 教育 令 体罰 禁止
 
