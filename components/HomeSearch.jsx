@@ -36,6 +36,8 @@ const synonymGroups = [
   ["논쟁", "토론", "찬반", "윤리", "정의", "자유"],
 ];
 
+const typeOrder = ["고민", "논쟁", "생각", "카테고리", "태그", "인물", "카드"];
+
 function normalize(value) {
   return String(value || "")
     .toLowerCase()
@@ -90,7 +92,30 @@ function scoreEntry(entry, tokens, originalQuery) {
   return score;
 }
 
-export default function HomeSearch({ entries, suggestedEntries }) {
+function groupResults(results, isSuggested) {
+  if (isSuggested) return [{ label: "추천 카드", entries: results }];
+
+  const groups = new Map();
+  for (const entry of results) {
+    const label = entry.typeLabel || "카드";
+    if (!groups.has(label)) groups.set(label, []);
+    groups.get(label).push(entry);
+  }
+
+  return [...groups.entries()]
+    .map(([label, entries]) => ({ label, entries }))
+    .sort(
+      (a, b) =>
+        typeOrder.indexOf(a.label) - typeOrder.indexOf(b.label) ||
+        a.label.localeCompare(b.label, "ko")
+    );
+}
+
+export default function HomeSearch({
+  entries,
+  suggestedEntries,
+  exploreEntries = [],
+}) {
   const [query, setQuery] = useState("");
   const normalizedQuery = normalize(query);
 
@@ -98,7 +123,7 @@ export default function HomeSearch({ entries, suggestedEntries }) {
     if (!normalizedQuery) return suggestedEntries.slice(0, 5);
 
     const tokens = expandedTokens(query);
-    return entries
+    return [...entries, ...exploreEntries]
       .map((entry) => ({
         entry,
         score: scoreEntry(entry, tokens, query),
@@ -110,12 +135,17 @@ export default function HomeSearch({ entries, suggestedEntries }) {
           b.entry.verifiedCount - a.entry.verifiedCount ||
           a.entry.title.localeCompare(b.entry.title, "ko")
       )
-      .slice(0, 7)
+      .slice(0, 10)
       .map((item) => item.entry);
-  }, [entries, normalizedQuery, query, suggestedEntries]);
+  }, [entries, exploreEntries, normalizedQuery, query, suggestedEntries]);
+
+  const resultGroups = useMemo(
+    () => groupResults(results, !normalizedQuery),
+    [normalizedQuery, results]
+  );
 
   return (
-    <section className="rounded-xl border border-line bg-paper px-4 py-4">
+    <section className="rounded-lg border border-line bg-paper px-4 py-4">
       <div className="flex items-center gap-2 border-b border-line pb-3">
         <span className="text-lg" aria-hidden>
           ⌕
@@ -136,49 +166,64 @@ export default function HomeSearch({ entries, suggestedEntries }) {
             key={quickQuery}
             type="button"
             onClick={() => setQuery(quickQuery)}
-            className="rounded-full border border-line bg-cream px-2.5 py-1 text-xs text-ink-soft transition-colors hover:border-clay/40 hover:text-clay"
+            className="rounded-lg border border-line bg-cream px-2.5 py-1 text-xs text-ink-soft transition-colors hover:border-clay/40 hover:text-clay"
           >
             {quickQuery}
           </button>
         ))}
       </div>
 
-      <div className="mt-3 space-y-2">
+      <div className="mt-3 space-y-4">
         {results.length > 0 ? (
-          results.map((entry) => (
-            <Link
-              key={entry.href}
-              href={entry.href}
-              className="group block rounded-lg px-2 py-2 transition-colors hover:bg-cream"
-            >
-              <span className="flex items-start justify-between gap-3">
-                <span className="min-w-0">
-                  <span className="block font-serif text-base font-bold group-hover:text-clay">
-                    {entry.title}
-                  </span>
-                  <span className="mt-0.5 block text-xs text-ink-faint">
-                    {entry.categoryTitle}
-                    {entry.groupTitle ? ` · ${entry.groupTitle}` : ""}
-                  </span>
-                </span>
-                <span className="shrink-0 rounded-full bg-clay-soft px-2 py-0.5 text-[11px] font-medium text-clay">
-                  검증 {entry.verifiedCount}
-                </span>
-              </span>
-              <span className="mt-1 block text-sm leading-relaxed text-ink-soft">
-                {entry.summary}
-              </span>
-            </Link>
+          resultGroups.map((group) => (
+            <div key={group.label}>
+              <div className="mb-1.5 flex items-center justify-between gap-3">
+                <p className="text-[11px] font-medium uppercase tracking-wider text-ink-faint">
+                  {group.label}
+                </p>
+                <span className="text-xs text-ink-faint">{group.entries.length}</span>
+              </div>
+              <div className="space-y-2">
+                {group.entries.map((entry) => (
+                  <Link
+                    key={entry.href}
+                    href={entry.href}
+                    className="group block rounded-lg px-2 py-2 transition-colors hover:bg-cream"
+                  >
+                    <span className="flex items-start justify-between gap-3">
+                      <span className="min-w-0">
+                        <span className="block font-serif text-base font-bold group-hover:text-clay">
+                          {entry.title}
+                        </span>
+                        <span className="mt-0.5 block text-xs text-ink-faint">
+                          {entry.categoryTitle}
+                          {entry.groupTitle ? ` · ${entry.groupTitle}` : ""}
+                        </span>
+                      </span>
+                      <span className="shrink-0 rounded-full bg-clay-soft px-2 py-0.5 text-[11px] font-medium text-clay">
+                        {entry.badgeLabel || `검증 ${entry.verifiedCount}`}
+                      </span>
+                    </span>
+                    <span className="mt-1 block text-sm leading-relaxed text-ink-soft">
+                      {entry.summary}
+                    </span>
+                  </Link>
+                ))}
+              </div>
+            </div>
           ))
         ) : (
           <div className="rounded-lg bg-cream px-3 py-3 text-sm leading-relaxed text-ink-soft">
-            <p>아직 정확히 맞는 카드가 없습니다. 아래 입구에서 가까운 주제로 시작해보세요.</p>
+            <p>
+              아직 정확히 맞는 결과가 없습니다. 아래 입구에서 가까운 주제로
+              시작해보세요.
+            </p>
             <div className="mt-2 flex flex-wrap gap-1.5">
               {fallbackLinks.map((link) => (
                 <Link
                   key={link.href}
                   href={link.href}
-                  className="rounded-full border border-line bg-paper px-2.5 py-1 text-xs transition-colors hover:border-clay/40 hover:text-clay"
+                  className="rounded-lg border border-line bg-paper px-2.5 py-1 text-xs transition-colors hover:border-clay/40 hover:text-clay"
                 >
                   {link.label}
                 </Link>

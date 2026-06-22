@@ -36,6 +36,12 @@ const searchAliasByPrefix = {
   thought: "생각 철학 행복 성공 자유 좋은 삶 의미",
 };
 
+const axisLabels = {
+  worry: "고민",
+  debate: "논쟁",
+  thought: "생각",
+};
+
 function searchAliasesForEntry(entry) {
   const prefix = entry.key.split("/")[0];
   const axisAlias = searchAliasByPrefix[entry.axis] || "";
@@ -55,6 +61,8 @@ function serializeEntry(entry) {
     summary: entry.summary,
     categoryTitle: entry.categoryTitle,
     groupTitle: entry.groupTitle,
+    typeLabel: axisLabels[entry.axis] || "카드",
+    badgeLabel: `검증 ${entry.verifiedCount}`,
     verifiedCount: entry.verifiedCount,
     tags: entry.tags?.map((tag) => tag.title).join(" ") || "",
     aliases: searchAliasesForEntry(entry),
@@ -193,6 +201,49 @@ export default function HomePage() {
 
   const topTags = crossTagGroups.flatMap((group) => group.tags.slice(0, 8)).slice(0, 16);
   const people = peopleEntries.slice(0, 6);
+  const exploreEntries = [
+    ...categoryEntrances.map((category) => ({
+      key: `category/${category.href}`,
+      href: category.href,
+      title: category.title,
+      summary: category.blurb,
+      categoryTitle: "카테고리",
+      groupTitle: "고민 입구",
+      typeLabel: "카테고리",
+      badgeLabel: `카드 ${category.count}`,
+      verifiedCount: category.count,
+      tags: "",
+      aliases: `${category.title} ${category.blurb}`,
+    })),
+    ...topTags.map((tag) => ({
+      key: `tag/${tag.slug}`,
+      href: `/tags/${tag.slug}`,
+      title: tag.title,
+      summary: tag.blurb || `${tag.entryCount}개 카드가 이 태그로 묶여 있습니다.`,
+      categoryTitle: "태그",
+      groupTitle: "감정 / 상황",
+      typeLabel: "태그",
+      badgeLabel: `카드 ${tag.entryCount}`,
+      verifiedCount: tag.entryCount,
+      tags: tag.title,
+      aliases: `${tag.title} ${tag.blurb || ""}`,
+    })),
+    ...peopleEntries.slice(0, 10).map((person) => ({
+      key: `person/${person.slug}`,
+      href: `/people/${person.slug}`,
+      title: person.name,
+      summary: person.summary,
+      categoryTitle: "인물",
+      groupTitle: person.culture?.tradition,
+      typeLabel: "인물",
+      badgeLabel: `카드 ${person.cardCount}`,
+      verifiedCount: person.cardCount,
+      tags: person.tags?.map((tag) => tag.title).join(" ") || "",
+      aliases: `${person.name} ${person.culture?.country || ""} ${
+        person.culture?.tradition || ""
+      } ${person.summary}`,
+    })),
+  ];
 
   return (
     <div className="fade-rise">
@@ -201,17 +252,21 @@ export default function HomePage() {
           위즈덤
         </p>
         <h1 className="mt-1 font-serif text-3xl font-bold leading-snug sm:text-4xl">
-          고민을 검색하면,
+          고민과 논쟁을 검색하면,
           <br />
-          여러 관점의 지도로 정리합니다.
+          믿을 만한 관점으로 정리합니다.
         </h1>
         <p className="mt-4 leading-relaxed text-ink-soft">
-          인터넷에 흩어진 고민, 생각, 논쟁을 언어권별 관심 신호로 모으고
-          철학, 연구, 제도, 실천 관점으로 다시 읽습니다.
+          위즈덤은 답을 단정하기보다 흩어진 고민, 생각, 논쟁을 언어권별 관심
+          신호로 모으고 철학, 연구, 제도, 실천 관점으로 다시 읽습니다.
         </p>
       </section>
 
-      <HomeSearch entries={searchEntries} suggestedEntries={suggestedEntries} />
+      <HomeSearch
+        entries={searchEntries}
+        suggestedEntries={suggestedEntries}
+        exploreEntries={exploreEntries}
+      />
 
       <section className="mt-6 border-y border-line py-4">
         <dl className="grid grid-cols-2 gap-4 sm:grid-cols-4">
