@@ -1,6 +1,7 @@
 import Link from "next/link";
 import {
   allDebateEntries,
+  debatePositionSummary,
   debatePositionSections,
   getDebateContent,
   groupedDebates,
@@ -35,12 +36,35 @@ function topTags(entries, limit = 14) {
     .slice(0, limit);
 }
 
+function debatePositionMeta(slug) {
+  const summary = debatePositionSummary(slug);
+  const labels = [...new Set(summary.map((item) => item.positionTitle))];
+
+  return {
+    count: labels.length,
+    labels,
+  };
+}
+
 export default function DebateListPage() {
   const entries = allDebateEntries();
   const readyEntries = entries.filter((entry) => entry.publishable);
   const featuredEntries = [...readyEntries]
     .sort((a, b) => b.verifiedCount - a.verifiedCount)
     .slice(0, 4);
+  const balancedEntries = [...readyEntries]
+    .map((entry) => ({
+      entry,
+      positionMeta: debatePositionMeta(entry.key.replace("debate/", "")),
+    }))
+    .filter(({ entry, positionMeta }) => entry.verifiedCount >= 3 && positionMeta.count >= 3)
+    .sort(
+      (a, b) =>
+        b.positionMeta.count - a.positionMeta.count ||
+        b.entry.verifiedCount - a.entry.verifiedCount ||
+        a.entry.title.localeCompare(b.entry.title, "ko")
+    )
+    .slice(0, 6);
   const positionSections = debatePositionSections();
   const tags = topTags(entries);
   const groups = groupedDebates();
@@ -106,6 +130,50 @@ export default function DebateListPage() {
                   </span>
                   <span className="shrink-0 rounded-full bg-clay-soft px-2 py-0.5 text-[11px] font-medium text-clay">
                     검증 {entry.verifiedCount}
+                  </span>
+                </span>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {balancedEntries.length > 0 && (
+        <section className="mb-8">
+          <div className="mb-3">
+            <p className="text-[11px] font-medium uppercase tracking-wider text-ink-faint">
+              균형 잡힌 읽기
+            </p>
+            <h2 className="mt-1 font-serif text-xl font-bold">세 관점 이상으로 보는 논쟁</h2>
+          </div>
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+            {balancedEntries.map(({ entry, positionMeta }) => (
+              <Link
+                key={entry.key}
+                href={entry.href}
+                className="group block rounded-lg border border-line bg-paper px-4 py-4 transition-colors hover:border-clay/40"
+              >
+                <span className="flex items-start justify-between gap-3">
+                  <span className="min-w-0">
+                    <span className="font-serif text-base font-bold group-hover:text-clay">
+                      {entry.title}
+                    </span>
+                    <span className="mt-1.5 block text-sm leading-relaxed text-ink-soft">
+                      {entry.summary}
+                    </span>
+                    <span className="mt-2 flex flex-wrap gap-1.5">
+                      {positionMeta.labels.slice(0, 3).map((label) => (
+                        <span
+                          key={`${entry.key}-${label}`}
+                          className="rounded-full border border-line px-2 py-0.5 text-[11px] text-ink-soft"
+                        >
+                          {label}
+                        </span>
+                      ))}
+                    </span>
+                  </span>
+                  <span className="shrink-0 rounded-full bg-clay-soft px-2 py-0.5 text-[11px] font-medium text-clay">
+                    관점 {positionMeta.count}
                   </span>
                 </span>
               </Link>
@@ -185,6 +253,7 @@ export default function DebateListPage() {
                   const hasDraft = !content.placeholder && !ready;
                   const verifiedCount = verifiedCardCount(content);
                   const status = statusMeta(ready, hasDraft, verifiedCount);
+                  const positionMeta = debatePositionMeta(debate.slug);
 
                   return (
                     <li key={debate.slug}>
@@ -203,6 +272,11 @@ export default function DebateListPage() {
                               >
                                 {status.label}
                               </span>
+                              {positionMeta.count > 1 && (
+                                <span className="rounded-full border border-line px-2 py-0.5 text-[11px] text-ink-soft">
+                                  관점 {positionMeta.count}
+                                </span>
+                              )}
                             </span>
                             <span className="mt-1 block text-sm leading-relaxed text-ink-soft">
                               {debate.blurb}

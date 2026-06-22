@@ -5,6 +5,7 @@ import {
   allPeople,
   allThoughtEntries,
   allWorryEntries,
+  debatePositionSummary,
   groupedTagsWithCounts,
   groupedWorryCategories,
   perspectiveLenses,
@@ -78,6 +79,16 @@ function statusLabel(status) {
   return labels[status] || status;
 }
 
+function debatePositionLabels(entry) {
+  return [
+    ...new Set(
+      debatePositionSummary(entry.key.replace("debate/", "")).map(
+        (position) => position.positionTitle
+      )
+    ),
+  ];
+}
+
 export default function HomePage() {
   const featuredOrder = [
     "debate/remote-work",
@@ -112,6 +123,20 @@ export default function HomePage() {
   const featuredEntries = featuredOrder
     .map((key) => entryByKey.get(key))
     .filter(Boolean);
+  const balancedDebateEntries = debateEntries
+    .filter((entry) => entry.publishable)
+    .map((entry) => ({
+      entry,
+      positionLabels: debatePositionLabels(entry),
+    }))
+    .filter(({ positionLabels }) => positionLabels.length >= 3)
+    .sort(
+      (a, b) =>
+        b.positionLabels.length - a.positionLabels.length ||
+        b.entry.verifiedCount - a.entry.verifiedCount ||
+        a.entry.title.localeCompare(b.entry.title, "ko")
+    )
+    .slice(0, 4);
   const strongestSignals = strongestSourceLocaleSignals(6);
   const topSignalCards = strongestSignals
     .map((signal) => ({ signal, entry: signalEntryFor(signal) }))
@@ -478,6 +503,60 @@ export default function HomePage() {
           ))}
         </div>
       </section>
+
+      {balancedDebateEntries.length > 0 && (
+        <section className="mt-10">
+          <div className="mb-3 flex items-end justify-between gap-3">
+            <div>
+              <p className="text-[11px] font-medium uppercase tracking-wider text-ink-faint">
+                논쟁 지도
+              </p>
+              <h2 className="mt-1 font-serif text-xl font-bold">
+                한쪽으로 닫지 않고 보는 질문
+              </h2>
+            </div>
+            <Link
+              href="/debate"
+              className="shrink-0 text-sm text-ink-soft transition-colors hover:text-clay"
+            >
+              논쟁 전체
+            </Link>
+          </div>
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+            {balancedDebateEntries.map(({ entry, positionLabels }) => (
+              <Link
+                key={entry.key}
+                href={entry.href}
+                className="group block rounded-lg border border-line bg-paper px-4 py-4 transition-colors hover:border-clay/40"
+              >
+                <span className="flex items-start justify-between gap-3">
+                  <span className="min-w-0">
+                    <span className="block font-serif text-base font-bold group-hover:text-clay">
+                      {entry.title}
+                    </span>
+                    <span className="mt-1.5 line-clamp-2 block text-sm leading-relaxed text-ink-soft">
+                      {entry.summary}
+                    </span>
+                    <span className="mt-2 flex flex-wrap gap-1.5">
+                      {positionLabels.slice(0, 3).map((label) => (
+                        <span
+                          key={`${entry.key}-${label}`}
+                          className="rounded-full border border-line px-2 py-0.5 text-[11px] text-ink-soft"
+                        >
+                          {label}
+                        </span>
+                      ))}
+                    </span>
+                  </span>
+                  <span className="shrink-0 rounded-full bg-clay-soft px-2 py-0.5 text-[11px] font-medium text-clay">
+                    관점 {positionLabels.length}
+                  </span>
+                </span>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
 
       <section id="worry-start" className="mt-10 scroll-mt-20">
         <div className="mb-3 flex items-end justify-between gap-3">

@@ -9,6 +9,18 @@ import {
   perspectiveLensLabelEn,
   sourceTypeLabelEn,
 } from "@/lib/global-content";
+import { debatePositionSummary } from "@/lib/content";
+
+const debatePositionLabelsEn = {
+  support: "Support / allow",
+  oppose: "Oppose / restrict",
+  conditional: "Conditional / trade-off",
+  context: "Context / evidence",
+};
+
+function debatePositionLabelEn(position) {
+  return debatePositionLabelsEn[position] || "Conditional / trade-off";
+}
 
 export function generateStaticParams() {
   return englishStaticParams();
@@ -52,6 +64,9 @@ export default async function EnglishSeedPage({ params }) {
 
   const cards = entry.content?.cards || [];
   const isCurated = entry.translationStatus === "curated-seed";
+  const positionRows =
+    entry.axis === "debate" ? debatePositionSummary(entry.slot.replace(/^debate\//, "")) : [];
+  const positionByName = new Map(positionRows.map((row) => [row.name, row]));
 
   return (
     <div className="fade-rise">
@@ -146,6 +161,7 @@ export default async function EnglishSeedPage({ params }) {
         <div className="space-y-3">
           {cards.map((card, index) => {
             const cardSummary = entry.englishCardSummaries?.[index];
+            const position = positionByName.get(card.name);
 
             return (
             <article
@@ -162,6 +178,11 @@ export default async function EnglishSeedPage({ params }) {
                   </p>
                 </div>
                 <div className="flex shrink-0 flex-wrap justify-end gap-1.5">
+                  {position && (
+                    <span className="rounded-full bg-clay-soft px-2 py-0.5 text-[11px] font-medium text-clay">
+                      {debatePositionLabelEn(position.position)}
+                    </span>
+                  )}
                   {card.perspectiveLens && (
                     <span className="rounded-full bg-clay-soft px-2 py-0.5 text-[11px] font-medium text-clay">
                       {perspectiveLensLabelEn(card.perspectiveLens)}
