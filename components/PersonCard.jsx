@@ -89,6 +89,14 @@ function DetailSection({ label, children, className = "" }) {
   );
 }
 
+function sourceReliabilityText(card) {
+  const parts = [];
+  if (card.verified) parts.push("검증됨");
+  if (card.sourceTypeLabel) parts.push(card.sourceTypeLabel);
+  if (card.sourceYear) parts.push(card.sourceYear);
+  return parts.join(" · ");
+}
+
 export default function PersonCard({
   card,
   axis = "worry",
@@ -99,6 +107,7 @@ export default function PersonCard({
   const sourceLabel = [card.sourceTypeLabel, card.sourceYear].filter(Boolean).join(" · ");
   const resolvedActionLabel = actionLabel || copy.defaultActionLabel;
   const positionMeta = position ? positionCopy[position.position] : null;
+  const sourceReliability = sourceReliabilityText(card);
 
   return (
     <article className="rounded-2xl border border-line bg-paper p-5">
@@ -122,6 +131,15 @@ export default function PersonCard({
           )}
         </div>
       </div>
+
+      {sourceReliability && (
+        <div className="mt-3 rounded-lg border border-line bg-cream px-4 py-2.5">
+          <div className="flex flex-wrap items-center gap-2 text-xs">
+            <span className="font-medium text-clay">신뢰 단서</span>
+            <span className="text-ink-soft">{sourceReliability}</span>
+          </div>
+        </div>
+      )}
 
       {(position || card.stance) && (
         <div className="mt-3 rounded-lg bg-cream px-4 py-3">

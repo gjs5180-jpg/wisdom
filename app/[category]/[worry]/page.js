@@ -122,17 +122,9 @@ export default async function WorryPage({ params }) {
             actions={content.actions}
           />
 
-          {/* ① 감정 한 줄 정의 */}
-          <section className="mb-8 rounded-2xl bg-clay-soft/60 px-5 py-5">
-            <p className="text-[11px] font-medium tracking-wider text-clay uppercase mb-1.5">
-              감정 한 줄 정의
-            </p>
-            <p className="font-serif text-lg leading-relaxed">{content.emotion}</p>
-          </section>
-
           <PerspectiveSummary
             cards={content.cards}
-            title={content.cards.length > 3 ? "이 고민의 관점들" : "이 고민의 세 관점"}
+            title={content.cards.length > 3 ? "이 고민의 관점 비교" : "이 고민의 세 관점"}
           />
 
           <SourceLocaleSignalSummary signal={content.sourceLocaleSignal} />

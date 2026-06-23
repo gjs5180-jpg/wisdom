@@ -9,7 +9,7 @@ function compact(text, limit = 104) {
 export default function PerspectiveSummary({
   cards,
   eyebrow = "먼저 보는 핵심",
-  title = "이 페이지의 관점",
+  title = "관점 비교",
 }) {
   const items = cards || [];
   if (items.length === 0) return null;
@@ -28,20 +28,34 @@ export default function PerspectiveSummary({
         </span>
       </div>
       <div className="divide-y divide-line">
-        {items.map((card) => (
-          <div key={`${card.name}-${card.stance || card.role}`} className="py-3 first:pt-0 last:pb-0">
-            <div className="flex flex-wrap items-center gap-2">
-              <span className="font-serif font-bold">{card.name}</span>
-              <PerspectiveLensBadge card={card} compact />
-              {(card.stance || card.sourceTypeLabel) && (
-                <span className="rounded-full border border-line px-2 py-0.5 text-[11px] text-ink-soft">
-                  {card.stance || card.sourceTypeLabel}
-                </span>
-              )}
+        {items.map((card, index) => (
+          <div
+            key={`${card.name}-${card.stance || card.role}`}
+            className="grid grid-cols-[2rem_1fr] gap-3 py-3 first:pt-0 last:pb-0"
+          >
+            <span className="font-serif text-lg font-bold text-ink-faint">
+              {String(index + 1).padStart(2, "0")}
+            </span>
+            <div className="min-w-0">
+              <div className="flex flex-wrap items-center gap-2">
+                <span className="font-serif font-bold">{card.name}</span>
+                <PerspectiveLensBadge card={card} compact />
+                {card.stance && (
+                  <span className="rounded-full border border-line px-2 py-0.5 text-[11px] text-ink-soft">
+                    {card.stance}
+                  </span>
+                )}
+                {card.sourceTypeLabel && (
+                  <span className="rounded-full bg-clay-soft px-2 py-0.5 text-[11px] font-medium text-clay">
+                    {card.sourceTypeLabel}
+                    {card.sourceYear ? ` · ${card.sourceYear}` : ""}
+                  </span>
+                )}
+              </div>
+              <p className="mt-1 text-sm leading-relaxed text-ink-soft">
+                {compact(card.view)}
+              </p>
             </div>
-            <p className="mt-1 text-sm leading-relaxed text-ink-soft">
-              {compact(card.view)}
-            </p>
           </div>
         ))}
       </div>
