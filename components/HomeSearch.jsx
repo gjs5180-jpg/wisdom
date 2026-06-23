@@ -10,7 +10,7 @@ const quickQueries = [
   "돈 걱정",
   "시험 불안",
   "외로움",
-  "AI 논쟁",
+  "AI 질문",
 ];
 
 const fallbackLinks = [
@@ -18,7 +18,7 @@ const fallbackLinks = [
   { label: "이별", href: "/breakup" },
   { label: "직장", href: "/work" },
   { label: "의미", href: "/meaning" },
-  { label: "논쟁", href: "/debate" },
+  { label: "찬반 질문", href: "/debate" },
   { label: "태그", href: "/tags" },
 ];
 
@@ -36,7 +36,7 @@ const synonymGroups = [
   ["논쟁", "토론", "찬반", "윤리", "정의", "자유"],
 ];
 
-const typeOrder = ["고민", "논쟁", "생각", "카테고리", "태그", "언어권", "인물", "카드"];
+const typeOrder = ["질문", "카테고리", "태그", "언어권", "인물", "카드"];
 
 function normalize(value) {
   return String(value || "")

@@ -39,9 +39,9 @@ const searchAliasByPrefix = {
 };
 
 const axisLabels = {
-  worry: "고민",
-  debate: "논쟁",
-  thought: "생각",
+  worry: "질문",
+  debate: "질문",
+  thought: "질문",
 };
 
 function searchAliasesForEntry(entry) {
@@ -226,25 +226,25 @@ export default function HomePage() {
 
   const primaryEntrances = [
     {
-      title: "고민",
+      title: "지금 막힌 질문",
       href: "#worry-start",
       blurb: "연애, 이별, 일, 가족, 돈, 몸처럼 지금 삶에 걸린 문제.",
       count: worryEntries.filter((entry) => entry.publishable).length,
     },
     {
-      title: "논쟁",
+      title: "찬반이 갈리는 질문",
       href: "/debate",
       blurb: "AI, 결혼, 자유, 처벌처럼 가치가 충돌하는 질문.",
       count: debateEntries.filter((entry) => entry.publishable).length,
     },
     {
-      title: "생각",
+      title: "오래 남는 질문",
       href: "/thought",
       blurb: "행복, 성공, 좋은 삶처럼 오래 남는 큰 질문.",
       count: thoughtEntries.filter((entry) => entry.publishable).length,
     },
     {
-      title: "인물",
+      title: "인물별 관점",
       href: "/people",
       blurb: "철학자와 사상가의 관점이 고민에서 어떻게 반복되는지 보기.",
       count: peopleEntries.length,
@@ -633,11 +633,11 @@ export default function HomePage() {
                 깊게 읽기
               </p>
               <h2 className="mt-1 font-serif text-xl font-bold">
-                4관점으로 정리한 고민
+                4관점으로 정리한 질문
               </h2>
             </div>
             <span className="shrink-0 text-xs text-ink-faint">
-              고민 {worryEntries.filter((entry) => entry.publishable && (entry.content.cards?.length || 0) >= 4).length}개
+              질문 {worryEntries.filter((entry) => entry.publishable && (entry.content.cards?.length || 0) >= 4).length}개
             </span>
           </div>
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
@@ -681,7 +681,7 @@ export default function HomePage() {
           <div className="mb-3 flex items-end justify-between gap-3">
             <div>
               <p className="text-[11px] font-medium uppercase tracking-wider text-ink-faint">
-                논쟁 지도
+                찬반 질문
               </p>
               <h2 className="mt-1 font-serif text-xl font-bold">
                 한쪽으로 닫지 않고 보는 질문
@@ -734,9 +734,9 @@ export default function HomePage() {
         <div className="mb-3 flex items-end justify-between gap-3">
           <div>
             <p className="text-[11px] font-medium uppercase tracking-wider text-ink-faint">
-              고민 카테고리
+              질문 입구
             </p>
-            <h2 className="mt-1 font-serif text-xl font-bold">자주 들어오는 입구</h2>
+            <h2 className="mt-1 font-serif text-xl font-bold">자주 들어오는 삶의 장면</h2>
           </div>
           <Link
             href="/tags"

@@ -5,9 +5,7 @@ import { usePathname } from "next/navigation";
 import LanguageSwitch from "./LanguageSwitch";
 
 const koreanLinks = [
-  { href: "/#worry-start", label: "고민" },
-  { href: "/thought", label: "생각", className: "hidden sm:inline" },
-  { href: "/debate", label: "논쟁" },
+  { href: "/", label: "질문지도" },
   { href: "/people", label: "인물" },
   { href: "/tags", label: "태그" },
   { href: "/source-locales", label: "언어권", className: "hidden sm:inline" },
@@ -16,10 +14,10 @@ const koreanLinks = [
 ];
 
 const englishLinks = [
-  { href: "/en", label: "Home" },
-  { href: "/en/thought/good-life", label: "Good life", className: "hidden sm:inline" },
-  { href: "/en/thought/happiness", label: "Happiness", className: "hidden sm:inline" },
-  { href: "/en/debate/ai-replacement", label: "AI" },
+  { href: "/en", label: "Question map" },
+  { href: "/en#english-nodes", label: "Nodes", className: "hidden sm:inline" },
+  { href: "/source-locales", label: "Source languages", className: "hidden sm:inline" },
+  { href: "/", label: "Korean map" },
 ];
 
 export default function HeaderNav() {

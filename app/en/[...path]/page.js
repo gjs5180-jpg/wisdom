@@ -20,9 +20,9 @@ const debatePositionLabelsEn = {
 
 const axisCopyEn = {
   worry: {
-    label: "Worry map",
+    label: "Question map",
     briefTitle: "Read this first",
-    core: "Core worry",
+    core: "Core question",
     source: "Source signal",
     perspectives: "Perspectives",
     next: "Next move",
@@ -32,7 +32,7 @@ const axisCopyEn = {
     cardsTitle: "Perspective cards",
   },
   debate: {
-    label: "Debate map",
+    label: "Contested question",
     briefTitle: "Before choosing a side",
     core: "Core issue",
     source: "Source signal",
@@ -44,7 +44,7 @@ const axisCopyEn = {
     cardsTitle: "Debate cards",
   },
   thought: {
-    label: "Thought map",
+    label: "Life question",
     briefTitle: "Open the question this way",
     core: "Question",
     source: "Source signal",

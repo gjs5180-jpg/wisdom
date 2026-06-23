@@ -22,9 +22,9 @@ export const metadata = {
 };
 
 const axisLabels = {
-  worry: "Worries",
-  debate: "Debates",
-  thought: "Big questions",
+  worry: "Question",
+  debate: "Question",
+  thought: "Question",
 };
 
 const sourceLocaleLabels = {
@@ -102,19 +102,19 @@ export default function EnglishHomePage() {
 
   const pathCards = [
     {
-      title: "Worries",
+      title: "Everyday questions",
       href: "#english-nodes",
       count: axisCount(entries, "worry"),
       blurb: "Everyday problems like relationships, work, self-esteem, body, family, and meaning.",
     },
     {
-      title: "Debates",
+      title: "Contested questions",
       href: "#english-debates",
       count: axisCount(entries, "debate"),
       blurb: "Value conflicts where support, opposition, evidence, and trade-offs need to be compared.",
     },
     {
-      title: "Big Questions",
+      title: "Life questions",
       href: "#english-nodes",
       count: axisCount(entries, "thought"),
       blurb: "Durable questions about happiness, success, freedom, and a good life.",
@@ -331,7 +331,7 @@ export default function EnglishHomePage() {
         <section id="english-debates" className="mb-9 scroll-mt-20">
           <div className="mb-3">
             <p className="text-[11px] font-medium uppercase tracking-wider text-ink-faint">
-              Debate entry
+              Contested questions
             </p>
             <h2 className="mt-1 font-serif text-xl font-bold">
               Compare positions before taking a side
@@ -369,7 +369,7 @@ export default function EnglishHomePage() {
             <p className="text-[11px] font-medium uppercase tracking-wider text-ink-faint">
               Start here
             </p>
-            <h2 className="mt-1 font-serif text-xl font-bold">English entry nodes</h2>
+            <h2 className="mt-1 font-serif text-xl font-bold">English question nodes</h2>
           </div>
           <span className="shrink-0 text-xs text-ink-faint">{entries.length} nodes</span>
         </div>
