@@ -104,6 +104,16 @@ export default function HomePage() {
     "debate/childfree",
     "body/health-anxiety",
   ];
+  const deepWorryOrder = [
+    "love/reply-anxiety",
+    "love/attachment-anxiety",
+    "breakup/ghosting",
+    "work/burnout",
+    "self-esteem/low-self-esteem",
+    "relationships/cant-say-no",
+    "meaning/fear-death",
+    "meaning/meaningless",
+  ];
 
   const worryEntries = allWorryEntries();
   const thoughtEntries = allThoughtEntries();
@@ -123,6 +133,10 @@ export default function HomePage() {
   const featuredEntries = featuredOrder
     .map((key) => entryByKey.get(key))
     .filter(Boolean);
+  const deepWorryEntries = deepWorryOrder
+    .map((key) => entryByKey.get(key))
+    .filter((entry) => entry?.axis === "worry" && (entry.content.cards?.length || 0) >= 4)
+    .slice(0, 4);
   const balancedDebateEntries = debateEntries
     .filter((entry) => entry.publishable)
     .map((entry) => ({
@@ -503,6 +517,57 @@ export default function HomePage() {
           ))}
         </div>
       </section>
+
+      {deepWorryEntries.length > 0 && (
+        <section className="mt-10">
+          <div className="mb-3 flex items-end justify-between gap-3">
+            <div>
+              <p className="text-[11px] font-medium uppercase tracking-wider text-ink-faint">
+                깊게 읽기
+              </p>
+              <h2 className="mt-1 font-serif text-xl font-bold">
+                4관점으로 정리한 고민
+              </h2>
+            </div>
+            <span className="shrink-0 text-xs text-ink-faint">
+              고민 {worryEntries.filter((entry) => entry.publishable && (entry.content.cards?.length || 0) >= 4).length}개
+            </span>
+          </div>
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+            {deepWorryEntries.map((entry) => (
+              <Link
+                key={entry.key}
+                href={entry.href}
+                className="group block rounded-lg border border-line bg-paper px-4 py-4 transition-colors hover:border-clay/40"
+              >
+                <span className="flex items-start justify-between gap-3">
+                  <span className="min-w-0">
+                    <span className="block font-serif text-base font-bold group-hover:text-clay">
+                      {entry.title}
+                    </span>
+                    <span className="mt-1.5 line-clamp-2 block text-sm leading-relaxed text-ink-soft">
+                      {entry.summary}
+                    </span>
+                    <span className="mt-2 flex flex-wrap gap-1.5">
+                      {entry.content.cards.slice(0, 4).map((card) => (
+                        <span
+                          key={`${entry.key}-${card.name}`}
+                          className="rounded-full border border-line px-2 py-0.5 text-[11px] text-ink-soft"
+                        >
+                          {card.name}
+                        </span>
+                      ))}
+                    </span>
+                  </span>
+                  <span className="shrink-0 rounded-full bg-clay-soft px-2 py-0.5 text-[11px] font-medium text-clay">
+                    관점 {entry.content.cards.length}
+                  </span>
+                </span>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
 
       {balancedDebateEntries.length > 0 && (
         <section className="mt-10">

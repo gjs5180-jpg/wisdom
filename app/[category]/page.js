@@ -142,6 +142,7 @@ export default async function CategoryPage({ params }) {
       ...worry,
       href: `/${cat.slug}/${worry.slug}`,
       content,
+      cardCount: content.cards?.length || 0,
       verifiedCount,
       publishable,
       hasDraft,
@@ -157,6 +158,7 @@ export default async function CategoryPage({ params }) {
   const featuredEntries = [...readyEntries]
     .sort((a, b) => b.verifiedCount - a.verifiedCount)
     .slice(0, 3);
+  const deepEntries = readyEntries.filter((entry) => entry.cardCount >= 4);
   const emotionTags = topTags(entries, "emotion", 7);
   const situationTags = topTags(entries, "situation", 7);
   const doors = firstDoors(readyEntries);
@@ -190,6 +192,11 @@ export default async function CategoryPage({ params }) {
           <span className="rounded-full bg-clay-soft px-2.5 py-1 font-medium text-clay">
             공개 {readyEntries.length}
           </span>
+          {deepEntries.length > 0 && (
+            <span className="rounded-full border border-line px-2.5 py-1 text-ink-soft">
+              4관점 {deepEntries.length}
+            </span>
+          )}
           {draftEntries.length > 0 && (
             <span className="rounded-full border border-line px-2.5 py-1 text-ink-soft">
               검증 중 {draftEntries.length}
@@ -230,6 +237,11 @@ export default async function CategoryPage({ params }) {
                   <span className="shrink-0 rounded-full bg-clay-soft px-2 py-0.5 text-[11px] font-medium text-clay">
                     검증 {entry.verifiedCount}
                   </span>
+                  {entry.cardCount >= 4 && (
+                    <span className="shrink-0 rounded-full border border-line px-2 py-0.5 text-[11px] text-ink-soft">
+                      관점 {entry.cardCount}
+                    </span>
+                  )}
                 </span>
               </Link>
             ))}
@@ -405,6 +417,11 @@ export default async function CategoryPage({ params }) {
                         >
                           {status.label}
                         </span>
+                        {entry.cardCount >= 4 && (
+                          <span className="rounded-full border border-line px-2 py-0.5 text-[11px] text-ink-soft">
+                            관점 {entry.cardCount}
+                          </span>
+                        )}
                       </span>
                       <span className="mt-1.5 block text-sm leading-relaxed text-ink-soft">
                         {entry.summary}
