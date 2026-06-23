@@ -11,6 +11,7 @@ import {
   perspectiveLenses,
 } from "@/lib/content";
 import { collectedStats } from "@/lib/collected";
+import { enrichedEnglishSeeds } from "@/lib/global-content";
 import { prioritySourceLocales, sourceLocaleStats } from "@/lib/source-locales";
 import { sourceLocaleSearchTextForInsights } from "@/lib/source-locale-insights";
 import {
@@ -126,6 +127,16 @@ export default function HomePage() {
   const collection = collectedStats();
   const sourceStats = sourceLocaleStats();
   const sourceLocales = prioritySourceLocales(7);
+  const englishEntries = enrichedEnglishSeeds().filter((entry) => entry.publishable);
+  const englishSpotlightEntries = englishEntries
+    .filter((entry) => (entry.cardCount || 0) >= 4)
+    .sort(
+      (a, b) =>
+        (b.content?.sourceLocaleSignal?.totalUsable || 0) -
+          (a.content?.sourceLocaleSignal?.totalUsable || 0) ||
+        a.priority - b.priority
+    )
+    .slice(0, 4);
 
   const entryByKey = new Map(readyEntries.map((entry) => [entry.key, entry]));
   const signalEntryFor = (signal) => entryByKey.get(signal.key);
@@ -236,6 +247,33 @@ export default function HomePage() {
       title: "인물",
       href: "/people",
       blurb: "철학자와 사상가의 관점이 고민에서 어떻게 반복되는지 보기.",
+      count: peopleEntries.length,
+    },
+  ];
+
+  const globalBridgeEntrances = [
+    {
+      title: "영어 버전",
+      href: "/en",
+      blurb: "한국어 원본 지도를 바탕으로 영어 검색어와 영어 상세 페이지를 연결합니다.",
+      count: englishEntries.length,
+    },
+    {
+      title: "언어권 소스",
+      href: "/source-locales",
+      blurb: "일본어, 중국어, 스페인어, 프랑스어, 독일어 표현에서 반복되는 고민 신호를 봅니다.",
+      count: sourceStats.total,
+    },
+    {
+      title: "수집 현황",
+      href: "/collected",
+      blurb: "긁어모은 표현이 어떤 카드와 주제로 정리됐는지 확인합니다.",
+      count: collection.total,
+    },
+    {
+      title: "인물 지도",
+      href: "/people",
+      blurb: "철학자, 연구자, 제도 관점이 여러 고민에서 어떻게 다시 등장하는지 봅니다.",
       count: peopleEntries.length,
     },
   ];
@@ -368,6 +406,75 @@ export default function HomePage() {
             </div>
           ))}
         </dl>
+      </section>
+
+      <section className="mt-8">
+        <div className="mb-3 flex items-end justify-between gap-3">
+          <div>
+            <p className="text-[11px] font-medium uppercase tracking-wider text-ink-faint">
+              글로벌 확장
+            </p>
+            <h2 className="mt-1 font-serif text-xl font-bold">
+              같은 고민을 여러 언어에서 다시 읽기
+            </h2>
+          </div>
+          <Link
+            href="/en"
+            className="shrink-0 text-sm text-ink-soft transition-colors hover:text-clay"
+          >
+            English
+          </Link>
+        </div>
+        <div className="grid grid-cols-1 gap-3 sm:grid-cols-4">
+          {globalBridgeEntrances.map((entry) => (
+            <Link
+              key={entry.href}
+              href={entry.href}
+              className="group block rounded-lg border border-line bg-paper px-4 py-4 transition-colors hover:border-clay/40"
+            >
+              <span className="flex items-baseline justify-between gap-3">
+                <span className="font-serif text-base font-bold group-hover:text-clay">
+                  {entry.title}
+                </span>
+                <span className="text-xs text-ink-faint">
+                  {entry.count.toLocaleString("ko-KR")}
+                </span>
+              </span>
+              <span className="mt-2 block text-sm leading-relaxed text-ink-soft">
+                {entry.blurb}
+              </span>
+            </Link>
+          ))}
+        </div>
+
+        {englishSpotlightEntries.length > 0 && (
+          <div className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-2">
+            {englishSpotlightEntries.map((entry) => (
+              <Link
+                key={entry.route}
+                href={entry.href}
+                className="group block rounded-lg border border-line bg-cream px-4 py-4 transition-colors hover:border-clay/40"
+              >
+                <span className="flex items-start justify-between gap-3">
+                  <span className="min-w-0">
+                    <span className="text-[11px] font-medium uppercase tracking-wider text-ink-faint">
+                      EN · {entry.axis}
+                    </span>
+                    <span className="mt-1 block font-serif text-base font-bold group-hover:text-clay">
+                      {entry.canonicalTitle}
+                    </span>
+                    <span className="mt-1.5 line-clamp-2 block text-sm leading-relaxed text-ink-soft">
+                      {entry.pageLead || entry.userDoors[0]}
+                    </span>
+                  </span>
+                  <span className="shrink-0 rounded-full bg-paper px-2 py-0.5 text-[11px] font-medium text-clay">
+                    검증 {entry.verifiedCount}
+                  </span>
+                </span>
+              </Link>
+            ))}
+          </div>
+        )}
       </section>
 
       <section className="mt-8">
