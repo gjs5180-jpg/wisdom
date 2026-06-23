@@ -20,7 +20,14 @@ const fallbackLinks = [
   { label: "Korean map", href: "/" },
 ];
 
-const typeOrder = ["Question", "Source language", "Path", "Korean map"];
+const defaultTypeOrder = ["Question", "Source language", "Path", "Korean map"];
+const defaultCopy = {
+  suggestedLabel: "Suggested",
+  placeholder: "Search people pleasing, happiness, AI jobs, breakup...",
+  ariaLabel: "Search English question map",
+  noResults: "No close match yet. Start from one of these paths instead.",
+  checkedSuffix: "checked",
+};
 
 const synonymGroups = [
   ["people pleasing", "approval", "boundaries", "say no", "fear of disappointing"],
@@ -82,8 +89,8 @@ function scoreEntry(entry, tokens, originalQuery) {
   return score;
 }
 
-function groupResults(results, isSuggested) {
-  if (isSuggested) return [{ label: "Suggested", entries: results }];
+function groupResults(results, isSuggested, copy, typeOrder) {
+  if (isSuggested) return [{ label: copy.suggestedLabel, entries: results }];
 
   const groups = new Map();
   for (const entry of results) {
@@ -97,7 +104,7 @@ function groupResults(results, isSuggested) {
     .sort(
       (a, b) =>
         typeOrder.indexOf(a.label) - typeOrder.indexOf(b.label) ||
-        a.label.localeCompare(b.label, "en")
+        a.label.localeCompare(b.label)
     );
 }
 
@@ -105,7 +112,12 @@ export default function EnglishHomeSearch({
   entries,
   suggestedEntries,
   exploreEntries = [],
+  quickQueries: providedQuickQueries = quickQueries,
+  fallbackLinks: providedFallbackLinks = fallbackLinks,
+  copy = defaultCopy,
+  typeOrder = defaultTypeOrder,
 }) {
+  const resolvedCopy = useMemo(() => ({ ...defaultCopy, ...copy }), [copy]);
   const [query, setQuery] = useState("");
   const normalizedQuery = normalize(query);
 
@@ -123,15 +135,15 @@ export default function EnglishHomeSearch({
         (a, b) =>
           b.score - a.score ||
           b.entry.verifiedCount - a.entry.verifiedCount ||
-          a.entry.title.localeCompare(b.entry.title, "en")
+          a.entry.title.localeCompare(b.entry.title)
       )
       .slice(0, 10)
       .map((item) => item.entry);
   }, [entries, exploreEntries, normalizedQuery, query, suggestedEntries]);
 
   const resultGroups = useMemo(
-    () => groupResults(results, !normalizedQuery),
-    [normalizedQuery, results]
+    () => groupResults(results, !normalizedQuery, resolvedCopy, typeOrder),
+    [normalizedQuery, resolvedCopy, results, typeOrder]
   );
 
   return (
@@ -143,15 +155,15 @@ export default function EnglishHomeSearch({
         <input
           value={query}
           onChange={(event) => setQuery(event.target.value)}
-          placeholder="Search people pleasing, happiness, AI jobs, breakup..."
+          placeholder={resolvedCopy.placeholder}
           className="min-w-0 flex-1 bg-transparent text-base outline-none placeholder:text-ink-faint"
           type="search"
-          aria-label="Search English question map"
+          aria-label={resolvedCopy.ariaLabel}
         />
       </div>
 
       <div className="mt-3 flex flex-wrap gap-1.5">
-        {quickQueries.map((quickQuery) => (
+        {providedQuickQueries.map((quickQuery) => (
           <button
             key={quickQuery}
             type="button"
@@ -187,11 +199,11 @@ export default function EnglishHomeSearch({
                         </span>
                         <span className="mt-0.5 block text-xs text-ink-faint">
                           {entry.categoryTitle}
-                          {entry.groupTitle ? ` / ${entry.groupTitle}` : ""}
+                        {entry.groupTitle ? ` / ${entry.groupTitle}` : ""}
                         </span>
                       </span>
                       <span className="shrink-0 rounded-full bg-clay-soft px-2 py-0.5 text-[11px] font-medium text-clay">
-                        {entry.badgeLabel || `${entry.verifiedCount} checked`}
+                        {entry.badgeLabel || `${entry.verifiedCount} ${resolvedCopy.checkedSuffix}`}
                       </span>
                     </span>
                     <span className="mt-1 block text-sm leading-relaxed text-ink-soft">
@@ -204,9 +216,9 @@ export default function EnglishHomeSearch({
           ))
         ) : (
           <div className="rounded-lg bg-cream px-3 py-3 text-sm leading-relaxed text-ink-soft">
-            <p>No close match yet. Start from one of these paths instead.</p>
+            <p>{resolvedCopy.noResults}</p>
             <div className="mt-2 flex flex-wrap gap-1.5">
-              {fallbackLinks.map((link) => (
+              {providedFallbackLinks.map((link) => (
                 <Link
                   key={link.href}
                   href={link.href}
