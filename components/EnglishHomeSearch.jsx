@@ -4,40 +4,32 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 
 const quickQueries = [
-  "연애",
-  "이별",
-  "번아웃",
-  "돈 걱정",
-  "시험 불안",
-  "외로움",
-  "AI 질문",
   "people pleasing",
+  "happiness",
+  "meaning of life",
+  "AI jobs",
+  "breakup",
+  "burnout",
+  "death penalty",
 ];
 
 const fallbackLinks = [
-  { label: "연애", href: "/love" },
-  { label: "이별", href: "/breakup" },
-  { label: "직장", href: "/work" },
-  { label: "의미", href: "/meaning" },
-  { label: "찬반 질문", href: "/debate" },
-  { label: "태그", href: "/tags" },
+  { label: "High-signal topics", href: "#high-signal" },
+  { label: "Question nodes", href: "#english-nodes" },
+  { label: "Source languages", href: "/source-locales" },
+  { label: "Korean map", href: "/" },
 ];
+
+const typeOrder = ["Question", "Source language", "Path", "Korean map"];
 
 const synonymGroups = [
-  ["연애", "사랑", "짝사랑", "고백", "썸", "답장", "불안형", "애착"],
-  ["이별", "헤어짐", "전애인", "전남친", "전여친", "미련", "재회", "잠수이별"],
-  ["직장", "일", "회사", "퇴사", "이직", "상사", "번아웃", "인정"],
-  ["공부", "시험", "자격증", "집중", "불합격", "수험", "성적"],
-  ["돈", "금전", "재정", "미래", "불안", "생계", "저축"],
-  ["외로움", "고독", "혼자", "친구", "관계", "인간관계"],
-  ["가족", "부모", "엄마", "아빠", "명절", "독립"],
-  ["몸", "건강", "노화", "탈모", "불면", "외모"],
-  ["의미", "무기력", "공허", "죽음", "목표", "방황"],
-  ["AI", "인공지능", "일자리", "대체", "기술", "미래"],
-  ["논쟁", "토론", "찬반", "윤리", "정의", "자유"],
+  ["people pleasing", "approval", "boundaries", "say no", "fear of disappointing"],
+  ["happiness", "meaning", "good life", "life worth living", "purpose"],
+  ["ai", "artificial intelligence", "jobs", "replacement", "automation"],
+  ["breakup", "ex", "ghosting", "reunion", "contact"],
+  ["burnout", "work", "career", "boss", "unrecognized"],
+  ["death penalty", "punishment", "justice", "crime"],
 ];
-
-const typeOrder = ["질문", "영어 질문", "카테고리", "태그", "언어권", "인물", "카드"];
 
 function normalize(value) {
   return String(value || "")
@@ -70,22 +62,19 @@ function expandedTokens(query) {
 function scoreEntry(entry, tokens, originalQuery) {
   const title = normalize(entry.title);
   const category = normalize(`${entry.categoryTitle} ${entry.groupTitle}`);
-  const tags = normalize(entry.tags);
   const aliases = normalize(entry.aliases);
   const summary = normalize(entry.summary);
   const query = normalize(originalQuery);
 
   let score = 0;
-  if (query && title.includes(query)) score += 18;
-  if (query && aliases.includes(query)) score += 12;
-  if (query && tags.includes(query)) score += 9;
-  if (query && category.includes(query)) score += 7;
-  if (query && summary.includes(query)) score += 4;
+  if (query && title.includes(query)) score += 20;
+  if (query && aliases.includes(query)) score += 14;
+  if (query && category.includes(query)) score += 6;
+  if (query && summary.includes(query)) score += 5;
 
   for (const token of tokens) {
     if (title.includes(token)) score += 10;
     if (aliases.includes(token)) score += 8;
-    if (tags.includes(token)) score += 5;
     if (category.includes(token)) score += 4;
     if (summary.includes(token)) score += 2;
   }
@@ -94,11 +83,11 @@ function scoreEntry(entry, tokens, originalQuery) {
 }
 
 function groupResults(results, isSuggested) {
-  if (isSuggested) return [{ label: "추천 카드", entries: results }];
+  if (isSuggested) return [{ label: "Suggested", entries: results }];
 
   const groups = new Map();
   for (const entry of results) {
-    const label = entry.typeLabel || "카드";
+    const label = entry.typeLabel || "Question";
     if (!groups.has(label)) groups.set(label, []);
     groups.get(label).push(entry);
   }
@@ -108,11 +97,11 @@ function groupResults(results, isSuggested) {
     .sort(
       (a, b) =>
         typeOrder.indexOf(a.label) - typeOrder.indexOf(b.label) ||
-        a.label.localeCompare(b.label, "ko")
+        a.label.localeCompare(b.label, "en")
     );
 }
 
-export default function HomeSearch({
+export default function EnglishHomeSearch({
   entries,
   suggestedEntries,
   exploreEntries = [],
@@ -134,7 +123,7 @@ export default function HomeSearch({
         (a, b) =>
           b.score - a.score ||
           b.entry.verifiedCount - a.entry.verifiedCount ||
-          a.entry.title.localeCompare(b.entry.title, "ko")
+          a.entry.title.localeCompare(b.entry.title, "en")
       )
       .slice(0, 10)
       .map((item) => item.entry);
@@ -154,10 +143,10 @@ export default function HomeSearch({
         <input
           value={query}
           onChange={(event) => setQuery(event.target.value)}
-          placeholder="연애, 이별, 번아웃, 돈 걱정, 시험 불안..."
+          placeholder="Search people pleasing, happiness, AI jobs, breakup..."
           className="min-w-0 flex-1 bg-transparent text-base outline-none placeholder:text-ink-faint"
           type="search"
-          aria-label="고민 검색"
+          aria-label="Search English question map"
         />
       </div>
 
@@ -198,11 +187,11 @@ export default function HomeSearch({
                         </span>
                         <span className="mt-0.5 block text-xs text-ink-faint">
                           {entry.categoryTitle}
-                          {entry.groupTitle ? ` · ${entry.groupTitle}` : ""}
+                          {entry.groupTitle ? ` / ${entry.groupTitle}` : ""}
                         </span>
                       </span>
                       <span className="shrink-0 rounded-full bg-clay-soft px-2 py-0.5 text-[11px] font-medium text-clay">
-                        {entry.badgeLabel || `검증 ${entry.verifiedCount}`}
+                        {entry.badgeLabel || `${entry.verifiedCount} checked`}
                       </span>
                     </span>
                     <span className="mt-1 block text-sm leading-relaxed text-ink-soft">
@@ -215,10 +204,7 @@ export default function HomeSearch({
           ))
         ) : (
           <div className="rounded-lg bg-cream px-3 py-3 text-sm leading-relaxed text-ink-soft">
-            <p>
-              아직 정확히 맞는 결과가 없습니다. 아래 입구에서 가까운 주제로
-              시작해보세요.
-            </p>
+            <p>No close match yet. Start from one of these paths instead.</p>
             <div className="mt-2 flex flex-wrap gap-1.5">
               {fallbackLinks.map((link) => (
                 <Link

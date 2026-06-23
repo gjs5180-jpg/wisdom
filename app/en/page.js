@@ -1,4 +1,5 @@
 import Link from "next/link";
+import EnglishHomeSearch from "@/components/EnglishHomeSearch";
 import {
   enrichedEnglishSeeds,
   englishTranslationStatusLabel,
@@ -78,6 +79,63 @@ function highSignalScore(entry) {
   return entry.content?.sourceLocaleSignal?.totalUsable || 0;
 }
 
+function serializeEnglishEntry(entry) {
+  return {
+    key: entry.route,
+    href: entry.href,
+    title: entry.canonicalTitle,
+    summary: entry.pageLead || entry.userDoors?.[0] || "English question node.",
+    categoryTitle: "Question",
+    groupTitle: entry.axis,
+    typeLabel: "Question",
+    badgeLabel: `${entry.verifiedCount} checked`,
+    verifiedCount: entry.verifiedCount,
+    aliases: [
+      entry.canonicalTitle,
+      entry.searchPhrases?.join(" "),
+      entry.userDoors?.join(" "),
+      entry.metaDescription,
+      entry.content?.sourceLocaleInsights
+        ?.flatMap((insight) => [insight.signal, ...(insight.sourcePhrases || [])])
+        .join(" "),
+    ]
+      .filter(Boolean)
+      .join(" "),
+  };
+}
+
+function serializePathCard(card) {
+  return {
+    key: `path/${card.title}`,
+    href: card.href,
+    title: card.title,
+    summary: card.blurb,
+    categoryTitle: "Path",
+    groupTitle: "Browse",
+    typeLabel: "Path",
+    badgeLabel: String(card.count),
+    verifiedCount: card.count,
+    aliases: `${card.title} ${card.blurb}`,
+  };
+}
+
+function serializeLocaleRow(row) {
+  return {
+    key: `locale/${row.locale}`,
+    href: `/source-locales/${row.locale}`,
+    title: `${sourceLocaleName(row.locale)} source language`,
+    summary: `${row.usable.toLocaleString("en-US")} usable phrases across mapped question nodes.`,
+    categoryTitle: "Source language",
+    groupTitle: "Cross-locale signal",
+    typeLabel: "Source language",
+    badgeLabel: `${row.usable.toLocaleString("en-US")} phrases`,
+    verifiedCount: row.usable,
+    aliases: `${sourceLocaleName(row.locale)} ${row.locale} ${row.topics
+      .map((topic) => topic.title)
+      .join(" ")}`,
+  };
+}
+
 export default function EnglishHomePage() {
   const entries = enrichedEnglishSeeds().filter((entry) => entry.publishable);
   const totalPhrases = entries.reduce((sum, entry) => sum + entry.searchPhrases.length, 0);
@@ -127,6 +185,25 @@ export default function EnglishHomePage() {
     },
   ];
 
+  const searchEntries = entries.map(serializeEnglishEntry);
+  const suggestedSearchEntries = highSignalEntries.slice(0, 5).map(serializeEnglishEntry);
+  const exploreSearchEntries = [
+    ...pathCards.map(serializePathCard),
+    ...localeRows.map(serializeLocaleRow),
+    {
+      key: "korean-map",
+      href: "/",
+      title: "Korean canonical map",
+      summary: "The source-of-record map for the full Wisdom project.",
+      categoryTitle: "Korean map",
+      groupTitle: "Canonical",
+      typeLabel: "Korean map",
+      badgeLabel: `${entries.length} nodes`,
+      verifiedCount: entries.length,
+      aliases: "korean map canonical wisdom korean home source record",
+    },
+  ];
+
   return (
     <div className="fade-rise">
       <section className="pb-7 pt-2">
@@ -164,6 +241,14 @@ export default function EnglishHomePage() {
           </Link>
         </div>
       </section>
+
+      <div className="mb-8">
+        <EnglishHomeSearch
+          entries={searchEntries}
+          suggestedEntries={suggestedSearchEntries}
+          exploreEntries={exploreSearchEntries}
+        />
+      </div>
 
       <section className="mb-8 border-y border-line py-4">
         <dl className="grid grid-cols-2 gap-4 sm:grid-cols-6">

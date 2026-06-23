@@ -71,6 +71,33 @@ function serializeEntry(entry) {
   };
 }
 
+function serializeEnglishEntry(entry) {
+  const sourceLocaleAliases = sourceLocaleSearchTextForInsights(
+    entry.content?.sourceLocaleInsights || []
+  );
+  return {
+    key: `en/${entry.route}`,
+    href: entry.href,
+    title: entry.canonicalTitle,
+    summary: entry.pageLead || entry.userDoors?.[0] || "English question node.",
+    categoryTitle: "English",
+    groupTitle: "Question map",
+    typeLabel: "영어 질문",
+    badgeLabel: `EN · 검증 ${entry.verifiedCount}`,
+    verifiedCount: entry.verifiedCount,
+    tags: entry.lenses?.join(" ") || "",
+    aliases: [
+      entry.canonicalTitle,
+      entry.searchPhrases?.join(" "),
+      entry.userDoors?.join(" "),
+      entry.metaDescription,
+      sourceLocaleAliases,
+    ]
+      .filter(Boolean)
+      .join(" "),
+  };
+}
+
 function statusLabel(status) {
   const labels = {
     active: "수집 중",
@@ -310,6 +337,7 @@ export default function HomePage() {
   const topTags = crossTagGroups.flatMap((group) => group.tags.slice(0, 8)).slice(0, 16);
   const people = peopleEntries.slice(0, 6);
   const exploreEntries = [
+    ...englishEntries.map(serializeEnglishEntry),
     ...categoryEntrances.map((category) => ({
       key: `category/${category.href}`,
       href: category.href,
