@@ -12,6 +12,7 @@ import {
   touchActiveRoutine,
   writeStorageMirrors,
 } from "@/lib/client-storage";
+import RoutineReflection from "./RoutineReflection";
 
 const EMPTY_PROGRESS = "[]";
 
@@ -107,6 +108,8 @@ export default function RoutineProgress({ routine }) {
           />
         </div>
       </div>
+
+      <RoutineReflection routine={routine} />
 
       <ol className="mt-5 space-y-3">
         {routine.steps.map((step, index) => {

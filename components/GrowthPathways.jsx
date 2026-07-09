@@ -556,7 +556,7 @@ export default function GrowthPathways({ categorySlug, content }) {
                 이어서 할 루틴
               </p>
               <h3 className="mt-1 font-serif text-lg font-bold">
-                체크하면서 따라가기
+                고민을 행동으로 넘기기
               </h3>
             </div>
             <Link
@@ -581,10 +581,23 @@ export default function GrowthPathways({ categorySlug, content }) {
                     <span className="mt-1.5 block text-sm leading-relaxed text-ink-soft">
                       {routine.summary}
                     </span>
+                    <span className="mt-3 flex flex-wrap gap-1.5">
+                      {routine.steps.slice(0, 2).map((step) => (
+                        <span
+                          key={`${routine.slug}-${step.title}`}
+                          className="rounded-full border border-line bg-paper px-2 py-0.5 text-[11px] text-ink-soft"
+                        >
+                          {step.title}
+                        </span>
+                      ))}
+                    </span>
                   </span>
                   <span className="shrink-0 rounded-full bg-paper px-2 py-0.5 text-[11px] font-medium text-clay ring-1 ring-line">
                     {routine.duration}
                   </span>
+                </span>
+                <span className="mt-4 inline-flex rounded-lg bg-clay px-3 py-2 text-sm font-medium text-white transition-colors group-hover:bg-clay/90">
+                  루틴 시작
                 </span>
               </Link>
             ))}

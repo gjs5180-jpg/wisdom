@@ -267,23 +267,18 @@ export default function HomePage() {
   const journeySteps = [
     {
       step: "1",
-      title: "문제로 들어오기",
+      title: "고민으로 들어오기",
       body: "사용자가 실제로 검색하는 말에서 시작합니다. 연애, 이별, 자존감, 무기력처럼 날것의 문장을 입구로 둡니다.",
     },
     {
       step: "2",
-      title: "패턴 이해하기",
-      body: "원인 하나로 단정하지 않고, 반복되는 감정과 상황을 가능한 패턴 가설로 정리합니다.",
+      title: "생각 정리하기",
+      body: "원인 하나로 단정하지 않고, 반복되는 감정과 상황을 가능한 패턴과 점검 질문으로 정리합니다.",
     },
     {
       step: "3",
-      title: "관점 고르기",
-      body: "철학자, 연구, 실전 관점을 정답이 아니라 렌즈로 두고 지금 상황에 맞는 기준을 고릅니다.",
-    },
-    {
-      step: "4",
-      title: "루틴으로 내리기",
-      body: "읽고 끝내지 않도록 3일, 7일, 14일 단위의 작은 행동 경로로 이어갑니다.",
+      title: "행동으로 옮기기",
+      body: "읽고 끝내지 않도록 오늘 해볼 수 있는 작은 행동과 3일, 7일, 14일 루틴으로 이어갑니다.",
     },
   ];
 
@@ -444,14 +439,24 @@ export default function HomePage() {
           MindRoute
         </p>
         <h1 className="mt-1 font-serif text-3xl font-bold leading-snug sm:text-4xl">
-          내 문제를 검색하면,
+          고민을 생각으로,
           <br />
-          이해와 행동 루틴으로 이어갑니다.
+          생각을 행동으로.
         </h1>
         <p className="mt-4 leading-relaxed text-ink-soft">
           마인드루트는 흩어진 고민 표현을 모아 가능한 패턴을 정리하고,
-          신뢰할 만한 관점을 거쳐 오늘 해볼 수 있는 작은 행동 경로로 바꿉니다.
+          신뢰할 만한 관점을 거쳐 오늘 해볼 수 있는 작은 행동 루틴으로 바꿉니다.
         </p>
+        <div className="mt-4 grid grid-cols-3 gap-2 text-center text-xs">
+          {["고민 입력", "생각 정리", "행동 루틴"].map((label) => (
+            <span
+              key={label}
+              className="rounded-lg border border-line bg-paper px-2 py-2 font-medium text-ink-soft"
+            >
+              {label}
+            </span>
+          ))}
+        </div>
         <div className="mt-5 flex flex-wrap gap-2">
           <Link
             href="/routines"
@@ -505,10 +510,10 @@ export default function HomePage() {
             성장 흐름
           </p>
           <h2 className="mt-1 font-serif text-xl font-bold">
-            문제를 읽고 끝내지 않는 구조
+            고민을 해결해나가는 기본 흐름
           </h2>
         </div>
-        <div className="grid grid-cols-1 gap-3 sm:grid-cols-4">
+        <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
           {journeySteps.map((item) => (
             <div key={item.step} className="rounded-lg border border-line bg-paper px-4 py-4">
               <span className="font-serif text-2xl font-bold text-ink-faint">
