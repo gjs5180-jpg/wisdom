@@ -5,7 +5,6 @@ import {
   allPeople,
   allThoughtEntries,
   allWorryEntries,
-  debatePositionSummary,
   groupedTagsWithCounts,
   groupedWorryCategories,
   perspectiveLenses,
@@ -107,29 +106,20 @@ function statusLabel(status) {
   return labels[status] || status;
 }
 
-function debatePositionLabels(entry) {
-  return [
-    ...new Set(
-      debatePositionSummary(entry.key.replace("debate/", "")).map(
-        (position) => position.positionTitle
-      )
-    ),
-  ];
-}
-
 export default function HomePage() {
   const featuredOrder = [
-    "debate/remote-work",
-    "family/parent-conflict",
-    "breakup/ghosting",
-    "study/exam-anxiety",
-    "meaning/meaningless",
-    "relationships/people-pleasing",
-    "meaning/emptiness",
     "love/reply-anxiety",
+    "love/attachment-anxiety",
+    "breakup/ghosting",
+    "relationships/people-pleasing",
+    "self-esteem/low-self-esteem",
+    "work/burnout",
+    "study/exam-anxiety",
+    "meaning/emptiness",
+    "family/parent-conflict",
+    "meaning/meaningless",
     "work/work-depression",
     "digital/dopamine-addiction",
-    "debate/childfree",
     "body/health-anxiety",
   ];
   const deepWorryOrder = [
@@ -174,20 +164,6 @@ export default function HomePage() {
   const deepWorryEntries = deepWorryOrder
     .map((key) => entryByKey.get(key))
     .filter((entry) => entry?.axis === "worry" && (entry.content.cards?.length || 0) >= 4)
-    .slice(0, 4);
-  const balancedDebateEntries = debateEntries
-    .filter((entry) => entry.publishable)
-    .map((entry) => ({
-      entry,
-      positionLabels: debatePositionLabels(entry),
-    }))
-    .filter(({ positionLabels }) => positionLabels.length >= 3)
-    .sort(
-      (a, b) =>
-        b.positionLabels.length - a.positionLabels.length ||
-        b.entry.verifiedCount - a.entry.verifiedCount ||
-        a.entry.title.localeCompare(b.entry.title, "ko")
-    )
     .slice(0, 4);
   const strongestSignals = strongestSourceLocaleSignals(6);
   const topSignalCards = strongestSignals
@@ -251,30 +227,87 @@ export default function HomePage() {
       (entry) => entry.publishable && entry.key.startsWith(`${slug}/`)
     ).length;
 
+  const readyCountForPrefixes = (prefixes) =>
+    worryEntries.filter(
+      (entry) =>
+        entry.publishable &&
+        prefixes.some((prefix) => entry.key.startsWith(`${prefix}/`))
+    ).length;
+
   const primaryEntrances = [
     {
-      title: "지금 막힌 질문",
-      href: "#worry-start",
-      blurb: "연애, 이별, 일, 가족, 돈, 몸처럼 지금 삶에 걸린 문제.",
-      count: worryEntries.filter((entry) => entry.publishable).length,
+      title: "관계와 연애",
+      href: "/love",
+      blurb: "좋아하는 마음, 대화, 애착, 관계 기준을 작은 행동으로 내려봅니다.",
+      count: readyCountForPrefixes(["love", "relationships"]),
     },
     {
-      title: "찬반이 갈리는 질문",
-      href: "/debate",
-      blurb: "AI, 결혼, 자유, 처벌처럼 가치가 충돌하는 질문.",
-      count: debateEntries.filter((entry) => entry.publishable).length,
+      title: "이별 회복",
+      href: "/breakup",
+      blurb: "미련, 재연락, 생활 붕괴를 감정 정리와 회복 루틴으로 나눕니다.",
+      count: readyCountForPrefixes(["breakup"]),
     },
     {
-      title: "오래 남는 질문",
-      href: "/thought",
-      blurb: "행복, 성공, 좋은 삶처럼 오래 남는 큰 질문.",
-      count: thoughtEntries.filter((entry) => entry.publishable).length,
+      title: "자기이해",
+      href: "/self-esteem",
+      blurb: "자존감, 비교, 자기비난을 나를 미워하는 결론이 아니라 점검 질문으로 바꿉니다.",
+      count: readyCountForPrefixes(["self-esteem", "meaning", "body"]),
     },
     {
-      title: "인물별 관점",
-      href: "/people",
-      blurb: "철학자와 사상가의 관점이 고민에서 어떻게 반복되는지 보기.",
-      count: peopleEntries.length,
+      title: "일상 실행",
+      href: "/work",
+      blurb: "번아웃, 공부, 진로, 디지털 습관을 지속 가능한 행동 단위로 쪼갭니다.",
+      count: readyCountForPrefixes(["work", "study", "career", "digital"]),
+    },
+  ];
+
+  const journeySteps = [
+    {
+      step: "1",
+      title: "문제로 들어오기",
+      body: "사용자가 실제로 검색하는 말에서 시작합니다. 연애, 이별, 자존감, 무기력처럼 날것의 문장을 입구로 둡니다.",
+    },
+    {
+      step: "2",
+      title: "패턴 이해하기",
+      body: "원인 하나로 단정하지 않고, 반복되는 감정과 상황을 가능한 패턴 가설로 정리합니다.",
+    },
+    {
+      step: "3",
+      title: "관점 고르기",
+      body: "철학자, 연구, 실전 관점을 정답이 아니라 렌즈로 두고 지금 상황에 맞는 기준을 고릅니다.",
+    },
+    {
+      step: "4",
+      title: "루틴으로 내리기",
+      body: "읽고 끝내지 않도록 3일, 7일, 14일 단위의 작은 행동 경로로 이어갑니다.",
+    },
+  ];
+
+  const routineCards = [
+    {
+      title: "관계 자신감 7일",
+      href: "/relationships/people-pleasing",
+      blurb: "거절, 눈치, 대화 부담을 작은 경계 문장과 대화 복기로 낮춥니다.",
+      steps: ["내가 피하는 장면 기록", "짧은 경계 문장 만들기", "대화 후 잘한 점 남기기"],
+    },
+    {
+      title: "이별 후 생활 복구 7일",
+      href: "/breakup/right-after",
+      blurb: "감정 해결보다 수면, 식사, 일정, 접점 정리부터 회복합니다.",
+      steps: ["오늘 무너진 생활 하나 복구", "재자극 접점 하나 줄이기", "미련과 필요 분리"],
+    },
+    {
+      title: "자기비난 줄이기 14일",
+      href: "/self-esteem/self-hate",
+      blurb: "나 전체를 판결하는 말을 행동과 사실의 언어로 다시 씁니다.",
+      steps: ["비난 문장 포착", "사실 문장으로 번역", "작은 성공 증거 기록"],
+    },
+    {
+      title: "목표분해 4주",
+      href: "/career/dream-reality",
+      blurb: "큰 목표를 바로 실행 가능한 행동 단위로 쪼개고 매주 조정합니다.",
+      steps: ["핵심 목표 하나 정하기", "하위 행동 3개만 고르기", "실패 조건 조정하기"],
     },
   ];
 
@@ -328,10 +361,10 @@ export default function HomePage() {
     .filter(Boolean);
 
   const statRows = [
-    { label: "공개 카드", value: readyEntries.length },
+    { label: "문제 카드", value: worryEntries.filter((entry) => entry.publishable).length },
     { label: "수집 표현", value: collection.total },
     { label: "인물 관점", value: peopleEntries.length },
-    { label: "소스 언어", value: sourceStats.total },
+    { label: "루틴 후보", value: routineCards.length },
   ];
 
   const topTags = crossTagGroups.flatMap((group) => group.tags.slice(0, 8)).slice(0, 16);
@@ -405,13 +438,13 @@ export default function HomePage() {
           위즈덤
         </p>
         <h1 className="mt-1 font-serif text-3xl font-bold leading-snug sm:text-4xl">
-          고민과 논쟁을 검색하면,
+          내 문제를 검색하면,
           <br />
-          믿을 만한 관점으로 정리합니다.
+          이해와 행동 루틴으로 이어갑니다.
         </h1>
         <p className="mt-4 leading-relaxed text-ink-soft">
-          위즈덤은 답을 단정하기보다 흩어진 고민, 생각, 논쟁을 언어권별 관심
-          신호로 모으고 철학, 연구, 제도, 실천 관점으로 다시 읽습니다.
+          위즈덤은 흩어진 고민 표현을 모아 가능한 패턴을 정리하고, 철학자와
+          연구자의 관점을 거쳐 오늘 해볼 수 있는 작은 행동 경로로 바꿉니다.
         </p>
       </section>
 
@@ -434,6 +467,68 @@ export default function HomePage() {
             </div>
           ))}
         </dl>
+      </section>
+
+      <section className="mt-8">
+        <div className="mb-3">
+          <p className="text-[11px] font-medium uppercase tracking-wider text-ink-faint">
+            성장 흐름
+          </p>
+          <h2 className="mt-1 font-serif text-xl font-bold">
+            문제를 읽고 끝내지 않는 구조
+          </h2>
+        </div>
+        <div className="grid grid-cols-1 gap-3 sm:grid-cols-4">
+          {journeySteps.map((item) => (
+            <div key={item.step} className="rounded-lg border border-line bg-paper px-4 py-4">
+              <span className="font-serif text-2xl font-bold text-ink-faint">
+                {item.step}
+              </span>
+              <h3 className="mt-2 font-serif text-base font-bold">{item.title}</h3>
+              <p className="mt-2 text-sm leading-relaxed text-ink-soft">{item.body}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="mt-8">
+        <div className="mb-3 flex items-end justify-between gap-3">
+          <div>
+            <p className="text-[11px] font-medium uppercase tracking-wider text-ink-faint">
+              루틴 후보
+            </p>
+            <h2 className="mt-1 font-serif text-xl font-bold">
+              지금 바로 고를 수 있는 성장 경로
+            </h2>
+          </div>
+          <span className="shrink-0 text-xs text-ink-faint">초안</span>
+        </div>
+        <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+          {routineCards.map((routine) => (
+            <Link
+              key={routine.title}
+              href={routine.href}
+              className="group block rounded-lg border border-line bg-cream px-4 py-4 transition-colors hover:border-clay/40"
+            >
+              <span className="block font-serif text-base font-bold group-hover:text-clay">
+                {routine.title}
+              </span>
+              <span className="mt-1.5 block text-sm leading-relaxed text-ink-soft">
+                {routine.blurb}
+              </span>
+              <span className="mt-3 flex flex-wrap gap-1.5">
+                {routine.steps.map((step) => (
+                  <span
+                    key={`${routine.title}-${step}`}
+                    className="rounded-full border border-line bg-paper px-2 py-0.5 text-[11px] text-ink-soft"
+                  >
+                    {step}
+                  </span>
+                ))}
+              </span>
+            </Link>
+          ))}
+        </div>
       </section>
 
       <section className="mt-8">
@@ -628,9 +723,9 @@ export default function HomePage() {
       <section className="mt-10">
         <div className="mb-3">
           <p className="text-[11px] font-medium uppercase tracking-wider text-ink-faint">
-            시작점
+            문제 입구
           </p>
-          <h2 className="mt-1 font-serif text-xl font-bold">무엇부터 볼까요?</h2>
+          <h2 className="mt-1 font-serif text-xl font-bold">지금 막힌 장면부터 고르기</h2>
         </div>
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
           {primaryEntrances.map((entry) => (
@@ -696,60 +791,6 @@ export default function HomePage() {
                   </span>
                   <span className="shrink-0 rounded-full bg-clay-soft px-2 py-0.5 text-[11px] font-medium text-clay">
                     관점 {entry.content.cards.length}
-                  </span>
-                </span>
-              </Link>
-            ))}
-          </div>
-        </section>
-      )}
-
-      {balancedDebateEntries.length > 0 && (
-        <section className="mt-10">
-          <div className="mb-3 flex items-end justify-between gap-3">
-            <div>
-              <p className="text-[11px] font-medium uppercase tracking-wider text-ink-faint">
-                찬반 질문
-              </p>
-              <h2 className="mt-1 font-serif text-xl font-bold">
-                한쪽으로 닫지 않고 보는 질문
-              </h2>
-            </div>
-            <Link
-              href="/debate"
-              className="shrink-0 text-sm text-ink-soft transition-colors hover:text-clay"
-            >
-              논쟁 전체
-            </Link>
-          </div>
-          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
-            {balancedDebateEntries.map(({ entry, positionLabels }) => (
-              <Link
-                key={entry.key}
-                href={entry.href}
-                className="group block rounded-lg border border-line bg-paper px-4 py-4 transition-colors hover:border-clay/40"
-              >
-                <span className="flex items-start justify-between gap-3">
-                  <span className="min-w-0">
-                    <span className="block font-serif text-base font-bold group-hover:text-clay">
-                      {entry.title}
-                    </span>
-                    <span className="mt-1.5 line-clamp-2 block text-sm leading-relaxed text-ink-soft">
-                      {entry.summary}
-                    </span>
-                    <span className="mt-2 flex flex-wrap gap-1.5">
-                      {positionLabels.slice(0, 3).map((label) => (
-                        <span
-                          key={`${entry.key}-${label}`}
-                          className="rounded-full border border-line px-2 py-0.5 text-[11px] text-ink-soft"
-                        >
-                          {label}
-                        </span>
-                      ))}
-                    </span>
-                  </span>
-                  <span className="shrink-0 rounded-full bg-clay-soft px-2 py-0.5 text-[11px] font-medium text-clay">
-                    관점 {positionLabels.length}
                   </span>
                 </span>
               </Link>

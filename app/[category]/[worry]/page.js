@@ -17,6 +17,7 @@ import CollectedContent from "@/components/CollectedContent";
 import ContentStatusNotice from "@/components/ContentStatusNotice";
 import ContentBrief from "@/components/ContentBrief";
 import PerspectiveSummary from "@/components/PerspectiveSummary";
+import GrowthPathways from "@/components/GrowthPathways";
 import SourceLocaleSignalSummary from "@/components/SourceLocaleSignalSummary";
 import SourceLocaleInsights from "@/components/SourceLocaleInsights";
 import { collectedContentForKey, seoDescriptionForCollection } from "@/lib/collected";
@@ -122,13 +123,6 @@ export default async function WorryPage({ params }) {
             actions={content.actions}
           />
 
-          <PerspectiveSummary
-            cards={content.cards}
-            title={content.cards.length > 3 ? "이 고민의 관점 비교" : "이 고민의 세 관점"}
-          />
-
-          <SourceLocaleSignalSummary signal={content.sourceLocaleSignal} />
-
           {/* 상황 입구 (유저 언어) */}
           {content.doors?.length > 0 && (
             <section className="mb-6">
@@ -147,6 +141,16 @@ export default async function WorryPage({ params }) {
               </div>
             </section>
           )}
+
+          <GrowthPathways categorySlug={category} content={content} />
+
+          <PerspectiveSummary
+            cards={content.cards}
+            eyebrow="관점 지도"
+            title={content.cards.length > 3 ? "이 문제를 보는 여러 렌즈" : "이 문제를 보는 세 렌즈"}
+          />
+
+          <SourceLocaleSignalSummary signal={content.sourceLocaleSignal} />
 
           <SourceLocaleInsights insights={content.sourceLocaleInsights} />
 
@@ -174,8 +178,8 @@ export default async function WorryPage({ params }) {
 
           {/* ③ 지금 당장 해볼 것 */}
           {content.actions?.length > 0 && (
-            <section className="mt-8">
-              <h2 className="font-serif text-lg font-bold mb-3">지금 당장 해볼 것</h2>
+            <section id="actions" className="mt-8 scroll-mt-20">
+              <h2 className="font-serif text-lg font-bold mb-3">오늘 바로 내려볼 행동</h2>
               <ul className="space-y-2.5">
                 {content.actions.map((a, i) => (
                   <li key={i} className="flex gap-3">

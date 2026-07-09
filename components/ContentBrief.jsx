@@ -5,11 +5,11 @@ const localeByCode = new Map(allSourceLocales().map((locale) => [locale.locale, 
 const copyByAxis = {
   worry: {
     eyebrow: "핵심 정리",
-    title: "먼저 이것만 잡고 읽기",
-    core: "감정",
-    source: "언어권 신호",
-    perspectives: "관점",
-    next: "다음 행동",
+    title: "문제 패턴부터 잡고 읽기",
+    core: "가능한 패턴",
+    source: "반복 신호",
+    perspectives: "관점 렌즈",
+    next: "첫 행동",
   },
   debate: {
     eyebrow: "핵심 정리",
