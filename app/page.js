@@ -11,6 +11,7 @@ import {
 } from "@/lib/content";
 import { collectedStats } from "@/lib/collected";
 import { enrichedEnglishSeeds } from "@/lib/global-content";
+import { allRoutines } from "@/lib/routines";
 import { prioritySourceLocales, sourceLocaleStats } from "@/lib/source-locales";
 import { sourceLocaleSearchTextForInsights } from "@/lib/source-locale-insights";
 import {
@@ -284,32 +285,22 @@ export default function HomePage() {
     },
   ];
 
-  const routineCards = [
-    {
-      title: "관계 자신감 7일",
-      href: "/relationships/people-pleasing",
-      blurb: "거절, 눈치, 대화 부담을 작은 경계 문장과 대화 복기로 낮춥니다.",
-      steps: ["내가 피하는 장면 기록", "짧은 경계 문장 만들기", "대화 후 잘한 점 남기기"],
-    },
-    {
-      title: "이별 후 생활 복구 7일",
-      href: "/breakup/right-after",
-      blurb: "감정 해결보다 수면, 식사, 일정, 접점 정리부터 회복합니다.",
-      steps: ["오늘 무너진 생활 하나 복구", "재자극 접점 하나 줄이기", "미련과 필요 분리"],
-    },
-    {
-      title: "자기비난 줄이기 14일",
-      href: "/self-esteem/self-hate",
-      blurb: "나 전체를 판결하는 말을 행동과 사실의 언어로 다시 씁니다.",
-      steps: ["비난 문장 포착", "사실 문장으로 번역", "작은 성공 증거 기록"],
-    },
-    {
-      title: "목표분해 4주",
-      href: "/career/dream-reality",
-      blurb: "큰 목표를 바로 실행 가능한 행동 단위로 쪼개고 매주 조정합니다.",
-      steps: ["핵심 목표 하나 정하기", "하위 행동 3개만 고르기", "실패 조건 조정하기"],
-    },
-  ];
+  const routineCards = allRoutines().map((routine) => ({
+    key: routine.slug,
+    title: routine.title,
+    href: `/routines/${routine.slug}`,
+    blurb: routine.summary,
+    duration: routine.duration,
+    steps: routine.steps.slice(0, 3).map((step) => step.title),
+    aliases: [
+      routine.title,
+      routine.summary,
+      routine.promise,
+      routine.categoryTitle,
+      routine.audience.join(" "),
+      routine.steps.map((step) => step.title).join(" "),
+    ].join(" "),
+  }));
 
   const globalBridgeEntrances = [
     {
@@ -371,6 +362,19 @@ export default function HomePage() {
   const people = peopleEntries.slice(0, 6);
   const exploreEntries = [
     ...englishEntries.map(serializeEnglishEntry),
+    ...routineCards.map((routine) => ({
+      key: `routine/${routine.key}`,
+      href: routine.href,
+      title: routine.title,
+      summary: routine.blurb,
+      categoryTitle: "루틴",
+      groupTitle: "행동 경로",
+      typeLabel: "루틴",
+      badgeLabel: routine.duration,
+      verifiedCount: routine.steps.length,
+      tags: routine.steps.join(" "),
+      aliases: routine.aliases,
+    })),
     ...categoryEntrances.map((category) => ({
       key: `category/${category.href}`,
       href: category.href,
@@ -512,6 +516,9 @@ export default function HomePage() {
             >
               <span className="block font-serif text-base font-bold group-hover:text-clay">
                 {routine.title}
+              </span>
+              <span className="mt-1 inline-flex rounded-full bg-paper px-2 py-0.5 text-[11px] font-medium text-clay ring-1 ring-line">
+                {routine.duration}
               </span>
               <span className="mt-1.5 block text-sm leading-relaxed text-ink-soft">
                 {routine.blurb}

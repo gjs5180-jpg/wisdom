@@ -1,3 +1,6 @@
+import Link from "next/link";
+import { routinesForCategory } from "@/lib/routines";
+
 const defaultProfile = {
   patternTitle: "가능한 패턴 가설",
   patterns: [
@@ -444,6 +447,7 @@ function stepsForPath(path, actions, index) {
 export default function GrowthPathways({ categorySlug, content }) {
   const profile = profileFor(categorySlug);
   const actions = actionPool(content);
+  const recommendedRoutines = routinesForCategory(categorySlug, 2);
 
   return (
     <section className="mt-8 border-y border-line py-6">
@@ -543,6 +547,50 @@ export default function GrowthPathways({ categorySlug, content }) {
           })}
         </div>
       </div>
+
+      {recommendedRoutines.length > 0 && (
+        <div className="mt-7">
+          <div className="mb-3 flex items-end justify-between gap-3">
+            <div>
+              <p className="text-[11px] font-medium uppercase tracking-wider text-ink-faint">
+                이어서 할 루틴
+              </p>
+              <h3 className="mt-1 font-serif text-lg font-bold">
+                체크하면서 따라가기
+              </h3>
+            </div>
+            <Link
+              href="/routines"
+              className="shrink-0 text-sm text-ink-soft transition-colors hover:text-clay"
+            >
+              전체 루틴
+            </Link>
+          </div>
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+            {recommendedRoutines.map((routine) => (
+              <Link
+                key={routine.slug}
+                href={`/routines/${routine.slug}`}
+                className="group block rounded-lg border border-line bg-cream px-4 py-4 transition-colors hover:border-clay/40"
+              >
+                <span className="flex items-start justify-between gap-3">
+                  <span className="min-w-0">
+                    <span className="block font-serif text-base font-bold group-hover:text-clay">
+                      {routine.title}
+                    </span>
+                    <span className="mt-1.5 block text-sm leading-relaxed text-ink-soft">
+                      {routine.summary}
+                    </span>
+                  </span>
+                  <span className="shrink-0 rounded-full bg-paper px-2 py-0.5 text-[11px] font-medium text-clay ring-1 ring-line">
+                    {routine.duration}
+                  </span>
+                </span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      )}
     </section>
   );
 }

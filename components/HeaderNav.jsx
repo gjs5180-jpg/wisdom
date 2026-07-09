@@ -7,6 +7,7 @@ import { localeByPathname, localizedPath } from "@/lib/locales";
 
 const koreanLinks = [
   { href: "/", label: "질문지도" },
+  { href: "/routines", label: "루틴" },
   { href: "/people", label: "인물" },
   { href: "/tags", label: "태그" },
   { href: "/source-locales", label: "언어권", className: "hidden sm:inline" },

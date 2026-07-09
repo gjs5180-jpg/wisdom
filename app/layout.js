@@ -18,9 +18,9 @@ const nanumMyeongjo = Nanum_Myeongjo({
 });
 
 export const metadata = {
-  title: "위즈덤 — 고민과 논쟁을 정리하는 관점 지도",
+  title: "위즈덤 — 문제를 행동 루틴으로 바꾸는 성장 지도",
   description:
-    "실제 고민과 논쟁을 철학, 연구, 제도, 실천 관점으로 정리합니다. 카드마다 출처와 맥락을 함께 보여줍니다.",
+    "실제 고민을 패턴 이해, 관점 비교, 작은 행동 루틴으로 정리합니다. 카드마다 출처와 맥락을 함께 보여줍니다.",
 };
 
 export default function RootLayout({ children }) {
@@ -45,8 +45,8 @@ export default function RootLayout({ children }) {
 
         <footer className="border-t border-line mt-10">
           <div className="mx-auto w-full max-w-2xl px-5 py-6 text-xs text-ink-faint leading-relaxed">
-            {SITE.name} · 실제 고민을 철학, 연구, 제도, 실천의 관점으로 나누고
-            출처를 함께 보여주는 것을 목표로 합니다.
+            {SITE.name} · 실제 고민을 가능한 패턴, 신뢰할 만한 관점, 작은 행동
+            루틴으로 바꾸는 것을 목표로 합니다.
           </div>
         </footer>
       </body>

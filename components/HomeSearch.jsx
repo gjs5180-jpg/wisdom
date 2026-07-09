@@ -5,7 +5,9 @@ import Link from "next/link";
 
 const quickQueries = [
   "연애",
+  "루틴",
   "이별",
+  "자존감",
   "번아웃",
   "돈 걱정",
   "시험 불안",
@@ -17,9 +19,9 @@ const quickQueries = [
 const fallbackLinks = [
   { label: "연애", href: "/love" },
   { label: "이별", href: "/breakup" },
+  { label: "루틴", href: "/routines" },
   { label: "직장", href: "/work" },
   { label: "의미", href: "/meaning" },
-  { label: "찬반 질문", href: "/debate" },
   { label: "태그", href: "/tags" },
 ];
 
@@ -33,11 +35,13 @@ const synonymGroups = [
   ["가족", "부모", "엄마", "아빠", "명절", "독립"],
   ["몸", "건강", "노화", "탈모", "불면", "외모"],
   ["의미", "무기력", "공허", "죽음", "목표", "방황"],
+  ["루틴", "챌린지", "미션", "습관", "목표", "자기개발", "체크"],
+  ["자존감", "자기비난", "비교", "자기혐오", "칭찬", "열등감"],
   ["AI", "인공지능", "일자리", "대체", "기술", "미래"],
   ["논쟁", "토론", "찬반", "윤리", "정의", "자유"],
 ];
 
-const typeOrder = ["질문", "영어 질문", "카테고리", "태그", "언어권", "인물", "카드"];
+const typeOrder = ["질문", "루틴", "영어 질문", "카테고리", "태그", "언어권", "인물", "카드"];
 
 function normalize(value) {
   return String(value || "")

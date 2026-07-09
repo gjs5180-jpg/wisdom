@@ -5,6 +5,7 @@ import {
   categories,
   entriesForTag,
 } from "@/lib/content";
+import { allRoutines } from "@/lib/routines";
 import { sourceLocaleMapParams } from "@/lib/source-locale-map";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "http://127.0.0.1:3005";
@@ -31,6 +32,7 @@ export default function sitemap() {
     item("/", 1, "daily"),
     item("/thought", 0.7, "weekly"),
     item("/debate", 0.7, "weekly"),
+    item("/routines", 0.75, "weekly"),
     item("/tags", 0.5, "monthly"),
     item("/people", 0.5, "monthly"),
     item("/source-locales", 0.65, "weekly"),
@@ -53,6 +55,9 @@ export default function sitemap() {
   const sourceLocaleRoutes = sourceLocaleMapParams().map(({ locale }) =>
     item(`/source-locales/${locale}`, 0.55, "weekly")
   );
+  const routineRoutes = allRoutines().map((routine) =>
+    item(`/routines/${routine.slug}`, 0.8, "weekly")
+  );
 
   return [
     ...staticRoutes,
@@ -60,6 +65,7 @@ export default function sitemap() {
     ...contentRoutes,
     ...tagRoutes,
     ...peopleRoutes,
+    ...routineRoutes,
     ...sourceLocaleRoutes,
   ];
 }
