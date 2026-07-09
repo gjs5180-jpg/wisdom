@@ -4,10 +4,10 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 
 const quickQueries = [
-  "연애",
+  "연애 답장",
+  "이별 회복",
+  "자기비난",
   "루틴",
-  "이별",
-  "자존감",
   "번아웃",
   "돈 걱정",
   "시험 불안",
@@ -22,7 +22,7 @@ const fallbackLinks = [
   { label: "루틴", href: "/routines" },
   { label: "직장", href: "/work" },
   { label: "의미", href: "/meaning" },
-  { label: "태그", href: "/tags" },
+  { label: "탐색", href: "/tags" },
 ];
 
 const synonymGroups = [
@@ -151,6 +151,17 @@ export default function HomeSearch({
 
   return (
     <section className="rounded-lg border border-line bg-paper px-4 py-4">
+      <div className="mb-3 flex items-end justify-between gap-3">
+        <div>
+          <p className="text-[11px] font-medium uppercase tracking-wider text-ink-faint">
+            Search
+          </p>
+          <h2 className="mt-1 font-serif text-lg font-bold">
+            지금 막힌 장면부터 찾기
+          </h2>
+        </div>
+        <span className="shrink-0 text-xs text-ink-faint">문제 · 루틴 · 탐색</span>
+      </div>
       <div className="flex items-center gap-2 border-b border-line pb-3">
         <span className="text-lg" aria-hidden>
           ⌕

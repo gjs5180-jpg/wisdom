@@ -1,4 +1,5 @@
 ﻿import Link from "next/link";
+import RoutineResumePanel from "@/components/RoutineResumePanel";
 import { allRoutines } from "@/lib/routines";
 
 export const metadata = {
@@ -59,6 +60,10 @@ export default function RoutinesPage() {
         </div>
       </section>
 
+      <div className="mb-8">
+        <RoutineResumePanel routines={routines} showEmpty />
+      </div>
+
       <section>
         <div className="mb-3 flex items-end justify-between gap-3">
           <div>
@@ -102,6 +107,9 @@ export default function RoutinesPage() {
                     {step.title}
                   </span>
                 ))}
+              </span>
+              <span className="mt-4 inline-flex rounded-lg bg-clay px-3 py-2 text-sm font-medium text-white transition-colors group-hover:bg-clay/90">
+                시작하기
               </span>
             </Link>
           ))}

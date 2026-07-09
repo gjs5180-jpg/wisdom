@@ -2,6 +2,7 @@
 import { notFound } from "next/navigation";
 import SaveButton from "@/components/SaveButton";
 import RoutineProgress from "@/components/RoutineProgress";
+import RoutineStartButton from "@/components/RoutineStartButton";
 import { allRoutineParams, getRoutine } from "@/lib/routines";
 
 export function generateStaticParams() {
@@ -55,7 +56,10 @@ export default async function RoutinePage({ params }) {
               {routine.title}
             </h1>
           </div>
-          <SaveButton item={saveItem} />
+          <div className="flex shrink-0 flex-col items-end gap-2 sm:flex-row">
+            <RoutineStartButton routine={routine} />
+            <SaveButton item={saveItem} />
+          </div>
         </div>
         <p className="leading-relaxed text-ink-soft">{routine.summary}</p>
         <div className="mt-4 flex flex-wrap gap-1.5 text-xs">

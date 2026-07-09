@@ -14,8 +14,8 @@ const koTabs = [
       (!path.startsWith("/routines") && !path.startsWith("/saved") && !path.startsWith("/tags")),
   },
   { href: "/routines", label: "루틴", icon: "✓", match: (path) => path.startsWith("/routines") },
-  { href: "/saved", label: "저장", icon: "♡", match: (path) => path.startsWith("/saved") },
-  { href: "/tags", label: "태그", icon: "#", match: (path) => path.startsWith("/tags") },
+  { href: "/saved", label: "내 루트", icon: "♡", match: (path) => path.startsWith("/saved") },
+  { href: "/tags", label: "탐색", icon: "#", match: (path) => path.startsWith("/tags") },
 ];
 
 function tabsForLocale(locale) {
@@ -33,7 +33,7 @@ function tabsForLocale(locale) {
     },
     { href: "/routines", label: "Routine", icon: "✓", match: (path) => path.startsWith("/routines") },
     { href: "/saved", label: "Saved", icon: "♡", match: (path) => path.startsWith("/saved") },
-    { href: "/tags", label: "Tags", icon: "#", match: (path) => path.startsWith("/tags") },
+    { href: "/tags", label: "Explore", icon: "#", match: (path) => path.startsWith("/tags") },
   ];
 }
 

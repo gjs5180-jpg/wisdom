@@ -1,41 +1,35 @@
 "use client";
 
 import { useMemo, useSyncExternalStore } from "react";
+import {
+  dispatchStorageEvents,
+  parseStoredArray,
+  progressStorageKeys,
+  readFirstStorageValue,
+  removeActiveRoutine,
+  removeStorageMirrors,
+  storageEvents,
+  touchActiveRoutine,
+  writeStorageMirrors,
+} from "@/lib/client-storage";
 
 const EMPTY_PROGRESS = "[]";
 
-function storageKey(slug) {
-  return `wisdom:routine-progress:${slug}`;
-}
-
 function readProgressSnapshot(slug) {
-  if (typeof window === "undefined") return EMPTY_PROGRESS;
-
-  try {
-    return localStorage.getItem(storageKey(slug)) || EMPTY_PROGRESS;
-  } catch {
-    return EMPTY_PROGRESS;
-  }
-}
-
-function parseProgress(snapshot) {
-  try {
-    const parsed = JSON.parse(snapshot);
-    return Array.isArray(parsed)
-      ? parsed.filter((item) => Number.isInteger(item))
-      : [];
-  } catch {
-    return [];
-  }
+  return readFirstStorageValue(progressStorageKeys(slug), EMPTY_PROGRESS);
 }
 
 function subscribeProgress(callback) {
   if (typeof window === "undefined") return () => {};
 
-  window.addEventListener("wisdom:routine-progress-changed", callback);
+  for (const eventName of storageEvents.routines) {
+    window.addEventListener(eventName, callback);
+  }
   window.addEventListener("storage", callback);
   return () => {
-    window.removeEventListener("wisdom:routine-progress-changed", callback);
+    for (const eventName of storageEvents.routines) {
+      window.removeEventListener(eventName, callback);
+    }
     window.removeEventListener("storage", callback);
   };
 }
@@ -47,7 +41,7 @@ export default function RoutineProgress({ routine }) {
     () => readProgressSnapshot(routine.slug),
     () => EMPTY_PROGRESS
   );
-  const completed = parseProgress(snapshot);
+  const completed = parseStoredArray(snapshot).filter((item) => Number.isInteger(item));
 
   const completedSet = useMemo(() => new Set(completed || []), [completed]);
   const doneCount = completed.length;
@@ -55,8 +49,9 @@ export default function RoutineProgress({ routine }) {
 
   function persist(next) {
     const sorted = [...new Set(next)].sort((a, b) => a - b);
-    localStorage.setItem(storageKey(routine.slug), JSON.stringify(sorted));
-    window.dispatchEvent(new Event("wisdom:routine-progress-changed"));
+    writeStorageMirrors(progressStorageKeys(routine.slug), JSON.stringify(sorted));
+    touchActiveRoutine(routine);
+    dispatchStorageEvents(storageEvents.routines);
   }
 
   function toggle(index) {
@@ -68,12 +63,13 @@ export default function RoutineProgress({ routine }) {
   }
 
   function reset() {
-    localStorage.removeItem(storageKey(routine.slug));
-    window.dispatchEvent(new Event("wisdom:routine-progress-changed"));
+    removeStorageMirrors(progressStorageKeys(routine.slug));
+    removeActiveRoutine(routine.slug);
+    dispatchStorageEvents(storageEvents.routines);
   }
 
   return (
-    <section className="mt-8 border-y border-line py-6">
+    <section id="routine-progress" className="mt-8 scroll-mt-24 border-y border-line py-6">
       <div className="mb-4 flex items-start justify-between gap-3">
         <div>
           <p className="text-[11px] font-medium uppercase tracking-wider text-ink-faint">

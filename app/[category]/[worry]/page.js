@@ -114,6 +114,8 @@ export default async function WorryPage({ params }) {
         <PlaceholderBody />
       ) : (
         <>
+          <ReadingFlow />
+
           <ContentBrief
             axis="worry"
             summary={content.emotion}
@@ -223,5 +225,43 @@ function PlaceholderBody() {
         완성된 카드 모아보기 →
       </Link>
     </div>
+  );
+}
+
+function ReadingFlow() {
+  const steps = [
+    {
+      title: "문제 이해",
+      body: "반복되는 감정과 상황을 먼저 잡습니다.",
+    },
+    {
+      title: "관점 비교",
+      body: "인물과 연구 관점을 정답이 아니라 렌즈로 봅니다.",
+    },
+    {
+      title: "오늘 행동",
+      body: "가장 작은 행동이나 루틴으로 내려갑니다.",
+    },
+  ];
+
+  return (
+    <section className="mb-6 grid grid-cols-1 gap-2 sm:grid-cols-3">
+      {steps.map((step, index) => (
+        <div
+          key={step.title}
+          className="grid grid-cols-[1.5rem_1fr] gap-2 rounded-lg border border-line bg-paper px-3 py-3"
+        >
+          <span className="font-serif text-base font-bold text-ink-faint">
+            {index + 1}
+          </span>
+          <span>
+            <span className="block font-serif text-sm font-bold">{step.title}</span>
+            <span className="mt-1 block text-xs leading-relaxed text-ink-soft">
+              {step.body}
+            </span>
+          </span>
+        </div>
+      ))}
+    </section>
   );
 }

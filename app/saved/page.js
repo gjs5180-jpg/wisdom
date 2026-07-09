@@ -1,4 +1,5 @@
 ﻿import SavedClient from "./SavedClient";
+import { allRoutines } from "@/lib/routines";
 
 export const metadata = {
   title: "저장함 — 마인드루트",
@@ -9,5 +10,5 @@ export const metadata = {
 };
 
 export default function SavedPage() {
-  return <SavedClient />;
+  return <SavedClient routines={allRoutines()} />;
 }

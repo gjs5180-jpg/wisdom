@@ -1,5 +1,6 @@
 ﻿import Link from "next/link";
 import HomeSearch from "@/components/HomeSearch";
+import RoutineResumePanel from "@/components/RoutineResumePanel";
 import {
   allDebateEntries,
   allPeople,
@@ -145,6 +146,7 @@ export default function HomePage() {
   const collection = collectedStats();
   const sourceStats = sourceLocaleStats();
   const sourceLocales = prioritySourceLocales(7);
+  const routines = allRoutines();
   const englishEntries = enrichedEnglishSeeds().filter((entry) => entry.publishable);
   const englishSpotlightEntries = englishEntries
     .filter((entry) => (entry.cardCount || 0) >= 4)
@@ -285,7 +287,7 @@ export default function HomePage() {
     },
   ];
 
-  const routineCards = allRoutines().map((routine) => ({
+  const routineCards = routines.map((routine) => ({
     key: routine.slug,
     title: routine.title,
     href: `/routines/${routine.slug}`,
@@ -455,19 +457,19 @@ export default function HomePage() {
             href="/routines"
             className="rounded-lg bg-clay px-3 py-2 text-sm font-medium text-white transition-colors hover:bg-clay/90"
           >
-            루틴 시작
+            루틴 고르기
           </Link>
           <Link
             href="#worry-start"
             className="rounded-lg border border-line bg-paper px-3 py-2 text-sm font-medium text-ink-soft transition-colors hover:border-clay/40 hover:text-clay"
           >
-            문제 고르기
+            문제 탐색
           </Link>
           <Link
             href="/saved"
             className="rounded-lg border border-line bg-paper px-3 py-2 text-sm font-medium text-ink-soft transition-colors hover:border-clay/40 hover:text-clay"
           >
-            저장함
+            내 루트
           </Link>
         </div>
       </section>
@@ -477,6 +479,10 @@ export default function HomePage() {
         suggestedEntries={suggestedEntries}
         exploreEntries={exploreEntries}
       />
+
+      <div className="mt-4">
+        <RoutineResumePanel routines={routines} showEmpty />
+      </div>
 
       <section className="mt-6 border-y border-line py-4">
         <dl className="grid grid-cols-2 gap-4 sm:grid-cols-4">
@@ -552,6 +558,9 @@ export default function HomePage() {
                     {step}
                   </span>
                 ))}
+              </span>
+              <span className="mt-4 inline-flex rounded-lg bg-clay px-3 py-2 text-sm font-medium text-white transition-colors group-hover:bg-clay/90">
+                시작하기
               </span>
             </Link>
           ))}

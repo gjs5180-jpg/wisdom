@@ -2,33 +2,41 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
+import RoutineResumePanel from "@/components/RoutineResumePanel";
+import {
+  dispatchStorageEvents,
+  parseStoredArray,
+  readFirstStorageValue,
+  savedStorageKeys,
+  storageEvents,
+  writeStorageMirrors,
+} from "@/lib/client-storage";
 
-const KEY = "wisdom:saved";
-
-export default function SavedClient() {
+export default function SavedClient({ routines }) {
   const [items, setItems] = useState(null);
   const [activeCategory, setActiveCategory] = useState("전체");
 
   useEffect(() => {
     const load = () => {
-      try {
-        setItems(JSON.parse(localStorage.getItem(KEY) || "[]"));
-      } catch {
-        setItems([]);
-      }
+      setItems(parseStoredArray(readFirstStorageValue(savedStorageKeys())));
     };
     load();
-    window.addEventListener("wisdom:saved-changed", load);
+    for (const eventName of storageEvents.saved) {
+      window.addEventListener(eventName, load);
+    }
     window.addEventListener("storage", load);
     return () => {
-      window.removeEventListener("wisdom:saved-changed", load);
+      for (const eventName of storageEvents.saved) {
+        window.removeEventListener(eventName, load);
+      }
       window.removeEventListener("storage", load);
     };
   }, []);
 
   function remove(key) {
     const next = (items || []).filter((x) => x.key !== key);
-    localStorage.setItem(KEY, JSON.stringify(next));
+    writeStorageMirrors(savedStorageKeys(), JSON.stringify(next));
+    dispatchStorageEvents(storageEvents.saved);
     setItems(next);
   }
 
@@ -46,19 +54,33 @@ export default function SavedClient() {
 
   return (
     <div className="fade-rise">
-      <h1 className="font-serif text-2xl sm:text-3xl font-bold mb-6">저장함</h1>
+      <header className="mb-6">
+        <p className="text-[11px] font-medium uppercase tracking-wider text-ink-faint">
+          My route
+        </p>
+        <h1 className="mt-1 font-serif text-2xl font-bold sm:text-3xl">
+          저장함
+        </h1>
+        <p className="mt-3 text-sm leading-relaxed text-ink-soft">
+          다시 읽을 카드와 진행 중인 루틴을 한곳에 모아둡니다.
+        </p>
+      </header>
+
+      <div className="mb-8">
+        <RoutineResumePanel routines={routines} />
+      </div>
 
       {items === null ? null : items.length === 0 ? (
-        <div className="rounded-2xl border border-dashed border-line bg-paper/60 p-8 text-center">
-          <p className="font-serif text-lg">아직 저장한 고민이 없어요</p>
+        <div className="rounded-lg border border-dashed border-line bg-paper/60 p-8 text-center">
+          <p className="font-serif text-lg">아직 저장한 항목이 없어요</p>
           <p className="mt-2 text-sm text-ink-soft">
-            마음에 닿는 고민을 만나면 ♡ 저장해 두세요.
+            마음에 닿는 카드나 루틴을 만나면 저장해 두세요.
           </p>
           <Link
             href="/"
-            className="mt-4 inline-block rounded-full bg-clay px-4 py-2 text-sm font-medium text-white transition-opacity hover:opacity-90"
+            className="mt-4 inline-block rounded-lg bg-clay px-4 py-2 text-sm font-medium text-white transition-opacity hover:opacity-90"
           >
-            고민 둘러보기 →
+            문제 둘러보기
           </Link>
         </div>
       ) : (
