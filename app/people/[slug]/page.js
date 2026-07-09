@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { notFound } from "next/navigation";
 import { allPersonParams, getPerson } from "@/lib/content";
 import PersonCard from "@/components/PersonCard";
@@ -10,10 +10,10 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }) {
   const { slug } = await params;
   const person = getPerson(slug);
-  if (!person) return { title: "위즈덤" };
+  if (!person) return { title: "마인드루트" };
 
   return {
-    title: `${person.name} — 위즈덤 인물`,
+    title: `${person.name} — 마인드루트 인물`,
     description: person.summary,
     robots: {
       index: person.cardCount >= 2,

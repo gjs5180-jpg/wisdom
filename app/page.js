@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import HomeSearch from "@/components/HomeSearch";
 import {
   allDebateEntries,
@@ -439,7 +439,7 @@ export default function HomePage() {
     <div className="fade-rise">
       <section className="pb-6 pt-2">
         <p className="text-[11px] font-medium uppercase tracking-wider text-ink-faint">
-          위즈덤
+          MindRoute
         </p>
         <h1 className="mt-1 font-serif text-3xl font-bold leading-snug sm:text-4xl">
           내 문제를 검색하면,
@@ -447,9 +447,29 @@ export default function HomePage() {
           이해와 행동 루틴으로 이어갑니다.
         </h1>
         <p className="mt-4 leading-relaxed text-ink-soft">
-          위즈덤은 흩어진 고민 표현을 모아 가능한 패턴을 정리하고, 철학자와
-          연구자의 관점을 거쳐 오늘 해볼 수 있는 작은 행동 경로로 바꿉니다.
+          마인드루트는 흩어진 고민 표현을 모아 가능한 패턴을 정리하고,
+          신뢰할 만한 관점을 거쳐 오늘 해볼 수 있는 작은 행동 경로로 바꿉니다.
         </p>
+        <div className="mt-5 flex flex-wrap gap-2">
+          <Link
+            href="/routines"
+            className="rounded-lg bg-clay px-3 py-2 text-sm font-medium text-white transition-colors hover:bg-clay/90"
+          >
+            루틴 시작
+          </Link>
+          <Link
+            href="#worry-start"
+            className="rounded-lg border border-line bg-paper px-3 py-2 text-sm font-medium text-ink-soft transition-colors hover:border-clay/40 hover:text-clay"
+          >
+            문제 고르기
+          </Link>
+          <Link
+            href="/saved"
+            className="rounded-lg border border-line bg-paper px-3 py-2 text-sm font-medium text-ink-soft transition-colors hover:border-clay/40 hover:text-clay"
+          >
+            저장함
+          </Link>
+        </div>
       </section>
 
       <HomeSearch

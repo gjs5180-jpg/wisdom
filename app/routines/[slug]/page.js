@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { notFound } from "next/navigation";
 import SaveButton from "@/components/SaveButton";
 import RoutineProgress from "@/components/RoutineProgress";
@@ -11,10 +11,10 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }) {
   const { slug } = await params;
   const routine = getRoutine(slug);
-  if (!routine) return { title: "위즈덤" };
+  if (!routine) return { title: "마인드루트" };
 
   return {
-    title: `${routine.title} - 위즈덤`,
+    title: `${routine.title} - 마인드루트`,
     description: routine.summary,
   };
 }

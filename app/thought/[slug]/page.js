@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
   allThoughtParams,
@@ -27,27 +27,27 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }) {
   const { slug } = await params;
   const thought = getThought(slug);
-  if (!thought) return { title: "위즈덤" };
+  if (!thought) return { title: "마인드루트" };
 
   const content = getThoughtContent(slug);
   const collection = collectedContentForKey(`thought/${slug}`);
   const baseDescription = content.placeholder
-    ? `${thought.question}에 대한 위즈덤 생각 카드 준비 중입니다.`
+    ? `${thought.question}에 대한 마인드루트 생각 카드 준비 중입니다.`
     : `${thought.question}: ${thought.blurb}`;
   const description = seoDescriptionForCollection(collection, baseDescription);
 
   return {
-    title: `${thought.question} — 위즈덤`,
+    title: `${thought.question} — 마인드루트`,
     description,
     openGraph: {
-      title: `${thought.question} — 위즈덤`,
+      title: `${thought.question} — 마인드루트`,
       description,
       type: "article",
       url: `/thought/${slug}`,
     },
     twitter: {
       card: "summary",
-      title: `${thought.question} — 위즈덤`,
+      title: `${thought.question} — 마인드루트`,
       description,
     },
     robots: {
@@ -109,7 +109,7 @@ export default async function ThoughtPage({ params }) {
         <div className="rounded-2xl border border-dashed border-line bg-paper/60 p-6 text-center">
           <p className="font-serif text-lg">이 생각의 카드는 준비 중이에요</p>
           <p className="mt-2 text-sm text-ink-soft leading-relaxed">
-            위즈덤은 큰 질문도 가볍게 단정하지 않습니다. 원전과 맥락을 확인한 뒤에만
+            마인드루트는 큰 질문도 가볍게 단정하지 않습니다. 원전과 맥락을 확인한 뒤에만
             공개돼요.
           </p>
         </div>
@@ -197,7 +197,7 @@ export default async function ThoughtPage({ params }) {
 
           <div className="mt-10 pt-6 border-t border-line flex items-center justify-between gap-3">
             <p className="text-sm text-ink-soft">다음에 다시 꺼내 볼 질문으로 남겨두세요.</p>
-            <ShareButton title={`${thought.question} — 위즈덤`} href={saveItem.href} />
+            <ShareButton title={`${thought.question} — 마인드루트`} href={saveItem.href} />
           </div>
         </>
       )}

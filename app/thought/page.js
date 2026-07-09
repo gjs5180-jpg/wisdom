@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import {
   allThoughtEntries,
   getThoughtContent,
@@ -8,7 +8,7 @@ import {
 } from "@/lib/content";
 
 export const metadata = {
-  title: "생각 - 위즈덤",
+  title: "생각 - 마인드루트",
   description: "행복, 성공, 자유, 좋은 삶처럼 오래 남는 질문을 여러 관점으로 정리합니다.",
 };
 

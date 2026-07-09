@@ -6,13 +6,12 @@ import LanguageSwitch from "./LanguageSwitch";
 import { localeByPathname, localizedPath } from "@/lib/locales";
 
 const koreanLinks = [
-  { href: "/", label: "질문지도" },
-  { href: "/routines", label: "루틴" },
-  { href: "/people", label: "인물" },
-  { href: "/tags", label: "태그" },
+  { href: "/", label: "지도", className: "hidden sm:inline" },
+  { href: "/routines", label: "루틴", className: "hidden sm:inline" },
+  { href: "/people", label: "인물", className: "hidden sm:inline" },
+  { href: "/tags", label: "태그", className: "hidden sm:inline" },
   { href: "/source-locales", label: "언어권", className: "hidden sm:inline" },
-  { href: "/collected", label: "수집", className: "hidden sm:inline" },
-  { href: "/saved", label: "저장함", className: "hidden sm:inline" },
+  { href: "/saved", label: "저장", className: "hidden sm:inline" },
 ];
 
 const englishLinks = [

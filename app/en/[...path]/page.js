@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
   cardNameLabelEn,
@@ -168,10 +168,10 @@ export async function generateMetadata({ params }) {
   const { path } = await params;
   const route = `/${path.join("/")}`;
   const entry = englishSeedEntryByRoute(route);
-  if (!entry) return { title: "Wisdom in English" };
+  if (!entry) return { title: "MindRoute in English" };
 
   return {
-    title: `${entry.canonicalTitle} | Wisdom`,
+    title: `${entry.canonicalTitle} | MindRoute`,
     description:
       entry.metaDescription || entry.pageLead || `${entry.canonicalTitle}: ${entry.userDoors[0]}`,
     robots: {
@@ -186,7 +186,7 @@ export async function generateMetadata({ params }) {
       },
     },
     openGraph: {
-      title: `${entry.canonicalTitle} | Wisdom`,
+      title: `${entry.canonicalTitle} | MindRoute`,
       description: entry.metaDescription || entry.pageLead || entry.userDoors[0],
       type: "article",
       url: entry.href,

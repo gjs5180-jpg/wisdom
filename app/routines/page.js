@@ -1,8 +1,8 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { allRoutines } from "@/lib/routines";
 
 export const metadata = {
-  title: "성장 루틴 - 위즈덤",
+  title: "성장 루틴 - 마인드루트",
   description:
     "고민을 읽고 끝내지 않도록 관계, 이별, 자기이해, 목표분해 루틴으로 이어갑니다.",
 };

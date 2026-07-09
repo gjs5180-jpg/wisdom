@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import {
   allDebateEntries,
   debatePositionSummary,
@@ -10,7 +10,7 @@ import {
 } from "@/lib/content";
 
 export const metadata = {
-  title: "논쟁 - 위즈덤",
+  title: "논쟁 - 마인드루트",
   description: "AI, 결혼, 자유, 처벌처럼 가치가 충돌하는 질문을 입장과 근거로 나눠 봅니다.",
 };
 

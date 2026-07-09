@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import EnglishHomeSearch from "@/components/EnglishHomeSearch";
 import {
   enrichedEnglishSeeds,
@@ -6,9 +6,9 @@ import {
 } from "@/lib/global-content";
 
 export const metadata = {
-  title: "Wisdom in English | Perspective map prototype",
+  title: "MindRoute in English | Perspective map prototype",
   description:
-    "An English prototype of Wisdom: real worries and debates organized through philosophy, research, institutions, and practical reflection.",
+    "An English prototype of MindRoute: real worries and debates organized through philosophy, research, institutions, and practical reflection.",
   robots: {
     index: false,
     follow: true,
@@ -194,7 +194,7 @@ export default function EnglishHomePage() {
       key: "korean-map",
       href: "/",
       title: "Korean canonical map",
-      summary: "The source-of-record map for the full Wisdom project.",
+      summary: "The source-of-record map for the full MindRoute project.",
       categoryTitle: "Korean map",
       groupTitle: "Canonical",
       typeLabel: "Korean map",
@@ -216,7 +216,7 @@ export default function EnglishHomePage() {
           mapped through verified perspectives.
         </h1>
         <p className="mt-4 leading-relaxed text-ink-soft">
-          Wisdom connects English search phrases to a Korean canonical knowledge map,
+          MindRoute connects English search phrases to a Korean canonical knowledge map,
           then compares source-backed perspectives from philosophy, research, institutions,
           and practice.
         </p>

@@ -1,8 +1,8 @@
-import LocalizedHomePage from "@/components/LocalizedHomePage";
+﻿import LocalizedHomePage from "@/components/LocalizedHomePage";
 
 export const metadata = {
-  title: "Wisdom auf Deutsch",
-  description: "Mehrsprachige Vorschau, die deutsche Suchausdrücke mit der geprüften Wisdom-Fragenkarte verbindet.",
+  title: "MindRoute auf Deutsch",
+  description: "Mehrsprachige Vorschau, die deutsche Suchausdrücke mit der geprüften MindRoute-Fragenkarte verbindet.",
   robots: {
     index: false,
     follow: true,

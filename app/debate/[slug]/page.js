@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
   getDebate,
@@ -27,27 +27,27 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }) {
   const { slug } = await params;
   const d = getDebate(slug);
-  if (!d) return { title: "위즈덤" };
+  if (!d) return { title: "마인드루트" };
 
   const content = getDebateContent(slug);
   const collection = collectedContentForKey(`debate/${slug}`);
   const baseDescription = content.placeholder
-    ? `${d.question}에 대한 위즈덤 논쟁 카드 준비 중입니다.`
+    ? `${d.question}에 대한 마인드루트 논쟁 카드 준비 중입니다.`
     : `${d.question}: ${d.blurb}`;
   const description = seoDescriptionForCollection(collection, baseDescription);
 
   return {
-    title: `${d.question} — 위즈덤`,
+    title: `${d.question} — 마인드루트`,
     description,
     openGraph: {
-      title: `${d.question} — 위즈덤`,
+      title: `${d.question} — 마인드루트`,
       description,
       type: "article",
       url: `/debate/${slug}`,
     },
     twitter: {
       card: "summary",
-      title: `${d.question} — 위즈덤`,
+      title: `${d.question} — 마인드루트`,
       description,
     },
     robots: {
@@ -108,7 +108,7 @@ export default async function DebatePage({ params }) {
         <div className="rounded-2xl border border-dashed border-line bg-paper/60 p-6 text-center">
           <p className="font-serif text-lg">이 논쟁의 카드는 준비 중이에요</p>
           <p className="mt-2 text-sm text-ink-soft leading-relaxed">
-            위즈덤은 인용을 함부로 채우지 않습니다. 양쪽 입장 모두{" "}
+            마인드루트는 인용을 함부로 채우지 않습니다. 양쪽 입장 모두{" "}
             <span className="text-ink">실제 출처를 확인한 뒤에만</span> 공개돼요.
           </p>
         </div>
@@ -239,7 +239,7 @@ export default async function DebatePage({ params }) {
 
           <div className="mt-10 pt-6 border-t border-line flex items-center justify-between gap-3">
             <p className="text-sm text-ink-soft">친구는 어느 쪽일까. 물어보세요.</p>
-            <ShareButton title={`${d.question} — 위즈덤`} href={saveItem.href} />
+            <ShareButton title={`${d.question} — 마인드루트`} href={saveItem.href} />
           </div>
         </>
       )}

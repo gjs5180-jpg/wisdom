@@ -1,4 +1,4 @@
-import {
+﻿import {
   collectedPhraseGroups,
   collectedCandidateQueue,
   collectedReviewGroups,
@@ -8,9 +8,9 @@ import {
 import CollectedExplorer from "@/components/CollectedExplorer";
 
 export const metadata = {
-  title: "수집된 고민 지도 — 위즈덤",
+  title: "수집된 고민 지도 — 마인드루트",
   description:
-    "인터넷에서 수집한 고민과 논쟁 표현을 대표 콘텐츠로 분류한 위즈덤의 수집 지도입니다.",
+    "인터넷에서 수집한 고민과 논쟁 표현을 대표 콘텐츠로 분류한 마인드루트의 수집 지도입니다.",
   robots: {
     index: false,
     follow: true,

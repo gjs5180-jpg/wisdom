@@ -1,7 +1,7 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { groupedTagsWithCounts } from "@/lib/content";
 
-export const metadata = { title: "태그 — 위즈덤" };
+export const metadata = { title: "태그 — 마인드루트" };
 
 export default function TagsPage() {
   const groups = groupedTagsWithCounts();

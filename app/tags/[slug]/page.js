@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
   allTagParams,
@@ -15,12 +15,12 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }) {
   const { slug } = await params;
   const tag = getTag(slug);
-  if (!tag) return { title: "위즈덤" };
+  if (!tag) return { title: "마인드루트" };
   const readyEntries = entriesForTag(slug).filter((entry) => entry.publishable);
 
   return {
-    title: `${tag.title} — 위즈덤 태그`,
-    description: tag.intro || `${tag.title} 태그로 묶은 위즈덤 콘텐츠입니다.`,
+    title: `${tag.title} — 마인드루트 태그`,
+    description: tag.intro || `${tag.title} 태그로 묶은 마인드루트 콘텐츠입니다.`,
     robots: {
       index: readyEntries.length >= 2,
       follow: true,

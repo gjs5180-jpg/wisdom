@@ -1,7 +1,7 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { allPeople } from "@/lib/content";
 
-export const metadata = { title: "인물 — 위즈덤" };
+export const metadata = { title: "인물 — 마인드루트" };
 
 export default function PeoplePage() {
   const people = allPeople();

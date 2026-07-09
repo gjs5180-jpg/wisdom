@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
   categories,
@@ -21,10 +21,10 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }) {
   const { category } = await params;
   const cat = getCategory(category);
-  if (!cat) return { title: "위즈덤" };
+  if (!cat) return { title: "마인드루트" };
 
   return {
-    title: `${cat.title} - 위즈덤`,
+    title: `${cat.title} - 마인드루트`,
     description: cat.blurb,
   };
 }

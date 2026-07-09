@@ -1,4 +1,4 @@
-import LocalizedSeedPage from "@/components/LocalizedSeedPage";
+﻿import LocalizedSeedPage from "@/components/LocalizedSeedPage";
 import {
   localizedEntryByRoute,
   localizedStaticParams,
@@ -12,10 +12,10 @@ export async function generateMetadata({ params }) {
   const { path } = await params;
   const route = `/${path.join("/")}`;
   const entry = localizedEntryByRoute("fr", route);
-  if (!entry) return { title: "Wisdom en Français" };
+  if (!entry) return { title: "MindRoute en Français" };
 
   return {
-    title: `${entry.localizedTitle} | Wisdom Français`,
+    title: `${entry.localizedTitle} | MindRoute Français`,
     description: `${entry.localizedTitle} / ${entry.canonicalTitle}`,
     robots: {
       index: false,

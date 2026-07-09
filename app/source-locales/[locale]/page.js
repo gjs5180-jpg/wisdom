@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
   sourceLocaleMapForCode,
@@ -14,11 +14,11 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }) {
   const { locale: localeCode } = await params;
   const locale = sourceLocaleMapForCode(localeCode);
-  if (!locale) return { title: "언어권 지도 - 위즈덤" };
+  if (!locale) return { title: "언어권 지도 - 마인드루트" };
 
   return {
-    title: `${locale.nativeLabel} 고민 지도 - 위즈덤`,
-    description: `${locale.region}에서 반복되는 고민, 논쟁, 검색 표현을 위즈덤 카드와 연결해 봅니다.`,
+    title: `${locale.nativeLabel} 고민 지도 - 마인드루트`,
+    description: `${locale.region}에서 반복되는 고민, 논쟁, 검색 표현을 마인드루트 카드와 연결해 봅니다.`,
   };
 }
 
@@ -61,7 +61,7 @@ export default async function SourceLocaleDetailPage({ params }) {
         <p className="mt-2 leading-relaxed text-ink-soft">{locale.region}</p>
         <p className="mt-3 leading-relaxed text-ink-soft">
           이 언어권에서 반복되는 검색 표현을 개인 사연이 아니라 일반화된
-          패턴으로 모아, 위즈덤의 고민과 논쟁 카드에 연결했습니다.
+          패턴으로 모아, 마인드루트의 고민과 논쟁 카드에 연결했습니다.
         </p>
       </header>
 

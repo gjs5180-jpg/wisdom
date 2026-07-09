@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import {
   sharedSourceLocaleSignals,
   sourceLocaleMapTotals,
@@ -7,7 +7,7 @@ import {
 import { sourceLocaleSignalStrengthLabel } from "@/lib/source-locale-signals";
 
 export const metadata = {
-  title: "언어권 지도 - 위즈덤",
+  title: "언어권 지도 - 마인드루트",
   description:
     "일본어, 중국어, 스페인어, 프랑스어, 독일어권에서 반복되는 고민과 논쟁 표현을 하나의 지도로 봅니다.",
 };
