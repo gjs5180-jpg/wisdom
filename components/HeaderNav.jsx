@@ -6,19 +6,16 @@ import LanguageSwitch from "./LanguageSwitch";
 import { localeByPathname, localizedPath } from "@/lib/locales";
 
 const koreanLinks = [
-  { href: "/", label: "홈", className: "hidden sm:inline" },
+  { href: "/", label: "홈", className: "hidden md:inline" },
   { href: "/routines", label: "루틴", className: "hidden sm:inline" },
-  { href: "/people", label: "인물", className: "hidden sm:inline" },
   { href: "/tags", label: "탐색", className: "hidden sm:inline" },
-  { href: "/source-locales", label: "언어권", className: "hidden sm:inline" },
-  { href: "/saved", label: "저장", className: "hidden sm:inline" },
+  { href: "/saved", label: "내 루트", className: "hidden sm:inline" },
 ];
 
 const englishLinks = [
-  { href: "/en", label: "Question map" },
-  { href: "/en#english-nodes", label: "Nodes", className: "hidden sm:inline" },
-  { href: "/source-locales", label: "Source languages", className: "hidden sm:inline" },
-  { href: "/", label: "Korean map" },
+  { href: "/en", label: "Home", className: "hidden md:inline" },
+  { href: "/routines", label: "Routines", className: "hidden sm:inline" },
+  { href: "/saved", label: "My route", className: "hidden sm:inline" },
 ];
 
 function localizedLinks(locale) {
@@ -27,10 +24,9 @@ function localizedLinks(locale) {
 
   const home = localizedPath("/", locale);
   return [
-    { href: home, label: "Question map" },
-    { href: `${home}#localized-nodes`, label: "Nodes", className: "hidden sm:inline" },
-    { href: "/source-locales", label: "Source languages", className: "hidden sm:inline" },
-    { href: "/", label: "Korean map" },
+    { href: home, label: "Home", className: "hidden md:inline" },
+    { href: "/routines", label: "Routines", className: "hidden sm:inline" },
+    { href: "/saved", label: "My route", className: "hidden sm:inline" },
   ];
 }
 
