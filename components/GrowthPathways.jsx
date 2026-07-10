@@ -453,10 +453,10 @@ export default function GrowthPathways({ categorySlug, content }) {
     <section className="mt-8 border-y border-line py-6">
       <div className="mb-4">
         <p className="text-[11px] font-medium uppercase tracking-wider text-ink-faint">
-          문제 이해
+          원인 찾기
         </p>
         <h2 className="mt-1 font-serif text-xl font-bold">
-          내 상태에 맞는 경로 고르기
+          가능한 원인과 행동 경로 고르기
         </h2>
       </div>
 
@@ -474,7 +474,7 @@ export default function GrowthPathways({ categorySlug, content }) {
         </div>
 
         <div className="rounded-lg border border-line bg-cream px-4 py-4">
-          <h3 className="font-serif text-base font-bold">내 상황 점검</h3>
+          <h3 className="font-serif text-base font-bold">나에게 가까운 원인 찾기</h3>
           <ol className="mt-3 space-y-2.5">
             {profile.checkQuestions.map((question, index) => (
               <li
@@ -495,10 +495,10 @@ export default function GrowthPathways({ categorySlug, content }) {
         <div className="mb-3 flex items-end justify-between gap-3">
           <div>
             <p className="text-[11px] font-medium uppercase tracking-wider text-ink-faint">
-              행동 루틴
+              행동 선택지
             </p>
             <h3 className="mt-1 font-serif text-lg font-bold">
-              하나를 골라 작게 시작하기
+              나에게 맞는 방법 하나 고르기
             </h3>
           </div>
           <span className="shrink-0 text-xs text-ink-faint">
@@ -539,7 +539,7 @@ export default function GrowthPathways({ categorySlug, content }) {
                     href="#actions"
                     className="mt-4 inline-flex rounded-lg border border-line px-3 py-1.5 text-sm font-medium text-ink-soft transition-colors hover:border-clay/40 hover:text-clay"
                   >
-                    행동 목록으로 내려가기
+                    오늘 행동 목록 보기
                   </a>
                 )}
               </article>
@@ -553,10 +553,10 @@ export default function GrowthPathways({ categorySlug, content }) {
           <div className="mb-3 flex items-end justify-between gap-3">
             <div>
               <p className="text-[11px] font-medium uppercase tracking-wider text-ink-faint">
-                이어서 할 루틴
+                실천 트래커
               </p>
               <h3 className="mt-1 font-serif text-lg font-bold">
-                고민을 행동으로 넘기기
+                루틴으로 체크하고 기록하기
               </h3>
             </div>
             <Link
@@ -597,7 +597,7 @@ export default function GrowthPathways({ categorySlug, content }) {
                   </span>
                 </span>
                 <span className="mt-4 inline-flex rounded-lg bg-clay px-3 py-2 text-sm font-medium text-white transition-colors group-hover:bg-clay/90">
-                  루틴 시작
+                  트래커 열기
                 </span>
               </Link>
             ))}

@@ -58,10 +58,10 @@ export default function RoutineReflection({ routine }) {
       <div className="mb-3 flex items-start justify-between gap-3">
         <div>
           <p className="text-[11px] font-medium uppercase tracking-wider text-ink-faint">
-            생각 기록
+            Daily Note
           </p>
           <h3 className="mt-1 font-serif text-lg font-bold">
-            오늘 해보니 남은 것
+            오늘 해보고 남은 생각
           </h3>
         </div>
         {note && (
@@ -77,7 +77,7 @@ export default function RoutineReflection({ routine }) {
       <textarea
         value={note}
         onChange={(event) => saveNote(event.target.value)}
-        placeholder="오늘 행동하면서 떠오른 생각, 막힌 점, 다음에 조정할 점을 짧게 남겨보세요."
+        placeholder="오늘 해본 행동, 막힌 이유, 다음에 바꿀 조건을 짧게 남겨보세요."
         className="min-h-28 w-full resize-none rounded-lg border border-line bg-cream px-3 py-3 text-sm leading-relaxed outline-none transition-colors placeholder:text-ink-faint focus:border-clay/50"
         aria-label="루틴 생각 기록"
       />

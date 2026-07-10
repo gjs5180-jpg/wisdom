@@ -18,19 +18,15 @@ function phraseCount(entries) {
 function searchQuickQueries(entries) {
   const phrases = entries.flatMap((entry) => entry.localizedPhrases || []).filter(Boolean);
   const picked = [...new Set(phrases)].slice(0, 7);
-  return picked.length > 0 ? picked : ["happiness", "people pleasing", "AI"];
+  return picked.length > 0 ? picked : ["breakup", "burnout", "people pleasing"];
 }
 
 export default function LocalizedHomePage({ locale }) {
   const copy = localizedCopy(locale);
-  const entries = localizedHomeEntries(locale);
+  const entries = localizedHomeEntries(locale).filter((entry) => entry.axis !== "debate");
   const highSignalEntries = [...entries]
     .sort((a, b) => highSignalScore(b) - highSignalScore(a) || a.priority - b.priority)
     .slice(0, 6);
-  const debateEntries = entries
-    .filter((entry) => entry.axis === "debate")
-    .sort((a, b) => highSignalScore(b) - highSignalScore(a) || a.priority - b.priority)
-    .slice(0, 4);
 
   const pathCards = [
     {
@@ -192,36 +188,6 @@ export default function LocalizedHomePage({ locale }) {
           ))}
         </ol>
       </section>
-
-      {debateEntries.length > 0 && (
-        <section className="mb-9">
-          <div className="mb-3">
-            <p className="text-[11px] font-medium uppercase tracking-wider text-ink-faint">
-              {copy.previewBadge}
-            </p>
-            <h2 className="mt-1 font-serif text-xl font-bold">{copy.sourceBridge}</h2>
-          </div>
-          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
-            {debateEntries.map((entry) => (
-              <Link
-                key={entry.route}
-                href={entry.href}
-                className="group block rounded-lg border border-line bg-paper px-4 py-4 transition-colors hover:border-clay/40"
-              >
-                <span className="block font-serif text-base font-bold group-hover:text-clay">
-                  {entry.localizedTitle}
-                </span>
-                <span className="mt-1 block text-xs text-ink-faint">
-                  {entry.canonicalTitle}
-                </span>
-                <span className="mt-2 block text-sm leading-relaxed text-ink-soft">
-                  {(entry.localizedPhrases || []).slice(0, 3).join(" / ")}
-                </span>
-              </Link>
-            ))}
-          </div>
-        </section>
-      )}
 
       <section id="localized-nodes" className="scroll-mt-20">
         <div className="mb-3 flex items-end justify-between gap-3">

@@ -74,11 +74,14 @@ export default function RoutineProgress({ routine }) {
       <div className="mb-4 flex items-start justify-between gap-3">
         <div>
           <p className="text-[11px] font-medium uppercase tracking-wider text-ink-faint">
-            진행 체크
+            Action Tracker
           </p>
           <h2 className="mt-1 font-serif text-xl font-bold">
-            오늘 한 만큼 표시하기
+            행동 체크와 기록
           </h2>
+          <p className="mt-1 text-sm leading-relaxed text-ink-soft">
+            완료한 행동을 표시하고, 해보면서 남은 생각을 짧게 남깁니다.
+          </p>
         </div>
         <button
           type="button"
@@ -94,7 +97,7 @@ export default function RoutineProgress({ routine }) {
           <div>
             <p className="font-serif text-2xl font-bold">{percent}%</p>
             <p className="mt-1 text-sm text-ink-soft">
-              {doneCount}/{total}개 행동 완료
+              {doneCount}/{total}개 행동 기록
             </p>
           </div>
           <p className="max-w-[12rem] text-right text-xs leading-relaxed text-ink-faint">

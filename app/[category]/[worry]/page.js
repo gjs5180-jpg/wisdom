@@ -16,6 +16,7 @@ import RelatedExplore from "@/components/RelatedExplore";
 import CollectedContent from "@/components/CollectedContent";
 import ContentStatusNotice from "@/components/ContentStatusNotice";
 import ContentBrief from "@/components/ContentBrief";
+import EvidenceActionBoard from "@/components/EvidenceActionBoard";
 import PerspectiveSummary from "@/components/PerspectiveSummary";
 import GrowthPathways from "@/components/GrowthPathways";
 import SourceLocaleSignalSummary from "@/components/SourceLocaleSignalSummary";
@@ -124,6 +125,8 @@ export default async function WorryPage({ params }) {
             sourceLocaleSignal={content.sourceLocaleSignal}
             actions={content.actions}
           />
+
+          <EvidenceActionBoard cards={content.cards} />
 
           {/* 상황 입구 (유저 언어) */}
           {content.doors?.length > 0 && (

@@ -5,10 +5,10 @@ const localeByCode = new Map(allSourceLocales().map((locale) => [locale.locale, 
 const copyByAxis = {
   worry: {
     eyebrow: "핵심 정리",
-    title: "문제 패턴부터 잡고 읽기",
-    core: "가능한 패턴",
+    title: "원인 후보부터 잡고 읽기",
+    core: "문제 인식",
     source: "반복 신호",
-    perspectives: "관점 렌즈",
+    perspectives: "근거 관점",
     next: "첫 행동",
   },
   debate: {

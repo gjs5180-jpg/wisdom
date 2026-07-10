@@ -4,27 +4,27 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 
 const quickQueries = [
-  "people pleasing",
-  "happiness",
-  "meaning of life",
-  "AI jobs",
   "breakup",
+  "people pleasing",
+  "low self-esteem",
+  "why am I so tired",
   "burnout",
-  "death penalty",
+  "can't study",
+  "phone addiction",
 ];
 
 const fallbackLinks = [
   { label: "High-signal topics", href: "#high-signal" },
-  { label: "Question nodes", href: "#english-nodes" },
+  { label: "Problem nodes", href: "#english-nodes" },
   { label: "Source languages", href: "/source-locales" },
   { label: "Korean map", href: "/" },
 ];
 
-const defaultTypeOrder = ["Question", "Source language", "Path", "Korean map"];
+const defaultTypeOrder = ["Problem", "Reflection", "Source language", "Path", "Korean map"];
 const defaultCopy = {
   suggestedLabel: "Suggested",
-  placeholder: "Search people pleasing, happiness, AI jobs, breakup...",
-  ariaLabel: "Search English question map",
+  placeholder: "Search breakup, burnout, low self-esteem, can't study...",
+  ariaLabel: "Search MindRoute problems",
   noResults: "No close match yet. Start from one of these paths instead.",
   checkedSuffix: "checked",
 };
@@ -32,10 +32,12 @@ const defaultCopy = {
 const synonymGroups = [
   ["people pleasing", "approval", "boundaries", "say no", "fear of disappointing"],
   ["happiness", "meaning", "good life", "life worth living", "purpose"],
-  ["ai", "artificial intelligence", "jobs", "replacement", "automation"],
+  ["self-esteem", "self hate", "comparison", "confidence", "shame"],
   ["breakup", "ex", "ghosting", "reunion", "contact"],
   ["burnout", "work", "career", "boss", "unrecognized"],
-  ["death penalty", "punishment", "justice", "crime"],
+  ["tired", "lazy", "bored", "low energy", "walk", "routine"],
+  ["study", "exam", "can't study", "focus", "certificate"],
+  ["phone", "dopamine", "social media", "reels", "shorts"],
 ];
 
 function normalize(value) {
@@ -94,7 +96,7 @@ function groupResults(results, isSuggested, copy, typeOrder) {
 
   const groups = new Map();
   for (const entry of results) {
-    const label = entry.typeLabel || "Question";
+    const label = entry.typeLabel || "Problem";
     if (!groups.has(label)) groups.set(label, []);
     groups.get(label).push(entry);
   }

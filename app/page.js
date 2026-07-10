@@ -2,7 +2,6 @@ import Link from "next/link";
 import HomeSearch from "@/components/HomeSearch";
 import RoutineResumePanel from "@/components/RoutineResumePanel";
 import {
-  allDebateEntries,
   allThoughtEntries,
   allWorryEntries,
   groupedTagsWithCounts,
@@ -24,14 +23,12 @@ const searchAliasByPrefix = {
   digital: "스마트폰 도파민 중독 SNS 유튜브 릴스 쇼츠",
   body: "몸 건강 외모 탈모 불면 노화 질병 불안",
   career: "진로 커리어 직업 선택 후회 전공",
-  debate: "논쟁 토론 찬반 윤리 정의 자유 AI 결혼",
   thought: "생각 철학 행복 성공 자유 좋은 삶 의미",
 };
 
 const axisLabels = {
-  worry: "질문",
-  debate: "질문",
-  thought: "질문",
+  worry: "고민",
+  thought: "생각",
 };
 
 function searchAliasesForEntry(entry) {
@@ -74,10 +71,7 @@ export default function HomePage() {
 
   const worryEntries = allWorryEntries();
   const thoughtEntries = allThoughtEntries();
-  const debateEntries = allDebateEntries();
-  const readyEntries = [...worryEntries, ...thoughtEntries, ...debateEntries].filter(
-    (entry) => entry.publishable
-  );
+  const readyEntries = [...worryEntries, ...thoughtEntries].filter((entry) => entry.publishable);
   const routines = allRoutines();
   const worryCategoryGroups = groupedWorryCategories();
   const crossTagGroups = groupedTagsWithCounts();
@@ -107,46 +101,55 @@ export default function HomePage() {
 
   const primaryEntrances = [
     {
-      title: "관계와 연애",
+      title: "연애가 어렵다",
       href: "/love",
-      blurb: "답장, 애착, 고백, 관계 기준을 작은 행동으로 낮춥니다.",
+      blurb: "답장, 애착, 고백, 권태기처럼 마음이 흔들리는 장면부터 봅니다.",
+      causes: ["확인 욕구", "거절 불안", "관계 기준"],
       count: readyCountForPrefixes(["love", "relationships"]),
     },
     {
-      title: "이별 회복",
+      title: "이별에서 못 벗어난다",
       href: "/breakup",
       blurb: "미련과 재연락 충동을 감정 정리와 생활 복구로 나눕니다.",
+      causes: ["상실감", "재자극", "생활 붕괴"],
       count: readyCountForPrefixes(["breakup"]),
     },
     {
-      title: "자기이해",
+      title: "나를 너무 미워한다",
       href: "/self-esteem",
       blurb: "자존감, 비교, 자기비난을 점검 질문과 회복 행동으로 바꿉니다.",
+      causes: ["비교", "자기비난", "작은 증거 부족"],
       count: readyCountForPrefixes(["self-esteem", "meaning", "body"]),
     },
     {
-      title: "일상 실행",
-      href: "/work",
-      blurb: "번아웃, 공부, 진로, 디지털 습관을 지속 가능한 단위로 쪼갭니다.",
-      count: readyCountForPrefixes(["work", "study", "career", "digital"]),
+      title: "요즘 너무 힘들고 게으른 것 같다",
+      href: "/meaning",
+      blurb: "무기력, 번아웃, 공부 정체를 회복 행동과 실행 단위로 쪼갭니다.",
+      causes: ["에너지 고갈", "시작 문턱", "자극 과다"],
+      count: readyCountForPrefixes(["meaning", "work", "study", "digital"]),
     },
   ];
 
   const journeySteps = [
     {
       step: "1",
-      title: "고민",
-      body: "지금 막힌 장면을 있는 그대로 고릅니다.",
+      title: "고민 선택",
+      body: "지금 막힌 장면을 생활 언어로 고릅니다.",
     },
     {
       step: "2",
-      title: "생각",
-      body: "반복 패턴과 점검 질문으로 정리합니다.",
+      title: "원인 찾기",
+      body: "가능한 원인 후보와 내 상태를 점검합니다.",
     },
     {
       step: "3",
-      title: "행동",
-      body: "오늘 할 수 있는 작은 루틴으로 옮깁니다.",
+      title: "근거 있는 방법",
+      body: "출처가 확인된 관점에서 행동 선택지를 봅니다.",
+    },
+    {
+      step: "4",
+      title: "기록",
+      body: "실천한 행동과 남은 생각을 트래커에 남깁니다.",
     },
   ];
 
@@ -237,10 +240,11 @@ export default function HomePage() {
           생각을 행동으로.
         </h1>
         <p className="mt-4 leading-relaxed text-ink-soft">
-          막힌 문제를 검색하면 패턴, 관점, 작은 루틴으로 이어집니다.
+          고민을 고르면 가능한 원인을 좁히고, 출처가 확인된 관점에서 행동을
+          고른 뒤 루틴에 기록합니다.
         </p>
-        <div className="mt-4 grid grid-cols-3 gap-2 text-center text-xs">
-          {["고민", "생각", "행동"].map((label) => (
+        <div className="mt-4 grid grid-cols-2 gap-2 text-center text-xs sm:grid-cols-4">
+          {["고민", "원인", "방법", "기록"].map((label) => (
             <span
               key={label}
               className="rounded-lg border border-line bg-paper px-2 py-2 font-medium text-ink-soft"
@@ -260,13 +264,13 @@ export default function HomePage() {
             href="/routines"
             className="rounded-lg border border-line bg-paper px-3 py-2 text-sm font-medium text-ink-soft transition-colors hover:border-clay/40 hover:text-clay"
           >
-            루틴 보기
+            오늘 루틴
           </Link>
           <Link
             href="/saved"
             className="rounded-lg border border-line bg-paper px-3 py-2 text-sm font-medium text-ink-soft transition-colors hover:border-clay/40 hover:text-clay"
           >
-            내 루트
+            내 기록
           </Link>
         </div>
       </section>
@@ -286,9 +290,9 @@ export default function HomePage() {
           <p className="text-[11px] font-medium uppercase tracking-wider text-ink-faint">
             Flow
           </p>
-          <h2 className="mt-1 font-serif text-xl font-bold">해결 흐름</h2>
+          <h2 className="mt-1 font-serif text-xl font-bold">고민에서 기록까지</h2>
         </div>
-        <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
+        <div className="grid grid-cols-1 gap-3 sm:grid-cols-4">
           {journeySteps.map((item) => (
             <div
               key={item.step}
@@ -315,7 +319,7 @@ export default function HomePage() {
           <p className="text-[11px] font-medium uppercase tracking-wider text-ink-faint">
             Start
           </p>
-          <h2 className="mt-1 font-serif text-xl font-bold">지금 막힌 장면</h2>
+          <h2 className="mt-1 font-serif text-xl font-bold">요즘 이런 고민부터</h2>
         </div>
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
           {primaryEntrances.map((entry) => (
@@ -328,10 +332,20 @@ export default function HomePage() {
                 <span className="font-serif text-lg font-bold group-hover:text-clay">
                   {entry.title}
                 </span>
-                <span className="text-xs text-ink-faint">{entry.count}</span>
+                <span className="text-xs text-ink-faint">카드 {entry.count}</span>
               </span>
               <span className="mt-2 block text-sm leading-relaxed text-ink-soft">
                 {entry.blurb}
+              </span>
+              <span className="mt-3 flex flex-wrap gap-1.5">
+                {entry.causes.map((cause) => (
+                  <span
+                    key={`${entry.href}-${cause}`}
+                    className="rounded-full border border-line bg-cream px-2 py-0.5 text-[11px] text-ink-soft"
+                  >
+                    {cause}
+                  </span>
+                ))}
               </span>
             </Link>
           ))}
@@ -344,7 +358,7 @@ export default function HomePage() {
             <p className="text-[11px] font-medium uppercase tracking-wider text-ink-faint">
               Routine
             </p>
-            <h2 className="mt-1 font-serif text-xl font-bold">바로 시작할 루틴</h2>
+            <h2 className="mt-1 font-serif text-xl font-bold">선택하고 기록할 루틴</h2>
           </div>
           <Link
             href="/routines"
@@ -394,7 +408,7 @@ export default function HomePage() {
             <p className="text-[11px] font-medium uppercase tracking-wider text-ink-faint">
               Read
             </p>
-            <h2 className="mt-1 font-serif text-xl font-bold">처음 읽기 좋은 카드</h2>
+            <h2 className="mt-1 font-serif text-xl font-bold">근거 있는 관점 카드</h2>
           </div>
           <Link
             href="/tags"

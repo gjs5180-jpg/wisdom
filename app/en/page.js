@@ -6,9 +6,9 @@ import {
 } from "@/lib/global-content";
 
 export const metadata = {
-  title: "MindRoute in English | Perspective map prototype",
+  title: "MindRoute in English | Problem to action prototype",
   description:
-    "An English prototype of MindRoute: real worries and debates organized through philosophy, research, institutions, and practical reflection.",
+    "An English prototype of MindRoute: real worries organized into possible causes, source-backed perspectives, and practical action paths.",
   robots: {
     index: false,
     follow: true,
@@ -23,9 +23,9 @@ export const metadata = {
 };
 
 const axisLabels = {
-  worry: "Question",
-  debate: "Question",
-  thought: "Question",
+  worry: "Problem",
+  debate: "Debate",
+  thought: "Reflection",
 };
 
 const sourceLocaleLabels = {
@@ -80,14 +80,15 @@ function highSignalScore(entry) {
 }
 
 function serializeEnglishEntry(entry) {
+  const typeLabel = axisLabels[entry.axis] || "Problem";
   return {
     key: entry.route,
     href: entry.href,
     title: entry.canonicalTitle,
     summary: entry.pageLead || entry.userDoors?.[0] || "English question node.",
-    categoryTitle: "Question",
+    categoryTitle: typeLabel,
     groupTitle: entry.axis,
-    typeLabel: "Question",
+    typeLabel,
     badgeLabel: `${entry.verifiedCount} checked`,
     verifiedCount: entry.verifiedCount,
     aliases: [
@@ -138,6 +139,7 @@ function serializeLocaleRow(row) {
 
 export default function EnglishHomePage() {
   const entries = enrichedEnglishSeeds().filter((entry) => entry.publishable);
+  const primaryEntries = entries.filter((entry) => entry.axis !== "debate");
   const totalPhrases = entries.reduce((sum, entry) => sum + entry.searchPhrases.length, 0);
   const draftCount = entries.filter((entry) => entry.translationStatus === "draft").length;
   const curatedCount = entries.filter((entry) => entry.translationStatus === "curated-seed").length;
@@ -149,7 +151,7 @@ export default function EnglishHomePage() {
   ).length;
   const checkedCards = entries.reduce((sum, entry) => sum + entry.verifiedCount, 0);
 
-  const highSignalEntries = [...entries]
+  const highSignalEntries = [...primaryEntries]
     .sort((a, b) => highSignalScore(b) - highSignalScore(a) || a.priority - b.priority)
     .slice(0, 6);
   const debateEntries = entries
@@ -162,20 +164,14 @@ export default function EnglishHomePage() {
     {
       title: "Everyday questions",
       href: "#english-nodes",
-      count: axisCount(entries, "worry"),
-      blurb: "Everyday problems like relationships, work, self-esteem, body, family, and meaning.",
-    },
-    {
-      title: "Contested questions",
-      href: "#english-debates",
-      count: axisCount(entries, "debate"),
-      blurb: "Value conflicts where support, opposition, evidence, and trade-offs need to be compared.",
+      count: axisCount(primaryEntries, "worry"),
+      blurb: "Everyday problems like relationships, breakup, burnout, self-esteem, body, and meaning.",
     },
     {
       title: "Life questions",
       href: "#english-nodes",
-      count: axisCount(entries, "thought"),
-      blurb: "Durable questions about happiness, success, freedom, and a good life.",
+      count: axisCount(primaryEntries, "thought"),
+      blurb: "Durable questions that can become reflection prompts and small action paths.",
     },
     {
       title: "Korean Map",
@@ -185,7 +181,7 @@ export default function EnglishHomePage() {
     },
   ];
 
-  const searchEntries = entries.map(serializeEnglishEntry);
+  const searchEntries = primaryEntries.map(serializeEnglishEntry);
   const suggestedSearchEntries = highSignalEntries.slice(0, 5).map(serializeEnglishEntry);
   const exploreSearchEntries = [
     ...pathCards.map(serializePathCard),
@@ -211,14 +207,13 @@ export default function EnglishHomePage() {
           English prototype
         </p>
         <h1 className="mt-1 font-serif text-3xl font-bold leading-snug sm:text-4xl">
-          Real worries,
+          Worries to causes,
           <br />
-          mapped through verified perspectives.
+          causes to action.
         </h1>
         <p className="mt-4 leading-relaxed text-ink-soft">
-          MindRoute connects English search phrases to a Korean canonical knowledge map,
-          then compares source-backed perspectives from philosophy, research, institutions,
-          and practice.
+          MindRoute connects English search phrases to source-backed perspectives,
+          possible causes, and small action paths that can become routines.
         </p>
         <div className="mt-4 flex flex-wrap gap-2 text-sm">
           <Link
@@ -298,7 +293,7 @@ export default function EnglishHomePage() {
           </p>
           <h2 className="mt-1 font-serif text-xl font-bold">Start from the shape of the question</h2>
         </div>
-        <div className="grid grid-cols-1 gap-3 sm:grid-cols-4">
+        <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
           {pathCards.map((card) => (
             <Link
               key={card.title}

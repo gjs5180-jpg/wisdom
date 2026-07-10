@@ -6,14 +6,14 @@ import Link from "next/link";
 const quickQueries = [
   "연애 답장",
   "이별 회복",
+  "요즘 왜 힘들까",
+  "무기력",
+  "게으름",
   "자기비난",
-  "루틴",
   "번아웃",
-  "돈 걱정",
   "시험 불안",
   "외로움",
-  "AI 질문",
-  "people pleasing",
+  "산책 루틴",
 ];
 
 const fallbackLinks = [
@@ -37,11 +37,10 @@ const synonymGroups = [
   ["의미", "무기력", "공허", "죽음", "목표", "방황"],
   ["루틴", "챌린지", "미션", "습관", "목표", "자기개발", "체크"],
   ["자존감", "자기비난", "비교", "자기혐오", "칭찬", "열등감"],
-  ["AI", "인공지능", "일자리", "대체", "기술", "미래"],
-  ["논쟁", "토론", "찬반", "윤리", "정의", "자유"],
+  ["게으름", "무기력", "힘듦", "지루함", "산책", "운동", "루틴"],
 ];
 
-const typeOrder = ["질문", "루틴", "영어 질문", "카테고리", "태그", "언어권", "인물", "카드"];
+const typeOrder = ["고민", "생각", "루틴", "카테고리", "태그", "언어권", "인물", "카드"];
 
 function normalize(value) {
   return String(value || "")
@@ -160,7 +159,7 @@ export default function HomeSearch({
             지금 막힌 장면부터 찾기
           </h2>
         </div>
-        <span className="shrink-0 text-xs text-ink-faint">문제 · 루틴 · 탐색</span>
+        <span className="shrink-0 text-xs text-ink-faint">문제 · 방법 · 기록</span>
       </div>
       <div className="flex items-center gap-2 border-b border-line pb-3">
         <span className="text-lg" aria-hidden>
@@ -169,7 +168,7 @@ export default function HomeSearch({
         <input
           value={query}
           onChange={(event) => setQuery(event.target.value)}
-          placeholder="연애, 이별, 번아웃, 돈 걱정, 시험 불안..."
+          placeholder="연애, 이별, 무기력, 게으름, 번아웃, 시험 불안..."
           className="min-w-0 flex-1 bg-transparent text-base outline-none placeholder:text-ink-faint"
           type="search"
           aria-label="고민 검색"
